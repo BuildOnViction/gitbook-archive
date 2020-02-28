@@ -6,19 +6,11 @@ TomoChain is a scalable public blockchain built on a performance layer that achi
 
 TomoChain blockchain and product ecosystem allow entrepreneurs, enterprises, and institutions to build high-performance, feature-rich blockchain projects on an enhanced EVM-compatible platform. An array of original features and protocols is designed to support users’ speed, privacy, usability, and liquidity needs all in one platform.
 
-### What problem is TomoChain aiming to solve?
+### What problems does TomoChain solve?
 
-The problems that TomoChain aims to solve can be summarized as follows:
+TomoChain focuses on bringing more Decentralized Finance \(DeFi\) products that are usable and accessible to all types of end users. Moreover, our team will also be focusing on expanding our Dapps & game ecosystem to welcome more developers to build products and exceed their talents.
 
-* The network congestion on Ethereum \(low transaction time\)
-* High transaction fees on Ethereum
-* Most other blockchains are highly centralized and/or do not have interoperability with Ethereum system
-
-Blockchain has become one of the most disruptive technologies that enables many decentralized applications, including but not limited to cryptocurrencies, smart-contracts, voting and supply-chain management. Blockchain proponents have been trying to inject it into this Industry 4.0 revolution era. In order to reach this goal, the current blockchain infrastructure must at least be able to compete with many mainstream technologies, such as Visa and MasterCard processors in financial services. Nevertheless, the reality is disappointing: Bitcoin and Ethereum can only process around 7 and 15 transactions per second, respectively. Remember that, these numbers in Visa and MasterCard are around 5'000-6'000 transactions per second.
-
-TomoChain is continuously working and researching several scaling solutions. Regarding on-chain scaling, Sharding and Proof-of-Stake-based consensus are of potential that can significantly improve transaction processing performance while trying to maintain security requirements of the system. 
-
-TomoChain supports low fee and 2-second transaction confirmation times. TomoChain can currently process 2'000-5'000 transactions per second \(TPS\) 
+TomoChain is continuously working and researching several scaling solutions. The Proof-ofStake Voting consensus enables TomoChain's infrastructure to support low fee and 2-second transaction confirmation times. TomoChain can currently process 2'000-5'000 transactions per second \(TPS\) and once sharding is enabled, TomoChain is expected to reach 20'000-30'000 TPS.
 
 ### How does TomoChain work? What is the architecture and consensus used?
 
@@ -50,27 +42,16 @@ TomoChain supports low transaction fees \(approx. 1/100 of that of Ethereum's\) 
 
 The unique point of TomoChain comes from technology, the products and the ecosystem.
 
-**Novel technology:** includes
+**Novel technology:** 
 
-* [Proof of Stake Voting consensus](https://www.youtube.com/watch?v=kZSWjAJHW_s&t=7s)
+* Well-functioning public blockchain with [Proof of Stake Voting consensus](https://www.youtube.com/watch?v=kZSWjAJHW_s&t=7s), Masternode system and slashing mechanism in place. 150 Masternodes, and thousands of stakers live securing the network at any given moment.
+* Fast chain with 2 second blocktime and reach up to 2000 TPS
 * Build in governance Dapp
 * Double Validation and Randomization
 
-This enables TomoChain to achieve:
+ **A complete suite of products and** 
 
-* Cheap transactions: approx. 1/100 of that of Ethereum
-* 2000 TPS to handle a robust d-app and token ecosystem; TPS will be dramatically higher once our sharding solution is enabled \(20k-30k TPS\)
-* 2 second block time for fast transactions
-* EVM-compatibility allows for interoperability with Ethereum ecosystem.
-
-**Our unique products and protocols** 
-
-* [TomoScan](https://scan.tomochain.com): Shows all blocks, transactions, finality, smart contracts, D-Apps and token information
-* [TomoMaster](https://master.tomochain.com): Allows users to apply for a Masternode Candidate position; to vote for Masternodes and shows Masternode performance statistics
-* [TomoWallet](https://tomochain.com/tomowallet/): Securely store, send, receive TOMO and other tokens issued on TomoChain; Allows users to vote and track rewards
-* [TomoX](https://tomochain.com/tomox/): A secure and efficient relayer-masternode decentralized exchange protocol
-* [TomoZ](https://tomochain.com/tomoz-protocol/): An on-chain protocol that offers the ability for any user to pay transaction fees with the same token the user is holding
-* [TomoP](https://tomochain.com/tomop/): A protocol designed to create safe and untraceable transactions
+An array of original features and protocols is designed to support speed, privacy, usability, and liquidity needs all in one platform. [TomoChain's unique products and protocols](../products/) are developed  consult on to integrate blockchain services into their own business, therefore, introducing more users to the convenience of the decentralized ecosystem
 
 **Our own ecosystem**
 
