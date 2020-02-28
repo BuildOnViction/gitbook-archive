@@ -51,27 +51,27 @@ If you are running a node in Testnet, 8CPU/32GB of RAM is sufficient.
 * Nodejs 8.16.x or higher
 * Nginx
 
-**Networks¶**
+**Networks**
 
 Your server needs to open these ports:
 
 * 80/443 for HTTP/HTTPs
 * 30303 for fullnode
 
-**All IT systems require maintenance¶**
+**All IT systems require maintenance**
 
 It is of the owner's responsibility to ensure over time that your node has enough:
 
 * Disk space to store the new blockchain data
 * Processing power to keep the chain operating at optimal speed
 * Monitoring to be able to react quickly in case of a problem
-* Security mesures like firewalling, os security patching, ssh via keypairs, etc.
+* Security measures like fire-walling, os security patching, ssh via keypairs, etc.
 
 ### Prepare RabbitMQ, MongoDB, and TomoX fullnode[¶](https://docs.tomochain.com/masternode/tomox-sdk/#prepare-rabbitmq-mongodb-and-tomox-fullnode) <a id="prepare-rabbitmq-mongodb-and-tomox-fullnode"></a>
 
-Run MongoDB and TomoX Fullnode:
+Run MongoDB and TomoX Full node:
 
-Use this [guide](tomox-sdk.md) to run your fullnode and MongoDB on the server.
+Use this [guide](tomox-sdk.md) to run your full node and MongoDB on the server.
 
 And run RabbitMQ:
 
@@ -79,9 +79,9 @@ And run RabbitMQ:
 docker run -d -p 5672:5672 --name rabbitmq rabbitmq:3.8
 ```
 
-### Basic Deployment[¶](https://docs.tomochain.com/masternode/tomox-sdk/#basic-deployment) <a id="basic-deployment"></a>
+### Basic Deployment <a id="basic-deployment"></a>
 
-#### TomoX SDK Backend[¶](https://docs.tomochain.com/masternode/tomox-sdk/#tomox-sdk-backend) <a id="tomox-sdk-backend"></a>
+#### TomoX SDK Backend <a id="tomox-sdk-backend"></a>
 
 Download `tomox-sdk` binary from [TomoX-SDK Github Releases](https://github.com/tomochain/tomox-sdk/releases).
 
@@ -129,7 +129,7 @@ Note: `tomox-sdk` requires `./config/config.yaml` and `./config/errors.yaml` fil
 
 To run tomox-sdk as daemon service, you can use `pm2`, `supervisord` or `systemd`.
 
-#### TomoX SDK UI[¶](https://docs.tomochain.com/masternode/tomox-sdk/#tomox-sdk-ui) <a id="tomox-sdk-ui"></a>
+#### TomoX SDK UI <a id="tomox-sdk-ui"></a>
 
 Download the site from [TomoX-SDK-UI Github Releases](https://github.com/tomochain/tomox-sdk-ui/releases)
 
