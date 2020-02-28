@@ -2,17 +2,17 @@
 
 ### **What are the voters incentives? Do voters get rewards too?**
 
-Token voters should vote for the candidates who demonstrate strong support to the TomoChain ecosystem. If strong candidates are voted to become Masternodes, the network will be more powerful and the voters will earn more rewards.
+Token voters should vote for the Candidates who demonstrate strong support to the TomoChain ecosystem. If strong Candidates are voted to become Masternodes, the network will be more powerful and the voters will earn more rewards.
 
 More information on the voting and reward mechanism in the [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM).
 
 ### **Can you stake TOMO?**
 
-Yes, you can stake TOMO and receive more TOMO coins as reward.
+Yes, you can stake TOMO and receive more TOMO as reward.
 
 ### **How do I Stake? Just holding on my wallet?**
 
-To stake in TomoChain you must participate in the TomoChain Masternode election, voting for Masternode andidate\(s\) using TomoMaster to deposit your tokens in a voting smart-contract.
+To stake in TomoChain you must participate in the TomoChain Masternode election, voting for Masternode Candidates using TomoMaster to deposit your tokens in a voting smart-contract.
 
 Login your wallet to [TomoMaster](https://master.tomochain.com) and click 'Vote' on a node you choose from the list.
 
