@@ -18,7 +18,7 @@ Proof-of-Stake \(PoS\) aims to provide a more environment-friendly and efficient
 
 > These blockchain solutions are not only trying to provide solutions for the energy and cost savings but also promise to solve the blockchain performance problem as well. While some PoS-related similarity is undoubtedly shared between these blockchains, many differences are yet to be analysed.
 
-In this post, we will show how TomoChain compares with EOS, Ethereum, Cardano and Tendermint. Before discussing the comparison, in this post, we describe the overview of these projects and the different aspects that will be used for the comparison. Concretely, these aspects include _consensus protocol, decentralisation, security, scalability/performance, roadmap, and ecosystem_.
+In this post, we will show how TomoChain compares with EOS, Ethereum, Cardano and Tendermint. The aspects used for the comparison include _consensus protocol, decentralisation, security, scalability/performance, roadmap, and ecosystem_.
 
 ![](../../.gitbook/assets/ba-ng-bie-u-so-sanh-01%20%281%29.png)
 
