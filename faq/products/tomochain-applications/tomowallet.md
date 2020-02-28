@@ -20,7 +20,7 @@ Go to Hamburger bar on the up left corner &gt; "Add new wallet" button on the up
 
 ### **How can I create a TOMO wallet? What are the options to create a TOMO wallet?**
 
-You can create a TOMO wallet with the iOS app, the Android app, MyEtherWallet or Metamask. 
+You can create a TOMO wallet with the iOS app, the Android app, [TomoWallet Web](https://wallet.tomochain.com/), MyEtherWallet or Metamask. 
 
 ### Create a new wallet on TomoWallet 
 

@@ -1,3 +1,7 @@
+---
+description: The most frequent asked questions about TomoChain products and ecosystem.
+---
+
 # FAQ
 
 {% page-ref page="../general/" %}
