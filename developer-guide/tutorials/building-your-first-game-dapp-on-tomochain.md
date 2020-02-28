@@ -28,7 +28,7 @@ Our mission is to accelerate the onboarding of millions of users by empowering t
 The TomoChain blockchain and its product ecosystem allow businesses to build high-performance, feature-rich projects to support speed, privacy, usability, and liquidity.  
 .
 
-> Every DApp running on Ethereum can be easily ported to TomoChain
+> Every D App running on Ethereum can be easily ported to TomoChain
 
 ### Why should developers build Dapps on TomoChain? <a id="8c4b"></a>
 
@@ -208,7 +208,7 @@ Before starting the migration, we need to specify the **blockchain** where we wa
 npm install truffle-hdwallet-provider
 ```
 
-2. Open `truffle.js` file \(`truffle-config.js` on Windows\). You can edit here the migration settings: networks, chain IDs, gas... The current file has only a single network defined, you can define multiple. We will add three networks to migrate our DApp: `development`, `tomotestnet` and `tomomainnet`.
+2. Open `truffle.js` file \(`truffle-config.js` on Windows\). You can edit here the migration settings: networks, chain IDs, gas... The current file has only a single network defined, you can define multiple. We will add three networks to migrate our Dapp: `development`, `tomotestnet` and `tomomainnet`.
 
 The [official TomoChain documentation — Networks](https://docs.tomochain.com/general/networks/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
@@ -521,7 +521,7 @@ The dev server will launch and automatically open a new browser tab containing y
 
 Normally, a MetaMask notification automatically requests a connection.
 
-2. To use the DApp, click the **Adopt** button on the pet of your choice.
+2. To use the Dapp, click the **Adopt** button on the pet of your choice.
 
 3. You’ll be automatically prompted to aprove the transaction by MetaMask. Set some Gas and click **Confirm** to approve the transaction.  
   
