@@ -7,7 +7,7 @@ description: >-
 
 # TomoChain Private Testnet Setup
 
-The following will walk you step-by-step to setup a TomoChain private net with three masternodes.
+The following will walk you step-by-step to setup a TomoChain private net with three Masternodes.
 
 ### Install Golang <a id="install-golang"></a>
 
@@ -19,7 +19,7 @@ set GOROOT=$HOME/usr/local/go
 set GOPATH=$HOME/go
 ```
 
-### Prepare Tomo Client Software <a id="prepare-tomo-client-software"></a>
+### Prepare TomoChain Client Software <a id="prepare-tomo-client-software"></a>
 
 * `cd $GOPATH/src/github.com/ethereum/go-ethereum`
 * Download source code and build
@@ -151,7 +151,7 @@ bootnode -nodekey ./bootnode.key
 
 ### Start Masternodes <a id="start-masternodes"></a>
 
-* Start masternode 1
+* Start Masternode 1
 
 ```text
 tomo  --syncmode "full" \     
@@ -167,7 +167,7 @@ tomo  --syncmode "full" \
         console
 ```
 
-* Start masternode 2
+* Start Masternode 2
 
 ```text
 tomo  --syncmode "full" \
@@ -183,7 +183,7 @@ tomo  --syncmode "full" \
             console
 ```
 
-* Start masternode 3
+* Start Masternode 3
 
 ```text
 tomo  --syncmode "full" \
