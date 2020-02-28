@@ -6,6 +6,8 @@ description: Creating a TRC-20 Token Crowdsale with Truffle and OpenZeppelin
 
 This article will take you through the process of **creating a basic ICO on TomoChain** — you will sell your own TRC-20 tokens to your investors!
 
+![](../../.gitbook/assets/image-2-copy.png)
+
 In this tutorial we will be covering:
 
 * What is an **ICO**?
@@ -509,9 +511,7 @@ Here are the results of our migrations:
 * Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://scan.testnet.tomochain.com/tokens/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
 * Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan.testnet.tomochain.com/address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
 
-![](../../.gitbook/assets/image%20%2824%29.png)
-
-
+![](../../.gitbook/assets/image-2-copy%20%281%29.png)
 
 **Congratulations!** You’ve deployed **your ICO smart contract and TRC-20 token to TomoChain using Truffle and OpenZeppelin.** It’s time to interact now with our ICO smart contract to make sure it does what we want.
 
