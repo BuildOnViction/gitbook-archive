@@ -1,7 +1,3 @@
----
-description: TomoChain is an efficient independent public blockchain
----
-
 # TomoChain Mainnet
 
 ### Specifications
