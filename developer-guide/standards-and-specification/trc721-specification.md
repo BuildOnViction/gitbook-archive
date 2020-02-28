@@ -96,7 +96,7 @@ Note: This fee is the amount of token you need to pay to send TRC21 token\(s\) t
 
 ### Transfer Token <a id="transfer-token"></a>
 
-Token holders needs to call function `transfer` to send token to an address.
+Token holders need to call function `transfer` to send token to an address.
 
 **Example**
 
