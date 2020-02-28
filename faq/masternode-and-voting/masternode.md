@@ -5,7 +5,7 @@
 Yes, TomoChain has a maximum of 150 Masternodes with Proof of Stake Voting \(POSV\) consensus for low transaction fee, and instant transaction confirmation. Masternodes create, verify and validate new blocks in TomoChain’s platform.
 
 * **Masternode Candidates:** Any account can deposit 50,000 TOMO using [TomoMaster](https://master.tomochain.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days \(1'296'000 blocks\) after the resignation.
-* **Becoming a Masternode:** A candidate becomes a asternode when he/she belongs to the top 150 most voted candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
+* **Becoming a Masternode:** A Candidate becomes a Masternode when he/she belongs to the top 150 most voted Candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 * **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs. Masternodes will also receive fees from the TomoChain DEX, which is planned for mainnet in Q1-2020.
 
 TomoChain Masternodes started signing blocks and receiving block rewards with the Mainnet released in December 14th, 2018.
