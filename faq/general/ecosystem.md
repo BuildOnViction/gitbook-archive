@@ -20,15 +20,13 @@ TomoChain is working vigorously on building its ecosystem and has sealed partner
 
 All partnership announcements can be found [Medium](https://medium.com/tomochain) and our official [Twitter account](https://twitter.com/TomoChainANN) for partnership announcements.
 
-### **Where can I check the actual products, ecosystem?**
+### **Where can I check the actual products  ecosystem?**
 
 Please, read the Mainnet announcement on our [Medium post](https://medium.com/tomochain/tomochain-mainnet-has-officially-been-launched-25a55dd2efed).
 
-Please, read the Testnet 2.0 announcement on our [Medium post](https://medium.com/tomochain/tomochain-public-testnet-2-0-announcement-c7f49e28eefa).
+Follow us on [TomoChain Announcement Channel](https://t.me/TomoChainChannel?source=post_page---------------------------) \| [Twitter](https://twitter.com/TomoChainANN?source=post_page---------------------------) \| [Facebook](https://www.facebook.com/tomochainofficial?source=post_page---------------------------) \| [LinkedIn](https://www.linkedin.com/company/tomochain/?source=post_page---------------------------) \| [Reddit ](https://www.reddit.com/r/Tomochain/?source=post_page---------------------------)\| [Github](https://github.com/tomochain?source=post_page---------------------------) \| Sign up for our newsletter on [Website](http://tomochain.com/?source=post_page---------------------------)
 
-If you want to access it directly, you can find the links to our different products deployed in Testnet on our [Networks page](https://docs.tomochain.com/general/networks/).
-
-The list of TomoChain Products is as follows: TomoScan, TomoStats, TomoMaster, TomoWallet; TomoX**,** TomoZ, TomoP, TomoIsssuer, TomoRelayer, TomoBridge.
+[TomoChain's Roadmap](https://tomochain.com/tomochain-roadmap/) \| [Github](https://github.com/tomochain)  
 
 
 

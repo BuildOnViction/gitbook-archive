@@ -100,5 +100,5 @@ Also, you can find out more detailed information about how to use different wall
 
 ### **Where can I buy TOMO?**
 
-You can trade TOMO on various exchanges. Take a look in the "Exchanges" section [on this page](https://tomochain.com/about-us/) of our main website.
+You can trade TOMO on various exchanges. Take a look in the "Exchanges" section on this page of our [main website](https://tomochain.com) &gt; Ecosystem section &gt; Liquidity tab. 
 

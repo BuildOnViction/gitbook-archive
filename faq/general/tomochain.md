@@ -63,9 +63,9 @@ On the one hand, all base layer blockchains such as Ethereum, EOS, NEM, NEO, Tom
 
 TomoChain has a unique position in which it adds value to the Ethereum ecosystem by addressing scalability and governance issues while keeping the same smart-contracts and general architecture.
 
-![](../../.gitbook/assets/d8oszycuwae9-lo.jpeg)
+![](../../.gitbook/assets/tomochain-comparison.png)
 
-### TomoChain is EVM-compatible. What does that mean?
+### **TomoChain is EVM-compatible. What does that mean?**
 
 EVM means Ethereum Virtual Machine. TomoChain supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. This means that any smart-contract written in Ethereum protocol can be easily ported to TomoChain. Any Dapp written in Ethereum can be seamlessly ported to TomoChain.
 
