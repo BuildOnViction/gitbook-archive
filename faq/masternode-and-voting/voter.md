@@ -18,13 +18,13 @@ Login your wallet to [TomoMaster](https://master.tomochain.com) and click 'Vote'
 
 ### **How does TomoChain Masternode Proof-of-Stake-Voting \(PoSV\) work?**
 
-Everyone can can find a list of all Masternode candidates on [TomoMaster](https://master.tomochain.com/). All token holders can vote TOMO on any candidates via TomoMaster. To vote, token holders must deposit TOMO in a smart-contract associated with the voted candidate.
+Everyone can can find a list of all Masternode Candidates on [TomoMaster](https://master.tomochain.com/). All token holders can vote TOMO on any candidates via TomoMaster. To vote, token holders must deposit TOMO in a smart-contract associated with the voted Candidate.
 
-The top-150 most-voted candidates will be promoted to Masternode during the next epoch and will be able to sign blocks and collect rewards. All the voters \(stakers\) who supported the elected asternodes will receive rewards, proportional to the amount of TOMO voted and the efficiency of the Masternode.
+The top-150 most-voted Candidates will be promoted to Masternodes during the next epoch and will be able to sign blocks and collect rewards. All the voters \(stakers\) who supported the elected Masternodes will receive rewards, proportional to the amount of TOMO voted and the efficiency of the Masternode.
 
 ### **How do I vote \(stake\)?**
 
-Any token holder can vote. Login to [TomoMaster](https://master.tomochain.com/) and then click 'Vote' on a node. Then enter the amount of TOMO you want to vote \(minimum is 100 TOMO\). You vote by depositing \(staking\) tokens to a smart-contract associated with a Masternode andidate.
+Any token holder can vote. Login to [TomoMaster](https://master.tomochain.com/) and then click 'Vote' on a node. Then enter the amount of TOMO you want to vote \(minimum is 100 TOMO\). You vote by depositing \(staking\) tokens to a smart-contract associated with a Masternode Candidate.
 
 There are many ways to vote in TomoMaster:
 
@@ -65,22 +65,22 @@ Probably your Ledger firmware version is incompatible. Sometimes you should upgr
 
 Yes. TomoMaster supports Trezor now.
 
-### **What criteria must be considered when voting? Which Masternode andidate should I vote for?**
+### **What criteria must be considered when voting? Which Masternode Candidate should I vote for?**
 
 The most important criteria to maximize voter’s profit, the main points you should consider when voting, are the following:
 
-* **Top-150 most voted:** Your candidate must be one of the top-150 most-voted. If your candidate gets in the 151th most-voted place, it will not be promoted to asternode and you will earn zero rewards.
+* **Top-150 most voted:** Your Candidate must be one of the top-150 most-voted. If your candidate gets in the 151th most-voted place, it will not be promoted to asternode and you will earn zero rewards.
 * **Hardware, Performance:** Powerful CPU, RAM, bandwidth, latency, etc so the node can work hard and receive high rewards
 * **Number of signed blocks:** The more signed blocks per epoch, the higher rewards
 * **Time of last signed block:** Verify that the Masternode is active
 * **Total Capacity:** Staking rewards are shared between all the Masternode votes. Less voted Masternodes are more profitable. 5K staked on a 50K-staked Masternode will receive ten times more rewards than 5K staked on a 500K total staked Masternode.
-* **Social Proof, Reputation:** Masternodes managed by trusted companies that are for the long term, maintaining the asternode, updating hardware and software to last versions, fixing problems, etc.
+* **Social Proof, Reputation:** Masternodes managed by trusted companies that are for the long term, maintaining the Masternode, updating hardware and software to last versions, fixing problems, etc.
 
 ### **How many Masternode Candidates can I vote for?**
 
 You can vote for as many candidates as you wish, splitting your TOMO.
 
-Example: If you have 1'000 TOMO you can vote 500 TOMO for candidate A, 400 TOMO for candidate B, and 100 TOMO for candidate C.
+Example: If you have 1,000 TOMO you can vote 500 TOMO for candidate A, 400 TOMO for candidate B, and 100 TOMO for candidate C.
 
 ### **What is the minimum amount to Stake?**
 
@@ -104,7 +104,7 @@ Yes. You can unvote that Masternode and take your tokens back after 96 epochs \(
 
 ### **How do I UnVote?**
 
-If you do not want to support a Masternode you voted for, you can unvote it by clicking the ‘Unvote’ button on the asternode's page and enter the amount of TOMO you wish to unvote.
+If you do not want to support a Masternode you voted for, you can unvote it by clicking the ‘Unvote’ button on the Masternode's page and enter the amount of TOMO you wish to unvote.
 
 After unvoting, your TOMO are still locked in the smart contract for 96 epochs \(approx. 48 hours\) before you are able to withdraw. When the lockup period is finished you need to click the ‘Withdraw’ button and the coins will appear again on your wallet.
 
