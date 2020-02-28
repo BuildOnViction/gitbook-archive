@@ -31,9 +31,9 @@ Users are recommended to refer to the [TRC21 Specification](https://docs.tomocha
 
 You can follow the following steps below to interact with the smart contract by using Web3 library and Node.
 
-### Initialize Web3 provider[¶](https://docs.tomochain.com/developers/trc21-integrations/#init-web3-provider) <a id="init-web3-provider"></a>
+### Initialize Web3 provider <a id="init-web3-provider"></a>
 
-As a first step, we need to initialize a Web3 provider by connecting to TomoChain Fullnode RPC endpoint.
+As a first step, we need to initialize a Web3 provider by connecting to TomoChain Full node RPC endpoint.
 
 You can take a look to [TomoChain Networks](https://docs.tomochain.com/general/networks/) page to get the details of TomoChain Testnet/Mainnet RPC network information.
 
@@ -43,11 +43,11 @@ const web3 = new Web3('https://rpc.tomochain.com')
 const chainId = 88
 ```
 
-### Unlock wallet[¶](https://docs.tomochain.com/developers/trc21-integrations/#unlock-wallet) <a id="unlock-wallet"></a>
+### Unlock wallet <a id="unlock-wallet"></a>
 
 You need to unlock the wallet before interacting with TRC21 token contracts
 
-**Example¶**
+**Example**
 
 ```text
 // Unlock wallet by private key
@@ -57,7 +57,7 @@ web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = holder
 ```
 
-### Initialize Web3 TRC21 Contract[¶](https://docs.tomochain.com/developers/trc21-integrations/#init-web3-trc21-contract) <a id="init-web3-trc21-contract"></a>
+### Initialize Web3 TRC21 Contract <a id="init-web3-trc21-contract"></a>
 
 ```text
 const trc21Abi = require('./TRC21.json')
@@ -68,11 +68,11 @@ const trc21 = new web3.eth.Contract(trc21Abi,
 
 Note: you can get TRC21.json [here](https://raw.githubusercontent.com/tomochain/trc21/master/TRC21.json)
 
-### Check balance[¶](https://docs.tomochain.com/developers/trc21-integrations/#check-balance) <a id="check-balance"></a>
+### Check balance <a id="check-balance"></a>
 
 You need to call function `balanceOf()` from TRC21 contract to check your token balance for an address.
 
-**Example¶**
+**Example**
 
 ```text
 trc21.methods.balanceOf(holder).call()
@@ -81,11 +81,11 @@ trc21.methods.balanceOf(holder).call()
 }).catch(e => console.log(e))
 ```
 
-### Estimate fee[¶](https://docs.tomochain.com/developers/trc21-integrations/#estimate-fee) <a id="estimate-fee"></a>
+### Estimate fee <a id="estimate-fee"></a>
 
 Before sending tokens, we need to check TX fee by calling `estimateFee` function in TRC21 smart contract.
 
-**Example¶**
+**Example**
 
 ```text
 trc21.methods.estimateFee().call()
@@ -96,11 +96,11 @@ trc21.methods.estimateFee().call()
 
 Note: this fee is amount token you need to pay to send TRC21 token that applied TomoZ
 
-### Transfer token[¶](https://docs.tomochain.com/developers/trc21-integrations/#transfer-token) <a id="transfer-token"></a>
+### Transfer token <a id="transfer-token"></a>
 
 Token holder needs to call function `transfer` to send token to an address
 
-**Example¶**
+**Example**
 
 ```text
 // send 500000000000000000000 tokens to this address (e.g decimals 18)
@@ -118,7 +118,7 @@ trc21.methods.transfer(to, '500000000000000000000').send({
 
 You can take a look to this example [Transfer TRC21 token](https://gist.github.com/thanhson1085/03e983e933dc9cbf7a3d5c88ef503b18)
 
-### Checking TomoZ[¶](https://docs.tomochain.com/developers/trc21-integrations/#checking-tomoz) <a id="checking-tomoz"></a>
+### Checking TomoZ <a id="checking-tomoz"></a>
 
-You need to call `getTokenCapacity` to https://scan.tomochain.com/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee\#readContract. If the return value &gt; 0, the token enabled TomoZ protocol.
+You need to call `getTokenCapacity` to https://scan.tomochain.com/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee\#readContract. If the return value &gt; 0, the token has successfully been enabled TomoZ protocol.
 
