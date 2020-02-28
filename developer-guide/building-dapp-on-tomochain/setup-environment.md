@@ -2,7 +2,7 @@
 
 ## Prerequisites <a id="7095"></a>
 
-To start building your DApp you will need to install some programs:
+To start building your Dapp you will need to install some programs:
 
 * Install [**Node.js**](https://nodejs.org/en/download/) & **npm** \(“Node.js Package Manager”\)
 * Install [**Git**](https://git-scm.com/downloads)
@@ -13,7 +13,7 @@ To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
 ## Getting Started: Installation <a id="3965"></a>
 
-[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing DApps. You can use Truffle to deploy your smart contracts to TomoChain.
+[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
 
 We only need this single command to install Truffle, the popular development framework for Ethereum.
 
@@ -31,7 +31,9 @@ Truffle initializes in the current directory, so first create a directory in you
 mkdir pet-shop-tutorialcd pet-shop-tutorial
 ```
 
-Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). ****There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.![](https://miro.medium.com/max/60/1*0iPGzZ_MuACqNeSRw1ymUg.png?q=20)![](https://miro.medium.com/max/1024/1*0iPGzZ_MuACqNeSRw1ymUg.png)Pet Shop Truffe Box
+Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). ****There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
+
+![](https://miro.medium.com/max/60/1*0iPGzZ_MuACqNeSRw1ymUg.png?q=20)![](https://miro.medium.com/max/1024/1*0iPGzZ_MuACqNeSRw1ymUg.png)Pet Shop Truffe Box
 
 There is a special [Truffle Box](https://truffleframework.com/boxes) for this tutorial called **`pet-shop`**, which includes the basic project structure as well as code for the user interface. Use the **`truffle unbox`** command to unpack this Truffle Box:
 
@@ -49,7 +51,7 @@ The default Truffle directory structure contains a series of folders and files. 
 
 ### 1. Create a TOMO wallet and save your Mnemonic <a id="d296"></a>
 
-You can create a new TOMO wallet using **TomoWallet** mobile app for [Android](https://play.google.com/store/apps/details?id=com.tomochain.wallet) or [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet\].
+You can create a new TOMO wallet using **TomoWallet** mobile app for [Android](https://play.google.com/store/apps/details?id=com.tomochain.wallet) or [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8), or the web version \([https://wallet.tomochain.com/\#/login](https://wallet.tomochain.com/#/login)\). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet\].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -73,7 +75,7 @@ Write them down. This will be needed later. **Notice that your wallet address \(
 
 ### 2. Get some TOMO funds <a id="3232"></a>
 
-Tokens are required for different matters, like smart contract deployment or to use in DApps.
+Tokens are required for different matters, like smart contract deployment or to use in Dapps.
 
 **Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com/).
 
