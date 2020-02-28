@@ -28,7 +28,7 @@ The wallet who makes the initial deposit will be the one receiving block rewards
 
 On the top right corner, click on "Become a Candidate".
 
-Enter the amount of TOMO you want to deposit \(minimum 50'000\).
+Enter the amount of TOMO you want to deposit \(minimum 50,000\).
 
 Enter your coinbase address. This is the address of the account that your Masternode is using. If your are running your node with `tmn`, you can simply run `tmn inspect` to get it.
 
