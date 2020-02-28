@@ -1,2 +1,0 @@
-# Official Launch ANN
-

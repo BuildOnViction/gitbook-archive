@@ -1,2 +1,0 @@
-# TomoDEX Support Center
-
