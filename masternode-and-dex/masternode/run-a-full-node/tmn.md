@@ -95,9 +95,9 @@ docker run hello-world
 
 This command downloads a test image and runs it in a container. When the container runs, it prints an informational message and exits.
 
-### tmn[¶](https://docs.tomochain.com/masternode/tmn/#tmn) <a id="tmn"></a>
+### tmn <a id="tmn"></a>
 
-#### Installation[¶](https://docs.tomochain.com/masternode/tmn/#installation) <a id="installation"></a>
+#### Installation <a id="installation"></a>
 
 Simply install it from pip.
 
@@ -105,7 +105,7 @@ Simply install it from pip.
 pip3 install --user tmn
 ```
 
-#### Update[¶](https://docs.tomochain.com/masternode/tmn/#update) <a id="update"></a>
+#### Update <a id="update"></a>
 
 Update it from pip.
 
@@ -113,7 +113,7 @@ Update it from pip.
 pip3 install -U tmn
 ```
 
-#### First start[¶](https://docs.tomochain.com/masternode/tmn/#first-start) <a id="first-start"></a>
+#### First start <a id="first-start"></a>
 
 When you first start your full node with tmn, you need to give some information.
 
@@ -205,7 +205,7 @@ sudo apt install build-essential python3-dev python3-wheel
 
 #### pip3 install fails due to "No Module named Setuptools" <a id="pip3-install-fails-due-to-no-module-named-setuptools"></a>
 
-Your OS might not come with setuptools preinstalled.
+Your OS might not come with setup tools preinstalled.
 
 For ubuntu, you can solve that by running:
 
