@@ -14,9 +14,9 @@ TomoChain Masternodes started signing blocks and receiving block rewards with th
 
 A TomoChain Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of TOMO.
 
-Masternodes are elected using the PoSV consensus via our governance dApp [TomoMaster](https://master.tomochain.com/)
+Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMaster](https://master.tomochain.com/)
 
-### **What are the incentives to run a asternode?**
+### **What are the incentives to run a Masternode?**
 
 Masternodes contribute to the network and for this work they will receive a significant amount of block rewards, which will likely exceed the cost for running the infrastructure. However, Masternode owners need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them in the long term.
 
@@ -32,7 +32,7 @@ Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar%27s_number)
 
 The block rewards will come from a 17 million TOMO reserve for the next 8 years - this was decided since the genesis block. Our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) lays out the number in detail.
 
-And then later on, because we plan to have a built-in DEX, the revenues from the DEX will go to the Masternodes as well.
+And then later on, the revenues from the DEX will go to the Masternodes as well.
 
 ### **When are Masternode rewards paid out?**
 
@@ -48,7 +48,7 @@ To estimate rewards you are going to receive when voting a certain amount of TOM
 
 Each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. This amount of 250 TOMO will be divided to all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
-Example: With only 25 Masternodes and equal performances, every &lt;asternode would be rewarded with 10 TOMO. With 125 Masternodes, each one would receive 2 TOMO per epoch.
+Example: With only 25 Masternodes and equal performances, every Masternode would be rewarded with 10 TOMO. With 125 Masternodes, each one would receive 2 TOMO per epoch.
 
 Please, refer to our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) for more details about the Masternodes reward.
 
@@ -91,7 +91,7 @@ Approximate reward achieved per year:
 
 ### **What is a Masternode Candidate? What is the difference between Masternode Candidate and asternode?**
 
-A Masternode Candidate is any node who deposited 50K TOMO and is listed on [TomoMaster](https://master.tomochain.com/).
+A Masternode Candidate is any node who deposited 50,000 TOMO and is listed on [TomoMaster](https://master.tomochain.com/).
 
 One Candidate only becomes a Masternode when he is in the top-150 most-voted Masternode candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
 
@@ -227,11 +227,11 @@ No. Your old node will be penalized \(50K initial deposit 30-day lockup\) and yo
 
 Yes.
 
-### **What if I do not have enough TOMO for a asternode? Can I stake my coins?**
+### **What if I do not have enough TOMO for a Masternode? Can I stake my  ?**
 
 Yes. Token holders can stake TOMO and receive rewards.
 
-To stake TOMO you need to vote for Masternode candidates by sending TOMO to each candidates specific voting-address using the official governance pp: TomoMaster.\` The top-150 most voted candidates will become Masternodes. Token holders can also un-vote candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks \(approx. 48 hours\) after the un-voting.
+To stake TOMO you need to vote for Masternode andidates by sending TOMO to each candidates specific voting-address using the official governance pp TomoMaster. The top-150 most voted  will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks \(approx. 48 hours\) after the un-voting.
 
 Masternode token deposits, and all tokens used to vote for asternodes will enter the staking program, and earn block rewards in each epoch, plus any fees. Tokens used to vote for candidates who do not become Masternodes will not earn staking rewards.
 
