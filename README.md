@@ -16,7 +16,7 @@ description: >-
 | [General ](general/) | Provides guidelines for getting started with TomoChain |
 | [Masternode and DEX](masternode-and-dex/) | Step by step guide on how to run and vote for a asternode |
 | [Developer Guide](developer-guide/) | Help you on how to build a Dapp using TomoChain's resource |
-| [APIs](https://apidocs.tomochain.com%20) | This document explains how to use TomoChain APIs |
+| [APIs](https://apidocs.tomochain.com%20) | This document explains how to use TomoChain APIs  |
 | [Whitepaper and Research](whitepaper-and-research/) | Official document about the new technology, methodology, and products of TomoChain |
 | [Legal ](legal/) | Terms and conditions which affect your obligations and legal rights |
 
