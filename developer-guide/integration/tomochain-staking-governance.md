@@ -1,6 +1,6 @@
 # TomoChain Staking Governance
 
-Masternodes and stakers' funds are locked and governed in [TomoChain Validator smart contract](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000088):
+Masternodes and Voters' funds are locked and governed in [TomoChain Validator smart contract](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000088):
 
 * Smart Contract Code: [TomoChain Validator](https://github.com/tomochain/tomomaster/blob/master/contracts/TomoValidator.sol)
 * Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/tomochain/tomomaster/master/abis/TomoValidatorAbi.json)
@@ -86,7 +86,7 @@ Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com
 
 ### Propose/Apply a candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#proposeapply-a-candidate) <a id="proposeapply-a-candidate"></a>
 
-Masternode owner need to have at least 50,000 TOMO to apply a full node to become a Masternode candidate. So make sure you have &gt; 50,000 TOMO in your masternode owner wallet to deposit to the smart contract and pay transaction fee.
+Masternode owner need to have at least 50,000 TOMO to apply a full node to become a Masternode Candidate. So make sure you have &gt; 50,000 TOMO in your Masternode owner wallet to deposit to the smart contract and pay transaction fee.
 
 You can apply to become a Masternode Candidate by call `propose` function from the smart contract
 
@@ -110,7 +110,7 @@ validator.methods.propose(coinbase).send({
 
 You can refer to [Staking TomoChain script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
 
-### Stake/Vote for a candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#stakevote-a-candidate) <a id="stakevote-a-candidate"></a>
+### Stake/Vote for a Candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#stakevote-a-candidate) <a id="stakevote-a-candidate"></a>
 
 You can stake at least 100 TOMO for a node by calling `vote` function from the smart contract.
 
@@ -131,7 +131,7 @@ validator.methods.vote(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-### Unstake/Unvote a candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#unstakeunvote-a-candidate) <a id="unstakeunvote-a-candidate"></a>
+### Unstake/Unvote a Candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#unstakeunvote-a-candidate) <a id="unstakeunvote-a-candidate"></a>
 
 You can unstake by calling `unvote` function from the smart contract
 
@@ -149,7 +149,7 @@ validator.methods.unvote(coinbase, cap).send({
 }).catch(e => console.log(e))
 ```
 
-### Resign a candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#resign-a-candidate) <a id="resign-a-candidate"></a>
+### Resign a Candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#resign-a-candidate) <a id="resign-a-candidate"></a>
 
 ```text
 validator.methods.resign(coinbase).send({
@@ -221,9 +221,9 @@ console.log(withdraws)
 
 
 
-### Get list candidates[¶](https://docs.tomochain.com/developers/staking-integrations/#get-list-candidates) <a id="get-list-candidates"></a>
+### Get list Candidates[¶](https://docs.tomochain.com/developers/staking-integrations/#get-list-candidates) <a id="get-list-candidates"></a>
 
-You can get list candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth_getcandidates):
+You can get list Candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth_getcandidates):
 
 ```text
 curl https://rpc.tomochain.com \
