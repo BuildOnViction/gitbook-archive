@@ -35,14 +35,14 @@ Enter your coinbase address. This is the address of the account that your Master
 {% hint style="warning" %}
 Important note:
 
-We advise for security measures to use a fresh new account for your asternode or 'coinbase address'. This is not the account that will receive the rewards. The rewards are sent to the account that will make the 50k TOMO initial deposit.
+We advise for security measures to use a fresh new account for your Masternode or 'coinbase address'. This is not the account that will receive the rewards. The rewards are sent to the account that will make the 50,000 TOMO initial deposit.
 {% endhint %}
 
 Confirm with apply and proceed to make the payment.
 
 Your full node will now be listed on TomoMaster. People can view its details and vote for it.
 
-A candidate becomes a asternode when it belongs to top 150 most voted candidates in each epoch.
+A Candidate becomes a asternode when it belongs to top 150 most voted candidates in each epoch.
 
 {% hint style="info" %}
 Info
