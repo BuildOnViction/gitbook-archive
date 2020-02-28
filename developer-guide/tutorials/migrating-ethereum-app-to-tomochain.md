@@ -16,14 +16,14 @@ Dapps are built on smart contracts deployed onto the blockchain where platform s
 In short, TomoChain is an innovative solution to blockchain scalability and functionality. TomoChain supports all EVM-compatible smart-contracts, which basically means that every Dapp run on Ethereum can be easily ported to TomoChain.
 
 {% hint style="info" %}
-_Every Dpp running on Ethereum can be easily ported to TomoChain!_
+_Every Dapp running on Ethereum can be easily ported to TomoChain!_
 {% endhint %}
 
 ## Why should developers build Dapps on TomoChain? <a id="0547"></a>
 
 > _TomoChain is a blockchain built for practical decentralized applications._
 
-Remember CryptoKitties in 2017? A single Dpp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties. TomoChain mainnet can process 2,000 TPS, which is 100x faster than the Ethereum blockchain, and for a fraction \(1/1000\) of the cost of Dpps on Ethereum. Furthermore, the whole TomoChain ecosystem is also quickly evolving, which makes it become an ideal platform for Da development.
+Remember CryptoKitties in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties. TomoChain mainnet can process 2,000 TPS, which is 100x faster than the Ethereum blockchain, and for a fraction \(1/1000\) of the cost of Dapps on Ethereum. Furthermore, the whole TomoChain ecosystem is also quickly evolving, which makes it become an ideal platform for Dapp development.
 
 For more information about TomoChain, please refer to our [website](http://tomochain.com/).
 
