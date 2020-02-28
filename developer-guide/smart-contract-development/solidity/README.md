@@ -23,7 +23,7 @@ The next section will explain several _features_ of Solidity by giving useful [e
 
 The last and most extensive section will cover all aspects of Solidity in depth.
 
-If you still have questions, you can try searching or asking on the [Ethereum Stackexchange](https://ethereum.stackexchange.com/) site, or come to our [gitter channel](https://gitter.im/ethereum/solidity/). Ideas for improving Solidity or this documentation are always welcome! the world:
+If you still have questions, you can try searching or asking on the [Ethereum Stackexchange](https://ethereum.stackexchange.com/) site, or come to our [Gitter channel](https://gitter.im/ethereum/solidity/). Ideas for improving Solidity or this documentation are always welcome! the world:
 
 {% code title="hello.sh" %}
 ```bash
