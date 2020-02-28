@@ -2,7 +2,7 @@
 
 ### What is TomoChain?
 
-TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called POSv \(Proof of Stake Voting\) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality masternodes, and to monitor their performance and governance actively. 
+TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called PoSV \(Proof of Stake Voting\) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternode, and to monitor their performance and governance actively. 
 
 TomoChain blockchain and product ecosystem allow entrepreneurs, enterprises, and institutions to build high-performance, feature-rich blockchain projects on an enhanced EVM-compatible platform. An array of original features and protocols is designed to support users’ speed, privacy, usability, and liquidity needs all in one platform.
 
@@ -28,7 +28,7 @@ TomoChain relies on a system of 150 Masternodes with Proof of Stake Voting \(POS
 
 At the heart of TomoChain, the Proof-of-Stake Voting \(PoSV\) consensus enables TomoChain as an EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be effectively run with almost instant transaction confirmation.
 
-PoSV features its Masternode architecture in which token holders deposit 50k TOMO to become a masternode candidate and receive votes from other token holders. The most voted masternode candidates are selected as masternodes for block creation within a period, called epoch. Each masternode takes its block creation in a round-robin manner every 2-second and follows the double validation technique for security reinforcement. A block is finalised if it is signed off by 3/4 masternodes. At the end of each epoch, the masternodes that have signed finalised blocks are rewarded. Stakers who voted for those masternodes will also be rewarded.
+PoSV features its Masternode architecture in which token holders deposit 50,000 TOMO to become a Masternode Candidate and receive votes from other token holders. The most voted Masternode Candidates are selected as Masternodes for block creation within a period, called epoch. Each Masternode takes its block creation in a round-robin manner every 2-second and follows the double validation technique for security reinforcement. A block is finalised if it is signed off by 3/4 Masternodes. At the end of each epoch, the Masternodes that have signed finalised blocks are rewarded. Voters who voted for those Masternodes will also be rewarded.
 
 ### What is Double Validation?
 
