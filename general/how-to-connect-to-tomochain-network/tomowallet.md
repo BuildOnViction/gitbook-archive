@@ -1,10 +1,10 @@
 ---
-description: Setting up and using the TomoWallet app.
+description: Set up and use TomoWallet.
 ---
 
 # TomoWallet
 
-Download TomoWallet from [Apple Store](https://itunes.apple.com/vn/app/tomo-wallet/id1436476145) or [Google Play](https://play.google.com/store/apps/details?id=com.tomochain.wallet). You can create a new wallet, import an existing wallet, vote for Masternodes and transfer/receive TOMO back and forth as well as manage your votes and rewards.
+Use TomoWallet Web version at [https://wallet.tomochain.com/](https://wallet.tomochain.com/) or download TomoWallet App from [Apple Store](https://itunes.apple.com/vn/app/tomo-wallet/id1436476145) or [Google Play](https://play.google.com/store/apps/details?id=com.tomochain.wallet). You can create a new wallet, import an existing wallet, vote for Masternodes and transfer/receive TOMO back and forth as well as manage your votes and rewards.
 
 {% hint style="info" %}
 Under Settings you can Choose Network: TomoChain \(Mainnet\) or TomoChain Testnet.
