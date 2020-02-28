@@ -64,7 +64,7 @@ There is a reward sharing ratio among token holders and asternode who has been e
 
 The rewards for every Masternode will be dynamic and depending on multiple factors like: number of Masternodes in the network, the efficiency signing blocks, the total number of votes on each Masternode. The most efficient Masternodes signing blocks will receive higher rewards.
 
-Please, refer to our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) for more details about the asternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
+Please, refer to our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) for more details about the Masternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
 
 One example is outlined below.
 
