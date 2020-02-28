@@ -120,7 +120,7 @@ sudo mv create-tomochain-masternode /usr/local/bin/
 
 ### Usage <a id="usage"></a>
 
-Simply run create-tomochain-masternode with the name of your masternode as argument.
+Simply run create-tomochain-masternode with the name of your Masternode as argument.
 
 ```text
 create-tomochain-masternode mymasternode
