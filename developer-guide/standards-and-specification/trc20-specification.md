@@ -1,7 +1,5 @@
 ---
-description: >-
-  This tutorial is a guide for a developer who wants to know how to integrate
-  TRC20 token to applications (e.g. wallet, exchange)
+description: 'How to integrate TRC20 token to applications (e.g. wallets, exchanges)'
 ---
 
 # TRC20 Specification

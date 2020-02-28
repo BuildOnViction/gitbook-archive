@@ -4,7 +4,7 @@ description: >-
   platform.
 ---
 
-# An overview of the Token Standards on TomoChain
+# An Overview of the Token Standards on TomoChain
 
 ### Overview 
 

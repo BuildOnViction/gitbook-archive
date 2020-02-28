@@ -16,7 +16,7 @@
     * [Staking Rewards](general/staking/staking-rewards.md)
 * [Developer Guide](developer-guide/README.md)
   * [Standards & Specification](developer-guide/standards-and-specification/README.md)
-    * [An overview of the Token Standards on TomoChain](developer-guide/standards-and-specification/an-overview-of-the-token-standard-on-tomochain.md)
+    * [An Overview of the Token Standards on TomoChain](developer-guide/standards-and-specification/an-overview-of-the-token-standard-on-tomochain.md)
     * [TRC20 Specification](developer-guide/standards-and-specification/trc20-specification.md)
     * [TRC21 Specification](developer-guide/standards-and-specification/trc721-specification.md)
   * [Smart Contract Development](developer-guide/smart-contract-development/README.md)
