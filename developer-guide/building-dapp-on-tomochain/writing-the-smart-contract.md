@@ -1,6 +1,6 @@
 # Write the Smart Contract
 
-We’ll start our DApp by writing the smart contract that acts as the back-end logic and storage.
+We’ll start our Dapp by writing the smart contract that acts as the back-end logic and storage.
 
 1. Create a new file named `Adoption.sol` in the `contracts/` directory.
 2. Copy the following code:
@@ -30,7 +30,7 @@ Solidity is a compiled language, meaning we need to compile our Solidity to byte
 
 > TomoChain is EVM-compatible, which means that every contract written in Ethereum can be seamlessly ported to TomoChain without effort
 
-In a terminal, make sure you are in the root of the directory that contains the DApp and type:
+In a terminal, make sure you are in the root of the directory that contains the Dapp and type:
 
 ```text
 truffle compile
