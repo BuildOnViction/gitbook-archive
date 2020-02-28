@@ -6,8 +6,6 @@ description: Creating a TRC-20 Token Crowdsale with Truffle and OpenZeppelin
 
 This article will take you through the process of **creating a basic ICO on TomoChain** — you will sell your own TRC-20 tokens to your investors!
 
-![](../../.gitbook/assets/image%20%2818%29.png)
-
 In this tutorial we will be covering:
 
 * What is an **ICO**?
@@ -36,7 +34,7 @@ Besides the law, you should take into account the **security** issue for your sm
 
 The **smart contract** that we use in this tutorial is very simple and only for education purposes. In fact, the scenario for an ICO is more complicated and you need to test and audit to prevent bugs and you also need to comply with the law and regulations of the country where you sell your token.
 
-**In this tutorial I will walk you through the steps of setting up your account through to issuing your ICO contract on TomoChain network using simple smart contracts and MetaMask.**
+**This tutorial will walk you through the steps of setting up your account through to issuing your ICO contract on TomoChain network using simple smart contracts and MetaMask.**
 
 For this tutorial we are using:
 
@@ -83,11 +81,9 @@ npm install openzeppelin-solidity
 
 ### 2.1 Create a TOMO wallet and save your Mnemonic <a id="eb9e"></a>
 
-You can create a new TOMO wallet using **TomoWallet** mobile app for [Android](https://play.google.com/store/apps/details?id=com.tomochain.wallet) or [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet\].
+You can create a new TOMO wallet using **TomoWallet** mobile app for [Android](https://play.google.com/store/apps/details?id=com.tomochain.wallet) or [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/\#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet\].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
-
-![](../../.gitbook/assets/image%20%2851%29.png)
 
 You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO \(tomochain.com\)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
