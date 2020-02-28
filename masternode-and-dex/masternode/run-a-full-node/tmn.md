@@ -15,7 +15,7 @@ It takes care of starting the necessary docker containers with the proper settin
 
 Warning
 
-We recommand to run your Masternode on Ubuntu 18.04 LTS. This version have python 3.6 and has been reported as working out of the box.
+We recommnd to run your Masternode on Ubuntu 18.04 LTS. This version have python 3.6 and has been reported as working out of the box.
 
 #### Installation of Python <a id="installation-of-python"></a>
 
@@ -125,7 +125,7 @@ When you first start your full node with tmn, you need to give some information.
 
 Important note:
 
-We advise for security measures to use a fresh new account for your asternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50,000TOMO initial deposit.
+We advise for security measures to use a fresh new account for your Masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50,000TOMO initial deposit.
 
 `--api`: Expose RPC and websocket on ports `8545` and `8546`.
 
