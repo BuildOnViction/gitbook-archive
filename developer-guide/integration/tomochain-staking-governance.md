@@ -45,7 +45,7 @@ TomoChain provides RPC APIs that can be used with Web3 library to directly call 
 You can follow the steps below to interact with the smart contract by using Web3 library and NodeJS.
 
   
-**Init Web3 provider**[**¶**](https://docs.tomochain.com/developers/staking-integrations/#init-web3-provider)\*\*\*\*
+**Init Web3 Provider**
 
 At the first step, you need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
 
@@ -57,11 +57,11 @@ const chainId = 88
 
 For testnet/mainnet details, you can get network information [here](https://docs.tomochain.com/general/networks/)
 
-### Unlock wallet[¶](https://docs.tomochain.com/developers/staking-integrations/#unlock-wallet) <a id="unlock-wallet"></a>
+### Unlock Wallet <a id="unlock-wallet"></a>
 
 You need to unlock the wallet before staking for the nodes
 
-**Example¶**
+**Example**
 
 ```text
 // Unlock wallet by private key
@@ -71,7 +71,7 @@ web3.eth.accounts.wallet.add(account)
 web3.eth.defaultAccount = owner
 ```
 
-### Init Web3 TomoChain Validator Contract[¶](https://docs.tomochain.com/developers/staking-integrations/#init-web3-tomochain-validator-contract) <a id="init-web3-tomochain-validator-contract"></a>
+### Init Web3 TomoChain Validator Contract <a id="init-web3-tomochain-validator-contract"></a>
 
 ```text
 const validatorAbi = require('./TomoValidatorAbi.json')
@@ -84,7 +84,7 @@ Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com
 
 
 
-### Propose/Apply a candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#proposeapply-a-candidate) <a id="proposeapply-a-candidate"></a>
+### Propose/Apply a Candidate <a id="proposeapply-a-candidate"></a>
 
 Masternode owner need to have at least 50,000 TOMO to apply a full node to become a Masternode Candidate. So make sure you have &gt; 50,000 TOMO in your Masternode owner wallet to deposit to the smart contract and pay transaction fee.
 
@@ -110,11 +110,11 @@ validator.methods.propose(coinbase).send({
 
 You can refer to [Staking TomoChain script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
 
-### Stake/Vote for a Candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#stakevote-a-candidate) <a id="stakevote-a-candidate"></a>
+### Stake/Vote for a Candidate <a id="stakevote-a-candidate"></a>
 
 You can stake at least 100 TOMO for a node by calling `vote` function from the smart contract.
 
-**Example¶**
+**Example**
 
 Stake 500 TOMO to a node.
 
@@ -131,7 +131,7 @@ validator.methods.vote(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-### Unstake/Unvote a Candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#unstakeunvote-a-candidate) <a id="unstakeunvote-a-candidate"></a>
+### Unstake/Unvote a Candidate <a id="unstakeunvote-a-candidate"></a>
 
 You can unstake by calling `unvote` function from the smart contract
 
@@ -149,7 +149,7 @@ validator.methods.unvote(coinbase, cap).send({
 }).catch(e => console.log(e))
 ```
 
-### Resign a Candidate[¶](https://docs.tomochain.com/developers/staking-integrations/#resign-a-candidate) <a id="resign-a-candidate"></a>
+### Resign a Candidate <a id="resign-a-candidate"></a>
 
 ```text
 validator.methods.resign(coinbase).send({
@@ -163,11 +163,11 @@ validator.methods.resign(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-### Withdraw TOMO[¶](https://docs.tomochain.com/developers/staking-integrations/#withdraw-tomo) <a id="withdraw-tomo"></a>
+### Withdraw TOMO <a id="withdraw-tomo"></a>
 
 You need to wait for 48 epochs \(if unvote\), 30 days \(if resign\) to unlock your TOMO staked
 
-**Example¶**
+**Example**
 
 ```text
 // get highest block number
@@ -193,11 +193,11 @@ web3.eth.getBlockNumber().then(blockNumber => {
 }).catch(e => console.log(e))
 ```
 
-### Get list Withdrawals[¶](https://docs.tomochain.com/developers/staking-integrations/#get-list-withdrawals) <a id="get-list-withdrawals"></a>
+### Get list Withdrawals <a id="get-list-withdrawals"></a>
 
 We need to call `getWithdrawBlockNumbers` and `getWithdrawCap` function from TomoValidator smart contract to get the data
 
-**Example¶**
+**Example**
 
 ```text
 let blks = await contract.getWithdrawBlockNumbers.call({ from: owner })
@@ -221,7 +221,7 @@ console.log(withdraws)
 
 
 
-### Get list Candidates[¶](https://docs.tomochain.com/developers/staking-integrations/#get-list-candidates) <a id="get-list-candidates"></a>
+### Get list Candidates <a id="get-list-candidates"></a>
 
 You can get list Candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth_getcandidates):
 
