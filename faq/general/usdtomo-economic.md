@@ -1,4 +1,4 @@
-# $TOMO - Economic
+# TOMO - Economic
 
 ### **What is TOMO? Can you describe the functions and purposes of TOMO?**
 
@@ -20,9 +20,9 @@ TOMO is not `mineable` but `mintable` by masternodes. Masternodes are responsibl
 
 ### **What is TOMO circulating supply and total supply?**
 
-The initial circulating supply at genesis block is 55'000'000 but the current circulating supply is increasing every epoch.
+The initial circulating supply at genesis block is 55,000,000 but the current circulating supply is increasing every epoch.
 
-After 8 years, TOMO total supply is fixed at 100'000'000 TOMO.
+After 8 years, TOMO total supply is fixed at 100,000,000 TOMO.
 
 ### **How is TOMO distributed?**
 
@@ -47,7 +47,7 @@ The total supply is fixed at 100 million TOMO in the first 8 years \(non-inflati
 
 **How often are block rewards paid out?**
 
-Block rewards will be earnt every epoch, which lasts for 900 of two-second-block time \(~30 minutes\). Both masternode operators and takers will be rewarded.
+Block rewards will be earnt every epoch, which lasts for 900 of two-second-block time \(~30 minutes\). Both Masternode operators and takers will be rewarded.
 
 **If TomoChain has zero fees, how can Masternodes get rewards?**
 
