@@ -1,7 +1,5 @@
 ---
-description: >-
-  This tutorial is a guide for developers who wants to know how to integrate
-  TRC21 token to applications (e.g., wallet, exchange)
+description: 'How to integrate TRC21 token to applications (e.g., wallets, exchanges)'
 ---
 
 # TRC21 Specification
