@@ -1,8 +1,7 @@
 ---
 description: >-
-  This section will explain why TomoX is the most innovative and sophisticated
-  exchange protocol design to date with the ability to create the best
-  performing decentralized exchanges (DEX)
+  This section guides you on how to set up a decentralized exchange on TomoX
+  protocol
 ---
 
 # DEX
