@@ -16,7 +16,7 @@ To have a Masternode Candidate, the following requirements must be satisfied:
 * The token holder must hold a minimum required amount of tokens \(50,000 TOMO\). These 50,000 TOMO are deposited to the Voting Smart Contract.
 * Must be one of the 150 most voted Masternode Candidates in the system. The voting by token holders is credited through a Voting Dapp that allows token holders to send TOMO through the smart contract mechanism.
 
-### Applying to become a asternode <a id="applying-to-become-a-masternode"></a>
+### Apply to become a Masternode <a id="applying-to-become-a-masternode"></a>
 
 You can apply by going on [TomoMaster](https://master.tomochain.com/). Connect the wallet that contains the funds you want to deposit.
 
