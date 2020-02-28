@@ -1,5 +1,5 @@
 ---
-description: How to connect with TomoChain Mainnet using Myetherwallet
+description: How to connect with TomoChain Mainnet using MyEtherwallet
 ---
 
 # MyEtherWallet

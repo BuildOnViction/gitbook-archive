@@ -1,5 +1,5 @@
 ---
-description: Introduction to staking Tomo on the masternodes.
+description: Introduction to stake TOMO on the Masternodes.
 ---
 
 # Staking Requirements
@@ -14,15 +14,15 @@ With a connected wallet, it's time to try voting for some masternodes. If you ha
 
 ### How To Vote <a id="how-to-vote"></a>
 
-Now you have some TOMO. You can access our governance DApp, [TomoMaster](https://master.testnet.tomochain.com/), to start voting for masternodes.
+Now you have some TOMO. You can access our Governance Dapp, [TomoMaster](https://master.testnet.tomochain.com/), to start voting for Masternodes.
 
 ![](../../.gitbook/assets/screen-shot-2020-02-15-at-16.14.32.png)
 
 TomoMaster natively supports Metamask. You can also access your account page \(the vertical three dots on the top right\) to fill in your wallet Private Key or MNEMONIC \(see image below\).
 
-If you use Metamask, you need to connect Metamask to our testnet \(please see the "Create a wallet" section\) and choose Metamask in the drop-down settings list.
+If you use Metamask, you need to connect Metamask to our Testnet \(please see the "Create a wallet" section\) and choose Metamask in the drop-down settings list.
 
-Once configured, you can vote for masternodes by clicking on the `Vote` button.
+Once configured, you can vote for Masternodes by clicking on the `Vote` button.
 
 ![Vote](https://docs.tomochain.com/assets/vote.jpg)
 
@@ -30,7 +30,7 @@ At least 100 TOMO is required per vote. After clicking submit, your TOMO will be
 
 ### How to Unvote <a id="how-to-unvote"></a>
 
-If you do no longer wish to support a masternode you've voted for, you can unvote it by clicking the `Unvote` button on the masternode's page and enter the amount of TOMO you want to unvote.
+If you do no longer wish to support a Masternode you've voted for, you can unvote it by clicking the `Unvote` button on the Masternode's page and enter the amount of TOMO you want to unvote.
 
 After unvoting, your TOMO is still locked in the smart contract for ~48 hours \(96 epochs\) before you are able to withdraw.
 
