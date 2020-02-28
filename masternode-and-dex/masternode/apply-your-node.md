@@ -50,11 +50,11 @@ Info
 An epoch is a period of 900 blocks \(~ 30 minutes\) starting from block \#1
 {% endhint %}
 
-If your node is in the top 150 most voted candidates at the checkpoint between two epochs, it will be promoted as a Masternode and will start producing blocks at the next epoch.
+If your node is in the top 150 most voted Candidates at the checkpoint between two epochs, it will be promoted as a Masternode and will start producing blocks at the next epoch.
 
-### Resigning your asternode <a id="resigning-your-masternode"></a>
+### Resigning your Masternode <a id="resigning-your-masternode"></a>
 
-In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds. Access TomoMaster, go to your candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation \(1,296,000 blocks\).
+In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds. Access TomoMaster, go to your Candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation \(1,296,000 blocks\).
 
 After resigning successfully, you can stop your node. If you ran it with `tmn`, simply run:
 
