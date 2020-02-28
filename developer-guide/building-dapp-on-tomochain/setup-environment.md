@@ -43,7 +43,7 @@ truffle unbox pet-shop
 
 The default Truffle directory structure contains a series of folders and files. If you want to know more, please check [Truffle tutorials](https://truffleframework.com/tutorials/pet-shop#directory-structure).
 
-> **Note:** This tutorial is focused on **the whole process to build a DApp on TomoChain**, so we will not enter into all the details.
+> **Note:** This tutorial is focused on **the whole process to build a Dapp on TomoChain**, so we will not enter into all the details.
 
 ## Creating a TOMO Wallet <a id="a775"></a>
 
