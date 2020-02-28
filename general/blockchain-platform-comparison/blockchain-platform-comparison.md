@@ -20,7 +20,7 @@ Proof-of-Stake \(PoS\) aims to provide a more environment-friendly and efficient
 
 In this post, we will show how TomoChain compares with EOS, Ethereum, Cardano and Tendermint. Before discussing the comparison, in this post, we describe the overview of these projects and the different aspects that will be used for the comparison. Concretely, these aspects include _consensus protocol, decentralisation, security, scalability/performance, roadmap, and ecosystem_.
 
-![](../../.gitbook/assets/image%20%2860%29.png)
+![](../../.gitbook/assets/ba-ng-bie-u-so-sanh-01%20%281%29.png)
 
 ## Overview of TomoChain <a id="b088"></a>
 
