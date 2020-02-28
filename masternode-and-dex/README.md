@@ -14,7 +14,7 @@ description: >-
 | [Run a full node](masternode/run-a-full-node/) | This guide shows how to run a TomoChain Masternode in Testnet and mainnet without the need of using Docker and `tmn`. |
 | [Apply Your Node ](masternode/apply-your-node.md) | Once your full node is up and running, you need to apply to make it eligible as a masternode. |
 | [TomoChain Slashing Mechanism](masternode/tomochain-slashing-mechanism.md) | If a masternode does not sign any block during an entire epoch, the masternode will be kicked out of the masternode list for the next 4 epochs. |
-| [Chain Data Snapshots](masternode/chain-data-snapshots.md) | A snapshot is a recording of the state of a blockchain at a particular block height. |
+| [Chain Data Snapshots](masternode/chain-data-snapshots.md) | **A snapshot is a recording of the state of a blockchain at a particular block height**. |
 
 
 
