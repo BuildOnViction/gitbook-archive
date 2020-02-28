@@ -80,7 +80,7 @@
     * [Masternode](faq/masternode-and-voting/masternode.md)
     * [Voter](faq/masternode-and-voting/voter.md)
   * [Products and Protocols](faq/products/README.md)
-    * [TomoChain products](faq/products/tomochain-applications/README.md)
+    * [TomoChain Products](faq/products/tomochain-applications/README.md)
       * [TomoWallet](faq/products/tomochain-applications/tomowallet.md)
       * [TomoScan \(Explorer\)](faq/products/tomochain-applications/tomoscan-explorer.md)
       * [TomoMaster](faq/products/tomochain-applications/tomomaster.md)
