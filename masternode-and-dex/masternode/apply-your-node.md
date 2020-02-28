@@ -6,7 +6,7 @@ description: >-
 
 # Apply Your Node
 
-Masternodes will receive a significant amount of block rewards, which likely exceeds the cost for running the infrastructure. However, Masternode Candidates need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them for a long term. Furthermore, after the initial deposit to become a candidate, if he doesn't make it to the top 150 most voted Candidates, he will not be promoted as Masternode and thus receive no rewards. Therefore, Candidates have an incentive to do as much as they can such as signalling their capability to support TomoChain to get into top 150 most voted idates.
+Masternodes will receive a significant amount of block rewards, which likely exceeds the cost for running the infrastructure. However, Masternode Candidates need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them for a long term. Furthermore, after the initial deposit to become a candidate, if he doesn't make it to the top 150 most voted Candidates, he will not be promoted as Masternode and thus receive no rewards. Therefore, Candidates have an incentive to do as much as they can such as signalling their capability to support TomoChain to get into top 150 most voted Candidates.
 
 ### Requirements <a id="requirements"></a>
 
