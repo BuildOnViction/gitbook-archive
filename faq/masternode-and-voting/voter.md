@@ -1,6 +1,6 @@
 # Voter
 
-### **What are the voters incentives? Do voters get rewards too?**
+### **What are the Voters incentives? Do Voters get rewards too?**
 
 Token voters should vote for the Candidates who demonstrate strong support to the TomoChain ecosystem. If strong Candidates are voted to become Masternodes, the network will be more powerful and the voters will earn more rewards.
 
