@@ -10,7 +10,7 @@ TomoWallet is available for Android, iOS and Web Application.
 
 ### **What tokens/coins does TomoWallet support?**
 
-The current TomoWallet supports native TOMO on TomoChain Mainnet. TomoWallet will support all tokens on TomoChain platform including TRC20, TRC21 and TRC721. 
+The TomoWallet supports native TOMO on TomoChain Mainnet and all tokens on TomoChain platform including TRC20, TRC21 and TRC721. 
 
 ### Does TomoWallet support multiple address?  
 
@@ -28,11 +28,11 @@ You can create a new wallet, if you click on "CREATE NEW WALLET" after launching
 
 ### Receive TOMO
 
-By clicking on "Adress" you can either receive TOMO by sharing your adress or your QR-code. It's also possible to create a QR-code that requests a certain amount.
+By clicking on "Address" you can either receive TOMO by sharing your address or your QR-code. It's also possible to create a QR-code that requests a certain amount.
 
-### Send T
+### Send TOMO
 
-By clicking on "Send" you can either send TOMO by scanning a QR-code or entering a recipient adress manually.
+By clicking on "Send" you can either send TOMO by scanning a QR-code or entering a recipient address manually.
 
 ### **Can we vote on TomoMaster using TomoWallet?**
 
@@ -46,7 +46,7 @@ Voters and masternodes can track their rewards from staking directly in .
 
 ### **I have Private Key/Recovery. How do I import into TomoWallet in a safe way?**
 
-By clicking on "IMPORT YOUR WALLET" after launching the App, you can choose to import your wallet either with your private key or your recovery passphrase. There is also a "view only" mode, where you just have to enter your adress. You can monitor, but not send any transactions in this mode.
+By clicking on "IMPORT YOUR WALLET" after launching the App, you can choose to import your wallet either with your private key or your recovery passphrase. There is also a "view only" mode, where you just have to enter your address. You can monitor, but not send any transactions in this mode.
 
 ### **How do I backup my wallet?**
 
