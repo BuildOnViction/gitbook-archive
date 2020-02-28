@@ -8,7 +8,7 @@ You can also check the ACRA copy if you need more details.
 
 ### **Where are TomoChain offices?**
 
-TomoChain current offices are located in Singapore, Vietnam and the recently inaugurated in Japan:
+TomoChain current offices are located in Singapore, Vietnam and Japan:
 
 * SINGAPORE
 
@@ -22,15 +22,9 @@ TomoChain current offices are located in Singapore, Vietnam and the recently ina
 
   `219 Trung Kinh, Yen Hoa, Cau Giay, Hanoi, Vietnam`
 
-### **How many people are working on TomoChain team?**
-
-We are nearly 40 people working fulltime.
-
-Check us out on our [main website](https://tomochain.com/about-us/)!
-
 ### **Where can I take a look at TomoChain code? Is there a GitHub repository?**
 
-All the code regarding TomoChain is free to consult on our [GitHub](https://github.com/tomochain). This includes the code for the TomoChain blockchain client, governance DApp, block explorer, tools, docker images, documentation, etc.
+All the code regarding TomoChain is free to consult on our [GitHub](https://github.com/tomochain). This includes the code for the TomoChain blockchain client, governance Dapp, block explorer, tools, docker images, documentation, etc.
 
 We like to publish code publicly when it reaches a certain level of development and/or when we think auditing and contributions are beneficial to the codebase. Keeping early projects private is probably more responsible for now due to our scale. It might change in the future.
 
