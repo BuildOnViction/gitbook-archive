@@ -1,6 +1,6 @@
 ---
 description: >-
-  This is a step-by-step guide to setting up and run your first full node on
+  This is a step-by-step guide to set up and run your first full node on
   TomoChain network.
 ---
 
