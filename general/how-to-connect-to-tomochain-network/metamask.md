@@ -1,8 +1,5 @@
 ---
-description: >-
-  TomoChain will guide you on how to connect MetaMask to TomoChain Mainnet. It
-  is an essential step to study an overview of TomoChain features in terms of
-  meeting the crypto trading needs on the system.
+description: TomoChain will guide you on how to connect MetaMask to TomoChain Mainnet.
 ---
 
 # Metamask
