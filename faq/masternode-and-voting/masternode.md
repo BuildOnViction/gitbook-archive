@@ -102,7 +102,7 @@ The first step to become a Masternode, is becoming a Masternode Candidate. To be
 * to run TomoChain software in a machine with certain minimal hardware requirements
 * to deposit 50,000 TOMO in a smart-contract via TomoMaster
 
-The list of Masternode Candidates will be available on the governance DApp, [TomoMaster](https://master.tomochain.com/). The next step is to be elected as one of the top 150 most voted candidates. 
+The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.tomochain.com/). The next step is to be elected as one of the top 150 most voted Candidates. 
 
 ### **Do I need to use my own computer to run a node?**
 
@@ -137,7 +137,7 @@ Once you are a Masternode Candidate, you need the support of TomoChain community
 
 See this [Medium post](https://medium.com/tomochain/how-to-run-a-tomochain-masternode-from-a-to-z-3793752dc3d1).
 
-### **Where can I find the latest Masternode guide or the instructions for setting up a asternode?** 
+### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?** 
 
 Find more details about tmn here: [https://docs.tomochain.com/masternode/tmn/](https://docs.tomochain.com/masternode/tmn/)
 
@@ -155,7 +155,7 @@ You can run `tmn --debug stop` and send the log to us. We will help you to inves
 
 ### **Do I need two wallets to run a Masternode?**
 
-It is recommended for security reasons. You can create your wallet from wherever you want, the only rule being that you need two of them. One for your asternode, and one to make the 50K deposit \(this account will receive the rewards\).
+It is recommended for security reasons. You can create your wallet from wherever you want, the only rule being that you need two of them. One for your Masternode, and one to make the 50K deposit \(this account will receive the rewards\).
 
 ### **What is the 'coinbase address'?**
 
@@ -165,7 +165,7 @@ We recommend using two addresses when running your nodes. The public address or 
 
 ### **I noticed that we need another wallet for Masternode with a different mnemonic. Assume we use a hardware wallet, we would need another hardware wallet with different mnemonic?**
 
-It is recommended to use a separate empty account for your asternode as it only receive transactions fees - what we call public or 'coinbase address' on the documentation.
+It is recommended to use a separate empty account for your Masternode as it only receive transactions fees - what we call public or 'coinbase address' on the documentation.
 
 The block rewards are sent to the account connected to TomoMaster who make the initial deposit - the 'private' address.
 
@@ -175,7 +175,7 @@ No. Must use different public 'coinbase' addresses. But you can use the same ini
 
 ### **I have finished all steps of setting up node. Why I don't see my node on TomoMaster?**
 
-You must apply to become a Masternode andidate.
+You must apply to become a Masternode Candidate.
 
 ### **Do I need to deposit the 50K TOMO before or after running 'tmn' in VPS?**
 
@@ -191,7 +191,7 @@ Yes, it can.
 
 ### **How can I change my node's name?**
 
-You can do it on TomoMaster. Go to your Masternode page on TomoMaster, if you are logged in TomoMaster with the owner account, you can click next to the asternode name to edit infos.
+You can do it on TomoMaster. Go to your Masternode page on TomoMaster, if you are logged in TomoMaster with the owner account, you can click next to the Mastenode name to edit infos.
 
 ### **My node status is 'Proposed', will it change status with next checkpoint?**
 
@@ -219,7 +219,7 @@ As many as you c.
 
 If you no longer want to be a Masternode, you can resign on TomoMaster. Your Masternode will stop generating rewards and your funds will be locked for 30 days \(1,296,000 blocks\). After the lockup period you will be able to withdraw your 50,000 TOMO deposit.
 
-### **Can I close the node entirely, then start a new one with a totally separate oinbase address without being penalized?**
+### **Can I close the node entirely, then start a new one with a totally separate coinbase address without being penalized?**
 
 No. Your old node will be penalized \(50K initial deposit 30-day lockup\) and your new node has to apply again.
 
@@ -227,13 +227,13 @@ No. Your old node will be penalized \(50K initial deposit 30-day lockup\) and yo
 
 Yes.
 
-### **What if I do not have enough TOMO for a Masternode? Can I stake my  ?**
+### **What if I do not have enough TOMO for a Masternode? Can I stake my TOMO?**
 
 Yes. Token holders can stake TOMO and receive rewards.
 
-To stake TOMO you need to vote for Masternode andidates by sending TOMO to each candidates specific voting-address using the official governance pp TomoMaster. The top-150 most voted  will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks \(approx. 48 hours\) after the un-voting.
+To stake TOMO you need to vote for Masternode Candidates by sending TOMO to each candidates specific voting-address using the official governance Dapp TomoMaster. The top-150 most voted  will become Masternodes. Token holders can also un-vote Candidates, but the tokens will be locked for the next 96 epochs / 8,640 blocks \(approx. 48 hours\) after the un-voting.
 
-Masternode token deposits, and all tokens used to vote for asternodes will enter the staking program, and earn block rewards in each epoch, plus any fees. Tokens used to vote for candidates who do not become Masternodes will not earn staking rewards.
+Masternode token deposits, and all tokens used to vote for Masternodes will enter the staking program, and earn block rewards in each epoch, plus any fees. Tokens used to vote for candidates who do not become Masternodes will not earn staking rewards.
 
 
 
