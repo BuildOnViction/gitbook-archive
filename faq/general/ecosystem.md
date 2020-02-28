@@ -1,6 +1,6 @@
 # Ecosystem
 
-### **What incentives have partners and pp developers to build on TomoChain?**
+### **What are the incentives for partners and Dapp developers to build on TomoChain?**
 
 TomoChain supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. This means that any smart-contract written in Ethereum protocol can be easily ported to TomoChain.
 
@@ -14,15 +14,13 @@ Besides the technical aspects, our partners will also benefit from the TomoChain
 
 See: [https://www.youtube.com/watch?v=8J4h2zsd\_UE](https://www.youtube.com/watch?v=8J4h2zsd_UE)
 
-### **Where can I see TomoChain partnerships?¶**
+### **Where can I see TomoChain partnerships?**
 
 TomoChain is working vigorously on building its ecosystem and has sealed partnerships from all fields such as gaming, education and research, payment, communication, name service, loyalty point, tourism and financial sector \(as of Jan 2020\). 
 
 All partnership announcements can be found [Medium](https://medium.com/tomochain) and our official [Twitter account](https://twitter.com/TomoChainANN) for partnership announcements.
 
-You can also find a list of partners willing to run Dapps on TomoChain [here](https://docs.tomochain.com/general/use-cases/). This list will be updated in the future.
-
-### **Where can I check the actual products, ecosystem?¶**
+### **Where can I check the actual products, ecosystem?**
 
 Please, read the Mainnet announcement on our [Medium post](https://medium.com/tomochain/tomochain-mainnet-has-officially-been-launched-25a55dd2efed).
 
