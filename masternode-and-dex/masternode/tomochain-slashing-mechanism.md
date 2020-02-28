@@ -1,5 +1,5 @@
 ---
-description: Slashing masternodes to keep the network functionality efficient
+description: Slashing Masternodes to keep the network functionality efficient
 ---
 
 # TomoChain Slashing Mechanism
@@ -18,7 +18,7 @@ Some reasons for being Slashed might be that the Masternode does not have the co
 On TomoMaster, click on a candidate to open the candidate page. Scroll down to 'Masternode Rewards'. You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine a good node or not.
 {% endhint %}
 
-Masternodes will sign a maximum of 60 blocks per epoch. A good asternode will create around 60 sign transactions in that epoch. We also calculate the reward based on sign transactions number.  
+Masternodes will sign a maximum of 60 blocks per epoch. A good Masternode will create around 60 sign transactions in that epoch. We also calculate the reward based on sign transactions number.  
   
 
 
