@@ -29,7 +29,6 @@
       * [Web3JS](developer-guide/smart-contract-development/ides-and-tools/web3js.md)
       * [Truffle](developer-guide/smart-contract-development/ides-and-tools/truffle.md)
       * [Openzepplins](developer-guide/smart-contract-development/ides-and-tools/openzepplins.md)
-    * [Testing and Deployment](developer-guide/smart-contract-development/testing-and-deployment.md)
   * [Build a Dapp on TomoChain](developer-guide/building-dapp-on-tomochain/README.md)
     * [Setup Environment](developer-guide/building-dapp-on-tomochain/setup-environment.md)
     * [Write the Smart Contract](developer-guide/building-dapp-on-tomochain/writing-the-smart-contract.md)
