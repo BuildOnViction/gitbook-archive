@@ -383,7 +383,7 @@ When you first start your full node with `tmn start`, you need to give some info
 >
 > **--net:** The network your full node will connect to. You can choose here to connect it to the TomoChain `mainnet` or `testnet`. 
 >
-> **--pkey:** The private key of your WALLET1 wallet \(non 50k\). A TomoChain full node uses a wallet address to be uniquely identified and to receive transaction fees. Transaction fees are not rewards, and they are usually tiny. Important note: we advise for security measures to use a fresh new wallet for your asternode. This is not the wallet that will receive the rewards. The rewards are sent to the wallet that will make the 50k TOMO initial deposit.
+> **--pkey:** The private key of your WALLET1 wallet \(non 50k\). A TomoChain full node uses a wallet address to be uniquely identified and to receive transaction fees. Transaction fees are not rewards, and they are usually tiny. Important note: we advise for security measures to use a fresh new wallet for your Masternode. This is not the wallet that will receive the rewards. The rewards are sent to the wallet that will make the 50k TOMO initial deposit.
 
 The command is structured like this:
 
