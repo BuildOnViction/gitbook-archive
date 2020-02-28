@@ -478,7 +478,7 @@ On the right you will see a dropdown list with the functions. Select `mint`. MEW
 
 Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
-![](../../.gitbook/assets/image%20%2852%29.png)
+![](../../.gitbook/assets/image-2-copy%20%282%29.png)
 
 You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! This way you can check if values are correct, totalSupply, transfer tokens...
 
