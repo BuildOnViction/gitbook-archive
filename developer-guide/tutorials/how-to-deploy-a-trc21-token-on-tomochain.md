@@ -6,7 +6,7 @@ description: >-
 
 # How to Deploy a TRC21 Token on TomoChain
 
-As you may know, [TomoZ](http://bit.ly/TomoZWhitePaper) is our brand new product, which is expected to solve a critical user adoption issue found in nearly every major smart contract platform. TRC21 empowered by TomoZ allows token holders to pay transaction fees by token itself without holding any TOMO in their wallet. [TomoIssuer](https://issuer.testnet.tomochain.com/) is a final piece in the big picture, this tool provides a user-friendly interface for any token issuer to issue a TRC21 token _without any coding experience required_. This article will guide you how to step-by-step to deploy your TRC-21 token on TomoChain.
+[TomoZ](http://bit.ly/TomoZWhitePaper) protocol aims to solve a critical user adoption issue found in nearly every major smart contract platform. TRC21 empowered by TomoZ allows token holders to pay transaction fees by token itself without holding any TOMO in their wallet. [TomoIssuer](https://issuer.testnet.tomochain.com/) is a final piece in the big picture, this tool provides a user-friendly interface for any token issuer to issue a TRC21 token _without any coding experience required_. This article will guide you how to step-by-step to deploy your TRC-21 token on TomoChain.
 
 {% hint style="info" %}
  This version of TomoIssuer works on TomoChain Testnet. Remember to change your network to TomoChain Testnet and do NOT use any real TOMO.
@@ -21,8 +21,6 @@ Below are the most important features of TomoIssuer that have made it a revoluti
 **Let’s Start the Tutorial!**
 
 At the homepage you will see two main options with the TomoIssuer. The first one is to create the new TRC21 token and the second one is to donate fee for an existing TRC21 token.
-
-![](../../.gitbook/assets/image%20%2833%29.png)
 
 **Step 1:** Go to Token Issuance dashboard, then set the parameters. From top to bottom: Token’s Name; Token’s Symbol; Token’s Total Supply, and Token’s Decimal. A small issuance fee will be charged, make sure that your wallet has enough testnet TOMO. You can get free testnet TOMO from our [faucet](https://faucet.testnet.tomochain.com/).
 
@@ -49,7 +47,7 @@ At the homepage you will see two main options with the TomoIssuer. The first one
 
 ![](../../.gitbook/assets/image%20%2815%29.png)
 
-**Step 5:** The token issuer needs to deposit a minimum amount of 10TOMO. The deposit can’t be withdrawn. That deposit pool of TOMO is deducted to pay masternodes for transaction processing.
+**Step 5:** The token issuer needs to deposit a minimum amount of 10TOMO. The deposit can’t be withdrawn. That deposit pool of TOMO is deducted to pay Masternodes for transaction processing.
 
 ![](../../.gitbook/assets/image%20%2844%29.png)
 
@@ -69,7 +67,7 @@ Go to donate transaction fee tab from TomoIssuer’s homepage. Enter the name of
 
 ![](../../.gitbook/assets/image%20%2848%29.png)
 
-You can transfer your TRC21 token to any member in your community just by going to “transfers token”. TomoWallet \(testnet version\) will start running in a new tab so you can use it to transfer issued tokens. We will publish a separate guideline about how to use TomoIssuer on TomoWallet \(mobile application\) in a few days.
+You can transfer your TRC21 token to any member in your community just by going to “transfers token”. TomoWallet \(testnet version\) will start running in a new tab so you can use it to transfer issued tokens.
 
 ![](../../.gitbook/assets/image%20%2859%29.png)
 
@@ -77,7 +75,7 @@ The details of your TRC21 transactions are displayed on TomoScan. TomoScan will 
 
 ![](../../.gitbook/assets/image%20%2814%29.png)
 
-**Congratulations!** You have learned about your experience in the TRC21 token and how to deploy your TRC21 token on [TomoChain](http://tomochain.com/). We are very excited to see your awesome ideas utilizing TomoZ and TRC21 token standard. Please let us know in the comments section below.
+**Congratulations!** You have learned about how to deploy your TRC21 token on [TomoChain](http://tomochain.com/). We are very excited to see your awesome ideas utilizing TomoZ and TRC21 token standard.
 
 \(1\)[Understanding ERC-20 token contracts](https://medium.com/@jgm.orinoco/understanding-erc-20-token-contracts-a809a7310aa5)
 
