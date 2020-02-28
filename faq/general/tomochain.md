@@ -32,15 +32,15 @@ PoSV features its Masternode architecture in which token holders deposit 50,000 
 
 ### What is Double Validation?
 
-Double Validation provides an additional trustless validation layer for security enhancement through a provable uniform distribution decentralized randomization. Specifically, when a block is created by a masternode, it must be verified by another masternode that is randomly selected among the set of masternodes before being added to the blockchain. Double validation strengthens Tomochain’s security, reduces fork and nothing-at-stake attacks, and makes TomoChain unique among other Proof-of-Stake-based blockchains.
+Double Validation provides an additional trustless validation layer for security enhancement through a provable uniform distribution decentralized randomization. Specifically, when a block is created by a Masternode, it must be verified by another Masternode that is randomly selected among the set of Masternodes before being added to the blockchain. Double validation strengthens TomoChain’s security, reduces fork and nothing-at-stake attacks, and makes TomoChain unique among other Proof-of-Stake-based blockchains.
 
 ### Which scaling solutions will TomoChain implement? Will you have sharding?
 
-TomoChain solutions are based on on-chain scaling built into an architecture of 150 voted masternodes with our Proof-of-stake Voting \(POSV\) consensus protocol. We achieve 2-second block-time and almost instant transaction confirmation.
+TomoChain solutions are based on on-chain scaling built into an architecture of 150 voted Masternodes with our Proof-of-stake Voting \(POSV\) consensus protocol. We achieve 2-second block-time and almost instant transaction confirmation.
 
 To scale further our infrastructure, we have presented our [Sharding proposal](https://bit.ly/2xHK0u3) for uniquely integrating Sharding into our current architecture and consensus. 
 
-Besides sharding, we are actively researching scalability solutions like EVM parallelization and Plasma. New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into TomoChain's masternode architecture.
+Besides sharding, we are actively researching scalability solutions like EVM parallelization and Plasma. New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into TomoChain's Masternode architecture.
 
 ### What is the current TPS? What is your targeted TPS and when do you think you can achieve?
 
