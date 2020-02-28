@@ -10,11 +10,11 @@ Masternodes will receive a significant amount of block rewards, which likely exc
 
 ### Requirements <a id="requirements"></a>
 
-To have a Masternode andidate, the following requirements must be satisfied:
+To have a Masternode Candidate, the following requirements must be satisfied:
 
 * The token holder has an up and running node -- see our [documentation](https://docs.tomochain.com/masternode/tmn/).
 * The token holder must hold a minimum required amount of tokens \(50,000 TOMO\). These 50,000 TOMO are deposited to the Voting Smart Contract.
-* Must be one of the 150 most voted Masternode andidates in the system. The voting by token holders is credited through a Voting DApp that allows token holders to send TOMO through the smart contract mechanism.
+* Must be one of the 150 most voted Masternode Candidates in the system. The voting by token holders is credited through a Voting Dapp that allows token holders to send TOMO through the smart contract mechanism.
 
 ### Applying to become a asternode <a id="applying-to-become-a-masternode"></a>
 
