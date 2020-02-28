@@ -20,11 +20,11 @@ Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMa
 
 Masternodes contribute to the network and for this work they will receive a significant amount of block rewards, which will likely exceed the cost for running the infrastructure. However, Masternode owners need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them in the long term.
 
-After the initial deposit, if the account does not become a Masternode \(has less votes than the top 150 most voted candidates\), he will not receive rewards. Therefore, candidates are incentivised to do as much as they can to signal their capability to support TomoChain to get into top 150 most voted candidates.
+After the initial deposit, if the account does not become a Masternode \(has less votes than the top 150 most voted candidates\), he will not receive rewards. Therefore, Candidates are incentivised to do as much as they can to signal their capability to support TomoChain to get into top 150 most voted Candidates.
 
-### **How did you decide on 150 asternodes? Why did you decide to increase this from the initial 99?**
+### **How did you decide on 150 Masternodes? Why did you decide to increase this from the initial 99?**
 
-The reason came from both decentralization consideration, and also scalability consideration. In terms of decentralization, 150 is better than 99. The more important consideration is the scalability. We also increased the number of masternodes to better suit the sharding solution later.
+The reason came from both decentralization consideration, and also scalability consideration. In terms of decentralization, 150 is better than 99. The more important consideration is the scalability. We also increased the number of Masternodes to better suit the sharding solution later.
 
 Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar%27s_number).
 
@@ -36,11 +36,11 @@ And then later on, the revenues from the DEX will go to the Masternodes as well.
 
 ### **When are Masternode rewards paid out?**
 
-Masternode operators and stakers will receive rewards every epoch. An epoch is a 900-block period of 2-second block time \(~30 minutes\). 
+Masternode operators and Voters will receive rewards every epoch. An epoch is a 900-block period of 2-second block time \(~30 minutes\). 
 
 ### **How can I check my rewards?**
 
-You can check your asternode/staking rewards using TomoWallet. Alternatively you can use TomoMaster or TomoScan.
+You can check your Masternode/staking rewards using TomoWallet. Alternatively you can use TomoMaster or TomoScan.
 
 To estimate rewards you are going to receive when voting a certain amount of TOMO, you can go to [https://tomochain.com/tomo-staking/](https://tomochain.com/tomo-staking/) 
 
@@ -93,7 +93,7 @@ Approximate reward achieved per year:
 
 A Masternode Candidate is any node who deposited 50,000 TOMO and is listed on [TomoMaster](https://master.tomochain.com/).
 
-One Candidate only becomes a Masternode when he is in the top-150 most-voted Masternode candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
+One Candidate only becomes a Masternode when he is in the top-150 most-voted Masternode Candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
 
 ### **How can I become a Masternode?**
 
@@ -131,7 +131,7 @@ Setting up a masternode candidate on a weaker machine might result in poor perfo
 
 ### **How do Masternode Candidates become Masternodes?**
 
-Once you are a Masternode Candidate, you need the support of TomoChain community in the form of votes. The top 150 most voted candidates every period called epoch \(900 blocks of 2-second block-time\) will be promoted to Masternode. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of TOMO. 
+Once you are a Masternode Candidate, you need the support of TomoChain community in the form of votes. The top 150 most voted Candidates every period called epoch \(900 blocks of 2-second block-time\) will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of TOMO. 
 
 ### **Is there any guide on 'How to run a Masternode from A to Z'?**
 
