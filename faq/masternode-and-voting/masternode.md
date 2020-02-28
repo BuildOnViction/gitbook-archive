@@ -89,7 +89,7 @@ Approximate reward achieved per year:
 
 ## Masternode Candidate
 
-### **What is a Masternode Candidate? What is the difference between Masternode Candidate and asternode?**
+### **What is a Masternode Candidate? What is the difference between Masternode Candidate and Masternode?**
 
 A Masternode Candidate is any node who deposited 50,000 TOMO and is listed on [TomoMaster](https://master.tomochain.com/).
 
@@ -97,7 +97,7 @@ One Candidate only becomes a Masternode when he is in the top-150 most-voted Mas
 
 ### **How can I become a Masternode?**
 
-The first step to become a Masternode, is becoming a Masternode andidate. To become a Masternode Candidate you need:
+The first step to become a Masternode, is becoming a Masternode Candidate. To become a Masternode Candidate you need:
 
 * to run TomoChain software in a machine with certain minimal hardware requirements
 * to deposit 50,000 TOMO in a smart-contract via TomoMaster
