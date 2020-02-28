@@ -18,5 +18,5 @@ The backbone of TomoChain's products and ecosystem is the TomoChain blockchain w
 * * **TomoIssuer**: TomoIssuer provides a user-friendly UI and a smart contract that allow any user to issue a TRC21 token and apply the token to the TomoZ protocol in minutes without any programming skills required.
 * **TomoP:** TomoP is a protocol designed to create safe and untraceable transactions. Users' privacy will be protected with information about senders/receivers wallet addresses and transaction values being hidden. TomoP is a comprehensive privacy suite delivering the fastest privacy transactions, Dapp integration, multi-chain support, and private token issuance with regulatory compliance.
 
-![TomoChain Protocols](../.gitbook/assets/tomop.jpeg)
+![](../.gitbook/assets/infographic-protocols-new-logo-01.jpg)
 
