@@ -1,23 +1,25 @@
----
-description: 'The Tomo as a reward for staking, when, how and how much.'
----
-
 # Staking Rewards
 
 ## Token Emission Schedule
 
 * **Following the fundraising commitment**: The total amount of tokens at the genesis block is 55 million TOMO tokens in circulation; 12 million are reserved for the team vested over the next 4 years; 16 million are reserved for strategic partners, and an ecosystem building fund which totals 83 million tokens. Plus, 17 million are reserved as block rewards for the next 8 years, the amount of tokens in circulation at the end of the 8th year after the genesis block is around 100 million TOMO. After the mainnet: the block reward for the first and second year is 4 million TOMO annually; the block reward for the 3rd, 4th, 5th year is 2 million TOMO annually ; and the block reward for the 6th, 7th and 8th year is 1 million TOMO annually . Subsequently, the block reward will be halted, or activated at a number less than or equal to 1 million TOMO annually.
+
+
+
 * **Implementation**: Each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. 250 TOMO will be divided to all the Masternodes proportional to the number of signatures they sign during the epoch. Afterward, the reward achieved by each Masternode will be divided into three portions. The first portion of 40% called “Infrastructure Reward” goes to the Masternode. The second portion of 50% called “Staking Reward” goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake. The last portion of 10% called “Foundation Reward” goes to a special account controlled by the Masternode Foundation, which is run by TomoChain company initially.
-* **Reward frequency**:  Every epoch \(~30 minutes\), you will automatically receive rewards for each masternode you voted for.
+
+
+
+* **Reward frequency**:  Every epoch \(~30 minutes\), you will automatically receive rewards for each Masternode you voted for.
 
 ## Reward Calculation Formula and Details
 
 Note that, for simplification of illustration:
 
-* The total amount of staked TOMO for all masternodes is equal
-* The signatures for all masternodes in the scenarios are equal
+* The total amount of staked TOMO for all Masternodes is equal
+* The signatures for all Masternodes in the scenarios are equal
 
-With these assumptions, all masternodes receive the same divided reward \(R\) and the same infrastructure reward. Furthermore, the reward for Voters with 1,000 staked TOMO is equal regardless of which the amount is voted for.
+With these assumptions, all Masternodes receive the same divided reward \(R\) and the same infrastructure reward. Furthermore, the reward for Voters with 1,000 staked TOMO is equal regardless of which the amount is voted for.
 
 ### Scenario 1: 50 Masternodes, 2.5 million token voting, a total of 5 million token locked.
 
