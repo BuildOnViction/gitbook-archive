@@ -1,8 +1,5 @@
 ---
-description: >-
-  Running a Masternode Candidate require to pay attention to the team's
-  announcements regarding updates and technical notices. Here are the base
-  recommendations for running a Masternode Candidate.
+description: Here are the base requirements for running a Masternode Candidate.
 ---
 
 # Requirements
