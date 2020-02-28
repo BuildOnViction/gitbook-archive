@@ -10,11 +10,9 @@ This article will explain:
 * Use-cases of NFT
 * How-to step-by-step deploy a NFT token on TomoChain
 
-![](../../.gitbook/assets/image%20%2854%29.png)
+What is a Non-Fungible Token \(NFT\)?
 
-## What is a Non-Fungible Token \(NFT\)? <a id="635e"></a>
-
-Fungible tokens are **all equal and interchangeable**. For instance, dollars or Bitcoins or 1 kilogram of pure gold or ERC20 tokens. All TOMO coins are equivalent too, they are the same and have the same value. They are interchangeable 1:1. This is a fungible token.
+Fungible tokens are **all equal and interchangeable**. For instance, dollars or Bitcoins or 1 kilogram of pure gold or ERC20 tokens. All TOMO are equivalent too, they are the same and have the same value. They are interchangeable 1:1. This is a fungible token.
 
 **Non-fungible tokens \(NFTs\)** are **all distinct and special**. Every token is rare, with unique atributes and different value. For instance: CryptoKitty tokens, collectible cards, airplane tickets or real art paintings. Every item has its own characteristics and specifics and is clearly differentiable to another one. They are **not interchangeable** 1:1. They are _distinguishable._
 
@@ -54,7 +52,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 * **Software titles** or ****[**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
 * **Betting** in real time on the outcome of a video game being live-streamed
-* **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future. **TomoChain is having** [**mini** **contests for games** on blockchain](https://medium.com/tomochain/tomochain-is-launching-their-first-international-game-dappathon-20ed0dd793dc), and is welcoming all [developers](https://tomochain.com/tomochain-game-contest/) to build blockchain games
+* **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future. 
 * **Concert tickets and sports match tickets** can be tokenized and name-bound, preventing fraud and at the same time offering fans an option to have a single place where to collect all their past event experiences
 * **Digital Art** **\(or physical art!\)** has already entered the game and showed an important usage of ERC721. Digital art auctions were the first application and still are the first thought of non-fungible token standards. The [auctions organized by Christie’s](https://medium.com/cryptokitties/the-ethereal-summit-and-the-140k-cat-a3b561545a44) revealed the appeal of the public for crypto-collectibles. Several digital art assets were sold during this event, the high point being the sale of the ‘Celestial Cyber Dimension’, an ERC721 CryptoKitty piece of art, for [$140,000](https://medium.com/cryptokitties/the-ethereal-summit-and-the-140k-cat-a3b561545a44)
 * **Real Estate** assets, to carry out transfers of houses, land and other ‘tokenized’ properties through smart contracts
@@ -68,7 +66,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 ## How to deploy a NFT token on TomoChain <a id="aeea"></a>
 
-This article will create a basic **ERC721** token using the [OpenZeppelin](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721)implementation of the [ERC721 standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md). Look at the links in order to familiarize yourself with the requirements as they can sometimes be hidden in the excellent [OpenZeppelin ERC721 implementations](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC721).
+This article will create a basic **ERC721** token using the [OpenZeppelin](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721) implementation of the [ERC721 standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md). Look at the links in order to familiarize yourself with the requirements as they can sometimes be hidden in the excellent [OpenZeppelin ERC721 implementations](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC721).
 
 The assets that your ERC721 tokens \(NFT\) represent will influence some of the design choices for how your contract works, most notably how new tokens are created.
 
@@ -77,7 +75,7 @@ The assets that your ERC721 tokens \(NFT\) represent will influence some of the 
 
 For example, in [CryptoKitties](https://www.cryptokitties.co/), players are able to “breed” their Kitties, which creates new Kitties \(tokens\). However, if your ERC721 token represents something more tangible, like concert tickets, you may not want token holders to be able to create more tokens. In some cases, you may even want token holders to be able to “burn” their tokens, effectively destroying them.
 
-### Let’s Start the NFT Tutorial <a id="9d55"></a>
+### Let’s tart the NFT Tutorial <a id="9d55"></a>
 
 We will now implement a NFT collectible token, like CryptoKitties but with simpler logic.
 
@@ -120,8 +118,6 @@ npm install openzeppelin-solidity
 
 * `TomoChain (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) \(grab ~60 TOMO\)
 * `TomoChain (mainnet)`: You will need real TOMO from exchanges
-
-![](../../.gitbook/assets/image%20%2816%29.png)
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase.
 
@@ -354,7 +350,7 @@ truffle test
 
 ![](../../.gitbook/assets/image%20%2839%29.png)
 
-The test should **pass**. This means that the smart contract **works correctly**and it did successfully what it was expected to do.
+The test should **pass**. This means that the smart contract **works correctly** and it did successfully what it was expected to do.
 
 ### Adding more tests <a id="1f31"></a>
 
