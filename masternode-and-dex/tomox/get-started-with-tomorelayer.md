@@ -16,7 +16,7 @@ Key features of TomoRelayer that help and attract more people towards DeX in the
 
 On the [homepage](https://relayer.testnet.tomochain.com/login), you will see 4 options to unlock your wallet
 
-![](https://miro.medium.com/max/2370/1*gSJoEwCrEzGfDQWqfsbxVg.png)
+![](../../.gitbook/assets/1-gsjoewcrezgfdqwqfsbxvg.png)
 
 ### **Step 2: Once unlocked, you will see the display of the main Dashboard** <a id="d2e3"></a>
 
@@ -29,7 +29,7 @@ The main dashboard displays 2 main tabs
 * **Transfer:** Allowing you to transfer ownership of your Relayer to the new owner
 * **Shutdown:** Allowing you to shut down your Relayer
 
-![](https://miro.medium.com/max/1440/1*NmtxiiurwlJxCO7mxrTpDw.png)
+![](../../.gitbook/assets/1-nmtxiiurwljxco7mxrtpdw.png)
 
 ## **Steps on registering a new Relayer** <a id="eac2"></a>
 
