@@ -2,7 +2,7 @@
 
 ### What is TomoChain?
 
-TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called PoSV \(Proof of Stake Voting\) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternode, and to monitor their performance and governance actively. 
+TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called PoSV \(Proof of Stake Voting\) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternodes, and to monitor their performance and governance actively. 
 
 TomoChain blockchain and product ecosystem allow entrepreneurs, enterprises, and institutions to build high-performance, feature-rich blockchain projects on an enhanced EVM-compatible platform. An array of original features and protocols is designed to support users’ speed, privacy, usability, and liquidity needs all in one platform.
 
@@ -44,7 +44,7 @@ Besides sharding, we are actively researching scalability solutions like EVM par
 
 ### What is the current TPS? What is your targeted TPS and when do you think you can achieve?
 
-TomoChain supports low transaction fees \(approx. 1/100 of that of Ethereum's\) and 2-second transaction confirmation times. The mainnet with POSV Masternodes delivers 2'000 transactions per second \(TPS\).
+TomoChain supports low transaction fees \(approx. 1/100 of that of Ethereum's\) and 2-second transaction confirmation times. The mainnet with POSV Masternodes delivers 2,000 transactions per second \(TPS\).
 
 ### What makes TomoChain different?
 
@@ -53,7 +53,7 @@ The unique point of TomoChain comes from technology, the products and the ecosys
 **Novel technology:** includes
 
 * [Proof of Stake Voting consensus](https://www.youtube.com/watch?v=kZSWjAJHW_s&t=7s)
-* Build in governance D-app
+* Build in governance Dapp
 * Double Validation and Randomization
 
 This enables TomoChain to achieve:
@@ -86,7 +86,7 @@ TomoChain has a unique position in which it adds value to the Ethereum ecosystem
 
 ### TomoChain is EVM-compatible. What does that mean?
 
-EVM means Ethereum Virtual Machine. TomoChain supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. This means that any smart-contract written in Ethereum protocol can be easily ported to TomoChain. Any d-App written in Ethereum can be seamlessly ported to TomoChain.
+EVM means Ethereum Virtual Machine. TomoChain supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers. This means that any smart-contract written in Ethereum protocol can be easily ported to TomoChain. Any Dapp written in Ethereum can be seamlessly ported to TomoChain.
 
 ### Is TomoChain a side-chain of Ethereum?
 
@@ -107,7 +107,7 @@ In terms of security of consensus protocol, TomoChain proposes Double Validation
 TomoChain solves some consensus-related security aspects:
 
 1. Nothing-at-stake problem: This problem is commonly discussed in PoS-based blockchain consensus and just like 51% attacks in PoW. TomoChain solves it by using Double Validation and Randomization. The details are shown in our technical paper.
-2. Long-range attacks: Attackers can try to recreate all blocks from a very far position to the current block. Attackers can do that because PoS-based consensus does not require extra-ordinary hashing power to re-write the whole blockchain. TomoChain addresses by providing finality. Once a block is signed by at least 3/4 masternodes, it is consider irreversible, meaning that any attempt to re-write the blockchain history will be rejected.
+2. Long-range attacks: Attackers can try to recreate all blocks from a very far position to the current block. Attackers can do that because PoS-based consensus does not require extra-ordinary hashing power to re-write the whole blockchain. TomoChain addresses by providing finality. Once a block is signed by at least 3/4 Masternodes, it is consider irreversible, meaning that any attempt to re-write the blockchain history will be rejected.
 3. Censorship-resistance: Please [refer to this medium article](https://medium.com/tomochain/tomochain-vs-eos-io-the-battle-of-posv-vs-dpos-or-just-some-coincidence-of-design-philosophy-b5f606a1e5df) for more detailed analysis
 4. DDoS and spamming attacks: TomoChain's transaction fee is not zero \(even it is very low\), attackers still require a significant amount of TOMO in order to flood the network for only a short time.
 
