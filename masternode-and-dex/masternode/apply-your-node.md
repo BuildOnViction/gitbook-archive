@@ -42,7 +42,7 @@ Confirm with apply and proceed to make the payment.
 
 Your full node will now be listed on TomoMaster. People can view its details and vote for it.
 
-A Candidate becomes a asternode when it belongs to top 150 most voted candidates in each epoch.
+A Candidate becomes a Masternode when it belongs to top 150 most voted Candidates in each epoch.
 
 {% hint style="info" %}
 Info
