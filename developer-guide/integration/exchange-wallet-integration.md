@@ -112,7 +112,7 @@ web3.eth.sendTransaction({
 });
 ```
 
-### Sign data[¶](https://docs.tomochain.com/developers/integrations/#sign-data) <a id="sign-data"></a>
+### Sign data <a id="sign-data"></a>
 
 After unlock a wallet, you can sign some data
 
@@ -120,13 +120,13 @@ After unlock a wallet, you can sign some data
 web3.eth.sign(dataToSign, address [, callback])
 ```
 
-**Parameters¶**
+**Parameters**
 
 1. `String` - Data to sign. If String it will be converted using `web3.utils.utf8ToHex`.
 2. `String|Number` - Address to sign data with. Or an address or index of a local wallet in `web3.eth.accounts.wallet`.
 3. `Function` - \(optional\) Optional callback, returns an error object as first parameter and the result as second.
 
-**Example¶**
+**Example**
 
 ```text
 const Web3 = require('web3')
@@ -147,7 +147,7 @@ web3.eth.sign('testdata').then(function(result){
 });
 ```
 
-### Check transaction status[¶](https://docs.tomochain.com/developers/integrations/#check-transaction-status) <a id="check-transaction-status"></a>
+### Check transaction status <a id="check-transaction-status"></a>
 
 ```text
 web3.eth.getTransactionReceipt(hash [, callback])
@@ -155,12 +155,12 @@ web3.eth.getTransactionReceipt(hash [, callback])
 
 > The receipt is not available for pending transactions and returns null.
 
-**Parameters¶**
+**Parameters**
 
 1. String - The transaction hash.
 2. Function - \(optional\) Optional callback, returns an error object as first parameter and the result as second.
 
-**Returns¶**
+**Returns**
 
 Promise returns Object - A transaction receipt object, or null when no receipt was found:
 
@@ -176,7 +176,7 @@ Promise returns Object - A transaction receipt object, or null when no receipt w
 * `gasUsed` - `Number`: The amount of gas used by this specific transaction alone.
 * `logs` - `Array`: Array of log objects, which this transaction generated.
 
-### Irreversible blocks[¶](https://docs.tomochain.com/developers/integrations/#irreversible-blocks) <a id="irreversible-blocks"></a>
+### Irreversible blocks <a id="irreversible-blocks"></a>
 
 In normal case, you can wait for 60 confirmations, then checking block finality via `eth_getBlockFinalityByNumber` or `eth_getBlockFinalityByHash` API:
 
@@ -185,15 +185,15 @@ In normal case, you can wait for 60 confirmations, then checking block finality 
 
 If `result` &gt;= 75, it means the block with the input hash is finalized, thus irreversible.
 
-### How does TomoChain smart contract work?[¶](https://docs.tomochain.com/developers/integrations/#how-does-tomochain-smart-contract-work) <a id="how-does-tomochain-smart-contract-work"></a>
+### How does TomoChain smart contract work? <a id="how-does-tomochain-smart-contract-work"></a>
 
 TomoChain supports Solidity compiler version &lt;= 0.5.0
 
-### Does TomoChain support muti-signature wallets?[¶](https://docs.tomochain.com/developers/integrations/#possible-to-create-muti-signature-wallet) <a id="possible-to-create-muti-signature-wallet"></a>
+### Does TomoChain support multi-signature wallets? <a id="possible-to-create-muti-signature-wallet"></a>
 
 Yes. Similar to Ethereum, you can use Gnosis MultiSigWallet.
 
-### Run TomoChain node[¶](https://docs.tomochain.com/developers/integrations/#run-tomochain-node) <a id="run-tomochain-node"></a>
+### Run TomoChain node <a id="run-tomochain-node"></a>
 
-Please check [Run TomoChain Fullnode](https://docs.tomochain.com/masternode/requirements/) for details how to run a TomoChain fullnode.
+Please check [Run TomoChain Fullnode](https://docs.tomochain.com/masternode/requirements/) for details how to run a TomoChain full node.
 
