@@ -128,20 +128,20 @@ create-tomochain-masternode mymasternode
 
 Follow the wizard by replying to the following questions:
 
-* **Coinbase private key**: Your masternode coinbase account private key. A TomoChain node uses an account to be uniquely identified and to receive transaction fee.
+* **Coinbase private key**: Your Masternode coinbase account private key. A TomoChain node uses an account to be uniquely identified and to receive transaction fee.
 
 Important note:
 
-We advise for security measures to use a fresh new account for your masternode. This is not the account which will receive the rewards. The rewards are sent to the account which will make the initial deposit.
+We advise for security measures to use a fresh new account for your Masternode. This is not the account which will receive the rewards. The rewards are sent to the account which will make the initial deposit.
 
 * **Storage**: The storage location for your node data \(chaindata\). Either `docker volume` if you want to use the default docker volume location, or `host directory` if you want to define specific location on your filesystem \(usefull when extending storage\).
-* **Chaindata**: The name of the docker volume that will be used or the path to the directory coontaining the chaindata, depending on your answer to the last question.
+* **Chaindata**: The name of the docker volume that will be used or the path to the directory containing the chaindata, depending on your answer to the last question.
 * **The volume already exists**: If you selected "docker volume", this will determine if the volume already exists or if it needs to be created.
-* **Expose RPC**: If you want to expose or not port `8545`. It is the RPC api to your node. It should be only exposed if you have a specific reason to access the TomoChain JSON-RPC Protocol. The masternode owner is responsible of proxing and securing the RPC api as it should not be directly exposed to the internet.
-* **Expose WebSocket**: If you want to expose or not port `8546`. It is the WebSocket api to your node. It should only be exposed if you have a specific reason to access the TomoChain Protocol via WebSocket. The masternode owner is responsible of proxing and securing the WebSocket api as it should not be directly exposed to the internet.
-* **Logging level**: Set the logging level of the TomoChain container to error, info or debug. Info or Error is usually a good logging level. Only use the debug level if you have a good reason to do so, it will generate a lot of output and increase ressource usage.
+* **Expose RPC**: If you want to expose or not port `8545`. It is the RPC api to your node. It should be only exposed if you have a specific reason to access the TomoChain JSON-RPC Protocol. The Masternode owner is responsible of proxing and securing the RPC api as it should not be directly exposed to the internet.
+* **Expose WebSocket**: If you want to expose or not port `8546`. It is the WebSocket api to your node. It should only be exposed if you have a specific reason to access the TomoChain Protocol via WebSocket. The Masternode owner is responsible of proxing and securing the WebSocket api as it should not be directly exposed to the internet.
+* **Logging level**: Set the logging level of the TomoChain container to error, info or debug. Info or Error is usually a good logging level. Only use the debug level if you have a good reason to do so, it will generate a lot of output and increase resource usage.
 
-Once finished, you will get a folder named after your masternode \(in our case "mymasternode"\) with two files.
+Once finished, you will get a folder named after your Masternode \(in our case "mymasternode"\) with two files.
 
 * `.env` Which contains the configuration generated from your answers to the question.
 * `docker-compose.yml` Which tells docker-compose how and which container run for your node. Your specific configuration will be read from the `.env` file.
@@ -152,7 +152,7 @@ Now that we have generated the correct initial configuration for docker-compose,
 docker-compose up -d
 ```
 
-You can check that your masternode is running with the `ps` sub-command.
+You can check that your Masternode is running with the `ps` sub-command.
 
 ```text
 docker-compose ps
@@ -160,11 +160,11 @@ docker-compose ps
 
 For more docker-compose commands, use `docker-compose --help` or refer to their [documentation](https://docs.docker.com/compose/reference/overview/).
 
-### Migrating from `tmn`[¶](https://docs.tomochain.com/masternode/create-tomochain-masternode/#migrating-from-tmn) <a id="migrating-from-tmn"></a>
+### Migrating from `tmn` <a id="migrating-from-tmn"></a>
 
 You can find a guide on migrating from `tmn` in the [wiki](https://github.com/tomochain/docs/wiki/Migrate-from-tmn-to-docker-compose-with-create-tomochain-masternode).
 
-For the long time masternode runners who started with our older tool, `tmn`, here are the commands to achieve the same actions.
+For the long time Masternode runners who started with our older tool, `tmn`, here are the commands to achieve the same actions.
 
 **tmn start**:
 
@@ -191,9 +191,9 @@ docker-compose up -d
 docker-compose down
 ```
 
-### Troubleshooting[¶](https://docs.tomochain.com/masternode/create-tomochain-masternode/#troubleshooting) <a id="troubleshooting"></a>
+### Troubleshooting <a id="troubleshooting"></a>
 
-#### error: could not access the docker daemon[¶](https://docs.tomochain.com/masternode/create-tomochain-masternode/#error-could-not-access-the-docker-daemon) <a id="error-could-not-access-the-docker-daemon"></a>
+#### error: could not access the docker daemon <a id="error-could-not-access-the-docker-daemon"></a>
 
 If you have installed Docker, you probably forgot to add your user to the docker group. Please run this, close your session and open it again.
 
