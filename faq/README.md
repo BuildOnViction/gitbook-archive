@@ -1,7 +1,3 @@
----
-description: 'FAQ''s on the blockchain, masternodes etc.'
----
-
 # FAQ
 
 {% page-ref page="../general/" %}
