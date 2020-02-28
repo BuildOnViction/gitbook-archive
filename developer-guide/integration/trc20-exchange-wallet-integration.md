@@ -1,6 +1,10 @@
-# TRC20 Exchange/Wallet integration
+---
+description: >-
+  This tutorial guides you through integrating TRC20 tokens into your
+  applications, e.g. wallet, exchange.
+---
 
-This tutorial guides you through integrating TRC20 tokens into your applications, e.g. wallet, exchange.
+# TRC20 Exchange/Wallet integration
 
 Smart Contract ABI: [TRC20.json](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json)
 
@@ -22,9 +26,9 @@ TomoChain provides RPC APIs. So you can use Web3 library to directly call the fu
 
 You can follow the steps below to interact with the smart contract by using Web3 library and NodeJS.
 
-### Init Web3 provider[¶](https://docs.tomochain.com/developers/trc20-integrations/#init-web3-provider) <a id="init-web3-provider"></a>
+### Init Web3 provider <a id="init-web3-provider"></a>
 
-At the first step, you need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
+At the first step, you need init Web3 provider by connecting TomoChain Full node RPC endpoint.
 
 You can take a look to [TomoChain Networks](https://docs.tomochain.com/general/networks/) page to get the details of Testnet/Mainnet network information.
 
@@ -34,13 +38,13 @@ const web3 = new Web3('https://rpc.tomochain.com')
 const chainId = 88
 ```
 
-### Unlock wallet[¶](https://docs.tomochain.com/developers/trc20-integrations/#unlock-wallet) <a id="unlock-wallet"></a>
+### Unlock wallet <a id="unlock-wallet"></a>
 
 To create a wallet, you can refer to [Create wallet page](https://docs.tomochain.com/developers/integrations/#create-wallet)
 
 You need to unlock the wallet before interact TRC20 contract
 
-**Example¶**
+**Example**
 
 ```text
 // Unlock wallet by private key
@@ -50,7 +54,7 @@ web3.eth.accounts.wallet.add(account)
 web.eth.defaultAccount = holder
 ```
 
-### Init Web3 TRC20 Contract[¶](https://docs.tomochain.com/developers/trc20-integrations/#init-web3-trc20-contract) <a id="init-web3-trc20-contract"></a>
+### Init Web3 TRC20 Contract <a id="init-web3-trc20-contract"></a>
 
 ```text
 const trc20Abi = require('./TRC20.json')
@@ -61,11 +65,11 @@ const trc20 = new web3.eth.Contract(trc20Abi,
 
 Note: you can get TRC20.json [here](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json)
 
-### Check balance[¶](https://docs.tomochain.com/developers/trc20-integrations/#check-balance) <a id="check-balance"></a>
+### Check balance <a id="check-balance"></a>
 
 You need to call function `balanceOf()` from TRC20 contract to check your token balance for an address.
 
-**Example¶**
+**Example**
 
 ```text
 trc20.methods.balanceOf(holder).call()
@@ -74,7 +78,7 @@ trc20.methods.balanceOf(holder).call()
 }).catch(e => console.log(e))
 ```
 
-### Estimate TX fee \(gas\)[¶](https://docs.tomochain.com/developers/trc20-integrations/#estimate-tx-fee-gas) <a id="estimate-tx-fee-gas"></a>
+### Estimate TX fee \(gas\) <a id="estimate-tx-fee-gas"></a>
 
 Before sending tokens, you need to estimate fee to make sure you have enough TOMO for sending.
 
@@ -84,7 +88,7 @@ You need to use this method:
 myContract.methods.myMethod([param1[, param2[, ...]]]).estimateGas(options[, callback])
 ```
 
-**Example¶**
+**Example**
 
 ```text
 trc20.methods.transfer(to, '500000000000000000000').estimateGas({
@@ -95,11 +99,11 @@ trc20.methods.transfer(to, '500000000000000000000').estimateGas({
 }).catch(e => console.log(e))
 ```
 
-### Transfer token[¶](https://docs.tomochain.com/developers/trc20-integrations/#transfer-token) <a id="transfer-token"></a>
+### Transfer token <a id="transfer-token"></a>
 
 Token holder needs to call function `transfer` to send token to an address
 
-**Example¶**
+**Example**
 
 ```text
 // send 500000000000000000000 tokens to this address (e.g decimals 18)
