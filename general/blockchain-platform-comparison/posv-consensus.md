@@ -22,8 +22,8 @@ EVM-compatible and scalable public blockchain, on which every Ethereum smart con
 
 Massive acceleration of blockchain performance is one of the most important key features of TomoChain. With our proposed PoSV consensus protocol, TomoChain provides:
 
-* At least 2k TPS while still enhancing security through Double Validation
-* 2-second block-time and transaction confirmed within 4-second
+* At least 2,000 TPS while still enhancing security through Double Validation
+* 2-second block-time and transaction confirmed within 4 seconds
 * Significant improvements of user experience and the reasoning for the use of blockchain
 * TPS will be dramatically increased once sharding is enabled
 
