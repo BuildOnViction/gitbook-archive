@@ -16,7 +16,7 @@ TomoChain current offices are located in Singapore, Vietnam and Japan:
 
 * JAPAN
 
-  `Resona Kudan Building 5F, 1-5-6 Kudan-minami, Chiyoda-ku, Tokyo, 102-0074, Japan`
+  `Shotoku Bldg. 7F, 3-8-9 Sotokanda, Chiyoda-ku, Tokyo 101-0021, Japan`
 
 * VIETNAM
 

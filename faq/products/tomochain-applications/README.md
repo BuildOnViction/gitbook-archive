@@ -1,2 +1,2 @@
-# TomoChain Applications
+# TomoChain products
 
