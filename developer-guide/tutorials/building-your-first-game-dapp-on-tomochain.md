@@ -1,10 +1,10 @@
 ---
 description: >-
   Guide on how to develop a simple Smart Contract written in Solidity, and
-  deploy it on TomoChain testnet
+  deploy it on TomoChain Testnet
 ---
 
-# An example of building a Dapp on TomoChain
+# An Example of Building a Dapp on TomoChain
 
 This article will take you through the process of **building a basic Dapp on TomoChain** — an adoption tracking system for a pet shop!
 
@@ -21,19 +21,20 @@ In this guide we will be covering:
 
 ## What is TomoChain? <a id="cd48"></a>
 
-[**TomoChain**](https://tomochain.com/) is an innovative solution to the scalability problem with the Ethereum blockchain, and other blockchain platforms. TomoChain POSV masternode architecture offers **near-zero transaction fee and instant transaction confirmation. Security, stability and chain finality** are guaranteed via novel techniques such as _double validation_ and _uniform randomization_.
+[**TomoChain**](https://tomochain.com/) is a scalable blockchain powered via Proof-of-Stake Voting \(PoSV\) consensus and used commercially by companies globally. TomoChain achieves 2000 TPS, 2-second blocktime, and ~$0 gas fees without compromising decentralization.
 
-TomoChain **supports all EVM-compatible smart-contracts, protocols, and atomic cross-chain token transfers.** Scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be continuously researched and integrated into TomoChain which will become an **ideal scalable smart-contract public blockchain for decentralized apps, token issuance and token integration** for small and big businesses.
+Our mission is to accelerate the onboarding of millions of users by empowering today’s applications with technology that masks the friction of Blockchain, all while retaining its underlying benefits.
+
+The TomoChain blockchain and its product ecosystem allow businesses to build high-performance, feature-rich projects to support speed, privacy, usability, and liquidity.  
+.
 
 > Every DApp running on Ethereum can be easily ported to TomoChain
 
 ### Why should developers build Dapps on TomoChain? <a id="8c4b"></a>
 
-
-
 Remember [_CryptoKitties_](https://www.cryptokitties.co/) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
 
-TomoChain mainnet can process 2'000 TPS, wich is **100x faster than the Ethereum blockchain,** and for a fraction of the cost. If this is not good enough, the Vietnam-based company is working on its Sharding solution aiming to deliver 20'000–30'000 TPS by Q2 2019.
+TomoChain mainnet can process 2'000 TPS, wich is **100x faster than the Ethereum blockchain,** and for a fraction of the cost.
 
 In this tutorial, we will see **how to build a Dapp using Solidity** and then deploy it to **TomoChain** blockchain.
 
@@ -132,7 +133,7 @@ To check the balance of a wallet address, you can use **TomoScan**.
 
 ## 4. Writing the smart contract <a id="d658"></a>
 
-We’ll start our DApp by writing the smart contract that acts as the back-end logic and storage.
+We’ll start our Dpp by writing the smart contract that acts as the back-end logic and storage.
 
 1. Create a new file named `Adoption.sol` in the `contracts/` directory.
 2. Copy the following code:
@@ -176,7 +177,7 @@ Writing artifacts to ./build/contracts
 
 ## 6. Migration — Deploying <a id="6b08"></a>
 
-Now that we’ve successfully compiled, it’s time to **migrate your smart contracts to TomoChain’s blockchain!**
+Now that we’ve successfully compiled, it’s time to **migrate your smart contracts to TomoChain blockchain!**
 
 **A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _\(More about migrations in the_ [_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_\)._
 
@@ -472,7 +473,7 @@ Here is what these functions do:
 
 `initContract()` Retrieves the artifact file for our smart contract. **Artifacts are information about our contract such as its deployed address and Application Binary Interface \(ABI\)**. **The ABI is a JavaScript object defining how to interact with the contract including its variables, functions and their parameters.** We then call the app's `markAdopted()`function in case any pets are already adopted from a previous visit.
 
-`markAdopted()` After calling `getAdopters()`, we then loop through all of them, checking to see if an address is stored for each pet. Ethereum initializes the array with 16 empty addresses. This is why we check for an empty address string rather than null or other falsey value. Once a `petId`with a corresponding address is found, we disable its Adopt button and change the button text to "Success", so the user gets some feedback.
+`markAdopted()` After calling `getAdopters()`, we then loop through all of them, checking to see if an address is stored for each pet. Ethereum initializes the array with 16 empty addresses. This is why we check for an empty address string rather than null or other false value. Once a `petId`with a corresponding address is found, we disable its Adopt button and change the button text to "Success", so the user gets some feedback.
 
 `handleAdopt()` We get the deployed contract and store the instance in `adoptionInstance`. We're going to send a **transaction** instead of a call by executing the `adopt()` function with both the pet's ID and an object containing the account address. Then, we proceed to call our `markAdopted()`function to sync the UI with our newly stored data.
 
@@ -536,7 +537,7 @@ And in MetaMask you’ll see the transaction listed:
 
 ![](../../.gitbook/assets/image%20%288%29.png)
 
-**Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to TomoChain, _the most efficient blockchain for the token economy_!
+**Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to TomoChain.
 
 ###    <a id="8c4b"></a>
 
