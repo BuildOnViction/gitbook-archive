@@ -1,2 +1,3 @@
 redirects:  
     masternode/masternode-setup-guide/: ./masternode-and-dex/masternode/masternode-setup-guide.md
+    get-started/how_to_read/: ./README.md
