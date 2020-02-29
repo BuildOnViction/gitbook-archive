@@ -18,7 +18,7 @@ Step 1: Visit [https://wallet.tomochain.com](https://wallet.tomochain.com/#/logi
 
 Step 2: Click “Create a New Wallet” or "Import Your Wallet" with private key, recovery phrase.
 
-![](../../.gitbook/assets/screen-shot-2019-11-21-at-4.19.35-pm.png)
+![](../../.gitbook/assets/screen-20shot-202019-11-21-20at-204.19.35-20pm.png)
 
 ### **2. Making Transaction from TomoWallet**
 
@@ -34,7 +34,7 @@ To prepare for the TOMO Send-Receive feature on the mobile platform conveniently
 
 When you make a transaction on TomoWallet, this transaction is logged and saved. You can view this information by clicking on the link to TomoScan.
 
-![](../../.gitbook/assets/screen-shot-2020-02-03-at-2.47.17-pm.png)
+![](../../.gitbook/assets/screen-20shot-202020-02-03-20at-202.47.17-20pm.png)
 
 ### 4. Private Key & Backup Key
 
