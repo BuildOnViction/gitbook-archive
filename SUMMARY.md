@@ -38,7 +38,7 @@
       * [Source Code](https://github.com/DuqueKarl/tomochain-pet-shop)
   * [Integration](developer-guide/integration/README.md)
     * [TomoChain Staking Governance](developer-guide/integration/tomochain-staking-governance.md)
-    * [Exchange/wallet integration](developer-guide/integration/exchange-wallet-integration.md)
+    * [Exchange/Wallet Integration](developer-guide/integration/exchange-wallet-integration.md)
     * [TRC20 Exchange/Wallet integration](developer-guide/integration/trc20-exchange-wallet-integration.md)
     * [TRC21 Exchange/Wallet integration](developer-guide/integration/trc21-exchange-wallet-integration.md)
   * [TomoChain Network](developer-guide/working-with-tomochain/README.md)

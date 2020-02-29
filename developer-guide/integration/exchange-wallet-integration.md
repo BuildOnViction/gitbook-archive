@@ -1,4 +1,4 @@
-# Exchange/wallet integration
+# Exchange/Wallet Integration
 
 TomoChain is an EVM-compatible public blockchain. So you can use [TomoChain JSON-RPC APIs](https://apidocs.tomochain.com/#tomochain-apis-json-rpc) similar as in Ethereum.
 
