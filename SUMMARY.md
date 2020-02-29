@@ -101,7 +101,7 @@
   * [Sharding Proposal](https://docs.google.com/document/d/1u7TajABjbllZTAkz741wqvbP5v4t4HvJq935rpefvBE/edit)
 * [Glossary](glossary.md)
 * [Legal](legal/README.md)
-  * [Terms of Use](legal/term-of-use.md)
+  * [Terms of Use](legal/terms-of-use.md)
   * [Privacy Policy](legal/privacy.md)
   * [Legal  Opinion](https://tomochain.com/file/2019/07/TomoChain-legal-opinion.pdf)
 
