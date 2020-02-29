@@ -10,4 +10,4 @@ redirects:
     masternode/masternode-setup-guide/: ./masternode-and-dex/masternode/masternode-setup-guide.md
     masternode/tomonative/: ./masternode-and-dex/masternode/run-a-full-node/binary.md
     masternode/create-tomochain-masternode/: ./masternode-and-dex/masternode/run-a-full-node/create-a-tomochain-masternode.md
-    masternode/tmn/: ./masternode-and-dex/masternode/run-a-full-node/tmn
+    masternode/tmn/: ./masternode-and-dex/masternode/run-a-full-node/tmn.md
