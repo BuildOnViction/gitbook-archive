@@ -9,5 +9,5 @@ redirects:
     general/networks/: ./developer-guide/working-with-tomochain/README.md
     general/faq/: ./faq/README.md
     masternode/requirements/: ./masternode-and-dex/masternode/requirements.md
-    masternode/masternode-setup-guide/: ./masternode-and-dex/masternode/masternode-setup-guide.md
+    masternode/masternode-setup-guide/: './masternode-and-dex/masternode/masternode-setup-guide.md'
 
