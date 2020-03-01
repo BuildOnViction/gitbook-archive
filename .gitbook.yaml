@@ -9,5 +9,6 @@ redirects:
     general/networks/: ./developer-guide/working-with-tomochain/README.md
     general/faq/: ./faq/README.md
     masternode/requirements/: ./masternode-and-dex/masternode/requirements.md
+    masternode/tomonative/: ./masternode-and-dex/masternode/run-a-full-node/binary.md
 
 
