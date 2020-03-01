@@ -10,5 +10,7 @@ redirects:
     general/faq/: ./faq/README.md
     masternode/requirements/: ./masternode-and-dex/masternode/requirements.md
     masternode/tomonative/: ./masternode-and-dex/masternode/run-a-full-node/binary.md
+    masternode/create-tomochain-masternode/: ./masternode-and-dex/masternode/run-a-full-node/create-a-tomochain-masternode.md
+    masternode/tmn/: ./masternode-and-dex/masternode/run-a-full-node/tmn.md
 
 
