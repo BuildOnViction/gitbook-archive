@@ -1,4 +1,4 @@
 root: ./
 
 redirects:  
-    get-started/productoverview: ./general/introduction.md
+    get-started/productoverview/: ./general/introduction.md
