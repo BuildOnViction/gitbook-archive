@@ -5,4 +5,4 @@ redirects:
     masternode/masternode-setup-guide/: ./masternode-and-dex/masternode/masternode-setup-guide.md
     get-started/how_to_read/: ./README.md
     get-started/wallet/: ./general/how-to-connect-to-tomochain-network/tomowallet.md
-    get-started/voting/: ./general/staking.md
+    get-started/voting/: ./general/staking/README.md
