@@ -12,5 +12,6 @@ redirects:
     masternode/tomonative/: ./masternode-and-dex/masternode/run-a-full-node/binary.md
     masternode/create-tomochain-masternode/: ./masternode-and-dex/masternode/run-a-full-node/create-a-tomochain-masternode.md
     masternode/tmn/: ./masternode-and-dex/masternode/run-a-full-node/tmn.md
+    masternode/snapshot/: ./masternode-and-dex/masternode/chain-data-snapshots.md
 
 
