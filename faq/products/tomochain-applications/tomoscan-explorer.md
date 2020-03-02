@@ -24,13 +24,13 @@ Example: [https://scan.tomochain.com/txs/0xedab9e59d4567e9ced8d61caefe20e1e2a3fe
 
 ### [Home](https://scan.tomochain.com/)
 
-![TomoScan homepage](https://docs.tomochain.com/assets/tomoscan1.jpg)
+![TomoScan homepage](../../../.gitbook/assets/tomoscan1.jpg)
 
 This is the home page of TomoScan. In the middle of the page you can find a search field that let you find anything by its address. Under it, some general stats gives you the total amount of accounts, tokens, contracts and blocks.
 
 ### [Transactions](https://scan.tomochain.com/txs) <a id="transactions"></a>
 
-![TomoScan transactions](https://docs.tomochain.com/assets/tomoscan2.jpg)
+![](../../../.gitbook/assets/tomoscan2.jpg)
 
 When consulting a single transaction, the page list the following informations: - The transaction's ID \(Transaction Hash\). - The transaction status. - The transaction containing block. - The transaction age. - The transaction sender address. - The transaction recipient address. - The transaction amount in TOMO. - The transaction gas used. - The transaction gas price. - The transaction total gas cost. - The transaction data.
 
@@ -52,7 +52,7 @@ All the transactions minus the sign and pending ones.
 
 ### [Accounts](https://scan.tomochain.com/accounts) <a id="accounts"></a>
 
-![TomoScan accounts](https://docs.tomochain.com/assets/tomoscan3.jpg)
+![](../../../.gitbook/assets/tomoscan3.jpg)
 
 When clicking on an account, the following informations are displayed: - The account balance in TOMO. - The TOMO USD Value. - The account transactions count. - The transactions of this account. - The mined blocks. - The events of this account. - The rewards of the account for each epoch.
 
@@ -72,7 +72,7 @@ All the verified contracts that exist on the chain. A contracts has to be manual
 
 ### [Tokens](https://scan.tomochain.com/tokens) <a id="tokens"></a>
 
-![TomoScan tokens](https://docs.tomochain.com/assets/tomoscan4.jpg)
+![](../../../.gitbook/assets/tomoscan4.jpg)
 
 List the tokens on TomoChain including TRC20, TRC21 and TRC721, and their transfers.
 
@@ -90,7 +90,7 @@ When clicking on an token, the following informations are displayed: - The token
 
 ### [Blocks](https://scan.tomochain.com/blocks) <a id="blocks"></a>
 
-![TomoScan blocks](https://docs.tomochain.com/assets/tomoscan5.jpg)
+![](../../../.gitbook/assets/tomoscan5.jpg)
 
 List all the blocks on TomoChain. The page list the following informations: - The block height \(index\). - The block age. - The block number of transactions. - The block creator. - The block total gas used. - The block finality.
 
