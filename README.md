@@ -1,8 +1,8 @@
 ---
 description: >-
-  The documentation site is designed to facilitate readers in understanding what
-  is written on the site and how to read the documentation site, depending on
-  readers' interest.
+  We have been building a set of developer tutorials and documentation on
+  developing Dapps to be run on TomoChain as well as to contribute to the
+  development of TomoChain's products.
 ---
 
 # Getting Started
