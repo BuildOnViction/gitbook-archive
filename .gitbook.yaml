@@ -15,5 +15,17 @@ redirects:
     masternode/snapshot/: ./masternode-and-dex/masternode/chain-data-snapshots.md
     masternode/docker/: ./masternode-and-dex/masternode/run-a-full-node/docker.md
     masternode/applying/: ./masternode-and-dex/masternode/apply-your-node.md
+    get-started/run-node/: ./masternode-and-dex/masternode/run-a-full-node/README.md
+    get-started/apply-node/: ./masternode-and-dex/masternode/apply-your-node.md
+    masternode/tomox-fullnode/: ./masternode-and-dex/tomox/tomox-sdk.md
+    masternode/tomox-sdk/: ./masternode-and-dex/tomox/running-a-dex.md
+    developers/integrations/: ./developer-guide/integration/README.md
+    developers/staking-integrations/: ./developer-guide/integration/tomochain-staking-governance.md
+    developers/trc20-integrations/: ./developer-guide/integration/trc20-exchange-wallet-integration.md
+    developers/trc21-integrations/: ./developer-guide/integration/trc21-exchange-wallet-integration.md
+    developers/tutoprivatenet/: ./developer-guide/working-with-tomochain/tomochain-private-testnet-setup.md
+    developers/clicommands/: ./developer-guide/working-with-tomochain/cli-commands.md
+    developers/dappdeploytuto/: ./developer-guide/tutorials/building-your-first-game-dapp-on-tomochain.md
+    developers/icosmartcontract/: ./developer-guide/tutorials/how-to-deploy-an-ico-smart-contract-on-tomochain.md
 
 
