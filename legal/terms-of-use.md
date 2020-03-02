@@ -66,7 +66,7 @@ In order to be completed, all proposed Cryptocurrencies transactions must be con
 
 Once transaction details have been submitted via the Services, we cannot assist you to cancel or otherwise modify your transaction. You must ensure that you have an adequate balance in your Wallet and/or gas to complete transactions before initiating a transaction. You acknowledge and agree that we will not be liable for any failed transactions due to insufficient funds or gas associated with your account.
 
-#### No Control and No Duty  ver Risks
+#### No Control and No Duty over 
 
 Any fee that you might pay while using the Services is not a remuneration of the Company for the Services. This fee is to pay for Masternodes who produce the block to maintain the TomoChain blockchain. 
 
