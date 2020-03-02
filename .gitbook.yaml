@@ -13,5 +13,7 @@ redirects:
     masternode/create-tomochain-masternode/: ./masternode-and-dex/masternode/run-a-full-node/create-a-tomochain-masternode.md
     masternode/tmn/: ./masternode-and-dex/masternode/run-a-full-node/tmn.md
     masternode/snapshot/: ./masternode-and-dex/masternode/chain-data-snapshots.md
+    masternode/docker/: ./masternode-and-dex/masternode/run-a-full-node/docker.md
+    masternode/applying/: ./masternode-and-dex/masternode/apply-your-node.md
 
 
