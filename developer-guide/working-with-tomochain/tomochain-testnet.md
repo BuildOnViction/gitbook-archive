@@ -26,7 +26,8 @@ description: >-
 * [TomoMaster](https://master.testnet.tomochain.com/) \(Governance Dapp\)
 * [TomoWallet](https://wallet.testnet.tomochain.com/) \(Download it and go to Setttings &gt; Switch to TomoChain Testnet\)
 * [Faucet](https://faucet.testnet.tomochain.com/) \(To request testnet TOMO\)
-* [TomoIssuer](https://issuer.testnet.tomochain.com/) \([Dashboard](https://medium.com/tomochain/how-to-deploy-a-trc-21-token-on-tomochain-in-a-few-clicks-d0290f918b9a) to issue your token and experience [TooZ\)](https://medium.com/tomochain/tomoz-explained-a-leapfrog-toward-blockchain-mass-adoption-889f3add7cd4)
+* [TomoDEX ](https://dex.testnet.tomochain.com)\(The first TomoX decentralized exchange\)
+* [TomoIssuer](https://issuer.testnet.tomochain.com/) \([Dashboard](https://medium.com/tomochain/how-to-deploy-a-trc-21-token-on-tomochain-in-a-few-clicks-d0290f918b9a) to issue your token and experience [TomoZ\)](https://medium.com/tomochain/tomoz-explained-a-leapfrog-toward-blockchain-mass-adoption-889f3add7cd4)
 * [TomoRelayer](https://relayer.testnet.tomochain.com) \([Dashboard](https://medium.com/tomochain/launch-your-own-dex-with-tomorelayer-eb440a2d6a3d) to build and manage your DEX utilizing [TomoX](https://medium.com/tomochain/understanding-tomox-tomochains-decentralized-exchange-protocol-2cfe540bc94b)\)  
 
 ### For developers
