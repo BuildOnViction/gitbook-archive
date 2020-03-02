@@ -1,4 +1,5 @@
 root: ./
+description: We have been building a set of developer tutorials and documentation on developing Dapps to be run on TomoChain as well as to contribute to the development of TomoChain's products.
 
 redirects:  
     get-started/productoverview/: ./general/introduction.md
