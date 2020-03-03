@@ -30,7 +30,7 @@ description: >-
 * [TomoIssuer](https://issuer.testnet.tomochain.com/) \([Dashboard](https://medium.com/tomochain/how-to-deploy-a-trc-21-token-on-tomochain-in-a-few-clicks-d0290f918b9a) to issue your token and experience [TomoZ\)](https://medium.com/tomochain/tomoz-explained-a-leapfrog-toward-blockchain-mass-adoption-889f3add7cd4)
 * [TomoRelayer](https://relayer.testnet.tomochain.com) \([Dashboard](https://medium.com/tomochain/launch-your-own-dex-with-tomorelayer-eb440a2d6a3d) to build and manage your DEX utilizing [TomoX](https://medium.com/tomochain/understanding-tomox-tomochains-decentralized-exchange-protocol-2cfe540bc94b)\)  
 
-### Useful smart contract address
+### Useful smart contract addresses
 
 * [TomoZ contract](https://scan.testnet.tomochain.com/address/0x0E2C88753131CE01c7551B726b28BFD04e44003F) \(for applying TomoZ protocol\)
 * [TomoP contract](https://scan.testnet.tomochain.com/address/0x2d94946815076471e204792798951a517ce2f5bf)
