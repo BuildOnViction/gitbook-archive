@@ -20,6 +20,12 @@
 * [Status page](https://stats.tomochain.com/)
 * [TomoScan](https://scan.tomochain.com/) \(Block explorer\)
 * [TomoMaster](https://master.tomochain.com/) \(Governance dApp\)
+* [TomoIssuer](https://issuer.testnet.tomochain.com/) \([Dashboard](https://medium.com/tomochain/how-to-deploy-a-trc-21-token-on-tomochain-in-a-few-clicks-d0290f918b9a) to issue your token and experience [TomoZ\)](https://medium.com/tomochain/tomoz-explained-a-leapfrog-toward-blockchain-mass-adoption-889f3add7cd4)
+
+### Useful smart contract addresses
+
+* [TomoZ contract](https://scan.tomochain.com/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee) \(for applying TomoZ protocol\)
+* [TomoMaster smart contract](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000088) \(for staking and applying a new masternode\)
 
 ### Bootnodes
 
