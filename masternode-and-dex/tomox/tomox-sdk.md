@@ -61,7 +61,7 @@ tomo \
     --announce-txs \
     --tomo-testnet \
     --tomox.dbengine "mongodb" \
-    --ethstats "${NODENAME}:anna-coal-flee-carrie-zip-hhhh-tarry-laue-felon-rhine@stats.testnet.tomochain.com"
+    --ethstats "${NODENAME}:9tlu4EymcTrEzaqWpSxh3KSa926au8@stats.testnet.tomochain.com"
 ```
 
 You node will sync the data from TomoChain network, you need to wait until your node catch up the latest block. You can check the status in the logs or the stats page.
