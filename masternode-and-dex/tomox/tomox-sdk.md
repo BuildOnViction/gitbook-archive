@@ -53,7 +53,7 @@ Then run the node:
 ```text
 NODENAME=[your_node_name]
 tomo \
-    --bootnodes "enode://ce1191bf9a634e7939676d136816ad84941b079c03d6a96e64cca35852363012169055c6879c644e821dc236a01d0499a1b7ff39e9518dbc00da87c7f1898604@13.251.101.216:30301,enode://cf2d05f71f143d85dce45dae6f74fae0ba56fc5ea1d1c548a095e29a5becb3a1fb93eb33e7b1dec43946dcfe608fd1495a02740af710bc615b90ad60fcc04d14@13.250.94.232:30301" \
+    --bootnodes "enode://ba966140e161ad416a7bd7c75dc695e0a41232723e2b19cbbf651883ef5e8f2528801b17b9d63152814d219a58a4fcc3e3c877486e64057523f6714092348efa@195.154.150.210:30301" \
     --networkid 89 \
     --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcport 8545 --rpcvhosts "*" \
     --ws --wsaddr 0.0.0.0 --wsport 8546 --wsorigins "*" \
