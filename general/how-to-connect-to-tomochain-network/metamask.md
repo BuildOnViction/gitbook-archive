@@ -14,10 +14,15 @@ Get started! You first need to install [MetaMask Extension](https://metamask.io/
 
 **Step 2:** When Settings screen pops up, scroll down to `New Network` and click `Show Advanced Options`. Enter the following information, then Save:
 
-* New RPC URL: `https://rpc.tomochain.com`
-* ChainID: `88`
-* Symbol: `TOMO`
-* Nickname: `TomoChain Mainnet`
+|  | **Mainnet** | **Testnet** |
+| :--- | :--- | :--- |
+| New RPC URL | `https://rpc.tomochain.com` | `https://rpc.testnet.tomochain.com` |
+| ChainID | `88` | `89` |
+| Symbol | `TOMO` | `TOMO` |
+| Nickname | `TomoChain` | `TomoChain Testnet` |
+| Block Explorer URL | `https://scan.tomochain.com` | `https://scan.testnet.tomochain.com` |
+
+
 
 ![](../../.gitbook/assets/image%20%2830%29.png)
 
