@@ -42,7 +42,7 @@ tomo account new
 Init genesis block: **Testnet**
 
 ```text
-curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/testnet.json -o genesis.json
+curl -L https://raw.githubusercontent.com/tomochain/tomochain/testnet/genesis/testnet.json -o genesis.json
 tomo init genesis.json
 ```
 
