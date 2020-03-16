@@ -32,7 +32,7 @@
   * [Build a Dapp on TomoChain](developer-guide/building-dapp-on-tomochain/README.md)
     * [Setup Environment](developer-guide/building-dapp-on-tomochain/setup-environment.md)
     * [Write the Smart Contract](developer-guide/building-dapp-on-tomochain/writing-the-smart-contract.md)
-    * [How to Migrate Dapp from Ethereum](developer-guide/building-dapp-on-tomochain/how-to-migrate-dapp-from-ethereum.md)
+    * [How to Migrate Dapps from Ethereum](developer-guide/building-dapp-on-tomochain/how-to-migrate-dapp-from-ethereum.md)
     * [Develop a Simple Web3 Frontend to interact with the contract](developer-guide/building-dapp-on-tomochain/develop-a-simple-web3-frontend-to-interact-with-the-contract/README.md)
       * [Interacting with the Dapp in a browser](developer-guide/building-dapp-on-tomochain/develop-a-simple-web3-frontend-to-interact-with-the-contract/interacting-with-the-dapp-in-a-browser.md)
       * [Source Code](https://github.com/DuqueKarl/tomochain-pet-shop)

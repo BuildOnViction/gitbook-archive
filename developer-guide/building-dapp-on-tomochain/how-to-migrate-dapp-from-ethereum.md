@@ -4,7 +4,7 @@ description: >-
   contracts to TomoChain’s blockchain!
 ---
 
-# How to Migrate Dapp from Ethereum
+# How to Migrate Dapps from Ethereum
 
 **A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _\(More about migrations in the_ [_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_\)._
 
