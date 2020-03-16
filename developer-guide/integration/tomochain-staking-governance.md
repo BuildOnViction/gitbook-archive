@@ -1,6 +1,6 @@
 # TomoChain Staking Governance
 
-Masternodes and Voters' funds are locked and governed in [TomoChain Validator smart contract](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000088):
+Masternodes and Voters' funds are locked and governed in the [TomoChain Validator smart contract](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000088):
 
 * Smart Contract Code: [TomoChain Validator](https://github.com/tomochain/tomomaster/blob/master/contracts/TomoValidator.sol)
 * Smart Contract ABI: [TomoValidatorAbi.json](https://raw.githubusercontent.com/tomochain/tomomaster/master/abis/TomoValidatorAbi.json)
@@ -59,7 +59,7 @@ For testnet/mainnet details, you can get network information [here](https://docs
 
 ### Unlock Wallet <a id="unlock-wallet"></a>
 
-You need to unlock the wallet before staking for the nodes
+Unlock the wallet must be done before staking on the nodes
 
 **Example**
 
@@ -86,9 +86,9 @@ Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com
 
 ### Propose/Apply a Candidate <a id="proposeapply-a-candidate"></a>
 
-Masternode owner need to have at least 50,000 TOMO to apply a full node to become a Masternode Candidate. So make sure you have &gt; 50,000 TOMO in your Masternode owner wallet to deposit to the smart contract and pay transaction fee.
+Masternode owners need to have at least 50,000 TOMO to apply to become a Masternode Candidate. Make sure to have &gt; 50,000 TOMO in the Masternode owner wallet in order to deposit it into the smart contract and pay the related transaction fee.
 
-You can apply to become a Masternode Candidate by call `propose` function from the smart contract
+Apply to become a Masternode Candidate by calling `propose` function from the smart contract
 
 **Example¶**
 
@@ -108,11 +108,11 @@ validator.methods.propose(coinbase).send({
 }).catch(e => console.log(e))
 ```
 
-You can refer to [Staking TomoChain script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
+Refer to [Staking TomoChain script](https://gist.github.com/thanhson1085/7a6471ea0d6c0d6321a0454789d6266c)
 
 ### Stake/Vote for a Candidate <a id="stakevote-a-candidate"></a>
 
-You can stake at least 100 TOMO for a node by calling `vote` function from the smart contract.
+Stake at least 100 TOMO for a node by calling `vote` function from the smart contract.
 
 **Example**
 
@@ -165,7 +165,7 @@ validator.methods.resign(coinbase).send({
 
 ### Withdraw TOMO <a id="withdraw-tomo"></a>
 
-You need to wait for 48 epochs \(if unvote\), 30 days \(if resign\) to unlock your TOMO staked
+You need to wait for 96 epochs \(to unvote\), 30 days \(to resign\) to unlock your staked TOMO
 
 **Example**
 
@@ -195,7 +195,7 @@ web3.eth.getBlockNumber().then(blockNumber => {
 
 ### Get list Withdrawals <a id="get-list-withdrawals"></a>
 
-We need to call `getWithdrawBlockNumbers` and `getWithdrawCap` function from TomoValidator smart contract to get the data
+We need to call `getWithdrawBlockNumbers` and `getWithdrawCap` functions from TomoValidator smart contract to get the data
 
 **Example**
 
