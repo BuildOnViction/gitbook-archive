@@ -9,27 +9,24 @@ description: >-
 
 ### Overview
 
-At the heart of TomoChain, the Proof-of-Stake Voting consensus enables it as an  
-EVM-compatible and scalable public blockchain, on which every Ethereum smart contract can be run efficiently and with almost instant transaction confirmation.
+TomoChain is an EVM compatible blockchain powered by the scalable Proof-of-Stake Voting consensus mechanism that allows every Ethereum smart contract to run with almost instant transaction confirmation. 150 Masternodes secure the TomoChain blockchain and allow for the following:
 
 * Token holders deposit 50,000 TOMO to become a Masternode Candidate
 * Token holders vote for Masternode Candidates
 * Most voted Candidates are selected as Masternodes
-* Masternodes create blocks in a round-robin and double validation
+* Masternodes create blocks in round-robin and use double validation to prevent collusion
 * Masternodes finalizing blocks are incentivized
 
 **High Performance** 
 
-Massive acceleration of blockchain performance is one of the most important key features of TomoChain. With our proposed PoSV consensus protocol, TomoChain provides:
+Massive acceleration of blockchain performance is one of the most important key features of TomoChain. With the PoSV consensus protocol, TomoChain provides:
 
 * At least 2,000 TPS while still enhancing security through Double Validation
 * 2-second block-time and transaction confirmed within 4 seconds
-* Significant improvements of user experience and the reasoning for the use of blockchain
-* TPS will be dramatically increased once sharding is enabled
 
-###  Double Validation
+### Double Validation
 
-Double validation provides an additional trustworthy validation layer for security enhancement through a provable uniform distribution decentralized randomization. Specifically, when a block is created by a Masternode, it must be verified by another Masternode that is randomly selected among the set of Masternodes before being added to the blockchain. Double validation strengthens TomoChain’s security, reduces the risk of a fork occurring, and nothing-at-stake attacks, making TomoChain unique among Proof-of-Stake based blockchains.
+Double validation provides an additional trustworthy validation layer for security enhancement through provable uniform distribution decentralized randomization. Specifically, when a block is created by a Masternode, it must be verified by another Masternode that is randomly selected among the set of Masternodes before being added to the blockchain. Double validation strengthens TomoChain’s security, reduces the risk of forks, and nothing-at-stake attacks, making TomoChain unique among Proof-of-Stake based blockchains.
 
 \*\*\*\*
 
