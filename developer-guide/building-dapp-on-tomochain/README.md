@@ -13,9 +13,9 @@ In this guide:
 
 ### Why should developers build Dapps on TomoChain? <a id="8c4b"></a>
 
-Remember [_CryptoKitties_](https://www.cryptokitties.co/) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
+Remember [_CryptoKitties_](https://www.cryptokitties.co/) in 2017? A single Dapp brought the whole Ethereum blockchain to its knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
 
-TomoChain Mainnet can process 2,000 TPS, wich is **100x faster than the Ethereum blockchain,** and for a fraction of the cost.
+TomoChain Mainnet can process 2,000 TPS, which is **100x faster than the Ethereum blockchain,** and for a fraction of the cost.
 
 In this tutorial, we will see **how to build a Dapp using Solidity** and then deploy it to **TomoChain** blockchain.
 
