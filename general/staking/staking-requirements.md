@@ -18,7 +18,7 @@ Access our Governance Dapp, [TomoMaster](https://master.testnet.tomochain.com/),
 
 ![](../../.gitbook/assets/screen-shot-2020-02-15-at-16.14.32.png)
 
-Click the "Login" button. TomoMaster natively supports multiple options to login including MetaMask, Ledger, Trezor, and Private Key/Mnemonic. Select the appropriate option and login.
+Click the "Login" button. TomoMaster natively supports multiple options to login including MetaMask, [Ledger](https://app.gitbook.com/@tomochain/s/tomochain-docs/general/how-to-connect-to-tomochain-network/ledger), Trezor, and Private Key/Mnemonic. Select the appropriate option and login.
 
 Once configured, vote for Masternodes by clicking on the `Vote` button.
 
