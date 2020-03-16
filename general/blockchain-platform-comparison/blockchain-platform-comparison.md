@@ -8,7 +8,7 @@ description: >-
 
 ## Bitcoin, Ethereum and Blockchain <a id="5994"></a>
 
-Blockchain, the technology behind Bitcoin, has developed over the last decade into one of today’s biggest and most groundbreaking technologies, with the potential to impact every industry from financial to manufacturing, healthcare and educational institutions. Later on, launched in 2015 by Vitalik Buterin, Ethereum is the most notable public blockchain infrastructure after Bitcoin. Ethereum provides a Turing complete language for writing smart contracts. The latter can be automatically executed based on a set of criteria established in the Ethereum blockchain.
+Blockchain, the technology behind Bitcoin, has developed over the last decade into one of today’s biggest and most groundbreaking technologies, with the potential to impact every industry from financial to manufacturing, healthcare and educational institutions. Launched in 2015 by Vitalik Buterin, Ethereum is the most notable public blockchain infrastructure after Bitcoin. Ethereum provides a Turing complete language for writing smart contracts. The latter can be automatically executed based on a set of criteria established in the Ethereum blockchain.
 
 Despite the explosive momentum gained, and promises of Bitcoin and Ethereum, there are still intrinsic issues, especially related to transaction processing performance. Both Bitcoin and Ethereum use Proof-of-Work \(PoW\) in their consensus algorithm where an extraordinary amount of computing power is spent for calculations, called mining, in order to create a block. On the other hand, Bitcoin and the current Ethereum provide very poor performance in terms of transaction processing speed: around 10 transactions per second which is incomparable to traditional electronic payment systems such as VISA and MasterCard.
 
@@ -28,19 +28,17 @@ The blockchain industry and the infrastructure of the Internet of Value are bein
 
 > TomoChain aims to be a public EVM-compatible blockchain with the following advantages: low transaction fees, fast confirmation time, double validation and randomization for security guarantees. TomoChain envisions an ecosystem of different Dapps running on the TomoChain blockchain infrastructure.
 
-In particular, we propose a solution for solving the transaction processing performance bottleneck in Ethereum which hinders its adoption into industries, especially finance. More specifically, we are constructing an efficient and secured consensus protocol, which tackles the following main bottlenecks of classic blockchains:
+In particular, our solution solves the transaction processing performance bottleneck in Ethereum which hinders its adoption into industries, especially finance. More specifically, TomoChain is an efficient and secured consensus protocol, which tackles the following main bottlenecks of classic blockchains:
 
 * _Efficiency: The small throughput of Bitcoin and Ethereum severely hinders a widespread adoption of such crypto- currencies._
 * _Confirmation times: Bitcoin takes on average 1 hour to confirm a transaction because the confirmation of a Bitcoin block requires 5 subsequent blocks created following it. While Ethereum uses a smaller block-time, the average confirmation time still remains relatively high, around 13 minutes. These long confirmation times hinder many important applications \(especially smart contract applications\)._
 * _Fork generation: The problem of fork chain consumes computational energy, time, and creates potential vulnerabilities for different types of attacks._
 
-[In the technical paper](https://tomochain.com/docs/technical-whitepaper--1.0.pdf), TomoChain proposes the Proof-of-Stake Voting \(PoSV\) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventually. The consensus has the following key novelties:
+[In the technical paper](https://tomochain.com/docs/technical-whitepaper--1.0.pdf), TomoChain proposed the Proof-of-Stake Voting \(PoSV\) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventually. The consensus has the following key novelties:
 
 * _Double Validation to strengthen security and reduced fork risk_
 * _Randomization to guarantee a fair division of labour between Masternodes, and prevent handshaking attacks_
 * _Fast confirmation time and efficient checkpoints for finality or rebase_
-
-TomoChain Team is currently implementing these mechanisms based on the Ethereum source code.
 
 ## Overview of EOS.IO <a id="c0a8"></a>
 
