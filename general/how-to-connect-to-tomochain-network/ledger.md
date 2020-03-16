@@ -7,20 +7,20 @@ description: >-
 
 # Ledger
 
-This guide will walk you through
+This guide will show how to
 
-* Install the TomoChain App on your Ledger Nano S
-* Access your TOMO Wallet with the Ledger Nano S through MetaMask and MyEtherWallet.
+* Install the TomoChain App on the Ledger Nano S
+* Access the TOMO Wallet with the Ledger Nano S through MetaMask and MyEtherWallet.
 * Receive TOMO
 * Send TOMO
-* Check account balance on the TomoChain Explorer \(TomoScan\)\]
+* Check account balance on the TomoChain Explorer \(TomoScan\)
 
 ### Requirements
 
 * A [Ledger Nano S hardware wallet](https://www.ledger.com/collections/all-products) with latest firmware.
-* Latest version of ETH app installed
-* A computer with at least macOS 10.9, Windows 8 \(64-bit\) or Linux Ubuntu 16.10.
-* An internet connection and an available USB port. Use an [adapter](https://www.ledger.com/products/ledger-otg-kit) for USB-C ports.
+* Latest version of TOMO app installed
+* A computer with at least macOS 10.9, Windows 8 \(64-bit\) or Linux Ubuntu 16.10
+* An internet connection and an available USB port. Use an [adapter](https://www.ledger.com/products/ledger-otg-kit) for USB-C ports
 * A U2F compatible browser \(Google Chrome, Opera, FireFox, Brave\)
 
 For instructions on how to install Ledger Live, please refer [here](https://support.ledger.com/hc/en-us/articles/360006395553/).
@@ -30,18 +30,18 @@ For instructions on how to install Ledger Live, please refer [here](https://supp
 Using the Ledger Live application, follow these instructions:
 
 * Open the Manager in Ledger Live
-* Connect and unlock your Ledger Nano S
-* Allow the Manager on your Ledger Nano S device by pressing the right button if asked
-* Search the App catalog for TOMO, and click the Install button next to the TOMO app.
-* An installation window will appear, and your device will display Processing…
-* The TOMO App installation has completed on your Ledger Nano S
+* Connect and unlock the Ledger Nano S
+* Allow the Manager on the Ledger Nano S device by pressing the right button if asked
+* Search the App catalog for TOMO, and click the Install button next to the TOMO app
+* An installation window will appear, and the device will display Processing…
+* The TOMO App installation is complete and ready to use
 
 ### Connect with MetaMask
 
 TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge between Ledger Nano S and TomoChain to make transactions to the TomoChain blockchain.
 
 * Connect MetaMask to TomoChain Mainnet by following [this guide](https://docs.tomochain.com/get-started/wallet/) to add a custom network
-* Choose TomoChain Mainnet as the networks
+* Choose TomoChain Mainnet as the network
 
 ![](../../.gitbook/assets/image%20%2856%29.png)
 
@@ -65,9 +65,9 @@ Users can use [MyEtherWallet vintage](http://vintage.myetherwallet.com/) for Led
 
 ### Connect to TomoMaster
 
-TomoMaster is the decentralized governance Dpp of TomoChain, allowing users to vote/unvote for masternodes and apply to become a Masternode candidate.
+TomoMaster is the decentralized governance Dapp of TomoChain, allowing users to vote/unvote for masternodes and apply to become a Masternode Candidate.
 
-* Make sure Ledger Nano S device is powered on, unlocked and the TomoChain Dapp is open.
+* Make sure the Ledger Nano S device is powered on, unlocked and the TomoChain Dapp is open
 * Plug the Ledger Nano S into your PC/Laptop
 * Go to [TomoMaster](https://master.tomochain.com/) using a U2F compatible browser
 * Click on Login button \(top right\)
@@ -84,7 +84,7 @@ TomoMaster is the decentralized governance Dpp of TomoChain, allowing users to v
 * TOMO Balance \(right column\) should show next to addresses \(the first address has 2 TOMO as in the figure\)
 * Click on Unlock your wallet
 
-**Note:** Now you can use Ledger Nano S and TomoMaster to vote and/or apply to become a Masternode candidate \(please refer to [here](https://docs.tomochain.com/get-started/voting/) and [here](https://docs.tomochain.com/get-started/apply-node/) for how to vote and apply to become a Masternode\).
+**Note:** Now you can use Ledger Nano S and TomoMaster to vote and/or apply to become a Masternode Candidate \(please refer to [here](https://docs.tomochain.com/get-started/voting/) and [here](https://docs.tomochain.com/get-started/apply-node/) for how to vote and apply to become a Masternode\).
 
 ![](../../.gitbook/assets/image%20%2820%29.png)
 
