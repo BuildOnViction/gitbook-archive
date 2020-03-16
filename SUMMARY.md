@@ -41,6 +41,7 @@
     * [Exchange/Wallet Integration](developer-guide/integration/exchange-wallet-integration.md)
     * [TRC20 Exchange/Wallet integration](developer-guide/integration/trc20-exchange-wallet-integration.md)
     * [TRC21 Exchange/Wallet integration](developer-guide/integration/trc21-exchange-wallet-integration.md)
+    * [TomoP exchange integration](developer-guide/integration/tomop-exchange-integration.md)
   * [TomoChain Network](developer-guide/working-with-tomochain/README.md)
     * [TomoChain Mainnet](developer-guide/working-with-tomochain/tomochain-mainnet.md)
     * [TomoChain Testnet](developer-guide/working-with-tomochain/tomochain-testnet.md)
