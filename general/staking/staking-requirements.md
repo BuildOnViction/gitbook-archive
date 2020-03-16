@@ -1,28 +1,26 @@
 ---
-description: Introduction to stake TOMO on the Masternodes.
+description: Introduction to stake TOMO on Masternodes.
 ---
 
 # Staking Requirements
 
 ### Prerequisites <a id="prerequisites"></a>
 
-* Have a wallet connected to the TomoMaster
+* Have a wallet connected to the TomoMaster Governance Dapp
 
 ### Introduction <a id="introduction"></a>
 
-With a connected wallet, it's time to try voting for some masternodes. If you have any trouble with connecting to TomoChain ntwork you can go to [How to Connect to TomoChain Network](../how-to-connect-to-tomochain-network/).
+With a connected wallet, it's time to try voting for some Masternodes. If there is any trouble with connecting to the TomoChain network, go to [How to Connect to TomoChain Network](../how-to-connect-to-tomochain-network/).
 
 ### How To Vote <a id="how-to-vote"></a>
 
-Now you have some TOMO. You can access our Governance Dapp, [TomoMaster](https://master.testnet.tomochain.com/), to start voting for Masternodes.
+Access our Governance Dapp, [TomoMaster](https://master.testnet.tomochain.com/), to start voting for Masternodes.
 
 ![](../../.gitbook/assets/screen-shot-2020-02-15-at-16.14.32.png)
 
-TomoMaster natively supports Metamask. You can also access your account page \(the vertical three dots on the top right\) to fill in your wallet Private Key or MNEMONIC \(see image below\).
+Click the "Login" button. TomoMaster natively supports multiple options to login including MetaMask, Ledger, Trezor, and Private Key/Mnemonic. Select the appropriate option and login.
 
-If you use Metamask, you need to connect Metamask to our Testnet \(please see the "Create a wallet" section\) and choose Metamask in the drop-down settings list.
-
-Once configured, you can vote for Masternodes by clicking on the `Vote` button.
+Once configured, vote for Masternodes by clicking on the `Vote` button.
 
 ![Vote](https://docs.tomochain.com/assets/vote.jpg)
 
@@ -30,15 +28,15 @@ At least 100 TOMO is required per vote. After clicking submit, your TOMO will be
 
 ### How to Unvote <a id="how-to-unvote"></a>
 
-If you do no longer wish to support a Masternode you've voted for, you can unvote it by clicking the `Unvote` button on the Masternode's page and enter the amount of TOMO you want to unvote.
+Unvote by clicking the `Unvote` button on the Masternode's page and enter the amount of TOMO to unvote.
 
-After unvoting, your TOMO is still locked in the smart contract for ~48 hours \(96 epochs\) before you are able to withdraw.
+After unvoting, TOMO is still locked in the smart contract for ~48 hours \(96 epochs\) before it is able to be withdrawn.
 
 ### How to Withdraw <a id="how-to-withdraw"></a>
 
-To withdraw after unvoting, you need to wait until your TOMO is unlocked from the smart contract. Then you can click the `withdraw` button in your account page \(the vertical three dots on the top right\) and choose the withdrawal you wish to withdraw back into your wallet.
+To withdraw after unvoting, wait until the TOMO is unlocked from the smart contract after ~48 hours \(96 epochs\). Then click the `withdraw` button under the account page \(the vertical three dots on the top right\) and choose from the list of withdrawal options to withdraw back into the wallet.
 
-Note that you might see multiple withdrawals on your account page if you've made multiple unvotes previously.
+Note that you might see multiple withdrawals on the account page if there have been multiple unvotes made previously.
 
-If you attempt to withdraw before the unlock period expires, an error will be raised.
+Withdraws cannot be attempted before the unlock period expires.
 
