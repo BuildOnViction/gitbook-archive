@@ -16,9 +16,9 @@ The TomoChain blockchain and product ecosystem allows entrepreneurs, enterprises
 
 TomoChain is built on a performance layer that achieves high transaction speeds without compromising decentralization. Proof of Stake Voting consensus gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternodes, and to monitor their performance and governance actively. The staking-governance Dapp, TomoMaster, is recognized as one of the leading staking platforms in the industry.
 
-In the technical paper, TomoChain proposes the Proof-of-Stake Voting \(PoSV\) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventually. The consensus has the following key novelties:
+In the technical paper, TomoChain proposes the Proof-of-Stake Voting \(PoSV\) consensus, which is a PoS-based blockchain protocol with a fair voting mechanism, rigorous security guarantees, and uniform probability eventuality. The consensus has the following key novelties:
 
 * Double Validation to strengthen security and reduce the risk of a blockchain fork
 * Randomization provides security, and prevents handshaking attacks
-* Fast confirmation time and efficient checkpoints for finality or rebase
+* Fast confirmation time and efficient checkpoints for finality
 
