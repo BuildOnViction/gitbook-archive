@@ -1,8 +1,8 @@
 ---
 description: >-
-  This guidance will show you how to connect to TomoChain Mainnet to check your
-  balance, move your tokens around as well as start staking, via MEW, Ledger
-  Nano S, Metamask and TomoWallet.
+  This guide will show you how to connect to the TomoChain Mainnet to check
+  balance, move tokens, and start staking via MEW, Ledger Nano S, Metamask and
+  TomoWallet.
 ---
 
 # How to Connect to TomoChain Network
