@@ -1,6 +1,6 @@
 ---
 description: >-
-  This chapter contains the resources for Dapp development - back-end/front-end
+  This section contains resources for Dapp development - back-end/front-end
   APIs, tools, and useful tutorials.
 ---
 
