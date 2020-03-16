@@ -10,7 +10,7 @@ Now we’re ready to use our Dapp!
 
 ![](https://miro.medium.com/max/60/1*tV2bQfZ2vVhvpOOwKY0Y5g.png?q=20)![](https://miro.medium.com/max/1828/1*tV2bQfZ2vVhvpOOwKY0Y5g.png)Initiating MetaMask
 
-4. Now we’re connected to the Ethereum network,with a brand new wallet with 0 ETH.
+4. Now we’re connected to the Ethereum network, with a brand new wallet with 0 ETH.
 
 5. Let’s now connect MetaMask to TomoChain \(testnet\). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](https://docs.tomochain.com/general/networks/) \(testnet\) and click **Save**
 
