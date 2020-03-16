@@ -1,5 +1,5 @@
 ---
-description: How to connect with TomoChain Mainnet using MyEtherwallet
+description: How to connect with TomoChain Mainnet using MyEtherWallet (MEW)
 ---
 
 # MyEtherWallet
@@ -18,7 +18,7 @@ If the above guidance does not work, contact us via telegram chat: t.me/tomochai
 
 ### **When you login to MEW via the private key** <a id="33b8"></a>
 
-On MEW, you hit “Access my wallet" -&gt; Software -&gt; Choose what way you prefer \(private key, keystore file or mnemonic phrase\) -&gt; Change the network to TomoChain \(inside the red rectangle\) as the picture below
+On MEW, click “Access my wallet" -&gt; Software -&gt; Choose what way you prefer \(private key, keystore file or mnemonic phrase\) -&gt; Change the network to TomoChain \(inside the red rectangle\) as the picture below
 
 ![](../../.gitbook/assets/image%20%2817%29.png)
 
