@@ -1,7 +1,7 @@
 ---
 description: >-
-  We will walk you through all different token standards on the TomoChain
-  platform.
+  The following is a walk-through of all different token standards on the
+  TomoChain platform.
 ---
 
 # Standards & Specification
