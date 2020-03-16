@@ -7,7 +7,7 @@ description: >-
 
 # Getting Started
 
-![](.gitbook/assets/group-14.png)
+![](.gitbook/assets/email-signature-04-2.png)
 
 * **For Voters**: Voters who mainly vote for Masternodes to receive rewards are encouraged to our tutorials on [how to connect wallets to TomoChain](https://docs.tomochain.com/get-started/wallet) and [how to vote](https://docs.tomochain.com/get-started/voting/).
 * **For Masternode owners**: A Masternode is an important entity in TomoChain's ecosystem. A TomoChain Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of TOMO. A Masternode must satisfy a certain [minimum requirements](https://docs.tomochain.com/masternode/masternode-setup-guide/#technical-requirements-recommendations) to its computing power, RAM, and storage in order to stably maintain the network. A financial requirement of 50,000 TOMO is also needed to [apply](https://docs.tomochain.com/masternode/masternode-setup-guide/#11-apply-for-masternode-candidacy) to become a Masternode Candidate. For this, Masternode owners are highly recommended to carefully read our dedicated guide to [running a Masternode](https://docs.tomochain.com/masternode/masternode-setup-guide), using [tmn](https://docs.tomochain.com/masternode/masternode-setup-guide/#6-installing-tmn-utility) and [Docker](https://docs.tomochain.com/masternode/masternode-setup-guide/#5-setup-docker-logged-in-as-new-user). Also, Masternode owners can follow our [tutorial](https://medium.com/tomochain/how-to-run-a-tomochain-masternode-from-a-to-z-3793752dc3d1) on TomoChain medium page and our [wiki page](https://github.com/tomochain/docs/wiki).
