@@ -28,5 +28,6 @@ redirects:
     developers/dappdeploytuto/: ./developer-guide/tutorials/building-your-first-game-dapp-on-tomochain.md
     developers/icosmartcontract/: ./developer-guide/tutorials/how-to-deploy-an-ico-smart-contract-on-tomochain.md
     wp-and-research/specs/trc21_standard/: ./developer-guide/standards-and-specification/trc721-specification.md
+    products/tomobridge/faq/: ./faq/products/tomochain-applications/tomobridge.md
 
 
