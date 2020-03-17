@@ -1,7 +1,7 @@
 ---
 description: >-
-  This chapter contains practical examples of building, deploying projects on
-  TomoChain with complete source code and explanation.
+  This chapter contains practical examples of building and deploying projects on
+  TomoChain with complete source code and explanations.
 ---
 
 # Tutorials
