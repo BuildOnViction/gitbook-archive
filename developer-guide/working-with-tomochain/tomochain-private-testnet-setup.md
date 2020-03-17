@@ -1,8 +1,8 @@
 ---
 description: >-
   This tutorial shows how to set up a private TomoChain Testnet on a local
-  machine. The purpose is to help developers familiarise TomoChain's source code
-  and initial setup to contribute to TomoChain.
+  machine. The purpose is to help developers to familiarise themselves with
+  TomoChain's source code and initial setup.
 ---
 
 # TomoChain Private Testnet Setup
@@ -50,7 +50,7 @@ mkdir $HOME/tomochain/keystore/1 $HOME/tomochain/keystore/2 $HOME/tomochain/keys
 
 ### Initialize / Import Accounts For the Masternodes's Keystore <a id="initialize-import-accounts-for-the-masternodess-keystore"></a>
 
-* Initialize new accounts: If you have existing accounts and prefer importing them, please ignore this step and go to `Import Accounts`
+* Initialize new accounts: If there are existing accounts and a preference to import them, please ignore this step and go to `Import Accounts`
 
 ```text
 tomo account new \
