@@ -4,7 +4,7 @@ description: Creating a TRC-20 Token Crowdsale with Truffle and OpenZeppelin
 
 # How to deploy an ICO smart contract on TomoChain
 
-This article will take you through the process of **creating a basic ICO on TomoChain** — you will sell your own TRC-20 tokens to your investors!
+This article will go through the process of **creating a basic ICO on TomoChain** using TRC-20 tokens issued on TomoChain.
 
 ![](../../.gitbook/assets/image-2-copy%20%281%29.png)
 
@@ -30,13 +30,13 @@ ICOs can have one or multiple **rounds**. For instance, a **PreSale** round for 
 
 Some ICOs use a **whitelist**. ****This means that participants have to **register in advance to participate in the ICO** sale. Whitelists usually limit the number of spots and/or the initial min/max buy. Investors may need to register with some documents, to comply with some countries regulations, KYC/AML…
 
-Besides the law, you should take into account the **security** issue for your smart contracts. Try to make your contracts as simple as possible \(security loves simple\).
+Besides the law, take into account the **security** issue for the smart contracts and try to make contracts as simple as possible \(security loves simple\).
 
 > The idea of a crowdsale, ICO, or a token sale is simple. You can automate exchanging your tokens for the base cryptocurrency \(like ETH or TOMO\), and you do it with a smart contract
 
-The **smart contract** that we use in this tutorial is very simple and only for education purposes. In fact, the scenario for an ICO is more complicated and you need to test and audit to prevent bugs and you also need to comply with the law and regulations of the country where you sell your token.
+The **smart contract** that we use in this tutorial is very simple and only for educational purposes. In fact, the scenario for an ICO is more complicated and needs to be tested and audited to prevent bugs. Finally, compliance with the laws and regulations of the country where the ICO is conducted should be adhered to.
 
-**This tutorial will walk you through the steps of setting up your account through to issuing your ICO contract on TomoChain network using simple smart contracts and MetaMask.**
+**This tutorial will walk through the steps of setting up an account through issuing an ICO contract on TomoChain network using simple smart contracts and MetaMask.**
 
 For this tutorial we are using:
 
@@ -79,15 +79,15 @@ npm install openzeppelin-solidity
 
 ## 2. Preparing your TOMO wallet <a id="ef52"></a>
 
-**You will need a wallet address** and some tokens. We will show you how to do it on both TomoChain Testnet and Mainnet.
+**You will need a wallet address** and some tokens. We will show how to do it on both TomoChain Testnet and Mainnet.
 
-### 2.1 Create a TOMO wallet and save your Mnemonic <a id="eb9e"></a>
+### 2.1 Create a TOMO wallet and save the Mnemonic <a id="eb9e"></a>
 
-You can create a new TOMO wallet using **TomoWallet** mobile app for [Android](https://play.google.com/store/apps/details?id=com.tomochain.wallet) or [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/\#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet\].
+Create a new TOMO wallet using **TomoWallet** mobile app for [Android](https://play.google.com/store/apps/details?id=com.tomochain.wallet) or [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/\#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet\].
 
-Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
+Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO \(tomochain.com\)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO \(tomochain.com\)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address \(testnet\) is:
 
@@ -107,7 +107,7 @@ Write them down. This will be needed later. **Notice that your wallet address an
 
 ### 2.2 Get some TOMO funds <a id="2e01"></a>
 
-We will need some tokens for smart contract deployment and also to test later our ICO smart contracts.
+We will need some tokens for smart contract deployment and also to test later with our ICO smart contracts.
 
 **Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com/).
 
@@ -117,7 +117,7 @@ Go to faucet and collect `60 TOMO`. Now your wallet has enough balance to do eve
 
 ### 2.3 The Block Explorer <a id="07a6"></a>
 
-To check the balance of a wallet address, you can also use **TomoScan**.
+To check the balance of a wallet address, use **TomoScan**.
 
 **Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com/)
 
@@ -129,7 +129,7 @@ To check the balance of a wallet address, you can also use **TomoScan**.
 
 ### 3.1 MyToken <a id="bc39"></a>
 
-We use and extend **OpenZeppelin** contracts to create more secure dapps in less time. OpenZeppelin comes with a wide array of smart contracts for various important functions.
+We use and extend **OpenZeppelin** contracts to create more secure Dapps in less time. OpenZeppelin comes with a wide array of smart contracts for various important functions.
 
 We’ll be extending now the token contracts to create our own [ERC20](https://theethereum.wiki/w/index.php/ERC20_Token_Standard)-compliant \(TRC20\) token.
 
