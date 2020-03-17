@@ -50,7 +50,7 @@
   * [Tutorials](developer-guide/tutorials/README.md)
     * [How to Deploy a TRC21 Token on TomoChain](developer-guide/tutorials/how-to-deploy-a-trc21-token-on-tomochain.md)
     * [How to deploy an ICO smart contract on TomoChain](developer-guide/tutorials/how-to-deploy-an-ico-smart-contract-on-tomochain.md)
-    * [How to deploy a NFT token](developer-guide/tutorials/how-to-deploy-a-nft-token.md)
+    * [How to deploy an NFT token](developer-guide/tutorials/how-to-deploy-a-nft-token.md)
     * [An Example of Building a Dapp on TomoChain](developer-guide/tutorials/building-your-first-game-dapp-on-tomochain.md)
     * [Migrating Ethereum Dapp to TomoChain](developer-guide/tutorials/migrating-ethereum-app-to-tomochain.md)
 * [Masternode and DEX](masternode-and-dex/README.md)

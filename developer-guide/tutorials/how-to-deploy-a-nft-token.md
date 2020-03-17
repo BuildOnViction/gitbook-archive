@@ -1,8 +1,8 @@
 ---
-description: 'Create your unique ERC721 tokens (ie: CryptoKitties) on TomoChain!'
+description: 'Create a unique ERC721-equivalent token (ie: CryptoKitties) on TomoChain!'
 ---
 
-# How to deploy a NFT token
+# How to deploy an NFT token
 
 This article will explain:
 
@@ -32,7 +32,7 @@ Some high demand non-fungible tokens are applications like [CryptoKitties](https
 
 ### CryptoKitties <a id="25ec"></a>
 
-At the end of 2017, NFTs made a remarkable entrance in the blockchain world with the sucess of **CryptoKitties.** Each one is a unique collectible item, with its own serial number, which can be compared to its DNA card. This unleashed an unprecedented interest for NFTs, that went so far as to clog the Ethereum network. **The CryptoKitties market alone generated $12 million dollars in two weeks after its launch, and over $25 million in total**. Some rare cryptokitties were even [sold for 600 ETH \($170,000\)](https://thenextweb.com/hardfork/2018/09/05/most-expensive-cryptokitty/).
+At the end of 2017, NFTs made a remarkable entrance in the blockchain world with the success of **CryptoKitties.** Each one is a unique collectible item, with its own serial number, which can be compared to its DNA card. This unleashed an unprecedented interest for NFTs, that went so far as to clog the Ethereum network. **The CryptoKitties market alone generated $12 million dollars in two weeks after its launch, and over $25 million in total**. Some rare cryptokitties were even [sold for 600 ETH \($170,000\)](https://thenextweb.com/hardfork/2018/09/05/most-expensive-cryptokitty/).
 
 **The strength of NFTs resides in the fact that each token is unique and cannot be mistaken for another one**– unlike bitcoins, for example, which are interchangeable with one another.
 
@@ -75,9 +75,9 @@ The assets that your ERC721 tokens \(NFT\) represent will influence some of the 
 
 For example, in [CryptoKitties](https://www.cryptokitties.co/), players are able to “breed” their Kitties, which creates new Kitties \(tokens\). However, if your ERC721 token represents something more tangible, like concert tickets, you may not want token holders to be able to create more tokens. In some cases, you may even want token holders to be able to “burn” their tokens, effectively destroying them.
 
-### Let’s tart the NFT Tutorial <a id="9d55"></a>
+### Let’s Start the NFT Tutorial <a id="9d55"></a>
 
-We will now implement a NFT collectible token, like CryptoKitties but with simpler logic.
+We will now implement an NFT collectible token, like CryptoKitties but with simpler logic.
 
 You’ll learn **how to create non fungible tokens**, how to **write tests** for your smart contracts and **how to interact** with them once deployed.
 
@@ -127,7 +127,7 @@ Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you ca
 
 ### 3.1 GradientToken.sol <a id="bc39"></a>
 
-We’ll be extending now the **OpenZeppelin** ERC721 token contracts to create our _Gradient Token_.
+We’ll be extending the **OpenZeppelin** ERC721 token contracts to create our _Gradient Token_.
 
 1. Go to `contracts/` folder and create a new file called `GradientToken.sol`
 2. Copy the following code
@@ -175,7 +175,7 @@ We inherited from two contracts: **ERC721Full** to make it represent a non-fungi
 
 Every token will have a **unique** `tokenId`, like a serial number. We also added two attributes: `inner` and `outer` to save CSS colors.
 
-**Ownable** allows managing _authorization_. It assigns ownership to deployer \(when the contract is deployed\) and adds _modifier_ **onlyOwner** that allows you to restrict certain methods only to contract owner. Also, you can transfer ownership. You can approve a third party to spend tokens, burn tokens, etc.
+**Ownable** allows managing _authorization_. It assigns ownership to the deployer \(when the contract is deployed\) and adds _modifier_ **onlyOwner** that allows restrictions to certain methods only to the contract owner. Also, ownership can be transferred. Additionally, third parties can be approved to spend tokens, burn tokens, etc.
 
 Our solidity code is simple and I would recommend a deeper dive into the ERC-721 standard and the OpenZeppelin implementation.
 
@@ -212,7 +212,7 @@ Now we set up the migrations: the **blockchain** where we want to deploy our sma
 npm install truffle-hdwallet-provider
 ```
 
-2. Open `truffle.js` file \(`truffle-config.js` on Windows\). You can edit here the migration settings: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `TomoChain (testnet)`, `TomoChain (Mainnet)`, etc…
+2. Open `truffle.js` file \(`truffle-config.js` on Windows\). Here the migration settings can be edited: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `TomoChain (testnet)`, `TomoChain (Mainnet)`, etc…
 
 Both Testnet and Mainnet **network configurations** are described in the [official TomoChain documentation — Networks](https://docs.tomochain.com/general/networks/). We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
@@ -324,7 +324,7 @@ ganache-cli -p 8545
 
 We will add now tests to check our smart contracts.
 
-When you deploy contracts your first contract will usually be the deployer. This test will check that.
+When deploying contracts the first contract will usually be the deployer. This test will check that.
 
 Create `GradientTokenTest.js` in `/test` directory and write the following test:
 
@@ -391,7 +391,7 @@ Back in our terminal, migrate the contract to **TomoChain testnet** network:
 truffle migrate --network tomotestnet
 ```
 
-To deploy to **TomoChain mainnet** is very similar:
+To deploy to the **TomoChain mainnet** is very similar:
 
 ```text
 truffle migrate --network tomomainnet
@@ -461,7 +461,7 @@ Now to create a new Gradient Token you can call:
 GradientToken(gradientTokenAddress).mint("#001111", "#002222")
 ```
 
-You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.com/@blockchain101/interacting-with-deployed-ethereum-contracts-in-truffle-39d7c7040455)... In a DApp or game this would probably be called from a button click in a UI.
+You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.com/@blockchain101/interacting-with-deployed-ethereum-contracts-in-truffle-39d7c7040455)... In a Dapp or game this would probably be called from a button click in a UI.
 
 Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) \(MEW\) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in TomoChain \(testnet\), then we will call function `mint()` to mint the first token.
 
@@ -483,7 +483,7 @@ Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B83
 You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! This way you can check if values are correct, totalSupply, transfer tokens...
 
 {% hint style="info" %}
-In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https://ropsten.etherscan.io/address/0x22fb8a49811d33d34be96c82b3937b252e78a8d5)will **change** after the first token is minted. A new link will be displayed now to track the ERC721 token `GRAD`.
+In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https://ropsten.etherscan.io/address/0x22fb8a49811d33d34be96c82b3937b252e78a8d5) will **change** after the first token is minted. A new link will be displayed now to track the ERC721 token `GRAD`.
 {% endhint %}
 
 ![](../../.gitbook/assets/image%20%286%29.png)
@@ -501,9 +501,7 @@ A few suggestions to continue from here:
 
 ![](../../.gitbook/assets/image%20%2813%29.png)
 
-**Congratulations!** You have learnt about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on TomoChain.
-
-Now we are looking forward to see your awesome ideas implemented!
+**Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on TomoChain.
 
 ### Source Code <a id="04a2"></a>
 
