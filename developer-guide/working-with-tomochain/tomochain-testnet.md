@@ -1,7 +1,7 @@
 ---
 description: >-
-  The Testnet network is meant to be a public demo of our products and a way for
-  us to test new features.
+  The Testnet network is meant to be a public demo of products and a way for to
+  test new features.
 ---
 
 # TomoChain Testnet
@@ -40,11 +40,11 @@ description: >-
 
 ### For developers
 
-Testnet is the best way to test your smart contracts. Configure your deployment tool \(truffle for example\) to connect to the estnet and deploy your new code without having to worry about fees.
+Testnet is the best way to test smart contracts. Configure the deployment tool \(truffle for example\) to connect to the testnet and deploy new code without having to worry about fees.
 
 ### For investors and enthusiasts
 
-You will find on the Testnet the exact same ecosystem as on the actual Mainnet.
+The Testnet is the exact same ecosystem as that on the actual Mainnet.
 
 ### Bootnodes
 
