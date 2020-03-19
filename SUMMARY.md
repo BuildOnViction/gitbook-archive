@@ -78,7 +78,7 @@
     * [TOMO - Economics](faq/general/usdtomo-economic.md)
     * [Company](faq/general/company.md)
   * [Masternodes and Voting](faq/masternode-and-voting/README.md)
-    * [Masternode](faq/masternode-and-voting/masternode.md)
+    * [Masternodes](faq/masternode-and-voting/masternode.md)
     * [Voter](faq/masternode-and-voting/voter.md)
   * [Products and Protocols](faq/products/README.md)
     * [TomoChain Products](faq/products/tomochain-applications/README.md)
