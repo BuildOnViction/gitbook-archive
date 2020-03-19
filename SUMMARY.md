@@ -77,7 +77,7 @@
     * [Ecosystem](faq/general/ecosystem.md)
     * [TOMO - Economics](faq/general/usdtomo-economic.md)
     * [Company](faq/general/company.md)
-  * [Masternode and Voting](faq/masternode-and-voting/README.md)
+  * [Masternodes and Voting](faq/masternode-and-voting/README.md)
     * [Masternode](faq/masternode-and-voting/masternode.md)
     * [Voter](faq/masternode-and-voting/voter.md)
   * [Products and Protocols](faq/products/README.md)

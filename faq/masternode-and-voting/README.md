@@ -1,4 +1,4 @@
-# Masternode and Voting
+# Masternodes and Voting
 
 {% page-ref page="masternode.md" %}
 
