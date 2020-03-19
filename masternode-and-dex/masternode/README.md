@@ -1,8 +1,8 @@
 ---
 description: >-
-  Running a Masternode Candidate require to pay attention to the team's
-  announcements regarding updates and technical notices. Here are the base
-  recommendations for running a Masternode Candidate.
+  Here are the base recommendations for running a Masternode Candidate. Running
+  a Masternode Candidate requires regular supervision and keeping track of
+  updates and technical notices from TomoChain.
 ---
 
 # Masternode
