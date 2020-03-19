@@ -25,8 +25,8 @@ The following are required items and server specifications. [Click here for more
 
 ### Knowledge Requirements <a id="knowledge-requirements"></a>
 
-* **VPS Setup** - You are able to setup your own cloud-hosted virtual private server \(VPS\)
-* **Linux familiarity** - You have a basic knowledge of how to SSH-into \(ex: putty or terminal\) and operate the Linux command-line.
+* **VPS Setup** - Ability to setup a cloud-hosted virtual private server \(VPS\)
+* **Linux familiarity** - A basic knowledge of how to SSH-into \(ex: putty or terminal\) and operate the Linux command-line.
 
 **Do not proceed if you are not confident** with the Linux command-line. Why? The upkeep and troubleshooting will become more complex than this guide. Some commands fail and you must know what you are doing.
 
@@ -44,7 +44,7 @@ For advanced users or repeat-offenders, see this super-short command-line-only v
 
 A Masternode is a computer on a decentralized blockchain network that is running 24 hours a day, and keeps the system operational. It powers the blockchain network by processing transactions and signing blocks.
 
-#### What are the benefits of a asternode? <a id="what-are-the-benefits-of-a-masternode"></a>
+#### What are the benefits of a Masternode? <a id="what-are-the-benefits-of-a-masternode"></a>
 
 Masternodes help support the network by creating and signing blocks, providing faster transaction times, and decentralized operations. They utilize PoS \(Proof of Stake\) vs PoW \(Proof of Work\) consensus-building. Masternode operators are paid a reward \(tokens\) as an incentive for their involved investment of token deposit, server setup, and continued operation.
 
@@ -54,7 +54,7 @@ VPS stands for Virtual Private Server. They are paid servers hosted on a cloud-h
 
 #### Why is a VPS highly recommended for Masternodes? <a id="why-is-a-vps-highly-recommended-for-masternodes"></a>
 
-A VPS is recommended \(and often required\) for asternode setups, as you will need a dedicated static IP and 99.9% uptime to provide a stable and efficient node for the network. Unlike your home or office PC, a Masternode VPS serves one purpose, to securely and efficiently run a asternode. A VPS is online 24/7 and provides dedicated resources for the project’s decentralized network.
+A VPS is recommended \(and often required\) for Masternode setups, as you will need a dedicated static IP and 99.9% uptime to provide a stable and efficient node for the network. Unlike your home or office PC, a Masternode VPS serves one purpose, to securely and efficiently run a Masternode. A VPS is online 24/7 and provides dedicated resources for the project’s decentralized network.
 
 ### 1. Choose your hosting provider <a id="1-choose-your-hosting-provider"></a>
 
@@ -69,14 +69,14 @@ The following providers are **sample** VPS providers. You could choose elsewhere
 * [OVH](https://www.ovh.com/)
 * [Vultr](https://www.vultr.com/)
 
-> Note on provider choice: It is encouraged for asternode operators to utilize various hosting providers so as to encourage a more decentralized network. It is in your best interest because if any one popular provider goes down, others will get more rewards.
+> Note on provider choice: It is encouraged for Masternode operators to utilize various hosting providers so as to encourage a more decentralized network. It is in your best interest because if any one popular provider goes down, others will get more rewards.
 
 ### 2. Start your VPS server <a id="2-start-your-vps-server"></a>
 
 **Start/Boot your VPS server instance.**  
 Choose **Ubuntu 18.04**. This is an LTS version \([Long Term Support](https://wiki.ubuntu.com/LTS)\). LTS versions are more stable and have seen less errors when installing Docker and Python. You must use Ubuntu 18.04 to seek support from the wider community or TomoChain. If you need help with this, [see this example](https://medium.com/tomochain/how-to-run-a-tomochain-masternode-from-a-to-z-3793752dc3d1#6122).
 
-> Data Storage: It is recommended to assure that your provider has Block Storage or expandable disk space on SSD drives \(more performant\). Block Storage is pay-as-you-go disk space that you can expand in the future. You may not need it now, but you will in the future. Some locations within a hosting provider do not have this, while others will.
+> Data Storage: It is recommended to assure that your provider has Block Storage or expandable disk space on SSD drives \(greater performance\). Block Storage is pay-as-you-go disk space that you can expand in the future. You may not need it now, but you will in the future. Some locations within a hosting provider do not have this, while others will.
 >
 > SSH-Key login: Consider utilizing a **SSH-Key login** over passwords. Some providers allow you to set it up upon server creation.
 
@@ -277,9 +277,9 @@ If you have installed Docker, and get this error, you probably forgot to add you
 
 ### 6. Installing TMN utility <a id="6-installing-tmn-utility"></a>
 
-`Tmn` is a simple interface created by TomoChain developers to **help you quick start your asternode**. It is installed as a python package and it utilizes two docker containers once operating. We will follow through the steps found here: [guide to install tmn](https://docs.tomochain.com/get-started/run-node/)
+`Tmn` is a simple interface created by TomoChain developers to **help you quick start your Masternode**. It is installed as a python package and it utilizes two docker containers once operating. We will follow through the steps found here: [guide to install tmn](https://docs.tomochain.com/get-started/run-node/)
 
-> “We made a simple command line interface called tmn to easily and quickly start a TomoChain Masternode. It takes care of starting the necessary docker containers with the proper settings for you. It will really suit you if you don’t already have a big infrastructure running. Spin up a machine in your favorite cloud and get your asternode running in a few minutes!”
+> “We made a simple command line interface called tmn to easily and quickly start a TomoChain Masternode. It takes care of starting the necessary docker containers with the proper settings for you. It will really suit you if you don’t already have a big infrastructure running. Spin up a machine in your favorite cloud and get your Masternode running in a few minutes!”
 
 Install and update the tomochain-created `tmn` utility from pip:
 
@@ -342,7 +342,7 @@ sudo apt install python3-dev
 
 ### 7. Create Wallet Addresses <a id="7-create-wallet-addresses"></a>
 
-Before being able to proceed further, you will need **two** seperate TOMO wallet addresses to operate a Masternode. One helps to operate the Masternode day-to-day, and the other is where the 50,000 TOMO is staked from. The genius of this is that the wallet where the 50,000 TOMO will pass through \(and where rewards will eventually come into\) is never stored or seen by the VPS server. This is a security strategy that keeps your coins safe.
+Before being able to proceed further, you will need **two** separate TOMO wallet addresses to operate a Masternode. One helps to operate the Masternode day-to-day, and the other is where the 50,000 TOMO is staked from. The genius of this is that the wallet where the 50,000 TOMO will pass through \(and where rewards will eventually come into\) is never stored or seen by the VPS server. This is a security strategy that keeps your coins safe.
 
 > WALLET1 - Operating Wallet: Used for operating the Masternode, including signing blocks. It effectively acts as a unique identifier of your Masternode. No coins need to be inserted in this wallet; It's even advised to be empty, so in case of breach, no funds are exposed.
 >
@@ -423,7 +423,7 @@ Contents to come: `tmn status`; `tmn inspect`; `top` command; https://stats.tomo
 
 The basic structure has been created, blocks have started synchronizing, and now we want to speed up the process by pulling in the latest chaindata.
 
-> Chaindata is where the entire history of TomoChain blockchain records are stored. All coin transactions, all smart contracts, all operations. This takes up a _lot_ of space. To syncrhonize it from decentralized nodes piecemeal-like could take days or weeks. Instead, lets download the latest image of the data, and synchronize from there.
+> Chaindata is where the entire history of TomoChain blockchain records are stored. All coin transactions, all smart contracts, all operations. This takes up a _lot_ of space. To synchronize it from decentralized nodes piecemeal-like could take days or weeks. Instead, lets download the latest image of the data, and synchronize from there.
 
 ### 11. Apply for Masternode Candidacy <a id="11-apply-for-masternode-candidacy"></a>
 
