@@ -8,14 +8,14 @@ description: >-
 
 Latest snapshot: [download](https://chaindata.tomochain.com/20190813.tar) \(91 GB, md5sum 0b23a48b0d6585690350e91b0f6c9f14\)
 
-The following commands are step by step instructions for TomoChain  Masternode operators that can be used for two major use-cases:
+The following commands are step by step instructions for TomoChain Masternode operators that can be used for two major use-cases:
 
 1. Fixing nodes that are stuck; evidenced by a node that stays on a block and doesn't progress
 2. Jumpstarting a newly setup Masternode; avoid waiting a week for synchronization
 
-Basically, you download a compressed version of the last-known "good" chaindata. This comes from TomoChain on a weekly basis. You remove the nodes old data and update it with the newly downloaded data. Finally you restart the sync-process from this known-good checkpoint.
+Basically, a compressed version of the last-known "good" chaindata is downloaded. This comes from TomoChain on a weekly basis. Remove the node's old data and update it with the newly downloaded data. Finally, restart the sync-process from this known-good checkpoint.
 
-_Note: Assure that you have enough disk space for both the tar file AND its uncompressed contents. Double the space or more._
+_Note: Ensure there is enough disk space for both the tar file AND its uncompressed contents. Double the space or more._
 
 ```text
 # Login as user that has access to tmn
