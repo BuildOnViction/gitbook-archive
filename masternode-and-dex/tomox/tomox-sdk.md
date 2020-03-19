@@ -1,6 +1,6 @@
 ---
 description: >-
-  This guide shows how to run a TomoX MongoDb Fullnode.To run the fullnode, you
+  This guide shows how to run a TomoX MongoDb Fullnode. To run the fullnode, you
   need to have MongoDb instance that enable replica set.
 ---
 
