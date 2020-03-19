@@ -6,7 +6,7 @@ description: >-
 
 # Apply Your Node
 
-Masternodes will receive a significant amount of block rewards, which likely exceeds the cost for running the infrastructure. However, Masternode Candidates need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them for a long term. Furthermore, after the initial deposit to become a candidate, if he doesn't make it to the top 150 most voted Candidates, he will not be promoted as Masternode and thus receive no rewards. Therefore, Candidates have an incentive to do as much as they can such as signalling their capability to support TomoChain to get into top 150 most voted Candidates.
+Masternodes will receive a significant amount of block rewards, which likely exceeds the cost for running the infrastructure. However, Masternode Candidates need to invest in TomoChain by depositing at least 50,000 TOMO, and stake them for the long term. Furthermore, after the initial deposit to become a candidate, if the Masternode Candidate is not one of the top 150 most voted Candidates, it will not be promoted to Masternode status, and thus receive no rewards. Therefore, Candidates have an incentive to do as much as they can such as signalling their capability to support TomoChain to get into the top 150 most voted Candidates.
 
 ### Requirements <a id="requirements"></a>
 
@@ -18,7 +18,7 @@ To have a Masternode Candidate, the following requirements must be satisfied:
 
 ### Apply to become a Masternode <a id="applying-to-become-a-masternode"></a>
 
-You can apply by going on [TomoMaster](https://master.tomochain.com/). Connect the wallet that contains the funds you want to deposit.
+You can apply to become a Masternode by going on [TomoMaster](https://master.tomochain.com/). Connect the wallet that contains the funds you want to deposit.
 
 {% hint style="danger" %}
 Warning
@@ -52,9 +52,9 @@ An epoch is a period of 900 blocks \(~ 30 minutes\) starting from block \#1
 
 If your node is in the top 150 most voted Candidates at the checkpoint between two epochs, it will be promoted as a Masternode and will start producing blocks at the next epoch.
 
-### Resigning your Masternode <a id="resigning-your-masternode"></a>
+### Resigning a Masternode <a id="resigning-your-masternode"></a>
 
-In case you want to stop your node, you need to resign it from the governance first in order to retrieve your locked funds. Access TomoMaster, go to your Candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation \(1,296,000 blocks\).
+In case you want to stop your node, you need to resign it from the governance first in order to retrieve the locked funds. Access TomoMaster, go to your Candidate detail page, and click the `Resign` button. Your funds will be available to withdraw 30 days after the resignation \(1,296,000 blocks\).
 
 After resigning successfully, you can stop your node. If you ran it with `tmn`, simply run:
 
