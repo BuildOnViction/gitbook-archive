@@ -125,7 +125,7 @@ When you first start your full node with tmn, you need to give some information.
 
 Important note:
 
-We advise for security measures to use a fresh new account for your Masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50,000TOMO initial deposit.
+We advise, for security measures, to use a fresh new account for your Masternode. This is not the account who will receive the rewards. The rewards are sent to the account who will make the 50,000 TOMO initial deposit.
 
 `--api`: Expose RPC and websocket on ports `8545` and `8546`.
 
@@ -141,7 +141,7 @@ tmn start --name [YOUR_NODE_NAME] --net testnet --pkey [YOUR_COINBASE_PRIVATE_KE
 
 Once started, you should see your node on the [stats page](https://stats.testnet.tomochain.com/)!
 
-Note: it can take up to one hour to properly sync the entire blockchain.
+Note: It can take up to one hour to properly sync the entire blockchain.
 
 ![](../../../.gitbook/assets/image%20%2858%29.png)
 
