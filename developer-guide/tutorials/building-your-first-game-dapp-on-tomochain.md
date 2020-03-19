@@ -1,7 +1,7 @@
 ---
 description: >-
-  Guide on how to develop a simple Smart Contract written in Solidity, and
-  deploy it on TomoChain Testnet
+  This Guide is on how to develop a simple Smart Contract written in Solidity,
+  and deploy it onto the TomoChain Testnet
 ---
 
 # An Example of Building a Dapp on TomoChain
@@ -28,7 +28,7 @@ Our mission is to accelerate the onboarding of millions of users by empowering t
 The TomoChain blockchain and its product ecosystem allow businesses to build high-performance, feature-rich projects to support speed, privacy, usability, and liquidity.  
 .
 
-> Every D App running on Ethereum can be easily ported to TomoChain
+> Every Dapp running on Ethereum can be easily ported to TomoChain
 
 ### Why should developers build Dapps on TomoChain? <a id="8c4b"></a>
 
@@ -42,7 +42,7 @@ In this tutorial, we will see **how to build a Dapp using Solidity** and then de
 
 ## 0. Prerequisites <a id="7095"></a>
 
-To start building your DApp you will need to install some programs:
+To start building your Dapp you will need to install some programs:
 
 * Install [**Node.js**](https://nodejs.org/en/download/) & **npm** \(“Node.js Package Manager”\)
 * Install [**Git**](https://git-scm.com/downloads)
@@ -83,7 +83,7 @@ truffle unbox pet-shop
 
 The default Truffle directory structure contains a series of folders and files. If you want to know more, please check [Truffle tutorials](https://truffleframework.com/tutorials/pet-shop#directory-structure).
 
-> **Note:** **This tutorial is focused on the whole process to build a Dpp on TomoChain, so we will not enter into all the details.**
+> **Note:** **This tutorial is focused on the whole process to build a Dapp on TomoChain, so we will not enter into all the details.**
 
 ## 3. Creating a TOMO Wallet <a id="a775"></a>
 
@@ -133,7 +133,7 @@ To check the balance of a wallet address, you can use **TomoScan**.
 
 ## 4. Writing the smart contract <a id="d658"></a>
 
-We’ll start our Dpp by writing the smart contract that acts as the back-end logic and storage.
+We’ll start our Dapp by writing the smart contract that acts as the back-end logic and storage.
 
 1. Create a new file named `Adoption.sol` in the `contracts/` directory.
 2. Copy the following code:
@@ -260,7 +260,7 @@ Replace the `truffle.js` file with this new content:
 var mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';
 ```
 
-Done. Please, notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache) _is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
+Done. Please notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache) _is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
 
 We have added the migration configuration so **we are now able to deploy to public blockchains like TomoChain** \(both testnet and mainnet\).
 
@@ -338,7 +338,7 @@ The contract address is:
 
 ### \*\*\* Troubleshooting \*\*\* <a id="4dbb"></a>
 
-* **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
+* **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways TomoChain defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ### 6.4 Check the deployment transaction <a id="0b1e"></a>
