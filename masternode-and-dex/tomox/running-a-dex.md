@@ -1,15 +1,15 @@
 ---
-description: This guide will show you how to start a TomoX DEX on your server.
+description: This guide will show how to start a TomoX DEX on your server.
 ---
 
 # Running a TomoX DEX
 
-To start, you need to download TomoX-SDK source code, and it includes two parts:
+To start, download the TomoX-SDK source code which includes two parts:
 
-* [TomoX-SDK](https://github.com/tomochain/tomox-sdk): Backend server, API, it requires Mongodb database with rabbitmq.
-* [TomoX-SDK-UI](https://github.com/tomochain/tomox-sdk-ui): Frontend - DEX UI, requires NodeJs, React
+* [TomoX-SDK](https://github.com/tomochain/tomox-sdk): Backend server, API. It requires Mongodb database with rabbitmq.
+* [TomoX-SDK-UI](https://github.com/tomochain/tomox-sdk-ui): Frontend - DEX UI. It requires NodeJs, React
 
-To enable trading for your DEX, you need to register your DEX on TomoRelayer by depositing 25K TOMO.
+To enable trading for the DEX, register the DEX on TomoRelayer by depositing 25K TOMO.
 
 ### Quick start <a id="quick-start"></a>
 
@@ -25,7 +25,7 @@ After finishing the command above, you can see the result:
 * Open your relayer on browser \(http://\[SERVER\_IP\]\)
 
 {% hint style="info" %}
-You need to wait for until your fullnode pass the block number that you registered your relayer to see the pairs
+Wait until your fullnode passes the block number that you registered your relayer on to see the pairs
 {% endhint %}
 
 ### Setup manually <a id="setup-manually"></a>
