@@ -1,6 +1,6 @@
 ---
 description: >-
-  This section guides you on how to set up a decentralized exchange on TomoX
+  This section guides on how to set up a decentralized exchange on TomoX
   protocol
 ---
 
