@@ -1,6 +1,6 @@
 ---
 description: >-
-  Alternatively to using our simple tool tmn, people or companies with existing
+  Alternative to using our simple tool tmn, people or companies with existing
   infrastructure might want to directly run our docker images for more
   flexibility.
 ---
