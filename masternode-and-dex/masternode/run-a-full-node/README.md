@@ -1,8 +1,8 @@
 ---
 description: >-
-  This tutorial shows you how to run a full node and meet the requirements to
-  apply to becoming a Masternode Candidate on TomoMaster, you have to run the
-  TomoChain client - our TomoChain implement on Go
+  This tutorial shows how to run a full node and meet the requirements to apply
+  to become a Masternode Candidate on TomoMaster. You have to run the TomoChain
+  client - our TomoChain implement on Go
 ---
 
 # Run a Full Node
