@@ -1,5 +1,7 @@
 ---
-description: The most frequent asked questions about TomoChain products and ecosystem.
+description: >-
+  The most frequently asked questions about TomoChain products and its
+  ecosystem.
 ---
 
 # FAQ
