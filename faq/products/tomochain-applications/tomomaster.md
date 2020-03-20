@@ -4,11 +4,11 @@
 
 ### **What is TomoMaster?**
 
-[TomoMaster](https://master.tomochain.com/), the 'Governance Dapp', provides a professional UI that allows to see the list of masternodes and candidates, to deposit 50k TOMO to become a masternode candidate, to vote for masternodes, and to show masternode performance statistics.
+[TomoMaster](https://master.tomochain.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K TOMO to become a Masternode Candidate.
 
 ### **How do I login on TomoMaster?**
 
-Go to [TomoMaster](http://master.tomochain.com). On the top-right corner click 'Login'. Then select how do you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
+Go to [TomoMaster](http://master.tomochain.com). On the top-right corner click 'Login'. Then select how you want to login: with TomoWallet, with Ledger, with Trezor, with Metamask, TrustWallet or Private Key/Mnemonic.
 
 ### **What is the 'capacity' of a Candidate/Masternode?**
 
@@ -18,13 +18,13 @@ The capacity of a candidate is the 50K TOMO initial deposit plus the total amoun
 
 On TomoMaster, click on a candidate to open the candidate page. Scroll down to 'Masternode Rewards'. You should look at 'Sign number', 'Slashing history' under Masternode Rewards to determine a good node or not.
 
-Masternodes will sign a maximum of 60 blocks per epoch. A good masternode will create around 60 sign transactions in that epoch. We also calculate the reward based on sign transactions number.
+Masternodes will sign a maximum of 60 blocks per epoch. A good Masternode will create around 60 signed transactions in that epoch. The rewards are also calculated based on the number of signed transactions.
 
 ### **What is a 'checkpoint'?**
 
-For each iteration of 900 blocks \(called epoch\), a checkpoint block is created, which implements only reward works. The masternode, who takes turn in the circular and sequential order to create blocks, has to scan all of the created blocks in the epoch and count number of signatures.
+For each iteration of 900 blocks \(called epoch\), a checkpoint block is created. Afterwhich the rewards are released to Masternodes and Voters. The Masternodes take turns in sequential order to create blocks, scan all of the created blocks in the epoch and count the number of signatures.
 
-It is worth noting that token holders who unvote before the checkpoint block will not receive any shared reward in the Staking Reward portion.
+It is worth noting that token holders who unvote before the checkpoint block will not receive any shared reward when staking rewards are allocated.
 
 ### **I want to stop running my node.**
 
@@ -36,7 +36,7 @@ After resigning successfully, you can stop your node. If you ran it with `tmn`, 
 tmn remove
 ```
 
-At this point, your masternode is completely terminated.
+At this point, your Masternode is terminated.
 
 ## Features
 
@@ -46,17 +46,17 @@ On TomoMaster, this area shows you what the current block is, the block time, ho
 
 #### Candidates List <a id="candidates-list"></a>
 
-The candidates list includes everyone who has deposited enough tokens to run a masternode as well as those who resigned running a masternode. A candidate is required to be one of the top 150 most voted masternode candidates on this list to become a masternode earning rewards. Voters can use this list to help choose which masternode candidate\(s\) they would like to stake their tokens for.
+The candidates list includes every Masternode with enough deposited tokens to run a Masternode, as well as those who resigned running a Masternode. A candidate is required to be one of the top 150 most voted Masternode candidates on this list to become a Masternode to earn rewards. Voters can use this list to help choose which Masternode candidate\(s\) they would like to stake their tokens to.
 
 `Tip: Voting for the top voted masternode candidate could lower your rewards as the rewards that go to voters per token is inversely proportional to the number of tokens staked for a specific masternode.`
 
 #### Voting <a id="voting"></a>
 
-Voters who want to stake their tokens for a masternode or masternodes in order to earn rewards can vote through TomoMaster. Simply click ‘Vote’ and you will be taken to a page that allows you to vote through staking your tokens.
+Voters who want to stake their tokens to a Masternode should simply click ‘Vote’ on the respective Masternode and follow the instructions presented.
 
 #### Unvoting <a id="unvoting"></a>
 
-If you do not want to support a masternode you voted for, you can unvote it by clicking the Unvote button on the masternode's page and enter the amount of TOMO you want to unvote.
+If you do not want to support a Masternode you voted for, you can unvote from it by clicking the Unvote button on the Masternode's page and enter the amount of TOMO you want to unvote.
 
 `Warning: After unvoting, your TOMO will be locked in the smart contract for 48 hours before you are able to withdraw.`
 
@@ -64,19 +64,19 @@ If you do not want to support a masternode you voted for, you can unvote it by c
 
 #### General Information <a id="general-information"></a>
 
-On the top of the page, you can find general information on a masternode candidate. Voters can use this information to better understand the masternode candidates they plan to vote for.
+On the top of the page, you can find general information on a Masternode Candidate. Voters can use this information to better understand the Masternode Candidates they plan to vote for.
 
 #### Metrics <a id="metrics"></a>
 
-The metrics area shows the performance of the masternode. This section is useful to see if the masternode candidate is strong or weak.
+The metrics area shows the performance of the Masternode. This section is useful to see if the Masternode Candidate is performing well.
 
 #### Rewards <a id="rewards"></a>
 
-The rewards section shows the estimated rewards the masternode has been receiving. If the masternode has been receiving less rewards than other masternodes, it might be a weak masternode.
+The rewards section shows the estimated rewards the Masternode has been receiving. If the Masternode has been receiving fewer rewards than other Masternodes, there may be performance issues.
 
 #### Voters <a id="voters"></a>
 
-Under the section for voters, you can see the list of TOMO stakers who voted for this candidate.
+Under the section for voters, you can see the list of TOMO stakers who have voted for this candidate.
 
 #### Transactions <a id="transactions"></a>
 
@@ -88,19 +88,17 @@ In this section, you can see all transactions of this candidate.
 
 On this page you can find general information about specific voters.
 
-Tip
-
-As a voter, use this page to make sure you're earning your fair share of rewards.
+Tip: As a voter, use this page to make sure you're earning your fair share of rewards.
 
 #### Candidates <a id="candidates"></a>
 
-The candidates section shows all masternode candidates that have been voted by this voter.
+The candidates section shows all Masternode Candidates that have been voted by this voter.
 
 #### Rewards <a id="rewards_1"></a>
 
 The rewards section shows the rewards the voter has been receiving.
 
-`Tip: If you voted an equal amount of TOMO for different masternodes and you see one is giving less rewards, you may have voted for a weak masternode and should consider changing your vote.`
+`Tip: If you voted an equal amount of TOMO for different masternodes and you see one is giving fewer rewards, you may have voted for a masternode with performance issues and should consider changing your vote.`
 
 #### Transactions <a id="transactions_1"></a>
 
@@ -112,17 +110,17 @@ This section shows all transactions by the voter.
 
 Use settings to select the network provider you are using for TomoMaster \(e.g., Metamask, TomoChain Testnet, Custom Network\).
 
-#### Account Infos <a id="account-infos"></a>
+#### Account Info <a id="account-infos"></a>
 
 This section will show you information about your public address and TOMO balance.
 
 ### [Apply](https://master.tomochain.com/apply) <a id="apply"></a>
 
-This web page is used by TOMO holders looking to apply to become a masternode candidate.
+This web page is used by TOMO holders looking to apply to become a Masternode Candidate.
 
 ### Search <a id="search"></a>
 
-On the top of the page, you can find a search bar. You can use this bar to search for a Candidate or Voter by its address.
+On the top of the page, you can find a search bar. You can use this bar to search for a Candidate or Voter by their respective addresses.
 
 `Tip: The search will not work if your input is not an address.`
 
