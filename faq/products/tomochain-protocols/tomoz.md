@@ -1,6 +1,6 @@
 ---
 description: >-
-  An on-chain protocol that allows any token holders to transfer tokens without
+  An on-chain protocol that allows any token holder to transfer tokens without
   holding TOMO in their wallet.
 ---
 
@@ -18,7 +18,7 @@ description: >-
 
 ### **What problem does TomoZ solve?**
 
-TomoZ removes the friction of having to hold native blockchain coins/tokens to send to other wallets or to interact with DApps. Issuing TRC21 tokens with TomoZ, users will have a smooth experience without even knowing that they are using the blockchain and cryptocurrency technology.
+TomoZ removes the friction of having to hold native blockchain coins/tokens to send to other wallets or to interact with Dapps. Issuing TRC21 tokens with TomoZ, users will have a smooth experience without even knowing that they are using blockchain technology.
 
 ### **What is the difference between the TRC21 and TRC20 token standards?**
 
