@@ -4,9 +4,9 @@
 
 ### **What is TomoScan?**
 
-[TomoScan](https://scan.tomochain.com/) is a block explorer for TomoChain . It is pretty similar to EtherScan if you are already familiar with it.
+[TomoScan](https://scan.tomochain.com/) is a block explorer for TomoChain. It is pretty similar to EtherScan used on the Ethereum network if you are already familiar with it.
 
-TomoScan provides a user friendly, details and perfection-oriented user interface for TomoChain block explorer. From a user perspective, TomoScan brings TomoChain’s transparency to users, because all block, transaction, finality, smart contracts, dApp and token information are read from TomoChain and shown to users. Furthermore, TomoScan also offers technical visualisations and does useful statistics about the TomoChain performance, token holders and other functionalities.
+TomoScan provides a user-friendly interface to explore the TomoChain blockchain. From a user perspective, TomoScan provides transparency because all block information, transactions, finality, smart contracts, Dapps and token information are read from TomoChain and displayed here. Furthermore, TomoScan offers technical visualisations and useful statistics about TomoChain performance, token holders and other functionalities.
 
 ### **What is a TxHash? How to check a TxHash?**
 
