@@ -22,7 +22,7 @@ Masternodes will sign a maximum of 60 blocks per epoch. A good Masternode will c
 
 ### **What is a 'checkpoint'?**
 
-For each iteration of 900 blocks \(called epoch\), a checkpoint block is created. Afterwhich the rewards are released to Masternodes and Voters. The Masternodes take turns in sequential order to create blocks, scan all of the created blocks in the epoch and count the number of signatures.
+For each iteration of 900 blocks \(called epoch\), a checkpoint block is created. Afterwhich the rewards are released to Masternodes and Voters. The Masternodes take turns in sequential order to create blocks, verify all of the created blocks in the epoch and count the number of signatures.
 
 It is worth noting that token holders who unvote before the checkpoint block will not receive any shared reward when staking rewards are allocated.
 
