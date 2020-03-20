@@ -10,7 +10,7 @@ Check out: https://bridge.tomochain.com
 
 #### Is TomoChain migrating to Binance Chain?
 
-No we are not. We are simply offering a 2-way bridge to allow TomoChain holders to operate on Binance Chain \(TomoChain &lt;-&gt; Binance Chain\). This is TomoChain’s first real test of cross-chain compatibility using TomoBridge.
+No, we are not. We are simply offering a 2-way bridge to allow TomoChain holders to operate on Binance Chain \(TomoChain &lt;-&gt; Binance Chain\). This is TomoChain’s first real test of cross-chain compatibility using TomoBridge.
 
 #### What is TOMOB?
 
@@ -26,5 +26,5 @@ Go to [TomoBridge](https://bridge.tomochain.com/) and swap between TOMO and TOMO
 
 #### Can TomoB be staked? <a id="can-tomob-be-staked"></a>
 
-No you can't stake TomoB.
+No, you can't stake TomoB.
 
