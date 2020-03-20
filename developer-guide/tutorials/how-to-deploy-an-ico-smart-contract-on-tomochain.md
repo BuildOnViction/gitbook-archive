@@ -1,26 +1,26 @@
 ---
-description: Creating a TRC-20 Token Crowdsale with Truffle and OpenZeppelin
+description: Creating a TRC20 Token Crowdsale with Truffle and OpenZeppelin
 ---
 
 # How to deploy an ICO smart contract on TomoChain
 
-This article will go through the process of **creating a basic ICO on TomoChain** using TRC-20 tokens issued on TomoChain.
+This article will go through the process of **creating a basic ICO on TomoChain** using TRC20 tokens issued on TomoChain.
 
 ![](../../.gitbook/assets/image-2-copy%20%281%29.png)
 
 In this tutorial we will be covering:
 
 * What is an **ICO**?
-* Some important concepts such as TRC-20, total supply, whitelist, ...
+* Some important concepts such as TRC20, total supply, whitelist, ...
 * Using **Truffle** framework and **OpenZeppelin** code framework
-* Writing a **TRC-20 token** \(TomoChain\) smart contract
+* Writing a **TRC20 token** \(TomoChain\) smart contract
 * Writing a **Crowdsale** smart contract
 * **Deploying your ICO** smart contract to **TomoChain testnet** or Ethereum/Ropsten \(it is totally compatible!\)
 * **Buying** the new ICO tokens
 
 An **ICO \(Initial Coin Offering\)** is a new way to raise funds for startups. It is the cryptocurrency equivalent to an IPO in the mainstream investment world. A company looking to create a new coin, app, or service launches an ICO. Investors buy the new ICO token, normally with preexisting digital tokens like TOMO. The company holding the ICO uses the investor funds as a means of furthering its goals, launching its product, or starting its digital currency. ICO rounds are similar to venture capitalists \(VC\) rounds.
 
-**Tokens** are essentially smart contracts that make use of the TomoChain blockchain. The **TRC-20** **token standard** defines a common list of rules for all TomoChain tokens to follow, similar to the ERC-20 standard in Ethereum.
+**Tokens** are essentially smart contracts that make use of the TomoChain blockchain. The **TRC20** **token standard** defines a common list of rules for all TomoChain tokens to follow, similar to the ERC20 standard in Ethereum.
 
 In the **smart contract** you can setup general token specifics like the **rate** of TOMO per token ****\(the number of tokens the user gets for his TOMO which may change with time\), the ICO **start** and **finish date**, time-line **bonuses**…
 
@@ -162,7 +162,7 @@ contract MyToken is ERC20, ERC20Detailed, Ownable {
 
 That’s all. Really.
 
-Hold on a minute… Are you telling me that **this is the full code of an ERC-20 / TRC-20 token**? Exactly. This is the beauty of inheritance and extending OpenZeppelin smart contracts. Currently, see the first few lines? All the code included in `openzeppelin-solidity/contracts/token/ERC20/ERC20.sol` and `openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed` can be used and extended \(update/overwrite\) by this token.
+Hold on a minute… Are you telling me that **this is the full code of an ERC20 / TRC20 token**? Exactly. This is the beauty of inheritance and extending OpenZeppelin smart contracts. Currently, see the first few lines? All the code included in `openzeppelin-solidity/contracts/token/ERC20/ERC20.sol` and `openzeppelin-solidity/contracts/token/ERC20/ERC20Detailed` can be used and extended \(update/overwrite\) by this token.
 
 We’re extending `ERC20`, `ERC20Detailed` and `Ownable` smart contracts, by OpenZeppelin. This means that we will have all the functionality of those smart contracts plus the code we add to our file `MyToken.sol`.
 
@@ -201,7 +201,7 @@ import "openzeppelin-solidity/contracts/crowdsale/emission/AllowanceCrowdsale.so
 
 Again, very simple smart contract.
 
-We extended OpenZeppelin’s basic `Crowdsale` and `AllowanceCrowdsale`. Crowdsale works with `rate`, `wallet` \(the address of MyTokenCrowdsale contract\), `token` \(the TRC-20 token\).
+We extended OpenZeppelin’s basic `Crowdsale` and `AllowanceCrowdsale`. Crowdsale works with `rate`, `wallet` \(the address of MyTokenCrowdsale contract\), `token` \(the TRC20 token\).
 
 We extended **AllowanceCrowdsale** so this contract will be able to access and send tokens stored in another wallet, **once approved by the owner of the tokens** — which is `MyToken`.
 
@@ -513,7 +513,7 @@ Here are the results of our migrations:
 
 ![](../../.gitbook/assets/image-2-copy%20%283%29.png)
 
-**Congratulations!** You’ve deployed **your ICO smart contract and TRC-20 token to TomoChain using Truffle and OpenZeppelin.** It’s time to interact now with our ICO smart contract to make sure it does what we want.
+**Congratulations!** You’ve deployed **your ICO smart contract and TRC20 token to TomoChain using Truffle and OpenZeppelin.** It’s time to interact now with our ICO smart contract to make sure it does what we want.
 
 ## 6. Testing the smart contracts <a id="e3e1"></a>
 
@@ -523,7 +523,7 @@ The code used in this tutorial is just for **learning purposes.** When writing y
 
 The last step is testing our ICO. We will **buy** some `MYT` tokens with `TOMO`!
 
-For this, we will **directly send some `TOMO` tokens to the Crowdsale contract address**, and the smart contract must send back the new TRC-20 token we created, `MYT`.
+For this, we will **directly send some `TOMO` tokens to the Crowdsale contract address**, and the smart contract must send back the new TRC20 token we created, `MYT`.
 
 The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 500 = 10'000 MYT` in our buyer wallet.
 
