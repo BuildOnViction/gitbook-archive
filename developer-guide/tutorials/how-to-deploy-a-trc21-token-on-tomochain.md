@@ -8,10 +8,6 @@ description: >-
 
 The [TomoZ](http://bit.ly/TomoZWhitePaper) protocol aims to solve a critical user adoption issue found in nearly every major smart contract platform. TRC21, empowered by TomoZ, allows token holders to pay transaction fees by the token itself without holding any TOMO in their wallet. [TomoIssuer](https://issuer.testnet.tomochain.com/) is the final piece of the big picture. TomoIssuer provides a user-friendly interface for any token issuer to issue a TRC21 token _without any coding experience required_. This article will guide how to deploy a TRC-21 token on TomoChain step-by-step.
 
-{% hint style="info" %}
- This version of TomoIssuer works on TomoChain Testnet. Remember to change your network to TomoChain Testnet and do NOT use any real TOMO.
-{% endhint %}
-
 Below are the most important features of TomoIssuer that have made it a revolutionary tool:
 
 * **User-Friendly Interface**: Issue a TRC21 token in only a few steps.
@@ -22,7 +18,7 @@ Below are the most important features of TomoIssuer that have made it a revoluti
 
 On the homepage there are two main options with the TomoIssuer. The first one is to create a new TRC21 token and the second one is to donate a fee for an existing TRC21 token.
 
-**Step 1:** Go to Token Issuance dashboard, then set the parameters. From top to bottom: Token’s Name; Token’s Symbol; Token’s Total Supply, and Token’s Decimal. A small issuance fee will be charged, make sure that the used wallet has enough testnet TOMO. Get free testnet TOMO from our [faucet](https://faucet.testnet.tomochain.com/).
+**Step 1:** Go to Token Issuance dashboard, then set the parameters. From top to bottom: Token’s Name; Token’s Symbol; Token’s Total Supply, and Token’s Decimal. A small issuance fee will be charged, make sure that the used wallet has enough TOMO.
 
 * The `symbol` of the token contract is the symbol by which the token contract should be known, for example “MYT”. It is broadly equivalent to a stock ticker, and although it has no restriction on its size it is usually 3 or 4 characters in length.
 * `decimals` refers to how divisible a token can be, from 0 \(not at all divisible\) to 18 \(pretty much continuous\) and even higher if required. Technically speaking, the `decimals` value is the number of digits that come after the decimal place when displaying token values on-screen.¹
