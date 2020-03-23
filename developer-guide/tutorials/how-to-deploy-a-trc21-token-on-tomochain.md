@@ -25,7 +25,7 @@ On the homepage there are two main options with the TomoIssuer. The first one is
 
 ![](../../.gitbook/assets/image%20%2835%29.png)
 
-**Disclaimer:** The token issuance fee is not fixed. The exact number will be announced when TomoIssuer mainnet launch.
+**Disclaimer:** The token issuance fee is not fixed, it depend on the fee  to create smart contract. 
 
 **Step 2:** TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
@@ -63,7 +63,7 @@ Go to donate transaction fee tab from TomoIssuer’s homepage. Enter the name of
 
 ![](../../.gitbook/assets/image%20%2848%29.png)
 
-Transfer the TRC21 token to anyone just by going to “transfer token”. TomoWallet \(testnet version\) will start running in a new tab so issued tokens can be transferred easily.
+Transfer the TRC21 token to anyone just by going to “transfer token”. TomoWallet will start running in a new tab so issued tokens can be transferred easily.
 
 ![](../../.gitbook/assets/image%20%2859%29.png)
 
@@ -75,5 +75,5 @@ The details of TRC21 token transactions are displayed on TomoScan. TomoScan will
 
 \(1\) [Understanding ERC-20 token contracts](https://medium.com/@jgm.orinoco/understanding-erc-20-token-contracts-a809a7310aa5)
 
-\(2\) [Video tutorial](https://www.youtube.com/watch?v=lGWVkhNpmSQ&feature=emb_title) for your preference
+\(2\) [Video tutorial](https://www.youtube.com/watch?v=eNkUvMqHhhs) for your preference
 
