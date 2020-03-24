@@ -1,4 +1,10 @@
-# Generals
+---
+description: Glossary of blockchain and crypto terms
+---
+
+# Glossary
+
+### Generals
 
 | Term | Description |
 | :--- | :--- |
@@ -8,6 +14,12 @@
 | Masternode | Masternodes are full-nodes that create, verify and validate new blocks in TomoChain’s platform. |
 | TOMO | TOMO is the native currency of the TomoChain ecosystem. |
 | Relayer | A relayer is a decentralized exchange run on top of TomoX. |
-| Consensus | The algorithm that allows many masternode nodes to reach an agreement.   In case of blockchain, the agreement is on creating blocks. |
+| Consensus | The algorithm that allows many masternode nodes to reach an agreement. In case of blockchain, the agreement is on creating blocks. |
 | PoSV | Proof-of-Stake Voting is the TomoChain consensus protocol that helps all nodes in TomoChain's network to reach agreement about the blockchain. |
+
+### TomoX
+
+### TomoZ
+
+### TomoP
 
