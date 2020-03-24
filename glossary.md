@@ -19,7 +19,19 @@ description: Glossary of blockchain and crypto terms
 
 ### TomoX
 
+| Term | Description |
+| :--- | :--- |
+|  |  |
+
 ### TomoZ
 
+| Term | Description |
+| :--- | :--- |
+|  |  |
+
 ### TomoP
+
+| Term | Description |
+| :--- | :--- |
+|  |  |
 
