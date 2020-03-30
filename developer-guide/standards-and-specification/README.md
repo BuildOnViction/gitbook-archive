@@ -10,7 +10,7 @@ description: >-
 
 {% page-ref page="trc20-specification.md" %}
 
-{% page-ref page="trc721-specification.md" %}
+{% page-ref page="trc21-specification.md" %}
 
 
 
