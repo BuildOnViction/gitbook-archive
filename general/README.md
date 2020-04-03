@@ -14,6 +14,8 @@ Here we introduce the TomoChain public blockchain, a platform that allow entrepr
 
 {% page-ref page="how-to-connect-to-tomochain-network/" %}
 
+{% page-ref page="../developer-guide/working-with-tomochain/" %}
+
 {% page-ref page="staking/" %}
 
 

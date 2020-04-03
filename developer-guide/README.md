@@ -6,8 +6,6 @@ description: >-
 
 # Developer Guide
 
-
-
 {% page-ref page="standards-and-specification/" %}
 
 {% page-ref page="smart-contract-development/" %}
@@ -15,6 +13,8 @@ description: >-
 {% page-ref page="building-dapp-on-tomochain/" %}
 
 {% page-ref page="working-with-tomochain/" %}
+
+{% page-ref page="integration/" %}
 
 {% page-ref page="tutorials/" %}
 
