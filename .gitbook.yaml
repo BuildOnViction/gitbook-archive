@@ -29,5 +29,6 @@ redirects:
     developers/icosmartcontract/: ./developer-guide/tutorials/how-to-deploy-an-ico-smart-contract-on-tomochain.md
     wp-and-research/specs/trc21_standard/: ./developer-guide/standards-and-specification/trc21-specification.md
     products/tomobridge/faq/: ./faq/products/tomochain-applications/tomobridge.md
+    products/tomowallet/features/: ./faq/products/tomochain-applications/tomowallet.md
 
 
