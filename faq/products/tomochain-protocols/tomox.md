@@ -12,7 +12,7 @@ TomoX is a secure and efficient permissionless decentralized exchange \(DEX\) pr
 
 ### What is TomoDEX?
 
-TomoDEX is the DEX on TomoX Testnet run by TomoChain Pte. Ltd
+TomoDEX is the DEX on TomoX run by TomoChain Pte. Ltd
 
 ### What is a Relayer \(DEX\)?
 
@@ -24,19 +24,21 @@ TomoX is the core decentralized exchange protocol that sits as a technological l
 
 ### **How to become a DEX using TomoX?**
 
-Anyone can propose a DEX by depositing 25,000 TOMO on the TomoRelayer portal.
+Anyone can propose a DEX by depositing 25,000 TOMO on the TomoRelayer portal. 
 
-### **What are the incentives to running a DEX?** 
+A maximum number of 150 Relayers can be launched and run. New slot availability will only be possible when an existing Relayer resigns.
+
+### **What are the incentives to run a DEX?** 
 
 DEX operators can focus on marketing strategies to attract traders instead of worrying about the technical issues of maintaining an exchange. In addition DEXs on TomoX are non-custodial, making operations less risky. We believe that there should be an incentive mechanism distributing trading fees to Masternodes and DEX Operators. For example, a 50/50 sharing ratio between a Masternode and the Operator would be a reasonable option. However, this ratio is not hard-coded and can be negotiated between Masternodes and Relayers.
 
 ### What type of digital assets are supported by TomoX?
 
-TomoX supports TomoChain standards including TRC20, TRC21 and TOMO native token. Besides that, TomoX will support other native token and major crypto-asset through TomoBridge like BTC, ETH and USDT, more standards will be gradually integrated into TomoX.
+TomoX supports TOMO and TomoChain TRC21 tokens. Besides that, TomoX will support other native token and major crypto-asset through TomoBridge like BTC, ETH and USDT.  More standards will be gradually integrated into TomoX.
 
 ### Do users need to have TOMO to pay the fees?
 
-Trading fees on DEX are paid in tokens, which results in a smoother user experience compared to other decentralized exchanges.
+Trading fees on DEX are paid in tokens you are trading, which results in a smoother user experience compared to other decentralized exchanges.
 
 ### How to make a relayer coinbase address?
 
