@@ -7,7 +7,7 @@ description: >-
 
 # Masternode and DEX
 
-
+### Masternode 
 
 | Topic | Content |
 | :--- | :--- |
@@ -18,5 +18,11 @@ description: >-
 | [TomoChain Slashing Mechanism](masternode/tomochain-slashing-mechanism.md) | If a Masternode does not sign any blocks during an entire epoch, the Masternode will be kicked out of the Masternode list for the next 5 epochs. |
 | [Chain Data Snapshots](masternode/chain-data-snapshots.md) | A snapshot is a recording of the state of a blockchain at a particular block height. |
 
+### DEX
 
+| Topic | Content |
+| :--- | :--- |
+| [Get Started with TomoRelayer](tomox/get-started-with-tomorelayer.md) | By using TomoRelayer, anyone can propose their own decentralized exchange by depositing 25,000 TOMO. |
+| [Running a TomoX Mongodb Full Node](tomox/tomox-sdk.md) | This guide shows how to run a TomoX MongoDb Fullnode. To run the fullnode, you need to have MongoDb instance that enable replica set. |
+| [Running a DEX with TomoX](tomox/running-a-dex.md) | This guide will show how to start a TomoX DEX on your server. |
 
