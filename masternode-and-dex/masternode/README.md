@@ -1,8 +1,8 @@
 ---
 description: >-
-  Here are the base recommendations for running a Masternode Candidate. Running
-  a Masternode Candidate requires regular supervision and keeping track of
-  updates and technical notices from TomoChain.
+  This section cover all of the essential information related to hosting the
+  node, the costs and system specs related to hosting and a full tutorial on how
+  to deploy a Masternode on TomoChain.
 ---
 
 # Masternode
