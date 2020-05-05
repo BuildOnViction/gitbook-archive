@@ -26,7 +26,7 @@ TRC21 is an on-chain token standard integrated within the TomoZ protocol. TRC21 
 
 ### **How does the TRC21 token affect the native TOMO token?**
 
-It is important to note that TRC21 tokens do not affect the role of the native TOMO token within TomoChain. Ultimately, all fees are paid for in TOMO behind the scenes. The TRC21 standard merely relieves the end-user of the responsibility to hold TOMO and shifts it to the token issuer instead. By removing this key point of friction, TomoChain opens up many new avenues on the path to mass adoption of blockchain technology.  
-  
+It is important to note that TRC21 tokens do not affect the role of the native TOMO token within TomoChain. Ultimately, all fees are paid for in TOMO behind the scenes. The TRC21 standard merely relieves the end-user of the responsibility to hold TOMO and shifts it to the token issuer instead. By removing this key point of friction, TomoChain opens up many new avenues on the path to mass adoption of blockchain technology.
 
+## Read more at [TomoZ white paper](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?ts=5cf09ed4#heading=h.af80tl7prv5v).   
 

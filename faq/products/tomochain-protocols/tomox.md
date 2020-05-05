@@ -44,5 +44,7 @@ Trading fees on DEX are paid in tokens you are trading, which results in a smoot
 
 You can use [https://wallet.testnet.tomochain.com/](https://wallet.testnet.tomochain.com/) to create an empty address
 
+## Read more at [TomoX white ](https://docs.google.com/document/d/1BuLe5Ci9yTTL_jCLz5eKoQsDGb6CKAyOy__dht8sQkg/edit).
+
 
 
