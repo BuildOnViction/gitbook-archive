@@ -19,9 +19,15 @@ Run this command on an empty server Ubuntu version 16+:
 bash <(curl -sSL https://tomochain.com/get-tomox.sh)
 ```
 
+**Testnet:**
+
+```text
+bash <(curl -sSL https://tomochain.com/get-tomox-testnet.sh)
+```
+
 After finishing the command above, you can see the result:
 
-* See fullnode in the Stats Page \(Testnet: https://stats.testnet.tomochain.com/\)
+* See fullnode in the Stats Page \(Mainnet: https://stats.tomochain.com, Testnet: https://stats.testnet.tomochain.com/\)
 * Open your relayer on browser \(http://\[SERVER\_IP\]\)
 
 {% hint style="info" %}
@@ -108,7 +114,8 @@ cp config/config.yaml.example config/config.yaml
 We have some parameter that needs to be changed.
 
 * `exchange_address` : Your DEX coinbase \(the address you use to register a DEX on TomoRelayer\)
-* `contract_address` : TomoRelayer smart contract address \(Testnet: `0xe7c16037992bEcAFaeeE779Dacaf8991637953F3`\)
+* `exchange_contract_address`  : TomoRelayer smart contract address \(Mainnet: `0x16c63b79f9C8784168103C0b74E6A59EC2de4a02`,Testnet: `0xe7c16037992bEcAFaeeE779Dacaf8991637953F3`\)
+* `lending_contract_address`: TomoRelayer Lending smart contract address \(Mainnet: `0x7d761afd7ff65a79e4173897594a194e3c506e57`\)
 
 After customizing your config, you can build SDK backend
 
