@@ -25,6 +25,9 @@
 ### Useful smart contract addresses
 
 * [TomoZ contract](https://scan.tomochain.com/address/0x8c0faeb5c6bed2129b8674f262fd45c4e9468bee) \(for applying TomoZ protocol\)
+* [TomoX contract](https://scan.tomochain.com/address/0xde34dd0f536170993e8cff639ddffcf1a85d3e53) \(for applying TomoX protocol\)
+* [TomoX Registration Contract](https://scan.tomochain.com/address/0x16c63b79f9c8784168103c0b74e6a59ec2de4a02)
+* [TomoX P2P Lending Contract](https://scan.tomochain.com/address/0x7d761afd7ff65a79e4173897594a194e3c506e57)
 * [TomoMaster smart contract](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000088) \(for staking and applying a new masternode\)
 
 ### Bootnodes
