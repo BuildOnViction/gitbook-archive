@@ -66,6 +66,8 @@
     * [TomoChain Slashing Mechanism](masternode-and-dex/masternode/tomochain-slashing-mechanism.md)
     * [Chain Data Snapshots](masternode-and-dex/masternode/chain-data-snapshots.md)
   * [DEX](masternode-and-dex/tomox/README.md)
+    * [TomoX P2P Trading Fees](masternode-and-dex/tomox/tomox-p2p-trading.md)
+    * [TomoX P2P Lending Fees](masternode-and-dex/tomox/tomox-p2p-lending.md)
     * [Get Started with TomoRelayer](masternode-and-dex/tomox/get-started-with-tomorelayer.md)
     * [Running a TomoX Mongodb Fullnode](masternode-and-dex/tomox/tomox-sdk.md)
     * [Running a TomoX DEX](masternode-and-dex/tomox/running-a-dex.md)
