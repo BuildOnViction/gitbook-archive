@@ -6,6 +6,10 @@ description: >-
 
 # DEX
 
+{% page-ref page="tomox-p2p-trading.md" %}
+
+{% page-ref page="tomox-p2p-lending.md" %}
+
 {% page-ref page="get-started-with-tomorelayer.md" %}
 
 {% page-ref page="tomox-sdk.md" %}
