@@ -9,19 +9,57 @@ The 25,000 TOMO deposit of the Relayer Owner will be divided into 2 parts:
 * Trading Fee Fund: 5,000 TOMO will be used for paying network fees, and be deducted from as fees are sent to masternodes for handling trades and order processing
 {% endhint %}
 
-### Relayer Trading Fees
+## Trading Fees
+
+Trading fees are categorized as trader fees and relayer fees:
+
+**Trader fees:** Fees that traders must pay the Relayer. These fees will be automatically deducted from the User's wallet when successfully matched.
+
+**Relayer fees:** Fees that relayers must pay the Masternode network. These fees will be automatically deducted from the Trading Fee Fund when successfully matched.  
+
+
+### Trader Trading Fees
+
+* Taker\* Fee: 0.1 %
+* Maker\* Fee: 0.1% 
+* Trader Trading fee is set/adjusted by the Relayer Owner on the smart contract. 
+* Trader Trading fee is charged by the Quote Token at the time that the order is matched. 
+
+Trader Trading fee is sent to the Relayers’ Owner Address.  
+
+
+**E.g: Pair TOMO/USDT**
+
+* TOMO -&gt; Base Token
+* USDT -&gt; Quote Token
+
+=&gt; The trading fee will be charged by USDT.  
+  
+\*The Maker places an order that does not match any order in the orderbook
+
+\*The Taker makes orders that match an order in the orderbook
+
+### **Relayer Trading Fees**
 
 * The Taker’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade.
-* The Maker’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade. 
+* The Maker’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade.
+* The Relayer’s trading fee is charged at the time that the order is matched.
+* The Relayer’s trading fee is sent to the Masternode Owner Address that created the block.  
 
-The Relayer’s trading fee is charged at the time that the order is matched. The Relayer’s trading fee is sent to the Masternode Owner Address that created the block.  
+## **Cancellation Fees**
 
+### Trader Cancellation Fees
+
+* The Trader’s Cancellation fee is equal to 1/10 \(cancellation fee: 0.01%\) of the Trader’s trading fee in the Base Token if as a seller and in the Quote Token if as a buyer.
+* The Trader’s Cancellation fee is charged at the time that the trader cancels the order.
+* The Trader’s Cancellation fee is sent to the Relayers’ Owner Address
 
 ### **Relayer Cancellation Fees**
 
 * Relayer has to pay a Relayer’s Cancellation fee of 0.0001 TOMO for Masternode that creates the block containing the cancel order.
+* Relayer’s Cancellation fee will be charged at the time that the trader cancels the order. Relayer’s Cancellation Fee is sent to the Masternode Owner Address that created the block.
 
-Relayer’s Cancellation fee will be charged at the time that the trader cancels the order. Relayer’s Cancellation Fee is sent to the Masternode Owner Address that created the block.
+
 
 
 
