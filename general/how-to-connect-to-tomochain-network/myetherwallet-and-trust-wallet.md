@@ -20,5 +20,5 @@ If the above guidance does not work, contact us via telegram chat: t.me/tomochai
 
 On MEW, click “Access my wallet" -&gt; Software -&gt; Choose what way you prefer \(private key, keystore file or mnemonic phrase\) -&gt; Change the network to TomoChain \(inside the red rectangle\) as the picture below
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 

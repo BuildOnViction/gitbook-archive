@@ -147,7 +147,7 @@ bootnode -nodekey ./bootnode.key
 
 `6f118d0c91f7ebfae6f5c17825205279249cf7ff65ae54d0a1a8908ef16f80f63@[::]:30301` 
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 ### Start Masternodes <a id="start-masternodes"></a>
 
@@ -256,7 +256,7 @@ eth.getBlock(1)
   Wait about 30 minutes to see if your chain passes the first checkpoint
   ```
 
-![](../../.gitbook/assets/image%20%2862%29.png)
+![](../../.gitbook/assets/image%20%2869%29.png)
 
 ```text
 tomo attach http://0.0.0.0:1545

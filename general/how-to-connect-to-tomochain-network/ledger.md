@@ -43,11 +43,11 @@ TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge betwee
 * Connect MetaMask to TomoChain Mainnet by following [this guide](https://docs.tomochain.com/get-started/wallet/) to add a custom network
 * Choose TomoChain Mainnet as the network
 
-![](../../.gitbook/assets/image%20%2856%29.png)
+![](../../.gitbook/assets/image%20%2861%29.png)
 
 * Choose HD path for your wallet \(Ledger Live by default\)
 
-![](../../.gitbook/assets/image%20%2866%29.png)
+![](../../.gitbook/assets/image%20%2873%29.png)
 
 * Choose an account address that you want to use
 * Click on UNLOCK
@@ -55,7 +55,7 @@ TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge betwee
 
 **Note**: You can verify the balance of the account by copying the account address and checking it on [TomoScan](https://scan.tomochain.com/).
 
-![](../../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2844%29.png)
 
 ### Connect with MyEtherWallet
 
@@ -74,19 +74,19 @@ TomoMaster is the decentralized governance Dapp of TomoChain, allowing users to 
 * Select Ledger Wallet from the dropdown list
 * Choose m/44’/60’/0’/0 path if the Ledger Nano S has the latest firmware. Otherwise, use m/44’/889’/0’/0 path
 
-![](../../.gitbook/assets/image%20%2843%29.png)
+![](../../.gitbook/assets/image%20%2847%29.png)
 
 * Click on Save
 * Choose one of the addresses that you want to use
 
-![](../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%287%29.png)
 
 * TOMO Balance \(right column\) should show next to addresses \(the first address has 2 TOMO as in the figure\)
 * Click on Unlock your wallet
 
 **Note:** Now you can use Ledger Nano S and TomoMaster to vote and/or apply to become a Masternode Candidate \(please refer to [here](https://docs.tomochain.com/get-started/voting/) and [here](https://docs.tomochain.com/get-started/apply-node/) for how to vote and apply to become a Masternode\).
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 >
 

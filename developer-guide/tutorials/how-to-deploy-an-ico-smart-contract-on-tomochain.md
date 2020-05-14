@@ -533,7 +533,7 @@ The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 5
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
 3. Create a New password. Then, write down the Secret Backup Phrase and accept the terms. By default, MetaMask will create a new Ethereum address for you.
 
-![](../../.gitbook/assets/image%20%2811%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 4. Now we’re connected to the Ethereum network,with a brand new wallet.
 
@@ -543,7 +543,7 @@ Let’s now connect MetaMask to `TomoChain (testnet)`.
 
 1. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](https://docs.tomochain.com/general/networks/) \(testnet\) and click **Save**.
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 2. The network name at the top will switch to say “TomoChain testnet”. Now that we are on TomoChain network we can import TomoChain wallets.
 
@@ -551,7 +551,7 @@ Let’s now connect MetaMask to `TomoChain (testnet)`.
 
 3. **Copy the private key of your `buyer wallet`**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
 
-![](../../.gitbook/assets/image%20%2863%29.png)
+![](../../.gitbook/assets/image%20%2870%29.png)
 
 ### 7.3 Buying ICO tokens \(sending TOMO to the ICO address\) <a id="9432"></a>
 
@@ -567,7 +567,7 @@ We will now buy some `MyToken (MYT)` from the ICO Crowdsale contract.
 
 3. Paste the `Crowdsale address`. Set the amount `20 TOMO` you want to send. Select the **Transaction Fee** \(gas, gas price\) and click **Next**. After a few seconds your transaction will be confirmed as successful.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 You can see the Crowdsale buy transaction. `20 TOMO` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan.testnet.tomochain.com/txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **TomoScan**.
 
@@ -576,13 +576,13 @@ Now you can visit the [Token Holders list](https://scan.testnet.tomochain.com/to
 * The ICO/team: has `15'990'000 MYT`
 * Our buyer wallet: has `10'000 MYT`
 
-![](../../.gitbook/assets/image%20%2861%29.png)
+![](../../.gitbook/assets/image%20%2868%29.png)
 
 To see your new tokens on MetaMask, click the **Menu** icon on top left \(below the Fox face\). Click **Add Token**. Select **Custom Token**, paste the token address and hit **Next**.
 
 You will see your `MYT` tokens.
 
-![](../../.gitbook/assets/image%20%2836%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 **Congratulations!** The Crowdsale is working! We sent `20 TOMO` and we got back `10'000 MYT`.
 

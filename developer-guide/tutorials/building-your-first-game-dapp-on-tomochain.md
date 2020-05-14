@@ -73,7 +73,7 @@ mkdir pet-shop-tutorialcd pet-shop-tutorial
 
 Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). ****There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
 
-![](../../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2874%29.png)
 
 There is a special [Truffle Box](https://truffleframework.com/boxes) for this tutorial called **`pet-shop`**, which includes the basic project structure as well as code for the user interface. Use the **`truffle unbox`** command to unpack this Truffle Box:
 
@@ -347,7 +347,7 @@ If you want to verify that your contract was deployed successfully, you can chec
 
 You should see details about the transaction, including the block number where the transaction was secured.
 
-![](../../.gitbook/assets/image%20%2828%29.png)
+![](../../.gitbook/assets/image%20%2832%29.png)
 
 You can also enter your wallet address on the TomoScan search bar. You will find 4 transactions out. Your contract has been successfully deployed to TomoChain.
 
@@ -487,13 +487,13 @@ Now we’re ready to use our Dapp!
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
 3. Create a New password. Then, write down the Secret Backup Phrase and accept the terms. By default, MetaMask will create a new Ethereum address for you.
 
-![](../../.gitbook/assets/image%20%2865%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 4. Now we’re connected to the Ethereum network,with a brand new wallet with 0 ETH.
 
 5. Let’s now connect MetaMask to TomoChain \(testnet\). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](https://docs.tomochain.com/general/networks/) \(testnet\) and click **Save**.
 
-![](../../.gitbook/assets/image%20%2847%29.png)
+![](../../.gitbook/assets/image%20%2852%29.png)
 
 6. The network name at the top will switch to say “TomoChain testnet”. Now that we are on TomoChain network we can import TomoChain wallets.
 
@@ -501,7 +501,7 @@ We could use the TOMO wallet we created previously, but better **let’s create 
 
 7. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
 
-![](../../.gitbook/assets/image%20%2832%29.png)
+![](../../.gitbook/assets/image%20%2836%29.png)
 
 ### 9.2 Using the Dapp <a id="9432"></a>
 
@@ -517,7 +517,7 @@ npm run dev
 
 The dev server will launch and automatically open a new browser tab containing your DApp.
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+![](../../.gitbook/assets/image%20%2871%29.png)
 
 Normally, a MetaMask notification automatically requests a connection.
 
@@ -527,15 +527,15 @@ Normally, a MetaMask notification automatically requests a connection.
   
 
 
-![](../../.gitbook/assets/image%20%2850%29.png)
+![](../../.gitbook/assets/image%20%2855%29.png)
 
 4. You’ll see the button next to the adopted pet change to say **“Success”** and become disabled, just as we specified, because the pet has now been adopted.
 
-![](../../.gitbook/assets/image%20%2838%29.png)
+![](../../.gitbook/assets/image%20%2842%29.png)
 
 And in MetaMask you’ll see the transaction listed:
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 **Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to TomoChain.
 

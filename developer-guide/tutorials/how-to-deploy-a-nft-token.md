@@ -20,7 +20,7 @@ Fungible tokens are **all equal and interchangeable**. For instance, dollars or 
 
 Non-Fungible Tokens \(NFT\) are used to create verifiable digital scarcity. NFTs are unique and distinctive tokens that you can mainly find on EVM blockchains.
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 The [**ERC-721**](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) is the standard interface for Non-Fungible Tokens \(but there are also other NFTs, like ERC1155\). ERC721 is a set of rules to make your NFT easy for other people / apps / contracts to interface with.
 
@@ -36,7 +36,7 @@ At the end of 2017, NFTs made a remarkable entrance in the blockchain world with
 
 **The strength of NFTs resides in the fact that each token is unique and cannot be mistaken for another one**– unlike bitcoins, for example, which are interchangeable with one another.
 
-![](../../.gitbook/assets/image%20%2855%29.png)
+![](../../.gitbook/assets/image%20%2860%29.png)
 
 ### Crypto Item Standard \(ERC-1155\) <a id="4a98"></a>
 
@@ -62,7 +62,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 [Crypto-Collectibles are more than a passing craze](https://www.disruptordaily.com/why-crypto-collectibles-are-more-than-a-passing-craze/). It is easy to see the reason why, especially when you look at the potential of the crypto-collectible technology, including: **securing digital ownership, protecting intellectual property, tracking digital assets** and overall **creating real world value**.
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 ## How to deploy a NFT token on TomoChain <a id="aeea"></a>
 
@@ -318,7 +318,7 @@ ganache-cli -p 8545
 
 `Ganache` will start running, listening on port `8545`. Automatically you will have 10 available wallets with their private keys and `100 ETH` each. You can use them to test your smart contracts.
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 ## 5. Adding Tests <a id="9c8f"></a>
 
@@ -348,7 +348,7 @@ Run the test:
 truffle test
 ```
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+![](../../.gitbook/assets/image%20%2843%29.png)
 
 The test should **pass**. This means that the smart contract **works correctly** and it did successfully what it was expected to do.
 
@@ -375,7 +375,7 @@ This test is simple. First we check that we can mint new tokens. We mint 3 token
 
 The test passed.
 
-![](../../.gitbook/assets/image%20%2841%29.png)
+![](../../.gitbook/assets/image%20%2845%29.png)
 
 ## 6. Deploying <a id="e1b9"></a>
 
@@ -465,7 +465,7 @@ You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.c
 
 Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) \(MEW\) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in TomoChain \(testnet\), then we will call function `mint()` to mint the first token.
 
-![](../../.gitbook/assets/image%20%2834%29.png)
+![](../../.gitbook/assets/image%20%2838%29.png)
 
 In MyEtherWallet, under menu `Contract` &gt; `Interact with Contract` two things are required:
 
@@ -474,7 +474,7 @@ In MyEtherWallet, under menu `Contract` &gt; `Interact with Contract` two things
 
 On the right you will see a dropdown list with the functions. Select `mint`. MEW will show two fields: `outer` and `inner`. Input two colors, like `#ff0000`or `#0000ff` and click the button **Write**. Confirm with **MetaMask**.
 
-![](../../.gitbook/assets/image%20%289%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
@@ -486,7 +486,7 @@ You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! 
 In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https://ropsten.etherscan.io/address/0x22fb8a49811d33d34be96c82b3937b252e78a8d5) will **change** after the first token is minted. A new link will be displayed now to track the ERC721 token `GRAD`.
 {% endhint %}
 
-![](../../.gitbook/assets/image%20%286%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 ![](../../.gitbook/assets/image%20%281%29.png)
 
@@ -499,7 +499,7 @@ A few suggestions to continue from here:
 * You can have some buttons to interact with the tokens \(buy, sell, change, transfer, change attributes/colors, etc…\)
 * You can iterate on this basic code and create a new **CryptoKitties** game :\)
 
-![](../../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2816%29.png)
 
 **Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on TomoChain.
 

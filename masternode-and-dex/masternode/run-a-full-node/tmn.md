@@ -61,7 +61,7 @@ Verify that you now have the key with the fingerprint `9DC8 5822 9FC7 DD38 854A 
 apt-key fingerprint 0EBFCD88
 ```
 
-![](../../../.gitbook/assets/image%20%2826%29.png)
+![](../../../.gitbook/assets/image%20%2830%29.png)
 
 Set up the stable Docker repository.
 
@@ -143,7 +143,7 @@ Once started, you should see your node on the [stats page](https://stats.testnet
 
 Note: It can take up to one hour to properly sync the entire blockchain.
 
-![](../../../.gitbook/assets/image%20%2858%29.png)
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
 
 

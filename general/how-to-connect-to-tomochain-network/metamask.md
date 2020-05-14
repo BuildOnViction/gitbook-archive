@@ -8,7 +8,7 @@ First install the [MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 
 **Step 1:** Click the MetaMask logo on the browser to open the Extension -&gt; select `Network` -&gt; select `Custom RPC` as shown below:
 
-![](../../.gitbook/assets/image%20%2849%29.png)
+![](../../.gitbook/assets/image%20%2854%29.png)
 
 
 
@@ -24,13 +24,13 @@ First install the [MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 
 
 
-![](../../.gitbook/assets/image%20%2830%29.png)
+![](../../.gitbook/assets/image%20%2834%29.png)
 
 Set `Privacy Mode` On, to connect Metamask with your hardware wallet \(Trezor, Ledger Nano S\).  
   
 
 
-![](../../.gitbook/assets/image%20%2842%29.png)
+![](../../.gitbook/assets/image%20%2846%29.png)
 
 **Step 3:** You are now successfully connected to the TomoChain Mainnet.  
 

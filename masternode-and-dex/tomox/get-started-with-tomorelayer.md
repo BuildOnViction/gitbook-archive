@@ -1,59 +1,98 @@
+---
+description: >-
+  With a clear interface design, TomoRelayer is so user-friendly that just about
+  anyone can register their own decentralized exchange on TomoX.
+---
+
 # Get Started with TomoRelayer
 
 ## **What is TomoRelayer?** <a id="ebdc"></a>
 
-[TomoRelayer](https://relayer.testnet.tomochain.com/login) is a Decentralized Exchange portal which follows TomoChain’s design and interacts with the underlying TomoX protocol. By using TomoRelayer, anyone can propose their own decentralized exchange by depositing 25,000 TOMO. The design used in TomoRelayer assists the owners in monitoring, analyzing and controlling digital assets on their exchange platform with a professional dashboard.
+[TomoX](https://tomochain.com/tomox/) is a secure and efficient permissionless decentralized exchange \(DEX\) protocol that offers the speed and experience of centralized exchanges coupled with the security of decentralization where users are always in direct custody of their funds.
 
-The following are some key features of TomoRelayer that can help and attract more people towards using DEXs in the future.
+![](../../.gitbook/assets/spill-the-t-2.png)
 
-* **Interoperability:** Enabling trading of any TRC-20 or TRC-21 asset, any token that follows these standards can be traded on TomoX-integrated DEX.
-* **Professional Dashboard**: Providing an information management UI that tracks the key performance of your DEX.
-* **Liquidity Network**: Providing one giant tradable order book for every token. Whether you’re trading on the most popular exchange or the least popular exchange, the token order book will always be the same.
+[TomoRelayer](http://relayer.tomochain.com/) is a portal to register and manage decentralized exchanges \(also called Relayers\) on TomoX. Any Relayer Owner can deposit 25,000 TOMO to claim an available DEX and then use TomoRelayer’s tools to monitor, analyze and control all digital assets
 
-## **Let’s get started** <a id="8212"></a>
+### **Key features**: <a id="cb38"></a>
 
-### **Step 1: Unlocking your wallet** <a id="1c62"></a>
+* **Easy to Select and List TRC21 Tokens**: Selectively enable trading of any TomoChain TRC21 tokens that already applied to TomoX.
+* **Professional Dashboard**: TomoRelayer provides DEX analytics that tracks key performance metrics including volume, users, and transaction count.
+* **Shared Liquidity Network**: TomoX provides one giant tradable order book shared across every DEX on TomoX, allowing buyers and sellers to always find a match.
 
-On the [homepage](https://relayer.testnet.tomochain.com/login), you will see 4 options to unlock your wallet
+### **Dashboard** <a id="60bb"></a>
 
-![](../../.gitbook/assets/1-gsjoewcrezgfdqwqfsbxvg.png)
+TAB: Relayer Page: All key figures on your Relayer’s performance.
 
-### **Step 2: Once unlocked, you will see the display of the main Dashboard** <a id="d2e3"></a>
+TAB: Configuration: The specifications of your Relayer.
 
-The main dashboard displays 2 main tabs
+* **Information:** Detail information on your Relayer
+* **Trade option:** Set up your Relayer’s preferred spot trading option \(trading fees \(%\) and trading pairs\)
+* **Deposit**: By locking 25,000 TOMO in TomoRelayer smart contract
+* **Lending:** Set up your Relayer’s preferred lending options
+* **Transfer**: Transfer the ownership of your Relayer to the new owner
+* **Shutdown**: Shut down your Relayer
 
-* **Relayer Page:** Displays all key figures representing your Relayer’s performance.
-* **Configuration:** this advanced tab can override the content and default settings, including:
-* **Information:** Setting detailed information of the Relayer
-* **Trade option:** Adding trading fees \(%\) and trade tokens based on preference
-* **Transfer:** Transfer ownership of the Relayer to the new owner
-* **Shutdown:** Shut down the Relayer
+![](../../.gitbook/assets/image%20%2865%29.png)
 
-![](../../.gitbook/assets/1-nmtxiiurwljxco7mxrtpdw.png)
+## **How to Register a New Relayer** <a id="eac2"></a>
 
-## **Steps on registering a new Relayer** <a id="eac2"></a>
+A 25,000 TOMO deposit is required to register your relayer, which may be withdrawn later. The 25,000 TOMO deposit will be divided into 2 parts:
 
-**Step 1**: Relayer Registration: Firstly, deposit a minimum amount of 25,000 TOMO and add an address of the Relayer coinbase
+* Locked Funds: 20,000 TOMO will be locked and only be available for withdrawal 30 days after the relayer owner makes a decision to resign.
+* Trading Fee Fund: 5,000 TOMO will be used for paying network fees, and be deducted from as fees are sent to Masternodes for handling trades and order processing.
 
-![](https://miro.medium.com/max/1158/1*c9hLdvB0PEULRVM9hzcUYw.png)
+A Relayer owner can resign the relayer position at any time. If the Trading Fee Fund is not empty, the relayer owner can withdraw the remaining funds along with the locked funds 4 weeks after resigning.
 
-**Step 2:** Add the Relayer's Name
+### **Step 1: Unlock your wallet** <a id="6122"></a>
 
-![](https://miro.medium.com/max/1148/1*kzpObSivtvNyxKMf3XxsMA.png)
+Select one of the available options on the home page to unlock your wallet
 
-**Step 3:** Adjust the trading Fee: the Brokerage fee is charged when a trader buys or sells tokens. The minimum requirement is 0.01% and it can be modified later
+![](../../.gitbook/assets/image%20%2866%29.png)
 
-![](https://miro.medium.com/max/1074/1*0GMGMDnzSsAtMFAp-5Lg_A.png)
+### **Step 2: Relayer Registration:** <a id="5a4d"></a>
 
-**Step 4:** Select trading pairs to appear in the Main Dashboard. Volume information will appear within 7 days.
+* Deposit a minimum amount of 25,000 TOMO
+* Add your Relayer coinbase’s address
 
-![](https://miro.medium.com/max/2226/1*sQz3mLW3p3-mp7aiGiMg0A.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
-Once completing all 4 steps, there will be a review box about all previous details and settings before officially publishing the Relayer.
+### **Step 3: Add a Name to Your Relayer** <a id="0207"></a>
 
-Congratulations, you’ve just created your very own Relayer.
+![](../../.gitbook/assets/image%20%2812%29.png)
 
-### Fill in this [**FORM**](https://docs.google.com/forms/d/1Zi4Kf6inNka0B7e9sFjoTpv47Khe_khJ6Hel3NQEMfU/viewform?edit_requested=true) to receive 25,001 TOMO testnet to register your own DEX. <a id="7a0b"></a>
+### **Step 4: Set the Trading Fee**: <a id="7591"></a>
+
+Set the traders’ trading fee \(The fees that traders must pay to the Relayer Owner\).
+
+* Traders’ Trading fee is adjustable
+* Traders’ Trading fee is charged by Quote Token at the time that the order is matched and sent to Relayer Owner Address.
+
+E.g: Pair TOMO/USDT
+
+TOMO -&gt; Base Token
+
+USDT -&gt; Quote Token
+
+=&gt; The trading fee will be charged by USDT.
+
+![](../../.gitbook/assets/image%20%2850%29.png)
+
+### **Step 5: Select trading pairs and lending pair \(optional\)** <a id="a8fe"></a>
+
+![](../../.gitbook/assets/image%20%2820%29.png)
+
+### **Step 6: Review and Publish** <a id="2dbb"></a>
+
+Please carefully review the pop-up box which includes all details and settings of your Relayer before publishing your own decentralized exchange.
+
+![](../../.gitbook/assets/image%20%282%29.png)
+
+Congratulations, you’ve just created your very own Relayer. We are excited to see how you experience TomoRelayer, and how big and successful your DEX is going to grow.
+
+### Video Tutorial
+
+{% embed url="https://youtu.be/9aSqUQjzNFg" %}
 
 Seek more support at [TomoX support group](https://t.me/tomox).
 
