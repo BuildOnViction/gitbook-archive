@@ -1,7 +1,5 @@
 # TomoX P2P Lending Fees
 
-
-
 {% hint style="info" %}
 Relayer fees: Fees that relayers must pay the Masternode network. These fees will be automatically deducted from the \*Trading Fee Fund when successfully matched. 
 
@@ -13,14 +11,47 @@ The 25,000 TOMO deposit of the Relayer Owner will be divided into 2 parts:
 
 ### 1. **Service  Fees**
 
-**Relayer service fees**: Fees that Relayers pay Masternodes. These fees will be automatically deducted from the \*Trading Fee Fund when a match is successful. Relayer has to pay a flat service fee of 0.01 TOMO to the Masternode that creates the block containing the matched order.
+There are 2 types of service fees for using the lending service:
+
+* User service fees: Fees that users pay Relayers. These fees will be automatically deducted from the loan when a match is successful.
+* Relayer service fees: Fees that Relayers pay Masternodes. These fees will be automatically deducted from the Trading Fee Fund when a match is successful.
+
+**1.1. User Service Fees**
+
+* Lender service fee: None
+* Borrower service fee: 0.5% \(By default\) of the total loan amount payable in the base token\* 
+
+Base token\*: The borrowed asset   
+
+
+For example: If a user wants to borrow 1000 USDT, he will be charged a service fee of 0.5% \* 1000 = 5 USDT by the Relayer.  
+
+
+* Lender service fee is non-adjustable
+* Borrower service fee rate is set/adjusted by the Relayer Owner.
+* Borrower service fee is charged at the time the order is matched.
+* Borrower service fee is sent to the Relayer Owner’s Address.
+
+**1.2 Relayer service fees**: Fees that Relayers pay Masternodes. These fees will be automatically deducted from the \*Trading Fee Fund when a match is successful. Relayer has to pay a flat service fee of 0.01 TOMO to the Masternode that creates the block containing the matched order.
 
 * Relayer service fee is charged at the time the order is matched.
 * Relayer service fee is sent to the Masternode Owner’s Address.
 
 ### 2. Cancellation Fees
 
-**Relayer cancellation fees**: Fees that Relayers pay Masternodes. These fees will be automatically deducted from the Trading Fee Fund. 
+There are 2 types of cancellation fees for canceling an order:
+
+* User cancellation fees: Fees that users pay Relayers. These fees will be automatically deducted from the User's wallet.
+* Relayer cancellation fees: Fees that Relayers pay Masternodes. These fees will be automatically deducted from the Trading Fee Fund.
+
+**2.1. User Cancellation Fees**
+
+* Lender cancellation fee: The Lender cancellation fee is equal to 1/10 of the Borrower service fee, payable in the Base Token. 
+* Borrower cancellation fee:  The Borrower cancellation fee is equal to 1/10 of the Borrower service fee, payable in the collateralized asset.
+* Cancellation fee is charged at the time that the Lender/Borrower cancels the order.
+* Cancellation fee is sent to the Relayer Owner’s Address
+
+**2.2 Relayer cancellation fees**: Fees that Relayers pay Masternodes. These fees will be automatically deducted from the Trading Fee Fund. 
 
 The Relayer has to pay a flat cancellation fee of 0.0001 TOMO to the Masternode that creates the block containing the canceled order.
 
