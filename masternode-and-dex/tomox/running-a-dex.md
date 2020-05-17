@@ -13,7 +13,7 @@ To enable trading for the DEX, register the DEX on TomoRelayer by depositing 25K
 
 ### Quick start <a id="quick-start"></a>
 
-Run this command on an empty server Ubuntu version 16+:
+Run this command on an empty server Ubuntu version 16+ to **install** or **update** your DEX:
 
 ```text
 bash <(curl -sSL https://tomochain.com/get-tomox.sh)

@@ -11,8 +11,8 @@ Trading fees are categorized as trader fees and relayer fees:
 
 ### Trader Trading Fees
 
-* Taker\* Fee: 0.1 %
-* Maker\* Fee: 0.1% 
+* Seller Fee: 0.1 %
+* Buyer Fee: 0.1% 
 * Trader Trading fee is set/adjusted by the Relayer Owner on the smart contract. 
 * Trader Trading fee is charged by the Quote Token at the time that the order is matched. 
 
@@ -25,15 +25,12 @@ Trader Trading fee is sent to the Relayers’ Owner Address.
 * USDT -&gt; Quote Token
 
 =&gt; The trading fee will be charged by USDT.  
-  
-\*The Maker places an order that does not match any order in the orderbook
 
-\*The Taker makes orders that match an order in the orderbook
 
 ### **Relayer Trading Fees**
 
-* The Taker’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade.
-* The Maker’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade.
+* The Seller’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade.
+* The Buyer’s Relayer pays a flat trading fee of 0.001 TOMO to the Masternode that creates the block which contains the trade.
 * The Relayer’s trading fee is charged at the time that the order is matched.
 * The Relayer’s trading fee is sent to the Masternode Owner Address that created the block.  
 

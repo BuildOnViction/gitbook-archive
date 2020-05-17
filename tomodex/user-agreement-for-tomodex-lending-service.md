@@ -94,7 +94,7 @@ description: >-
 
 ### 5. Fees 
 
-In consideration for the use of the Services, you agree to pay the Company fees, as set forth in our fee schedule displayed on the [TomoDEX Lending Fee](tomodex-lending/fee-structure.md), which the Company may revise or update in its sole discretion from time to time. By using our Services, you acknowledge your acceptance of those fees.  
+In consideration for the use of the Services, you agree to pay the Company fees, as set forth in our fee schedule displayed on the [TomoDEX Lending Fee](tomodex-fee/lending-fee.md), which the Company may revise or update in its sole discretion from time to time. By using our Services, you acknowledge your acceptance of those fees.  
 
 
 ### 6. Term and Termination

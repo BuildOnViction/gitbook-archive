@@ -104,10 +104,8 @@ description: >-
 
  -The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not provided owned by the user\). The Company is not responsible for any losses or for taking any actions to attempt to recover such original digital assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
 
-4.3.4. The user must then transfer the TRC21 wrapped token to the specific address provided by the Platform. 
+4.3.4. The user must then enter the amount of the TRC21 wrapped tokens the user wants to unwrap. The Platform then asks the user to make a transaction to the TomoChain blockchain. Once the transaction is confirmed by the user and successfully executed by the Blockchain, the exact amount of the wrapped TRC21 token that the user wants to unwrap must be reduced from the user’s balance by the Blockchain.  
 
-* The user assumes all liability for any losses incurred as a result of transfer to an incorrect address \(such as an address not provided by the Platform or an address not associated with the specific wrapped token\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TRC21 wrapped token. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
-* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of your TRC21 wrapped token to the Platform's specific address.
 
 4.3.5. After the transaction to the Platform reaches 30 confirmations on TomoChain, the Platform shall take a small unwrapping fee that serves as transaction fees for all multi-signature validators to reach a consensus. Once the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding original digital assets and send to the address provided by the user. 
 
