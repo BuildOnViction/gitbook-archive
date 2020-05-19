@@ -85,6 +85,7 @@
 * [TomoBridge](tomobridge/README.md)
   * [TRC21 Wrapped Token Information](tomobridge/trc21-wrapped-token-information.md)
   * [Fee Structure](tomobridge/fee-structure.md)
+  * [Tutorial](tomobridge/tutorial.md)
   * [FAQ](tomobridge/faq.md)
   * [Terms of Use](tomobridge/terms-of-use.md)
   * [Privacy Policy](tomobridge/privacy-policy.md)
