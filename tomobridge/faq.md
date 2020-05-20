@@ -48,7 +48,7 @@ Yes, you can.
 
 #### How do I swap my TOMO to TOMOB and vice versa? <a id="how-do-i-swap-my-tomo-to-tomob-and-vice-versa"></a>
 
-Go to [TomoBridge](https://bridge.tomochain.com/) and swap between TOMO and TOMOB. Check out this video for details: [TomoBridge Tutorial](https://www.youtube.com/watch?v=TglV_VyAYI4&feature=youtu.be)
+Go to [TomoBridge for TOMOB](htttps://tomob.tomochain.com) and swap between TOMO and TOMOB. Check out this video for details: [How to swap between TOMO and TOMOB?](https://www.youtube.com/watch?v=TglV_VyAYI4&feature=youtu.be)
 
 #### Can TomoB be staked? <a id="can-tomob-be-staked"></a>
 
