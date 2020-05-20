@@ -28,8 +28,6 @@ You can go to [**TomoBridge**](http://bridge.tomochain.com) and swap between you
 
 Please [submit a request](https://forms.gle/LgEGzd35Vg8SEpGQ6) to report your issue with the TomoBridge support team of contact with us on Telegram channel at [https://t.me/TomoDEX\_Official](https://t.me/TomoDEX_Official)
 
-
-
 ### TOMOB
 
 [**TOMOB**](https://medium.com/tomochain/tomob-is-officially-listed-on-binance-dex-4dd83117e515) **is a prime use case for TomoBridge. TomoChain has issued BEP-2 TOMO tokens on Binance Chain called TOMOB.**
