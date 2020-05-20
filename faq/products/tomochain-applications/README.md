@@ -12,7 +12,5 @@
 
 {% page-ref page="tomorelayer.md" %}
 
-{% page-ref page="tomobridge.md" %}
-
 
 

@@ -107,7 +107,6 @@
       * [TomoStats](faq/products/tomochain-applications/tomostats.md)
       * [TomoIssuer](faq/products/tomochain-applications/tomoissuer.md)
       * [TomoRelayer](faq/products/tomochain-applications/tomorelayer.md)
-      * [TomoBridge](faq/products/tomochain-applications/tomobridge.md)
     * [TomoChain Protocols](faq/products/tomochain-protocols/README.md)
       * [TomoZ Protocol](faq/products/tomochain-protocols/tomoz.md)
       * [TomoX Protocol](faq/products/tomochain-protocols/tomox.md)
