@@ -3,7 +3,9 @@
 ### BTC
 
 {% hint style="info" %}
-[TRC21 wrapped BTC smart contract address](https://scan.tomochain.com/tokens/0xae44807d8a9ce4b30146437474ed6faaafa1b809) 0xAE44807D8A9CE4B30146437474Ed6fAAAFa1B809
+[TRC21 wrapped BTC smart contract address](https://scan.tomochain.com/tokens/0xae44807d8a9ce4b30146437474ed6faaafa1b809) 
+
+0xAE44807D8A9CE4B30146437474Ed6fAAAFa1B809
 {% endhint %}
 
 {% hint style="info" %}
