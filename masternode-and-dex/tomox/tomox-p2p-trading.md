@@ -1,4 +1,4 @@
-# TomoX P2P Trading Fees
+# TomoX P2P Trading
 
 ## Trading Fees
 

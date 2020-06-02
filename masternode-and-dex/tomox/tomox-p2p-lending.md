@@ -1,4 +1,4 @@
-# TomoX P2P Lending Fees
+# TomoX P2P Lending
 
 {% hint style="info" %}
 Relayer fees: Fees that relayers must pay the Masternode network. These fees will be automatically deducted from the \*Trading Fee Fund when successfully matched. 
