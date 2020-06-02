@@ -80,7 +80,9 @@ description: Glossary of blockchain and crypto terms
         book</td>
     </tr>
   </tbody>
-</table>### TomoP
+</table>
+
+### TomoP
 
 | Term | Description |
 | :--- | :--- |
