@@ -267,7 +267,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 17.1. Except as otherwise terminated in accordance with the provisions below, these Terms of Use shall commence on the date you access the Platform and Site and shall remain valid and binding for as long as you have any TRC21 wrapped tokens in your wallet. Without limiting any other provision of these Terms of Use, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site \(including blocking certain IP addresses\), to any user for any or no reason, including without limitation for breach of any representation, warranty, or covenant contained in these Terms of Use or of any applicable law or regulation. We may terminate your use or participation in the Site or delete any content or information that you posted at any time, without warning, in our sole discretion. In addition, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress. 
 
-17.2. These Terms may be superseded by any amended Terms in accordance with clause 18.2. 
+17.2. These Terms may be superseded by any amended Terms in accordance with clause 20.1. 
 
 17.3. These Terms may be terminated or amended by the Company at any time without notice.  
 
@@ -299,7 +299,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 20.1. The Company shall be permitted to make amendments to these Terms of Use from time to time. You will be deemed to have accepted such amended Terms by indicating your acceptance on the Platform and the Site. Any further actions which you make will be subject to the Terms in effect at that time. If you object to any changes, you may stop using the Platform and the Site. Your continued use of the Platform and the Site after we publish or otherwise provide notice about our changes to the Terms of Use means that you are consenting to the updated Terms of Use.
 
-20.2. We keep these Terms of Use under regular review. These Terms of Use were last updated in May 15th, 2020  
+20.2. We keep these Terms of Use under regular review. These Terms of Use were last updated in Jun 2, 2020  
   
   
   
