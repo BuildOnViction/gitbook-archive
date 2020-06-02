@@ -81,16 +81,21 @@ description: >-
 
 4.8. There may be instances where, having made an order, some or all of your order is Matched.
 
-4.9. At the time the order is matched, the collateral will be locked in a non-private key address \(E.g., 0x93\), without any third-party interference, which includes the Platform. The matched amount of the borrowed digital asset in the Lender’s Wallet will be automatically transferred to the Borrower’s Wallet.
+4.9. The Company is the operator of the Platform, but is not involved as a principal in any lending or borrowing activities. 
 
-4.10. Collateral will be released at the time the loan is liquidated or closed. The collateral for the loan will be released to the Lender’s Wallet if the loan is liquidated. The collateral for the loan will be released to Borrower’s Wallet if the loan is closed.
+4.10. You are not permitted to vary or cancel any Trade to which you are Matched as a Lender or a Borrower. You can cancel any order if it has not been Matched. You acknowledge and accept that for the duration of the loan, you will not have access to your lent digital asset \(as a Lender\) or your collateral \(as a Borrower\) before the maturity date unless the loan is prepaid in full. 
 
-4.11. The Company is the operator of the Platform, but is not involved as a principal in any lending or borrowing activities. 
+4.11. **Auto Repay**: You acknowledge and accept that if as a Borrower, you have enough balance of the borrowed digital asset on the due date of the loan, the loan will be automatically repaid.
 
-4.12. You are not permitted to vary or cancel any Trade to which you are Matched as a Lender or a Borrower. You can cancel any order if it has not been Matched. You acknowledge and accept that for the duration of the loan, you will not have access to your lent digital asset \(as a Lender\) or your collateral \(as a Borrower\) before the maturity date unless the loan is prepaid in full. You further understand that no partial prepayment is allowed.
+4.12. **Prepayment:** You acknowledge and accept that if as a Borrower, you decide to pay off the loan early, aside from the normal interest accrued until that point, you will be charged a prepayment penalty \(which is equal to half of the interest you would have had to pay from that point till the maturity date\). You further understand that no partial prepayment is allowed.
 
-4.13. You acknowledge and accept that if as a Borrower, you have enough balance of the borrowed digital asset on the due date of the loan, the loan will be automatically repaid.   
+4.13. **Collateral**
 
+4.13.1. Only a limited list of cryptocurrencies that have been diligently vetted and deemed to have relatively high quality are listed by the Platform as approved collateral. Such list shall be regularly reviewed and updated by the Platform at its sole discretion. 
+
+4.13.2. You acknowledge and accept that if as a Lender, you shall accept any of the approved digital assets as collateral for the loan, and if as a Borrower, you shall have enough balance of any of the approved digital assets to deposit as collateral for the loan.
+
+4.13.3. The Collateral Deposit Rate, Liquidation Rate, Locking, Releasing, Liquidation, Top Up and Auto Excess Recall Process follow the default settings of TomoX - the layer-1 permissionless decentralized exchange \(DEX\) protocol of TomoChain. See [TomoX P2P Lending](https://docs.tomochain.com/masternode-and-dex/tomox/tomox-p2p-lending) for more information.
 
 ### 5. Fees 
 
@@ -101,7 +106,7 @@ In consideration for the use of the Services, you agree to pay the Company fees,
 
 6.1. Except as otherwise terminated in accordance with the provisions below, these Terms shall commence on the date you access the Platform and shall remain valid and binding for as long as you have outstanding Trades or LOAN/BORROW orders. 
 
-6.2. These Terms may be superseded by any amended Terms in accordance with clause 8.2. 
+6.2. These Terms may be superseded by any amended Terms in accordance with clause 10.1. 
 
 6.3. These Terms may be terminated or amended by the Company at any time without notice.  
 
@@ -115,13 +120,13 @@ The Platform offers anonymity to both Lenders and Borrowers. As a Lender, you wi
 
 8.1. These Terms and any dispute arising out of or in connection with their subject matter shall be governed by and construed in accordance with the laws of Singapore and the parties agree that the courts of Singapore shall have exclusive jurisdiction to settle any dispute or claim arising in connection with these Terms.
 
-8.3. These Terms and any policies or operating rules posted by us on the Site constitute the entire agreement and understanding between you and us. Any failure by the Company to exercise or enforce any right or provision of these Terms shall not operate as a waiver of such right or provision.
+8.2. These Terms and any policies or operating rules posted by us on the Site constitute the entire agreement and understanding between you and us. Any failure by the Company to exercise or enforce any right or provision of these Terms shall not operate as a waiver of such right or provision.
 
-8.4. These Terms, and any of the rights, duties, and obligations contained herein, are not assignable by you without prior written consent of the Company. These Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time without notice or your consent..
+8.3. These Terms, and any of the rights, duties, and obligations contained herein, are not assignable by you without prior written consent of the Company. These Terms operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time without notice or your consent..
 
-8.5. The Company may record all telephone calls and other communications for the purposes of security and training.
+8.4. The Company may record all telephone calls and other communications for the purposes of security and training.
 
-8.6. You understand that the Platform will endeavor to be open 24/7. However, the Company offices and communications channels will be open on business days only. You further acknowledge that the Company will make reasonable efforts to ensure that the Platform is available continuously however that there may be instances where access to the Platform is restricted as a result of scheduled maintenance, technology failure or network failure.  
+8.5. You understand that the Platform will endeavor to be open 24/7. However, the Company offices and communications channels will be open on business days only. You further acknowledge that the Company will make reasonable efforts to ensure that the Platform is available continuously however that there may be instances where access to the Platform is restricted as a result of scheduled maintenance, technology failure or network failure.  
 
 
 ### 9. Complaints
@@ -135,7 +140,7 @@ The Platform offers anonymity to both Lenders and Borrowers. As a Lender, you wi
 
 10.1. We may modify this Agreement from time to time. We also may provide additional notice, as applicable, depending on the type of change. If you object to any changes, you may stop using the Services. Your continued use of the Services after we publish or otherwise provide notice about our changes to the Agreement means that you are consenting to the updated Agreement. For the avoidance of doubt, the Terms applicable at the time you make an order will not be amended for the duration of that order. Any further orders which you make will be subject to the Terms in effect at that time
 
-10.2. We keep the Agreement under regular review. This Agreement was last updated in May 15th, 2020  
+10.2. We keep the Agreement under regular review. This Agreement was last updated in Jun 2, 2020  
   
 
 
