@@ -163,6 +163,12 @@ $$
 I = F * R * \frac{T_1 + T}{2*365}
 $$
 
+* I: Interest
+* F: The original loan amount
+* T: Term \(days\) \(1 days, 30 days …\)
+* T1: The number of days borrowed.
+* R: Annual Interest rate
+
 ### 8. Trade 
 
 #### 8.1. Status:
