@@ -59,7 +59,7 @@ For example: If a user wants to borrow 1000 USDT against BTC and the BTC price i
 
 
 * Collateral Deposit Rate is set/adjusted by the Moderator.
-* Collateral will be locked in a non-private key address \(E.g., 0x11\).
+* Collateral will be locked in a non-private key address \([0x0000000000000000000000000000000000000011](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000011)\).
 * Collateral will be locked at the time the order is matched.
 * Collateral will be released at the time the loan is liquidated or closed.
 * The collateral for the loan will be released to Borrower’s Address if the loan is closed. In case of liquidation, see Section 4 for more details
