@@ -31,15 +31,15 @@ cd $GOPATH/src/github.com/ethereum/
 * Download source code and build
 
 ```text
-git clone https://github.com/tomochain/tomochain.git go-ethereum
-cd go-ethereum
+git clone https://github.com/tomochain/tomochain.git tomochain
+cd tomochain
 ```
 
-* Checkout the latest version \(e.g v1.5.4\)
+* Checkout the latest version \(e.g v2.2.4\)
 
 ```text
 git pull origin --tags
-git checkout v1.4.1
+git checkout v2.2.4
 ```
 
 * Build the project
@@ -116,7 +116,7 @@ tomo account new \
 **Import accounts**
 
 ```text
-tomo  account import [PRIVATE_KEY_FILE_OF_YOUR_ACCOUNT] \    
+tomo account import [PRIVATE_KEY_FILE_OF_YOUR_ACCOUNT] \    
     --keystore $KEYSTORE_DIR \
     --password [YOUR_PASSWORD_FILE_TO_LOCK_YOUR_ACCOUNT]
 ```
@@ -144,6 +144,7 @@ tomo account list --datadir $DATA_DIR  --keystore $KEYSTORE_DIR
 
 ```text
 tomo  --syncmode "full" \
+    --announce-txs \
     --datadir $DATA_DIR --networkid $NETWORK_ID --port 30303 \
     --keystore $KEYSTORE_DIR --password $PASSWORD \
     --identity $IDENTITY \
@@ -156,6 +157,7 @@ If you are a dapp developer, you should open RPC and WS apis:
 
 ```text
 tomo  --syncmode "full" \
+    --announce-txs \
     --datadir $DATA_DIR --networkid $NETWORK_ID --port 30303 \
     --keystore $KEYSTORE_DIR --password $PASSWORD \
     --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcport 8545 --rpcvhosts "*" \
