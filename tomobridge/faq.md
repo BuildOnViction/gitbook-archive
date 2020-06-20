@@ -14,7 +14,7 @@ The reason you need TRC21 Wrapped Token is to be able to trade other platform's 
 
 ### Can I trade TRC21 Wrapped Tokens on TomoX's DEXs after swapping?
 
-Yes, you can use TRC21 Wrapped Tokens on [TomoDEX](https://dex.testnet.tomochain.com) as well as other DEXs built on top of TomoX.
+Yes, you can use TRC21 Wrapped Tokens on [TomoDEX](https://dex.tomochain.com) as well as other DEXs built on top of TomoX.
 
 ### Which coin is supported by TomoBridge?
 
@@ -22,7 +22,7 @@ TomoBridge currently supports converting between BTC, ETH, USDT and their corres
 
 ### How can I swap my asset to TRC21 Wrapped Token and vice versa?
 
-You can go to [**TomoBridge**](http://bridge.tomochain.com) and swap between your asset and TRC21 Wrapped Token. Check out this article for details: _**TomoBridge Tutorial**_
+You can go to [**TomoBridge**](http://bridge.tomochain.com) and swap between your asset and TRC21 Wrapped Token. Check out this article for details: [_**TomoBridge Tutorial**_](tutorial.md#fda7)_\*\*\*\*_
 
 ### **What can I do when having issues on** TomoBridge?
 
