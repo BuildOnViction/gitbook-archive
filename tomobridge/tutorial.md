@@ -13,7 +13,7 @@ To simplify the process for users, we would like to present a detailed tutorial 
 
 ## Swap your native coins/tokens to TRC21 Wrapped Tokens <a id="fda7"></a>
 
-**Step 1: Log in to https://bridge.tomochain.com and choose the coin/token that you wish to wrap/deposit**
+**Step 1: Log in to** [**https://bridge.tomochain.com**](https://bridge.tomochain.com) **and choose the coin/token that you wish to wrap/deposit**
 
 Options available for login include: MetaMask, TomoWallet, Ledger, Trezor, Private Key, Mnemonic and Pantograph extension. If you haven’t got a Wallet, create one [here](https://wallet.tomochain.com/#/login).
 
