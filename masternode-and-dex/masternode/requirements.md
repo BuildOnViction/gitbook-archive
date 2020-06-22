@@ -4,9 +4,7 @@ description: Here are the base requirements for running a Masternode Candidate.
 
 # Requirements
 
-### Minimum hardware requirements <a id="hardware"></a>
-
-My recommendation:
+### Hardware Recommendation <a id="hardware"></a>
 
 * Directly facing internet
 * 16 cores CPU
