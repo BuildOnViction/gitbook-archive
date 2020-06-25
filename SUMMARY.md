@@ -11,6 +11,7 @@
     * [Metamask](general/how-to-connect-to-tomochain-network/metamask.md)
     * [Ledger](general/how-to-connect-to-tomochain-network/ledger.md)
     * [MyEtherWallet](general/how-to-connect-to-tomochain-network/myetherwallet-and-trust-wallet.md)
+    * [Pantograph](general/how-to-connect-to-tomochain-network/pantograph.md)
   * [Staking](general/staking/README.md)
     * [Staking Requirements](general/staking/staking-requirements.md)
     * [Staking Rewards](general/staking/staking-rewards.md)
