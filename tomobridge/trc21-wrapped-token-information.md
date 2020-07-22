@@ -86,5 +86,5 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 
 ## Which TRC21 Wrapped Token is available on TomoBridge?
 
-TomoBridge currently supports converting between BTC, ETH, USDT and their corresponding TRC21 wrapped BTC, TRC21 wrapped ETH, TRC21 wrapped USDT. More tokens on major  will be added in the near future.
+TomoBridge currently supports converting between BTC, ETH, USDT, YFI and their corresponding TRC21 wrapped BTC, TRC21 wrapped ETH, TRC21 wrapped USDT and TRC21 wrapped YFI. More tokens on major will be added in the near future.
 
