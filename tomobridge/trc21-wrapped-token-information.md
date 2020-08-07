@@ -56,6 +56,48 @@
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### FTT
+
+{% hint style="info" %}
+[TRC21 wrapped FTT smart contract address](https://scan.tomochain.com/tokens/0x33fa3c0c714638f12339f85dae89c42042a2d9af)
+
+0x33fa3c0c714638f12339F85dae89c42042a2D9Af
+{% endhint %}
+
+{% hint style="info" %}
+[FTT Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
+### DEC
+
+{% hint style="info" %}
+[TRC21 wrapped DEC smart contract address](https://scan.tomochain.com/tokens/0xc43a2df23dafacb9106ab239896599b705e2e67e)
+
+0xC43A2df23dAfACb9106AB239896599B705E2e67e
+{% endhint %}
+
+{% hint style="info" %}
+[DEC Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
+### VNDC
+
+{% hint style="info" %}
+[TRC21 wrapped VNDC smart contract address](https://scan.tomochain.com/tokens/0xc43a2df23dafacb9106ab239896599b705e2e67e)
+
+0xC43A2df23dAfACb9106AB239896599B705E2e67e
+{% endhint %}
+
+{% hint style="info" %}
+[VNDC Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
 ## What is TRC21 Wrapped Token?
 
 A TRC21 Wrapped Token is  hosted on the TomoChain public blockchain, issued by TomoBridge, a subsidiary of TomoChain Pte. Ltd.  and  backed by an equal amount of the underlying asset or currency. TRC21 rapped BTC, for instance, is a token worth the same as one BTC at any given moment. 
