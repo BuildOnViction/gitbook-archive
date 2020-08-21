@@ -56,6 +56,20 @@
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### SRM
+
+{% hint style="info" %}
+[TRC21 wrapped SRM smart contract address](https://scan.tomochain.com/address/0xc01643ac912b6a8ffc50cf8c1390934a6142bc91)
+
+0xc01643aC912B6a8ffC50CF8c1390934A6142bc91
+{% endhint %}
+
+{% hint style="info" %}
+[SRM Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
 ### FTT
 
 {% hint style="info" %}
