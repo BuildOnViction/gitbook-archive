@@ -98,6 +98,20 @@
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### DXD
+
+{% hint style="info" %}
+[TRC21 wrapped DXD smart contract address](https://scan.tomochain.com/address/0xB3AcEF61C7926002B62f45F7C352fF561B19ad52)
+
+0xB3AcEF61C7926002B62f45F7C352fF561B19ad52
+{% endhint %}
+
+{% hint style="info" %}
+[DXD Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
 ### VNDC
 
 {% hint style="info" %}
