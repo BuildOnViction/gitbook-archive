@@ -60,9 +60,11 @@ That also means the transaction can be sent through when you transfer your TRC21
 
 ### **9**. What should I do if I mistakenly sent my TRC21 Token to an ERC20 address without wrapping/unwrapping, or vice versa?
 
-There could be a few different scenarios: a.\) If the receiving address is your own wallet address
+There could be a few different scenarios: 
 
-As explained in Q4, these two token standards share the same address and all you have to do is to switch the network.
+a.\) If the receiving address is your own wallet address
+
+As explained in Q8, these two token standards share the same address and all you have to do is to switch the network.
 
 Let’s say you send your TRC21 Token to an ERC20 address, then you can retrieve your funds by following the steps below \(similar process the other way around\):
 
@@ -73,7 +75,9 @@ Let’s say you send your TRC21 Token to an ERC20 address, then you can retrieve
 Some wallets may not come with a Private Key when you created your address, like Trust Wallet. Then you might need to contact the wallet developer to help you export your Private Key.
 {% endhint %}
 
-For Trust Wallet users, please follow this guide to export your Private Key: [https://community.trustwallet.com/t/how-to-recover-funds-sent-to-a-wrong-public-address/145](https://community.trustwallet.com/t/how-to-recover-funds-sent-to-a-wrong-public-address/145) b.\) If the receiving address belongs to a third party \(ex. an exchange\)
+For Trust Wallet users, please follow [this guide](https://community.trustwallet.com/t/how-to-recover-funds-sent-to-a-wrong-public-address/145%20) to export your Private Key: 
+
+b.\) If the receiving address belongs to a third party \(ex. an exchange\)
 
 In this case, the third party team now is holding your funds. You will have to contact them directly to help you look into their account and refund it for you.
 
