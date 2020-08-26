@@ -48,15 +48,7 @@ You can go to [**TomoBridge**](http://bridge.tomochain.com) and swap between you
 
 ### **8**_**.**_ Can I sent my TRC21 token directly to an ERC20 address, or vice versa?
 
-**In simple words, NO you shouldn’t.**
-
-TRC21 \(by TomoChain\) and ERC20 \(by Ethereum\) share almost the same address structure. The Private Key that you have for either address can be used to access the same wallet address on the other network.
-
-In other words, the address for TRC21 and ERC20 tokens is the same, with which you can selectively access either asset depending on the network that you are on.
-
-That also means the transaction can be sent through when you transfer your TRC21 Token to an ERC20 address, and the same vice versa, with the token standard remaining unchanged.
-
-**So yes, the transaction can be signed and sent through. But this is probably NOT what you want to do if you look to swap your TRC21 Wrapped Token to/from the native tokens from other blockchains.**
+In simple words, NO you shouldn’t.
 
 ### **9**. What should I do if I mistakenly sent my TRC21 Token to an ERC20 address without wrapping/unwrapping, or vice versa?
 
