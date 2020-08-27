@@ -11,6 +11,7 @@
 | SRM | 0 | 1.1 SRM | 0.001 SRM |
 | DEC | 0 | 10 DEC | 0.01 DEC |
 | DXD | 0 | 0.01 DXD | 0.00001 DXD |
+| MTA | 0 | 0.5 MTA | 0.0002 MTA |
 | VNDC | 0 | 25000 VNDC | 25 VNDC |
 
 
