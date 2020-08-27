@@ -112,6 +112,20 @@
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### MTA
+
+{% hint style="info" %}
+[TRC21 wrapped MTA smart contract address](https://scan.tomochain.com/address/0x0716416755dee87498c607bf9008f8efc09ca07c)
+
+0x0716416755DEE87498c607BF9008f8efC09ca07C
+{% endhint %}
+
+{% hint style="info" %}
+[MTA Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
 ### VNDC
 
 {% hint style="info" %}
