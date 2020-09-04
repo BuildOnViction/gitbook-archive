@@ -126,6 +126,20 @@
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### HY
+
+{% hint style="info" %}
+[TRC21 wrapped HY smart contract address](https://scan.tomochain.com/address/0xA7551BA0d52C763fb6f8866DE63827aA593f20Bc)
+
+0xA7551BA0d52C763fb6f8866DE63827aA593f20Bc
+{% endhint %}
+
+{% hint style="info" %}
+[HY Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
 ### VNDC
 
 {% hint style="info" %}
