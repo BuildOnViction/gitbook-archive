@@ -24,8 +24,8 @@ export GOPATH=$HOME/go
 Create new directory for the project
 
 ```text
-mkdir -p $GOPATH/src/github.com/ethereum/
-cd $GOPATH/src/github.com/ethereum/
+mkdir -p $GOPATH/src/github.com/tomochain/
+cd $GOPATH/src/github.com/tomochain/
 ```
 
 * Download source code and build
