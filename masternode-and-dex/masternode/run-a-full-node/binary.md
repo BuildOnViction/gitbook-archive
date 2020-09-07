@@ -48,10 +48,10 @@ git checkout v2.2.4
 make all
 ```
 
-* Binary file should be generated in build folder `$GOPATH/src/github.com/ethereum/go-ethereum/build/bin`
+* Binary file should be generated in build folder `$GOPATH/src/github.com/tomochain/tomochain/build/bin`
 
 ```text
-alias tomo=$GOPATH/src/github.com/ethereum/go-ethereum/build/bin/tomo
+alias tomo=$GOPATH/src/github.com/tomochain/tomochain/build/bin/tomo
 ```
 
 **Download TomoChain binary from Github release page**
