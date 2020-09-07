@@ -162,7 +162,6 @@ tomo  --syncmode "full" \
     --keystore $KEYSTORE_DIR --password $PASSWORD \
     --rpc --rpccorsdomain "*" --rpcaddr 0.0.0.0 --rpcport 8545 --rpcvhosts "*" \
     --rpcapi "db,eth,net,web3,personal,debug" \
-    --gcmode "archive" \
     --ws --wsaddr 0.0.0.0 --wsport 8546 --wsorigins "*" --unlock "$YOUR_COINBASE_ADDRESS" \
     --identity $IDENTITY \
     --mine --gasprice 250000000 \
