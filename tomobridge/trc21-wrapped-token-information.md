@@ -140,6 +140,20 @@
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### FRONT
+
+{% hint style="info" %}
+[TRC21 wrapped FRONT smart contract address](https://scan.tomochain.com/address/0x661C18Ff558f36aA94B9611EEb9Af53424C400e4)
+
+0x661C18Ff558f36aA94B9611EEb9Af53424C400e4
+{% endhint %}
+
+{% hint style="info" %}
+[FRONT Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
 ### VNDC
 
 {% hint style="info" %}
