@@ -13,6 +13,7 @@
 | DXD | 0 | 0.01 DXD | 0.00001 DXD |
 | MTA | 0 | 0.5 MTA | 0.0002 MTA |
 | HY | 0 | 5 HY | 0.02 HY |
+| FRONT | 0 | 10 FRONT | 0.01FRONT |
 | VNDC | 0 | 25000 VNDC | 25 VNDC |
 
 
