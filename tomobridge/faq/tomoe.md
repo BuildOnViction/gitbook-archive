@@ -24,7 +24,7 @@ You can get TOMOE by:
 
 ### 4. How to join pool TOMOE-USDT / TOMOE-USDC/ TOMOE-ETH?
 
-Please follow this guide for detailed information \(insert link tutorial\) 
+Please follow [this guide](https://docs.tomochain.com/tomobridge/tutorial/tomoe/how-to-add-liquidity-to-tomoe-pools-on-uniswap) for detailed information 
 
 ### 5. Where can I store TOMOE?
 
