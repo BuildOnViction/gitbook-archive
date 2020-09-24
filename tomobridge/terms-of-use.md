@@ -25,16 +25,18 @@ description: >-
 
 ### 2. Definition and Interpretation
 
-2.1. In these Terms of Use and all documents incorporated herein by reference, the following words have the following meanings unless otherwise indicated:
+ 2.1 In these Terms of Use and all documents incorporated herein by reference, the following words have the following meanings unless otherwise indicated:
 
 * "Digital Assets" means blockchain-based assets or rights, or other similar digital representations of rights or assets;
-* “TomoChain” means the TomoChain public blockchain secured by the Masternode Infrastructure which are full-nodes that create, verify and validate new blocks in the TomoChain public blockchain. 
-* “TRC21 wrapped token" means a TRC21 Token is  hosted on the TomoChain public blockchain, issued by the Company  and  backed by an equal amount of the underlying digital asset.
-* “Wrapping”, “Wrap" means the action to swap an amount of an original digital asset for the corresponding TRC21 wrapped token on TomoChain.
-* “Unwrapping”, “Unwrap" means the action to swap an amount of TRC21 wrapped tokens for the original digital assets.
-* "Platform" means the cross-chain transfer module for interoperability between TomoChain public blockchain and other crypto assets chains operated by the Company which is offered from time to time on or through the Site.
-* "Site" means the Internet website [bridge.tomochain.com](https://bridge.tomochain.com). 
-* “Wallet” means a combination of a user’s public address and corresponding private key \(or mnemonic phrase or keystore file with password\) that holds any digital assets that are created and/or received on any public blockchains, which may associate with corresponding transactions related to this address.
+* “TOMO" means the native utility token of the public blockchain platform TomoChain.
+* “TOMOE” means an ERC20 token hosted on the Ethereum public blockchain, issued by the Company and backed by an equal amount of TOMO. \(Contract address: [0x05d3606d5c81eb9b7b18530995ec9b29da05faba](https://etherscan.io/token/0x05d3606d5c81eb9b7b18530995ec9b29da05faba)\)
+* “TOMOB" means a BEP2 token hosted on the Binance Chain, issued by the Company and backed by an equal amount of TOMO.
+* “TRC21 wrapped token" means a TRC21 Token hosted on the TomoChain public blockchain, issued by the Company and backed by an equal amount of the underlying digital asset.
+* “Wrapping”, “Wrap" means the action to swap an amount of a native digital asset for the corresponding wrapped token on another public blockchain.
+* “Unwrapping”, “Unwrap" means the action to swap an amount of wrapped tokens on another public blockchain for the native digital assets.
+* "Platform" means the cross-chain transfer module for interoperability between TomoChain public blockchain and other crypto asset chains operated by the Company which is offered from time to time on or through the Site.
+* "Site" means the Internet website bridge[.tomochain.com](http://www.dex.tomochain.com/). 
+* “Wallet” means a combination of a user’s public address and corresponding private key \(or mnemonic phrase or keystore file with password\) that holds any digital assets that are created and/or received on any public blockchains, which may be associated with corresponding transactions related to this address.
 
 2.2. In these Terms of Use, the following rules of interpretation shall apply:
 
@@ -45,6 +47,7 @@ description: >-
 \(c\) unless the context otherwise requires, words in the singular shall include the plural and in the plural shall include the singular; and
 
 \(d\) unless the context otherwise requires, a reference to one gender shall include a reference to the other genders.  
+  
 
 
 ### 3. User Representations & Warranties
@@ -76,47 +79,143 @@ description: >-
 
 ### 4. The Wrapping/Unwrapping Process
 
-4.1. In charge of interoperability between mainstream blockchains and TomoChain public blockchain, the Platform will:
+4.1. Between original digital assets from other chains and TRC21 wrapped tokens on TomoChain
 
-* Lock original digital assets on the original blockchains and create a corresponding amount of TRC21 wrapped tokens on TomoChain if and only if there is a successful process of swapping from the original digital asset and this process must be validated by a set of multi-signature validators 
-* Unlock original digital assets on the original blockchains and burn a corresponding amount of TRC21 wrapped tokens on TomoChain if and only if there is a successful process of swapping back from the TRC21 wrapped tokens on TomoChain and this process must be validated by a set of multi-signature validators. All is to maintain a one-to-one peg between the original assets and the corresponding TRC21 wrapped tokens.
+4.1.1 In charge of swapping between the original digital assets from other chains and TRC21 wrapped tokens on TomoChain, the Platform will:
 
-4.2. Wrapping original digital assets from other chains to TRC21 wrapped tokens
+* Lock the original digital assets on the original blockchains and create a corresponding amount of TRC21 wrapped tokens on TomoChain if, and only if, there is a successful process of swapping from the original digital asset and this process must be validated by a set of multi-signature validators 
+* Unlock the original digital assets on the original blockchains and burn a corresponding amount of TRC21 wrapped tokens on TomoChain if, and only if, there is a successful process of swapping back from the TRC21 wrapped tokens on TomoChain and this process must be validated by a set of multi-signature validators. All is to maintain a one-to-one peg between the original assets and the corresponding TRC21 wrapped tokens.
 
-4.2.1. The user who shall swap an amount of an original asset for the corresponding TRC21 wrapped token on TomoChain needs to interact with the Platform.
+4.1.2. Wrapping original digital assets from other chains to TRC21 wrapped tokens
 
-4.2.2 The user must log in the Platform by connecting his/her TomoChain wallet using one of the available options.
+4.1.2.1. The user who shall swap an amount of an original asset for the corresponding TRC21 wrapped token on TomoChain needs to interact with the Platform.
 
-4.2.3. The user must then transfer their original digital asset to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks it if there is a successful process swapping from TRC21 wrapped tokens to the original assets.
+4.1.2.2 The user must log in to the Platform by connecting the user's TomoChain wallet using one of the available options.
 
-* The user assumes all liability for any losses incurred as a result of transfer to an incorrect address \(such as an address not provided by the Platform or an address not associated with the specific original digital asset\). The Company is not responsible for any losses or for taking any actions to attempt to recover such original digital assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
+4.1.2.3. The user must then transfer the original digital asset to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks them if there is a successful process swapping from the original assets to TRC21 wrapped tokens.
+
+* The user assumes all liability for any losses incurred as a result of the transfer to an incorrect address \(such as an address not provided by the Platform or an address not associated with the specific original digital asset\). The Company is not responsible for any losses or for taking any actions to attempt to recover such original digital assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
 * The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of your original digital assets to the specific multi-signature wallet address.
 
-4.2.4. Once completed, the user shall receive the corresponding TRC21 wrapped token with an amount corresponding to the amount the user has locked in the multi-signature wallet. The address of the wallet that logs in the Platform shall be the address for receiving TRC21 wrapped tokens.
+4.1.2.4. Once completed, the user shall receive the corresponding TRC21 wrapped token with an amount corresponding to the amount of the original digital asset the user has locked in the multi-signature wallet. The address of the wallet that logs in the Platform shall be the address for receiving TRC21 wrapped tokens.
 
-4.3. Unwrapping from TRC21 wrapped tokens for original digital assets
+4.1.3. Unwrapping from TRC21 wrapped tokens for original digital assets
 
-4.3.1. The user who shall swap an amount of TRC21 wrapped tokens for the original digital assets needs to interact with the Platform.
+4.1.3.1. The user who shall swap an amount of TRC21 wrapped tokens for the original digital assets needs to interact with the Platform.
 
-4.3.2. The user must log in the Platform by connecting his/her TomoChain wallet using one of the available options.
+4.1.3.2. The user must log in to the Platform by connecting the user's TomoChain wallet using one of the available options.
 
-4.3.3. The user must provide a valid address that the user would like to receive the original digital asset. This address must be valid to the address format used by the blockchains where the original digital assets are from. This address shall be used as the recipient to receive the original digital assets unlocked from the multi-signature wallet.
+4.1.3.3. The user must provide a valid address that the user would like to receive the original digital asset. This address must be valid to the address format used by the blockchains where the original digital assets are from. This address shall be used as the recipient to receive the original digital assets unlocked from the multi-signature wallet.
 
- -The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not provided owned by the user\). The Company is not responsible for any losses or for taking any actions to attempt to recover such original digital assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
+4.1.3.4. The user must enter the amount of the TRC21 wrapped tokens the user wants to unwrap, then transfer the user's TRC21 wrapped tokens to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks it if there is a successful process swapping from TRC21 wrapped tokens to the original assets.
 
-4.3.4. The user must then enter the amount of the TRC21 wrapped tokens the user wants to unwrap. The Platform then asks the user to make a transaction to the TomoChain blockchain. Once the transaction is confirmed by the user and successfully executed by the Blockchain, the exact amount of the wrapped TRC21 token that the user wants to unwrap must be reduced from the user’s balance by the Blockchain.  
+* The user assumes all liability for any losses incurred as a result of the transfer to an incorrect address \(such as an address not provided by the Platform or an address not associated with the specific TRC21 wrapped token\). The Company is not responsible for any losses or for taking any actions to attempt to recover such assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of your TRC21 wrapped tokens to the specific multi-signature wallet address.
 
+4.1.3.5. After the transaction to the Platform reaches 30 confirmations on the TomoChain blockchain, the Platform shall take a small unwrapping fee that serves as transaction fees for all multi-signature validators to reach a consensus. Once the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding original digital assets and send them to the address previously provided by the user. 
 
-4.3.5. After the transaction to the Platform reaches 30 confirmations on TomoChain, the Platform shall take a small unwrapping fee that serves as transaction fees for all multi-signature validators to reach a consensus. Once the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding original digital assets and send to the address provided by the user. 
-
-* The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not owned by you or an address not associated with the specific original digital asset\). The Company is not responsible for any losses or for taking any actions to attempt to recover such original digital assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not owned by you or an address not associated with the specific original digital asset\). The Company is not responsible for any losses or for taking any actions to attempt to recover such assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
 * The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the corresponding original digital asset to the user.
+
+4.1.2.6. Once completed, the user shall receive the corresponding original digital assets with an amount corresponding to the amount of the TRC21 tokens the user has locked in the multi-signature wallet minus a small unwrapping fee.  
+
+
+4.2. Between TOMO and TOMOB
+
+4.2.1 In charge of swapping between TOMO on the TomoChain blockchain and TOMOB on the Binance Chain blockchain, the Platform will:
+
+* Lock TOMO on the TomoChain blockchain and create a corresponding amount of TOMOB on the Binance Chain blockchain if, and only if, there is a successful process of swapping from TOMO to TOMOB and this process must be validated by a set of multi-signature validators 
+* Unlock TOMO on the TomoChain blockchain and burn a corresponding amount of TOMOB on the Binance Chain blockchain if, and only if, there is a successful process of swapping back from TOMOB to TOMO and this process must be validated by a set of multi-signature validators. All is to maintain a one-to-one peg between TOMO and TOMOB.
+
+4.2.2. Wrapping TOMO to TOMOB
+
+4.2.2.1. The user who shall swap an amount of TOMO for TOMOB needs to interact with the Platform.
+
+4.2.2.2 The user must provide a valid BNB address on binance.org that the user would like to receive TOMOB. This address must be valid to the address format used by the Binance Chain blockchain. This address shall be used to receive TOMOB unlocked from the multi-signature wallet. The user must make sure that he has a Private Key or Mnemonic Phrase of that BNB Address.
+
+4.2.2.3. The user must then transfer the user's TOMO to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks it if there is a successful process swapping from TOMOB to TOMO.
+
+* The user assumes all liability for any losses incurred as a result of the transfer to an incorrect address \(such as an address not provided by the Platform\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TOMO. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of TOMO to the specific multi-signature wallet address.
+
+4.2.2.4. After the transaction to the Platform reaches 60 confirmations on the TomoChain blockchain, the Platform shall take a small wrapping fee that serves as transaction fees for all multi-signature validators to reach a consensus. Once the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding TOMOB and send it to the address previously provided by the user. 
+
+* The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not owned by you or an address not valid to the address format used by the Binance Chain blockchain or an address that he does not have a Private Key or Mnemonic Phrase of that BNB Address\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TOMOB. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the corresponding TOMOB to the user.
+
+4.2.2.5. Once completed, the user shall receive the corresponding TOMOB with an amount corresponding to the amount of TOMO the user has locked in the multi-signature wallet minus a small wrapping fee.
+
+4.2.3. Unwrapping from TOMOB for TOMO
+
+4.2.3.1. The user who shall swap an amount of TOMOB for TOMO needs to interact with the Platform.
+
+4.2.2.2 The user must provide a valid TOMO address that the user would like to receive TOMOB. This address must be valid to the address format used by the TomoChain blockchain. This address shall be used to receive TOMO unlocked from the multi-signature wallet. The user must make sure that he has a Private Key or Mnemonic Phrase of that TOMO address.
+
+4.2.2.3. The user must then transfer the user's TOMOB to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks it if there is a successful process swapping from TOMO to TOMOB.
+
+* The user assumes all liability for any losses incurred as a result of the transfer to an incorrect address \(such as an address not provided by the Platform\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TOMOB. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the TOMOB to the specific multi-signature wallet address.
+
+4.2.3.4. After the transaction to the Platform reaches 30 confirmations on the Binance Chain blockchain, the Platform shall take a small unwrapping fee that serves as transaction fees for all multi-signature validators to reach a consensus. Once the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding TOMO and send it to the address provided by the user. 
+
+* The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not owned by the user or an address not valid to the address format used by the TomoChain blockchain or an address that he does not have a Private Key or Mnemonic Phrase of that TOMO Address\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TOMO. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the corresponding TOMO to the user.
+
+4.2.3.5. Once completed, the user shall receive the corresponding TOMO with an amount corresponding to the amount of TOMOB the user has locked in the multi-signature wallet minus a small unwrapping fee.  
+
+
+4.3. Between TOMO and TOMOE
+
+4.3.1 In charge of swapping between TOMO on the TomoChain blockchain and TOMOE on the Ethereum blockchain, the Platform will:
+
+* Lock TOMO on the original blockchains and create a corresponding amount of TOMOE on the Ethereum blockchain if and only if there is a successful process of swapping from TOMO to TOMOE and this process must be validated by a set of multi-signature validators 
+* Unlock TOMO on the TomoChain blockchain and burn a corresponding amount of TOMOE on the Ethereum blockchain if and only if there is a successful process of swapping back from TOMOE to TOMO and this process must be validated by a set of multi-signature validators. All is to maintain a one-to-one peg between TOMO and TOMOE.
+
+4.3.2. Wrapping TOMO to TOMOE
+
+4.3.2.1. The user who shall swap an amount of TOMO on the TomoChain blockchain for TOMOE on the Ethereum blockchain needs to interact with the Platform.
+
+4.3.2.2 The user must log in the Platform by unlocking the user's wallet on TomoChain using one of the available options.
+
+4.3.2.3. The user must provide a valid address that the user would like to receive TOMOE. This address must be valid to the address format used by the Ethereum blockchain. This address shall be used to receive TOMOE unlocked from the multi-signature wallet. The user must make sure that he has a Private Key or Mnemonic Phrase of that ERC20 Address.
+
+4.3.2.4. The user must enter the amount of the TOMO tokens the user wants to wrap, then transfer the user's TOMO tokens to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks it if there is a successful process swapping from TOMOE to TOMO.
+
+* The user assumes all liability for any losses incurred as a result of the transfer to an incorrect address \(such as an address not provided by the Platform\). The Company is not responsible for any losses or for taking any actions to attempt to recover such assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the TOMO tokens to the specific multi-signature wallet address
+
+4.3.2.5. After the transaction to the Platform reaches 30 confirmations on the TomoChain blockchain, the Platform shall take a small wrapping fee that serves as transaction fees for all multi-signature validators to reach a consensus. Once the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding TOMOE and send it to the address previously provided by the user. 
+
+* The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not owned by you or an address not associated with TOMOE\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TOMOE. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the corresponding TOMOE to the user.
+
+4.3.2.6. Once completed, the user shall receive the corresponding TOMOE with an amount corresponding to the amount of TOMO the user has locked in the multi-signature wallet minus a small wrapping fee.
+
+4.3.3. Unwrapping from TOMOE for TOMO
+
+4.3.3.1. The user who shall swap an amount of TOMOE on the Ethereum blockchain needs to TOMO on the TomoChain blockchain interact with the Platform.
+
+4.3.3.2 The user must log in to the Platform by unlocking the user's wallet on the Ethereum blockchain using one of the available options.
+
+4.3.3.3. The user must provide a valid address that the user would like to receive TOMO. This address must be valid to the address format used by the TomoChain blockchain. This address shall be used to receive TOMO unlocked from the multi-signature wallet. The user must make sure that he has a Private Key or Mnemonic Phrase of that TOMO Address.
+
+4.3.3.4. The user must enter the amount of TOMOE the user wants to unwrap, then transfer the user's TOMOE tokens to a specific multi-signature wallet address provided by the Platform, which keeps the assets locked and only unlocks it if there is a successful process swapping from TOMO to TOMOE.
+
+* The user assumes all liability for any losses incurred as a result of the transfer to an incorrect address \(such as an address not provided by the Platform\). The Company is not responsible for any losses or for taking any actions to attempt to recover such assets. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the TOMOE tokens to the specific multi-signature wallet address
+
+4.3.3.5. After the transaction to the Platform reaches 6 confirmations on the Ethereum blockchain, and the consensus between all validators is reached, a transaction shall be made and signed by all validators in order to unlock the corresponding TOMO and send it to the address previously provided by the user. 
+
+* The user assumes all liability for any losses incurred as a result of providing an incorrect address \(such as an address not owned by you or an address not associated with TOMO\). The Company is not responsible for any losses or for taking any actions to attempt to recover such TOMO. If the funds are recoverable, we may in our sole discretion attempt to recover the funds, but such recovery efforts are in no way guaranteed.
+* The Company makes no representations or warranties regarding the amount of time that may be required to complete the transfer of the corresponding TOMO to the user.
+
+4.3.3.6. Once completed, the user shall receive the corresponding TOMO with an amount corresponding to the amount of TOMOE the user has locked in the multi-signature wallet.  
+
 
 ### 5. Fees on the Platform 
 
-5.1. The wrapping process is free. 
-
-5.2. The unwrapping process costs you a small fee which serves as transaction fees for all multi-signature validators to reach a consensus. In consideration for the use of the Platform, you agree to pay the fees, as set forth in our fee schedule displayed on the Site \(“ Bridge Fee”\) \(link\), which the Company may revise or update in its sole discretion from time to time. By using our Services, you acknowledge your acceptance of those fees.  
+The wrapping/unwrapping process may cost you a small fee which serves as transaction fees for all multi-signature validators to reach a consensus. In consideration for the use of the Platform, you agree to pay the fees, if any, as set forth in our fee schedule displayed on the Site \(“ Bridge Fee”\) \(link\), which the Company may revise or update in its sole discretion from time to time. By using our Services, you acknowledge your acceptance of those fees.  
+  
 
 
 ### 6. Compliance with Tax Obligations
@@ -299,7 +398,9 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 20.1. The Company shall be permitted to make amendments to these Terms of Use from time to time. You will be deemed to have accepted such amended Terms by indicating your acceptance on the Platform and the Site. Any further actions which you make will be subject to the Terms in effect at that time. If you object to any changes, you may stop using the Platform and the Site. Your continued use of the Platform and the Site after we publish or otherwise provide notice about our changes to the Terms of Use means that you are consenting to the updated Terms of Use.
 
-20.2. We keep these Terms of Use under regular review. These Terms of Use were last updated in Jun 2, 2020  
+20.2. We keep these Terms of Use under regular review. These Terms of Use were last updated on September 24th, 2020  
+  
+  
   
   
   
