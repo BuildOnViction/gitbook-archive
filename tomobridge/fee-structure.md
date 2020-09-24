@@ -2,10 +2,11 @@
 
 |  Asset/Action | Deposit \(Wrap\) | Withdraw \(Unwrap\) | Transaction Fee |
 | :--- | :--- | :--- | :--- |
+| TOMOE | 4 TOMO | 0 TOMOE |  |
+| TOMOB | 1 TOMO | 1 TOMOB |  |
 | BTC | 0 | 0.0004 BTC | 0.0000004 BTC |
 | USDT | 0 | 0.97 USDT | 0.001 USDT |
 | ETH | 0 | 0.003 ETH | 0.000003 ETH |
-| TOMOB | 1 TOMO | 1 TOMO |  |
 | YFI | 0 | 0.001 YFI | 0.000001 YFI |
 | FTT | 0 | 0.3 FTT | 0.003 FTT |
 | SRM | 0 | 1.1 SRM | 0.001 SRM |
@@ -14,6 +15,7 @@
 | MTA | 0 | 0.5 MTA | 0.0002 MTA |
 | HY | 0 | 5 HY | 0.02 HY |
 | FRONT | 0 | 10 FRONT | 0.01FRONT |
+| PIE | 0 | 20 PIE | 0.02 PIE |
 | VNDC | 0 | 25000 VNDC | 25 VNDC |
 
 
