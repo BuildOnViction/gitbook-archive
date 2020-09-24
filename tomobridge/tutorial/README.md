@@ -17,14 +17,14 @@ To simplify the process for users, we would like to present a detailed tutorial 
 
 Options available for login include: MetaMask, TomoWallet, Ledger, Trezor, Private Key, Mnemonic and Pantograph extension. If you haven’t got a Wallet, create one [here](https://wallet.tomochain.com/#/login).
 
-![](../.gitbook/assets/image%20%2877%29.png)
+![](../../.gitbook/assets/image%20%2877%29.png)
 
 * Check your account address.
 * Choose the correct coin/token you would like to deposit.
 * Check our [Terms and Conditions](https://docs.tomochain.com/legal/terms-of-use).
 * Click ‘**Wrap Now”.**
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../../.gitbook/assets/image%20%2878%29.png)
 
 Make sure to check all your information before begin wrapping.
 
@@ -32,7 +32,7 @@ Make sure to check all your information before begin wrapping.
 
 When the following tab appears, your Wrapping/Unwrapping process has successfully begun:
 
-![](../.gitbook/assets/image%20%2885%29.png)
+![](../../.gitbook/assets/image%20%2885%29.png)
 
 * Send your coin/token to the specific public address that appears on the transaction dashboard.
 
@@ -42,20 +42,20 @@ When the following tab appears, your Wrapping/Unwrapping process has successfull
 
 _**Confirmation may take a while due to the number of confirmation blocks**_
 
-![](../.gitbook/assets/image%20%2876%29.png)
+![](../../.gitbook/assets/image%20%2876%29.png)
 
 * Once confirmed, TomoBridge will start verifying your transaction and sending TRC21 Wrapped Tokens with correlative value into your wallet address
 
 _**Your ETH/BTC/USDT transaction will be secured as long as it contains the correct wallet address and TxHash.**_
 
-![](../.gitbook/assets/image%20%2887%29.png)
+![](../../.gitbook/assets/image%20%2887%29.png)
 
 **Step 3: You can check the transition history once transaction is verified.**
 
 * You may find the transaction history button on the top right corner.
 * In this new tab, you can check your previous deposits and withdrawals. For each successful transaction, a Tx Hash documenting your transaction to TomoBridge, and information about your wrapped token will be displayed \(including the token's status, quantity & time\).
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../../.gitbook/assets/image%20%2879%29.png)
 
 Your native coin/token has been successfully wrapped and sent to your wallet.
 
@@ -65,31 +65,31 @@ Your native coin/token has been successfully wrapped and sent to your wallet.
 
 * You will need to have the corresponding TRC21 Wrapped Token in your wallet to start unwrapping that token.
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 * Click “**UnWrap Now”** from the homepage. Your TRC21 Wrapped Tokens balance will be displayed.
 * Once again, by unwrapping, you’ve agreed to our [Terms and Conditions](https://docs.tomochain.com/legal/terms-of-use).
 * Please double-check the following conditions before continuing to unwrap
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../../.gitbook/assets/image%20%2886%29.png)
 
 **Step 2: Fill out the wallet address that you want to receive your native coin/token**
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../../.gitbook/assets/image%20%2880%29.png)
 
 **Step 3: Enter the amount of TRC21 Wrapped Token you want to unwrap**
 
 * TomoBridge charges a small fee to unwrap tokens. More details. \([**TomoBridge Fee**](https://docs.tomochain.com/tomobridge/fee-structure)\)
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../../.gitbook/assets/image%20%2883%29.png)
 
 * This process can take up from a few seconds to several minutes depending on the blockchain network of your coin/token.
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%2888%29.png)
 
 * Now you can check your balance again. After TomoBridge has sent the native coin/token to your wallet, the corresponding TRC21 Wrapped Token will be burned.
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 That’s it! You have gone through the whole process of wrapping/unwrapping your native coin/token to TRC21 Wrap Tokens with TomoBridge. If you have any questions, feel free to contact us via: [https://t.me/TomoX](https://t.me/TomoX)
 
