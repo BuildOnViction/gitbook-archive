@@ -10,7 +10,7 @@ LUA hard-cap is at 500 million tokens.
 
 ### 3. Where to store LUA token?
 
-You can store LUA in an Ethereum address. Make sure you own a private key/seeding phrase and can access the Ethereum address receiving TOMOE. You can use TomoWallet app and Metamask.
+You can store LUA in an Ethereum address. Make sure you own a private key/seeding phrase and can access the Ethereum address. You can use TomoWallet app and Metamask.
 
 On TomoWallet app, import your address you received LUA &gt; switch the network to Ethereum &gt; you will see LUA balance.
 
@@ -37,7 +37,13 @@ Get LP tokens by joinning TOMOE pools on Uniswap then use them to stake on [luas
 
 ### 8. How to stake LP tokens to get LUA tokens?
 
-To receive the LUA reward, follow the steps below: 1. Swap from TOMO to TOMOE via TomoBridge 2. Add Liquidity to our Uniswap pools \(50% TOMOE - 50% ETH/USDT/USDC\). Guide [HERE](https://forum.tomochain.com/t/how-to-add-liquidity-to-tomoe-pools-on-uniswap/606) 3. Receive the Uniswap V2 LP token 4. Go to [LuaSwap.org](http://luaswap.org/) 5. Stake your LP token into the reward contract and start receiving the LUA reward from September 28 2020
+To receive the LUA reward, follow the steps below: 
+
+* Swap from TOMO to TOMOE via TomoBridge
+*  2 Add Liquidity to our Uniswap pools \(50% TOMOE - 50% ETH/USDT/USDC\). Guide [HERE](https://forum.tomochain.com/t/how-to-add-liquidity-to-tomoe-pools-on-uniswap/606) 
+*  Receive the Uniswap V2 LP token 
+* Go to [LuaSwap.org](http://luaswap.org/) 
+* Stake your LP token into the reward contract and start receiving the LUA reward from September 28 2020
 
 ### 9. How about the treasury fund?
 
