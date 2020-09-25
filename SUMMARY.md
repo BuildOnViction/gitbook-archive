@@ -83,6 +83,8 @@
   * [Terms of Use](tomodex/terms-of-use.md)
   * [Privacy Policy](tomodex/privacy-policy.md)
   * [User Agreement for TomoDEX Lending Service](tomodex/user-agreement-for-tomodex-lending-service.md)
+* [LuaSwap](luaswap/README.md)
+  * [FAQ](luaswap/faq.md)
 * [TomoBridge](tomobridge/README.md)
   * [Token Information](tomobridge/trc21-wrapped-token-information/README.md)
     * [TRC21 Wrapped Token](tomobridge/trc21-wrapped-token-information/trc21-wrapped-token.md)
