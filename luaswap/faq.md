@@ -2,7 +2,7 @@
 
 ### 1. What is LUA token?
 
-LUA token is a Liquidity Provider \(LP\) token to incentivize them to stay with the TOMOE protocol. Holding the LUA token means holding a share in the governance of the protocol. All LUA token holders can decide the subsequent chains to implement LuaSwap on, how much LUA to distribute to LPs in the new chain, which new token projects LuaSwap should support, etc
+LUA token is a native token of LuaSwap protocol to incentivize them to stay with the LuaSwap. Holding the LUA token means holding a share in the governance of the protocol. All LUA token holders can decide the subsequent chains to implement LuaSwap on, how much LUA to distribute to LPs in the new chain, which new token projects LuaSwap should support, etc
 
 ### 2. What is LUA hard-cap?
 
