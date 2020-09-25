@@ -2,9 +2,7 @@
 
 **Step 1:** Go to the website: [https://bridge.tomochain.com/](https://bridge.tomochain.com/) and read all information carefully. Then hit “Swap Now” to get started.
 
-Note:
-
-* The fee is fixed at 1 TOMO
+Note: The fee is fixed at 1 TOMO
 
 **Step 2:** Enter your BNB address \(created on Binance Dex website or TrustWallet app\) in the box.
 
