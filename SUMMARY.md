@@ -85,6 +85,8 @@
   * [User Agreement for TomoDEX Lending Service](tomodex/user-agreement-for-tomodex-lending-service.md)
 * [LuaSwap](luaswap/README.md)
   * [FAQ](luaswap/faq.md)
+  * [Tutorial](luaswap/tutorial/README.md)
+    * [How to stake LP token for LUA rewards](luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards.md)
 * [TomoBridge](tomobridge/README.md)
   * [Token Information](tomobridge/trc21-wrapped-token-information/README.md)
     * [TRC21 Wrapped Token](tomobridge/trc21-wrapped-token-information/trc21-wrapped-token.md)
