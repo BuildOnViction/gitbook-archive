@@ -12,7 +12,7 @@ The LUA token will only be minted and distributed to Uniswap Liquidity Providers
 
 LUA rewards are distributed every block and divided amongst all pools in the following way: 
 
-* The LUA reward each user receives is proportional to his share in the three TOMOE pools and the LUA/USDT pool \(to be launched later\). 
+* The LUA reward each user receives is proportional to his share in the three TOMOE pools and the LUA/USD pool \(to be launched later\). 
 
 The LuaSwap launch phase will last for 8 weeks
 
