@@ -53,10 +53,7 @@ Enter the amount of TOMOE you want to supply, Uniswap will automatically fill th
 
 ### Step 5: Confirm supply
 
-Make sure to double-check the correct information, Uniswap will show you the details of the transaction, including the amount of pool tokens you will receive. Click “Confirm Supply” once you’ve agreed with all of the details.  
-
-
-**Warning**: Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your TOMOE to ETH/USDC/USDT may change over time. You could end up with more TOMOE or ETH/USDC/USDT depending on which way people are trading. Please educate yourself on the risks of providing liquidity and the concept of [impermanent loss](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) before participating
+Make sure to double-check the correct information, Uniswap will show you the details of the transaction, including the amount of pool tokens you will receive. Click “Confirm Supply” once you’ve agreed with all of the details.
 
 ### **How to remove your liquidity on Uniswap**
 
@@ -64,6 +61,9 @@ Make sure to double-check the correct information, Uniswap will show you the det
 * Select the amount of liquidity to remove that you wish to withdraw from the Uniswap Liquidity pools. 
 * Then click “Remove”, the system will give a board informing you how many tokens you got back after Remove
 * Confirm the removal and the transaction on your MetaMask 
+* Proceed with final confirmation
+
+**Warning**: Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your TOMOE to ETH/USDC/USDT may change over time. You could end up with more TOMOE or ETH/USDC/USDT depending on which way people are trading. Please educate yourself on the risks of providing liquidity and the concept of [impermanent loss](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) before participating
 
 
 
