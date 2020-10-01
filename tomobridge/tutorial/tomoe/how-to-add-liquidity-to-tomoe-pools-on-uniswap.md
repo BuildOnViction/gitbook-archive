@@ -1,4 +1,4 @@
-# HOW TO ADD LIQUIDITY TO TOMOE POOLS ON UNISWAP
+# How to add/remove liquidity to TOMOE pools on Uniswap
 
 The new version of TomoBridge v1.1.0 allows you to swap between native TOMO to TOMOE-ERC20 \(contract address:[0x05d3606d5c81eb9b7b18530995ec9b29da05faba](https://etherscan.io/token/0x05d3606d5c81eb9b7b18530995ec9b29da05faba)\) is now available on Uniswap Protocol, the largest Ethereum DEX, to enable access of our platform token to the wider blockchain ecosystem. Participants will share approximately 0.3% of the exchange fee from trades in TOMOE/ETH, TOMOE/USDT and TOMOE/USDC pools on Uniswap based on the size of their contribution. Below, we will guide you on how to add liquidity to TOMOE’s pools on Uniswap.  
 
@@ -56,7 +56,24 @@ Enter the amount of TOMOE you want to supply, Uniswap will automatically fill th
 Make sure to double-check the correct information, Uniswap will show you the details of the transaction, including the amount of pool tokens you will receive. Click “Confirm Supply” once you’ve agreed with all of the details.  
 
 
-**Warning**: Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your TOMOE to ETH/USDC/USDT may change over time. You could end up with more TOMOE or ETH/USDC/USDT depending on which way people are trading. Please educate yourself on the risks of providing liquidity and the concept of [impermanent loss](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) before participating  
+**Warning**: Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your TOMOE to ETH/USDC/USDT may change over time. You could end up with more TOMOE or ETH/USDC/USDT depending on which way people are trading. Please educate yourself on the risks of providing liquidity and the concept of [impermanent loss](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) before participating
+
+### **How to remove your liquidity on Uniswap**
+
+* Before you can remove liquidity on Uniswap, click on “pool” then the pair that you provided liquidity. 
+* Select the amount of liquidity to remove that you wish to withdraw from the Uniswap Liquidity pools. 
+* Then click “Remove”, the system will give a board informing you how many tokens you got back after Remove
+* Confirm the removal and the transaction on your MetaMask 
+
+
+
+
+
+
+
+
+
+  
 ****  
 
 

@@ -97,7 +97,7 @@
     * [TRC21 Wrapped Token](tomobridge/tutorial/trc21-wrapped-token.md)
     * [TOMOE](tomobridge/tutorial/tomoe/README.md)
       * [How to swap your native TOMO on TomoChain to/from TOMOE \(ERC20\) on Ethereum](tomobridge/tutorial/tomoe/how-to-swap-your-native-tomo-on-tomochain-to-from-tomoe-erc20-on-ethereum.md)
-      * [HOW TO ADD LIQUIDITY TO TOMOE POOLS ON UNISWAP](tomobridge/tutorial/tomoe/how-to-add-liquidity-to-tomoe-pools-on-uniswap.md)
+      * [How to add/remove liquidity to TOMOE pools on Uniswap](tomobridge/tutorial/tomoe/how-to-add-liquidity-to-tomoe-pools-on-uniswap.md)
     * [TOMOB](tomobridge/tutorial/tomob.md)
   * [FAQ](tomobridge/faq/README.md)
     * [TRC21 Wrapped Token](tomobridge/faq/trc21-wrapped-token.md)
