@@ -68,10 +68,25 @@ Enter the amount of LP token you want to stake into LuaSwap. You can see your cu
 
 Once this is completed, you will see that your LP tokens have been staked, now sit back and wait for your LUA rewards to arrive.
 
-You can harvest your LUA at any time, unstake your LP tokens, and take them back to Uniswap to retrieve your TOMOE and ETH/USDT/USDC.  
+You can harvest your LUA at any time, unstake your LP tokens, and take them back to Uniswap to retrieve your TOMOE and ETH/USDT/USDC.
 
+### How to unstake LP token from LuaSwap
 
-TL:DR
+At any point, you can harvest your LUA , get your LP tokens, and take them back to Uniswap.
+
+![](../../.gitbook/assets/screen-shot-2020-10-01-at-10.34.14-am.png)
+
+Go to luaswap.org and choose the field that you have staked your LP token, then click UnStake.
+
+![](../../.gitbook/assets/screen-shot-2020-10-01-at-10.45.22-am.png)
+
+Enter the amount of UNI-V2 LP token you want to withdraw from LuaSwap.
+
+![](../../.gitbook/assets/screen-shot-2020-10-01-at-10.16.49-am.png)
+
+Click confirm and approve that transaction on your MetmaMask. Once it approved, simply go back to Uniswap and to retrieve your tokens
+
+### TL:DR
 
 To receive the LUA reward, follow the steps below:
 
