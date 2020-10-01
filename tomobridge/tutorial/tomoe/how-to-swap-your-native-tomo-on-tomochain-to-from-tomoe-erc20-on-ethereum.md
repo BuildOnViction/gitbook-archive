@@ -39,6 +39,8 @@ Note: if this is your first time switching to the TomoChain network on Metamask 
 \*\* Make sure you own a private key/seeding phrase and can access the Ethereum address receiving TOMOE.   
 
 
+![](../../../.gitbook/assets/screen-shot-2020-10-01-at-4.50.46-pm.png)
+
 * Click “Swap" once you've filled all information. 
 
 ### Step 3: Wait for the system to verify your transaction. 
@@ -95,6 +97,9 @@ Note: TOMOE can only be swapped to TOMO when the network is set up on the Main E
 ### Step 2: Make sure to double-check the correct information on swapping from TOMOE to TOMO. 
 
 * Fill in all required information, including the TOMO address to receive TOMO & the desired amount.
+
+![](../../../.gitbook/assets/screen-shot-2020-10-01-at-4.59.40-pm.png)
+
 * **Note:** Please make sure that you have the private key/memoric phrase for the TOMOE receiving address you entered above. Do NOT use your centralized exchange address \(Binance, Kucoin, etc\).
 
 ![](https://lh4.googleusercontent.com/oKQyXIWH0sm0WPcw5Y37BgYHhdfc16nwSAVwANJmcocEMlM2qjRjOCrbFoHBsvjEs2cWlaFmGgHyt6Ss3qAGIbhix7nb6OsM7nmqSZLJOdg8RL7mMRnAdux_rhwRuKkgB5GT2qwJ)
