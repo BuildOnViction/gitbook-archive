@@ -24,7 +24,7 @@ Yes, you can use TRC21 Wrapped Tokens on [TomoDEX](https://dex.tomochain.com) as
 
 ### 4. Which coin/token is supported by TomoBridge?
 
-TomoBridge currently supports converting between BTC, ETH, USDT, FTT, YFI, SRM, DEC, DXD, VNDC, PIE, HY, MTA and their corresponding TRC21 tokens. 
+TomoBridge currently supports converting between BTC, ETH, USDT, FTT, YFI, SRM, FRONT, DEC, DXD, VNDC, PIE, HY, MTA and their corresponding TRC21 tokens. 
 
 ###  5. What does it mean by "Wrap/Deposit" and "Unwrap/Withdraw"?
 
