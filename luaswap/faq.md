@@ -57,3 +57,9 @@ LuaSwap is the community-governed, multichain protocol supporting smaller pools 
 
 Farming LUA on LuaSwap will start by staking Uniswap LP tokens from our Uniswap Pools. The swapping facility will be launched approximately 4 weeks afterward. When that happens, we will run migration contracts that migrate staked pools from Uniswap and SushiSwap to LuaSwap automatically. Users and liquidity providers won’t need to do anything if they want to stay with LuaSwap.
 
+### 12. How to use LuaSwap Snapshot for governance voting?
+
+Follow our instruction [here](tutorial/how-to-use-luaswap-snapshot-for-governance-voting.md) on how to create/vote for a proposal on [LuaSwap Snapshot ](https://snapshot.luaswap.org/)
+
+
+
