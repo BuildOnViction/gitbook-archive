@@ -84,7 +84,7 @@ Enter the amount of UNI-V2 LP token you want to withdraw from LuaSwap.
 
 ![](../../.gitbook/assets/screen-shot-2020-10-01-at-10.16.49-am.png)
 
-Click confirm and approve that transaction on your MetmaMask. Once it approved, simply go back to Uniswap and to retrieve your tokens
+Click confirm and approve that transaction on your MetaMask. Once it approved, simply go back to Uniswap and to retrieve your tokens.
 
 ### TL:DR
 
