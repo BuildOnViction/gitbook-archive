@@ -130,7 +130,7 @@
       * [TomoX Protocol](faq/products/tomochain-protocols/tomox.md)
       * [TomoP Protocol](faq/products/tomochain-protocols/tomop.md)
 * [Whitepaper and Research](whitepaper-and-research/README.md)
-  * [Technical Paper](https://tomochain.com/docs/technical-whitepaper--1.0.pdf)
+  * [Technical Paper](https://tomochain.com/wp-content/uploads/2020/07/technical-whitepaper-1.0.pdf)
   * [Economics Paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM/edit?usp=sharing)
   * [TomoZ Paper](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?ts=5cf09ed4#heading=h.af80tl7prv5v)
   * [TomoX Paper](https://docs.google.com/document/d/1BuLe5Ci9yTTL_jCLz5eKoQsDGb6CKAyOy__dht8sQkg/edit?usp=sharing)
