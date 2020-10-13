@@ -184,6 +184,42 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
+### PAZZI
+
+{% hint style="info" %}
+[TRC21 wrapped PAZZI smart contract address](https://scan.tomochain.com/address/0x1bCC347956D04752Fcb9b416392BF8666e2d6a8C)
+
+0x1bCC347956D04752Fcb9b416392BF8666e2d6a8C
+{% endhint %}
+
+{% hint style="info" %}
+[PAZZI Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
+### OM
+
+{% hint style="info" %}
+[TRC21 wrapped OM smart contract address](https://scan.tomochain.com/address/0x4cD6cfB32A8699386E65b591f02819e34e4e4B4C)
+
+0x4cD6cfB32A8699386E65b591f02819e34e4e4B4C
+{% endhint %}
+
+{% hint style="info" %}
+[OM Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
+
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
+
+
+{% hint style="info" %}
+0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
+
+
 ### VNDC
 
 {% hint style="info" %}

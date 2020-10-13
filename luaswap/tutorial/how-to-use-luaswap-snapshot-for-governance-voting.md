@@ -10,7 +10,9 @@
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.42.15-am.png)
 
-3. Connect with wallet provider where you hold LUA token
+3. Connect with wallet provider where you hold LUA token. 
+
+Note: You need to have at least 1 LUA in your wallet to be able to create a proposal on LuaSwap Snapshot.
 
 4. Click on “New proposal” button 
 
