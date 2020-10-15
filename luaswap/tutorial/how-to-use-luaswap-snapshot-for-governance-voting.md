@@ -12,7 +12,7 @@
 
 3. Connect with wallet provider where you hold LUA token. 
 
-Note: You need to have at least 1 LUA in your wallet to be able to create a proposal on LuaSwap Snapshot. Keep the LUA balance greater than 1LUA during the election period to ensure the proposal is valid.
+Note: You need to have at least 1 LUA in your wallet to be able to create a proposal on LuaSwap Snapshot. Keep the LUA balance greater than 1LUA on the snapshot block to ensure the proposal is valid.
 
 4. Click on “New proposal” button 
 
