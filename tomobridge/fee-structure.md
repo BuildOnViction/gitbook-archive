@@ -21,5 +21,9 @@
 | OM | 0 | 20 OM | 0.02 |
 | VNDC | 0 | 25000 VNDC | 25 VNDC |
 
+LINA                                  0                                           450 LINA                                       0.6
+
+
+
 
 

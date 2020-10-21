@@ -2,7 +2,7 @@
 
 A TRC21 Wrapped Token is hosted on the TomoChain public blockchain, issued by TomoBridge, a subsidiary of TomoChain Pte. Ltd. and backed by an equal amount of the underlying asset or currency.
 
-TRC21 Wrapped Token stays in your wallet throughout trading, and can be converted back and forth between the native asset and TRC21 Wrapped Tokens at anytime via TomoBridge. So it's almost like trading native assets directly. The proof of reserve is on-chain, which shows the exact 1:1 between minted TRC21 Wrapped Tokens \(the TRC21 Wrapped Tokens created\) and native assets stored by TomoBridge. When TRC21 Wrapped Token holders redeem their TRC21 Wrapped Tokens for native assets, the TRC21 Wrapped Tokens will be burned. The minting  and burning of TRC21 Wrapped Tokens is tracked and verifiable via smart contract on TomoScan.
+TRC21 Wrapped Token stays in your wallet throughout trading, and can be converted back and forth between the native asset and TRC21 Wrapped Tokens at anytime via TomoBridge. So it's almost like trading native assets directly. The proof of reserve is on-chain, which shows the exact 1:1 between minted TRC21 Wrapped Tokens \(the TRC21 Wrapped Tokens created\) and native assets stored by TomoBridge. When TRC21 Wrapped Token holders redeem their TRC21 Wrapped Tokens for native assets, the TRC21 Wrapped Tokens will be burned. The minting and burning of TRC21 Wrapped Tokens is tracked and verifiable via smart contract on TomoScan.
 
 ## Use-cases of TRC21 Wrapped Tokens? 
 
@@ -214,10 +214,6 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 
 
 
-{% hint style="info" %}
-0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
-{% endhint %}
-
 
 
 ### VNDC
@@ -232,5 +228,19 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 [VNDC Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
 
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
+{% endhint %}
+
+### LINA
+
+{% hint style="info" %}
+[TRC21 wrapped LINA smart contract address ](https://scan.tomochain.com/address/0x6f1046758B3BCf667816dEEAc40E6Bd1FbdCf830)
+
+0x6f1046758B3BCf667816dEEAc40E6Bd1FbdCf830
+{% endhint %}
+
+{% hint style="info" %}
+[LINA Locked Address ](https://etherscan.io/token/0x3e9bc21c9b189c09df3ef1b824798658d5011937)
+
+0x3e9bc21c9b189c09df3ef1b824798658d5011937
 {% endhint %}
 
