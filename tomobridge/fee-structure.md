@@ -20,8 +20,7 @@
 | PAZZI | 0 | 150 PAZZI | 0.2 PAZZI |
 | OM | 0 | 20 OM | 0.02 |
 | VNDC | 0 | 25000 VNDC | 25 VNDC |
-
-LINA                                  0                                           450 LINA                                       0.6
+| LINA | 0 | 450 LI | 0.6 LINA |
 
 
 

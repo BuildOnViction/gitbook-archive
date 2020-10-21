@@ -212,10 +212,6 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 0x36f4B7A8D3d9975AE4c00aD1b699cB0f6Dc20939
 {% endhint %}
 
-
-
-
-
 ### VNDC
 
 {% hint style="info" %}
