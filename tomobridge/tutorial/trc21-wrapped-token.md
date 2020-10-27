@@ -14,6 +14,8 @@ To simplify the process for users, we would like to present a detailed tutorial 
 
 **Step 1: Log in to** [**https://bridge.tomochain.com**](https://bridge.tomochain.com) **and choose the coin/token that you wish to wrap/deposit**
 
+![](../../.gitbook/assets/image%20%2889%29.png)
+
 Options available for login include: MetaMask, TomoWallet, Ledger, Trezor, Private Key, Mnemonic and Pantograph extension. If you haven’t got a Wallet, create one [here](https://wallet.tomochain.com/#/login).
 
 ![](../../.gitbook/assets/image%20%2877%29.png)
