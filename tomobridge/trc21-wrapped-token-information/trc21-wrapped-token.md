@@ -240,3 +240,19 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 0x3e9bc21c9b189c09df3ef1b824798658d5011937
 {% endhint %}
 
+### LIT
+
+{% hint style="info" %}
+[TRC21 wrapped LIT smart contract address](https://scan.tomochain.com/address/0xf9787E76750c1e731054Cf4Cc97a2e3F490DB360)
+
+0xf9787E76750c1e731054Cf4Cc97a2e3F490DB360
+{% endhint %}
+
+{% hint style="info" %}
+[LIT Locked Address](https://etherscan.io/token/0x763fa6806e1acf68130d2d0f0df754c93cc546b2)
+
+0x763fa6806e1acf68130d2d0f0df754c93cc546b2
+{% endhint %}
+
+
+
