@@ -101,6 +101,7 @@
       * [How to swap your native TOMO on TomoChain to/from TOMOE \(ERC20\) on Ethereum](tomobridge/tutorial/tomoe/how-to-swap-your-native-tomo-on-tomochain-to-from-tomoe-erc20-on-ethereum.md)
       * [How to add/remove liquidity to TOMOE pools on Uniswap](tomobridge/tutorial/tomoe/how-to-add-liquidity-to-tomoe-pools-on-uniswap.md)
     * [TOMOB](tomobridge/tutorial/tomob.md)
+    * [TOMO Wrapped Token on Solana](tomobridge/tutorial/tomo-wrapped-token-on-solana.md)
   * [FAQ](tomobridge/faq/README.md)
     * [TRC21 Wrapped Token](tomobridge/faq/trc21-wrapped-token.md)
     * [TOMOE](tomobridge/faq/tomoe.md)
