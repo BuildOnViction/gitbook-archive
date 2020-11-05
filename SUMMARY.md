@@ -85,6 +85,7 @@
   * [User Agreement for TomoDEX Lending Service](tomodex/user-agreement-for-tomodex-lending-service.md)
 * [LuaSwap](luaswap/README.md)
   * [FAQ](luaswap/faq.md)
+  * [Fee structure](luaswap/fee-structure.md)
   * [Tutorial](luaswap/tutorial/README.md)
     * [How to receive LUA rewards](luaswap/tutorial/how-to-receive-lua-rewards.md)
     * [How to stake LP token for LUA rewards](luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards.md)
