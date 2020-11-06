@@ -2,6 +2,10 @@
 
 #### How to convert TOMOE & LUA \(ERC20\) to Wrapped TOMOE & LUA \(SPL\) token on Solana
 
+Go to bridge.tomochain.com then choose LUA&TOMO wrapped token on Solana
+
+![](../../.gitbook/assets/screen-shot-2020-11-06-at-11.48.17-am.png)
+
 Users can convert back and forth between TOMOE and  Wrapped TOMOE on Solana at any time via Sollet wallet. 
 
 Create TOMOE & LUA wrapped token address on Sollet.io
@@ -21,14 +25,9 @@ Now that you have some SOL in your wallet, you can create another SPL address in
 
 ![](https://lh6.googleusercontent.com/CudCCdYT-TXX4SGIZWSeC8Wmhtfe1gQbAOVcLsMsiWf85ZiIKu9zki5O2gmO9wEymBwtQC9OaDLNoQoByu8cxtWRBs66TtlvTLdd_2kLXaUJO_ya5F0TVC3gmwQzgChRfmfz7XwR)
 
-Click on ERC20 tab and fill in the following information
+Click on ERC20 tab and find TOMO/LUA wrapped token on dropdown menu
 
-* TOMOE contract address: 0x05d3606d5c81eb9b7b18530995ec9b29da05faba
-* LUA contract address: 0xb1f66997a5760428d3a87d68b90bfe0ae64121cc
-
-You can verify that again on Etherscan to make sure you enter the correct contract address 
-
-![](https://lh4.googleusercontent.com/Nx8AW4panwSahLHrxwc9kfY2P4bUJUMNs3ZovPP09yty2arDednFA8dR5wg1Qcyttux9LhadSxOOLNUlv4N10tahw49IhoF-nhG_YVzueeeZ5yBLMhoDmLC1CPx1ZV7npsbsCHCQ)
+![](../../.gitbook/assets/screen-shot-2020-11-02-at-1.56.16-pm.png)
 
 Done, now you can start converting TOMOE/LUA to SPL token
 
