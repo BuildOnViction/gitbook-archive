@@ -17,7 +17,7 @@ First install the [MetaMask Extension](https://metamask.io/) on Chrome or Brave 
 |  | **Mainnet** | **Testnet** |
 | :--- | :--- | :--- |
 | New RPC URL | `https://rpc.tomochain.com` | `https://rpc.testnet.tomochain.com` |
-| ChainID | `88` | `89` |
+| ChainID | `88 or 0x58` | `89` |
 | Symbol | `TOMO` | `TOMO` |
 | Nickname | `TomoChain` | `TomoChain Testnet` |
 | Block Explorer URL | `https://scan.tomochain.com` | `https://scan.testnet.tomochain.com` |
