@@ -6,19 +6,29 @@ LuaSwap V1.0 allows you to swap between ETH and other ERC-20 tokens on TomoChain
 
 ### Step 1. Go to [https://app.luaswap.org/\#/pool](https://app.luaswap.org/#/pool)
 
-Connect to LuaSwap via your wallet via \(Metamask, Trust Wallet, Coinbase Wallet, etc\)
+Connect to LuaSwap via your wallet \(Metamask, Trust Wallet, Coinbase Wallet, etc\)
 
-Click on “Connect your wallet”
+![](../../.gitbook/assets/screenshot_3.png)
+
+Click on “Connect to a wallet”
+
+![](../../.gitbook/assets/1.png)
 
 ### Step 2: Select a pool
 
 Click on “Add Liquidity”
 
-Search for your liquidity pool by choosing 2 tokens from LuaSwap  menu or pasting the smart contract address into the search bar, make sure to double-check the correct information. 
+![](../../.gitbook/assets/screenshot_2.png)
+
+Search for your liquidity pool by choosing 2 tokens from LuaSwap menu or pasting the smart contract address into the search bar, make sure to double-check the correct information. 
+
+![](../../.gitbook/assets/screenshot_5.png)
 
 ### Step 3: Add liquidity
 
 Enter the amount of token you want to supply, LuaSwap will automatically fill the rest with an equivalent amount, then click “Add Liquidity”
+
+
 
 ### Step 4: Confirm supply
 
