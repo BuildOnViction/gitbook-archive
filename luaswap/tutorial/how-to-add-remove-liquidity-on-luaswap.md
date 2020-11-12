@@ -37,7 +37,13 @@ Make sure to double-check the correct information, LuaSwap will show you the det
 ## **How to remove your liquidity on LuaSwap**
 
 * Before you can remove liquidity on LuaSwap, click on “pool” then the pair that you provided liquidity or go to https://info.luaswap.org/account/{your address} then select the "Remove" option.
+
+![](../../.gitbook/assets/screenshot_2%20%281%29.png)
+
 * Select the amount of liquidity to remove that you wish to withdraw from the LuaSwap liquidity pools. 
+
+![](../../.gitbook/assets/screenshot_3%20%281%29.png)
+
 * Then click “Remove”, the system will give a board informing you how many tokens you got back after remove your liquidity
 * Confirm the removal and the transaction on your wallet 
 * Proceed with final confirmation
