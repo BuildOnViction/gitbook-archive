@@ -10,7 +10,7 @@ Connect your wallet via MetaMask/Wallet Connect
 
 ### Approve your LUA
 
-First, you may need to "Approve" the Sushi token before you are able to use it. Simply hit the "Approve SUSHI" button and sign the transaction with your wallet or MetaMask.
+First, you may need to "Approve" the LUA token before you are able to use it. Simply hit the "Approve LUA" button and sign the transaction with your wallet or MetaMask.
 
 ### Stake LUA to receive xLUA
 
