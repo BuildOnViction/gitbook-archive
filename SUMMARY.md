@@ -89,7 +89,6 @@
   * [LuaSafe](luaswap/luasafe.md)
   * [Tutorial](luaswap/tutorial/README.md)
     * [How to add/remove liquidity on LuaSwap](luaswap/tutorial/how-to-add-remove-liquidity-on-luaswap.md)
-    * [How to receive LUA rewards](luaswap/tutorial/how-to-receive-lua-rewards.md)
     * [How to stake LP token for LUA rewards](luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards.md)
     * [How to use LuaSwap Snapshot for governance voting](luaswap/tutorial/how-to-use-luaswap-snapshot-for-governance-voting.md)
 * [TomoBridge](tomobridge/README.md)
