@@ -1,4 +1,4 @@
-# TOMO Wrapped Token on Solana
+# TOMO/LUA Wrapped Token on Solana
 
 #### How to convert TOMOE & LUA \(ERC20\) to Wrapped TOMOE & LUA \(SPL\) token on Solana
 
