@@ -33,7 +33,7 @@ description: >-
 ### Useful smart contract addresses
 
 * [TomoZ contract](https://scan.testnet.tomochain.com/address/0x0E2C88753131CE01c7551B726b28BFD04e44003F) \(for applying TomoZ protocol\)
-* [TomoP contract](https://scan.testnet.tomochain.com/address/0x2d94946815076471e204792798951a517ce2f5bf)
+* [TomoP contract](https://scan.testnet.tomochain.com/address/0x773f08511DCd7cF4cf259C3D3Bf102a85B81487C)
 * [TomoX listing contract](https://scan.testnet.tomochain.com/address/0x14B2Bf043b9c31827A472CE4F94294fE9a6277e0#code) 
 * [TomoX registration contract](https://scan.testnet.tomochain.com/address/0xA1996F69f47ba14Cb7f661010A7C31974277958c#code) \(for applying a new relayer\)
 * [TomoMaster smart contract](https://scan.testnet.tomochain.com/address/0x0000000000000000000000000000000000000088) \(for staking and applying a new masternode\)
