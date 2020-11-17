@@ -22,6 +22,8 @@
 | VNDC | 0 | 25000 VNDC | 25 VNDC |
 | LINA | 0 | 450 LI | 0.6 LINA |
 | LIT | 0 | 20 LIT | 0.02 |
+| APM | 0 | 120 APM | 0.06 |
+|  |  |  |  |
 
 
 
