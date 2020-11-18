@@ -1,6 +1,6 @@
 # How to add/remove liquidity on LuaSwap
 
-LuaSwap V1.0 allows you to swap between ETH and other ERC-20 tokens on TomoChain network and earn passive income through providing liquidity and receive LP fee. Below, we will guide you on how to add/remove liquidity LuaSwap.
+LuaSwap V1.0 allows you to swap between ETH and other ERC-20 tokens on Ethereum network and earn passive income through providing liquidity and receive LP fee. Below, we will guide you on how to add/remove liquidity LuaSwap.
 
 ## How to add liquidity on LuaSwap
 
