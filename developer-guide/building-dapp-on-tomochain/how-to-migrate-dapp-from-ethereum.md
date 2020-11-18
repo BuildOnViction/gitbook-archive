@@ -52,31 +52,21 @@ Replace the `truffle.js` file with this new content:
       host: "127.0.0.1",
       port: "8545",
       network_id: "*", // Match any network id
-    },    ​tomotestnet: 
-
-     ​provider: () => new HDWalletProvider
-
-       ​mnemonic
-
-       ​"https://rpc.testnet.tomochain.com"
-
-       ​0
-
-       ​1
-
-       ​true
-
+    },
+    ​tomotestnet: {
+     ​provider: () => new HDWalletProvider(
+       ​mnemonic,
+       ​"https://rpc.testnet.tomochain.com",
+       ​0,
+       ​1,
+       ​true,
        ​"m/44'/889'/0'/0/"
-
      ​)
-
-     ​network_id: "89"
-
-     ​gas: 2000000
-
+     ​network_id: "89",
+     ​gas: 2000000,
      ​gasPrice: 10000000000000
-
-   ​}    tomomainnet: {
+   ​},
+   tomomainnet: {
       provider: () => new HDWalletProvider(
         mnemonic,
         "https://rpc.tomochain.com",
