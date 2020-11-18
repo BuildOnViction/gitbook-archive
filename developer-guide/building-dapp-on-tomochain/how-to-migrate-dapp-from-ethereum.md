@@ -58,7 +58,7 @@ Replace the `truffle.js` file with this new content:
 
        ​mnemonic
 
-       ​"https://testnet.tomochain.com"
+       ​"https://rpc.testnet.tomochain.com"
 
        ​0
 
