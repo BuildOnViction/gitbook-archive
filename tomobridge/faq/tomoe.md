@@ -20,11 +20,11 @@ TOMOE Contract Address
 You can get TOMOE by: 
 
 * Swap between TOMO and TOMOE on TomoBridge
-* Buy TOMOE directly on UniSwap 
+* Buy TOMOE directly on exchanges \(LuaSwap, FTX, Coinone, etc\) 
 
-### 4. How to join pool TOMOE-USDT / TOMOE-USDC/ TOMOE-ETH?
+### 4. How to provide liquidity for TOMOE 's pool on LuaSwap?
 
-Please follow [this guide](https://docs.tomochain.com/tomobridge/tutorial/tomoe/how-to-add-liquidity-to-tomoe-pools-on-uniswap) for detailed information 
+Please follow [this guide](../../luaswap/tutorial/how-to-add-remove-liquidity-on-luaswap.md) for detailed information 
 
 ### 5. Where can I store TOMOE?
 
