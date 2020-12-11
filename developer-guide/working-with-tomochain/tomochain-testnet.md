@@ -37,6 +37,7 @@ description: >-
 * [TomoX listing contract](https://scan.testnet.tomochain.com/address/0x14B2Bf043b9c31827A472CE4F94294fE9a6277e0#code) 
 * [TomoX registration contract](https://scan.testnet.tomochain.com/address/0xA1996F69f47ba14Cb7f661010A7C31974277958c#code) \(for applying a new relayer\)
 * [TomoMaster smart contract](https://scan.testnet.tomochain.com/address/0x0000000000000000000000000000000000000088) \(for staking and applying a new masternode\)
+* Wrapped Tokens: [USDT](https://scan.testnet.tomochain.com/address/0xc7ecCc9da22aBAAf9cfe311BFD9a55437eA05c2c), [ETH](https://scan.testnet.tomochain.com/address/0xf55F13Fde623c00d6b0C7bfc6557735040aA6a08), [BTC](https://scan.testnet.tomochain.com/address/0x11c2cAF973db997b8a9b5689b33962E1AedEA968)
 
 ### For developers
 
