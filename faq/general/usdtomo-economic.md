@@ -12,7 +12,7 @@ In addition to the above, TOMO is an integral part of the TomoChain network for 
 * TOMO will be used as a reward to incentivise the building of the TomoChain engine/ecosystem.
 * TOMO will be used as a long-term, decentralized governance instrument of the TomoChain network.
 
-You can check our [technical whitepaper](https://docs.tomochain.com/wp-and-research/technical-whitepaper/) for more details.
+You can check our [technical whitepaper](https://tomochain.com/wp-content/uploads/2020/07/technical-whitepaper-1.0.pdf) for more details.
 
 ### **Can I mine TOMO?**
 
