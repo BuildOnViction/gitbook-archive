@@ -99,6 +99,7 @@
     * [TOMOB](tomobridge/trc21-wrapped-token-information/tomob.md)
     * [TOMO/LUA Wrapped Token on Solana](tomobridge/trc21-wrapped-token-information/tomo-lua-wrapped-token-on-solana.md)
   * [Fee Structure](tomobridge/fee-structure.md)
+  * [Token Deposit](tomobridge/token-deposit.md)
   * [Tutorial](tomobridge/tutorial/README.md)
     * [TRC21 Wrapped Token](tomobridge/tutorial/trc21-wrapped-token.md)
     * [TOMOE](tomobridge/tutorial/tomoe/README.md)
