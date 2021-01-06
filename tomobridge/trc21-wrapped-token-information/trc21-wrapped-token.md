@@ -1,6 +1,6 @@
 # TRC21 Wrapped Token
 
-A TRC21 Wrapped Token is hosted on the TomoChain public blockchain, issued by TomoBridge, a subsidiary of TomoChain Pte. Ltd. and backed by an equal amount of the underlying asset or currency.
+A TRC21 Wrapped Token is hosted on the TomoChain public blockchain, and backed by an equal amount of the underlying asset or currency.
 
 TRC21 Wrapped Token stays in your wallet throughout trading, and can be converted back and forth between the native asset and TRC21 Wrapped Tokens at anytime via TomoBridge. So it's almost like trading native assets directly. The proof of reserve is on-chain, which shows the exact 1:1 between minted TRC21 Wrapped Tokens \(the TRC21 Wrapped Tokens created\) and native assets stored by TomoBridge. When TRC21 Wrapped Token holders redeem their TRC21 Wrapped Tokens for native assets, the TRC21 Wrapped Tokens will be burned. The minting and burning of TRC21 Wrapped Tokens is tracked and verifiable via smart contract on TomoScan.
 
