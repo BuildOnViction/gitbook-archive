@@ -42,7 +42,7 @@ On TomoDEX, users are always in direct custody of their funds. Which means you t
 
 You can go to [**TomoBridge**](http://bridge.tomochain.com) and swap between your asset and TRC21 Wrapped Token. Check out this article for details: [_**TomoBridge Tutorial**_](../tutorial/#fda7)_\*\*\*\*_
 
-### _**7.**_ Can I sent my TRC21 token directly to an ERC20 address, or vice versa?
+### _**7.**_ Can I send my TRC21 token directly to an ERC20 address, or vice versa?
 
 In simple words, NO you shouldn’t.
 
