@@ -1,6 +1,6 @@
 # Token Deposit
 
-This page only displays the the official tokens issued by TomoChain Pte. Ltd.
+This page only displays the the official wrapped tokens issued by TomoChain Pte. Ltd.
 
 | Asset/Action | Minimum Deposit Amount |
 | :--- | :--- |
