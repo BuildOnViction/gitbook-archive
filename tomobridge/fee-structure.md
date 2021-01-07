@@ -2,7 +2,7 @@
 
 This page only displays the the official tokens issued by TomoChain Pte. Ltd.
 
-For TRC-21 Wrapped tokens issued by other projects, please refer to their token information on TomoScan.
+For TRC-21 Wrapped tokens issued by other projects, please refer to the token information on TomoScan.
 
 |  Asset/Action | Deposit \(Wrap\) | Withdraw \(Unwrap\) | Transaction Fee |
 | :--- | :--- | :--- | :--- |
