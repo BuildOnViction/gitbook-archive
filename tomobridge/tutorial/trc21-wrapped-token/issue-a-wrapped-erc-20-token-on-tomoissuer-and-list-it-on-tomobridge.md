@@ -1,11 +1,15 @@
 ---
 description: >-
-  Wrapped ERC-20 token is a TRC-21 token hosted on the TomoChain public
-  blockchain and backed by an equal amount of the underlying ERC-20 asset on the
-  Ethereum blockchain. Anyone can issue a wrapped ERC
+  We’re thrilled to announce the latest upgrade of TomoIssuer and TomoBridge,
+  which will enable anyone to issue a wrapped ERC-20 token and list it on
+  TomoBridge.
 ---
 
 # Issue a Wrapped ERC-20 Token on TomoIssuer and List It on TomoBridge
+
+Wrapped ERC-20 token is a TRC-21 token hosted on the TomoChain public blockchain and backed by an equal amount of the underlying ERC-20 asset on the Ethereum blockchain. Anyone can issue a wrapped ERC-20 token via TomoIssuer. TomoBridge supports all the wrapped ERC-20 tokens issued via TomoIssuer.  
+To simplify the process for token issuers, we would like to present a detailed tutorial on how to issue wrapped ERC-20 tokens on TomoIssuer.  
+
 
 **Step 1: Go to** [**https://issuer.tomochain.com/**](https://issuer.tomochain.com/) **and click on “Issue a wrapped ERC20 Token”**  
 
