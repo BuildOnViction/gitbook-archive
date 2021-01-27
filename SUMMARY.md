@@ -88,6 +88,7 @@
   * [Fee structure](luaswap/fee-structure.md)
   * [LuaSafe](luaswap/luasafe.md)
   * [Tutorial](luaswap/tutorial/README.md)
+    * [How to swap your token on LuaSwap](luaswap/tutorial/how-to-swap-your-token-on-luaswap.md)
     * [How to add/remove liquidity on LuaSwap](luaswap/tutorial/how-to-add-remove-liquidity-on-luaswap.md)
     * [How to create a new pair on LuaSwap](luaswap/tutorial/how-to-create-a-new-pair-on-luaswap.md)
     * [How to stake LP token for LUA rewards](luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards.md)
