@@ -14,7 +14,7 @@ description: >-
 
 1.2. Unless otherwise specified, all terms used in this Policy shall have the same meanings as provided in Clause 2. Definition and Interpretation of our Terms of Use.
 
-1.3. By using any of the Services, you understand and agree that the Site is only an interface for the public blockchain TomoChain and TomoDEX. TomoDEX is a decentralized exchange powered by the TomoX protocol. TomoDEX is operated via TomoChain Pte., Ltd yet secured by the trustless TomoChain Blockchain, where performance and decisions are not made by a single entity.
+1.3. By using any of the Services, you understand and agree that the Site is only an interface for the public blockchain TomoChain and TomoDEX. TomoDEX is a decentralized exchange powered by the TomoX protocol. TomoDEX is operated via TomoChain Lab Pte., Ltd yet secured by the trustless TomoChain Blockchain, where performance and decisions are not made by a single entity.
 
 1.4. This Policy \(together with our Terms of Use\) explains and sets out the basis for why and when we collect Personal Information about the people who use our Services, how we use it, the conditions under which we may disclose it to others and the measures we take to keep it secure.
 
