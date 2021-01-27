@@ -98,7 +98,7 @@ We will retain the information you provide in order to process your request, pro
 
 ### CONTACT INFORMATION
 
-Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Lab Pte., Ltd at 10 Anson Road \#22-15 International Plaza, Singapore 079903.
+Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Pte., Ltd at 10 Anson Road \#22-15 International Plaza, Singapore 079903.
 
 ### CHANGES TO PRIVACY POLICY
 
