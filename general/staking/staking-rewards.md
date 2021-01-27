@@ -6,7 +6,7 @@
 
 
 
-* **Implementation**: Each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. 250 TOMO will be divided across all Masternodes proportional to the number of signatures they sign during the epoch. The reward achieved by each Masternode will be divided into three portions. The first portion of 40%, called the “Infrastructure Reward,” goes to the Masternode. The second portion of 50%, called the “Staking Reward,” goes to the pool of all voters for that Masternode shared proportionally based on the number of tokens staked out of the total number of tokens staked. The last portion of 10%, called the “Foundation Reward,” goes to a special account controlled by the Masternode Foundation, which is run by TomoChain Pte Ltd. initially.
+* **Implementation**: Each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. 250 TOMO will be divided across all Masternodes proportional to the number of signatures they sign during the epoch. The reward achieved by each Masternode will be divided into three portions. The first portion of 40%, called the “Infrastructure Reward,” goes to the Masternode. The second portion of 50%, called the “Staking Reward,” goes to the pool of all voters for that Masternode shared proportionally based on the number of tokens staked out of the total number of tokens staked. The last portion of 10%, called the “Foundation Reward,” goes to a special account controlled by the Masternode Foundation, which is run by TomoChain Lab Pte Ltd. initially.
 
 
 
