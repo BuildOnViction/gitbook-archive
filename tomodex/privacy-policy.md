@@ -123,7 +123,7 @@ We do not direct the Services to, nor do we knowingly collect any Personal Infor
 
 ### 10. Contact Us
 
-Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Pte., Ltd at 10 Anson Road \#22-15 International Plaza, Singapore 079903.  
+Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Lab Pte., Ltd at 10 Anson Road \#22-15 International Plaza, Singapore 079903.  
 
 
 ### 11. Changes to Privacy Policy
