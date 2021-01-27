@@ -2,7 +2,7 @@
 
 ### **Where is TomoChain registered?**
 
-You can check our company `TomoChain Pte. Ltd.` information on the [Singaporean registry](https://www.sgpbusiness.com/company/Tomochain-Pte-Ltd).
+You can check our company `TomoChain Lab Pte. Ltd.` information on the [Singaporean registry](https://www.sgpbusiness.com/company/Tomochain-Pte-Ltd).
 
 You can also check the ACRA copy if you need more details.
 
