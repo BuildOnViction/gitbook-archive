@@ -10,7 +10,7 @@ description: Terms and conditions for using TomoChains products.
 
 ### AGREEMENT
 
-This Terms of Use is a legal agreement between you \(Licensee or you\) and TomoChain Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(“Company”, “we”, “us” or “our”\). 
+This Terms of Use is a legal agreement between you \(Licensee or you\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(“Company”, “we”, “us” or “our”\). 
 
 By accessing or using our Services or any part of it, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data.
 

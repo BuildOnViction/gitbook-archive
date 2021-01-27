@@ -4,7 +4,7 @@ description: The privacy policy of TomoChain
 
 # Privacy Policy
 
-This Privacy Policy is a legal agreement between you \(Licensee or you\) and TomoChain Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(“Company”, “we”, “us” or “our”\)
+This Privacy Policy is a legal agreement between you \(Licensee or you\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(“Company”, “we”, “us” or “our”\)
 
 This Policy \(together with our Terms of Use\) explains and sets out the basis for why and when we collect personal information about the people who use our Service\(s\), how we use it, the conditions under which we may disclose it to others and the measures we take to keep it secure. 
 
@@ -98,7 +98,7 @@ We will retain the information you provide in order to process your request, pro
 
 ### CONTACT INFORMATION
 
-Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Pte., Ltd at 10 Anson Road \#22-15 International Plaza, Singapore 079903.
+Any questions regarding this policy and our privacy practices should be sent by email to admin@tomochain.com or by writing TomoChain Lab Pte., Ltd at 10 Anson Road \#22-15 International Plaza, Singapore 079903.
 
 ### CHANGES TO PRIVACY POLICY
 
