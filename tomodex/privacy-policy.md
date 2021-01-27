@@ -10,7 +10,7 @@ description: >-
 
 ### 1. Introduction
 
-1.1. This Privacy Policy \(“Policy"\) is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(referred to herein as “the Company”, “we”, “us” or “our”\)
+1.1. This Privacy Policy \(“Policy"\) is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(referred to herein as “the Company”, “we”, “us” or “our”\)
 
 1.2. Unless otherwise specified, all terms used in this Policy shall have the same meanings as provided in Clause 2. Definition and Interpretation of our Terms of Use.
 
