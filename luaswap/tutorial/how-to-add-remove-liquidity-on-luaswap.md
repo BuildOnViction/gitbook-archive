@@ -46,7 +46,7 @@ Make sure to double-check the correct information, LuaSwap will show you the det
 
 ## **How to remove your liquidity on LuaSwap**
 
-**Step 1:** Before you can remove liquidity on LuaSwap, click on “pool” then the pair that you provided liquidity or go to https://info.luaswap.org/account/{your address} then select the "Remove" option.
+**Step 1:** Before you can remove liquidity on LuaSwap, click on “pool” then the pair that you provided liquidity or go to https://info.luaswap.org/account/{your address}
 
 ![](../../.gitbook/assets/screenshot_2%20%285%29.png)
 
