@@ -1,14 +1,20 @@
 # How to create a new pair on LuaSwap
 
-### Step 1. Go to [https://app.luaswap.org/\#/pool](https://app.luaswap.org/#/pool)
+**Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
 
-Connect to LuaSwap via your wallet \(Metamask, Trust Wallet, Coinbase Wallet, etc\)
+then click on **Pool** in **Product** tab
 
-![](../../.gitbook/assets/screenshot_3.png)
+![](../../.gitbook/assets/screenshot_6.png)
 
-Click on “Connect to a wallet”
+Connect to LuaSwap via your wallet
 
-![](../../.gitbook/assets/1.png)
+![](../../.gitbook/assets/screenshot_1%20%283%29.png)
+
+_Note: Pls make sure to connect MetaMask to the TomoChain Network for TomoChain LuaSwap's experience_
+
+{% page-ref page="../../general/how-to-connect-to-tomochain-network/metamask.md" %}
+
+![](../../.gitbook/assets/screenshot_2%20%286%29.png)
 
 ### Step 2: Select a pool
 
@@ -26,9 +32,9 @@ You need to add initial liquidity for your pair. You need to cover both sides, s
 
 ![](../../.gitbook/assets/screenshot-2020-11-26-101607.png)
 
-Congrats, you just listed your token to LuaSwap. Although your token is now on LuaSwap, it will not show up in the tokens menu. You will need to contact LuaSwap's team on telegram about joining LuaSwap's token list if they want it on the dropdown menu. 
-
 ### Step 4: Confirm supply
 
 Make sure to double-check the correct information, LuaSwap will show you the details of the transaction, including the amount of LUA LP V1 tokens you will receive. Click “Confirm Supply” once you’ve agreed with all of the details.
+
+Congrats, you just listed your token to LuaSwap. Although your token is now on LuaSwap, it will not show up in the tokens menu. You will need to contact LuaSwap's team on telegram about joining LuaSwap's token list if they want it on the dropdown menu. 
 

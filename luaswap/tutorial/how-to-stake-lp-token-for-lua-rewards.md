@@ -2,7 +2,7 @@
 
 LuaSwap is a multi-chain liquidity protocol for emerging token projects with no seed investment, founder's fees, or pre-mining.
 
-The LUA token distribution will start at block **10,950,600** on September 28 2020. 
+The LUA token distribution will start at block **10,950,600** on September 28, 2020. 
 
 The LUA token will only be minted and distributed to Liquidity Providers \(LPs\) of the Farming set they also stake their LP tokens on LuaSwap \(more on this process later\):
 

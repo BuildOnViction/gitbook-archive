@@ -4,7 +4,7 @@ description: Follow our instructions below to know how to swap tokens on LuaSwap
 
 # How to swap your token on LuaSwap
 
-**Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
+### **Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
 
   
 then click on **Swap** in **Product** tab
@@ -21,8 +21,10 @@ _Note: Pls make sure to connect MetaMask to the TomoChain Network for TomoChain 
 
 {% page-ref page="../../general/how-to-connect-to-tomochain-network/metamask.md" %}
 
-**Step 2: Swap tokens**  
-In the From section, select tokens officially listed on LuaSwap or add the contract address from the token you want to trade, then enter the amount of that token
+### **Step 2: Swap tokens**
+
+  
+****In the From section, select tokens officially listed on LuaSwap or add the contract address from the token you want to trade, then enter the amount of that token
 
 ![](../../.gitbook/assets/screenshot_4.png)
 
@@ -34,7 +36,7 @@ _Note: You need to pay attention to some details including Price/ Minimum receiv
 
 Click **Swap** to confirm the transaction 
 
-**Step 3: Confirm the transaction**
+### **Step 3: Confirm the transaction**
 
 A pop-up window would appear to confirm the gas prices to be paid for the transaction.
 

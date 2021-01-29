@@ -4,7 +4,7 @@ LuaSwap V1.0 allows you to swap between ETH & other ERC-20 tokens on Ethereum; b
 
 ## How to add liquidity on LuaSwap
 
-**Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
+### **Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
 
 then click on **Pool** in **Product** tab
 
@@ -20,7 +20,7 @@ _Note: Pls make sure to connect MetaMask to the TomoChain Network for TomoChain 
 
 ![](../../.gitbook/assets/screenshot_2%20%286%29.png)
 
-**Step 2: Select a pool**
+### **Step 2: Select a pool**
 
 Click on **Add liquidity**
 
@@ -38,7 +38,7 @@ Enter the amount of token you want to supply, LuaSwap will automatically fill th
 
 then click on **Supply** button
 
-**Step 4: Confirm Supply**
+### **Step 4: Confirm Supply**
 
 Make sure to double-check the correct information, LuaSwap will show you the details of the transaction, including the amount of LUA LP V1 tokens you will receive. Click “Confirm Supply” once you’ve agreed with all of the details.
 
