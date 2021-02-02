@@ -14,7 +14,7 @@ Connect to LuaSwap via your wallet
 
 ![](../../.gitbook/assets/screenshot_1%20%283%29.png)
 
-_Note: Pls make sure to connect MetaMask to the TomoChain Network for TomoChain LuaSwap's experience_
+_Note:_  _Using LuaSwap’s Ethereum version requires the Metamask network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the Metamask network to be set to TomoChain. Follow_ [_this guide_ ](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask)_to learn more._
 
 {% page-ref page="../../general/how-to-connect-to-tomochain-network/metamask.md" %}
 
