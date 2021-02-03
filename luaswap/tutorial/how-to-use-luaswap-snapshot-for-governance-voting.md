@@ -30,6 +30,11 @@ Note: You need to have at least 1 LUA in your wallet to be able to create a prop
 
 ### Vote on a proposal
 
+Currently, the LuaSwap snapshot allows users to vote with both LUA and xLUA for governance
+
+* [Using LUA to vote on LuaSwap proposals](https://snapshot.luaswap.org/#/luaswap)
+* [Using xLUA to vote on LuaSwap proposals](https://snapshot.luaswap.org/#/xlua)
+
 1.Go to [https://snapshot.luaswap.org](https://snapshot.luaswap.org/#/) and make sure you connect with wallet provider where you hold relevant token
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.07.34-am.png)
