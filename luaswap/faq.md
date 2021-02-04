@@ -80,6 +80,33 @@ Anyone can trigger distribution at any time by selecting the “CONVERT” butto
 
 Follow our instruction [here](tutorial/how-to-use-luaswap-snapshot-for-governance-voting.md) on how to create/vote for a proposal on [LuaSwap Snapshot ](https://snapshot.luaswap.org/)
 
+### **14. Can I harvest my locked LUA on LuaSwap on TomoChain?**
+
+No you can not. ****LUA locked token is ERC20 and you need to interact with Ethereum smart contract to unlock that. So make sure you are on Ethereum network to unlock your locked LUA.
+
+### **15. Where I can see my locked LUA on the new version of LuaSwap?**
+
+Go to address bar on the top right of your screen then you can see your locked LUA tokens**.**
+
+### **16. How much does it cost to swap on LuaSwap TomoChain?**
+
+Tx fee in the TomoChain is much lower than Ethereum ~ 0.00003 TOMO/swap**.**
+
+### **17. Does LuaSwap share the same liquidity source on both TomoChain and Ethereum? How can I move liquidity from Ethereum to TomoChain on LuaSwap?**
+
+LuaSwap operates independently on both the TomoChain & Ethereum Blockchains so it does not share the same liquidity source on both networks. You can remove liquidity on Ethereum version then add it to TomoChain version.
+
+{% page-ref page="tutorial/how-to-add-remove-liquidity-on-luaswap.md" %}
+
+
+
+  
+
+
+  
+
+
+  
 
 
 
