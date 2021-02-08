@@ -2,7 +2,7 @@
 
 ### Specifications
 
-* Chain id: `88`
+* Chain id: `88 or 0x58`
 * RPC endpoint: `https://rpc.tomochain.com`
 * Websocket endpoint: `wss://ws.tomochain.com`
 * Metrics endpoint: `https://metrics.tomochain.com`
