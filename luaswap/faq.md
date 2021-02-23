@@ -23,8 +23,6 @@ The first 8 weeks will have HYPER-INFLATION
 
 At the moment, farming on [luaswap.org](http://luaswap.org/) is the only way you can get LUA. LUA has been listed on:  FTX, TomoDEX, Hotbit and Coinone,.... We will update you on telegram and twitter.
 
-5. What is LuaSwap 
-
 ### 5. How about the treasury fund?
 
 An additional 10% of all LUA distributions will be set aside for the LUA treasury. The LUA treasury will be spent on auditing, development, rewarding contributors, and supporting new token projects by providing liquidity to LUA/new token pool. This 10% of all LUA rewards generated within the first 8 weeks are also locked based on the unlock plan.
