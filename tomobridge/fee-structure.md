@@ -1,19 +1,22 @@
 # Fee Structure
 
-This page only displays the official tokens issued by TomoChain Pte. Ltd.
+This page only displays the official tokens issued by TomoChain Lab Pte. Ltd.
 
 For TRC-21 Wrapped tokens issued by other projects, please refer to the token information on TomoScan.
+
+**Native TOMO &lt;&gt; Wrapped TOMO**
 
 <table>
   <thead>
     <tr>
+      <th style="text-align:left">Asset/Action</th>
       <th style="text-align:left">
-        <br />Asset/Action</th>
-      <th style="text-align:left">Minimum Deposit Fee</th>
-      <th style="text-align:left">Withdraw/Unwrap Fee</th>
+        <p>Wrap Fee</p>
+        <p>(TOMO &gt; wrapped TOMO)</p>
+      </th>
       <th style="text-align:left">
-        <p>Internal</p>
-        <p>Transaction Fee</p>
+        <p>Unwrap Fee</p>
+        <p>(wrapped TOMO &gt; TOMO)</p>
       </th>
     </tr>
   </thead>
@@ -22,17 +25,36 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
       <td style="text-align:left">TOMOE</td>
       <td style="text-align:left">8 TOMO</td>
       <td style="text-align:left">0 TOMOE</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">TOMOB</td>
       <td style="text-align:left">1 TOMO</td>
       <td style="text-align:left">1 TOMOB</td>
-      <td style="text-align:left"></td>
     </tr>
+  </tbody>
+</table>
+
+\*\*\*\*
+
+**Tokens from other chains &lt;&gt; TRC-21 wrapped token**
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">
+        <br />Asset/Action</th>
+      <th style="text-align:left">Deposit<b>/ Wrap</b> Fee</th>
+      <th style="text-align:left">Withdrawal/Unwrap Fee</th>
+      <th style="text-align:left">
+        <p>Internal</p>
+        <p>Transaction Fee</p>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
     <tr>
       <td style="text-align:left">LUA</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">0</td>
       <td style="text-align:left">80 LUA</td>
       <td style="text-align:left">0.02 LUA</td>
     </tr>
@@ -143,12 +165,6 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
       <td style="text-align:left">0</td>
       <td style="text-align:left">120 APM</td>
       <td style="text-align:left">0.06</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
