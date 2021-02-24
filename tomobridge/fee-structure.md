@@ -4,7 +4,7 @@ This page only displays the official tokens issued by TomoChain Pte. Ltd.
 
 For TRC-21 Wrapped tokens issued by other projects, please refer to the token information on TomoScan.
 
-|  Asset/Action | Deposit \(Wrap\) | Withdraw \(Unwrap\) | Transaction Fee |
+|  Asset/Action | Min Deposit \(Wrap\) | Withdraw Fee \(Unwrap\) | Transaction Fee |
 | :--- | :--- | :--- | :--- |
 | TOMOE | 8 TOMO | 0 TOMOE |  |
 | TOMOB | 1 TOMO | 1 TOMOB |  |
