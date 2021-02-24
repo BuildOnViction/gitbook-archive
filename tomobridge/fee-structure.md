@@ -36,7 +36,7 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
 
 \*\*\*\*
 
-**Tokens from other chains &lt;&gt; TRC-21 wrapped token**
+**Tokens from other chains &lt;&gt; TRC-21 wrapped tokens**
 
 <table>
   <thead>
