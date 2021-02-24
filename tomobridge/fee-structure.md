@@ -23,7 +23,7 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
   <tbody>
     <tr>
       <td style="text-align:left">TOMOE</td>
-      <td style="text-align:left">8 TOMO</td>
+      <td style="text-align:left">4 TOMO</td>
       <td style="text-align:left">0 TOMOE</td>
     </tr>
     <tr>
