@@ -1,17 +1,17 @@
 # Fee Structure
 
-This page only displays the the official tokens issued by TomoChain Pte. Ltd.
+This page only displays the official tokens issued by TomoChain Pte. Ltd.
 
 For TRC-21 Wrapped tokens issued by other projects, please refer to the token information on TomoScan.
 
 |  Asset/Action | Deposit \(Wrap\) | Withdraw \(Unwrap\) | Transaction Fee |
 | :--- | :--- | :--- | :--- |
-| TOMOE | 4 TOMO | 0 TOMOE |  |
+| TOMOE | 8 TOMO | 0 TOMOE |  |
 | TOMOB | 1 TOMO | 1 TOMOB |  |
-| LUA |  | 20 LUA | 0.02 LUA |
+| LUA |  | 20 LUA | 80 LUA |
 | BTC | 0 | 0.0004 BTC | 0.0000004 BTC |
-| USDT | 0 | 0.97 USDT | 0.001 USDT |
-| ETH | 0 | 0.003 ETH | 0.000003 ETH |
+| USDT | 0 | 0.97 USDT | 20 USDT |
+| ETH | 0 | 0.003 ETH | 0.006 ETH |
 | YFI | 0 | 0.001 YFI | 0.000001 YFI |
 | FTT | 0 | 0.3 FTT | 0.003 FTT |
 | SRM | 0 | 1.1 SRM | 0.001 SRM |
