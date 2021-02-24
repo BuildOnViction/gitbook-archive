@@ -34,7 +34,7 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
       <td style="text-align:left">LUA</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">80 LUA</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">0.02 LUA</td>
     </tr>
     <tr>
       <td style="text-align:left">BTC</td>
@@ -46,13 +46,13 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
       <td style="text-align:left">USDT</td>
       <td style="text-align:left">0</td>
       <td style="text-align:left">20 USDT</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">0.001 USDT</td>
     </tr>
     <tr>
       <td style="text-align:left">ETH</td>
       <td style="text-align:left">0</td>
       <td style="text-align:left">0.006 ETH</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">0.000003 ETH</td>
     </tr>
     <tr>
       <td style="text-align:left">YFI</td>
