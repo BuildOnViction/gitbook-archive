@@ -16,7 +16,6 @@ description: >-
 * Consensus: POSV
 * Block finality: `>75%`
 * Consensus nodes: up to 150 \(masternodes\)
-* Smart contract creation fee: gas price 10000 Gwei, gas limit &gt;= 1000000
 * Solidity Compiler version: &lt; 0.6.6
 
 ### Useful links
