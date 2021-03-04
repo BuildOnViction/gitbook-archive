@@ -12,8 +12,7 @@
 * Consensus nodes: up to 150 \(masternodes\)
 * Genesis block date: `December 14th, 2018`
 * Transaction fee: gas price 0.25 Gwei
-* Smart contract creation fee: gas price 10000 Gwei, gas limit &gt;= 1000000
-* Solidity Compiler version: &lt; 0.5
+* Solidity Compiler version: &lt; 0.6.6
 
 ### Useful links
 
