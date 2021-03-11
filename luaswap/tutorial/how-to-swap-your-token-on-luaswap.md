@@ -21,8 +21,6 @@ _Note:_  _Using LuaSwap’s Ethereum version requires the Metamask network to be
 
 ![](../../.gitbook/assets/screenshot_2%20%283%29.png)
 
-{% page-ref page="../../general/how-to-connect-to-tomochain-network/metamask.md" %}
-
 ### **Step 2: Swap tokens**
 
   

@@ -1,3 +1,10 @@
+---
+description: >-
+  Users can perform fundamental features such as swapping tokens, providing
+  liquidity; creating new pools; farming LUA; staking in LuaSafe to earn more
+  LUA; participating in governance voting...
+---
+
 # Tutorial
 
 {% hint style="info" %}

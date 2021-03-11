@@ -1,6 +1,10 @@
+---
+description: Creating a new pool on LuaSwap to become a Liquidity Providers on LuaSwap
+---
+
 # How to create a new pair on LuaSwap
 
-**Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
+### **Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
 
 then click on **Pool** in **Product** tab
 

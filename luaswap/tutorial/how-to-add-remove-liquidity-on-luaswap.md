@@ -1,8 +1,10 @@
+---
+description: Adding liquidity to get 0.35% of swapping fee.
+---
+
 # How to add/remove liquidity on LuaSwap
 
-LuaSwap V1.0 allows you to swap between ETH & other ERC-20 tokens on Ethereum; between TOMO & other TRC-21 tokens on TomoChain; and generate passive income by providing liquidity, staking LUA & receiving LP fees. Below, we will guide you on how to add/remove liquidity LuaSwap.
-
-## How to add liquidity on LuaSwap
+## **How to add liquidity into LuaSwap**
 
 ### **Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
 
@@ -46,14 +48,15 @@ Make sure to double-check the correct information, LuaSwap will show you the det
 
 ## **How to remove your liquidity on LuaSwap**
 
-**Step 1:** Before you can remove liquidity on LuaSwap, click on “pool” then the pair that you provided liquidity or go to https://info.luaswap.org/account/{your address}
+### **Step 1: Select pool**
+
+Before you can remove liquidity on LuaSwap, click on “pool” then the pair that you provided liquidity or go to https://info.luaswap.org/account/{your address}
 
 ![](../../.gitbook/assets/screenshot_2%20%285%29.png)
 
-**Step 2: Remove liquidity**
+### **Step 2: Remove liquidity**
 
-Click on **Remove**  
-
+Click on **Remove**
 
 ![](../../.gitbook/assets/screenshot_4%20%281%29.png)
 
@@ -70,7 +73,7 @@ Then click **Remove**
 
 ![](../../.gitbook/assets/screenshot_7%20%281%29.png)
 
-**Step 3: Check your details carefully and click Confirm**
+### **Step 3: Confirm transaction**
 
 The system will give a board informing you how many tokens you got back after remove your liquidity
 
@@ -78,5 +81,5 @@ The system will give a board informing you how many tokens you got back after re
 
 Check Gas price and Confirm the transaction then go to Etherscan/TomoScan to check your Tx Hash
 
-**Warning**: Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your token may change over time. Please educate yourself on the risks of providing liquidity and the concept of [impermanent loss](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) before participating
+**Warning**: _Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your token may change over time. Please educate yourself on the risks of providing liquidity and the concept of_ [_impermanent loss_](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) _before participating._
 

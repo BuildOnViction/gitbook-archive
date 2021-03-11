@@ -1,57 +1,68 @@
+---
+description: >-
+  Holding the LUA/xLUA token means holding a share in the governance of the
+  protocol. All LUA/xLUA holders can decide the subsequent chains to implement
+  LuaSwap on, how much LUA to distribute to LPs...
+---
+
 # How to use LuaSwap Snapshot for governance voting
 
-### Create a proposal on LuaSwap Snapshot
+## Create a proposal on LuaSwap Snapshot
 
-1.Go to [https://snapshot.luaswap.org](https://snapshot.luaswap.org/#/) 
+### Step 1: Go to [**https://luaswap.org**](https://luaswap.org)
+
+then click on **Using LUA/xLUA to vote on LuaSwap proposals** in the **Governance** tab
+
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.42.42-am.png)
 
-2.Click on “Connect wallet” button in top right corner 
+### Step 2: Connect your wallet
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.42.15-am.png)
 
-3. Connect with wallet provider where you hold LUA token. 
+_Note: You need to have at least 1 LUA in your wallet to be able to create a proposal on LuaSwap Snapshot. Keep the LUA balance greater than 1LUA on the snapshot block to ensure the proposal is valid._
 
-Note: You need to have at least 1 LUA in your wallet to be able to create a proposal on LuaSwap Snapshot. Keep the LUA balance greater than 1LUA on the snapshot block to ensure the proposal is valid.
-
-4. Click on “New proposal” button 
+### Step 3: Click on “New proposal” button 
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.51.58-am.png)
 
-5. Fill out the Title and your community proposal. Select the desired voting options
+### Step 4: Fill out the information
+
+Fill out the Title and your community proposal. Select the desired voting options
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.52.09-am.png)
 
-6. Select the start date/the end date
+Select the start date/the end date
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.54.03-am.png)
 
-7. Fill out the Snapshot block number \([further detail below](how-to-use-luaswap-snapshot-for-governance-voting.md#snapshot-block-number)\) then choose " Publish"
+Fill out the Snapshot block number \([further detail below](how-to-use-luaswap-snapshot-for-governance-voting.md#snapshot-block-number)\) then choose " Publish"
 
-### Vote on a proposal
+## Vote on a proposal
 
 Currently, the LuaSwap snapshot allows users to vote with both LUA and xLUA for governance
 
 * [Using LUA to vote on LuaSwap proposals](https://snapshot.luaswap.org/#/luaswap)
 * [Using xLUA to vote on LuaSwap proposals](https://snapshot.luaswap.org/#/xlua)
 
-1.Go to [https://snapshot.luaswap.org](https://snapshot.luaswap.org/#/) and make sure you connect with wallet provider where you hold relevant token
+**Step 1:** Go to [https://snapshot.luaswap.org](https://snapshot.luaswap.org/#/) and make sure you connect with wallet provider where you hold relevant token
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.07.34-am.png)
 
-2. Choose the proposal then click on the option you want to vote for 
+**Step 2:** Choose the proposal then click on the option you want to vote for 
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.13.45.png)
 
-**Note**: A user’s voting power is based on the snapshot of unlocked LUA balance in his/her account at the snapshot block in the proposal's information page.
+**Note**: _A user’s voting power is based on the snapshot of unlocked LUA balance in his/her account at the snapshot block in the proposal's information page._
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.19.44-am.png)
 
 
 
-3. Sign the message via your wallet and done
+**Step 3:** Sign the message via your wallet and done.
 
-### **Snapshot block number**
+## **Snapshot block number**
 
 This number is important to lock the state of community members who are able to vote.
 
