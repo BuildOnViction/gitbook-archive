@@ -24,5 +24,7 @@ Using LuaSwap’s Ethereum version requires the Metamask network to be set to Et
 
 {% page-ref page="how-to-use-luaswap-snapshot-for-governance-voting.md" %}
 
+{% page-ref page="luaswap-tutorials-mobile-version.md" %}
+
 
 
