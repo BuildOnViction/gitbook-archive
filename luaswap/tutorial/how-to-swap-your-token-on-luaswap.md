@@ -9,7 +9,7 @@ description: Follow our instructions below to know how to swap tokens on LuaSwap
   
 then click on **Swap** in **Product** tab
 
-![](../../.gitbook/assets/screenshot_3%20%282%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 Connect to LuaSwap via your wallet
 

@@ -10,7 +10,7 @@ description: Adding liquidity to get 0.35% of swapping fee.
 
 then click on **Pool** in **Product** tab
 
-![](../../.gitbook/assets/screenshot_6.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 Connect to LuaSwap via your wallet 
 

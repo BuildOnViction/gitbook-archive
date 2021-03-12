@@ -8,7 +8,7 @@ description: Creating a new pool on LuaSwap to become a Liquidity Providers on L
 
 then click on **Pool** in **Product** tab
 
-![](../../.gitbook/assets/screenshot_6.png)
+![](../../.gitbook/assets/image%20%28103%29.png)
 
 Connect to LuaSwap via your wallet
 
