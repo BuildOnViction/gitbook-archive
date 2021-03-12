@@ -8,11 +8,17 @@ LuaSwap is the new swap protocol inspired by the previous AMM-based swap protoco
 
 LuaSwap completed the migration of liquidity from Uniswap on October 29th, 2020. This means that all liquidity previously deposited on Uniswap has now been moved to LuaSwap V1.0.
 
-### 3. What is LUA token?
+### 3. What happen to the staked LP token on Uniswap?
+
+All Uniswap LP tokens \(UNI-V2 LP token\) have been converted to LuaSwap LP tokens \(LUA-V1 LP token\), representing the exact same share of liquidity in the LuaSwap liquidity pools.
+
+No action was required for Liquidity Providers \(LP\) who staked their Uniswap LP tokens on LuaSwap before the migration. ****LuaSwap LPs will only need to re-approve the LP tokens contract in LuaSwap before unstaking or staking additional LP tokens on LuaSwap.
+
+### 4. What is LUA token?
 
 LUA token is a native token of LuaSwap protocol to incentivize them to stay with the LuaSwap. Holding the LUA token means holding a share in the governance of the protocol. All LUA token holders can decide the subsequent chains to implement LuaSwap on, how much LUA to distribute to LPs in the new chain, which new token projects LuaSwap should support, etc. LUA hard-cap is at 500 million tokens.
 
-### 4. Where to store LUA token?
+### 5. Where to store LUA token?
 
 Lua token is an ERC-20 token, therefore you can store LUA in an Ethereum address \(TomoWallet, Metamask, TrustWallet, Wallet Connect, Coinbase Wallet, and others\). Make sure you own a private key/seeding phrase and can access the Ethereum address. On the TomoWallet app, import your address you received LUA &gt; switch the network to Ethereum &gt; you will see your LUA balance. 
 
@@ -20,7 +26,7 @@ We also have wrapped LUA TRC21 on TomoChain and you can store it on TomoWallet, 
 
 Besides, wrapped LUA on Solana network can be stored on Solet Wallet and others.
 
-### 5. What is the LUA reward distribution plan?
+### 6. What is the LUA reward distribution plan?
 
 The first 8 weeks have HYPER-INFLATION
 
@@ -29,7 +35,7 @@ The first 8 weeks have HYPER-INFLATION
 
 ![](../.gitbook/assets/screen-shot-2020-09-25-at-14.53.24.png)
 
-### 6. Besides farming, is there anyway I can get LUA tokens? Any exchange listing?
+### 7. Besides farming, is there anyway I can get LUA tokens? Any exchange listing?
 
 You can get LUA by farming on [luaswap.org](http://luaswap.org/) or purchase it via exchanges
 
@@ -39,10 +45,6 @@ You can get LUA by farming on [luaswap.org](http://luaswap.org/) or purchase it 
 
 We will update you on [Telegram ](https://t.me/LuaSwap%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20)and [Twitter](https://twitter.com/LuaSwap) 
 
-### 7. How about the treasury fund?
-
-An additional 10% of all LUA distributions will be set aside for the LUA treasury. The LUA treasury will be spent on auditing, development, rewarding contributors, and supporting new token projects by providing liquidity to LUA/new token pool. This 10% of all LUA rewards generated within the first 8 weeks are also locked based on the unlock plan.
-
 ### 8. How to stake LP tokens to farm LUA?
 
 To receive the LUA reward, follow the steps below: 
@@ -51,15 +53,13 @@ To receive the LUA reward, follow the steps below:
 * Go to [LuaSwap.org](http://luaswap.org/) 
 * Stake your LP token into the reward contract and start receiving the LUA reward
 
-### 9. What happen to the staked LP token on Uniswap?
-
-All Uniswap LP tokens \(UNI-V2 LP token\) have been converted to LuaSwap LP tokens \(LUA-V1 LP token\), representing the exact same share of liquidity in the LuaSwap liquidity pools.
-
-No action was required for Liquidity Providers \(LP\) who staked their Uniswap LP tokens on LuaSwap before the migration. ****LuaSwap LPs will only need to re-approve the LP tokens contract in LuaSwap before unstaking or staking additional LP tokens on LuaSwap.
-
-### 10. What is the swapping fee on LuaSwap?
+### 9. What is the swapping fee on LuaSwap?
 
 The swap fee is set at 0.4%, of which 0.05% goes to LuaSafe stakers \(more on LuaSafe below\), and the remaining 0.35% goes to LPs.
+
+### 10. How about the treasury fund?
+
+An additional 10% of all LUA distributions will be set aside for the LUA treasury. The LUA treasury will be spent on auditing, development, rewarding contributors, and supporting new token projects by providing liquidity to LUA/new token pool. This 10% of all LUA rewards generated within the first 8 weeks are also locked based on the unlock plan.
 
 ### 11. What is [LuaSafe](luasafe.md)?
 
