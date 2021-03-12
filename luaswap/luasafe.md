@@ -42,7 +42,7 @@ As fees are collected they are converted to LUA and distributed proportionally a
 
 ### Convert function and reward distribution on LuaSafe
 
-![](../.gitbook/assets/screen-shot-2020-11-13-at-9.38.16-am.png)
+![](../.gitbook/assets/image%20%28100%29.png)
 
 “CONVERT" button on LuaSafe will trigger reward distribution for the selected pair by calling 2 functions directly to the smart contract LuaMaker, which will perform the following:
 
@@ -51,7 +51,7 @@ As fees are collected they are converted to LUA and distributed proportionally a
 
 The core team will trigger distribution every Monday, generally around noon Singapore time \(GMT+8\) or earlier if the pair's collected fee reaches a certain significant amount \(equivalent to at least 3,000 LUA after converted\). Users do not need to pay any gas fee for the distribution unless they choose to manually trigger the distribution process themselves. Anyone can trigger distribution at any time by selecting the “CONVERT" buttons. Users need to pay the gas fee for the distribution if they choose to do it themselves.
 
-![](../.gitbook/assets/screen-shot-2020-11-13-at-9.47.26-am.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 {% hint style="info" %}
 There is a flat fee of 0.5% levied for all withdrawals. Withdrawals can be done at any time.
