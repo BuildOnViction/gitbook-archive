@@ -11,8 +11,6 @@ description: >-
 
 {% page-ref page="unwrap-withdraw-your-tokens.md" %}
 
-{% page-ref page="issue-a-wrapped-erc-20-token-on-tomoissuer-and-list-it-on-tomobridge.md" %}
-
 
 
 
