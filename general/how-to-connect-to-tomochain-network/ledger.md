@@ -40,7 +40,7 @@ Using the Ledger Live application, follow these instructions:
 
 TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge between Ledger Nano S and TomoChain to make transactions to the TomoChain blockchain.
 
-* Connect MetaMask to TomoChain Mainnet by following [this guide](https://docs.tomochain.com/get-started/wallet/) to add a custom network
+* Connect MetaMask to TomoChain Mainnet by following [this guide](metamask.md) to add a custom network
 * Choose TomoChain Mainnet as the network
 
 ![](../../.gitbook/assets/image%20%2861%29.png)
