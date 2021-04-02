@@ -55,7 +55,7 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
     <tr>
       <td style="text-align:left">LUA</td>
       <td style="text-align:left">0</td>
-      <td style="text-align:left">80 LUA</td>
+      <td style="text-align:left">150 LUA</td>
       <td style="text-align:left">0.02 LUA</td>
     </tr>
     <tr>
@@ -73,7 +73,7 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
     <tr>
       <td style="text-align:left">ETH</td>
       <td style="text-align:left">0</td>
-      <td style="text-align:left">0.006 ETH</td>
+      <td style="text-align:left">0.01 ETH</td>
       <td style="text-align:left">0.000003 ETH</td>
     </tr>
     <tr>
