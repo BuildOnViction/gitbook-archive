@@ -1,8 +1,12 @@
 ---
-description: 'How to integrate TRC20 token to applications (e.g. wallets, exchanges)'
+description: >-
+  What is a TRC20 standard token & How to integrate a TRC20 token to
+  applications (e.g. wallets, exchanges)
 ---
 
 # TRC20 Specification
+
+TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the transactions' extremly low fees. **TRC20 tokens can be easily integrated into apps and get listed on centralized exchanges with minimal technical requirements.** 
 
 Smart Contract ABI: [TRC20.json](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json)
 
@@ -26,9 +30,9 @@ You can follow the steps below to interact with the smart contract by using Web3
 
 ### Init Web3 Provider
 
-At the first step, you need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
+ the first step, you will need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
 
-You can take a look to [TomoChain Networks](https://docs.tomochain.com/general/networks/) page to get the details of Testnet/Mainnet network information.
+You can take a look at the [TomoChain Networks](https://docs.tomochain.com/general/networks/) page to get the details of  Testnet/Mainnet network information.
 
 ```text
 const Web3 = require('web3')
@@ -38,9 +42,9 @@ const chainId = 88
 
 ### Unlock Wallet
 
-To create a wallet, you can refer to [Create wallet page](https://docs.tomochain.com/developers/integrations/#create-wallet)
+To create a wallet, you can refer to [Create wallet page](https://docs.tomochain.com/developers/integrations/#create-wallet).
 
-You need to unlock the wallet before interact TRC20 contract
+You need to unlock the wallet before interacting with the TRC20 contract. 
 
 **Example**
 
@@ -61,7 +65,7 @@ const trc20 = new web3.eth.Contract(trc20Abi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TRC20.json [here](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json)
+Note: you can get TRC20.json [here](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json). 
 
 ### Check Balance
 
@@ -78,7 +82,7 @@ trc20.methods.balanceOf(holder).call()
 
 ### Estimate TX Fee \(gas\)
 
-Before sending tokens, you need to estimate the fee to make sure you have enough TOMO for sending.
+Before sending tokens, you will need to make sure you have enough TOMO to cover the transaction .
 
 You need to use this method:
 
@@ -99,7 +103,7 @@ trc20.methods.transfer(to, '500000000000000000000').estimateGas({
 
 ### Transfer Token
 
-Token holder needs to call function `transfer` to send token to an address
+Token holder needs to call function `transfer` to send a token to an address. 
 
 **Example**
 
@@ -117,5 +121,5 @@ trc20.methods.transfer(to, '500000000000000000000').send({
 }).catch(e => console.log(e))
 ```
 
-You can refer to [Transfer TRC20 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc)
+You can refer to  [Transfer TRC20 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc). 
 
