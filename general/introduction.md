@@ -15,7 +15,7 @@ The backbone of TomoChain's products and overall ecosystem is the TomoChain bloc
 * **TomoX**: TomoX is a Layer-1 decentralized cryptocurrency exchange protocol to launch permissionless Decentralized Exchanges \(called Relayers\). Relayers can be launched in minutes and perform at almost 50x faster than competing DEX solutions. 
 * * **TomoRelayer:** TomoRelayer is a dashboard to register and launch a DEX by depositing 25,000 TOMO. Its admin dashboard allows operators to monitor, analyze and control digital assets on the DEX with a professional interface. 
 * **TomoZ**: TomoZ allows any token holder to transfer tokens without holding TOMO in their wallet. The transaction fees will be paid in the token the user is holding.
-* * **TomoIssuer**: TomoIssuer is a dashboard to issue a TRC21 token and apply the token to the TomoZ protocol in minutes without requiring any programming skills.
+* **TomoIssuer**: TomoIssuer is a dashboard to issue a TRC20 or TRC21 standard token without requiring any programming skills.
 * **TomoP**: TomoP is a comprehensive privacy suite delivering the fastest privacy transactions, Dapp integration, multi-chain support, and private token issuance with regulatory compliance. TomoP is designed to create safe and untraceable transactions where sender/receiver wallet addresses and transaction values are hidden. 
 
 ![](../.gitbook/assets/infographic-protocols-new-logo-01.jpg)

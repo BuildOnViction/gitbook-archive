@@ -24,15 +24,15 @@ event Transfer(address indexed from, address indexed to, uint tokens);
 event Approval(address indexed tokenOwner, address indexed spender, uint tokens);
 ```
 
-TomoChain provides RPC APIs. So you can use Web3 library to directly call the functions in the smart contract.
+TomoChain provides RPC APIs for developers to use the Web3 library to directly call functions in a rt contract.
 
 You can follow the steps below to interact with the smart contract by using Web3 library and NodeJS.
 
 ### Init Web3 Provider
 
- the first step, you will need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
+In the first step, you will need to init Web3 provider by connecting  TomoChain Fullnode RPC endpoint.
 
-You can take a look at the [TomoChain Networks](https://docs.tomochain.com/general/networks/) page to get the details of  Testnet/Mainnet network information.
+You can take a look at the [TomoChain Networks](https://docs.tomochain.com/general/networks/) page to get the details of the Testnet/Mainnet network information.
 
 ```text
 const Web3 = require('web3')
@@ -82,7 +82,7 @@ trc20.methods.balanceOf(holder).call()
 
 ### Estimate TX Fee \(gas\)
 
-Before sending tokens, you will need to make sure you have enough TOMO to cover the transaction .
+Before sending tokens, you will need to make sure you have enough TOMO to cover the transaction.
 
 You need to use this method:
 

@@ -2,7 +2,7 @@
 
 Below are the most important features of TomoIssuer that have made it a revolutionary tool:
 
-* **User-Friendly Interface:** Issue a TRC21 token in only a few steps.
+* **User-Friendly Interface:** Issue a TRC20 or TRC21  token in only a few steps.
 * **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
 * **Token Customization Options:** Customize the token supply, token name, and minimum transaction fee through TomoIssuer’s dashboard.
 
