@@ -1,79 +1,98 @@
 ---
 description: >-
-  This article will guide how to deploy a TRC-21 token on TomoChain
-  step-by-step.
+  This article will guide you on how to deploy a TRC20/TRC21 token on TomoChain
+  using TomoIssuer.
 ---
 
-# How to Deploy a TRC21 Token on TomoChain
+# How to Deploy a TRC20/TRC21 Token on TomoChain
 
-The [TomoZ](http://bit.ly/TomoZWhitePaper) protocol aims to solve a critical user adoption issue found in nearly every major smart contract platform. TRC21, empowered by TomoZ, allows token holders to pay transaction fees by the token itself without holding any TOMO in their wallet. [TomoIssuer](https://issuer.testnet.tomochain.com/) is the final piece of the big picture. TomoIssuer provides a user-friendly interface for any token issuer to issue a TRC21 token _without any coding experience required_. This article will guide how to deploy a TRC-21 token on TomoChain step-by-step.
+TomoIssuer provides a user-friendly interface for any token issuer to issue a TRC20 or TRC21 token _without any coding experience required_. 
 
 Below are the most important features of TomoIssuer that have made it a revolutionary tool:
 
-* **User-Friendly Interface**: Issue a TRC21 token in only a few steps.
+* **User-Friendly Interface**: Issue a TRC20/TRC21 token in only a few steps.
 * **No Coding Experience Required**: No prerequisite knowledge about smart contract programming is needed.
 * **Token Customization Options**: Customize the token supply, token name, and minimum transaction fee through TomoIssuer’s dashboard.
 
 **Let’s Start the Tutorial!**
 
-On the homepage there are two main options with the TomoIssuer. The first one is to create a new TRC21 token and the second one is to donate a fee for an existing TRC21 token.
+**Step 1:** 
 
-**Step 1:** Go to Token Issuance dashboard, then set the parameters. From top to bottom: Token’s Name; Token’s Symbol; Token’s Total Supply, and Token’s Decimal. A small issuance fee will be charged, make sure that the used wallet has enough TOMO.
+Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com/) and click on “Issue New Token”. 
 
-* The `symbol` of the token contract is the symbol by which the token contract should be known, for example “MYT”. It is broadly equivalent to a stock ticker, and although it has no restriction on its size it is usually 3 or 4 characters in length.
-* `decimals` refers to how divisible a token can be, from 0 \(not at all divisible\) to 18 \(pretty much continuous\) and even higher if required. Technically speaking, the `decimals` value is the number of digits that come after the decimal place when displaying token values on-screen.¹
+![](https://lh3.googleusercontent.com/ndCZhxRX0DduCHamfc5suwnVgXZQMFkSASLryG9M_C3m0XF7uHRPkjN-XqQ9HdWgMDllWsuqQPgLR1d8eiucYwxKtisx8wkoG_vkLF1eA7VdCEgMmMCrK0duv7h3u85CrpG1O_Zz)
 
-![](../../.gitbook/assets/image%20%2839%29.png)
+**‌Step 2:**
 
-**Disclaimer:** The token issuance fee is not fixed, it depend on the fee  to create smart contract. 
+Unlock your wallet by choosing one of the available methods. 
 
-**Step 2:** TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
+![](https://lh5.googleusercontent.com/5i4cEou5twtRPvc8KlIDBUnYTUnOxqkdBsIGtdO3f1BI2wxNuhKDyPcbwPJP2g1iMY1386YvY1f-WH_BkTO5YXojnaIgRR1BmKCb72KcJNwg4lT2kktO7WCZWfq9EuU0YnTctulc)
 
-![](../../.gitbook/assets/image%20%2831%29.png)
+**Step 3:** 
 
-**Note:** Any developer with some experience of developing and deploying smart contracts can refer to our reference implementation of the [TRC21 standard](https://docs.tomochain.com/wp-and-research/specs/trc21_standard/) to make customizations to the deployed token contract.
+Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type \(TRC20 or TRC21\), and whether or not it’s reissuable. 
 
-![](../../.gitbook/assets/image%20%2829%29.png)
+* The symbol of the token contract is the symbol by which the token contract should be known, for example, “MYT”. It is broadly equivalent to a stock ticker and limited to 5 characters in length.
+* Decimals refer to how divisible a token can be, from 0 \(not at all divisible\) to 18 \(pretty much continuous\) and even higher if required. Technically speaking, the decimals value is the number of digits that come after the decimal place when displaying token values on-screen.
+* Make sure to check out the differences between reissuable/ non-reissuable tokens, and TRC20/ TRC21 tokens by hovering on the information icon and clicking on the “Differences?” link.
 
-**Step 3:** A notification is received when the token is successfully issued. Click “View detail” to check the token’s summary including: number of holders, transactions, etc. Choose “Apply to pay fee by any token” for TomoZ integration.
+![](https://lh4.googleusercontent.com/RccOJoSplATEnan10naKZ0PW-qrB-L_cOiJNpQFJBhLJH9ENCkRl77eKfqKQtrVd3B6pkElCrB7iOZCMokegoibCrwmIKMXsM3WljvPgFa7n7Nzxddct4sofZUEmaetbKYOB83TH)
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+**‌**
 
-**Step 4:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed to move to the next step by clicking “I understand”
+**Disclaimer:** The token issuance fee could vary depending on how much it costs to deploy the smart contract.
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+**Step 4:** 
 
-**Step 5:** The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. TOMO held in the deposit pool is deducted to pay the Masternodes for transaction processing.
+TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
-![](../../.gitbook/assets/image%20%2848%29.png)
+![](https://lh6.googleusercontent.com/FKGeW-r5zOD0k8_OK8bXeCBE8XQTKeOknb2-IAtHbg-NGbAn9VePi64q9rnlDSVk9_22NX25WnDFQmUwPaBxFwVWozcYWbt5lvcwrxd5hENZ76gav3uCVhNCjaxx0YS5ibVoFHtX)
 
-**Step 6:** Congratulations! Now the new TRC21 token can be used. Edit the transaction fee in the token itself. Change this number at any time during the operation of the token.
+**‌**
 
-![](../../.gitbook/assets/image%20%2851%29.png)
+**Note:** Any developer with some experience  developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.tomochain.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
-**Step 7:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to check the TRC21 fee fund because transactions will not be processed if the remaining deposit is not enough to pay transaction fees.
+![](https://lh3.googleusercontent.com/qqgnCnXWddC0SItsud0_K51w0Op8SB0tN-RXMsWH-KhCn-tekT39feMYeSv7G-lAdCJZSgWlarm1VdNKOvnwgfZ10SzUba7mMvR-u8lfS0gqvSfXXP-_SMFO14OuDG2QTIz-h2cL)
 
-![](../../.gitbook/assets/image%20%2858%29.png)
+**‌THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY** 
 
-**Donate TOMO for TRC21 transaction fees**
+**Step 5:** A notification is received when the token is successfully issued. Click “View detail” to check the token’s summary including: number of holders, transactions, etc. For TRC21 tokens, choose “Apply to pay fee by token” for TomoZ integration.
 
-If the TOMO funds of the token issuer in TomoIssuer are not enough to pay for subsequent transaction fees, any token holders can deposit more TOMO to the TomoIssuer contract to continue making transactions.
+![](https://lh6.googleusercontent.com/jDsY6vWSe0Y5P9EjObPSZEDBrV_0zZGvO15LFXyHSpTx-M972hgqLZh34gpxsBj5IqS-K6WYWCotzgrkDOthY-EYMYTuIWehi26hYznpBsDm8tXjk--VJ6b_p6_-RX6wGqRB64g8)
 
-Go to donate transaction fee tab from TomoIssuer’s homepage. Enter the name of the appropriate token to donate TOMO to, then input the donation amount. Considering that the transaction fee in TomoChain is near-zero, 1 TOMO can power thousands of transactions.
+**‌**
 
-![](../../.gitbook/assets/image%20%2853%29.png)
+**Step 6:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”. 
 
-Transfer the TRC21 token to anyone just by going to “transfer token”. TomoWallet will start running in a new tab so issued tokens can be transferred easily.
+![](https://lh4.googleusercontent.com/4nRywJ0MmqAEciEaHPJQsNDRaEL6RuvbzHG2zi506cOrteVyGCEqWZAdxKAzI_W7UKkuv85fJsp8UTAb77MUwWxvIIbO7AS7RrRKoYsemosNhoYfRwYBpuaqLojyRp_vcCLoOQru)
 
-![](../../.gitbook/assets/image%20%2864%29.png)
+**‌**
 
-The details of TRC21 token transactions are displayed on TomoScan. TomoScan will show transaction fees in terms of the token and actual fee in TOMO like a normal transaction.
+**Step 7:** The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. The TOMO held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](https://lh3.googleusercontent.com/rqDRZGEd_BBjkms5iWYVB3Ys_kdrKvj_7yY70CYlOcg26YnMxpntsnJoFgIhfdvrAFoMMwxAIKGZi1DxyqbtpObIGlevNs9mP3ldM0tMpfc9CpHHbYW9E3qRYeIYWfawAtYEndiQ)
 
-**Congratulations!** You have learned about how to deploy a TRC21 token on [TomoChain](http://tomochain.com/).
+**‌**
 
-\(1\) [Understanding ERC-20 token contracts](https://medium.com/@jgm.orinoco/understanding-erc-20-token-contracts-a809a7310aa5)
+**Step 8:** Now the new TRC21 token can be used. Edit the transaction fee in the token itself. Change this number at any time during the operation period of the token.
 
-\(2\) [Video tutorial](https://www.youtube.com/watch?v=eNkUvMqHhhs) for your preference
+![](https://lh6.googleusercontent.com/QEY3QQNDmPHcx4_jLgQvRPJ7NlWfOfHd7b2hMXqCK6r5OWNvunWEUDV1XAa6TvyziJyi4vHH8kuiA3T6tCXOe2Tc32R5L5x02skRtPnqD4zikAPdRSd9QIx4xEGcBmI0YAUwzdnd)
+
+**‌**
+
+**Step 9:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
+
+![](https://lh6.googleusercontent.com/y4NeHbkMYg3okdwFArVk811aFCHeSWO-ODXFkDnIJGONZlmJtmaTEo0bPAHIj2rwz7pEsB41Dc91eqRey5ls39RaKiSxpAY_nki1B8bOBKkjjop0kP0uAphayfuTIt4Uc1KOmBtK)
+
+**‌**
+
+**DONATE TOMO FOR TRC21 TRANSACTION FEES**
+
+If there  not enough TOMO funds to pay for subsequent transaction fees, any token holders can deposit more TOMO to the TomoIssuer contract to continue making transactions.‌
+
+Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate TOMO to, then enter the donation amount. Considering that the transaction fee in TomoChain is near-zero, 1 TOMO can power thousands of transactions.
+
+![](https://lh3.googleusercontent.com/adPbuBA9dQXnxKR8uijdGDfvGi3-AOI9wrIiWm3IIK-iu_mELvtYp-ADpZBPj1zgdbo3178IwrkVq3sIB-wXkupB77Ad4mGZNu68Vo6kw2DycvzIp_OJmyLj2RibS-L8q0QAMDxu)
+
+**‌Congratulations! You have learn how to deploy a TRC20/TRC21 token on**[ **TomoChain**](http://tomochain.com/)**.**
 

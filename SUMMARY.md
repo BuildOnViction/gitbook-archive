@@ -49,7 +49,7 @@
     * [CLI Commands](developer-guide/working-with-tomochain/cli-commands.md)
     * [TomoChain Private Testnet Setup](developer-guide/working-with-tomochain/tomochain-private-testnet-setup.md)
   * [Tutorials](developer-guide/tutorials/README.md)
-    * [How to Deploy a TRC21 Token on TomoChain](developer-guide/tutorials/how-to-deploy-a-trc21-token-on-tomochain.md)
+    * [How to Deploy a TRC20/TRC21 Token on TomoChain](developer-guide/tutorials/how-to-deploy-a-trc21-token-on-tomochain.md)
     * [How to deploy an ICO smart contract on TomoChain](developer-guide/tutorials/how-to-deploy-an-ico-smart-contract-on-tomochain.md)
     * [How to deploy an NFT token](developer-guide/tutorials/how-to-deploy-a-nft-token.md)
     * [An Example of Building a Dapp on TomoChain](developer-guide/tutorials/building-your-first-game-dapp-on-tomochain.md)
