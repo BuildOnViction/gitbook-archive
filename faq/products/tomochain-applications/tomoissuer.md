@@ -80,7 +80,7 @@ Before issuing your token on TomoChain, make sure you are aware of the available
       <td style="text-align:center"><b>Native TOMO</b>
       </td>
       <td style="text-align:center">
-        <p><b>By the transaction token itself</b>
+        <p><b>By e transaction token itself</b>
         </p>
         <p><b> (no need for native TOMO)</b>
         </p>
