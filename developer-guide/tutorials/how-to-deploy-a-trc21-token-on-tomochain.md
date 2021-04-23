@@ -88,7 +88,7 @@ If there  not enough TOMO funds to pay for subsequent transaction fees, any toke
 
 Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate TOMO to, then enter the donation amount. Considering that the transaction fee in TomoChain is near-zero, 1 TOMO can power thousands of transactions.
 
-![](https://lh3.googleusercontent.com/adPbuBA9dQXnxKR8uijdGDfvGi3-AOI9wrIiWm3IIK-iu_mELvtYp-ADpZBPj1zgdbo3178IwrkVq3sIB-wXkupB77Ad4mGZNu68Vo6kw2DycvzIp_OJmyLj2RibS-L8q0QAMDxu)
+![](../../.gitbook/assets/image%20%28105%29.png)
 
 **‌Congratulations! You have learn how to deploy a TRC20/TRC21 token on**[ **TomoChain**](http://tomochain.com/)**.**
 

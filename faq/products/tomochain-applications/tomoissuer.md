@@ -133,9 +133,7 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 
 **Step 5:** A notification is received when the token is successfully issued. Click “View detail” to check the token’s summary including: number of holders, transactions, etc. For TRC21 tokens, choose “Apply to pay fee by token” for TomoZ integration.
 
-![](https://lh6.googleusercontent.com/jDsY6vWSe0Y5P9EjObPSZEDBrV_0zZGvO15LFXyHSpTx-M972hgqLZh34gpxsBj5IqS-K6WYWCotzgrkDOthY-EYMYTuIWehi26hYznpBsDm8tXjk--VJ6b_p6_-RX6wGqRB64g8)
-
-**‌**
+![](https://lh6.googleusercontent.com/s8zaJXonmRhE2DW8G2pCESXg9p5OHfYGmZYmf7iO_h9Km5ddMq2MPCq-PE1gyPlPSbqsSCHN0ES6sdL4lNanfr3RWk-L1iEivRQnmW4fOP2KEg5IV4hBgEUccX9fy5RhTLjNejbL)
 
 **Step 6:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”. 
 
@@ -145,21 +143,21 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 
 **Step 7:** The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. The TOMO held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
 
-![](https://lh3.googleusercontent.com/rqDRZGEd_BBjkms5iWYVB3Ys_kdrKvj_7yY70CYlOcg26YnMxpntsnJoFgIhfdvrAFoMMwxAIKGZi1DxyqbtpObIGlevNs9mP3ldM0tMpfc9CpHHbYW9E3qRYeIYWfawAtYEndiQ)
+![](https://lh4.googleusercontent.com/B_mVeqlbLUclk6kxaGoOf73X5OUpmV4KNXDTlUDfKZ8mh9gHMdY4Gz9XC1OyVuVl_inAH51Ph_z_2GVF7b5dIh9GJrVLW4o23SlnHTYfAVgMHlXEckwG15Wo1LgfvUihlTqlHqrJ)
 
 **‌**
 
 **Step 8:** Now the new TRC21 token can be used. Edit the transaction fee in the token itself. Change this number at any time during the operation period of the token.
 
-![](https://lh6.googleusercontent.com/QEY3QQNDmPHcx4_jLgQvRPJ7NlWfOfHd7b2hMXqCK6r5OWNvunWEUDV1XAa6TvyziJyi4vHH8kuiA3T6tCXOe2Tc32R5L5x02skRtPnqD4zikAPdRSd9QIx4xEGcBmI0YAUwzdnd)
+![](https://lh6.googleusercontent.com/DgX6LNwhUIybgabf3K9iLpd_DPYkgLrHHWlJ3RML8qPQoZa_Dvp5rvaJ8c8ZOwnEfkcyRJtlUqYB5-PuY3X0pjdJglnFZ0-j9eL2Lb1QXdJaMmm7jUh526k9oyF-_RHZUD-hG9Rd)
 
 **‌**
 
 **Step 9:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
 
-![](https://lh6.googleusercontent.com/y4NeHbkMYg3okdwFArVk811aFCHeSWO-ODXFkDnIJGONZlmJtmaTEo0bPAHIj2rwz7pEsB41Dc91eqRey5ls39RaKiSxpAY_nki1B8bOBKkjjop0kP0uAphayfuTIt4Uc1KOmBtK)
+![](https://lh3.googleusercontent.com/I2ffwVcBRRPCo43hFDXrc-9HXoXdzxQWJofCbR4R-VW342b0EChRjR3tcR3TP3tKu3s26v6MjP7NnGgJqVBvBBiEELNLj1W82UhSH6YZM6akbFLlGAoh6FAp5t77q4njg8DQyiqK)
 
-**‌**
+
 
 **DONATE TOMO FOR TRC21 TRANSACTION FEES**
 
@@ -167,7 +165,7 @@ If there are not enough TOMO funds to pay for subsequent transaction fees, any t
 
 Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter the name of the token to donate TOMO to, then enter the donation amount. Considering that the transaction fee in TomoChain is near-zero, 1 TOMO can power thousands of transactions.
 
-![](https://lh3.googleusercontent.com/adPbuBA9dQXnxKR8uijdGDfvGi3-AOI9wrIiWm3IIK-iu_mELvtYp-ADpZBPj1zgdbo3178IwrkVq3sIB-wXkupB77Ad4mGZNu68Vo6kw2DycvzIp_OJmyLj2RibS-L8q0QAMDxu)
+![](https://lh5.googleusercontent.com/PL-tz1-aPJlSOOaNlMBgj3He75quhYhHTv9DXzNAvlwlvfZ8iXD-XmznFiq7K5hFhtzqGP8GMBXcrvobrE8-MfNqtygA48BI7OnjY9DYY5v5Up1V9k0cd3QkkQfxTNG36VYWbdy3)
 
 \*\*\*\*
 
