@@ -6,15 +6,40 @@ description: >-
 
 # How to Deploy a TRC20/TRC21 Token on TomoChain
 
-TomoIssuer provides a user-friendly interface for any token issuer to issue a TRC20 or TRC21 token _without any coding experience required_. 
+### **Know Your Token Type**
+
+Before issuing your token on TomoChain, make sure you are aware of the available tokens types and the differences between them.
+
+**TRC20**
+
+To put it in simple words, TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the transaction fees which are extremely low though. TRC20 tokens can be easily integrated into dapps, and get listed on centralized exchanges with minimal technical requirements. TRC20 tokens will also be compatible with TomoP Protocol, which is a privacy protocol allowing you to send anonymous transactions. 
+
+If you want the token to be easily integrated into other dapps, or listed on multiple exchanges, then a TRC20 token is highly recommended.
+
+**TRC21**
+
+TRC21, powered by TomoZ Protocol, creates a much frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet. However, the technical requirements are higher for TRC21 tokens when it comes to dapp integration and listing.
+
+If you only aim for easy and fast user onboarding, but don’t have plans for integration into other dapps or getting listed on exchanges, then you should consider issuing a TRC21 token.  
+****
+
+|  | TRC20 | **TRC21** |
+| :--- | :--- | :--- |
+| Technical Requirements for Dapp Integration | **Low** | **Moderate** |
+| Technical Requirements for Exchange Listing | **Low** | **Moderate** |
+| TomoP Compatibility | **√** | **√** |
+| TomoX Compatibility | **×** | **√** |
+| TomoZ Compatibility | **×** | **√** |
+| Transaction Fees \(by user\) | **Set amount in TOMO**  | **Customizable amount in the transaction token** |
+| Fees \(by token issuer\) | **Issuance fee only** | **Issuance fee + deposit** |
 
 Below are the most important features of TomoIssuer that have made it a revolutionary tool:
 
-* **User-Friendly Interface**: Issue a TRC20/TRC21 token in only a few steps.
-* **No Coding Experience Required**: No prerequisite knowledge about smart contract programming is needed.
-* **Token Customization Options**: Customize the token supply, token name, and minimum transaction fee through TomoIssuer’s dashboard.
+* **User-Friendly Interface:** Issue a TRC20/TRC21 token in only a few steps.
+* **No Coding Experience Required:** No prerequisite knowledge about smart contract programming is needed.
+* **Token Customization Options:** All token features are customizable through TomoIssuer’s dashboard.
 
-**Let’s Start the Tutorial!**
+### **Let’s Start the Tutorial!**
 
 **Step 1:** 
 
