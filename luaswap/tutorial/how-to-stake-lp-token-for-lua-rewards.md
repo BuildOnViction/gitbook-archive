@@ -12,7 +12,19 @@ The LUA token will only be minted and distributed to Liquidity Providers \(LPs\)
 
 Once you have added liquidity on LuaSwap, deposit the LP tokens to the LuaSwap contract of the corresponding LuaSwap field using the interface at [https://app.luaswap.org/\#/farming](https://app.luaswap.org/#/farming). To learn how to stake your LP tokens to get LUA reward, read the following tutorial carefully.
 
-### **Step 1: Go to luaswap.org**
+### **Step 1: Have 2 tokens with the ratio 50: 50**
+
+You need to have 2 ****tokens of the pool you want to farm LUA, with the ratio 50 : 50 \(based on USDT rate\). Using [TomoBridge](https://bridge.tomochain.com/) to convert back & forth between ERC20 tokens and TRC21 ones .
+
+{% page-ref page="../../tomobridge/tutorial/trc21-wrapped-token/" %}
+
+### **Step 2: Add liquidity into the pool**
+
+Then, you need to add liquidity for your pair on [https://app.luaswap.org/\#/add](https://app.luaswap.org/#/add) by depositing both tokens into the pool and get your LP tokens.
+
+{% page-ref page="how-to-add-remove-liquidity-on-luaswap.md" %}
+
+### **Step 3: Go to luaswap.org**
 
 then click on **Farm** in the **Product** tab
 
@@ -28,7 +40,7 @@ _Note:_  _Using LuaSwap’s Ethereum version requires the Metamask network to be
 
 ![](../../.gitbook/assets/image%20%2899%29.png)
 
-### Step 2: Stake LP tokens
+### Step 4: Stake LP tokens
 
 First, choose the field you want to stake. For each of these fields, you’ll stake a different LP token. In this example, we selected the LP tokens from the TOMOE - USDT pool.
 
@@ -44,7 +56,7 @@ Click the **Stake** button.
 
 Enter the amount of LP token you want to stake into LuaSwap. You can see your current balance of liquidity pool tokens here. 
 
-### Step 3: Confirm
+### Step 5: Confirm
 
 Click **Confirm** to approve the transaction
 
