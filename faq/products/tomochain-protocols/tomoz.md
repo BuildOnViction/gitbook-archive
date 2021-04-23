@@ -14,7 +14,7 @@ description: >-
 
 ### What is TomoIssuer?
 
-[TomoIssuer](https://issuer.tomochain.com) is a smart contract that allows any user to issue a TRC21 token in minutes without any programming skills required.
+[TomoIssuer](https://issuer.tomochain.com) is a smart contract that allows any user to issue a TRC 20 or TRC21 token in minutes without any programming skills required.
 
 ### **What problem does TomoZ solve?**
 
