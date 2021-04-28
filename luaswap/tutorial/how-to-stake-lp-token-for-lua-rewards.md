@@ -1,12 +1,12 @@
 ---
-description: Staking LP tokens into LuaSwap to earn LUA rewards
+description: Stake LP tokens into LuaSwap to earn LUA rewards
 ---
 
 # How to farm LUA rewards
 
 The LUA token distribution will start at block **10,950,600** on September 28, 2020. 
 
-The LUA token will only be minted and distributed to Liquidity Providers \(LPs\) of 12 pools of the [Golden Field](https://forum.tomochain.com/t/golden-field-proposal-for-luaswaps-reward-allocation/931).
+The LUA token will only be minted and distributed to Liquidity Providers \(LPs\) of 9 pools of the [Golden Field](https://forum.tomochain.com/t/golden-field-proposal-for-luaswaps-reward-allocation/931).
 
 ## Stake LP tokens into LuaSwap
 

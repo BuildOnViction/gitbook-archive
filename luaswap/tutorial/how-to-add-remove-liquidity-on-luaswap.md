@@ -1,5 +1,5 @@
 ---
-description: Adding liquidity to get 0.35% of swapping fee.
+description: Add liquidity to get 0.35% of swapping fee.
 ---
 
 # How to add/remove liquidity on LuaSwap

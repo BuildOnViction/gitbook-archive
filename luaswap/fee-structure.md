@@ -1,3 +1,7 @@
+---
+description: Details on fee allocation on LuaSwap
+---
+
 # Fee structure
 
 ### Swapping fee 

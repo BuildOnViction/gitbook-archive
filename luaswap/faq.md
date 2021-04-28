@@ -1,3 +1,7 @@
+---
+description: A brief of LuaSwap
+---
+
 # FAQ
 
 ### 1. What is LuaSwap?
@@ -51,7 +55,7 @@ To receive the LUA reward, follow the steps below:
 
 * Add Liquidity to our Golden Field on LuaSwap to receive LUA-V1 LP token. Guide [HERE](tutorial/how-to-add-remove-liquidity-on-luaswap.md) 
 * Go to [LuaSwap.org](http://luaswap.org/) 
-* Stake your LP token into the reward contract and start receiving the LUA reward
+* Stake your LP token into the reward contract and start receiving the LUA reward. Guide [HERE](tutorial/how-to-stake-lp-token-for-lua-rewards.md)
 
 ### 9. What is the swapping fee on LuaSwap?
 

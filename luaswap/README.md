@@ -1,7 +1,7 @@
 ---
 description: >-
-  Multi-chain liquidity protocol for emerging token projects with no seed
-  investment, founder’s fees, or pre-mining.
+  Multi-chain liquidity protocol with no seed investment, founder’s fees, or
+  pre-mining.
 ---
 
 # LuaSwap
