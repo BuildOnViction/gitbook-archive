@@ -4,9 +4,9 @@
 
 TomoWallet is the official mobile wallet for TomoChain that stores the TOMO native coin and tokens issued on TomoChain. TomoWallet also allows users to vote for Masternodes and track rewards.
 
-TomoWallet is available for Android, iOS and Web.
+TomoWallet is available for iOS and Web.
 
-#### [Android Download](https://play.google.com/store/apps/details?id=com.tomochain.wallet) \| [iOS Download](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) \| [TomoWallet Web](https://wallet.tomochain.com/) <a id="android-download"></a>
+#### [iOS Download](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) \| [TomoWallet Web](https://wallet.tomochain.com/) <a id="android-download"></a>
 
 ### **What tokens/coins does TomoWallet support?**
 
@@ -20,7 +20,7 @@ Go to bar on the upper left corner &gt; "Add new wallet" button on the upper rig
 
 ### **How can I create a TOMO wallet? What are the options to creating a TOMO wallet?**
 
-You can create a TOMO wallet with the iOS app, the Android app, [TomoWallet Web](https://wallet.tomochain.com/), MyEtherWallet or Metamask. 
+You can create a TOMO wallet with the iOS app, [TomoWallet Web](https://wallet.tomochain.com/), MyEtherWallet or Metamask. 
 
 ### Create a new wallet on TomoWallet 
 
@@ -69,7 +69,7 @@ No service should ever ask you for your private key. Anyone with your private ke
 
 ### **I lost my backup, what  I do?**
 
-You can always have multiple copies of your backup, if you think you can store it safely. Any valid backup \(private key/ mnemonic\) will get you to the most current state of your wallet. We at TomoWallet, don’t have access to your wallet or your private key. We are not able to help you recover your backup if you lose your device and your backup. Please make sure you store your backup\(s\) in a safe place.
+You can always have multiple copies of your backup if you think you can store it safely. Any valid backup \(private key/ mnemonic\) will get you to the most current state of your wallet. We at TomoWallet, don’t have access to your wallet or your private key. We are not able to help you recover your backup if you lose your device and your backup. Please make sure you store your backup\(s\) in a safe place.
 
 ### **Can I access cold storage wallet in 'view-only' mode with TomoWallet?**
 
