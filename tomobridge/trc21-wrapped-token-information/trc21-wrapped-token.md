@@ -103,7 +103,7 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 ### DEC
 
 {% hint style="info" %}
-[TRC21 wrapped DEC smart contract address](https://scan.tomochain.com/tokens/0xc43a2df23dafacb9106ab239896599b705e2e67e)
+[TRC21 wrapped DEC smart contract address](https://scan.tomochain.com/address/0xfeb9ae1ccec15cd8ccd37894ef3e24ec5414e781)
 
 0xC43A2df23dAfACb9106AB239896599B705E2e67e
 {% endhint %}
