@@ -270,3 +270,11 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 0xc8c424b91d8ce0137bab4b832b7f7d154156ba6c
 {% endhint %}
 
+### LUA
+
+{% hint style="info" %}
+TRC21 wrapped LUA smart contract address
+
+0x7262fa193e9590b2e075c3c16170f3f2f32f5c74
+{% endhint %}
+
