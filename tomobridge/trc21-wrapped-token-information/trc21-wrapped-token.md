@@ -108,6 +108,8 @@ Besides the ability to trade on TomoX, wrapping these original assets into TRC21
 0xC43A2df23dAfACb9106AB239896599B705E2e67e
 {% endhint %}
 
+
+
 {% hint style="info" %}
 [DEC Locked Address](https://etherscan.io/address/0x36f4b7a8d3d9975ae4c00ad1b699cb0f6dc20939)
 
