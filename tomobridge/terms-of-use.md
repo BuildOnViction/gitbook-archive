@@ -31,9 +31,10 @@ description: >-
 * “TOMO" means the native utility token of the public blockchain platform TomoChain.
 * “TOMOE” means an ERC20 token hosted on the Ethereum public blockchain, issued by the Company and backed by an equal amount of TOMO. \(Contract address: [0x05d3606d5c81eb9b7b18530995ec9b29da05faba](https://etherscan.io/token/0x05d3606d5c81eb9b7b18530995ec9b29da05faba)\)
 * “TOMOB" means a BEP2 token hosted on the Binance Chain, issued by the Company and backed by an equal amount of TOMO.
-* “TRC21 wrapped token" means a TRC21 Token hosted on the TomoChain public blockchain, and backed by an equal amount of the underlying digital asset.
-* “Wrapping”, “Wrap" means the action to swap an amount of a native digital asset for the corresponding wrapped token on another public blockchain.
-* “Unwrapping”, “Unwrap" means the action to swap an amount of wrapped tokens on another public blockchain for the native digital assets.
+* “TRC21 wrapped token" means a TRC21 Token hosted on the TomoChain public blockchain, and backed by an equivalent amount of the underlying digital asset.
+* “TRC20 wrapped token" means a TRC20 Token hosted on the TomoChain public blockchain, and backed by an equivalent amount of the underlying digital asset.
+* “Deposit”, “Wrap" means the action to swap an amount of a native digital asset for the corresponding wrapped token on another public blockchain.
+* “Withdraw”, “Unwrap" means the action to swap an amount of wrapped tokens on another public blockchain for the native digital assets.
 * "Platform" means the cross-chain transfer module for interoperability between TomoChain public blockchain and other crypto asset chains operated by the Company which is offered from time to time on or through the Site.
 * "Site" means the Internet website bridge[.tomochain.com](http://www.dex.tomochain.com/). 
 * “Wallet” means a combination of a user’s public address and corresponding private key \(or mnemonic phrase or keystore file with password\) that holds any digital assets that are created and/or received on any public blockchains, which may be associated with corresponding transactions related to this address.
