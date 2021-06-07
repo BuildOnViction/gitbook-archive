@@ -5,7 +5,7 @@ This page only displays the official wrapped tokens issued by TomoChain Pte. Ltd
 | Asset/Action | Minimum Deposit Amount |
 | :--- | :--- |
 | ETH | 0,02 ETH |
-| BTC | 0.001 BTC |
+| WBTC | 0.0001 BTC |
 | USDT | 2 USDT |
 | YFI | 0,001 YFI |
 | FTT | 0,6 FTT |
