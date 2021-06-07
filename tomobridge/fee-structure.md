@@ -59,10 +59,10 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
       <td style="text-align:left">0.02 LUA</td>
     </tr>
     <tr>
-      <td style="text-align:left">BTC</td>
+      <td style="text-align:left">WBTC</td>
       <td style="text-align:left">0</td>
-      <td style="text-align:left">0.0004 BTC</td>
-      <td style="text-align:left">0.0000004 BTC</td>
+      <td style="text-align:left">2 TOMO</td>
+      <td style="text-align:left">0.0005 TOMO</td>
     </tr>
     <tr>
       <td style="text-align:left">USDT</td>
