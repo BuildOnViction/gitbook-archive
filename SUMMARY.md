@@ -112,7 +112,7 @@
     * [TOMOB](tomobridge/tutorial/tomob.md)
     * [TOMO/LUA Wrapped Token on Solana](tomobridge/tutorial/tomo-wrapped-token-on-solana.md)
   * [FAQ](tomobridge/faq/README.md)
-    * [TRC21 Wrapped Token](tomobridge/faq/trc21-wrapped-token.md)
+    * [TomoChain Wrapped Tokens](tomobridge/faq/trc21-wrapped-token.md)
     * [TOMOE](tomobridge/faq/tomoe.md)
     * [TOMOB](tomobridge/faq/tomob.md)
   * [Terms of Use](tomobridge/terms-of-use.md)
