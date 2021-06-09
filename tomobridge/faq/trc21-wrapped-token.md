@@ -27,9 +27,9 @@ TRC20 wrapped tokens can be traded on LuaSwap.
 TRC21 wrapped tokens can be traded on LuaSwap and all TomoX’s DEXs including TomoDEX.  
 
 
-TRC20 wrapped token vs TRC21 wrapped token
+ ****_**TRC20 wrapped token vs TRC21 wrapped token**_ 
 
-|  | **TRC20 Wrapped Token** | **TRC21 Wrapped Token** |
+| _\*\*\*\*_ | **TRC20 Wrapped Token** | **TRC21 Wrapped Token** |
 | :--- | :--- | :--- |
 | **Trade on TomoDEX** | **×** | **√** |
 | **Trade on LuaSwap** | **√** | **√** |
