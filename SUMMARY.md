@@ -96,7 +96,7 @@
     * [LuaSwap tutorials Mobile version](luaswap/tutorial/luaswap-tutorials-mobile-version.md)
 * [TomoBridge](tomobridge/README.md)
   * [Token Information](tomobridge/trc21-wrapped-token-information/README.md)
-    * [TRC21 Wrapped Token](tomobridge/trc21-wrapped-token-information/trc21-wrapped-token.md)
+    * [TomoChain Wrapped Tokens](tomobridge/trc21-wrapped-token-information/trc21-wrapped-token.md)
     * [TOMOE](tomobridge/trc21-wrapped-token-information/tomoe.md)
     * [TOMOB](tomobridge/trc21-wrapped-token-information/tomob.md)
     * [TOMO/LUA Wrapped Token on Solana](tomobridge/trc21-wrapped-token-information/tomo-lua-wrapped-token-on-solana.md)
