@@ -94,6 +94,7 @@
     * [How to farm LUA rewards](luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards.md)
     * [How to use LuaSwap Snapshot for governance voting](luaswap/tutorial/how-to-use-luaswap-snapshot-for-governance-voting.md)
     * [LuaSwap tutorials Mobile version](luaswap/tutorial/luaswap-tutorials-mobile-version.md)
+    * [How to place a limit order on LuaSwap TomoChain](luaswap/tutorial/how-to-place-a-limit-order-on-luaswap-tomochain.md)
 * [TomoBridge](tomobridge/README.md)
   * [Token Information](tomobridge/trc21-wrapped-token-information/README.md)
     * [TomoChain Wrapped Tokens](tomobridge/trc21-wrapped-token-information/trc21-wrapped-token.md)
