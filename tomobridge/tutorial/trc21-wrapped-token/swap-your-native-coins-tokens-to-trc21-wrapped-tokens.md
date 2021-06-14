@@ -1,11 +1,11 @@
 ---
 description: >-
-  We are excited to introduce the new version of TomoBridge along with the
-  launching of TomoX. This new version will help swap BTC, ETH or USDT to TRC21
-  Wrapped Tokens on your portfolio and enable tradi
+  We are excited to introduce the new version of TomoBridge. This new version
+  will help swap ERC20 tokens to TomoChain Wrapped Tokens on your portfolio and
+  enable trading on TomoDEX and LuaSwap.
 ---
 
-# Swap your native coins/tokens to TRC21 Wrapped Tokens
+# Swap Your Native Tokens to TomoChain Wrapped Tokens
 
 **Step 1: Log in to** [**https://bridge.tomochain.com**](https://bridge.tomochain.com) **and choose the coin/token that you wish to wrap/deposit**
 

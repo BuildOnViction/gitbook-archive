@@ -5,7 +5,7 @@ description: >-
   List It on TomoBridge
 ---
 
-# TRC21 Wrapped Token
+# TomoChain Wrapped Token
 
 {% page-ref page="swap-your-native-coins-tokens-to-trc21-wrapped-tokens.md" %}
 
