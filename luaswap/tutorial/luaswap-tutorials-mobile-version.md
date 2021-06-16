@@ -8,7 +8,7 @@ description: How to use LuaSwap directly from your mobilephone
 
 TomoWallet now supports LuaSwap on both TomoChain & Ethereum networks. Therefore, as long as you are on the right network, you can access your balance and use LuaSwap directly from your mobile phone. 
 
-Download the mobile compatible TomoWallet App from the[ Apple Store](https://itunes.apple.com/vn/app/tomo-wallet/id1436476145) or[ Google Play](https://play.google.com/store/apps/details?id=com.tomochain.wallet).
+Download the mobile compatible TomoWallet App from the[ Apple Store](https://itunes.apple.com/vn/app/tomo-wallet/id1436476145).
 
 _Note: Using LuaSwap’s Ethereum version requires the TomoWallet’s network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the TomoWallet’s network to be set to TomoChain. Follow_ [_this guide_](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/tomowallet) _to learn more._
 

@@ -74,13 +74,15 @@ then click on **Farm** in the **Product** tab
 
 ### Step 2: Select a pool
 
-Choose the field that you have staked your LP token, then click **UnStake**.
+Choose the field that you have staked your LP token, then click **UnStake**. 
 
 Enter the amount of LUA-V1LP token you want to withdraw from LuaSwap.
 
 ### Step 3: Confirm
 
-Click Confirm and approve that transaction on your wallet. Once it approved, you can see your LP tokens have been unstaked, then you can simply go back to LuaSwap and retrieve your tokens by removing liquidity.
+Click 'Confirm' and 'Approve' that transaction on your wallet. Once it approved, you can see your LP tokens have been unstaked, then you can simply go back to LuaSwap and retrieve your tokens by removing liquidity.
+
+{% page-ref page="how-to-add-remove-liquidity-on-luaswap.md" %}
 
 Remember to do your own research, and understand how LuaSwap works before you start providing liquidity on LuaSwap and staking your LP tokens on LuaSwap to farm LUA. If you need any help, feel free to contact us on telegram:[ https://t.me/LuaSwap](https://t.me/LuaSwap)  
 
