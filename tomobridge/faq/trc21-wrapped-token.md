@@ -17,14 +17,14 @@ Essentially, these two types of wrapped tokens are TRC20 and TRC21 standard toke
 
 **TRC20:** TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the extremely low transaction fees. 
 
-TRC20 wrapped tokens can be easily integrated into other Dapps and get listed on exchanges. More Dapps and projects on TomoChain are expected to be integrating and utilising TRC20 wrapped tokens in the future.
+TRC20 wrapped tokens can be easily integrated into other Dapps and get listed on exchanges. More Dapps and projects on TomoChain are expected to integrate and utilize TRC20 wrapped tokens in the future.
 
-TRC20 wrapped tokens can be traded on LuaSwap.   
+TRC20 wrapped tokens can be traded on LuaSwap \(TomoChain version\).   
 ****
 
 **TRC21:** TRC21, powered by TomoZ Protocol, creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet. 
 
-TRC21 wrapped tokens can be traded on LuaSwap and all TomoX’s DEXs including TomoDEX.  
+TRC21 wrapped tokens can be traded on LuaSwap \(TomoChain version\) and all TomoX’s DEXs including TomoDEX \(Though listing depends on each DEX's decision\).  
 
 
  ****_**TRC20 wrapped token vs TRC21 wrapped token**_ 
