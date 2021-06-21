@@ -2,7 +2,7 @@
 
 TomoChain wrapped tokens are hosted on the TomoChain public blockchain, and backed by an equivalent amount of the underlying assets or currencies from a different blockchain network. There are two types of TomoChain wrapped tokens including **TRC20 wrapped token** and **TRC21 wrapped token**.
 
-TomoChain wrapped tokens stay in your wallet throughout trading, and can be converted from and to the native assets at anytime via TomoBridge. So it's almost like trading native assets directly. The proof of reserve is on-chain, which shows the exact 1:1 between minted TomoChain wrapped tokens and native assets stored by TomoBridge. When TomoChain wrapped token holders redeem their TomoChain wrapped tokens for native assets, the TomoChain wrapped tokens will be burnt. The minting and burning of TomoChain wrapped tokens is trackable and verifiable via smart contract on TomoScan.
+TomoChain wrapped tokens stay in your wallet throughout trading, and can be converted from and to the native assets anytime via TomoBridge. So it's almost like trading native assets directly. The proof of reserve is on-chain, which shows the exact 1:1 between minted TomoChain wrapped tokens and native assets stored by TomoBridge. When TomoChain wrapped token holders redeem their TomoChain wrapped tokens for native assets, the TomoChain wrapped tokens will be burnt. The minting and burning of TomoChain wrapped tokens are trackable and verifiable via smart contract on TomoScan.
 
 TomoChain wrapped tokens can bring more liquidity from other blockchain networks, and allow the token holders to benefit from the fast transactions and low fees of the TomoChain blockchain. TomoChain wrapped tokens can be transferred, traded, integrated into other dapps just like the native tokens on TomoChain.  
 ****
@@ -165,14 +165,6 @@ _**TRC20 wrapped token vs TRC21 wrapped token**_
 [TRC21 wrapped LINA smart contract address ](https://scan.tomochain.com/address/0x6f1046758B3BCf667816dEEAc40E6Bd1FbdCf830)
 
 0x6f1046758B3BCf667816dEEAc40E6Bd1FbdCf830
-{% endhint %}
-
-#### LIT
-
-{% hint style="info" %}
-[TRC21 wrapped LIT smart contract address](https://scan.tomochain.com/address/0xf9787E76750c1e731054Cf4Cc97a2e3F490DB360)
-
-0xf9787E76750c1e731054Cf4Cc97a2e3F490DB360
 {% endhint %}
 
 #### APM
