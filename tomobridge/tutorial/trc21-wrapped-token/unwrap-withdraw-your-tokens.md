@@ -1,4 +1,8 @@
-# Unwrap/Withdraw Your Tokens
+---
+description: '"Unwrap" (also known as "withdraw") refers to the action'
+---
+
+# How to Unwrap a Token
 
 **Step 1: Choose the TRC21 Wrapped Token that you wish to unwrap/withdraw**
 

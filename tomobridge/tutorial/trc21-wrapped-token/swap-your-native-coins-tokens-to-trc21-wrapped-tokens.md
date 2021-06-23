@@ -1,6 +1,6 @@
 ---
 description: >-
-  "Wrap" (also known "deposit") refers to the action to mint an amount of
+  "Wrap" (also known "deposit") refers to the action of minting an amount of
   TomoChain wrapped token, by depositing an equivalent amount of the underlying
   cryptocurrency on another blockchain network.
 ---
