@@ -188,8 +188,8 @@ _**TRC20 wrapped token vs TRC21 wrapped token**_
 ## **Token Lock Address**
 
 {% hint style="info" %}
-[ERC20 token lock address](https://etherscan.io/address/0xcb4c42f6f2ee6edb3c726f6ccdd86e38181e58bf)
+[ERC20 token lock address](https://etherscan.io/address/0x6709a35b20211479849f70e19bc248481a448fa5)
 
-0xcb4c42f6f2ee6edb3c726f6ccdd86e38181e58bfWBTC
+0x6709a35B20211479849F70E19Bc248481a448FA5
 {% endhint %}
 
