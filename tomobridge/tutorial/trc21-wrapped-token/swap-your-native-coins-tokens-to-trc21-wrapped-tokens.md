@@ -11,14 +11,14 @@ Log in to[ https://bridge.tomochain.com](https://bridge.tomochain.com/) and choo
 
 Make sure to check the “**Terms of use**” and “**Privacy policy**” before proceeding to the next steps.
 
-![](https://lh3.googleusercontent.com/29AfpcJzRtQyuKGQqC9dS7aXEn5GJ_xZHPe-aT2SR-J9QaInYcYJXD0pFU2XLV___4RetALXWnmw08umu17MEcQ9i_C65cy0ZfxISyFWrNreS9GfcuiiSLx9IO5XAMahe_V4qr2n)
+![](../../../.gitbook/assets/image%20%28106%29.png)
 
 Connect your Metamask wallet and choose the conversation direction. 
 
 * Make sure your Metamask wallet is on the **Ethereum** network.
 * Choose **Etherem -&gt; TomoChain** for token wrapping/deposit.
 
-![](https://lh4.googleusercontent.com/Iyqoq8D19pme-RmznmGTCcnceKCrq255z1WEjgFzAC2nWrG-js94Mz6K8VCTi8KopMUZuzdwcDRlD4gQhUQYcF8YWif9YzD0g9oK2Q2HjVuwUhLi1fOAGIklcU6yDNInvld-cD5x)
+![](../../../.gitbook/assets/image%20%28107%29.png)
 
 * Select the asset that you want to wrap from the drop-down list. 
 * Enter the swapping amount \(click on “**Max**” if you wish to wrap it all\).
