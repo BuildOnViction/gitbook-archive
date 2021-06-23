@@ -1,45 +1,61 @@
 ---
-description: '"Unwrap" (also known as "withdraw") refers to the action'
+description: >-
+  "Unwrap" (also known as "withdraw") refers to the action of burning an amount
+  of TomoChain wrapped token, and withdrawing an equivalent amount of the native
+  token on another blockchain.
 ---
 
 # How to Unwrap a Token
 
-**Step 1: Choose the TRC21 Wrapped Token that you wish to unwrap/withdraw**
+Log in to[ https://bridge.tomochain.com](https://bridge.tomochain.com/) and choose the tokens and blockchain networks that you wish to swap.
 
-* You will need to have the corresponding TRC21 Wrapped Token in your wallet to start unwrapping that token.
+Make sure to check the “**Terms of use**” and “**Privacy policy**” before proceeding to the next steps.
 
-![](../../../.gitbook/assets/image%20%2884%29.png)
+![](https://lh6.googleusercontent.com/MgyFHdzVCXAbhYzBtmjTjL8Z_x3xvYu-K9_zWVOVNRdKaFsZMJsGT_J9SuTRFKQ3CtCKy2UeKlJXT_dJv-qn1NSB9jZHldZ1wkUsuBjgzb1Xl31t6LhTGDgMUhWhLuZiDELLFZIe)
 
-* Click “**UnWrap Now”** from the homepage. Your TRC21 Wrapped Tokens balance will be displayed.
-* Once again, by unwrapping, you’ve agreed to our [Terms and Conditions](https://docs.tomochain.com/legal/terms-of-use).
-* Please double-check the following conditions before continuing to unwrap
+Connect your Metamask wallet and choose the conversation direction. 
 
-![](../../../.gitbook/assets/image%20%2886%29.png)
+* Make sure your Metamask wallet is on the **TomoChain** network \(Follow [this guide](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask) to learn more\)
+* Choose **TomoChain -&gt; Ethereum** for token unwrapping/withdrawal.
 
-**Step 2: Fill out the wallet address that you want to receive your native coin/token**
+![](https://lh6.googleusercontent.com/meKWoGEB08fJflcLBnttNix34toO_VryERnFnUvyXfJaP7CIp8GIKdqhNd-C0BRTUuNAXrlOMPR2uXh5mwDtX50p8opC02B9J-OGplO60MwV8BNReoDKHQ97tYw8ryHiv1eUpo23)
 
-![](../../../.gitbook/assets/image%20%2880%29.png)
+* Select the asset that you want to unwrap from the drop-down list. 
+* Enter the swapping amount \(click on “**Max**” if you wish to unwrap it all\).
+* Enter the receiving address on your Ethereum network \(click on “**Address**” if your receiving address is the same as your sending address\).
+* Check the estimated transaction fee and make sure the sending address has enough ETH on the Ethereum network to cover the fee.
+* Read and check the notices carefully before you click on “Next”.
 
-**Step 3: Enter the amount of TRC21 Wrapped Token you want to unwrap**
+![](https://lh6.googleusercontent.com/a1Tj956gArBgFaxpLqNB8Ra7607ogWqdcyxgcu20JanR488IWPWdSC6XfRqQiWIg9q4mTa5oHHhHibA0g0C4wbPd2XGKVIrEf98HHL0EYMFTNhMVM1HrNrK5i8t5leq4lkHjmqHi)
 
-* TomoBridge charges a small fee to unwrap tokens. More details. \([**TomoBridge Fee**](https://docs.tomochain.com/tomobridge/fee-structure)\)
+A transaction request window will pop up on your Metamask, click on “Confirm” to sign the burn transaction on the TomoChain network. 
 
-![](../../../.gitbook/assets/image%20%2883%29.png)
+You may need to hold a small amount of TOMO to confirm the transaction request on Metamask. Though for TRC21 wrapped tokens, the fee will be paid in the token itself.
 
-* This process can take up from a few seconds to several minutes depending on the blockchain network of your coin/token.
+![](https://lh5.googleusercontent.com/ixbo77wGlu7m-RMaifRcXFxigHOl-LC4trpFukED7V5fTMK4S8QbVkrkxSoUuDblDBl9LN8b-qeCy_3EdD0JLrWLBUbSmte1NSOr3ojev5zm9fZZXqAAnOwEPSabECWpjXDwOrO3)
 
-![](../../../.gitbook/assets/image%20%2888%29.png)
+Once confirmed, TomoBridge will start verifying your transaction.
 
-* Now you can check your balance again. After TomoBridge has sent the native coin/token to your wallet, the corresponding TRC21 Wrapped Token will be burned.
+Keep the window open until the transaction is complete. 
 
-![](../../../.gitbook/assets/image%20%2882%29.png)
+![](https://lh6.googleusercontent.com/5Y3FxlU-edfRwAcCJ7GDjky504-Z0x7RKmhbfjCcidfFnJjlyVX99XXPR__-0AcWkqoWy0X1xqpEdlwDsLpCsdUeM24byqsfXsVALivOKMKNLf0k-bJS7yw1An_ePSJFv03ec7Cu)
 
-That’s it! You have gone through the whole process of wrapping/unwrapping your native coin/token to TRC21 Wrap Tokens with TomoBridge. If you have any questions, feel free to contact us via: [https://t.me/TomoX](https://t.me/TomoX)
+When the transaction is complete, switch your Metamask network from TomoChain to Ethereum. 
 
-## Detailed Tutorial Video <a id="4424"></a>
+![](https://lh5.googleusercontent.com/R6IfUmpBb9qCgpLmQ0RCwRBLa_c4JgPrAmNTBjjNsb9Ak5MG0igKPaPNh7MJBI3VqA1vo7DK1Te9mxXDZV1kwZbxipfc6o_kKBiaiGa2UUL6pvKMssTrA__-1lk-A_BhTAz4TLmM)
 
-{% embed url="https://youtu.be/LtEUlP9-Apw" %}
+Then click on “Claim \(token symbol\)” to receive your native token.
 
-If you have any questions, feel free to contact us via: [https://t.me/TomoChain](https://t.me/TomoChain) or [https://forum.tomochain.com/c/technical-discussion/9](https://forum.tomochain.com/c/technical-discussion/9) or pull a request at [https://github.com/tomochain/tokens](https://github.com/tomochain/tokens)   
+![](https://lh6.googleusercontent.com/ZnnWSvXmSru2P6RSRfzlxVSgPn7nJZ6m7meoFg--0gKDPhdqR9vUW1CpYI6D8mkNnY6X7ZIEzyJhRvIXlrW3TCVsTwtF08YivabALjkqMY2JNb8sVQKBZZ0ybdOP3DvaQLItupIq)
+
+A transaction request window will pop up again on your Metamask, click on “Confirm” to sign the token unlock transaction on the Ethereum network. You can manually adjust the gas price and limit based on your budget and requirement of speed.
+
+![](https://lh6.googleusercontent.com/Q06nC2bcrA3spTay5RLYnakucMijZvcc3lJVoNJ4EdTXbZGPj8esn2Mxx1E-DWxSnwKL7oTJB1x9pRcszUSJVWAxN7rPf29dBKFEGR9BgmMMgDy1NQ1KV6rZB9GEuJXzmaBfFHhB)
+
+Now you’ve successfully converted your TomoChain wrapped token to an Ethereum based token. You can check the transaction on Etherscan. 
+
+![](https://lh3.googleusercontent.com/ws28fUcLAQ6ZpzzjnoUgFjZw_R5q2--UexU1AmFPxB7k7HB3-SIbKS_lStTPrlO--HGQh1SLlvVucZikcrB6wMQik8-81nGlBToOG_MY28zbu8mxOVezSkiaZE57rpxhKbgnsmji)
+
+If you have any questions, feel free to contact us via our [telegram group](https://t.me/TomoChain) or [forum](https://forum.tomochain.com/c/technical-discussion/9) or submit a [support ticket](https://docs.google.com/forms/d/e/1FAIpQLSepwuF5MEwos7Gd_D1NllncV8JFKGoU92PO6ZNx4x9ri1WVbA/viewform).   
 
 
