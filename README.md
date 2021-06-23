@@ -7,6 +7,8 @@ description: >-
 
 # Getting Started
 
+
+
 ![](.gitbook/assets/email-signature-04-2.png)
 
 * **For Voters/Stakers**: Staking on TomoChain Masternodes secures the network and earns rewards. More information can be in our guide on [how to connect wallets to TomoChain](https://docs.tomochain.com/get-started/wallet) and [how to vote](https://docs.tomochain.com/get-started/voting/).

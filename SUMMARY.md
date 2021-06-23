@@ -105,7 +105,7 @@
   * [Token Deposit](tomobridge/token-deposit.md)
   * [Tutorial](tomobridge/tutorial/README.md)
     * [TomoChain Wrapped Token](tomobridge/tutorial/trc21-wrapped-token/README.md)
-      * [Swap Your Native Tokens to TomoChain Wrapped Tokens](tomobridge/tutorial/trc21-wrapped-token/swap-your-native-coins-tokens-to-trc21-wrapped-tokens.md)
+      * [How to Wrap a Token](tomobridge/tutorial/trc21-wrapped-token/swap-your-native-coins-tokens-to-trc21-wrapped-tokens.md)
       * [Unwrap/Withdraw Your Tokens](tomobridge/tutorial/trc21-wrapped-token/unwrap-withdraw-your-tokens.md)
     * [TOMOE](tomobridge/tutorial/tomoe/README.md)
       * [How to swap your native TOMO on TomoChain to/from TOMOE \(ERC20\) on Ethereum](tomobridge/tutorial/tomoe/how-to-swap-your-native-tomo-on-tomochain-to-from-tomoe-erc20-on-ethereum.md)

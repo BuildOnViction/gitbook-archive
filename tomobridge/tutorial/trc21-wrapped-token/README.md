@@ -1,8 +1,7 @@
 ---
 description: >-
-  Please follow our instructions to swap your native coins/tokens to TRC21
-  Wrapped Tokens on TomoChain and Issue a Wrapped ERC-20 Token on TomoIssuer and
-  List It on TomoBridge
+  Please follow our instructions below to swap your native coins/tokens to
+  TomoChain Wrapped Tokens
 ---
 
 # TomoChain Wrapped Token

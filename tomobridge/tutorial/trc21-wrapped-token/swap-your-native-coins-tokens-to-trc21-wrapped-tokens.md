@@ -1,60 +1,48 @@
 ---
 description: >-
-  We are excited to introduce the new version of TomoBridge. This new version
-  will help swap ERC20 tokens to TomoChain Wrapped Tokens on your portfolio and
-  enable trading on TomoDEX and LuaSwap.
+  "Wrap" (also known "deposit") refers to the action to mint an amount of
+  TomoChain wrapped token, by depositing an equivalent amount of the underlying
+  cryptocurrency on another blockchain network.
 ---
 
-# Swap Your Native Tokens to TomoChain Wrapped Tokens
+# How to Wrap a Token
 
-**Step 1: Log in to** [**https://bridge.tomochain.com**](https://bridge.tomochain.com) **and choose the coin/token that you wish to wrap/deposit**
+Log in to[ https://bridge.tomochain.com](https://bridge.tomochain.com/) and choose the tokens and blockchain networks that you wish to swap.
 
-![](../../../.gitbook/assets/image%20%2889%29.png)
+Make sure to check the “**Terms of use**” and “**Privacy policy**” before proceeding to the next steps.
 
-Options available for login include: MetaMask, TomoWallet, Ledger, Trezor, Private Key, Mnemonic and Pantograph extension. If you haven’t got a Wallet, create one [here](https://wallet.tomochain.com/#/login).
+![](https://lh3.googleusercontent.com/29AfpcJzRtQyuKGQqC9dS7aXEn5GJ_xZHPe-aT2SR-J9QaInYcYJXD0pFU2XLV___4RetALXWnmw08umu17MEcQ9i_C65cy0ZfxISyFWrNreS9GfcuiiSLx9IO5XAMahe_V4qr2n)
 
-![](../../../.gitbook/assets/image%20%2877%29.png)
+Connect your Metamask wallet and choose the conversation direction. 
 
-* Check your account address.
-* Choose the correct coin/token you would like to deposit.
-* Check our [Terms and Conditions](https://docs.tomochain.com/legal/terms-of-use).
-* Click ‘**Wrap Now”.**
+* Make sure your Metamask wallet is on the **Ethereum** network.
+* Choose **Etherem -&gt; TomoChain** for token wrapping/deposit.
 
-![](../../../.gitbook/assets/image%20%2878%29.png)
+![](https://lh4.googleusercontent.com/Iyqoq8D19pme-RmznmGTCcnceKCrq255z1WEjgFzAC2nWrG-js94Mz6K8VCTi8KopMUZuzdwcDRlD4gQhUQYcF8YWif9YzD0g9oK2Q2HjVuwUhLi1fOAGIklcU6yDNInvld-cD5x)
 
-Make sure to check all your information before begin wrapping.
+* Select the asset that you want to wrap from the drop-down list. 
+* Enter the swapping amount \(click on “**Max**” if you wish to wrap it all\).
+* Enter the receiving address on your TomoChain network \(click on “**Address**” if your receiving address is the same as your sending address\).
+* Check the estimated transaction fee and make sure your remaining ETH is enough to cover the fee.
+* Read and check the notices carefully before you click on “Next”.
 
-**Step 2: Send your coin/token to the public address below by scanning the QR code or copying the address below.**
+![](https://lh5.googleusercontent.com/1c_UQwVic9_S-gE0XZWiBoAIUVDYv45wy6QUTZ_tQS6x323agNDhpzt7-3-vCQQcAQROrenG27khOmkJutHGtRKauRkpdnSV2UchgymCTpbJddDToNgwqJUheS43vxHGE3TKu9G4)
 
-When the following tab appears, your Wrapping/Unwrapping process has successfully begun:
+A transaction request window will pop up on your Metamask, click on “Confirm” to sign the transaction. 
 
-![](../../../.gitbook/assets/image%20%2885%29.png)
+![](https://lh5.googleusercontent.com/qsafPzmsE00vvrMLtPjFmihOScxu-jbokFR19HLRDoc9L-HrEO3oHu-c1LJLi7BYNca8Zwbxdbxz-MEQQRPxAE6KgSgGq-OoUurrAAS1eaZNXy9fps5iLp_FwGGWpA4sIDBi9A-j)
 
-* Send your coin/token to the specific public address that appears on the transaction dashboard.
+Once confirmed, TomoBridge will start verifying your transaction and sending the wrapped token to your receiving address.
 
-\* _Note_: _Carefully double-check your wallet address and the token/coin you would like to deposit._
+Keep the window open until the transaction is complete. 
 
-* After your transaction is complete, Select **“Confirm Transaction”.**
+![](https://lh4.googleusercontent.com/bdQyY5slVl6IZK9skNpiOaA0G-103W7A5I5NWSt6TO41DYfKYI0Hdy9uH5urvawZtAbIFPcnkJTEMZneNP6jRNsM0XQJJvYtbYknjBFUtX0aALFYPOXUFcCRHoAeApduYX4o3EX7)
 
-_**Confirmation may take a while due to the number of confirmation blocks**_
+Now you’ve successfully converted your token to TomoChain wrapped token. You can check the transaction on TomoScan. 
 
-![](../../../.gitbook/assets/image%20%2876%29.png)
+![](https://lh4.googleusercontent.com/C_F1OeMBRfvSdSHXAvAhA4ph5ZPfe4c3FAbiPD1YLaQbCz8LqRTlGbDPeIRraHo7amdY8ZstdWkWwb9r66z2rt_Ixc3IIN17ZaYGR71j1Lt1oYfGV-45xxDC3BJ6X49Q7JrubuOV)
 
-* Once confirmed, TomoBridge will start verifying your transaction and sending TRC21 Wrapped Tokens with correlative value into your wallet address
-
-_**Your ETH/BTC/USDT transaction will be secured as long as it contains the correct wallet address and TxHash.**_
-
-![](../../../.gitbook/assets/image%20%2887%29.png)
-
-**Step 3: You can check the transition history once transaction is verified.**
-
-* You may find the transaction history button on the top right corner.
-* In this new tab, you can check your previous deposits and withdrawals. For each successful transaction, a Tx Hash documenting your transaction to TomoBridge, and information about your wrapped token will be displayed \(including the token's status, quantity & time\).
-
-![](../../../.gitbook/assets/image%20%2879%29.png)
-
-Your native coin/token has been successfully wrapped and sent to your wallet
-
-If you have any questions, feel free to contact us via: [https://t.me/TomoChain](https://t.me/TomoChain) or [https://forum.tomochain.com/c/technical-discussion/9](https://forum.tomochain.com/c/technical-discussion/9) or pull a request at [https://github.com/tomochain/tokens](https://github.com/tomochain/tokens)   
+If you have any questions, feel free to contact us via our [telegram group](https://t.me/TomoChain) or [forum](https://forum.tomochain.com/c/technical-discussion/9) or submit a [support ticket](https://docs.google.com/forms/d/e/1FAIpQLSepwuF5MEwos7Gd_D1NllncV8JFKGoU92PO6ZNx4x9ri1WVbA/viewform).   
+  
 
 
