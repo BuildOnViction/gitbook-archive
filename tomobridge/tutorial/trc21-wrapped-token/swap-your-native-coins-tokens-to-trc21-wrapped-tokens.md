@@ -13,7 +13,7 @@ Make sure to check the “**Terms of use**” and “**Privacy policy**” befor
 
 ![](../../../.gitbook/assets/image%20%28106%29.png)
 
-Connect your Metamask wallet and choose the conversation direction. 
+Connect your Metamask wallet and choose the conversion direction. 
 
 * Make sure your Metamask wallet is on the **Ethereum** network.
 * Choose **Etherem -&gt; TomoChain** for token wrapping/deposit.
