@@ -102,7 +102,6 @@
     * [TOMOB](tomobridge/trc21-wrapped-token-information/tomob.md)
     * [TOMO/LUA Wrapped Token on Solana](tomobridge/trc21-wrapped-token-information/tomo-lua-wrapped-token-on-solana.md)
   * [Fee Structure](tomobridge/fee-structure.md)
-  * [Token Deposit](tomobridge/token-deposit.md)
   * [Tutorial](tomobridge/tutorial/README.md)
     * [TomoChain Wrapped Token](tomobridge/tutorial/trc21-wrapped-token/README.md)
       * [How to Wrap a Token](tomobridge/tutorial/trc21-wrapped-token/swap-your-native-coins-tokens-to-trc21-wrapped-tokens.md)
