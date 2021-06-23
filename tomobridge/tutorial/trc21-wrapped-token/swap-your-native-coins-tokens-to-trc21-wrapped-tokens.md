@@ -18,7 +18,7 @@ Connect your Metamask wallet and choose the conversation direction.
 * Make sure your Metamask wallet is on the **Ethereum** network.
 * Choose **Etherem -&gt; TomoChain** for token wrapping/deposit.
 
-![](../../../.gitbook/assets/image%20%28107%29.png)
+![](../../../.gitbook/assets/image%20%28109%29.png)
 
 * Select the asset that you want to wrap from the drop-down list. 
 * Enter the swapping amount \(click on “**Max**” if you wish to wrap it all\).

@@ -11,14 +11,14 @@ Log in to[ https://bridge.tomochain.com](https://bridge.tomochain.com/) and choo
 
 Make sure to check the “**Terms of use**” and “**Privacy policy**” before proceeding to the next steps.
 
-![](https://lh6.googleusercontent.com/MgyFHdzVCXAbhYzBtmjTjL8Z_x3xvYu-K9_zWVOVNRdKaFsZMJsGT_J9SuTRFKQ3CtCKy2UeKlJXT_dJv-qn1NSB9jZHldZ1wkUsuBjgzb1Xl31t6LhTGDgMUhWhLuZiDELLFZIe)
+![](../../../.gitbook/assets/image%20%28107%29.png)
 
 Connect your Metamask wallet and choose the conversation direction. 
 
 * Make sure your Metamask wallet is on the **TomoChain** network \(Follow [this guide](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask) to learn more\)
 * Choose **TomoChain -&gt; Ethereum** for token unwrapping/withdrawal.
 
-![](https://lh6.googleusercontent.com/meKWoGEB08fJflcLBnttNix34toO_VryERnFnUvyXfJaP7CIp8GIKdqhNd-C0BRTUuNAXrlOMPR2uXh5mwDtX50p8opC02B9J-OGplO60MwV8BNReoDKHQ97tYw8ryHiv1eUpo23)
+![](../../../.gitbook/assets/image%20%28108%29.png)
 
 * Select the asset that you want to unwrap from the drop-down list. 
 * Enter the swapping amount \(click on “**Max**” if you wish to unwrap it all\).
