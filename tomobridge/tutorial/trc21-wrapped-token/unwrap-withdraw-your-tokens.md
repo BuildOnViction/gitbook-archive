@@ -24,7 +24,7 @@ Connect your Metamask wallet and choose the conversion direction.
 * Enter the swapping amount \(click on “**Max**” if you wish to unwrap it all\).
 * Enter the receiving address on your Ethereum network \(click on “**Address**” if your receiving address is the same as your sending address\).
 * Check the estimated transaction fee and make sure the sending address has enough ETH on the Ethereum network to cover the fee.
-* Read and check the notices carefully before you click on “Next”.
+* Read and check the attention points carefully before you click on “Next”.
 
 ![](https://lh6.googleusercontent.com/a1Tj956gArBgFaxpLqNB8Ra7607ogWqdcyxgcu20JanR488IWPWdSC6XfRqQiWIg9q4mTa5oHHhHibA0g0C4wbPd2XGKVIrEf98HHL0EYMFTNhMVM1HrNrK5i8t5leq4lkHjmqHi)
 
