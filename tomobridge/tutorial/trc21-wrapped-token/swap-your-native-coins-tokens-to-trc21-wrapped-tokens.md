@@ -24,7 +24,7 @@ Connect your Metamask wallet and choose the conversion direction.
 * Enter the swapping amount \(click on “**Max**” if you wish to wrap it all\).
 * Enter the receiving address on your TomoChain network \(click on “**Address**” if your receiving address is the same as your sending address\).
 * Check the estimated transaction fee and make sure your remaining ETH is enough to cover the fee.
-* Read and check the notices carefully before you click on “Next”.
+* Read and check the attention points carefully before you click on “Next”.
 
 ![](https://lh5.googleusercontent.com/1c_UQwVic9_S-gE0XZWiBoAIUVDYv45wy6QUTZ_tQS6x323agNDhpzt7-3-vCQQcAQROrenG27khOmkJutHGtRKauRkpdnSV2UchgymCTpbJddDToNgwqJUheS43vxHGE3TKu9G4)
 
