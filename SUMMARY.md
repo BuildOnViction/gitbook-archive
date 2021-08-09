@@ -84,6 +84,7 @@
   * [Privacy Policy](tomodex/privacy-policy.md)
   * [User Agreement for TomoDEX Lending Service](tomodex/user-agreement-for-tomodex-lending-service.md)
 * [LuaSwap](luaswap/README.md)
+  * [LuaStarter](luaswap/luastarter.md)
   * [FAQ](luaswap/faq.md)
   * [Fee structure](luaswap/fee-structure.md)
   * [LuaSafe](luaswap/luasafe.md)
