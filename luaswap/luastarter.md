@@ -10,9 +10,11 @@ description: >-
 
 LuaStarter is a multi-chain Initial DEX Offering platform on Ethereum and TomoChain based on a new Tier Guaranteed System Model. 
 
-### 2. What is the problems LuaStarter trying to solve?
+![](../.gitbook/assets/screenshot_2%20%288%29.png)
 
-In the current Defi ecosystem, there are several problems such as early investing is not available to the average retail investors, the difficulty to know if projects are trusted among the community, tokens may not be fairly distributed in the offering, scatted tokens, and liquidity provider tokens \(LP tokens\) on multiple chains are not counted together for the IDO registration. 
+### 2. What are the problems LuaStarter trying to solve?
+
+In the current DeFi ecosystem, there are several problems such as early investing is not available to the average retail investors, the difficulty to know if projects are trusted among the community, tokens may not be fairly distributed in the offering, scatted tokens, and liquidity provider tokens \(LP tokens\) on multiple chains are not counted together for the IDO registration. 
 
 Several launchpads have been trying to solve these problems by providing fixed and dynamic swap features, fairness model, para-chain crowd loan, anti-bot protection, full KYC integration. Others try to provide high allocation to retail investors \(some launchpad call it capital allocation feature\) or introduce an integrated vesting schedule. 
 
@@ -28,6 +30,8 @@ Hence, LuaStarter introduces The Tier Guaranteed System model built on SEAT mech
 
 There are fixed 3+1 tier systems based on the total number of tokens and LP-tokens equivalent, enabling all token holders the right to participate in IDO projects. Tokens are allocated to each tier group based on fixed pool weight. 
 
+![](../.gitbook/assets/screenshot_3%20%285%29.png)
+
 ### 5. How to launch project on LuaStarter?
 
 LuaStarter aims for projects which comprehensively demonstrate novel utility on Ethereum and Tomochain ecosystem, then expanding to other chains’ ecosystem such as Polkadot, Binance Smart Chain, Polygon, etc…
@@ -39,6 +43,10 @@ The project must undergo an intense process including:
 * Kick-off call
 * Due diligence check
 * Final security check
+
+## [LuaStarter's whitepaper](https://drive.google.com/file/d/1FKtl3GhXD8XMh5N_gVtVRfXmdm5km7ap/view) \(updated 14 Sep, 2021\)
+
+
 
 
 
