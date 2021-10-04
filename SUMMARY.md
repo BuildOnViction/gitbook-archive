@@ -86,6 +86,7 @@
 * [LuaSwap](luaswap/README.md)
   * [LuaStarter](luaswap/luastarter.md)
   * [Terms of Use](luaswap/terms-of-use.md)
+  * [Privacy Policy](luaswap/privacy-policy.md)
   * [FAQ](luaswap/faq.md)
   * [Fee structure](luaswap/fee-structure.md)
   * [LuaSafe](luaswap/luasafe.md)
