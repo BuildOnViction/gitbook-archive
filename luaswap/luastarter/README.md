@@ -12,7 +12,7 @@ description: >-
 
 LuaStarter is a multi-chain Initial DEX Offering platform on Ethereum and TomoChain based on a new Tier Guaranteed System Model. 
 
-![](../.gitbook/assets/screenshot_2%20%288%29.png)
+![](../../.gitbook/assets/screenshot_2%20%288%29.png)
 
 ### 2. What are the problems LuaStarter trying to solve?
 
@@ -32,7 +32,7 @@ Hence, LuaStarter introduces The Tier Guaranteed System model built on SEAT mech
 
 There are fixed 3+1 tier systems based on the total number of tokens and LP-tokens equivalent, enabling all token holders the right to participate in IDO projects. Tokens are allocated to each tier group based on fixed pool weight. 
 
-![](../.gitbook/assets/screenshot_3%20%285%29.png)
+![](../../.gitbook/assets/screenshot_3%20%285%29.png)
 
 ### 5. How to launch project on LuaStarter?
 
