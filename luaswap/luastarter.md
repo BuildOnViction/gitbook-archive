@@ -52,11 +52,11 @@ The project must undergo an intense process including:
 
 ### **Terms of Use**
 
-_This Terms of Use is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E; TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099\)_
+_This Terms of Use is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\)_ 
 
 #### **1. Introduction**
 
-1.1. This Terms of Use is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E; TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(referred to herein as “the Company”, “we”, “us” or “our”\).
+1.1. This Terms of Use is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(referred to herein as “the Company”, “we”, “us” or “our”\).
 
 1.2. By using any of the Services, you understand and agree that the Site \(defined below\) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform on Ethereum and TomoChain public blockchain. 
 
@@ -308,8 +308,10 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 19.1. In the event that you have a complaint, the Company will make every effort to rectify the problem as soon as practicably possible.
 
-19.2. Please write to us to make clear the details surrounding your complaint. You can send your complaint by e-mail to admin@tomochain.com.  
-****
+19.2. Please write to us to make clear the details surrounding your complaint. You can send your complaint by e-mail to admin@tomochain.com.
+
+Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099  
+
 
 #### **20. Changes to Terms of Use**
 
