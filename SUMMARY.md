@@ -86,6 +86,7 @@
 * [LuaSwap](luaswap/README.md)
   * [LuaStarter](luaswap/luastarter/README.md)
     * [Tier requirements & allocation](luaswap/luastarter/tier-requirements-and-allocation.md)
+    * [Legal Information & Notices](luaswap/luastarter/legal-information-and-notices.md)
   * [FAQ](luaswap/faq.md)
   * [Fee structure](luaswap/fee-structure.md)
   * [LuaSafe](luaswap/luasafe.md)
