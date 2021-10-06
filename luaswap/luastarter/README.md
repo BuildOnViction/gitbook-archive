@@ -6,8 +6,6 @@ description: >-
 
 # LuaStarter
 
-## General introduction
-
 ### 1. What is LuaStarter?
 
 LuaStarter is a multi-chain Initial DEX Offering platform on Ethereum and TomoChain based on a new Tier Guaranteed System Model. 
