@@ -2,6 +2,8 @@
 
 The token allocation for IDO projects on LuaStarter is powered by the Tier Guaranteed System \(TGS\), which consists of 4+1 tier levels based on the total number of LUA tokens staked, enabling everyone an equal right to participate in the IDO projects. The IDO token supply will be allocated to each tier depending on the amount of base token input and pool weight of each tier member.
 
+![LuaStarter&apos;s Tier requirements &amp; allocation](../../.gitbook/assets/banner-allocation-05.jpg)
+
 ## **Tier Requirements**
 
 Users are required to stake their LUA tokens in the designated protocols \(see table below\) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token. 
