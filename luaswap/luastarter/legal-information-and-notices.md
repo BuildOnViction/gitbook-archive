@@ -2,13 +2,13 @@
 
 ## Terms of use 
 
-_This Terms of Use is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\)_ 
+_This Terms of Use is a legal agreement between you (referred to herein as "the User" or "your") and TomoChain Lab Pte. Ltd. (UEN: 201716924E) _
 
 ### **1. Introduction**
 
-1.1. This Terms of Use is a legal agreement between you \(referred to herein as "the User" or "your"\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(referred to herein as “the Company”, “we”, “us” or “our”\).
+1.1. This Terms of Use is a legal agreement between you (referred to herein as "the User" or "your") and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (referred to herein as “the Company”, “we”, “us” or “our”).
 
-1.2. By using any of the Services, you understand and agree that the Site \(defined below\) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform on Ethereum and TomoChain public blockchain. 
+1.2. By using any of the Services, you understand and agree that the Site (defined below) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform on Ethereum and TomoChain public blockchain. 
 
 1.3. By using any of the Services, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data. For avoidance of doubt, any and all terms, conditions, licenses, limitations, and obligations contained within and on the Site are incorporated into these Terms of Use by reference. In the event of any inconsistency between these Terms of Use and any other pages or policies on the Site, these Terms of Use shall prevail.
 
@@ -20,7 +20,7 @@ _This Terms of Use is a legal agreement between you \(referred to herein as "the
 
 1.7. For the convenience of the Users, all content on this Site may be available in multiple languages. In case of any conflict between different language versions of such content or any omission in any language version, the English version of such content shall prevail.
 
-1.8. Where the Company has published a document that is referred to within these Terms \(such as a policy document\), that document shall also form part of these Terms and shall be deemed to have been agreed to by you. In the event of any conflict between these Terms and a document referenced within them, these Terms shall prevail.  
+1.8. Where the Company has published a document that is referred to within these Terms (such as a policy document), that document shall also form part of these Terms and shall be deemed to have been agreed to by you. In the event of any conflict between these Terms and a document referenced within them, these Terms shall prevail.\
 
 
 ### **2. Definition and Interpretation**
@@ -31,19 +31,19 @@ _This Terms of Use is a legal agreement between you \(referred to herein as "the
 * “IDO” means Initial DEX Offerings or Initial Decentralized Exchange Offerings.
 * “LuaStarter” means a multi-chain IDO platform on Ethereum and TomoChain based on a new Tier Guaranteed System Model.
 * "Services" means any of the services, functions, or features offered from time to time on or through the Site, which include the accessibility to the new IDO token offered from each IDO fundraising project, staking service and other relevant services available through Site, which may be subject to periodic revision.
-* "Site" means the Internet website [https://starter.luaswap.org/](https://starter.luaswap.org/).
+* "Site" means the Internet website [https://starter.luaswap.org/](https://starter.luaswap.org).
 * “TomoChain” means the TomoChain public blockchain secured by the Masternode Infrastructure.
-* “Wallet\(s\)” means a combination of a user’s public address and corresponding private key \(or mnemonic phrase or keystore file with password\) that holds any Digital Assets, which may be associated with corresponding transactions related to this address.
+* “Wallet(s)” means a combination of a user’s public address and corresponding private key (or mnemonic phrase or keystore file with password) that holds any Digital Assets, which may be associated with corresponding transactions related to this address.
 
 2.2. In these Terms of Use, the following rules of interpretation shall apply:
 
-\(a\) clause and paragraph headings shall not affect the interpretation of these Terms;
+(a) clause and paragraph headings shall not affect the interpretation of these Terms;
 
-\(b\) a reference to a person shall include a reference to an individual, firm, company, corporation, partnership, unincorporated body of persons, government, state or agency of a state or any association, trust, joint venture or consortium \(whether or not having separate legal personality\) and that person’s personal representatives, successors, permitted assigns and permitted transferees;
+(b) a reference to a person shall include a reference to an individual, firm, company, corporation, partnership, unincorporated body of persons, government, state or agency of a state or any association, trust, joint venture or consortium (whether or not having separate legal personality) and that person’s personal representatives, successors, permitted assigns and permitted transferees;
 
-\(c\) unless the context otherwise requires, words in the singular shall include the plural and in the plural shall include the singular; and
+(c) unless the context otherwise requires, words in the singular shall include the plural and in the plural shall include the singular; and
 
-\(d\) unless the context otherwise requires, a reference to one gender shall include a reference to the other genders.  
+(d) unless the context otherwise requires, a reference to one gender shall include a reference to the other genders.\
 ****
 
 ### **3. User Representations & Warranties**
@@ -52,27 +52,27 @@ _This Terms of Use is a legal agreement between you \(referred to herein as "the
 
 3.2. Representations and warranties are statements and promises made by you to the Company upon which we rely as being accurate in our dealings with you. By using our Services, you represent and warrant to the Company that you meet all eligibility requirements that we outline in these Terms. We may still refuse to let certain people access or use our Services, however, and we reserve the right to change our eligibility criteria at any time. You make the following representations and warranties to us at the time of entering into these Terms and every time you use our Services:
 
-\(a\) you are at least eighteen \(18\) years old and be able to form legally binding contracts. Persons under the age of 18 are not permitted to use the Site;
+(a) you are at least eighteen (18) years old and be able to form legally binding contracts. Persons under the age of 18 are not permitted to use the Site;
 
-\(b\) you are of sound mind and have the capacity to enter into these Terms;
+(b) you are of sound mind and have the capacity to enter into these Terms;
 
-\(c\) all personal information that you provide about yourself is accurate and true to the best of your knowledge;
+(c) all personal information that you provide about yourself is accurate and true to the best of your knowledge;
 
-\(d\) you have carefully considered the risks involved with using the Site the Services including but not limited to the possibility of losing all the digital assets you have;
+(d) you have carefully considered the risks involved with using the Site the Services including but not limited to the possibility of losing all the digital assets you have;
 
-\(e\) you will only ever use your legally own digital assets unless you are authorized on behalf of a third party \(“Third Party“\) and we agree that you may act on behalf of that Third Party. The tokens maintained in your Wallets are not and will not be derived from money laundering, terrorist financing, fraud or any other illegal activities under any applicable laws. You further hereby agree and acknowledge that the Company will not be responsible for actions taken by you that result in the loss or destruction of the value of the tokens and rewards you hold in the Wallet.
+(e) you will only ever use your legally own digital assets unless you are authorized on behalf of a third party (“Third Party“) and we agree that you may act on behalf of that Third Party. The tokens maintained in your Wallets are not and will not be derived from money laundering, terrorist financing, fraud or any other illegal activities under any applicable laws. You further hereby agree and acknowledge that the Company will not be responsible for actions taken by you that result in the loss or destruction of the value of the tokens and rewards you hold in the Wallet.
 
-\(f\) if you are registering or accepting these Terms on behalf of a legal entity such as a company, trust or partnership, you further represent and warrant that: \(a\) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and \(b\) you are duly authorized by such legal entity to act on its behalf;
+(f) if you are registering or accepting these Terms on behalf of a legal entity such as a company, trust or partnership, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf;
 
-\(g\) you are not breaking any laws or regulations that are applicable to you or any company, trust or partnership upon whose instructions you are acting;
+(g) you are not breaking any laws or regulations that are applicable to you or any company, trust or partnership upon whose instructions you are acting;
 
-\(h\) you will not use the Site or any Services in order to disguise the proceeds of, or to further, any breach of applicable laws or regulations, or to deal in any contraband digital assets or proceeds;
+(h) you will not use the Site or any Services in order to disguise the proceeds of, or to further, any breach of applicable laws or regulations, or to deal in any contraband digital assets or proceeds;
 
-\(i\) any trading or other instructions received or undertaken through your signature credentials are deemed to be valid, binding, and conclusive, and that the Company may act upon those instructions without any liability or responsibility attaching to it; 
+(i) any trading or other instructions received or undertaken through your signature credentials are deemed to be valid, binding, and conclusive, and that the Company may act upon those instructions without any liability or responsibility attaching to it; 
 
-\(j\) your use of the Services does not violate any laws or regulations applicable in your country of residence; and
+(j) your use of the Services does not violate any laws or regulations applicable in your country of residence; and
 
-\(k\) you acknowledge and agree that if you lose access to the Wallet that you connected with LuaStarter, the Company will not be able to help you recover the loss, or transfer of IDO tokens back to your Wallet. It will be your sole responsibility to manage your account, and the private key. 
+(k) you acknowledge and agree that if you lose access to the Wallet that you connected with LuaStarter, the Company will not be able to help you recover the loss, or transfer of IDO tokens back to your Wallet. It will be your sole responsibility to manage your account, and the private key. 
 
 3.3. Each of the User’s Representation & Warranties under this Clause 3 shall survive and continue to remain in full force and effect after the termination and/or the expiration of these Terms.  
 
@@ -82,11 +82,11 @@ The users of our Services are solely responsible to determine what, if any, taxe
 
 ### **5. Intellectual Property Rights**
 
-5.1. Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site \(collectively, the “Content”\) and the trademarks, service marks, and logos contained therein \(collectively, the “Marks”\) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of Singapore, foreign jurisdictions, and international conventions.
+5.1. Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, photographs, and graphics on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (collectively, the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of Singapore, foreign jurisdictions, and international conventions.
 
 5.2. The Content and the Marks are provided on the Site “AS IS” for your information and personal use only. Except as expressly provided in these Terms and Conditions, no part of the Site and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
 
-5.3. Provided that you are eligible to use the Site, you are granted a limited license to access and use the Site and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use. We reserve all rights not expressly granted to you in and to the Site, the Content and the Marks.   
+5.3. Provided that you are eligible to use the Site, you are granted a limited license to access and use the Site and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use. We reserve all rights not expressly granted to you in and to the Site, the Content and the Marks. \
 ****
 
 ### **6. Prohibited Activities**
@@ -102,7 +102,7 @@ The users of our Services are solely responsible to determine what, if any, taxe
 
 ### **7. Third-Party Websites & Content**
 
-7.1. The Site may contain \(or you may be sent via the Site\) links to other websites \("Third-Party Websites"\) as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties \("Third-Party Content"\).
+7.1. The Site may contain (or you may be sent via the Site) links to other websites ("Third-Party Websites") as well as articles, photographs, text, graphics, pictures, designs, music, sound, video, information, applications, software, and other content or items belonging to or originating from third parties ("Third-Party Content").
 
 7.2. Such Third-Party Websites and Third-Party Content are not investigated, monitored, or checked for accuracy, appropriateness, or completeness by us, and we are not responsible for any Third-Party Websites accessed through the Site or any Third-Party Content posted on, available through, or installed from the Site, including the content, accuracy, offensiveness, opinions, reliability, privacy practices, or other policies of or contained in the Third-Party Websites or the Third-Party Content.
 
@@ -110,12 +110,12 @@ The users of our Services are solely responsible to determine what, if any, taxe
 
 7.4. You should review the applicable terms and policies, including privacy and data gathering practices, of any website to which you navigate from the Site or relating to any applications you use or install from the Site. Any purchases you make through Third-Party Websites will be through other websites and from other companies, and we take no responsibility whatsoever in relation to such purchases which are exclusively between you and the applicable third party.
 
-7.5. You agree and acknowledge that we do not endorse the products or services offered on Third-Party Websites and you shall hold us harmless from any harm caused by your purchase of such products or services. Additionally, you shall hold us harmless from any losses sustained by you or harm caused to you relating to or resulting in any way from any Third-Party Content or any contact with Third-Party Websites.  
+7.5. You agree and acknowledge that we do not endorse the products or services offered on Third-Party Websites and you shall hold us harmless from any harm caused by your purchase of such products or services. Additionally, you shall hold us harmless from any losses sustained by you or harm caused to you relating to or resulting in any way from any Third-Party Content or any contact with Third-Party Websites.\
 
 
 ### **8. Term & Termination**
 
-These Terms and Conditions shall remain in full force and effect while you use the Site. Without limiting any other provision of these terms and conditions, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site \(including blocking certain IP addresses\), to any user for any or no reason, including without limitation for breach of any representation, warranty, or covenant contained in these terms and conditions or of any applicable law or regulation. We may terminate your use or participation in the Site or delete any content or information that you posted at any time, without warning, in our sole discretion. In addition, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.   
+These Terms and Conditions shall remain in full force and effect while you use the Site. Without limiting any other provision of these terms and conditions, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site (including blocking certain IP addresses), to any user for any or no reason, including without limitation for breach of any representation, warranty, or covenant contained in these terms and conditions or of any applicable law or regulation. We may terminate your use or participation in the Site or delete any content or information that you posted at any time, without warning, in our sole discretion. In addition, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress. \
 ****
 
 ### **9. Modifications & Interruptions**
@@ -128,17 +128,17 @@ These Terms and Conditions shall remain in full force and effect while you use t
 
 9.4. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Site at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site during any downtime or discontinuance of the Site.
 
-9.5 Nothing in these Terms and Conditions will be construed to obligate us to maintain and support the Site or to supply any corrections, updates, or releases in connection therewith.  
+9.5 Nothing in these Terms and Conditions will be construed to obligate us to maintain and support the Site or to supply any corrections, updates, or releases in connection therewith.\
 ****
 
 ### **10. Corrections**
 
-There may be information on the Site that contains typographical errors, inaccuracies, or omissions that may relate to the Site, including descriptions, pricing, availability, and various other information. The Company does not warrant that any of the materials on its Services are accurate, complete or current. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice. However the Company does not make any commitment to update the materials.   
+There may be information on the Site that contains typographical errors, inaccuracies, or omissions that may relate to the Site, including descriptions, pricing, availability, and various other information. The Company does not warrant that any of the materials on its Services are accurate, complete or current. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice. However the Company does not make any commitment to update the materials. \
 ****
 
 ### **11. Disclaimer**
 
-THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY \(1\) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, \(2\) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SITE, \(3\) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, \(4\) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, \(5\) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY, AND/OR \(6\) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.
+THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE OF THE SITE AND OUR SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE SITE AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE SITE, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.
 
 ### **12. Risk Disclosure**
 
@@ -146,9 +146,9 @@ THE SITE IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT YOUR USE
 
 * Wallet address, private key, and backup capabilities
 
-You are solely responsible for maintaining the security of your private key and any mnemonic \(backup\) phrase associated with your wallet. You must keep your wallet address, mnemonic \(backup\) phrase, and private key access information secure. Failure to do so may result in the loss of control of digital assets associated with the wallet. You are to be fully responsible for safeguarding access to, and any information provided through, the Site and the Platform including, but not limited to, private keys, public keys, key seeds and address details.
+You are solely responsible for maintaining the security of your private key and any mnemonic (backup) phrase associated with your wallet. You must keep your wallet address, mnemonic (backup) phrase, and private key access information secure. Failure to do so may result in the loss of control of digital assets associated with the wallet. You are to be fully responsible for safeguarding access to, and any information provided through, the Site and the Platform including, but not limited to, private keys, public keys, key seeds and address details.
 
-Your wallet is not accessible by the Company, and the Company does not receive or store your wallet password, encrypted private key, unencrypted private key, or mnemonic \(backup\) phrase associated with your wallet. We cannot, therefore, assist you with wallet password retrieval. If you have not safely stored a backup of any wallet address and private key pairs maintained in your wallet, you accept and acknowledge that any digital assets you have associated with such a wallet address will become inaccessible if you do not have your wallet password.
+Your wallet is not accessible by the Company, and the Company does not receive or store your wallet password, encrypted private key, unencrypted private key, or mnemonic (backup) phrase associated with your wallet. We cannot, therefore, assist you with wallet password retrieval. If you have not safely stored a backup of any wallet address and private key pairs maintained in your wallet, you accept and acknowledge that any digital assets you have associated with such a wallet address will become inaccessible if you do not have your wallet password.
 
 * Digital asset transactions
 
@@ -158,7 +158,7 @@ Once transaction details have been submitted via the Platform, we cannot assist 
 
 * Software protocols and operational challenges
 
-The software protocols that underlie digital assets are typically open-source projects, which means that \(i\) the development and control of such digital assets are outside of the Company’s control and \(ii\) such software protocols are subject to sudden and dramatic changes that might have a significant impact on the availability, usability or value of a given digital asset.
+The software protocols that underlie digital assets are typically open-source projects, which means that (i) the development and control of such digital assets are outside of the Company’s control and (ii) such software protocols are subject to sudden and dramatic changes that might have a significant impact on the availability, usability or value of a given digital asset.
 
 You are aware of and accept the risk of operational challenges. The Company may experience sophisticated cyber attacks, unexpected surges in activity, or other operational or technical difficulties that may cause interruptions to the Platform and the Site. You understand that the Platform and the Site may experience operational issues that lead to delays. You agree to accept the risk of transaction failure resulting from unanticipated or heightened technical difficulties, including those resulting from sophisticated attacks. You agree not to hold the Company accountable for any related losses.
 
@@ -175,7 +175,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 * Failures, disruptions, errors, or delays in processing digital assets that you may experience while using the Platform;
 * The risk of failure of hardware, software, and Internet connections;
 * The risk of malicious software being introduced or found in the software underlying our Platform;
-* The risk that third parties may obtain unauthorized access to information stored within your wallet, including, but not limited to your wallet address, private key, and mnemonic \(backup\) phrase;
+* The risk that third parties may obtain unauthorized access to information stored within your wallet, including, but not limited to your wallet address, private key, and mnemonic (backup) phrase;
 * Disasters may damage the digital asset systems resulting in loss of digital assets held by users.
 * Mistakes made by the user of any digital asset-related software or service, e.g., forgotten passwords, and digital assets sent to wrong addresses.
 * Software problems of any digital asset-related software or service, e.g., corrupted wallet file, incorrectly constructed transactions, unsafe cryptographic libraries, malware affecting the wallet and/or any digital asset-related software or service.
@@ -189,7 +189,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 13.1. NOTWITHSTANDING ANY PROVISIONS WITHIN THESE TERMS, IN NO EVENT WILL THE COMPANY, ITS PARTNERS, ITS AFFILIATE, OR ITS EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE TO THE USER FOR ANY INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, INDIRECT, OR CONSEQUENTIAL DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE, THE SITE, ANY WEBSITES LINKED TO IT, ANY CONTENT ON THE SITE OR OTHER SUCH WEBSITES, OR ANY OTHER SERVICES OR ITEMS OBTAINED THROUGH THE SITE, OR OTHER SUCH WEBSITES, INCLUDING, BUT NOT LIMITED TO, LOST REVENUE, LOST PROFITS, LOSS OF BUSINESS OR ANTICIPATED SAVINGS, LOSS OF USE, LOSS OF GOODWILL, LOSS OF DATA, LOSS OF YOUR CREDENTIAL INFORMATION, LOSS OR INTERRUPTION OF TECHNOLOGY, LOSS OF USE OF SERVICE OR EQUIPMENT, EVEN IF THE USER WAS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, AND WHETHER ARISING UNDER A THEORY OF CONTRACT, TORT, STRICT LIABILITY OR OTHERWISE. THE COMPANY WILL ALSO HAVE NO LIABILITY FOR ANY EMERGENCY AND/OR UNFORESEEABLE INCIDENTS RELATED TO YOUR USE OF THE SERVICES ON THE LUASTATER PLATFORM SUCH AS STOLEN PRIVATE KEY, OR HACKED ACCOUNTS.
 
-13.2. Except as expressly provided in these Terms, and to the maximum extent permitted by any applicable laws, we disclaim all other representations or warranties, express or implied, made to you, your affiliates, or any other person, including, without limitation, any warranties regarding the quality, suitability, merchantability, fitness for a particular purpose or otherwise \(regardless of any course of dealing, custom or usage of trade\) of any service provided incidental to the Services under these Terms.
+13.2. Except as expressly provided in these Terms, and to the maximum extent permitted by any applicable laws, we disclaim all other representations or warranties, express or implied, made to you, your affiliates, or any other person, including, without limitation, any warranties regarding the quality, suitability, merchantability, fitness for a particular purpose or otherwise (regardless of any course of dealing, custom or usage of trade) of any service provided incidental to the Services under these Terms.
 
 13.3. Except as expressly provided in these Terms, and to the fullest extent permitted by any applicable laws, the Company, its Affiliate, and its related parties each disclaim all liability to you for any loss or damage arising out of or due to:
 
@@ -200,7 +200,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 ### **14. Indemnification**
 
-14.1 You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including, without limitation, attorneys’ fees or the costs of any claim or suit\), made by any third party due to or arising out of:
+14.1 You agree to defend, indemnify, and hold us harmless, including our subsidiaries, affiliates, and all of our respective officers, agents, partners, and employees, from and against any loss, damage, liability, claim, or demand, including, without limitation, attorneys’ fees or the costs of any claim or suit), made by any third party due to or arising out of:
 
 * use of the Site and the Services;
 * breach of these Terms of Use;
@@ -208,17 +208,17 @@ You understand and agree that the Company has no control over, and no duty to ta
 * any overt harmful act toward any other user of the Site with whom you connected via the Site.
 * the real or perceived value of any digital assets, or the price of any digital asset displayed on the Site at any time; 
 * any inaccurate, misleading, or incomplete statement by the Company or on the Site regarding your wallets, whether caused by the Company’s negligence or otherwise;
-* any failure, delay, malfunction, interruption, or decision \(including any decision by the Company to vary or interfere with your rights\) by the Company in operating the Site or providing any Service;
+* any failure, delay, malfunction, interruption, or decision (including any decision by the Company to vary or interfere with your rights) by the Company in operating the Site or providing any Service;
 * any stolen, lost, or unauthorized use of your wallet information any breach of security or data breach related to your wallet information, or any criminal or other third party act affecting the Company.
 
-14.2. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.    
+14.2. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.  \
 ****
 
 ### **15. Force Majeure Event**
 
 15.1. For the purposes of this clause, “Force Majeure Event” shall mean any circumstance outside the Company’s control including but not limited to any interruptions or failures relating to internet service providers, internet signal, connections, electricity providers, configurations of any user’s computers, any acts of god, flood, drought, earthquake or other natural disaster, any collapse of buildings, fire, explosion or accident, any acts of terrorism, civil war or commotion, riots or any law or any action taken by a government or public authority, including, without limitation, the failure to grant a necessary licence or consent.
 
-15.2. The Company shall not be in breach of these Terms nor liable for delay in performing or failure to perform any of its obligations under these Terms if such delay or failure results from a Force Majeure Event.  
+15.2. The Company shall not be in breach of these Terms nor liable for delay in performing or failure to perform any of its obligations under these Terms if such delay or failure results from a Force Majeure Event.\
 
 
 ### **16. Electronic Communications, Transactions, & Signatures**
@@ -227,16 +227,16 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 16.2. YOU HEREBY AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE SITE.
 
-16.3. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.  
+16.3. You hereby waive any rights or requirements under any statutes, regulations, rules, ordinances, or other laws in any jurisdiction which require an original signature or delivery or retention of non-electronic records, or to payments or the granting of credits by any means other than electronic means.\
 
 
 ### **17. Term and Termination**
 
-17.1. Except as otherwise terminated in accordance with the provisions below, these Terms of Use shall commence on the date you access the Site and shall remain valid and binding for as long as you have outstanding trades or orders. Without limiting any other provision of these Terms of Use, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site \(including blocking certain IP addresses\), to any user for any or no reason, including without limitation for breach of any representation, warranty, or covenant contained in these Terms of Use or of any applicable law or regulation. We may terminate your use or participation in the Site or delete any content or information that you posted at any time, without warning, in our sole discretion. In addition, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
+17.1. Except as otherwise terminated in accordance with the provisions below, these Terms of Use shall commence on the date you access the Site and shall remain valid and binding for as long as you have outstanding trades or orders. Without limiting any other provision of these Terms of Use, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site (including blocking certain IP addresses), to any user for any or no reason, including without limitation for breach of any representation, warranty, or covenant contained in these Terms of Use or of any applicable law or regulation. We may terminate your use or participation in the Site or delete any content or information that you posted at any time, without warning, in our sole discretion. In addition, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress.
 
 17.2. These Terms may be superseded by any amended Terms in accordance with clause 20.1.
 
-17.3. These Terms may be terminated or amended by the Company at any time without notice.  
+17.3. These Terms may be terminated or amended by the Company at any time without notice.\
 ****
 
 ### **18. Miscellaneous**
@@ -251,7 +251,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 18.5. The Company may record all telephone calls and other communications for the purposes of security and training.
 
-18.6. You understand that the Services and Site will endeavor to be open 24/7. However, the Company offices and communications channels will be open on business days only. You further acknowledge that the Company will make reasonable efforts to ensure that the Services and Site are available continuously however that there may be instances where access to the Platform and Site are restricted as a result of scheduled maintenance, technology failure or network failure.  
+18.6. You understand that the Services and Site will endeavor to be open 24/7. However, the Company offices and communications channels will be open on business days only. You further acknowledge that the Company will make reasonable efforts to ensure that the Services and Site are available continuously however that there may be instances where access to the Platform and Site are restricted as a result of scheduled maintenance, technology failure or network failure.\
 ****
 
 ### **19. Contact us**
@@ -260,7 +260,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 19.2. Please write to us to make clear the details surrounding your complaint. You can send your complaint by e-mail to admin@tomochain.com.
 
-Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099  
+Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099 208099\
 
 
 ### **20. Changes to Terms of Use**
@@ -271,7 +271,7 @@ Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099
 
 ## **Privacy Policy**
 
-_This Privacy Policy \(“Policy”\) outlines how LuaStarter \(referred to herein as “LuaStarter”, “we”, “us”, or “our''\) practices in relation to the storage, use, processing, and disclosure of personal data that you have chosen to share with us when you access the LuaStarter platform \(“Platform"\) \(as defined in the terms\) or use the services \(as defined in the terms\). This Policy, together with our terms, applies to your use of the Platform._
+_This Privacy Policy (“Policy”) outlines how LuaStarter (referred to herein as “LuaStarter”, “we”, “us”, or “our'') practices in relation to the storage, use, processing, and disclosure of personal data that you have chosen to share with us when you access the LuaStarter platform (“Platform") (as defined in the terms) or use the services (as defined in the terms). This Policy, together with our terms, applies to your use of the Platform._
 
 _By accessing the Platform, you consent to the collection, storage, use, and disclosure of your personal data, in accordance with, and are agreeing to be bound by this Policy. We will not collect any information from you, except where it is knowingly and explicitly provided by you._
 
@@ -295,7 +295,7 @@ _LuaStarter is committed to respecting your privacy and ensuring that the person
 
 2.1. The types of Personal Data that LuaStarter may collect from you are:
 
-* Personal identification information: name, email address, country, date of birth, nationality, photo of identification document \(national ID card or passport\), photo of you holding your identification document;
+* Personal identification information: name, email address, country, date of birth, nationality, photo of identification document (national ID card or passport), photo of you holding your identification document;
 * User non-custodial wallet address, telegram username.
 
 2.2. With regard to each of your visits to our LuaStarter platform and access to the services we may automatically collect the following information:
@@ -303,8 +303,8 @@ _LuaStarter is committed to respecting your privacy and ensuring that the person
 * Transaction data including purchases of crypto assets;
 * The smart contract stored in your non-custodial wallet address;
 * Technical data including IP address, time zone setting and locations, operating system, and other technologies on your device used to access the platform;
-* Information about your visits, including the full Uniform Resource Locators \(URL\) clickstream to, through and from the LuaStarter \(including date and time\);
-* Products or pools you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information \(such as scrolling, clicks, and mouse-overs\), and methods used to browse away from the page;
+* Information about your visits, including the full Uniform Resource Locators (URL) clickstream to, through and from the LuaStarter (including date and time);
+* Products or pools you viewed or searched for; page response times, download errors, length of visits to certain pages, page interaction information (such as scrolling, clicks, and mouse-overs), and methods used to browse away from the page;
 * Information regarding the provision of LuaStarter services we might receive from any other sources.
 
 ### **3. Collection of Your Data**
@@ -335,7 +335,7 @@ Ultimately, you are solely responsible for maintaining the secrecy of your usern
 
 ### **6. Law Enforcement**
 
-Under certain circumstances, LuaStarter may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities \(e.g., a court or a government agency\).
+Under certain circumstances, LuaStarter may be required to disclose your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g., a court or a government agency).
 
 ### **7. Business Transactions**
 
@@ -355,7 +355,7 @@ IN NO EVENT WILL THE PLATFORM BE LIABLE FOR ANY DAMAGES WHATSOEVER, INCLUDING SP
 
 ### **10. Updates or Amendments to the Privacy Policy**
 
-We will revise and update this Privacy Policy periodically, at Our sole discretion, and the most current version will be published on the Website or LuaStarter Platform \(as reflected in the "Last Revised" heading\).
+We will revise and update this Privacy Policy periodically, at Our sole discretion, and the most current version will be published on the Website or LuaStarter Platform (as reflected in the "Last Revised" heading).
 
 In the event of any material change which may affect your usage on Our Services and Platform, We will notify You by means of a prominent notice in advance of such change coming into effect. A prominent notice may include sending through your email address or other communication channels You provide to Us or providing You with an in-application notice such as a banner or pop-up alerting You of the change on the Website. We strongly encourage You to review this Privacy Policy actively. If You do not agree, either partially or wholly, the revised Privacy Policy, You should discontinue accessing or using Our Services. Your continued access to and use of Our Services after any changes to this Privacy Policy constitutes your consent to any changes and agree to continue using the Services.
 
@@ -366,6 +366,4 @@ If you believe that someone has provided us with your Personal Data and you woul
 Email: [admin@tomochain.com](mailto:admin@tomochain.com)
 
 Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099
-
-
 
