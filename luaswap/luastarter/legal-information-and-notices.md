@@ -260,7 +260,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 19.2. Please write to us to make clear the details surrounding your complaint. You can send your complaint by e-mail to admin@tomochain.com.
 
-Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099 208099\
+Head Office: TomoChain Lab Pte. Ltd.  30 Petain Road Singapore 208099\
 
 
 ### **20. Changes to Terms of Use**
