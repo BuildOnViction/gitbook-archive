@@ -2,9 +2,9 @@
 
 ### Service Fee
 
-| Role | Service Fee |
-| :--- | :--- |
-| Lender | Free |
+| Role     | Service Fee                                                |
+| -------- | ---------------------------------------------------------- |
+| Lender   | Free                                                       |
 | Borrower | 0.5% of the total loan amount payable in the lending token |
 
 {% hint style="info" %}
@@ -15,10 +15,9 @@ For example: If a user wants to borrow 1,000 USDT, he will be charged a service 
 
 ### Cancellation Fee
 
-| Role | Cancellation Fee |
-| :--- | :--- |
-| Lender | 0.05% of the total loan amount payable in ****the lending token |
-| Borrower | 0.05% of the total loan amount payable in ****the collateralized asset |
+| Role     | Cancellation Fee                                                       |
+| -------- | ---------------------------------------------------------------------- |
+| Lender   | 0.05% of the total loan amount payable in** **the lending token        |
+| Borrower | 0.05% of the total loan amount payable in** **the collateralized asset |
 
-### 
-
+###

@@ -11,9 +11,9 @@ description: >-
 
 ### Step 1: Go to [**https://luaswap.org**](https://luaswap.org)
 
-then click on **Using LUA/xLUA to vote on LuaSwap proposals** in the **Governance** tab
+then click on **Using LUA/xLUA to vote on LuaSwap proposals **in the** Governance **tab
 
-![](../../.gitbook/assets/image%20%2898%29.png)
+![](<../../.gitbook/assets/image (98).png>)
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.42.42-am.png)
 
@@ -37,7 +37,7 @@ Select the start date/the end date
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.54.03-am.png)
 
-Fill out the Snapshot block number \([further detail below](how-to-use-luaswap-snapshot-for-governance-voting.md#snapshot-block-number)\) then choose " Publish"
+Fill out the Snapshot block number ([further detail below](how-to-use-luaswap-snapshot-for-governance-voting.md#snapshot-block-number)) then choose " Publish"
 
 ## Vote on a proposal
 
@@ -50,7 +50,7 @@ Currently, the LuaSwap snapshot allows users to vote with both LUA and xLUA for 
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.07.34-am.png)
 
-**Step 2:** Choose the proposal then click on the option you want to vote for 
+**Step 2: **Choose the proposal then click on the option you want to vote for 
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.13.45.png)
 
@@ -74,9 +74,9 @@ Where:
 
 * `H` = target block height
 * `h` = current block height
-* `t0` = current timestamp \(in seconds\)
-* `t1` = target timestamp \(in seconds\)
-* `a` = average time to solve a block \(in seconds\)
+* `t0` = current timestamp (in seconds)
+* `t1` = target timestamp (in seconds)
+* `a` = average time to solve a block (in seconds)
 
 Or...
 
@@ -89,8 +89,6 @@ So, for example, using a [current epoch time](https://www.epochconverter.com) of
 Or just look at [etherscan.io/blocks](https://etherscan.io/blocks) and use the last block number.
 
 Source: [Snapshot Docs](https://docs.snapshot.page/guides/create-a-proposal#snapshot-block-number)
-
-
 
 
 

@@ -14,16 +14,16 @@ Here's an example of a typical privacy address in TomoP
 
 `9Lysjv9CYsEMEdkYjtRu3Z1Tev4pm9HvGqHnhVAbXMK33yZLDYnoh6ExThWkKMpKBmpuobBiefhmXe5s1PrdktFVjqncW8q`
 
-This is the Base58 format of the following data  
-  
+This is the Base58 format of the following data\
+\
 0346226e21bdb6cc3ddcccde7ff7678af5a150bfc72433800ab45359ded501705a03c8827ebe7c19ba0358518a88351ff9d8f660dddaceac7e1d0a1b6987e711b0b3ca6f30a2
 
-The data consists of 70 bytes \(140 hex characters\) including:   
+The data consists of 70 bytes (140 hex characters) including: \
 `public view key (33 bytes) | public spend key (33 bytes) | checksum (4 bytes)`
 
 `Public view key` and `public spend key` are public keys in compressed format corresponding to `private view key` and `private spend key` , of which
 
-* Private spend key is a normal private key of users \(32 bytes\)
+* Private spend key is a normal private key of users (32 bytes)
 * `Private view key = keccak256(private spend key)`
 
 Each user only needs to keep their single private key in order to be able to send and receive transactions privately.
@@ -32,7 +32,7 @@ When Alice wants to send some TOMO to Bob privately, Alice would take Bob's priv
 
 The stealth address is a one time generated address that is different with every transaction. The stealth address is generated using a cryptographic scheme that only Bob could recognize as the stealth address generated for him.
 
-## What's the Exchange Deposit Address \(EDA\)?
+## What's the Exchange Deposit Address (EDA)?
 
 `Exchange Deposit Address (EDA)` is Base58-encoded data of the following data:
 
@@ -47,7 +47,7 @@ User ID is the ID of a user on the exchange that the user will deposit to. Basic
 * Make private transaction for the stealth address and `depositID`
 * `depositID` will be published to privacy smart contract
 
-```text
+```
 struct UTXO {
     CompressPubKey[3] keys; //commitmentX, pubkeyX, txPubX
     uint256 amount; //encoded amount
@@ -59,7 +59,7 @@ struct UTXO {
 
 **Exchange deposit verification steps:**
 
-* Check if the UTXO belongs to the exchange privacy address \(using private view key to check\)
+* Check if the UTXO belongs to the exchange privacy address (using private view key to check)
 * Compute `userID = depositID - ECDH`
 * Check if `userID` matches with one of the user IDs in their database.
 * If yes, then that's a deposit transaction to the account that corresponds to the userID
@@ -67,4 +67,3 @@ struct UTXO {
 Exchanges will have to generate an exchange deposit address for every user based on their public keys and userID.
 
 Note that, for deposit, exchanges only need 1 private key to manage all deposits of all users.
-

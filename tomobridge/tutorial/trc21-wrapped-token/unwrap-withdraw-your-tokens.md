@@ -7,22 +7,22 @@ description: >-
 
 # How to Unwrap a Token
 
-Log in to[ https://bridge.tomochain.com](https://bridge.tomochain.com/) and choose the tokens and blockchain networks that you wish to swap.
+Log in to[ https://bridge.tomochain.com](https://bridge.tomochain.com) and choose the tokens and blockchain networks that you wish to swap.
 
 Make sure to check the “**Terms of use**” and “**Privacy policy**” before proceeding to the next steps.
 
-![](../../../.gitbook/assets/image%20%28107%29.png)
+![](<../../../.gitbook/assets/image (107).png>)
 
 Connect your Metamask wallet and choose the conversion direction. 
 
-* Make sure your Metamask wallet is on the **TomoChain** network \(Follow [this guide](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask) to learn more\)
-* Choose **TomoChain -&gt; Ethereum** for token unwrapping/withdrawal.
+* Make sure your Metamask wallet is on the **TomoChain** network (Follow [this guide](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask) to learn more)
+* Choose **TomoChain -> Ethereum** for token unwrapping/withdrawal.
 
-![](../../../.gitbook/assets/image%20%28108%29.png)
+![](<../../../.gitbook/assets/image (108).png>)
 
 * Select the asset that you want to unwrap from the drop-down list. 
-* Enter the swapping amount \(click on “**Max**” if you wish to unwrap it all\).
-* Enter the receiving address on your Ethereum network \(click on “**Address**” if your receiving address is the same as your sending address\).
+* Enter the swapping amount (click on “**Max**” if you wish to unwrap it all).
+* Enter the receiving address on your Ethereum network (click on “**Address**” if your receiving address is the same as your sending address).
 * Check the estimated transaction fee and make sure the sending address has enough ETH on the Ethereum network to cover the fee.
 * Read and check the attention points carefully before you click on “Next”.
 
@@ -32,19 +32,19 @@ A transaction request window will pop up on your Metamask, click on “Confirm�
 
 You may need to hold a small amount of TOMO to confirm the transaction request on Metamask. Though for TRC21 wrapped tokens, the fee will be paid in the token itself.
 
-![](https://lh5.googleusercontent.com/ixbo77wGlu7m-RMaifRcXFxigHOl-LC4trpFukED7V5fTMK4S8QbVkrkxSoUuDblDBl9LN8b-qeCy_3EdD0JLrWLBUbSmte1NSOr3ojev5zm9fZZXqAAnOwEPSabECWpjXDwOrO3)
+![](https://lh5.googleusercontent.com/ixbo77wGlu7m-RMaifRcXFxigHOl-LC4trpFukED7V5fTMK4S8QbVkrkxSoUuDblDBl9LN8b-qeCy\_3EdD0JLrWLBUbSmte1NSOr3ojev5zm9fZZXqAAnOwEPSabECWpjXDwOrO3)
 
 Once confirmed, TomoBridge will start verifying your transaction.
 
 Keep the window open until the transaction is complete. 
 
-![](https://lh6.googleusercontent.com/5Y3FxlU-edfRwAcCJ7GDjky504-Z0x7RKmhbfjCcidfFnJjlyVX99XXPR__-0AcWkqoWy0X1xqpEdlwDsLpCsdUeM24byqsfXsVALivOKMKNLf0k-bJS7yw1An_ePSJFv03ec7Cu)
+![](https://lh6.googleusercontent.com/5Y3FxlU-edfRwAcCJ7GDjky504-Z0x7RKmhbfjCcidfFnJjlyVX99XXPR\_\_-0AcWkqoWy0X1xqpEdlwDsLpCsdUeM24byqsfXsVALivOKMKNLf0k-bJS7yw1An_ePSJFv03ec7Cu)
 
 When the transaction is complete, switch your Metamask network from TomoChain to Ethereum. 
 
-![](https://lh5.googleusercontent.com/R6IfUmpBb9qCgpLmQ0RCwRBLa_c4JgPrAmNTBjjNsb9Ak5MG0igKPaPNh7MJBI3VqA1vo7DK1Te9mxXDZV1kwZbxipfc6o_kKBiaiGa2UUL6pvKMssTrA__-1lk-A_BhTAz4TLmM)
+![](https://lh5.googleusercontent.com/R6IfUmpBb9qCgpLmQ0RCwRBLa_c4JgPrAmNTBjjNsb9Ak5MG0igKPaPNh7MJBI3VqA1vo7DK1Te9mxXDZV1kwZbxipfc6o_kKBiaiGa2UUL6pvKMssTrA\_\_-1lk-A_BhTAz4TLmM)
 
-Then click on “Claim \(token symbol\)” to receive your native token.
+Then click on “Claim (token symbol)” to receive your native token.
 
 ![](https://lh6.googleusercontent.com/ZnnWSvXmSru2P6RSRfzlxVSgPn7nJZ6m7meoFg--0gKDPhdqR9vUW1CpYI6D8mkNnY6X7ZIEzyJhRvIXlrW3TCVsTwtF08YivabALjkqMY2JNb8sVQKBZZ0ybdOP3DvaQLItupIq)
 
@@ -56,6 +56,4 @@ Now you’ve successfully converted your TomoChain wrapped token to an Ethereum 
 
 ![](https://lh3.googleusercontent.com/ws28fUcLAQ6ZpzzjnoUgFjZw_R5q2--UexU1AmFPxB7k7HB3-SIbKS_lStTPrlO--HGQh1SLlvVucZikcrB6wMQik8-81nGlBToOG_MY28zbu8mxOVezSkiaZE57rpxhKbgnsmji)
 
-If you have any questions, feel free to contact us via our [telegram group](https://t.me/TomoChain) or [forum](https://forum.tomochain.com/c/technical-discussion/9) or submit a [support ticket](https://docs.google.com/forms/d/e/1FAIpQLSepwuF5MEwos7Gd_D1NllncV8JFKGoU92PO6ZNx4x9ri1WVbA/viewform).   
-
-
+If you have any questions, feel free to contact us via our [telegram group](https://t.me/TomoChain) or [forum](https://forum.tomochain.com/c/technical-discussion/9) or submit a [support ticket](https://docs.google.com/forms/d/e/1FAIpQLSepwuF5MEwos7Gd_D1NllncV8JFKGoU92PO6ZNx4x9ri1WVbA/viewform). \

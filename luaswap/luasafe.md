@@ -8,21 +8,23 @@ description: >-
 
 Follow the instruction below to stake LUA and earn more LUA.
 
-### **Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
+### **Step 1: Go to **[**https://luaswap.org**](https://luaswap.org)
 
 then click on **LuaSafe** in **Product** tab
 
-![](../.gitbook/assets/screenshot_3%20%282%29.png)
+![](<../.gitbook/assets/screenshot\_3 (2).png>)
 
 Connect to LuaSwap via your wallet
 
-![](../.gitbook/assets/screenshot_1.png)
+![](../.gitbook/assets/screenshot\_1.png)
 
-_Note:_  _Using LuaSwap’s Ethereum version requires the Metamask network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the Metamask network to be set to TomoChain. Follow_ [_this guide_ ](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask)_to learn more._
+_Note: _ _Using LuaSwap’s Ethereum version requires the Metamask network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the Metamask network to be set to TomoChain. Follow _[_this guide _](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask)_to learn more._
 
-{% page-ref page="../general/how-to-connect-to-tomochain-network/metamask.md" %}
+{% content-ref url="../general/how-to-connect-to-tomochain-network/metamask.md" %}
+[metamask.md](../general/how-to-connect-to-tomochain-network/metamask.md)
+{% endcontent-ref %}
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](<../.gitbook/assets/image (92).png>)
 
 ### Step 2: Approve your LUA
 
@@ -42,22 +44,20 @@ As fees are collected they are converted to LUA and distributed proportionally a
 
 ### Convert function and reward distribution on LuaSafe
 
-![](../.gitbook/assets/image%20%28100%29.png)
+![](<../.gitbook/assets/image (100).png>)
 
 “CONVERT" button on LuaSafe will trigger reward distribution for the selected pair by calling 2 functions directly to the smart contract LuaMaker, which will perform the following:
 
 * Burn collected LP tokens from withdrawal fees and swap fees
 * Buy LUA at market price and send it into the LuaSafe contract.
 
-The core team will trigger distribution every Monday, generally around noon Singapore time \(GMT+8\) or earlier if the pair's collected fee reaches a certain significant amount \(equivalent to at least 3,000 LUA after converted\). Users do not need to pay any gas fee for the distribution unless they choose to manually trigger the distribution process themselves. Anyone can trigger distribution at any time by selecting the “CONVERT" buttons. Users need to pay the gas fee for the distribution if they choose to do it themselves.
+The core team will trigger distribution every Monday, generally around noon Singapore time (GMT+8) or earlier if the pair's collected fee reaches a certain significant amount (equivalent to at least 3,000 LUA after converted). Users do not need to pay any gas fee for the distribution unless they choose to manually trigger the distribution process themselves. Anyone can trigger distribution at any time by selecting the “CONVERT" buttons. Users need to pay the gas fee for the distribution if they choose to do it themselves.
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](<../.gitbook/assets/image (101).png>)
 
 {% hint style="info" %}
 There is a flat fee of 0.5% levied for all withdrawals. Withdrawals can be done at any time.
 {% endhint %}
-
-
 
 
 

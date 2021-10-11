@@ -10,7 +10,7 @@ The persons behind the addresses can then choose to either vote themselves or to
 
 At the end of the voting time, `winningProposal()` will return the proposal with the largest number of votes.
 
-```text
+```
 pragma solidity >=0.4.22 <=0.5.0;
 
 /// @title Voting with delegation.
@@ -175,7 +175,7 @@ In this section, we will show how easy it is to create a completely blind auctio
 
 The general idea of the following simple auction contract is that everyone can send their bids during a bidding period. The bids already include sending money / TOMO in order to bind the bidders to their bid. If the highest bid is raised, the previously highest bidder gets their money back. After the end of the bidding period, the contract has to be called manually for the beneficiary to receive their money - contracts cannot activate themselves.
 
-```text
+```
 pragma solidity >=0.4.22 <=0.5.0;
 
 contract SimpleAuction {
@@ -309,13 +309,13 @@ contract SimpleAuction {
 
 The previous open auction is extended to a blind auction in the following. The advantage of a blind auction is that there is no time pressure towards the end of the bidding period. Creating a blind auction on a transparent computing platform might sound like a contradiction, but cryptography comes to the rescue.
 
-During the **bidding period**, a bidder does not actually send their bid, but only a hashed version of it. Since it is currently considered practically impossible to find two \(sufficiently long\) values whose hash values are equal, the bidder commits to the bid by that. After the end of the bidding period, the bidders have to reveal their bids: They send their values unencrypted and the contract checks that the hash value is the same as the one provided during the bidding period.
+During the **bidding period**, a bidder does not actually send their bid, but only a hashed version of it. Since it is currently considered practically impossible to find two (sufficiently long) values whose hash values are equal, the bidder commits to the bid by that. After the end of the bidding period, the bidders have to reveal their bids: They send their values unencrypted and the contract checks that the hash value is the same as the one provided during the bidding period.
 
 Another challenge is how to make the auction **binding and blind** at the same time: The only way to prevent the bidder from just not sending the money after they won the auction is to make them send it together with the bid. Since value transfers cannot be blinded in TomoChain, anyone can see the value.
 
-The following contract solves this problem by accepting any value that is larger than the highest bid. Since this can of course only be checked during the reveal phase, some bids might be **invalid**, and this is on purpose \(it even provides an explicit flag to place invalid bids with high value transfers\): Bidders can confuse competition by placing several high or low invalid bids.
+The following contract solves this problem by accepting any value that is larger than the highest bid. Since this can of course only be checked during the reveal phase, some bids might be **invalid**, and this is on purpose (it even provides an explicit flag to place invalid bids with high value transfers): Bidders can confuse competition by placing several high or low invalid bids.
 
-```text
+```
 pragma solidity >0.4.23 <=0.5.0;
 
 contract BlindAuction {
@@ -463,13 +463,13 @@ contract BlindAuction {
 
 ### Safe Remote Purchase
 
-Purchasing goods remotely currently requires multiple parties that need to trust each other. The simplest configuration involves a seller and a buyer. The buyer would like to receive an item from the seller and the seller would like to get money \(or an equivalent\) in return. The problematic part is the shipment here: There is no way to determine for sure that the item arrived at the buyer.
+Purchasing goods remotely currently requires multiple parties that need to trust each other. The simplest configuration involves a seller and a buyer. The buyer would like to receive an item from the seller and the seller would like to get money (or an equivalent) in return. The problematic part is the shipment here: There is no way to determine for sure that the item arrived at the buyer.
 
-There are multiple ways to solve this problem, but all fall short in one or the other way. In the following example, both parties have to put twice the value of the item into the contract as escrow. As soon as this happened, the money will stay locked inside the contract until the buyer confirms that they received the item. After that, the buyer is returned the value \(half of their deposit\) and the seller gets three times the value \(their deposit plus the value\). The idea behind this is that both parties have an incentive to resolve the situation or otherwise their money is locked forever.
+There are multiple ways to solve this problem, but all fall short in one or the other way. In the following example, both parties have to put twice the value of the item into the contract as escrow. As soon as this happened, the money will stay locked inside the contract until the buyer confirms that they received the item. After that, the buyer is returned the value (half of their deposit) and the seller gets three times the value (their deposit plus the value). The idea behind this is that both parties have an incentive to resolve the situation or otherwise their money is locked forever.
 
 This contract of course does not solve the problem, but gives an overview of how you can use state machine-like constructs inside a contract.
 
-```text
+```
 pragma solidity >=0.4.22 <=0.5.0;
 
 contract Purchase {
@@ -598,7 +598,7 @@ In this section we will learn how to build an example implementation of a paymen
 
 Imagine Alice wants to send a quantity of TOMO to Bob, i.e. Alice is the sender and the Bob is the recipient.
 
-Alice only needs to send cryptographically signed messages off-chain \(e.g. via email\) to Bob and it is similar to writing checks.
+Alice only needs to send cryptographically signed messages off-chain (e.g. via email) to Bob and it is similar to writing checks.
 
 Alice and Bob use signatures to authorise transactions, which is possible with smart contracts on TomoChain. Alice will build a simple smart contract that lets her transmit TOMO, but instead of calling a function herself to initiate a payment, she will let Bob do that, and therefore pay the transaction fee.
 
@@ -606,14 +606,14 @@ The contract will work as follows:
 
 > 1. Alice deploys the `ReceiverPays` contract, attaching enough TOMO to cover the payments that will be made.
 > 2. Alice authorises a payment by signing a message with their private key.
-> 3. Alice sends the cryptographically signed message to Bob. The message does not need to be kept secret \(explained later\), and the mechanism for sending it does not matter.
+> 3. Alice sends the cryptographically signed message to Bob. The message does not need to be kept secret (explained later), and the mechanism for sending it does not matter.
 > 4. Bob claims their payment by presenting the signed message to the smart contract, it verifies the authenticity of the message and then releases the funds.
 
 **Creating the signature**
 
-Alice does not need to interact with the TomoChain network to sign the transaction, the process is completely offline. In this tutorial, we will sign messages in the browser using [web3.js](https://github.com/ethereum/web3.js) and [MetaMask](https://metamask.io/), using the method described in [EIP-762](https://github.com/ethereum/EIPs/pull/712), as it provides a number of other security benefits.
+Alice does not need to interact with the TomoChain network to sign the transaction, the process is completely offline. In this tutorial, we will sign messages in the browser using [web3.js](https://github.com/ethereum/web3.js) and [MetaMask](https://metamask.io), using the method described in [EIP-762](https://github.com/ethereum/EIPs/pull/712), as it provides a number of other security benefits.
 
-```text
+```
 /// Hashing first makes things easier
 var hash = web3.utils.sha3("message to sign");
 web3.eth.personal.sign(hash, web3.eth.defaultAccount, function () { console.log("Signed"); });
@@ -641,7 +641,7 @@ Alice can protect against this attack by including the contract’s address in t
 
 Now that we have identified what information to include in the signed message, we are ready to put the message together, hash it, and sign it. For simplicity, we concatenate the data. The [ethereumjs-abi](https://github.com/ethereumjs/ethereumjs-abi) library provides a function called `soliditySHA3` that mimics the behaviour of Solidity’s `keccak256` function applied to arguments encoded using `abi.encodePacked`. Here is a JavaScript function that creates the proper signature for the `ReceiverPays` example:
 
-```text
+```
 // recipient is the address that should be paid.
 // amount, in wei, specifies how much TOMO should be sent.
 // nonce can be any unique number to prevent replay attacks
@@ -662,7 +662,7 @@ In general, ECDSA signatures consist of two parameters, `r` and `s`. Signatures 
 
 **Extracting the Signature Parameters**
 
-Signatures produced by web3.js are the concatenation of `r`, `s` and `v`, so the first step is to split these parameters apart. You can do this on the client-side, but doing it inside the smart contract means you only need to send one signature parameter rather than three. Splitting apart a byte array into its constituent parts is a mess, so we use [inline assembly](https://solidity.readthedocs.io/en/v0.6.3/assembly) to do the job in the `splitSignature` function \(the third function in the full contract at the end of this section\).
+Signatures produced by web3.js are the concatenation of `r`, `s` and `v`, so the first step is to split these parameters apart. You can do this on the client-side, but doing it inside the smart contract means you only need to send one signature parameter rather than three. Splitting apart a byte array into its constituent parts is a mess, so we use [inline assembly](https://solidity.readthedocs.io/en/v0.6.3/assembly) to do the job in the `splitSignature` function (the third function in the full contract at the end of this section).
 
 **Computing the Message Hash**
 
@@ -670,7 +670,7 @@ The smart contract needs to know exactly what parameters were signed, and so it 
 
 **The full contract**
 
-```text
+```
 pragma solidity >=0.4.24 <=0.5.0;
 
 contract ReceiverPays {
@@ -741,7 +741,7 @@ Alice now builds a simple but complete implementation of a payment channel. Paym
 
 **What is a Payment Channel?**
 
-Payment channels allow participants to make repeated transfers of TOMO without using transactions. This means that you can avoid the delays and fees associated with transactions. We are going to explore a simple unidirectional payment channel between two parties \(Alice and Bob\). It involves three steps:
+Payment channels allow participants to make repeated transfers of TOMO without using transactions. This means that you can avoid the delays and fees associated with transactions. We are going to explore a simple unidirectional payment channel between two parties (Alice and Bob). It involves three steps:
 
 > 1. Alice funds a smart contract with TOMO. This “opens” the payment channel.
 > 2. Alice signs messages that specify how much of that TOMO is owed to the recipient. This step is repeated for each payment.
@@ -749,7 +749,7 @@ Payment channels allow participants to make repeated transfers of TOMO without u
 
 Note
 
-Only steps 1 and 3 require TomoChain transactions, step 2 means that the sender transmits a cryptographically signed message to the recipient via off chain methods \(e.g. email\). This means only two transactions are required to support any number of transfers.
+Only steps 1 and 3 require TomoChain transactions, step 2 means that the sender transmits a cryptographically signed message to the recipient via off chain methods (e.g. email). This means only two transactions are required to support any number of transfers.
 
 Bob is guaranteed to receive their funds because the smart contract escrows the TOMO and honours a valid signed message. The smart contract also enforces a timeout, so Alice is guaranteed to eventually recover their funds even if the recipient refuses to close the channel. It is up to the participants in a payment channel to decide how long to keep it open. For a short-lived transaction, such as paying an internet café for each minute of network access, the payment channel may be kept open for a limited duration. On the other hand, for a recurring payment, such as paying an employee an hourly wage, the payment channel may be kept open for several months or years.
 
@@ -770,7 +770,7 @@ A payment channel is closed just once, at the end of a series of transfers. Beca
 
 Here is the modified JavaScript code to cryptographically sign a message from the previous section:
 
-```text
+```
 function constructPaymentMessage(contractAddress, amount) {
     return abi.soliditySHA3(
         ["address", "uint256"],
@@ -813,7 +813,7 @@ After this function is called, Bob can no longer receive any TOMO, so it is impo
 
 **The full contract**
 
-```text
+```
 pragma solidity >=0.4.24 <=0.5.0;
 
 contract SimplePaymentChannel {
@@ -923,7 +923,7 @@ The recipient should verify each message using the following process:
 
 We’ll use the [ethereumjs-util](https://github.com/ethereumjs/ethereumjs-util) library to write this verification. The final step can be done a number of ways, and we use JavaScript. The following code borrows the constructMessage function from the signing **JavaScript code** above:
 
-```text
+```
 // this mimics the prefixing behavior of the eth_sign JSON-RPC method.
 function prefixed(hash) {
     return ethereumjs.ABI.soliditySHA3(
@@ -951,7 +951,7 @@ function isValidSignature(contractAddress, amount, signature, expectedSigner) {
 
 A modular approach to building your contracts helps you reduce the complexity and improve the readability which will help to identify bugs and vulnerabilities during development and code review. If you specify and control the behaviour or each module in isolation, the interactions you have to consider are only those between the module specifications and not every other moving part of the contract. In the example below, the contract uses the `move` method of the `Balances` [library](https://solidity.readthedocs.io/en/v0.6.3/contracts.html#libraries) to check that balances sent between addresses match what you expect. In this way, the `Balances` library provides an isolated component that properly tracks balances of accounts. It is easy to verify that the `Balances` library never produces negative balances or overflows and the sum of all balances is an invariant across the lifetime of the contract.
 
-```text
+```
 pragma solidity >=0.4.22 <=0.5.0;
 
 library Balances {
@@ -999,6 +999,4 @@ contract Token {
 }
 ```
 
-[Next ](https://solidity.readthedocs.io/en/v0.6.3/solidity-in-depth.html)[ Previous](https://solidity.readthedocs.io/en/v0.6.3/installing-solidity.html)  
-
-
+[Next ](https://solidity.readthedocs.io/en/v0.6.3/solidity-in-depth.html)[ Previous](https://solidity.readthedocs.io/en/v0.6.3/installing-solidity.html)\

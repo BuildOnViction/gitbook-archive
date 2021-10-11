@@ -5,24 +5,24 @@ description: Terms and conditions for using TomoChains products.
 # Terms of Use
 
 {% hint style="warning" %}
- **PLEASE READ CAREFULLY THESE TERMS AND CONDITIONS AS THEY AFFECT YOUR OBLIGATIONS AND LEGAL RIGHTS, INCLUDING, BUT NOT LIMITED TO LIMITATION OF LIABILITY. IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS DO NOT USE OUR SERVICES**
+** PLEASE READ CAREFULLY THESE TERMS AND CONDITIONS AS THEY AFFECT YOUR OBLIGATIONS AND LEGAL RIGHTS, INCLUDING, BUT NOT LIMITED TO LIMITATION OF LIABILITY. IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS DO NOT USE OUR SERVICES**
 {% endhint %}
 
 ### AGREEMENT
 
-This Terms of Use is a legal agreement between you \(Licensee or you\) and TomoChain Lab Pte. Ltd. \(UEN: 201716924E\), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services \(defined below\) \(“Company”, “we”, “us” or “our”\). 
+This Terms of Use is a legal agreement between you (Licensee or you) and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”). 
 
 By accessing or using our Services or any part of it, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data.
 
-If you do not agree to these Terms, you should stop accessing or using our Services immediately. In these Terms, the “Services” means the application owned and operated by the Company including: our websites \(the “Site”\), TomoWallet, TomoScan, TomoMaster, TomoIssuer, TomoRelayer, TomoStats, TomoBridge and our other products. The “Cryptocurrency\(ies\)” means a digital currency, also referred to as a token, in which encryption techniques are used to regulate the generation of units of the currency and to verify the transfer of the currency and which operates independently of the central bank of a country. Such digital currency is not legal tender issued by any central bank nor does it confer any interest in the ownership of, or debt relating to, any asset or property.
+If you do not agree to these Terms, you should stop accessing or using our Services immediately. In these Terms, the “Services” means the application owned and operated by the Company including: our websites (the “Site”), TomoWallet, TomoScan, TomoMaster, TomoIssuer, TomoRelayer, TomoStats, TomoBridge and our other products. The “Cryptocurrency(ies)” means a digital currency, also referred to as a token, in which encryption techniques are used to regulate the generation of units of the currency and to verify the transfer of the currency and which operates independently of the central bank of a country. Such digital currency is not legal tender issued by any central bank nor does it confer any interest in the ownership of, or debt relating to, any asset or property.
 
 The Company reserves the right to change, modify, add or remove any of terms contained in these Terms, at any time, for any reason. 
 
 ### ELIGIBILITY
 
-To be eligible to use the Company's Services, you must be at least eighteen \(18\) years old and be able to form legally binding contracts. 
+To be eligible to use the Company's Services, you must be at least eighteen (18) years old and be able to form legally binding contracts. 
 
-If you are using our Services on behalf of a legal entity, you further represent and warrant that: \(a\) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and \(b\) you are duly authorized by such legal entity to act on its behalf. 
+If you are using our Services on behalf of a legal entity, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf. 
 
 You can only use our Services if permitted under the laws of your jurisdiction. Please make sure that these Terms are in compliance with all laws, rules, and regulations that apply to you. 
 
@@ -54,11 +54,11 @@ Any use of our Services other than as specifically authorized in this Agreement,
 
 **Wallet Address, Private Key, and Backup Capabilities**.
 
-The private key is connected to the Wallet address and, together, they can be used to authorize the transfer of Cryptocurrencies to and from that Wallet address. You are solely responsible for maintaining the security of your private key and any mnemonic \(backup\) phrase associated with your Wallet. You must keep your Wallet address, mnemonic \(backup\) phrase, and private key access information secure. Failure to do so may result in the loss of control of Cryptocurrencies associated with the Wallet.
+The private key is connected to the Wallet address and, together, they can be used to authorize the transfer of Cryptocurrencies to and from that Wallet address. You are solely responsible for maintaining the security of your private key and any mnemonic (backup) phrase associated with your Wallet. You must keep your Wallet address, mnemonic (backup) phrase, and private key access information secure. Failure to do so may result in the loss of control of Cryptocurrencies associated with the Wallet.
 
 **The Company Cannot Assist With Password Retrieval**. 
 
-Our Services may store your Wallet address but does not receive or store your Wallet password, encrypted private key, unencrypted private key, or mnemonic \(backup\) phrase associated with your Wallet. We cannot, therefore, assist you with Wallet password retrieval. We cannot generate a new password for your Wallet if you fail to remember your original password. If you have not safely stored a backup of any Wallet address and private key pairs maintained in your Wallet, you accept and acknowledge that any Cryptocurrencies you have associated with such a Wallet address will become inaccessible if you do not have your Wallet password.
+Our Services may store your Wallet address but does not receive or store your Wallet password, encrypted private key, unencrypted private key, or mnemonic (backup) phrase associated with your Wallet. We cannot, therefore, assist you with Wallet password retrieval. We cannot generate a new password for your Wallet if you fail to remember your original password. If you have not safely stored a backup of any Wallet address and private key pairs maintained in your Wallet, you accept and acknowledge that any Cryptocurrencies you have associated with such a Wallet address will become inaccessible if you do not have your Wallet password.
 
 **Cryptocurrencies Transactions.** 
 
@@ -77,7 +77,7 @@ You understand and agree that the Company have no control over, and no duty to t
 * Failures, disruptions, errors, or delays in processing Cryptocurrencies that you may experience while using the Services;
 * The risk of failure of hardware, software, and Internet connections;
 * The risk of malicious software being introduced or found in the software underlying our Services;
-* The risk that third parties may obtain unauthorized access to information stored within your Wallet, including, but not limited to your Wallet address, private key, and mnemonic \(backup\) phrase; and
+* The risk that third parties may obtain unauthorized access to information stored within your Wallet, including, but not limited to your Wallet address, private key, and mnemonic (backup) phrase; and
 * The risk of unknown vulnerabilities in or unanticipated changes to the TomoChain Networks.
 * Disasters. Disasters may damage the Cryptocurrencies systems resulting in loss of Cryptocurrencies held by users.
 * Mistakes made by the user of any cryptocurrency-related software or service, e.g., forgotten passwords, and payments sent to wrong coin addresses.
@@ -102,4 +102,3 @@ The user of our Services agrees to arbitrate any dispute arising from or in conn
 ### LAST AMENDMENT
 
 This Terms of Use was amended for the last time on **February 27, 2020.**
-

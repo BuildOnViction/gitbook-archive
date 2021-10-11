@@ -11,37 +11,37 @@ To start, download the TomoX-SDK source code which includes two parts:
 
 To enable trading for the DEX, register the DEX on TomoRelayer by depositing 25K TOMO.
 
-### Quick start <a id="quick-start"></a>
+### Quick start <a href="quick-start" id="quick-start"></a>
 
-Run this command on an empty server Ubuntu version 16+ to **install** or **update** your DEX:
+Run this command on an empty server Ubuntu version 16+ to **install** or **update **your DEX:
 
-```text
+```
 bash <(curl -sSL https://tomochain.com/get-tomox.sh)
 ```
 
 **Testnet:**
 
-```text
+```
 bash <(curl -sSL https://tomochain.com/get-tomox-testnet.sh)
 ```
 
 After finishing the command above, you can see the result:
 
-* See fullnode in the Stats Page \(Mainnet: https://stats.tomochain.com, Testnet: https://stats.testnet.tomochain.com/\)
-* Open your relayer on browser \(http://\[SERVER\_IP\]\)
+* See fullnode in the Stats Page (Mainnet: https://stats.tomochain.com, Testnet: https://stats.testnet.tomochain.com/)
+* Open your relayer on browser (http://\[SERVER_IP])
 
 {% hint style="info" %}
 Wait until your fullnode passes the block number that you registered your relayer on to see the pairs
 {% endhint %}
 
-### Setup manually <a id="setup-manually"></a>
+### Setup manually <a href="setup-manually" id="setup-manually"></a>
 
-#### Prerequisite <a id="prerequisite"></a>
+#### Prerequisite <a href="prerequisite" id="prerequisite"></a>
 
 **Minimum hardware and software requirements**
 
-* Processing transactions is mostly CPU bound. Therefore we recommend running CPU optimized servers.\(You can check our base recommendations to create your fullnode [here](https://docs.tomochain.com/masternode/requirements/)\)
-  * Directly facing internet \(public IP, no NAT\)
+* Processing transactions is mostly CPU bound. Therefore we recommend running CPU optimized servers.(You can check our base recommendations to create your fullnode [here](https://docs.tomochain.com/masternode/requirements/))
+  * Directly facing internet (public IP, no NAT)
   * 16 cores CPU
   * 32 GB of RAM
   * SSD Storage
@@ -73,7 +73,7 @@ It is of the owner's responsibility to ensure over time that your node has enoug
 * Monitoring to be able to react quickly in case of a problem
 * Security measures like fire-walling, os security patching, ssh via keypairs, etc.
 
-### Prepare RabbitMQ, MongoDB, and TomoX fullnode[¶](https://docs.tomochain.com/masternode/tomox-sdk/#prepare-rabbitmq-mongodb-and-tomox-fullnode) <a id="prepare-rabbitmq-mongodb-and-tomox-fullnode"></a>
+### Prepare RabbitMQ, MongoDB, and TomoX fullnode[¶](https://docs.tomochain.com/masternode/tomox-sdk/#prepare-rabbitmq-mongodb-and-tomox-fullnode) <a href="prepare-rabbitmq-mongodb-and-tomox-fullnode" id="prepare-rabbitmq-mongodb-and-tomox-fullnode"></a>
 
 Run MongoDB and TomoX Full node:
 
@@ -81,19 +81,19 @@ Use this [guide](tomox-sdk.md) to run your full node and MongoDB on the server.
 
 And run RabbitMQ:
 
-```text
+```
 docker run -d -p 5672:5672 --name rabbitmq rabbitmq:3.8
 ```
 
-### Basic Deployment <a id="basic-deployment"></a>
+### Basic Deployment <a href="basic-deployment" id="basic-deployment"></a>
 
-#### TomoX SDK Backend <a id="tomox-sdk-backend"></a>
+#### TomoX SDK Backend <a href="tomox-sdk-backend" id="tomox-sdk-backend"></a>
 
 Download `tomox-sdk` binary from [TomoX-SDK Github Releases](https://github.com/tomochain/tomox-sdk/releases).
 
 E.g:
 
-```text
+```
 wget https://github.com/tomochain/tomox-sdk/releases/download/v1.0.1-beta/tomox-sdk.v1.0.1-beta.linux.amd64 -O tomox-sdk
 chmod +x tomox-sdk
 ```
@@ -106,20 +106,20 @@ Clone [tomox-sdk](https://github.com/tomochain/tomox-sdk.git) to your server:
 
 Go to `tomox-sdk` and create and edit your config file.
 
-```text
+```
 cd tomox-sdk
 cp config/config.yaml.example config/config.yaml
 ```
 
 We have some parameter that needs to be changed.
 
-* `exchange_address` : Your DEX coinbase \(the address you use to register a DEX on TomoRelayer\)
-* `exchange_contract_address`  : TomoRelayer smart contract address \(Mainnet: `0x16c63b79f9C8784168103C0b74E6A59EC2de4a02`,Testnet: `0xe7c16037992bEcAFaeeE779Dacaf8991637953F3`\)
-* `lending_contract_address`: TomoRelayer Lending smart contract address \(Mainnet: `0x7d761afd7ff65a79e4173897594a194e3c506e57`\)
+* `exchange_address` : Your DEX coinbase (the address you use to register a DEX on TomoRelayer)
+* `exchange_contract_address  `: TomoRelayer smart contract address (Mainnet: `0x16c63b79f9C8784168103C0b74E6A59EC2de4a02`,Testnet: `0xe7c16037992bEcAFaeeE779Dacaf8991637953F3`)
+* `lending_contract_address`: TomoRelayer Lending smart contract address (Mainnet: `0x7d761afd7ff65a79e4173897594a194e3c506e57`)
 
 After customizing your config, you can build SDK backend
 
-```text
+```
 cd tomox-sdk
 GO111MODULE=on
 go mod download
@@ -128,7 +128,7 @@ go build .
 
 And run it:
 
-```text
+```
 ./tomox-sdk
 ```
 
@@ -136,13 +136,13 @@ Note: `tomox-sdk` requires `./config/config.yaml` and `./config/errors.yaml` fil
 
 To run tomox-sdk as daemon service, you can use `pm2`, `supervisord` or `systemd`.
 
-#### TomoX SDK UI <a id="tomox-sdk-ui"></a>
+#### TomoX SDK UI <a href="tomox-sdk-ui" id="tomox-sdk-ui"></a>
 
 Download the site from [TomoX-SDK-UI Github Releases](https://github.com/tomochain/tomox-sdk-ui/releases)
 
 E.g:
 
-```text
+```
 # download
 wget https://github.com/tomochain/tomox-sdk-ui/releases/download/v1.0.1-beta/tomox-sdk-ui.v1.0.1-beta.testnet.tar.gz
 # uncompress
@@ -153,13 +153,13 @@ Or you can build the site by following the steps below:
 
 Clone [tomox-sdk-ui](https://github.com/tomochain/tomox-sdk-ui.git) to your server:
 
-```text
+```
 git clone https://github.com/tomochain/tomox-sdk-ui.git
 ```
 
 Go to `tomox-sdk-ui` to update the `env` file:
 
-```text
+```
 cd tomox-sdk-ui
 cp .env.sample .env
 ```
@@ -171,26 +171,26 @@ There are some parameters that need to be changed:
 
 You need to have `yarn` and `sass` to build the site, install it:
 
-```text
+```
 npm install -g yarn sass
 ```
 
 Build the site:
 
-```text
+```
 cd tomox-sdk-ui
 yarn install && yarn build
 ```
 
-Your DEX UI is created into `./buid` directory. You can setup web server \(nginx\) and domain to publish your site to internet.
+Your DEX UI is created into `./buid` directory. You can setup web server (nginx) and domain to publish your site to internet.
 
 You can use `nginx` to serve the site.
 
-### Setup web server \(nginx\) <a id="setup-web-server-nginx"></a>
+### Setup web server (nginx) <a href="setup-web-server-nginx" id="setup-web-server-nginx"></a>
 
 TomoX-SDK backend run on port 8080 in the default. We can use Nginx to serve both TomoX-SDK and TomoX-SDK-UI and publish it to internet.
 
-```text
+```
 server {
     listen       80;
     server_name  _;
@@ -227,11 +227,11 @@ server {
 
 After reloading `nginx` with the new configuration. You can access your DEX via `http://SERVER_IP`
 
-### Troubleshot & FAQ <a id="troubleshot-faq"></a>
+### Troubleshot & FAQ <a href="troubleshot-faq" id="troubleshot-faq"></a>
 
 **How to secure my DEX?**
 
-You need to setup HTTPS and INBOUND firewall for your DEX, open only SSH \(22\), HTTP \(80\), HTTPS \(443\), Fullnode RLPX \(30303\).
+You need to setup HTTPS and INBOUND firewall for your DEX, open only SSH (22), HTTP (80), HTTPS (443), Fullnode RLPX (30303).
 
 You can setup firewall by using software on your server or create firewall on your cloud provider.
 
@@ -244,4 +244,3 @@ Ledger required HTTPS to work properly with your DEX. On testnet, you can only u
 You need to wait for until your fullnode pass the block number that you registered your relayer to see the pairs.
 
 In another case, might you setup TomoX-SDK backend incorrectly. You need to make sure that `exchange_address` in `config/config.yaml` file is your DEX coinbase.
-

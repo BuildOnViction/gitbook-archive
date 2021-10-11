@@ -1,16 +1,30 @@
 # TomoChain Products
 
-{% page-ref page="tomowallet.md" %}
+{% content-ref url="tomowallet.md" %}
+[tomowallet.md](tomowallet.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomoscan-explorer.md" %}
+{% content-ref url="tomoscan-explorer.md" %}
+[tomoscan-explorer.md](tomoscan-explorer.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomomaster.md" %}
+{% content-ref url="tomomaster.md" %}
+[tomomaster.md](tomomaster.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomostats.md" %}
+{% content-ref url="tomostats.md" %}
+[tomostats.md](tomostats.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomoissuer.md" %}
+{% content-ref url="tomoissuer.md" %}
+[tomoissuer.md](tomoissuer.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomorelayer.md" %}
+{% content-ref url="tomorelayer.md" %}
+[tomorelayer.md](tomorelayer.md)
+{% endcontent-ref %}
 
-
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 

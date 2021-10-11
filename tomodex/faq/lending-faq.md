@@ -2,7 +2,7 @@
 
 ### 1. What is P2P lending?
 
-P2P lending is a service to help match lenders with borrowers without the participation of financial intermediaries. Collateralized assets are stored safely in smart contracts secured by the TomoX protocol. TomoDEX \(lending\) allows users to set their own interest rates and terms.
+P2P lending is a service to help match lenders with borrowers without the participation of financial intermediaries. Collateralized assets are stored safely in smart contracts secured by the TomoX protocol. TomoDEX (lending) allows users to set their own interest rates and terms.
 
 ### 2. What coins/tokens are accepted as collateral?
 
@@ -24,17 +24,17 @@ $$
 
 * I: Interest
 * F: The original amount borrowed
-* T: Term \(days\) \(e.g. 1 days, 14 days, 30 days …\)
+* T: Term (days) (e.g. 1 days, 14 days, 30 days …)
 * R: Annual interest rate 
 
 ### 5. What happens if I don’t repay my loan?
 
-The Borrower has to repay the value of the loan and the interest of the loan to the Lender before the due date. By default, if the Borrower has enough balance of the borrowed asset, TomoX will automatically repay the loan on the due date. ****
+The Borrower has to repay the value of the loan and the interest of the loan to the Lender before the due date. By default, if the Borrower has enough balance of the borrowed asset, TomoX will automatically repay the loan on the due date.** **
 
 ### **6. Can I repay my loan early?**
 
-You can make loan repayments at any time ****but ****no partial repayment is allowed.   
-If the Borrower decides to pay off the loan early, aside from the normal interest he has to pay until that point, he will be charged a prepayment penalty \(which is equal to half of the interest he would have had to pay from that point till the maturity date\).
+You can make loan repayments at any time** **but** **no partial repayment is allowed. \
+If the Borrower decides to pay off the loan early, aside from the normal interest he has to pay until that point, he will be charged a prepayment penalty (which is equal to half of the interest he would have had to pay from that point till the maturity date).
 
 $$
 I = F * R * \frac{T_1 + T}{2*365}
@@ -42,7 +42,7 @@ $$
 
 * I: Interest
 * F: The original loan amount
-* T: Term \(days\) \(1 days, 30 days …\)
+* T: Term (days) (1 days, 30 days …)
 * T1: The number of days borrowed.
 * R: Annual Interest rate
 
@@ -54,7 +54,7 @@ This means that the collateral will be automatically liquidated and released to 
 
 Market value of a collateral = Market price of the collateralized asset \* Quantity of the collateralized asset
 
-{% page-ref page="../../masternode-and-dex/tomox/tomox-p2p-lending.md" %}
-
-
+{% content-ref url="../../masternode-and-dex/tomox/tomox-p2p-lending.md" %}
+[tomox-p2p-lending.md](../../masternode-and-dex/tomox/tomox-p2p-lending.md)
+{% endcontent-ref %}
 

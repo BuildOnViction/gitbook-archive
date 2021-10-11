@@ -12,7 +12,7 @@ There are 2 types of service fees for using the lending service:
 #### 1.1. User Service Fees
 
 * Lender service fee: None
-* Borrower service fee: 0.5% \(By default\) of the total loan amount payable in the base token\* 
+* Borrower service fee: 0.5% (By default) of the total loan amount payable in the base token\* 
 
 Base token\*: The borrowed asset 
 
@@ -39,8 +39,8 @@ There are 2 types of cancellation fees for canceling an order:
 
 #### 2.1. User Cancellation Fees
 
-* Lender cancellation fee: The Lender cancellation fee is equal to 1/10 of the Borrower service fee \(0.05% by default\), payable in the Base Token. 
-* Borrower cancellation fee:  The Borrower cancellation fee is equal to 1/10 of the Borrower service fee \(0.05% by default\), payable in the collateralized asset.
+* Lender cancellation fee: The Lender cancellation fee is equal to 1/10 of the Borrower service fee (0.05% by default), payable in the Base Token. 
+* Borrower cancellation fee:  The Borrower cancellation fee is equal to 1/10 of the Borrower service fee (0.05% by default), payable in the collateralized asset.
 * Cancellation fee is charged at the time that the Lender/Borrower cancels the order.
 * Cancellation fee is sent to the Relayer Owner’s Address
 
@@ -53,17 +53,17 @@ The Relayer has to pay a flat cancellation fee of 0.0001 TOMO to the Masternode 
 
 ### 3. Collateral
 
-* Collateral Deposit Rate: 150% \(By default\) of the total loan value. 
+* Collateral Deposit Rate: 150% (By default) of the total loan value. 
 
-For example: If a user wants to borrow 1000 USDT against BTC and the BTC price is 7500 USDT, he has to deposit = 1000 \* 150% / 7500 = 0.2 BTC   
+For example: If a user wants to borrow 1000 USDT against BTC and the BTC price is 7500 USDT, he has to deposit = 1000 \* 150% / 7500 = 0.2 BTC \
 
 
 * Collateral Deposit Rate is set/adjusted by the Moderator.
-* Collateral will be locked in a non-private key address \([0x0000000000000000000000000000000000000011](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000011)\).
+* Collateral will be locked in a non-private key address ([0x0000000000000000000000000000000000000011](https://scan.tomochain.com/address/0x0000000000000000000000000000000000000011)).
 * Collateral will be locked at the time the order is matched.
 * Collateral will be released at the time the loan is liquidated or closed.
 * The collateral for the loan will be released to Borrower’s Address if the loan is closed. In case of liquidation, see Section 4 for more details
-* Collateral Price will be equal to the TomoX average price of all the trades \(price \* amount\) in the previous epoch \(called market price\) by the following formula:
+* Collateral Price will be equal to the TomoX average price of all the trades (price \* amount) in the previous epoch (called market price) by the following formula:
 
 $$
 P=\frac{P_1 * V_1 + P_2 * V_2 + .. + P_n * V_n}{V_1 + V_2 + .. + V_n}
@@ -71,7 +71,7 @@ $$
 
 * P: Price
 * V: Volume
-* Pn,Vn: Price and Volume of trade \#n
+* Pn,Vn: Price and Volume of trade #n
 
 ### 4. Liquidation
 
@@ -81,7 +81,7 @@ The collateral will be automatically liquidated when either of the following eve
 
 Or
 
-   2. The Borrower defaults on the loan: 
+   2\. The Borrower defaults on the loan: 
 
 If the Borrower is unable to pay back the entirety of the loan, the Liquidated Collateral released to the Lender is calculated as follows:
 
@@ -89,7 +89,7 @@ The Value of The Liquidated Collateral = Liquidation Rate \* The Value of The Lo
 
 The collateral released to the Lender’s Address is either equal to Liquidated Collateral or in its entirety, whichever is smaller. The unliquidated collateral, if any, is released to the Borrower’s Address 
 
-* Liquidation Rate: 110% \(By default\)
+* Liquidation Rate: 110% (By default)
 * Liquidation Price = MCP \* LR/DR
 
 LR : Liquidation Rate
@@ -106,11 +106,11 @@ MCP: Market price of the collateralized asset at the time the trade is created.
 
 **5.1.1. Input:**
 
-* Base token \(e.g. USDT\): The asset that the Borrower wants to borrow or the asset that the Lender wants to lend
-* Term \(days\) \(e.g. 7, 14, 30 days\): The period over which the Borrower wants to borrow or the period over which the Lender wants to lend
-* Collateral \(e.g BTC\): The asset that the Borrower will deposit as a security for the loan or the asset that the Lender accepts as security for extending the loan
-* Interest Rate \(annually, e.g. 10%\): The amount above the principle that the Lender charges the Borrower or the amount above the principal that the Borrower is willing to pay the Lender for the loan. The interest rate is set by the Lender/Borrower at the time the LEND/BORROW order is created.
-* Side: \(LEND/BORROW\)
+* Base token (e.g. USDT): The asset that the Borrower wants to borrow or the asset that the Lender wants to lend
+* Term (days) (e.g. 7, 14, 30 days): The period over which the Borrower wants to borrow or the period over which the Lender wants to lend
+* Collateral (e.g BTC): The asset that the Borrower will deposit as a security for the loan or the asset that the Lender accepts as security for extending the loan
+* Interest Rate (annually, e.g. 10%): The amount above the principle that the Lender charges the Borrower or the amount above the principal that the Borrower is willing to pay the Lender for the loan. The interest rate is set by the Lender/Borrower at the time the LEND/BORROW order is created.
+* Side: (LEND/BORROW)
 * Amount: The quantity of the base asset that the Borrower wants to borrow or the quantity of the base asset that the Lender wants to lend.
 * Signature
 
@@ -125,7 +125,7 @@ MCP: Market price of the collateralized asset at the time the trade is created.
 
 #### 5.3. Orderbook
 
-An order book is an aggregate list of the number of LEND and BORROW orders that have been placed at a particular term for a base token.  
+An order book is an aggregate list of the number of LEND and BORROW orders that have been placed at a particular term for a base token.\
 
 
 #### 5.4. Matching
@@ -148,14 +148,14 @@ $$
 
 * I: Interest
 * F: The original amount borrowed
-* T: Term \(days\) \(e.g. 1 days, 14 days, 30 days …\)
+* T: Term (days) (e.g. 1 days, 14 days, 30 days …)
 * R: Annual interest rate 
 
 ### 7. Prepayment
 
 Prepayment is the early repayment of a loan by the Borrower. No partial repayment is allowed. 
 
-If the Borrower decides to pay off the loan early, aside from the normal interest he has to pay until that point, he will be charged a prepayment penalty \(which is equal to half of the interest he would have had to pay from that point till the maturity date\).
+If the Borrower decides to pay off the loan early, aside from the normal interest he has to pay until that point, he will be charged a prepayment penalty (which is equal to half of the interest he would have had to pay from that point till the maturity date).
 
 The prepayment interest is calculated as follows:
 
@@ -165,7 +165,7 @@ $$
 
 * I: Interest
 * F: The original loan amount
-* T: Term \(days\) \(1 days, 30 days …\)
+* T: Term (days) (1 days, 30 days …)
 * T1: The number of days borrowed.
 * R: Annual Interest rate
 
@@ -179,7 +179,7 @@ $$
 
 The status of a trade will be updated from “Open” to “Liquidated” if:
 
-* The market value of the collateral falls to the liquidation value \(see Section 4. Liquidation for more detail\), or
+* The market value of the collateral falls to the liquidation value (see Section 4. Liquidation for more detail), or
 * The Borrower fails to repay the loan by the due date
 
 The status of a trade will be updated from “Open” to “Closed” if the Borrower repays the loan by the due date.
@@ -196,7 +196,7 @@ The job will perform the following:
 
 **8.2.1. Recall excess**
 
-Recall Rate: 200% \(By default\)
+Recall Rate: 200% (By default)
 
 By default, TomoX will support recall excess automatically.
 
@@ -208,25 +208,25 @@ Recall Price = Liquidation Price \* Recall Rate
 
 New Liquidation Price = collateral Price \* liquidation rate / deposit rate
 
-New Locked Amount =  Old Locked Amount \* \( Old Liquidation Price/New Liquidation Price\)
+New Locked Amount =  Old Locked Amount \* ( Old Liquidation Price/New Liquidation Price)
 
 Recall Rate is set/adjusted by Moderator.
 
 **8.2.2. Top Up**
 
-Allows the Borrower to deposit more collateral into the loan.  
+Allows the Borrower to deposit more collateral into the loan.\
 
 
 **8.2.3. Auto Top-Up**
 
 By default, TomoX will automatically top up additional collateral from the Borrower’s wallet if the market price of the collateral falls to or below the Liquidation Price. 
 
-The amount of the Top-Up will be calculated by the following formula to make sure the new Liquidation Price is equal to 90% of the market price of the collateralized asset.  
+The amount of the Top-Up will be calculated by the following formula to make sure the new Liquidation Price is equal to 90% of the market price of the collateralized asset.\
 
 
 New Liquidation Price = 90% Current Collateral Market Price
 
-New Locked Amount =  Old Locked Amount \* \( Old Liquidation Price/New Liquidation Price\)
+New Locked Amount =  Old Locked Amount \* ( Old Liquidation Price/New Liquidation Price)
 
 TopUp Amount = New Locked Amount - Old Locked Amount
 
@@ -250,4 +250,3 @@ The 25,000 TOMO deposit of the Relayer Owner will be divided into 2 parts:
 * Locked Funds: 20,000 TOMO will be locked and only be available for withdrawal 30 days after the relayer owner makes a decision to resign. 
 * Trading Fee Fund: 5,000 TOMO will be used for paying network fees, and be deducted from as fees are sent to masternodes for handling trades and order processing
 {% endhint %}
-

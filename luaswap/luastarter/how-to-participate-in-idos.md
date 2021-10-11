@@ -6,7 +6,7 @@ description: >-
 
 # How to participate in IDOs
 
-![](broken-reference)
+![](<../../.gitbook/assets/image (111).png>)
 
 ## IDO status: upcoming 
 
