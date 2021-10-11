@@ -36,14 +36,11 @@ Once the IDO pool is open, users can find the minimum guaranteed allocation of t
 
 Part of the IDO token supply, if not all, will be first allocated to meet the minimum guaranteed allocation of all the tier members who have made a commitment. 
 
-The remaining supply will be allocated to all the participants who have committed more than the minimum allocation on a first-come, first-served basis. 
-
-![](https://lh3.googleusercontent.com/1wgaEKr-hXXhbbqB93G74OLRxjpVNAhlpUkhVTUFLdp_j5dxFklIqHigbqtj_Xn0C6of3j8n_UlcFnB8weIBL04Gfz96RR1eVlAf4Histb1A8mAYdr-ckn2j8QgX73W12jorQtiU=s0)
-
-\
+The remaining supply will be allocated to all the participants who have committed more than the minimum allocation on a first come, first served basis. \
 
 
 **Tutorials:**
 
 * [**How to stake LUA in LuaSafe**](https://docs.tomochain.com/luaswap/luasafe)
 * [**How to add liquidity on LuaSwap**](https://docs.tomochain.com/luaswap/tutorial/how-to-add-remove-liquidity-on-luaswap)
+
