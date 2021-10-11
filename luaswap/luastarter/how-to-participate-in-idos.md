@@ -6,6 +6,8 @@ description: >-
 
 # How to participate in IDOs
 
+![](broken-reference)
+
 ## IDO status: upcoming 
 
 **Step 1: Log into LuaStarter & activate your profile  **
