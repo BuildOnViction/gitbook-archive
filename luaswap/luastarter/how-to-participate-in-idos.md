@@ -12,7 +12,7 @@ description: >-
 
 **Step 1: Log into LuaStarter & activate your profile  **
 
-Go to [https://app.luaswap.org/ido#/idos?network=tomochain](https://app.luaswap.org/ido#/idos?network=tomochain)
+Go to [https://app.luaswap.org/ido#/idos](https://app.luaswap.org/ido#/idos)
 
 ![](https://lh4.googleusercontent.com/E6OrImf7332yF8ypMq6Y6qIIzm8Ny-IckwVaSX91ZggJAQZwYTiko8vskpthUgA5mu8cJK5HoMaop2gV4IzK_U079vVAJVuOVENPvxBLRRwzbaWJOOtnMsRPzb0QakBSfE2bk7zH=s0)
 
