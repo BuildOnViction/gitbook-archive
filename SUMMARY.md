@@ -87,6 +87,7 @@
   * [LuaStarter](luaswap/luastarter/README.md)
     * [Tier requirements & allocation](luaswap/luastarter/tier-requirements-and-allocation.md)
     * [How to participate in IDOs](luaswap/luastarter/how-to-participate-in-idos.md)
+    * [IDO FAQs](luaswap/luastarter/ido-faqs.md)
     * [Legal Information & Notices](luaswap/luastarter/legal-information-and-notices.md)
   * [FAQ](luaswap/faq.md)
   * [Fee structure](luaswap/fee-structure.md)

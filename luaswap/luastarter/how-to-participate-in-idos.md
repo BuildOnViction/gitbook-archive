@@ -20,6 +20,10 @@ Connect your wallet via “Metamask” or “WalletConnect”
 
 ![](https://lh5.googleusercontent.com/APIxwsDPf9QVWImFPQZ8aWTLQ9wYZdm4x71XOmL1WkTW_FH8w0yntZuX51oQb\_4SfCZYnXy9BVmMhdnyedLiXrAayMhWrgjphAU4GP_F\_\_3FpQJu9JhWQCJRb2eH-XYx4slziZu4=s0)
 
+Fill in your email and click into the box to confirm that you agree with our Terms of use & Privacy Policy
+
+![](broken-reference)
+
 **Step 2: Qualify for a tier **
 
 > _This is an optional step. If you are not qualified for any tier, you may still be able to participate in the IDO, but your allocation can not be guaranteed as priority will be given to tier members._
