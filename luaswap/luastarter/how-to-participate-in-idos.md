@@ -22,7 +22,7 @@ Connect your wallet via “Metamask” or “WalletConnect”
 
 Fill in your email and click into the box to confirm that you agree with our Terms of use & Privacy Policy
 
-![](broken-reference)
+![](<../../.gitbook/assets/Screen Shot 2021-10-14 at 11.01.05 (1).png>)
 
 **Step 2: Qualify for a tier **
 
