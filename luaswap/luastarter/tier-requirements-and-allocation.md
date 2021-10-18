@@ -17,7 +17,7 @@ _\*the LP tokens staked in farming pools must be unstaked before the deadline._
 
 Users are required to have their LUA tokens staked in **LuaSafe** or added in **LUA-TOMO(E)\*** liquidity pool (either **TomoChain** or **Ethereum**) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token
 
-LUA tokens must be added in the designated protocols at least **7 days** before and remain staked until the IDO opens.
+LUA tokens must be added in the designated protocols at least** 3 days** before and remain staked until the IDO opens.
 
 ![](<../../.gitbook/assets/image (110).png>)
 

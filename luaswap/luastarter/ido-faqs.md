@@ -57,7 +57,7 @@ No, you don't need to register for each IDO. You just need to register once by c
 
 #### 5. I have registered for an upcoming IDO with a certain amount of LUA already staked. If I purchase more LUA and stake them after registration, will my tier be upgraded?
 
-Yes, if the number of LUA reaches the requirements of the next tier 7 days prior to the IDO launch. [Follow this guide for more details.](tier-requirements-and-allocation.md) 
+Yes, if the number of LUA reaches the requirements of the next tier 3 days prior to the IDO launch. [Follow this guide for more details.](tier-requirements-and-allocation.md) 
 
 #### 6. For the participants in the same tier, would those with a higher staking/holding amount have a higher token allocation?
 
@@ -71,7 +71,7 @@ Please follow [this tutorial](https://docs.tomochain.com/luaswap/luastarter/how-
 
 #### 2. How long do I have to stake my LUA to be qualified for a tier?
 
-Your LUA tokens should be staked in LuaSafe or added in LUA-TOMO(E) liquidity pool on TomoChain or Ethereum at least 7 days before IDO opens, and remain held throughout the 7 days.
+Your LUA tokens should be staked in LuaSafe or added in LUA-TOMO(E) liquidity pool on TomoChain or Ethereum at least 3 days before IDO opens, and remain held throughout the 3 days.
 
 #### 3. What are the tiers of LuaStarter?
 
@@ -89,7 +89,7 @@ Community tier members also can commit to buy IDO tokens without a guarateed all
 
 #### 4. Do I need to unstake/restake for each IDO?
 
-No. You'll be automatically registered for all the IDOs as long as you have activated your profile, and have enough LUA staked in the designated protocols at least 7 days before the IDO launch.
+No. You'll be automatically registered for all the IDOs as long as you have activated your profile, and have enough LUA staked in the designated protocols at least 3 days before the IDO launch.
 
 #### 5. When will I find out about my guaranteed allocation?
 
@@ -107,13 +107,13 @@ Scroll down the page, click on “Add token” button to add the IDO token into 
 
 #### 8. Can I buy more tokens than the guaranteed number of tokens?
 
-You can, but not sure. You may need to upgrade your tier 7 days before the IDO starts to increase the guaranteed number of tokens you want to own. You still have the option not to upgrade your tier, and commit the maximum number of tokens calculated by the TGS model, and wait for the result. If there is any member who does not execute the right to buy, its right will transfer to other tier members who commit first.
+You can, but not sure. You may need to upgrade your tier 3 days before the IDO starts to increase the guaranteed number of tokens you want to own. You still have the option not to upgrade your tier, and commit the maximum number of tokens calculated by the TGS model, and wait for the result. If there is any member who does not execute the right to buy, its right will transfer to other tier members who commit first.
 
 It's possible but not guaranteed. Only when the guaranteed allocations are not sold out, then it'll be offered to the general public on a first-come, first-served basis.
 
 #### 9. When can I unstake my LUA tokens after joining the IDO?
 
-You can unstake the LUA tokens anytime you want. But if you unstake your LUA within 7 days before the IDO starts, you may lose your tier position.
+You can unstake the LUA tokens anytime you want. But if you unstake your LUA within 3 days before the IDO starts, you may lose your tier position.
 
 ## Projects launching on LuaStarter
 

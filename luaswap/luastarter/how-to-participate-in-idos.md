@@ -56,7 +56,7 @@ To find your current tier, you’ll need to calculate how much LUA you have adde
 
 ![](https://lh6.googleusercontent.com/iO8RaPllQU51qhTdMks4sPltbWaR1MCUB2DIWE0\_hBsKB6UTT62Muq7fykyMj4xzGAbhuj1SVVG8whXXQeNv42jskfsyX2kBpSgaaFbg1LPSzqGz4h_WBcZus9rx-dRvdGs2xmQj=s0)
 
-> LUA tokens must be added in **LuaSafe** or **LUA-TOMO(E) pool** (on **TomoChain** or **Ethereum**) at least **7 days** before, and remain held until the IDO opens to be qualified for a tier, and have a secured allocation.
+> LUA tokens must be added in **LuaSafe** or **LUA-TOMO(E) pool** (on **TomoChain** or **Ethereum**) at least **3 days** before, and remain held until the IDO opens to be qualified for a tier, and have a secured allocation.
 
 ## IDO status: open 
 
