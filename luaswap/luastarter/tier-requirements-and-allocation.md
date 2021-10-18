@@ -36,7 +36,7 @@ Once the IDO pool is open, users can find the minimum guaranteed allocation of t
 
 Part of the IDO token supply, if not all, will be first allocated to meet the minimum guaranteed allocation of all the tier members who have made a commitment. 
 
-The remaining supply will be allocated to all the participants who have committed more than the minimum allocation on a first come, first served basis. \
+The remaining supply of each tier will be allocated to members of the same tier first. Then any unsold supply will be allocated to other tier members from the highest to the lowest tier. Orders of the same tier will be filled on a first come, first served basis.\
 
 
 **Tutorials:**

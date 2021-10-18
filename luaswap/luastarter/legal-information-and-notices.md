@@ -8,7 +8,7 @@ _This Terms of Use is a legal agreement between you (referred to herein as "the 
 
 1.1. This Terms of Use is a legal agreement between you (referred to herein as "the User" or "your") and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (referred to herein as “the Company”, “we”, “us” or “our”).
 
-1.2. By using any of the Services, you understand and agree that the Site (defined below) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform on Ethereum and TomoChain public blockchain. 
+1.2. By using any of the Services, you understand and agree that the Site (defined below) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform supporting Ethereum, TomoChain public blockchain and Binance Smart Chain. 
 
 1.3. By using any of the Services, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data. For avoidance of doubt, any and all terms, conditions, licenses, limitations, and obligations contained within and on the Site are incorporated into these Terms of Use by reference. In the event of any inconsistency between these Terms of Use and any other pages or policies on the Site, these Terms of Use shall prevail.
 
@@ -29,7 +29,7 @@ _This Terms of Use is a legal agreement between you (referred to herein as "the 
 
 * "Digital Assets" means blockchain-based assets or rights, or other similar digital representations of rights or assets;
 * “IDO” means Initial DEX Offerings or Initial Decentralized Exchange Offerings.
-* “LuaStarter” means a multi-chain IDO platform on Ethereum and TomoChain based on a new Tier Guaranteed System Model.
+* “LuaStarter” means a multi-chain IDO platform on Ethereum, TomoChain and Binance Smart Chain based on a new Tier Guaranteed System Model.
 * "Services" means any of the services, functions, or features offered from time to time on or through the Site, which include the accessibility to the new IDO token offered from each IDO fundraising project, staking service and other relevant services available through Site, which may be subject to periodic revision.
 * "Site" means the Internet website [https://starter.luaswap.org/](https://starter.luaswap.org).
 * “TomoChain” means the TomoChain public blockchain secured by the Masternode Infrastructure.

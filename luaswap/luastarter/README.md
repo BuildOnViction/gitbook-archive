@@ -1,16 +1,16 @@
 ---
 description: >-
-  A Multi-chain Initial DEX Offering platform on Ethereum and TomoChain based on
-  a new Tier Guaranteed System Model
+  A Multi-chain Initial DEX Offering platform supports TomoChain, Ethereum and
+  Binance Smart Chain based on a new Tier Guaranteed System Model
 ---
 
 # LuaStarter
 
 ### 1. What is LuaStarter?
 
-LuaStarter is a multi-chain Initial DEX Offering platform on Ethereum and TomoChain based on a new Tier Guaranteed System Model. 
+LuaStarter is a multi-chain Initial DEX Offering platform supports TomoChain, Ethereum and Binance Smart Chain based on a new Tier Guaranteed System Model. 
 
-![](<../../.gitbook/assets/screenshot\_2 (8).png>)
+![](../../.gitbook/assets/Screenshot\_3.png)
 
 ### 2. What are the problems LuaStarter trying to solve?
 
@@ -28,13 +28,13 @@ Hence, LuaStarter introduces The Tier Guaranteed System model built on SEAT mech
 
 ### 4. What are the tier guaranteed system?
 
-There are fixed 3+1 tier systems based on the total number of tokens and LP-tokens equivalent, enabling all token holders the right to participate in IDO projects. Tokens are allocated to each tier group based on fixed pool weight. 
+There are fixed 4+1 tier systems based on the total number of tokens and LP-tokens equivalent, enabling all token holders the right to participate in IDO projects. Tokens are allocated to each tier group based on fixed pool weight. 
 
-![](<../../.gitbook/assets/screenshot\_3 (5).png>)
+![](../../.gitbook/assets/Screenshot\_4.png)
 
 ### 5. How to launch project on LuaStarter?
 
-LuaStarter aims for projects which comprehensively demonstrate novel utility on Ethereum and Tomochain ecosystem, then expanding to other chains’ ecosystem such as Polkadot, Binance Smart Chain, Polygon, etc…
+LuaStarter aims for projects which comprehensively demonstrate novel utility on Ethereum, Tomochain and Binance Smart Chain ecosystem, then expanding to other chains’ ecosystem such as Polkadot, Polygon, etc…
 
 The project must undergo an intense process including:
 
@@ -44,7 +44,7 @@ The project must undergo an intense process including:
 * Due diligence check
 * Final security check
 
-### **6. **[LuaStarter's whitepaper](https://bit.ly/LuaStarter_Whitepaper_V3) (updated 24 Sep, 2021) ****
+### **6.**[** **LuaStarter's whitepaper](https://drive.google.com/file/d/1Wd0xhR6TkN9H51stQ1hWhMFfTMs5lNxn/view) (updated 15 Oct, 2021) ****
 
 ##
 
