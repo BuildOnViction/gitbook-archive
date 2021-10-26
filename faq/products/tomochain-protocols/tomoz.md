@@ -22,11 +22,12 @@ TomoZ removes the friction of having to hold native blockchain coins/tokens to s
 
 ### **What is the difference between the TRC21 and TRC20 token standards?**
 
-TRC21 is an on-chain token standard integrated within the TomoZ protocol. TRC21 is an extension of the TRC20 smart contract token standard that allows fees to be paid for by the token itself. The TRC20 standard requires token holders to pay for transaction fees with the native TomoChain blockchain token \(TOMO\). 
+TRC21 is an on-chain token standard integrated within the TomoZ protocol. TRC21 is an extension of the TRC20 smart contract token standard that allows fees to be paid for by the token itself. The TRC20 standard requires token holders to pay for transaction fees with the native TomoChain blockchain token (TOMO).&#x20;
 
 ### **How does the TRC21 token affect the native TOMO token?**
 
 It is important to note that TRC21 tokens do not affect the role of the native TOMO token within TomoChain. Ultimately, all fees are paid for in TOMO behind the scenes. The TRC21 standard merely relieves the end-user of the responsibility to hold TOMO and shifts it to the token issuer instead. By removing this key point of friction, TomoChain opens up many new avenues on the path to mass adoption of blockchain technology.
 
-## Read more at [TomoZ white paper](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?ts=5cf09ed4#heading=h.af80tl7prv5v).   
+Read more at [TomoZ white paper](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?ts=5cf09ed4#heading=h.af80tl7prv5v). \
+\
 
