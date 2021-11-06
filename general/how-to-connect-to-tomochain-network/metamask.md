@@ -14,13 +14,13 @@ First install the [MetaMask Extension](https://metamask.io) on Chrome or Brave b
 
 **Step 2:** When the Settings screen pops up, scroll down to `New Network` and click `Show Advanced Options`. Enter the following information, then Save:
 
-|                    | **Mainnet**                  | **Testnet**                          |
-| ------------------ | ---------------------------- | ------------------------------------ |
-| New RPC URL        | `https://rpc.tomochain.com`  | `https://rpc.testnet.tomochain.com`  |
-| ChainID            | `88 or 0x58`                 | `89`                                 |
-| Symbol             | `TOMO`                       | `TOMO`                               |
-| Nickname           | `TomoChain`                  | `TomoChain Testnet`                  |
-| Block Explorer URL | `https://scan.tomochain.com` | `https://scan.testnet.tomochain.com` |
+|                    | **Mainnet**                 | **Testnet**                          |
+| ------------------ | --------------------------- | ------------------------------------ |
+| New RPC URL        | `https://rpc.tomochain.com` | `https://rpc.testnet.tomochain.com`  |
+| ChainID            | `88 or 0x58`                | `89`                                 |
+| Symbol             | `TOMO`                      | `TOMO`                               |
+| Nickname           | `TomoChain`                 | `TomoChain Testnet`                  |
+| Block Explorer URL | `https://tomoscan.io`       | `https://scan.testnet.tomochain.com` |
 
 
 
