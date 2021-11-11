@@ -8,7 +8,7 @@ description: >-
 
 
 
-![](<../../.gitbook/assets/image (111).png>)
+![](<../../.gitbook/assets/image (111) (1).png>)
 
 ## IDO status: upcoming&#x20;
 
@@ -30,13 +30,19 @@ Fill in your email and click into the box to confirm that you agree with our Ter
 
 > _This is an optional step. If you are not qualified for any tier, you may still be able to participate in the IDO, but your allocation can not be guaranteed as priority will be given to tier members._
 
+Users need to hold LUA tokens in **LuaSafe** or **LUA-TOMO(E) pool** (on **TomoChain** or **Ethereum**) from at least **3 days** before the IDO, to the IDO opening time to be qualified for a tier, and have a secured allocation.
+
+The tier qualification process will ALWAYS take place on TomoChain and Ethereum regardless of the network of the IDO project.
+
+![](<../../.gitbook/assets/image (115).png>)
+
 Click on the IDO pool that you want to participate in.
 
-![](https://lh6.googleusercontent.com/XTtgXMPl4lSNa8rPOTlgunOUy\_xWNF\_ii2V02JhPNWrUU6BUz1mfxxQ0iuKj4BwRw8hJ5p3HSwkNamQMsNqtkMLCnHjeZDKLUTD1Q2VnFER5By-Ca9gqHH\_aDu7IEqzI94OZsW\_d=s0)
+![](<../../.gitbook/assets/image (113).png>)
 
 You will find the instructions and your current tier at the bottom.
 
-![](<../../.gitbook/assets/image (112).png>)
+![](<../../.gitbook/assets/image (112) (1).png>)
 
 To find how much LUA you have that can be counted for tier qualification, click on “**Portfolio**” on the side menu.
 
@@ -44,13 +50,13 @@ To find how much LUA you have that can be counted for tier qualification, click 
 
 For LUA added in LUA-TOMO(E) liquidity pool:&#x20;
 
-**LUA equivalency for tier classification = LUA in the liquidity pool x 2**
+**LUA equivalency for tier qualification = LUA in the liquidity pool x 2**
 
 ![](https://lh4.googleusercontent.com/WqPLeMv\_qQgjYKTxTnzd6kzuihkWrx5Fvu53h1Q4Qc\_aKBwft1fnjy7OxRFEb43srjl4y6\_BFQ2-ET\_dbtSd2K416UEfpfhQLOTXYgi3duoFFKeOYwXVcM2K3\_8ow436RwhK-fja=s0)
 
 For LUA staked in LuaSafe:&#x20;
 
-**LUA equivalency for tier classification = LUA staked in LuaSafe**
+**LUA equivalency for tier qualification = LUA staked in LuaSafe**
 
 ![](https://lh4.googleusercontent.com/Rh3nNQsYapuTIRlFJhVlOB0S\_KSKFG7S7TComu-sX0lcHHiXLqNku-kvQcsxc4k9RL4K4nZ0RfH\_T9yW9bY-Yg35Je9WiLCB6BImVBn6VHPLvRtuhob6iq9pN2EImKeMpsZIQVEl=s0)
 
@@ -59,8 +65,6 @@ The above would give you how much LUA you have. You can compare it against the [
 If you’d like to be qualified for a higher tier, click on “[**LuaSafe**](https://app.luaswap.org/#/lua-safe)” or “[**Pool**](https://app.luaswap.org/#/add/TOMO/0x7262fa193e9590B2E075c3C16170f3f2f32F5C74)” on the left side menu to add LUA into the eligible protocols, or click on “[**Swap**](https://app.luaswap.org/#/swap/)” to buy more LUA tokens if needed.
 
 ![](https://lh6.googleusercontent.com/iO8RaPllQU51qhTdMks4sPltbWaR1MCUB2DIWE0\_hBsKB6UTT62Muq7fykyMj4xzGAbhuj1SVVG8whXXQeNv42jskfsyX2kBpSgaaFbg1LPSzqGz4h\_WBcZus9rx-dRvdGs2xmQj=s0)
-
-> LUA tokens must be added in **LuaSafe** or **LUA-TOMO(E) pool** (on **TomoChain** or **Ethereum**) at least **3 days** before, and remain held until the IDO opens to be qualified for a tier, and have a secured allocation.
 
 After the snapshot is done, you will be able to check the IDO opening time and details of the IDO project.&#x20;
 
@@ -72,13 +76,15 @@ After the snapshot is done, you will be able to check the IDO opening time and d
 
 **Step 3: Commit to buy IDO tokens **
 
-Once the IDO is open, you can find the IDO project in the opening pools.&#x20;
+Once the IDO is open, you can find the IDO project in the opening pools. Switch your wallet network to the network of the IDO project.&#x20;
 
-![](https://lh4.googleusercontent.com/sU9qKA-l99Tjhim9bqodk6iZlE6TL\_FOl2QpS7cHCmeCGwr1XDK\_q9SwaaCsjNHThfRlstD\_ZKdUIV3K43z3EH1mHUJqyXfulZ1UNJkrEikF-jbjGUuDnSCDiqNCizkWQCCE8HMH=s0)
+We suggest using Metamask or wallets that generate the same address across different networks, as the address that you use for staking and buying has to be the same.&#x20;
+
+![](<../../.gitbook/assets/image (114).png>)
 
 You can start to commit the accepted cryptocurrency to buy the IDO tokens before the indicated deadline. You can commit as many times as you like, and any amount between 0 and the maximum allocation, which is proportional to the minimum guaranteed allocation.
 
-The overcommitted amount will be filled on a first-come, first-served basis.&#x20;
+The amount exceeding your guaranteed allocation will be filled on a first-come, first-served basis.&#x20;
 
 ![](https://lh3.googleusercontent.com/1wgaEKr-hXXhbbqB93G74OLRxjpVNAhlpUkhVTUFLdp\_j5dxFklIqHigbqtj\_Xn0C6of3j8n\_UlcFnB8weIBL04Gfz96RR1eVlAf4Histb1A8mAYdr-ckn2j8QgX73W12jorQtiU=s0)
 
