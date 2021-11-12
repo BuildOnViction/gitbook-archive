@@ -6,13 +6,13 @@ In this tutorial, we will walk you through how to resolve the issue and particip
 
 ![](<../../.gitbook/assets/image (112).png>)
 
-#### Step 1: Get your recovery phrase from Trust Wallet&#x20;
+### Step 1: Get your recovery phrase from Trust Wallet&#x20;
 
 Go to your Trust Wallet app and select "**Settings**" -> "**Wallets**" -> “**⋮**” icon (on the right end of your wallet) -> "**Show Recovery Phrase**".&#x20;
 
 Write down the 12 word recovery phrase at a safe place that no one else can access.
 
-#### Step 2: Import to TomoWallet & acquire the private key
+### Step 2: Import to TomoWallet & acquire the private key
 
 For iOS users, you can download the [TomoWallet](https://apps.apple.com/us/app/tomo-wallet/id1436476145) app on the App Store. Android user will need to go to [wallet.tomochain.com](https://wallet.tomochain.com) on your computer, as the Android app is currently unavailable.
 
