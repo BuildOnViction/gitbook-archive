@@ -137,7 +137,7 @@ tomo account list --datadir $DATA_DIR  --keystore $KEYSTORE_DIR
 * $NETWORK\_ID: the networkId. Mainnet: 88. Testnet: 89
 * $BOOTNODES: The comma separated list of bootnodes. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet#bootnodes)
 * $WS\_SECRET: The password to send data to the stats website. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet#stats-websocket-secret)
-* $NETSTATS\_HOST: The stats website to report to, regarding to your environment. Find them [here](https://docs.tomochain.com/general/networks/)
+* $NETSTATS\_HOST: The stats website to report to, regarding to your environment. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet#stats-websocket-secret)
 * $NETSTATS\_PORT: The port used by the stats website (usually 443)
 
 **Let's start a node**
