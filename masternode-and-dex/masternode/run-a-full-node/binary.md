@@ -6,51 +6,51 @@ description: >-
 
 # Binary
 
-### Install Golang <a id="install-golang"></a>
+### Install Golang <a href="install-golang" id="install-golang"></a>
 
 * Reference: https://golang.org/doc/install
 * Set environment variables
 * Supports Go 1.10, 1.11, 1.12
 
-```text
+```
 export GOROOT=$HOME/usr/local/go
 export GOPATH=$HOME/go
 ```
 
-### Prepare tomo client software <a id="prepare-tomo-client-software"></a>
+### Prepare tomo client software <a href="prepare-tomo-client-software" id="prepare-tomo-client-software"></a>
 
 **Build from source code¶**
 
 Create new directory for the project
 
-```text
+```
 mkdir -p $GOPATH/src/github.com/tomochain/
 cd $GOPATH/src/github.com/tomochain/
 ```
 
 * Download source code and build
 
-```text
+```
 git clone https://github.com/tomochain/tomochain.git tomochain
 cd tomochain
 ```
 
-* Checkout the latest version \(e.g v2.2.4\)
+* Checkout the latest version (e.g v2.2.4)
 
-```text
+```
 git pull origin --tags
 git checkout v2.2.4
 ```
 
 * Build the project
 
-```text
+```
 make all
 ```
 
 * Binary file should be generated in build folder `$GOPATH/src/github.com/tomochain/tomochain/build/bin`
 
-```text
+```
 alias tomo=$GOPATH/src/github.com/tomochain/tomochain/build/bin/tomo
 ```
 
@@ -58,56 +58,56 @@ alias tomo=$GOPATH/src/github.com/tomochain/tomochain/build/bin/tomo
 
 Download tomo binary from our [releases page](https://github.com/tomochain/tomochain/releases)
 
-```text
+```
 alias tomo=path/to/tomo/binary
 ```
 
-### Download genesis block <a id="download-genesis-block"></a>
+### Download genesis block <a href="download-genesis-block" id="download-genesis-block"></a>
 
 $GENESIS\_PATH : location of genesis file you would like to put
 
-```text
+```
 export GENESIS_PATH=path/to/genesis.json
 ```
 
 * Testnet
 
-```text
+```
 curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/testnet.json -o $GENESIS_PATH
 ```
 
 * Mainnet
 
-```text
+```
 curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/mainnet.json -o $GENESIS_PATH
 ```
 
-### Create datadir <a id="create-datadir"></a>
+### Create datadir <a href="create-datadir" id="create-datadir"></a>
 
 * create a folder to store tomochain data on your machine
 
-```text
+```
 export DATA_DIR=/path/to/your/data/folder
 mkdir -p $DATA_DIR/tomo
 ```
 
-### Initialize the chain from genesis <a id="initialize-the-chain-from-genesis"></a>
+### Initialize the chain from genesis <a href="initialize-the-chain-from-genesis" id="initialize-the-chain-from-genesis"></a>
 
-```text
+```
 tomo init $GENESIS_PATH --datadir $DATA_DIR
 ```
 
-### Initialize / Import accounts for the nodes's keystore <a id="initialize-import-accounts-for-the-nodess-keystore"></a>
+### Initialize / Import accounts for the nodes's keystore <a href="initialize-import-accounts-for-the-nodess-keystore" id="initialize-import-accounts-for-the-nodess-keystore"></a>
 
-If you already had an existing account, import it. Otherwise, please initialize new accounts 
+If you already had an existing account, import it. Otherwise, please initialize new accounts&#x20;
 
-```text
+```
 export KEYSTORE_DIR=path/to/keystore
 ```
 
 **Initialize new accounts**
 
-```text
+```
 tomo account new \
     --password [YOUR_PASSWORD_FILE_TO_LOCK_YOUR_ACCOUNT] \
     --keystore $KEYSTORE_DIR
@@ -115,7 +115,7 @@ tomo account new \
 
 **Import accounts**
 
-```text
+```
 tomo account import [PRIVATE_KEY_FILE_OF_YOUR_ACCOUNT] \    
     --keystore $KEYSTORE_DIR \
     --password [YOUR_PASSWORD_FILE_TO_LOCK_YOUR_ACCOUNT]
@@ -123,11 +123,11 @@ tomo account import [PRIVATE_KEY_FILE_OF_YOUR_ACCOUNT] \
 
 **List all available accounts in keystore folder**
 
-```text
+```
 tomo account list --datadir $DATA_DIR  --keystore $KEYSTORE_DIR
 ```
 
-### Start a node <a id="start-a-node"></a>
+### Start a node <a href="start-a-node" id="start-a-node"></a>
 
 **Environment variables**
 
@@ -135,14 +135,14 @@ tomo account list --datadir $DATA_DIR  --keystore $KEYSTORE_DIR
 * $PASSWORD: the password file to unlock your account
 * $YOUR\_COINBASE\_ADDRESS: address of your account which generated in the previous step
 * $NETWORK\_ID: the networkId. Mainnet: 88. Testnet: 89
-* $BOOTNODES: The comma separated list of bootnodes. Find them [here](https://docs.tomochain.com/general/networks/)
-* $WS\_SECRET: The password to send data to the stats website. Find them [here](https://docs.tomochain.com/general/networks/)
+* $BOOTNODES: The comma separated list of bootnodes. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet)
+* $WS\_SECRET: The password to send data to the stats website. Find them [here](https://docs.tomochain.com/developer-guide/working-with-tomochain/tomochain-mainnet)
 * $NETSTATS\_HOST: The stats website to report to, regarding to your environment. Find them [here](https://docs.tomochain.com/general/networks/)
-* $NETSTATS\_PORT: The port used by the stats website \(usually 443\)
+* $NETSTATS\_PORT: The port used by the stats website (usually 443)
 
 **Let's start a node**
 
-```text
+```
 tomo  --syncmode "full" \
     --announce-txs \
     --datadir $DATA_DIR --networkid $NETWORK_ID --port 30303 \
@@ -155,7 +155,7 @@ tomo  --syncmode "full" \
 
 If you are a dapp developer, you should open RPC and WS apis:
 
-```text
+```
 tomo  --syncmode "full" \
     --announce-txs \
     --datadir $DATA_DIR --networkid $NETWORK_ID --port 30303 \
@@ -171,7 +171,7 @@ tomo  --syncmode "full" \
 
 **Some explanations on the flags**
 
-```text
+```
 --verbosity: log level from 1 to 5. Here we're using 4 for debug messages
 
 --datadir: path to your data directory created above.
@@ -211,22 +211,22 @@ tomo  --syncmode "full" \
 
 To see all flags usage
 
-```text
+```
 tomo --help
 ```
 
-### See your node on stats page <a id="see-your-node-on-stats-page"></a>
+### See your node on stats page <a href="see-your-node-on-stats-page" id="see-your-node-on-stats-page"></a>
 
-* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com/)
-* Mainnet: [http://stats.tomochain.com](http://stats.tomochain.com/)
+* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com)
+* Mainnet: [https://stats.tomochain.com](http://stats.tomochain.com)
 
-### Troubleshoot <a id="troubleshoot"></a>
+### Troubleshoot <a href="troubleshoot" id="troubleshoot"></a>
 
 If your node seems run smooth with no error logs but still get slash frequently. You need to check system time on your node, your system time have to be synced from NTP server
 
 E.g:
 
-```text
+```
 $ timedatectl
 Local time: Fri 2019-07-26 05:57:40 CEST
   Universal time: Fri 2019-07-26 03:57:40 UTC
@@ -238,4 +238,3 @@ NTP synchronized: no
 ```
 
 `NTP synchronized: no` means your node does not use NTP, you have to enable it.
-
