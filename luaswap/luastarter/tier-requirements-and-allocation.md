@@ -21,9 +21,9 @@ LUA tokens must be added in the designated protocols at least **3 days** before 
 
 ![](<../../.gitbook/assets/image (110).png>)
 
-Each member’s minimum guaranteed allocation depends on one’s own pool weight, and the total pool size, which is the sum of every tier member’s pool weight.
+Each participant's minimum guaranteed allocation is based upon the weighting between the user and the total.
 
-_**Guaranteed allocation =  IDO token supply/pool size \* pool weight**_
+_**Guaranteed allocation =  IDO token supply x user's pool weight / total pool weight**_
 
 ## **Token Commitment & Allocation**
 
@@ -33,15 +33,11 @@ Once the IDO pool is open, users can find the minimum guaranteed allocation of t
 
 ### **Token Allocation**
 
-The IDO token supply will be divided up into several pools, one for each tier, depending on the ratio of the pool weight of each tier over the total pool weight of all users. The token supply of each pool will be allocated to all the users of the respective tier in several rounds on a first come, first served basis. A tier member will receive no more than his/her guaranteed allocation in each round. The allocation rounds will keep running until the IDO supply drains out or one’s committed amount is fully filled.
+Part of the IDO token supply, if not all, will be first allocated to meet the minimum guaranteed allocation of all the tier members who have made a commitment.&#x20;
 
-If there is any unsold supply in any tier, it will be allocated to other tiers from the highest to the lowest.
+The remaining supply of each tier will be allocated to members of the same tier on a first come, first served basis. Any unsold supply in a tier will be allocated to other tier members from the highest to the lowest tier.&#x20;
 
-**Example:**
 
-There is a total of 1,000 $SKY tokens allocated for the Moon Tier (Tier 2) at the price of 1 $USDT = 1 $SKY. There are 5 tier members and the minimum guaranteed allocation for each is 200 $SKY (= 200 $USDT).
-
-![](<../../.gitbook/assets/image (111).png>)
 
 **Tutorials:**
 
