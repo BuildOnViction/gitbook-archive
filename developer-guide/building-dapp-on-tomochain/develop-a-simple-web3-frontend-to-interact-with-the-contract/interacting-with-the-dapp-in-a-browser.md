@@ -2,7 +2,7 @@
 
 Now we’re ready to use our Dapp!
 
-### 1. Install and configure MetaMask <a href="4986" id="4986"></a>
+### 1. Install and configure MetaMask <a href="#4986" id="4986"></a>
 
 1. Install the [MetaMask browser extension](https://metamask.io) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
@@ -20,11 +20,11 @@ Now we’re ready to use our Dapp!
 
 We could use the TOMO wallet we created previously, but better **let’s create a new TOMO wallet** and add a few TOMO tokens — _you know how to do it_.
 
-7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account. **Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask
+7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask
 
 ![](https://miro.medium.com/max/60/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png?q=20)![](https://miro.medium.com/max/1298/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png)Importing a wallet
 
-### 2. Using the Dapp <a href="9432" id="9432"></a>
+### 2. Using the Dapp <a href="#9432" id="9432"></a>
 
 We will now start a local web server and interact with the Dapp. We’re using the `lite-server`. This shipped with the `pet-shop` Truffle box.
 
@@ -44,7 +44,7 @@ Normally, a MetaMask notification automatically requests a connection.
 
 3\. You’ll be automatically prompted to approve the transaction by MetaMask. Set some Gas and click **Confirm** to approve the transaction
 
-![](https://miro.medium.com/max/60/1\*KNOJi0WwGoYF7jy_AQz43Q.png?q=20)![](https://miro.medium.com/max/1378/1\*KNOJi0WwGoYF7jy_AQz43Q.png)Adoption transaction review
+![](https://miro.medium.com/max/60/1\*KNOJi0WwGoYF7jy\_AQz43Q.png?q=20)![](https://miro.medium.com/max/1378/1\*KNOJi0WwGoYF7jy\_AQz43Q.png)Adoption transaction review
 
 4\. You’ll see the button next to the adopted pet change to say **“Success”** and become disabled, just as we specified, because the pet has now been adopted.
 

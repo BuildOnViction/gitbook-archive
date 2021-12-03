@@ -24,11 +24,11 @@ TomoX is the core decentralized exchange protocol that sits as a technological l
 
 ### **How to become a DEX using TomoX?**
 
-Anyone can propose a DEX by depositing 25,000 TOMO on the TomoRelayer portal. 
+Anyone can propose a DEX by depositing 25,000 TOMO on the TomoRelayer portal.&#x20;
 
 A maximum number of 150 Relayers can be launched and run. New slot availability will only be possible when an existing Relayer resigns.
 
-### **What are the incentives to run a DEX? **
+### **What are the incentives to run a DEX?**&#x20;
 
 DEX operators can focus on marketing strategies to attract traders instead of worrying about the technical issues of maintaining an exchange. In addition DEXs on TomoX are non-custodial, making operations less risky. We believe that there should be an incentive mechanism distributing trading fees to Masternodes and DEX Operators. For example, a 50/50 sharing ratio between a Masternode and the Operator would be a reasonable option. However, this ratio is not hard-coded and can be negotiated between Masternodes and Relayers.
 
@@ -44,5 +44,5 @@ Trading fees on DEX are paid in tokens you are trading, which results in a smoot
 
 You can use [https://wallet.testnet.tomochain.com/](https://wallet.testnet.tomochain.com) to create an empty address
 
-## Read more at [TomoX white ](https://docs.google.com/document/d/1BuLe5Ci9yTTL_jCLz5eKoQsDGb6CKAyOy\_\_dht8sQkg/edit).
+## Read more at [TomoX white ](https://docs.google.com/document/d/1BuLe5Ci9yTTL\_jCLz5eKoQsDGb6CKAyOy\_\_dht8sQkg/edit).
 

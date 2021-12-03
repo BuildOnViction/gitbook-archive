@@ -1,14 +1,14 @@
 # Legal Information & Notices
 
-## Terms of use 
+## Terms of use&#x20;
 
-_This Terms of Use is a legal agreement between you (referred to herein as "the User" or "your") and TomoChain Lab Pte. Ltd. (UEN: 201716924E) _
+_This Terms of Use is a legal agreement between you (referred to herein as "the User" or "your") and TomoChain Lab Pte. Ltd. (UEN: 201716924E)_&#x20;
 
 ### **1. Introduction**
 
 1.1. This Terms of Use is a legal agreement between you (referred to herein as "the User" or "your") and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (referred to herein as “the Company”, “we”, “us” or “our”).
 
-1.2. By using any of the Services, you understand and agree that the Site (defined below) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform supporting Ethereum, TomoChain public blockchain and Binance Smart Chain. 
+1.2. By using any of the Services, you understand and agree that the Site (defined below) is only an interface for LuaStarter, a multi-chain Initial DEX Offering platform supporting Ethereum, TomoChain public blockchain and Binance Smart Chain.&#x20;
 
 1.3. By using any of the Services, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data. For avoidance of doubt, any and all terms, conditions, licenses, limitations, and obligations contained within and on the Site are incorporated into these Terms of Use by reference. In the event of any inconsistency between these Terms of Use and any other pages or policies on the Site, these Terms of Use shall prevail.
 
@@ -68,17 +68,17 @@ _This Terms of Use is a legal agreement between you (referred to herein as "the 
 
 (h) you will not use the Site or any Services in order to disguise the proceeds of, or to further, any breach of applicable laws or regulations, or to deal in any contraband digital assets or proceeds;
 
-(i) any trading or other instructions received or undertaken through your signature credentials are deemed to be valid, binding, and conclusive, and that the Company may act upon those instructions without any liability or responsibility attaching to it; 
+(i) any trading or other instructions received or undertaken through your signature credentials are deemed to be valid, binding, and conclusive, and that the Company may act upon those instructions without any liability or responsibility attaching to it;&#x20;
 
 (j) your use of the Services does not violate any laws or regulations applicable in your country of residence; and
 
-(k) you acknowledge and agree that if you lose access to the Wallet that you connected with LuaStarter, the Company will not be able to help you recover the loss, or transfer of IDO tokens back to your Wallet. It will be your sole responsibility to manage your account, and the private key. 
+(k) you acknowledge and agree that if you lose access to the Wallet that you connected with LuaStarter, the Company will not be able to help you recover the loss, or transfer of IDO tokens back to your Wallet. It will be your sole responsibility to manage your account, and the private key.&#x20;
 
-3.3. Each of the User’s Representation & Warranties under this Clause 3 shall survive and continue to remain in full force and effect after the termination and/or the expiration of these Terms.  
+3.3. Each of the User’s Representation & Warranties under this Clause 3 shall survive and continue to remain in full force and effect after the termination and/or the expiration of these Terms. &#x20;
 
 ### **4. Compliance with Tax Obligations**
 
-The users of our Services are solely responsible to determine what, if any, taxes apply to their transactions. The Company does not provide any advice or guidance in relation to tax or otherwise. The Company is NOT responsible for determining the taxes that apply to your transactions. It is your responsibility to ensure that any tax liabilities which you incur are paid to the relevant taxation authority. 
+The users of our Services are solely responsible to determine what, if any, taxes apply to their transactions. The Company does not provide any advice or guidance in relation to tax or otherwise. The Company is NOT responsible for determining the taxes that apply to your transactions. It is your responsibility to ensure that any tax liabilities which you incur are paid to the relevant taxation authority.&#x20;
 
 ### **5. Intellectual Property Rights**
 
@@ -206,7 +206,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 * breach of these Terms of Use;
 * any breach of your representations and warranties set forth in these Terms and Use;
 * any overt harmful act toward any other user of the Site with whom you connected via the Site.
-* the real or perceived value of any digital assets, or the price of any digital asset displayed on the Site at any time; 
+* the real or perceived value of any digital assets, or the price of any digital asset displayed on the Site at any time;&#x20;
 * any inaccurate, misleading, or incomplete statement by the Company or on the Site regarding your wallets, whether caused by the Company’s negligence or otherwise;
 * any failure, delay, malfunction, interruption, or decision (including any decision by the Company to vary or interfere with your rights) by the Company in operating the Site or providing any Service;
 * any stolen, lost, or unauthorized use of your wallet information any breach of security or data breach related to your wallet information, or any criminal or other third party act affecting the Company.
@@ -245,7 +245,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 
 18.2. These Terms of Use and any policies or operating rules posted by us on the Site constitute the entire agreement and understanding between you and us. Any failure by the Company to exercise or enforce any right or provision of these Terms of Use shall not operate as a waiver of such right or provision.
 
-18.3. These Terms of Use, and any of the rights, duties, and obligations contained herein, are not assignable by you without prior written consent of the Company. These Terms of Use operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time without notice or your consent. 
+18.3. These Terms of Use, and any of the rights, duties, and obligations contained herein, are not assignable by you without prior written consent of the Company. These Terms of Use operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time without notice or your consent.&#x20;
 
 18.4. If any provision or part of a provision of these Terms of Use is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Use and does not affect the validity and enforceability of any remaining provisions.
 
@@ -343,7 +343,7 @@ You are aware that if LuaStarter is ever involved in a merger, acquisition by an
 
 ### **8. Link to Other Third Parties**
 
-We are not responsible for the practices employed by websites linked to or from our Website or the information or content contained therein. 
+We are not responsible for the practices employed by websites linked to or from our Website or the information or content contained therein.&#x20;
 
 Please remember that when you use a link to go from our Website to another website, our Privacy Policy is no longer in effect. Your browsing and interaction on any other website, including websites, which have a link on our Website, is subject to that website’s own rules and policies. Please read over those rules and policies before proceeding.
 

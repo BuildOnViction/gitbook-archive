@@ -2,9 +2,9 @@
 
 **1. What are TomoChain Wrapped Tokens?**
 
-TomoChain Wrapped Tokens are tokens hosted on the TomoChain public blockchain, issued by TomoBridge Pte. Ltd. and backed by an equivalent amount of the underlying assets or currencies from a different blockchain. 
+TomoChain Wrapped Tokens are tokens hosted on the TomoChain public blockchain, issued by TomoBridge Pte. Ltd. and backed by an equivalent amount of the underlying assets or currencies from a different blockchain.&#x20;
 
-There are two types of TomoChain wrapped tokens including **TRC20 wrapped token** and **TRC21 wrapped token**. 
+There are two types of TomoChain wrapped tokens including **TRC20 wrapped token** and **TRC21 wrapped token**.&#x20;
 
 ### **2. Why do I need TomoChain Wrapped Tokens?**
 
@@ -15,19 +15,19 @@ TomoChain wrapped tokens can bring more liquidity from other blockchain networks
 
 Essentially, these two types of wrapped tokens are TRC20 and TRC21 standard tokens respectively. Check below for the differences between TRC20 and TRC21 tokens.
 
-**TRC20: **TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the extremely low transaction fees. 
+**TRC20:** TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the extremely low transaction fees.&#x20;
 
 TRC20 wrapped tokens can be easily integrated into other Dapps and get listed on exchanges. More Dapps and projects on TomoChain are expected to integrate and utilize TRC20 wrapped tokens in the future.
 
 TRC20 wrapped tokens can be traded on LuaSwap (TomoChain version). \
 ****
 
-**TRC21: **TRC21, powered by TomoZ Protocol, creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet. 
+**TRC21:** TRC21, powered by TomoZ Protocol, creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet.&#x20;
 
 TRC21 wrapped tokens can be traded on LuaSwap (TomoChain version) and all TomoX’s DEXs including TomoDEX (Though listing depends on each DEX's decision).\
 
 
-** **_**TRC20 wrapped token vs TRC21 wrapped token **_
+&#x20;** **_**TRC20 wrapped token vs TRC21 wrapped token**_&#x20;
 
 | _****_               | **TRC20 Wrapped Token** | **TRC21 Wrapped Token**  |
 | -------------------- | ----------------------- | ------------------------ |
@@ -67,7 +67,7 @@ Let’s say you sent a TRC21 token to an ERC20 address, then you can retrieve yo
 2. Add the TomoChain network to your wallet (follow [this guide](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network))
 3. Switch to the TomoChain network to retrieve your funds
 
-If the wallet you use doesn’t support multiple networks, below is an alternative solution: 
+If the wallet you use doesn’t support multiple networks, below is an alternative solution:&#x20;
 
 1. Log into your ERC20 wallet and export the Private Key. (It has to be the Private Key, not Mnemonics)
 2. Log into your [TomoWallet](https://wallet.tomochain.com/#/my-wallet) with the Private Key to retrieve your funds. (Instead of using TomoWallet, you can also choose to log into TomoDEX or TomoBridge so you can unwrap directly from there)

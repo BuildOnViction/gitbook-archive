@@ -30,7 +30,7 @@ ERC721 is a free, open standard that describes how to build non-fungible or uniq
 
 Some high demand non-fungible tokens are applications like [CryptoKitties](https://www.cryptokitties.co), [Decentraland](https://decentraland.org), [CryptoPunks](https://www.larvalabs.com/cryptopunks), and many [others](https://etherscan.io/tokens-nft).
 
-### CryptoKitties <a href="25ec" id="25ec"></a>
+### CryptoKitties <a href="#25ec" id="25ec"></a>
 
 At the end of 2017, NFTs made a remarkable entrance in the blockchain world with the success of **CryptoKitties.** Each one is a unique collectible item, with its own serial number, which can be compared to its DNA card. This unleashed an unprecedented interest for NFTs, that went so far as to clog the Ethereum network. **The CryptoKitties market alone generated $12 million dollars in two weeks after its launch, and over $25 million in total**. Some rare cryptokitties were even [sold for 600 ETH ($170,000)](https://thenextweb.com/hardfork/2018/09/05/most-expensive-cryptokitty/).
 
@@ -38,7 +38,7 @@ At the end of 2017, NFTs made a remarkable entrance in the blockchain world with
 
 ![](<../../.gitbook/assets/image (60).png>)
 
-### Crypto Item Standard (ERC-1155) <a href="4a98" id="4a98"></a>
+### Crypto Item Standard (ERC-1155) <a href="#4a98" id="4a98"></a>
 
 One step further in the non-fungible token space is the ERC-1155 Standard proposed by the [**Enjin team**](https://enjincoin.io)**,** also known as the “Crypto Item Standard”. This is an improved version of ERC-721 which will actually be suitable for platforms where there are tens of thousands of digital items and goods.
 
@@ -46,13 +46,13 @@ Online games can have up to 100,000 different digital items. The current problem
 
 [ERC-1155 standard](https://blog.enjincoin.io/erc-1155-the-crypto-item-standard-ac9cf1c5a226) combines ERC-20 and ERC-721 tokens in its smart contract. Each token is saved in the contract with a minimal set of data that distinguishes it from others. This allows for the creation of bigger collections which contain multiple different items.
 
-## Use-cases of Non-Fungible Tokens (NFT) <a href="2194" id="2194"></a>
+## Use-cases of Non-Fungible Tokens (NFT) <a href="#2194" id="2194"></a>
 
-Most of the time when people think about ERC-721 or NFT, they refer to the most notably successful [CryptoKitties](https://medium.com/u/c8b1419b5d28?source=post_page-----fe476a68594d----------------------). But there are many other usability applications for NFT contracts:
+Most of the time when people think about ERC-721 or NFT, they refer to the most notably successful [CryptoKitties](https://medium.com/u/c8b1419b5d28?source=post\_page-----fe476a68594d----------------------). But there are many other usability applications for NFT contracts:
 
-* **Software titles **or** **[**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
+* **Software titles** or **** [**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
 * **Betting** in real time on the outcome of a video game being live-streamed
-* **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future. 
+* **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future.&#x20;
 * **Concert tickets and sports match tickets** can be tokenized and name-bound, preventing fraud and at the same time offering fans an option to have a single place where to collect all their past event experiences
 * **Digital Art** **(or physical art!)** has already entered the game and showed an important usage of ERC721. Digital art auctions were the first application and still are the first thought of non-fungible token standards. The [auctions organized by Christie’s](https://medium.com/cryptokitties/the-ethereal-summit-and-the-140k-cat-a3b561545a44) revealed the appeal of the public for crypto-collectibles. Several digital art assets were sold during this event, the high point being the sale of the ‘Celestial Cyber Dimension’, an ERC721 CryptoKitty piece of art, for [$140,000](https://medium.com/cryptokitties/the-ethereal-summit-and-the-140k-cat-a3b561545a44)
 * **Real Estate** assets, to carry out transfers of houses, land and other ‘tokenized’ properties through smart contracts
@@ -64,7 +64,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 ![](<../../.gitbook/assets/image (33).png>)
 
-## How to deploy a NFT token on TomoChain <a href="aeea" id="aeea"></a>
+## How to deploy a NFT token on TomoChain <a href="#aeea" id="aeea"></a>
 
 This article will create a basic **ERC721** token using the [OpenZeppelin](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721) implementation of the [ERC721 standard](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md). Look at the links in order to familiarize yourself with the requirements as they can sometimes be hidden in the excellent [OpenZeppelin ERC721 implementations](https://github.com/OpenZeppelin/openzeppelin-solidity/tree/master/contracts/token/ERC721).
 
@@ -75,28 +75,28 @@ The assets that your ERC721 tokens (NFT) represent will influence some of the de
 
 For example, in [CryptoKitties](https://www.cryptokitties.co), players are able to “breed” their Kitties, which creates new Kitties (tokens). However, if your ERC721 token represents something more tangible, like concert tickets, you may not want token holders to be able to create more tokens. In some cases, you may even want token holders to be able to “burn” their tokens, effectively destroying them.
 
-### Let’s Start the NFT Tutorial <a href="9d55" id="9d55"></a>
+### Let’s Start the NFT Tutorial <a href="#9d55" id="9d55"></a>
 
 We will now implement an NFT collectible token, like CryptoKitties but with simpler logic.
 
 You’ll learn **how to create non fungible tokens**, how to **write tests** for your smart contracts and **how to interact** with them once deployed.
 
-We’ll build non-fungible collectibles: [**gradient tokens**](https://github.com/satansdeer/gradient-token). Every token will be represented as a unique [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) gradient and will look somewhat like this:
+We’ll build non-fungible collectibles: [**gradient tokens**](https://github.com/satansdeer/gradient-token). Every token will be represented as a unique [CSS](https://en.wikipedia.org/wiki/Cascading\_Style\_Sheets) gradient and will look somewhat like this:
 
 
 
-## 0. Prerequisites <a href="46e0" id="46e0"></a>
+## 0. Prerequisites <a href="#46e0" id="46e0"></a>
 
 The first prerequisites you should have:
 
-* Install [**Node.js**](https://nodejs.org/en/download/)** **& **npm** (“Node.js Package Manager”)
+* Install [**Node.js**](https://nodejs.org/en/download/) **** & **npm** (“Node.js Package Manager”)
 * Install **Truffle**
 
 ```
 npm install -g truffle
 ```
 
-## 1. Creating a new project <a href="42fc" id="42fc"></a>
+## 1. Creating a new project <a href="#42fc" id="42fc"></a>
 
 Create a new directory and move inside it. Then start a new `Truffle`project:
 
@@ -112,7 +112,7 @@ We will use [OpenZeppelin ERC721 implementation](https://docs.openzeppelin.org/d
 npm install openzeppelin-solidity
 ```
 
-## 2. Preparing your TOMO wallet <a href="ef52" id="ef52"></a>
+## 2. Preparing your TOMO wallet <a href="#ef52" id="ef52"></a>
 
 [Create a TOMO wallet](https://docs.tomochain.com/get-started/wallet/). Then grab a few tokens:
 
@@ -123,11 +123,11 @@ Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you ca
 
 **Write down your 12-word recovery phrase.**
 
-## 3. Writing the Smart Contract <a href="ef77" id="ef77"></a>
+## 3. Writing the Smart Contract <a href="#ef77" id="ef77"></a>
 
-### 3.1 GradientToken.sol <a href="bc39" id="bc39"></a>
+### 3.1 GradientToken.sol <a href="#bc39" id="bc39"></a>
 
-We’ll be extending the **OpenZeppelin **ERC721 token contracts to create our _Gradient Token_.
+We’ll be extending the **OpenZeppelin** ERC721 token contracts to create our _Gradient Token_.
 
 1. Go to `contracts/` folder and create a new file called `GradientToken.sol`
 2. Copy the following code
@@ -173,21 +173,21 @@ import 'openzeppelin-solidity/contracts/ownership/Ownable.sol';// NFT Gradient t
 
 We inherited from two contracts: **ERC721Full** to make it represent a non-fungible token, and from the **Ownable** contract.
 
-Every token will have a **unique **`tokenId`, like a serial number. We also added two attributes: `inner` and `outer` to save CSS colors.
+Every token will have a **unique** `tokenId`, like a serial number. We also added two attributes: `inner` and `outer` to save CSS colors.
 
 **Ownable** allows managing _authorization_. It assigns ownership to the deployer (when the contract is deployed) and adds _modifier_ **onlyOwner** that allows restrictions to certain methods only to the contract owner. Also, ownership can be transferred. Additionally, third parties can be approved to spend tokens, burn tokens, etc.
 
 Our solidity code is simple and I would recommend a deeper dive into the ERC-721 standard and the OpenZeppelin implementation.
 
-You can see the functions to use in OpenZeppelin ERC721 [here](https://docs.openzeppelin.org/docs/token_erc721\_erc721) and [here](https://docs.openzeppelin.org/docs/token_erc721\_erc721token).
+You can see the functions to use in OpenZeppelin ERC721 [here](https://docs.openzeppelin.org/docs/token\_erc721\_erc721) and [here](https://docs.openzeppelin.org/docs/token\_erc721\_erc721token).
 
 You can find another [ERC721 smart contract **example** by OpenZeppelin here](https://docs.openzeppelin.org/docs/learn-about-tokens.html#erc721).
 
-## 4. Config Migrations <a href="4ff2" id="4ff2"></a>
+## 4. Config Migrations <a href="#4ff2" id="4ff2"></a>
 
-### 4.1 Create the migration scripts <a href="18e6" id="18e6"></a>
+### 4.1 Create the migration scripts <a href="#18e6" id="18e6"></a>
 
-In the **`migrations/`** directory, create a new file called **`2_deploy_contracts.js `**and copy the following:
+In the **`migrations/`** directory, create a new file called **`2_deploy_contracts.js`** and copy the following:
 
 ```
 const GradientToken = artifacts.require("GradientToken");module.exports = function(deployer) {
@@ -202,9 +202,9 @@ const GradientToken = artifacts.require("GradientToken");module.exports = functi
 
 This code will deploy or migrate our contract to TomoChain, with the name `Gradient Token` and the symbol `GRAD`.
 
-### 4.2 Configure truffle.js <a href="b0d7" id="b0d7"></a>
+### 4.2 Configure truffle.js <a href="#b0d7" id="b0d7"></a>
 
-Now we set up the migrations: the **blockchain** where we want to deploy our smart contract, specify the wallet **address **to deploy, gas, price, etc.
+Now we set up the migrations: the **blockchain** where we want to deploy our smart contract, specify the wallet **address** to deploy, gas, price, etc.
 
 1\. Install Truffle’s `HDWalletProvider`, a separate npm package to find and sign transactions for addresses derived from a 12-word `mnemonic`.
 
@@ -305,7 +305,7 @@ const mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';
 
 > **⚠️ Warning**: In production, it is highly recommend storing the _`mnemonic`_ in another secret file (loaded from environment variables or a secure secret management system)...
 
-### 4.3 Ganache <a href="a349" id="a349"></a>
+### 4.3 Ganache <a href="#a349" id="a349"></a>
 
 You can use `Ganache` blockchain to test your smart contracts locally, before migrating to a public blockchain like `Ethereum (Ropsten)` or `Tomochain`.
 
@@ -320,7 +320,7 @@ ganache-cli -p 8545
 
 ![](<../../.gitbook/assets/image (4).png>)
 
-## 5. Adding Tests <a href="9c8f" id="9c8f"></a>
+## 5. Adding Tests <a href="#9c8f" id="9c8f"></a>
 
 We will add now tests to check our smart contracts.
 
@@ -350,9 +350,9 @@ truffle test
 
 ![](<../../.gitbook/assets/image (43).png>)
 
-The test should **pass**. This means that the smart contract **works correctly **and it did successfully what it was expected to do.
+The test should **pass**. This means that the smart contract **works correctly** and it did successfully what it was expected to do.
 
-### Adding more tests <a href="1f31" id="1f31"></a>
+### Adding more tests <a href="#1f31" id="1f31"></a>
 
 Every NFT token will have a unique ID. The first minted token has `ID: 0`, the second one has `ID: 1`, and on and on…
 
@@ -377,9 +377,9 @@ The test passed.
 
 ![](<../../.gitbook/assets/image (45).png>)
 
-## 6. Deploying <a href="e1b9" id="e1b9"></a>
+## 6. Deploying <a href="#e1b9" id="e1b9"></a>
 
-### 6.1 Start the migration <a href="c886" id="c886"></a>
+### 6.1 Start the migration <a href="#c886" id="c886"></a>
 
 You should have your smart contract already compiled. Otherwise, now it’s a good time to do it with `truffle compile`.
 
@@ -444,16 +444,16 @@ Read the output text on the screen. The NFT token [contract address](https://sca
 0x8B830F38b798B7b39808A059179f2c228209514C
 ```
 
-> **⚠️ Note: **TomoChain’s** **smart contract [**creation fee**](https://docs.tomochain.com/general/networks/)**:** gas price 10000 Gwei, gas limit >= 1000000
+> **⚠️ Note:** TomoChain’s **** smart contract [**creation fee**](https://docs.tomochain.com/general/networks/)**:** gas price 10000 Gwei, gas limit >= 1000000
 
-### \*\*\* Troubleshooting \*\*\* <a href="f097" id="f097"></a>
+### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
 
-## **7. Interacting with the smart contract** <a href="4ecf" id="4ecf"></a>
+## **7. Interacting with the smart contract** <a href="#4ecf" id="4ecf"></a>
 
-### **7.1 Minting new Tokens** <a href="ad83" id="ad83"></a>
+### **7.1 Minting new Tokens** <a href="#ad83" id="ad83"></a>
 
 Now to create a new Gradient Token you can call:
 
@@ -490,7 +490,7 @@ In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https:/
 
 ![](<../../.gitbook/assets/image (1).png>)
 
-## What’s next? <a href="2883" id="2883"></a>
+## What’s next? <a href="#2883" id="2883"></a>
 
 A few suggestions to continue from here:
 
@@ -503,6 +503,6 @@ A few suggestions to continue from here:
 
 **Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on TomoChain.
 
-### Source Code <a href="04a2" id="04a2"></a>
+### Source Code <a href="#04a2" id="04a2"></a>
 
 The source code for this tutorial is available on [Github](https://github.com/DuqueKarl/NFTGradientToken).

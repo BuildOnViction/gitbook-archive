@@ -6,7 +6,7 @@ description: >-
 
 # TRC20 Specification
 
-TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the transactions' extremly low fees. **TRC20 tokens can be easily integrated into apps and get listed on centralized exchanges with minimal technical requirements. **
+TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover the transactions' extremly low fees. **TRC20 tokens can be easily integrated into apps and get listed on centralized exchanges with minimal technical requirements.**&#x20;
 
 Smart Contract ABI: [TRC20.json](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json)
 
@@ -44,7 +44,7 @@ const chainId = 88
 
 To create a wallet, you can refer to [Create wallet page](https://docs.tomochain.com/developers/integrations/#create-wallet).
 
-You need to unlock the wallet before interacting with the TRC20 contract. 
+You need to unlock the wallet before interacting with the TRC20 contract.&#x20;
 
 **Example**
 
@@ -65,7 +65,7 @@ const trc20 = new web3.eth.Contract(trc20Abi,
         address, {gasPrice: 250000000, gas: 2000000 })
 ```
 
-Note: you can get TRC20.json [here](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json). 
+Note: you can get TRC20.json [here](https://raw.githubusercontent.com/tomochain/trc20/master/TRC20.json).&#x20;
 
 ### Check Balance
 
@@ -82,7 +82,7 @@ trc20.methods.balanceOf(holder).call()
 
 ### Estimate TX Fee (gas)
 
-Before sending tokens, you will need to make sure you have enough TOMO to cover the transaction fees. 
+Before sending tokens, you will need to make sure you have enough TOMO to cover the transaction fees.&#x20;
 
 You need to use this method:
 
@@ -103,7 +103,7 @@ trc20.methods.transfer(to, '500000000000000000000').estimateGas({
 
 ### Transfer Token
 
-Token holders need to call function `transfer` to send a token to an address. 
+Token holders need to call function `transfer` to send a token to an address.&#x20;
 
 **Example**
 
@@ -121,4 +121,4 @@ trc20.methods.transfer(to, '500000000000000000000').send({
 }).catch(e => console.log(e))
 ```
 
-You can refer to  [Transfer TRC20 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc). 
+You can refer to  [Transfer TRC20 script](https://gist.github.com/thanhson1085/3c831416287b0c1f4afbf9fcb3aa05dc).&#x20;

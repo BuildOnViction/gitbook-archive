@@ -8,11 +8,11 @@ description: >-
 
 
 
-![](<../../.gitbook/assets/image (111) (1).png>)
+![](<../../.gitbook/assets/image (111) (1) (1).png>)
 
 ## IDO status: upcoming&#x20;
 
-**Step 1: Log into LuaStarter & activate your profile  **
+**Step 1: Log into LuaStarter & activate your profile** &#x20;
 
 Go to [https://app.luaswap.org/ido#/idos](https://app.luaswap.org/ido#/idos)
 
@@ -26,7 +26,7 @@ Fill in your email and click into the box to confirm that you agree with our Ter
 
 ![](<../../.gitbook/assets/Screen Shot 2021-10-14 at 11.01.05 (1).png>)
 
-**Step 2: Qualify for a tier **
+**Step 2: Qualify for a tier**&#x20;
 
 > _This is an optional step. If you are not qualified for any tier, you may still be able to participate in the IDO, but your allocation can not be guaranteed as priority will be given to tier members._
 
@@ -74,7 +74,7 @@ After the snapshot is done, you will be able to check the IDO opening time and d
 
 ## IDO status: open&#x20;
 
-**Step 3: Commit to buy IDO tokens **
+**Step 3: Commit to buy IDO tokens**&#x20;
 
 Once the IDO is open, you can find the IDO project in the opening pools. Switch your wallet network to the network of the IDO project.&#x20;
 

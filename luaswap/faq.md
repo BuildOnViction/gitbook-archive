@@ -16,7 +16,7 @@ LuaSwap completed the migration of liquidity from Uniswap on October 29th, 2020.
 
 All Uniswap LP tokens (UNI-V2 LP token) have been converted to LuaSwap LP tokens (LUA-V1 LP token), representing the exact same share of liquidity in the LuaSwap liquidity pools.
 
-No action was required for Liquidity Providers (LP) who staked their Uniswap LP tokens on LuaSwap before the migration.** **LuaSwap LPs will only need to re-approve the LP tokens contract in LuaSwap before unstaking or staking additional LP tokens on LuaSwap.
+No action was required for Liquidity Providers (LP) who staked their Uniswap LP tokens on LuaSwap before the migration. **** LuaSwap LPs will only need to re-approve the LP tokens contract in LuaSwap before unstaking or staking additional LP tokens on LuaSwap.
 
 ### 4. What is LUA token?
 
@@ -24,7 +24,7 @@ LUA token is a native token of LuaSwap protocol to incentivize them to stay with
 
 ### 5. Where to store LUA token?
 
-Lua token is an ERC-20 token, therefore you can store LUA in an Ethereum address (TomoWallet, Metamask, TrustWallet, Wallet Connect, Coinbase Wallet, and others). Make sure you own a private key/seeding phrase and can access the Ethereum address. On the TomoWallet app, import your address you received LUA > switch the network to Ethereum > you will see your LUA balance. 
+Lua token is an ERC-20 token, therefore you can store LUA in an Ethereum address (TomoWallet, Metamask, TrustWallet, Wallet Connect, Coinbase Wallet, and others). Make sure you own a private key/seeding phrase and can access the Ethereum address. On the TomoWallet app, import your address you received LUA > switch the network to Ethereum > you will see your LUA balance.&#x20;
 
 We also have wrapped LUA TRC21 on TomoChain and you can store it on TomoWallet, Metamask, TrustWallet, Pantograph Wallet, Coin98 wallet; and others.
 
@@ -47,14 +47,14 @@ You can get LUA by farming on [luaswap.org](http://luaswap.org) or purchase it v
 * For ERC-20 LUA: Trade on FTX; CoinOne; Hotbit; LuaSwap (on Ethereum network); and others
 * For wrapped LUA on Solana network: Trade on Serum, Raydium and others
 
-We will update you on [Telegram ](https://t.me/LuaSwap)and [Twitter](https://twitter.com/LuaSwap) 
+We will update you on [Telegram ](https://t.me/LuaSwap)and [Twitter](https://twitter.com/LuaSwap)&#x20;
 
 ### 8. How to stake LP tokens to farm LUA?
 
-To receive the LUA reward, follow the steps below: 
+To receive the LUA reward, follow the steps below:&#x20;
 
-* Add Liquidity to our Golden Field on LuaSwap to receive LUA-V1 LP token. Guide [HERE](tutorial/how-to-add-remove-liquidity-on-luaswap.md) 
-* Go to [LuaSwap.org](http://luaswap.org) 
+* Add Liquidity to our Golden Field on LuaSwap to receive LUA-V1 LP token. Guide [HERE](tutorial/how-to-add-remove-liquidity-on-luaswap.md)&#x20;
+* Go to [LuaSwap.org](http://luaswap.org)&#x20;
 * Stake your LP token into the reward contract and start receiving the LUA reward. Guide [HERE](tutorial/how-to-stake-lp-token-for-lua-rewards.md)
 
 ### 9. What is the swapping fee on LuaSwap?
@@ -69,7 +69,7 @@ An additional 10% of all LUA distributions will be set aside for the LUA treasur
 
 LuaSafe is LuaSwap staking pool, where you can lock (stake) your LUA to earn passive income. LuaSafe income is generated through a portion of fees collected and distributed in the following way:
 
-* 0.05% from swap fees across all pairs 
+* 0.05% from swap fees across all pairs&#x20;
 * 0.1% from withdrawal fees for LPs withdrawing liquidity from liquidity pools.
 * [0.5%](https://snapshot.luaswap.org/#/luaswap/proposal/QmRheZC6Ap1u2myBkL3CAbKft6Lnw4oHvEDh1RDAuNK8iA) from users withdrawing their LUA staked in LuaSafe
 
@@ -92,7 +92,7 @@ Follow our instruction [here](tutorial/how-to-use-luaswap-snapshot-for-governanc
 
 ### **14. Can I harvest my locked LUA on LuaSwap on TomoChain?**
 
-No you can not.** **LUA locked token is ERC20 and you need to interact with Ethereum smart contract to unlock that. Therefore make sure that you are on Ethereum network to unlock your locked LUA.
+No you can not. **** LUA locked token is ERC20 and you need to interact with Ethereum smart contract to unlock that. Therefore make sure that you are on Ethereum network to unlock your locked LUA.
 
 ### **15. Where I can see my locked LUA on the new version of LuaSwap?**
 
@@ -104,7 +104,7 @@ Tx fee in the TomoChain is much lower than Ethereum \~ 0.00003 TOMO/swap**.**
 
 ### **17. Does LuaSwap share the same liquidity source on both TomoChain and Ethereum? How can I move liquidity from Ethereum to TomoChain on LuaSwap?**
 
-LuaSwap operates independently on both the TomoChain & Ethereum Blockchains so it does not share the same liquidity source on both networks. 
+LuaSwap operates independently on both the TomoChain & Ethereum Blockchains so it does not share the same liquidity source on both networks.&#x20;
 
 You can remove liquidity on Ethereum version then add it to TomoChain version.
 

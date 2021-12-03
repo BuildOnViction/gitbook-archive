@@ -11,7 +11,7 @@ description: >-
 
 ### Step 1: Go to [**https://luaswap.org**](https://luaswap.org)
 
-then click on **Using LUA/xLUA to vote on LuaSwap proposals **in the** Governance **tab
+then click on **Using LUA/xLUA to vote on LuaSwap proposals** in the **Governance** tab
 
 ![](<../../.gitbook/assets/image (98).png>)
 
@@ -23,7 +23,7 @@ then click on **Using LUA/xLUA to vote on LuaSwap proposals **in the** Governanc
 
 _Note: You need to have at least 1 LUA in your wallet to be able to create a proposal on LuaSwap Snapshot. Keep the LUA balance greater than 1LUA on the snapshot block to ensure the proposal is valid._
 
-### Step 3: Click on “New proposal” button 
+### Step 3: Click on “New proposal” button&#x20;
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-9.51.58-am.png)
 
@@ -50,7 +50,7 @@ Currently, the LuaSwap snapshot allows users to vote with both LUA and xLUA for 
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.07.34-am.png)
 
-**Step 2: **Choose the proposal then click on the option you want to vote for 
+**Step 2:** Choose the proposal then click on the option you want to vote for&#x20;
 
 ![](../../.gitbook/assets/screen-shot-2020-10-02-at-10.13.45.png)
 

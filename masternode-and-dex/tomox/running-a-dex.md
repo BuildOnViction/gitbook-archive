@@ -11,9 +11,9 @@ To start, download the TomoX-SDK source code which includes two parts:
 
 To enable trading for the DEX, register the DEX on TomoRelayer by depositing 25K TOMO.
 
-### Quick start <a href="quick-start" id="quick-start"></a>
+### Quick start <a href="#quick-start" id="quick-start"></a>
 
-Run this command on an empty server Ubuntu version 16+ to **install** or **update **your DEX:
+Run this command on an empty server Ubuntu version 16+ to **install** or **update** your DEX:
 
 ```
 bash <(curl -sSL https://tomochain.com/get-tomox.sh)
@@ -28,15 +28,15 @@ bash <(curl -sSL https://tomochain.com/get-tomox-testnet.sh)
 After finishing the command above, you can see the result:
 
 * See fullnode in the Stats Page (Mainnet: https://stats.tomochain.com, Testnet: https://stats.testnet.tomochain.com/)
-* Open your relayer on browser (http://\[SERVER_IP])
+* Open your relayer on browser (http://\[SERVER\_IP])
 
 {% hint style="info" %}
 Wait until your fullnode passes the block number that you registered your relayer on to see the pairs
 {% endhint %}
 
-### Setup manually <a href="setup-manually" id="setup-manually"></a>
+### Setup manually <a href="#setup-manually" id="setup-manually"></a>
 
-#### Prerequisite <a href="prerequisite" id="prerequisite"></a>
+#### Prerequisite <a href="#prerequisite" id="prerequisite"></a>
 
 **Minimum hardware and software requirements**
 
@@ -73,7 +73,7 @@ It is of the owner's responsibility to ensure over time that your node has enoug
 * Monitoring to be able to react quickly in case of a problem
 * Security measures like fire-walling, os security patching, ssh via keypairs, etc.
 
-### Prepare RabbitMQ, MongoDB, and TomoX fullnode[¶](https://docs.tomochain.com/masternode/tomox-sdk/#prepare-rabbitmq-mongodb-and-tomox-fullnode) <a href="prepare-rabbitmq-mongodb-and-tomox-fullnode" id="prepare-rabbitmq-mongodb-and-tomox-fullnode"></a>
+### Prepare RabbitMQ, MongoDB, and TomoX fullnode[¶](https://docs.tomochain.com/masternode/tomox-sdk/#prepare-rabbitmq-mongodb-and-tomox-fullnode) <a href="#prepare-rabbitmq-mongodb-and-tomox-fullnode" id="prepare-rabbitmq-mongodb-and-tomox-fullnode"></a>
 
 Run MongoDB and TomoX Full node:
 
@@ -85,9 +85,9 @@ And run RabbitMQ:
 docker run -d -p 5672:5672 --name rabbitmq rabbitmq:3.8
 ```
 
-### Basic Deployment <a href="basic-deployment" id="basic-deployment"></a>
+### Basic Deployment <a href="#basic-deployment" id="basic-deployment"></a>
 
-#### TomoX SDK Backend <a href="tomox-sdk-backend" id="tomox-sdk-backend"></a>
+#### TomoX SDK Backend <a href="#tomox-sdk-backend" id="tomox-sdk-backend"></a>
 
 Download `tomox-sdk` binary from [TomoX-SDK Github Releases](https://github.com/tomochain/tomox-sdk/releases).
 
@@ -114,7 +114,7 @@ cp config/config.yaml.example config/config.yaml
 We have some parameter that needs to be changed.
 
 * `exchange_address` : Your DEX coinbase (the address you use to register a DEX on TomoRelayer)
-* `exchange_contract_address  `: TomoRelayer smart contract address (Mainnet: `0x16c63b79f9C8784168103C0b74E6A59EC2de4a02`,Testnet: `0xe7c16037992bEcAFaeeE779Dacaf8991637953F3`)
+* `exchange_contract_address`  : TomoRelayer smart contract address (Mainnet: `0x16c63b79f9C8784168103C0b74E6A59EC2de4a02`,Testnet: `0xe7c16037992bEcAFaeeE779Dacaf8991637953F3`)
 * `lending_contract_address`: TomoRelayer Lending smart contract address (Mainnet: `0x7d761afd7ff65a79e4173897594a194e3c506e57`)
 
 After customizing your config, you can build SDK backend
@@ -136,7 +136,7 @@ Note: `tomox-sdk` requires `./config/config.yaml` and `./config/errors.yaml` fil
 
 To run tomox-sdk as daemon service, you can use `pm2`, `supervisord` or `systemd`.
 
-#### TomoX SDK UI <a href="tomox-sdk-ui" id="tomox-sdk-ui"></a>
+#### TomoX SDK UI <a href="#tomox-sdk-ui" id="tomox-sdk-ui"></a>
 
 Download the site from [TomoX-SDK-UI Github Releases](https://github.com/tomochain/tomox-sdk-ui/releases)
 
@@ -186,7 +186,7 @@ Your DEX UI is created into `./buid` directory. You can setup web server (nginx)
 
 You can use `nginx` to serve the site.
 
-### Setup web server (nginx) <a href="setup-web-server-nginx" id="setup-web-server-nginx"></a>
+### Setup web server (nginx) <a href="#setup-web-server-nginx" id="setup-web-server-nginx"></a>
 
 TomoX-SDK backend run on port 8080 in the default. We can use Nginx to serve both TomoX-SDK and TomoX-SDK-UI and publish it to internet.
 
@@ -227,7 +227,7 @@ server {
 
 After reloading `nginx` with the new configuration. You can access your DEX via `http://SERVER_IP`
 
-### Troubleshot & FAQ <a href="troubleshot-faq" id="troubleshot-faq"></a>
+### Troubleshot & FAQ <a href="#troubleshot-faq" id="troubleshot-faq"></a>
 
 **How to secure my DEX?**
 

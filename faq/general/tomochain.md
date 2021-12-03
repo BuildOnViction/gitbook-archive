@@ -2,7 +2,7 @@
 
 ### What is TomoChain?
 
-TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called PoSV (Proof of Stake Voting) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternodes, and to monitor their performance and governance actively. 
+TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called PoSV (Proof of Stake Voting) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternodes, and to monitor their performance and governance actively.&#x20;
 
 The TomoChain blockchain and its product ecosystem allow entrepreneurs, enterprises, and institutions to build high-performance, feature-rich blockchain projects on an enhanced EVM-compatible platform. An array of original features and protocols is designed to support users’ speed, privacy, usability, and liquidity needs all in one platform.
 
@@ -30,7 +30,7 @@ Double Validation provides an additional trustless validation layer for security
 
 TomoChain solutions are based on on-chain scaling built into an architecture of 150 voted Masternodes with our Proof-of-stake Voting (POSV) consensus protocol. We achieve 2-second block-time and almost instant transaction confirmations.
 
-To scale our infrastructure further, we have presented our [Sharding proposal](https://bit.ly/2xHK0u3) for uniquely integrating Sharding into our current architecture and consensus. 
+To scale our infrastructure further, we have presented our [Sharding proposal](https://bit.ly/2xHK0u3) for uniquely integrating Sharding into our current architecture and consensus.&#x20;
 
 Besides sharding, we are actively researching scalability solutions like EVM parallelization and Plasma. New scaling techniques such as sharding, EVM parallelisation, private-chain generation, hardware integration will be evaluated before being integrated into TomoChain's Masternode architecture.
 
@@ -42,20 +42,20 @@ TomoChain supports low transaction fees (approx. 1/100 of that of Ethereum's) an
 
 The unique point of TomoChain comes from technology, the products and the ecosystem.
 
-**Novel technology:** 
+**Novel technology:**&#x20;
 
-* Well-functioning public blockchain with [Proof of Stake Voting consensus](https://www.youtube.com/watch?v=kZSWjAJHW_s\&t=7s), Masternode system and slashing mechanism in place. 150 Masternodes, and thousands of stakers live securing the network at any given moment.
+* Well-functioning public blockchain with [Proof of Stake Voting consensus](https://www.youtube.com/watch?v=kZSWjAJHW\_s\&t=7s), Masternode system and slashing mechanism in place. 150 Masternodes, and thousands of stakers live securing the network at any given moment.
 * Fast chain with 2 second blocktime and reach up to 2000 TPS
 * Built-in governance Dapp
 * Double Validation and Randomization
 
-** A complete suite of products**
+&#x20;**A complete suite of products**
 
 An array of original features and protocols is designed to support speed, privacy, usability, and liquidity needs all in one platform. [TomoChain's unique products and protocols](../products/) are developed  consult on to integrate blockchain services into their own business, therefore, introducing more users to the convenience of the decentralized ecosystem
 
 **Our own ecosystem**
 
-* TomoChain also is working vigorously on building its ecosystem and has sealed many partnerships from all fields, such as agriculture, robotics, gaming, IT solution providers, advertising, loyalty points, education and research, payment, communication, name service, food traceability, tourism etc 
+* TomoChain also is working vigorously on building its ecosystem and has sealed many partnerships from all fields, such as agriculture, robotics, gaming, IT solution providers, advertising, loyalty points, education and research, payment, communication, name service, food traceability, tourism etc&#x20;
 
 ### Which blockchain(s) are TomoChain's main competitors?
 

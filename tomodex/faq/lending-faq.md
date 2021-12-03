@@ -10,9 +10,9 @@ You can deposit the following crypto assets: BTC, ETH, TOMO as collateral via [T
 
 ### 3. How much collateral is needed for creating a loan?
 
-Collateral Deposit Rate: 150% of the total loan value. 
+Collateral Deposit Rate: 150% of the total loan value.&#x20;
 
-For example: If a user wants to borrow 1000 USDT against BTC and the BTC price is 7,500 USDT, the user must deposit = 1,000 \* 150% / 7,500 = 0.2 BTC 
+For example: If a user wants to borrow 1000 USDT against BTC and the BTC price is 7,500 USDT, the user must deposit = 1,000 \* 150% / 7,500 = 0.2 BTC&#x20;
 
 ### 4. How much interest will I pay?
 
@@ -25,15 +25,15 @@ $$
 * I: Interest
 * F: The original amount borrowed
 * T: Term (days) (e.g. 1 days, 14 days, 30 days …)
-* R: Annual interest rate 
+* R: Annual interest rate&#x20;
 
 ### 5. What happens if I don’t repay my loan?
 
-The Borrower has to repay the value of the loan and the interest of the loan to the Lender before the due date. By default, if the Borrower has enough balance of the borrowed asset, TomoX will automatically repay the loan on the due date.** **
+The Borrower has to repay the value of the loan and the interest of the loan to the Lender before the due date. By default, if the Borrower has enough balance of the borrowed asset, TomoX will automatically repay the loan on the due date. ****&#x20;
 
 ### **6. Can I repay my loan early?**
 
-You can make loan repayments at any time** **but** **no partial repayment is allowed. \
+You can make loan repayments at any time **** but **** no partial repayment is allowed. \
 If the Borrower decides to pay off the loan early, aside from the normal interest he has to pay until that point, he will be charged a prepayment penalty (which is equal to half of the interest he would have had to pay from that point till the maturity date).
 
 $$
@@ -48,7 +48,7 @@ $$
 
 ### 7. How do auto liquidations due to price volatility work for loans?
 
-Liquidation Rate: 110% of the total loan amount . 
+Liquidation Rate: 110% of the total loan amount .&#x20;
 
 This means that the collateral will be automatically liquidated and released to the Lender’s Address if its market value falls to 110 % of the loan value.
 

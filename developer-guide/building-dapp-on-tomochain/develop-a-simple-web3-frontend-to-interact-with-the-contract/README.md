@@ -114,7 +114,7 @@ Here is what these functions do:
 
 `initWeb3()` Checks if we are using modern Dapp browsers or the more recent versions of [MetaMask](https://github.com/MetaMask).
 
-`initContract()` Retrieves the artifact file for our smart contract. **Artifacts are information about our contract such as its deployed address and Application Binary Interface (ABI)**. **The ABI is a JavaScript object defining how to interact with the contract including its variables, functions and their parameters. **We then call the app's `markAdopted()` function in case any pets are already adopted from a previous visit.
+`initContract()` Retrieves the artifact file for our smart contract. **Artifacts are information about our contract such as its deployed address and Application Binary Interface (ABI)**. **The ABI is a JavaScript object defining how to interact with the contract including its variables, functions and their parameters.** We then call the app's `markAdopted()` function in case any pets are already adopted from a previous visit.
 
 `markAdopted()` After calling `getAdopters()`, we then loop through all of them, checking to see if an address is stored for each pet. Ethereum initializes the array with 16 empty addresses. This is why we check for an empty address string rather than null or other falsey value. Once a `petId` with a corresponding address is found, we disable its Adopt button and change the button text to "Success", so the user gets some feedback.
 

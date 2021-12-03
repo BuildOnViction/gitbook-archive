@@ -18,9 +18,9 @@ TomoBridge is the cross-chain transfer module for interoperability between TomoC
 
 ### 2. Why TomoBridge?
 
-Interoperability between different blockchains has been one of the most important concerns in the cryptocurrency industry. It brings out the ability to move crypto assets back-and-forth between different public blockchains. TomoBridge** **plays an important role in the TomoChain ecosystem where DeFi applications have been the top focus.
+Interoperability between different blockchains has been one of the most important concerns in the cryptocurrency industry. It brings out the ability to move crypto assets back-and-forth between different public blockchains. TomoBridge **** plays an important role in the TomoChain ecosystem where DeFi applications have been the top focus.
 
-### **3. What can I do when having issues on **TomoBridge?
+### **3. What can I do when having issues on** TomoBridge?
 
-Please [submit a request](https://forms.gle/LgEGzd35Vg8SEpGQ6) to report your issue with the TomoBridge support team of contact with us on Telegram channel at [https://t.me/TomoDEX_Official](https://t.me/TomoDEX_Official)
+Please [submit a request](https://forms.gle/LgEGzd35Vg8SEpGQ6) to report your issue with the TomoBridge support team of contact with us on Telegram channel at [https://t.me/TomoDEX\_Official](https://t.me/TomoDEX\_Official)
 

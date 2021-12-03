@@ -1,6 +1,6 @@
 # Setup Environment
 
-## Prerequisites <a href="7095" id="7095"></a>
+## Prerequisites <a href="#7095" id="7095"></a>
 
 To start building your Dapp you will need to install some programs:
 
@@ -11,7 +11,7 @@ To check that Node is installed properly, open a console (admin PowerShell on Wi
 
 To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
-## Getting Started: Installation <a href="3965" id="3965"></a>
+## Getting Started: Installation <a href="#3965" id="3965"></a>
 
 [**Truffle Framework**](https://truffleframework.com) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
 
@@ -23,7 +23,7 @@ npm install -g truffle
 
 You can verify that Truffle is correctly installed typing `truffle version`.
 
-## Creating a Truffle project <a href="1abb" id="1abb"></a>
+## Creating a Truffle project <a href="#1abb" id="1abb"></a>
 
 Truffle initializes in the current directory, so first create a directory in your development folder of choice and then move inside it.
 
@@ -31,9 +31,9 @@ Truffle initializes in the current directory, so first create a directory in you
 mkdir pet-shop-tutorialcd pet-shop-tutorial
 ```
 
-Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project).** **There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
+Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). **** There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
 
-![](https://miro.medium.com/max/60/1\*0iPGzZ_MuACqNeSRw1ymUg.png?q=20)![](https://miro.medium.com/max/1024/1\*0iPGzZ_MuACqNeSRw1ymUg.png)Pet Shop Truffe Box
+![](https://miro.medium.com/max/60/1\*0iPGzZ\_MuACqNeSRw1ymUg.png?q=20)![](https://miro.medium.com/max/1024/1\*0iPGzZ\_MuACqNeSRw1ymUg.png)Pet Shop Truffe Box
 
 There is a special [Truffle Box](https://truffleframework.com/boxes) for this tutorial called **`pet-shop`**, which includes the basic project structure as well as code for the user interface. Use the **`truffle unbox`** command to unpack this Truffle Box:
 
@@ -45,13 +45,13 @@ The default Truffle directory structure contains a series of folders and files. 
 
 > **Note:** This tutorial is focused on **the whole process to build a Dapp on TomoChain**, so we will not enter into all the details.
 
-## Creating a TOMO Wallet <a href="a775" id="a775"></a>
+## Creating a TOMO Wallet <a href="#a775" id="a775"></a>
 
 **You will need a wallet address** and some tokens. We will show you how to do it on both TomoChain Testnet and Mainnet.
 
-### 1. Create a TOMO wallet and save your Mnemonic <a href="d296" id="d296"></a>
+### 1. Create a TOMO wallet and save your Mnemonic <a href="#d296" id="d296"></a>
 
-You can create a new TOMO wallet using **TomoWallet **mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8), or the web version ([https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login)). Under _Settings _go to _Advanced Settings, _here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8), or the web version ([https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login)). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -73,7 +73,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 > **Important!** Always keep your private key and recovery phrase **secret!**
 
-### 2. Get some TOMO funds <a href="3232" id="3232"></a>
+### 2. Get some TOMO funds <a href="#3232" id="3232"></a>
 
 Tokens are required for different matters, like smart contract deployment or to use in Dapps.
 
@@ -83,7 +83,7 @@ Tokens are required for different matters, like smart contract deployment or to 
 
 Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
 
-### 3. The Block Explorer <a href="07a6" id="07a6"></a>
+### 3. The Block Explorer <a href="#07a6" id="07a6"></a>
 
 To check the balance of a wallet address, you can use **TomoScan**.
 

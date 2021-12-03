@@ -20,7 +20,7 @@ description: >-
 
 1.4. For the convenience of the users, all content on this Site may be available in multiple languages. In case of any conflict between different language versions of such content or any omission in any language version, the English version of such content shall prevail.
 
-1.5. The Platform and Site are, at all times, subject to our [Terms of Use](https://docs.google.com/document/d/1pgf9Z9OehyqILGGUAxG4DZsklIiC-zPUy5kWduAq2BY/edit) and our [Privacy Policy](https://docs.google.com/document/d/1\_rsK5rIrUW2oaaIi_umNPKYN59c_PBpjZTspiHXCxTw/edit).\
+1.5. The Platform and Site are, at all times, subject to our [Terms of Use](https://docs.google.com/document/d/1pgf9Z9OehyqILGGUAxG4DZsklIiC-zPUy5kWduAq2BY/edit) and our [Privacy Policy](https://docs.google.com/document/d/1\_rsK5rIrUW2oaaIi\_umNPKYN59c\_PBpjZTspiHXCxTw/edit).\
 
 
 ### 2. Definitions and Interpretation
@@ -37,11 +37,11 @@ description: >-
 * “Platform” means the decentralized peer-to-peer lending service provided by the Company and includes all other features of the Site made available to users.
 * “Services” means the provision of the Platform and other related and ancillary services including, without limitation, the provision of trading services and the technology that supports the Site and Platform.
 * “Wallet” means a combination of a user’s public address and corresponding private key (or mnemonic phrase or keystore file with password) that holds any Digital Assets that are created and/or received on TomoChain, which may be associated with corresponding transactions related to this address.
-* “Site” refers to dex.tomochain.com 
+* “Site” refers to dex.tomochain.com&#x20;
 
 2.2. Interpretation
 
- In these Terms, the following rules of interpretation shall apply:
+&#x20;In these Terms, the following rules of interpretation shall apply:
 
 (a) clause and paragraph headings shall not affect the interpretation of these Terms;
 
@@ -67,7 +67,7 @@ description: >-
 
 4.1. You acknowledge and confirm that, when you offer to lend digital assets through the Platform, you will be offering your digital assets to be lent by the Platform to a Borrower through peer-to-peer lending and you are not lending digital assets to either the Company or any member of the Company.
 
-4.2. You acknowledge and confirm that, when you offer to borrow digital assets through the Platform, you will be borrowing your digital assets from a Borrower through peer-to-peer lending and you are not borrowing digital assets from either the Company or any member of the Company. 
+4.2. You acknowledge and confirm that, when you offer to borrow digital assets through the Platform, you will be borrowing your digital assets from a Borrower through peer-to-peer lending and you are not borrowing digital assets from either the Company or any member of the Company.&#x20;
 
 4.3. In order to lend digital assets using the Platform, you must make a LEND order through the Platform by setting forth the type of digital asset you want to lend; term, amount, and interest rate of the loan you wish to have, and the collateral you accept for the loan.
 
@@ -81,32 +81,32 @@ description: >-
 
 4.8. There may be instances where, having made an order, some or all of your order is Matched.
 
-4.9. The Company is the operator of the Platform, but is not involved as a principal in any lending or borrowing activities. 
+4.9. The Company is the operator of the Platform, but is not involved as a principal in any lending or borrowing activities.&#x20;
 
-4.10. You are not permitted to vary or cancel any Trade to which you are Matched as a Lender or a Borrower. You can cancel any order if it has not been Matched. You acknowledge and accept that for the duration of the loan, you will not have access to your lent digital asset (as a Lender) or your collateral (as a Borrower) before the maturity date unless the loan is prepaid in full. 
+4.10. You are not permitted to vary or cancel any Trade to which you are Matched as a Lender or a Borrower. You can cancel any order if it has not been Matched. You acknowledge and accept that for the duration of the loan, you will not have access to your lent digital asset (as a Lender) or your collateral (as a Borrower) before the maturity date unless the loan is prepaid in full.&#x20;
 
 4.11. **Auto Repay**: You acknowledge and accept that if as a Borrower, you have enough balance of the borrowed digital asset on the due date of the loan, the loan will be automatically repaid.
 
-4.12. **Prepayment: **You acknowledge and accept that if as a Borrower, you decide to pay off the loan early, aside from the normal interest accrued until that point, you will be charged a prepayment penalty (which is equal to half of the interest you would have had to pay from that point till the maturity date). You further understand that no partial prepayment is allowed.
+4.12. **Prepayment:** You acknowledge and accept that if as a Borrower, you decide to pay off the loan early, aside from the normal interest accrued until that point, you will be charged a prepayment penalty (which is equal to half of the interest you would have had to pay from that point till the maturity date). You further understand that no partial prepayment is allowed.
 
 4.13. **Collateral**
 
-4.13.1. Only a limited list of cryptocurrencies that have been diligently vetted and deemed to have relatively high quality are listed by the Platform as approved collateral. Such list shall be regularly reviewed and updated by the Platform at its sole discretion. 
+4.13.1. Only a limited list of cryptocurrencies that have been diligently vetted and deemed to have relatively high quality are listed by the Platform as approved collateral. Such list shall be regularly reviewed and updated by the Platform at its sole discretion.&#x20;
 
 4.13.2. You acknowledge and accept that if as a Lender, you shall accept any of the approved digital assets as collateral for the loan, and if as a Borrower, you shall have enough balance of any of the approved digital assets to deposit as collateral for the loan.
 
 4.13.3. The Collateral Deposit Rate, Liquidation Rate, Locking, Releasing, Liquidation, Top Up and Auto Excess Recall Process follow the default settings of TomoX - the layer-1 permissionless decentralized exchange (DEX) protocol of TomoChain. See [TomoX P2P Lending](https://docs.tomochain.com/masternode-and-dex/tomox/tomox-p2p-lending) for more information.
 
-### 5. Fees 
+### 5. Fees&#x20;
 
 In consideration for the use of the Services, you agree to pay the Company fees, as set forth in our fee schedule displayed on the [TomoDEX Lending Fee](tomodex-fee/lending-fee.md), which the Company may revise or update in its sole discretion from time to time. By using our Services, you acknowledge your acceptance of those fees.\
 
 
 ### 6. Term and Termination
 
-6.1. Except as otherwise terminated in accordance with the provisions below, these Terms shall commence on the date you access the Platform and shall remain valid and binding for as long as you have outstanding Trades or LOAN/BORROW orders. 
+6.1. Except as otherwise terminated in accordance with the provisions below, these Terms shall commence on the date you access the Platform and shall remain valid and binding for as long as you have outstanding Trades or LOAN/BORROW orders.&#x20;
 
-6.2. These Terms may be superseded by any amended Terms in accordance with clause 10.1. 
+6.2. These Terms may be superseded by any amended Terms in accordance with clause 10.1.&#x20;
 
 6.3. These Terms may be terminated or amended by the Company at any time without notice.\
 

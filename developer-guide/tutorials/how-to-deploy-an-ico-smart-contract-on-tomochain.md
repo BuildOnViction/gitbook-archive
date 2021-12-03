@@ -4,31 +4,31 @@ description: Creating a TRC20 Token Crowdsale with Truffle and OpenZeppelin
 
 # How to deploy an ICO smart contract on TomoChain
 
-This article will go through the process of **creating a basic ICO on TomoChain **using TRC20 tokens issued on TomoChain.
+This article will go through the process of **creating a basic ICO on TomoChain** using TRC20 tokens issued on TomoChain.
 
 ![](<../../.gitbook/assets/image-2-copy (1).png>)
 
 In this tutorial we will be covering:
 
-* What is an** ICO**?
+* What is an **ICO**?
 * Some important concepts such as TRC20, total supply, whitelist, ...
-* Using **Truffle **framework and** OpenZeppelin** code framework
+* Using **Truffle** framework and **OpenZeppelin** code framework
 * Writing a **TRC20 token** (TomoChain) smart contract
 * Writing a **Crowdsale** smart contract
-* **Deploying your ICO** smart contract to **TomoChain testnet **or Ethereum/Ropsten (it is totally compatible!)
+* **Deploying your ICO** smart contract to **TomoChain testnet** or Ethereum/Ropsten (it is totally compatible!)
 * **Buying** the new ICO tokens
 
 An **ICO (Initial Coin Offering)** is a new way to raise funds for startups. It is the cryptocurrency equivalent to an IPO in the mainstream investment world. A company looking to create a new coin, app, or service launches an ICO. Investors buy the new ICO token, normally with preexisting digital tokens like TOMO. The company holding the ICO uses the investor funds as a means of furthering its goals, launching its product, or starting its digital currency. ICO rounds are similar to venture capitalists (VC) rounds.
 
 **Tokens** are essentially smart contracts that make use of the TomoChain blockchain. The **TRC20** **token standard** defines a common list of rules for all TomoChain tokens to follow, similar to the ERC20 standard in Ethereum.
 
-In the **smart contract** you can setup general token specifics like the **rate **of TOMO per token** **(the number of tokens the user gets for his TOMO which may change with time), the ICO **start **and** finish date**, time-line** bonuses**…
+In the **smart contract** you can setup general token specifics like the **rate** of TOMO per token **** (the number of tokens the user gets for his TOMO which may change with time), the ICO **start** and **finish date**, time-line **bonuses**…
 
 The **total supply** is the total amount of tokens that will exist. For instance, TomoChain’s total supply is 100 million tokens, but currently there are only 58–60 million tokens _**in circulation**_. The remaining tokens are locked for different purposes like team reserves, partnerships, masternode and staking rewards, community rewards and more, and will enter in circulation over the next years.
 
 ICOs can have one or multiple **rounds**. For instance, a **PreSale** round for private investors with some bonus, and later a public **Crowdsale**.
 
-Some ICOs use a **whitelist**.** **This means that participants have to **register in advance to participate in the ICO** sale. Whitelists usually limit the number of spots and/or the initial min/max buy. Investors may need to register with some documents, to comply with some countries regulations, KYC/AML…
+Some ICOs use a **whitelist**. **** This means that participants have to **register in advance to participate in the ICO** sale. Whitelists usually limit the number of spots and/or the initial min/max buy. Investors may need to register with some documents, to comply with some countries regulations, KYC/AML…
 
 Besides the law, take into account the **security** issue for the smart contracts and try to make contracts as simple as possible (security loves simple).
 
@@ -43,25 +43,25 @@ For this tutorial we are using:
 * [**Truffle**](https://truffleframework.com), a world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
 * [**OpenZeppelin**](https://openzeppelin.org), a battle-tested framework of reusable smart contracts for Ethereum and other EVM blockchains.
 
-### Steps to Follow (Overview) <a href="5c6b" id="5c6b"></a>
+### Steps to Follow (Overview) <a href="#5c6b" id="5c6b"></a>
 
 1. Write Solidity smart contracts
 2. Deploy locally (local Eth node/Ganache/Ropsten/etc) and test it
 3. Deploy to TomoChain TestNet and test it
 4. Deploy to TomoChain MainNet
 
-## 0. Prerequisites <a href="c774" id="c774"></a>
+## 0. Prerequisites <a href="#c774" id="c774"></a>
 
 To start building your ICO smart contract you will need:
 
-* Install [**Node.js**](https://nodejs.org/en/download/)** **& **npm** (“Node.js Package Manager”)
+* Install [**Node.js**](https://nodejs.org/en/download/) **** & **npm** (“Node.js Package Manager”)
 * Install **Truffle**
 
 ```
 npm install -g truffle
 ```
 
-## 1. Creating a new project <a href="64ed" id="64ed"></a>
+## 1. Creating a new project <a href="#64ed" id="64ed"></a>
 
 Create a new directory in your development folder of choice and then move inside it. Then start a new `Truffle` project:
 
@@ -77,13 +77,13 @@ Now we install `OpenZeppelin` in this folder:
 npm install openzeppelin-solidity
 ```
 
-## 2. Preparing your TOMO wallet <a href="ef52" id="ef52"></a>
+## 2. Preparing your TOMO wallet <a href="#ef52" id="ef52"></a>
 
 **You will need a wallet address** and some tokens. We will show how to do it on both TomoChain Testnet and Mainnet.
 
-### 2.1 Create a TOMO wallet and save the Mnemonic <a href="eb9e" id="eb9e"></a>
+### 2.1 Create a TOMO wallet and save the Mnemonic <a href="#eb9e" id="eb9e"></a>
 
-Create a new TOMO wallet using **TomoWallet **mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login). Under _Settings _go to _Advanced Settings. _Here _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+Create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
 
 Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -105,7 +105,7 @@ Write them down. This will be needed later. **Notice that your wallet address an
 
 > **⚠️ Important!** Always keep your private key and recovery phrase **secret!**
 
-### 2.2 Get some TOMO funds <a href="2e01" id="2e01"></a>
+### 2.2 Get some TOMO funds <a href="#2e01" id="2e01"></a>
 
 We will need some tokens for smart contract deployment and also to test later with our ICO smart contracts.
 
@@ -115,7 +115,7 @@ We will need some tokens for smart contract deployment and also to test later wi
 
 Go to faucet and collect `60 TOMO`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
 
-### 2.3 The Block Explorer <a href="07a6" id="07a6"></a>
+### 2.3 The Block Explorer <a href="#07a6" id="07a6"></a>
 
 To check the balance of a wallet address, use **TomoScan**.
 
@@ -123,15 +123,15 @@ To check the balance of a wallet address, use **TomoScan**.
 
 **Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com)
 
-> **Note: **Create 2 different TOMO wallets, both with some tokens. The first wallet is to deploy the ICO smart contract or `deployment wallet`, the second one will be used to test it or `buyer wallet`.
+> **Note:** Create 2 different TOMO wallets, both with some tokens. The first wallet is to deploy the ICO smart contract or `deployment wallet`, the second one will be used to test it or `buyer wallet`.
 
-## 3. Writing the Smart Contracts <a href="7bd0" id="7bd0"></a>
+## 3. Writing the Smart Contracts <a href="#7bd0" id="7bd0"></a>
 
-### 3.1 MyToken <a href="bc39" id="bc39"></a>
+### 3.1 MyToken <a href="#bc39" id="bc39"></a>
 
 We use and extend **OpenZeppelin** contracts to create more secure Dapps in less time. OpenZeppelin comes with a wide array of smart contracts for various important functions.
 
-We’ll be extending now the token contracts to create our own [ERC20](https://theethereum.wiki/w/index.php/ERC20\_Token_Standard)-compliant (TRC20) token.
+We’ll be extending now the token contracts to create our own [ERC20](https://theethereum.wiki/w/index.php/ERC20\_Token\_Standard)-compliant (TRC20) token.
 
 1. Go to `contracts/` directory and create a new file called `MyToken.sol` or the name you like.
 2. Copy the following code
@@ -172,11 +172,11 @@ This code will initialize the token values like `name`, `symbol`, `decimals` (we
 _mint(msg.sender, _initialSupply * 10 ** uint256(_decimals));
 ```
 
-> ⚠️ **Important: **All currency math is done in the smallest unit of that currency, which is not ETH (or TOMO) but **wei**. `1 ETH = 10¹⁸ wei`
+> ⚠️ **Important:** All currency math is done in the smallest unit of that currency, which is not ETH (or TOMO) but **wei**. `1 ETH = 10¹⁸ wei`
 
 Later, we will grant access to these funds to the `MyTokenCrowdsale` smart contract. To transfer ownership or **approve** another wallet accesing our smart contract funds, we inherited the `Ownable` smart contract.
 
-### 3.2 MyTokenCrowdsale <a href="4dbf" id="4dbf"></a>
+### 3.2 MyTokenCrowdsale <a href="#4dbf" id="4dbf"></a>
 
 Now we are going to write our Crowdsale smart contract.
 
@@ -203,11 +203,11 @@ Again, very simple smart contract.
 
 We extended OpenZeppelin’s basic `Crowdsale` and `AllowanceCrowdsale`. Crowdsale works with `rate`, `wallet` (the address of MyTokenCrowdsale contract), `token` (the TRC20 token).
 
-We extended **AllowanceCrowdsale** so this contract will be able to access and send tokens stored in another wallet, **once approved by the owner of the tokens **— which is `MyToken`.
+We extended **AllowanceCrowdsale** so this contract will be able to access and send tokens stored in another wallet, **once approved by the owner of the tokens** — which is `MyToken`.
 
-## 4. Config Migrations <a href="8bdf" id="8bdf"></a>
+## 4. Config Migrations <a href="#8bdf" id="8bdf"></a>
 
-### 4.1 Create the migration scripts <a href="18e6" id="18e6"></a>
+### 4.1 Create the migration scripts <a href="#18e6" id="18e6"></a>
 
 In the **`migrations/`** directory, create a new file called**`2_deploy_contracts.js`**and add the following content:
 
@@ -242,9 +242,9 @@ We first deploy `MyToken`, creating the initial supply: `16'000'000 MYT`. Then w
 npm install web3-utils
 ```
 
-### 4.2 Configure truffle.js <a href="0f37" id="0f37"></a>
+### 4.2 Configure truffle.js <a href="#0f37" id="0f37"></a>
 
-Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the** address **to deploy — the wallet we just created, and optionally the gas, gas price, etc.
+Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the **address** to deploy — the wallet we just created, and optionally the gas, gas price, etc.
 
 1\. Install Truffle’s `HDWalletProvider`, a separate npm package to find and sign transactions for addresses derived from a 12-word `mnemonic`.
 
@@ -397,9 +397,9 @@ _Also, the use of environment variable for mnemonics is a good practice if multi
 
 _You can try with npm package `dotenv` to load an environment variable from an `.env` file, — then update your truffle.js to use this secret `mnemonic`._
 
-## **5. Deploying** <a href="e1b9" id="e1b9"></a>
+## **5. Deploying** <a href="#e1b9" id="e1b9"></a>
 
-### 5.1 Start the migration <a href="c886" id="c886"></a>
+### 5.1 Start the migration <a href="#c886" id="c886"></a>
 
 You should have your smart contract already compiled. Otherwise, now it’s a good time to do it with `truffle compile`.
 
@@ -415,7 +415,7 @@ To deploy to **TomoChain mainnet** is very similar:
 truffle migrate --network tomomainnet 
 ```
 
-You could also migrate the contract to **Ropsten **(but first you need a Ropsten wallet with some `Ropsten ETH` - _you can do this on `Metamask` _[_with faucet_](https://faucet.metamask.io)).
+You could also migrate the contract to **Ropsten** (but first you need a Ropsten wallet with some `Ropsten ETH` - _you can do this on `Metamask` _ [_with faucet_](https://faucet.metamask.io)).
 
 ```
 truffle migrate --network ropsten 
@@ -490,12 +490,12 @@ Read carefully and **write down** the output text on the screen:
 0x169397F515Af9E93539e0F483f8A6FC115de660C
 ```
 
-### \*\*\* Troubleshooting \*\*\* <a href="f097" id="f097"></a>
+### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
 
-### 5.3 Check the deployment contracts <a href="10d5" id="10d5"></a>
+### 5.3 Check the deployment contracts <a href="#10d5" id="10d5"></a>
 
 If you want to verify that your contracts were deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com) (or [mainnet](https://scan.tomochain.com)). In the search field, type in the contract address you want to see.
 
@@ -515,11 +515,11 @@ Here are the results of our migrations:
 
 **Congratulations!** You’ve deployed **your ICO smart contract and TRC20 token to TomoChain using Truffle and OpenZeppelin.** It’s time to interact now with our ICO smart contract to make sure it does what we want.
 
-## 6. Testing the smart contracts <a href="e3e1" id="e3e1"></a>
+## 6. Testing the smart contracts <a href="#e3e1" id="e3e1"></a>
 
 The code used in this tutorial is just for **learning purposes.** When writing your ICO contracts take time to **test and audit your own code**, writing unit tests on `test/` folder and auditing your code to prevent bugs or hacks.
 
-## 7. Testing the ICO <a href="b472" id="b472"></a>
+## 7. Testing the ICO <a href="#b472" id="b472"></a>
 
 The last step is testing our ICO. We will **buy** some `MYT` tokens with `TOMO`!
 
@@ -527,7 +527,7 @@ For this, we will **directly send some `TOMO` tokens to the Crowdsale contract a
 
 The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 500 = 10'000 MYT` in our buyer wallet.
 
-### 7.1 Install MetaMask <a href="77e6" id="77e6"></a>
+### 7.1 Install MetaMask <a href="#77e6" id="77e6"></a>
 
 1. Install the [MetaMask browser extension](https://metamask.io) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
@@ -537,7 +537,7 @@ The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 5
 
 4\. Now we’re connected to the Ethereum network,with a brand new wallet.
 
-### 7.2 Config MetaMask to connect to TomoChain <a href="d049" id="d049"></a>
+### 7.2 Config MetaMask to connect to TomoChain <a href="#d049" id="d049"></a>
 
 Let’s now connect MetaMask to `TomoChain (testnet)`.
 
@@ -549,11 +549,11 @@ Let’s now connect MetaMask to `TomoChain (testnet)`.
 
 > Don’t use the `deployment wallet` you previously used on `truffle.js`. Better, **create a new TOMO wallet**, to separate roles. Create your `buyer wallet`, if you haven’t already, then go to faucet and add `30 TOMO`.
 
-3\. **Copy the private key of your `buyer wallet`**. Back to MetaMask, click on the top-right circle and select **Import Account. **Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
+3\. **Copy the private key of your `buyer wallet`**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
 
 ![](<../../.gitbook/assets/image (70).png>)
 
-### 7.3 Buying ICO tokens (sending TOMO to the ICO address) <a href="9432" id="9432"></a>
+### 7.3 Buying ICO tokens (sending TOMO to the ICO address) <a href="#9432" id="9432"></a>
 
 We will now buy some `MyToken (MYT)` from the ICO Crowdsale contract.
 
@@ -586,7 +586,7 @@ You will see your `MYT` tokens.
 
 **Congratulations!** The Crowdsale is working! We sent `20 TOMO` and we got back `10'000 MYT`.
 
-## What’s next? <a href="b362" id="b362"></a>
+## What’s next? <a href="#b362" id="b362"></a>
 
 You can and should customize these two smart contracts `MyToken` and `MyTokenCrowdsale` according to your needs. For instance, you can:
 
@@ -598,7 +598,7 @@ You can and should customize these two smart contracts `MyToken` and `MyTokenCro
 * only allow `whitelist`ed participants to purchase tokens. Useful for putting your KYC / AML whitelist on-chain!
 * and more… (visit link below)
 
-**More here: **[**Learn about OpenZeppelin Crowdsales**](https://openzeppelin.org/api/docs/learn-about-crowdsales.html)**.**
+**More here:** [**Learn about OpenZeppelin Crowdsales**](https://openzeppelin.org/api/docs/learn-about-crowdsales.html)**.**
 
 You may also want to set up an ICO website with all the information about the ICO dates, rates, cap, etc.\
 \

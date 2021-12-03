@@ -6,7 +6,7 @@ The token allocation for IDO projects on LuaStarter is powered by the Tier Guara
 
 ## **Tier Requirements**
 
-Users are required to stake their LUA tokens in the designated protocols (see table below) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token. 
+Users are required to stake their LUA tokens in the designated protocols (see table below) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token.&#x20;
 
 | **Eligible staking protocols** | **LUA equivalency** |
 | ------------------------------ | ------------------- |
@@ -17,7 +17,7 @@ _\*the LP tokens staked in farming pools must be unstaked before the deadline._
 
 Users are required to have their LUA tokens staked in **LuaSafe** or added in **LUA-TOMO(E)\*** liquidity pool (either **TomoChain** or **Ethereum**) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token
 
-LUA tokens must be added in the designated protocols at least** 3 days** before and remain staked until the IDO opens.
+LUA tokens must be added in the designated protocols at least **3 days** before and remain staked until the IDO opens.
 
 ![](<../../.gitbook/assets/image (110).png>)
 
@@ -27,17 +27,21 @@ _**Guaranteed allocation =  IDO token supply/pool size \* pool weight**_
 
 ## **Token Commitment & Allocation**
 
-**Token Commitment**
+### **Token Commitment**
 
-Once the IDO pool is open, users can find the minimum guaranteed allocation of the IDO token in their profile. They can now commit any amount of the base token in exchange for the IDO token. Non-tier members can also make a token commitment that is not higher than half of the maximum allowed amount of tier 1 (Earth tier) members. \
+Once the IDO pool is open, users can find the minimum guaranteed allocation of the IDO token in their profile. They can now commit any amount of the base token in exchange for the IDO token. Non-tier members can also make a token commitment that is not higher than half of the maximum allowed amount of tier 1 (Earth tier) members.&#x20;
 
+### **Token Allocation**
 
-**Final Allocation**
+The IDO token supply will be divided up into several pools, one for each tier, depending on the ratio of the pool weight of each tier over the total pool weight of all users. The token supply of each pool will be allocated to all the users of the respective tier in several rounds on a first come, first served basis. A tier member will receive no more than his/her guaranteed allocation in each round. The allocation rounds will keep running until the IDO supply drains out or one’s committed amount is fully filled.
 
-Part of the IDO token supply, if not all, will be first allocated to meet the minimum guaranteed allocation of all the tier members who have made a commitment. 
+If there is any unsold supply in any tier, it will be allocated to other tiers from the highest to the lowest.
 
-The remaining supply of each tier will be allocated to members of the same tier first. Then any unsold supply will be allocated to other tier members from the highest to the lowest tier. Orders of the same tier will be filled on a first come, first served basis.\
+**Example:**
 
+There is a total of 1,000 $SKY tokens allocated for the Moon Tier (Tier 2) at the price of 1 $USDT = 1 $SKY. There are 5 tier members and the minimum guaranteed allocation for each is 200 $SKY (= 200 $USDT).
+
+![](<../../.gitbook/assets/image (111).png>)
 
 **Tutorials:**
 

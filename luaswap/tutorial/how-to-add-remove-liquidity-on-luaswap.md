@@ -6,17 +6,17 @@ description: Add liquidity to get 0.35% of swapping fee.
 
 ## **How to add liquidity into LuaSwap**
 
-### **Step 1: Go to **[**https://luaswap.org**](https://luaswap.org)
+### **Step 1: Go to** [**https://luaswap.org**](https://luaswap.org)
 
 then click on **Pool** in **Product** tab
 
 ![](<../../.gitbook/assets/image (104).png>)
 
-Connect to LuaSwap via your wallet 
+Connect to LuaSwap via your wallet&#x20;
 
 ![](<../../.gitbook/assets/screenshot\_1 (3).png>)
 
-_Note: _ _Using LuaSwap’s Ethereum version requires the Metamask network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the Metamask network to be set to TomoChain. Follow _[_this guide _](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask)_to learn more._
+_Note:_ _Using LuaSwap’s Ethereum version requires the Metamask network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the Metamask network to be set to TomoChain. Follow_ [_this guide_ ](https://docs.tomochain.com/general/how-to-connect-to-tomochain-network/metamask)_to learn more._
 
 {% content-ref url="../../general/how-to-connect-to-tomochain-network/metamask.md" %}
 [metamask.md](../../general/how-to-connect-to-tomochain-network/metamask.md)
@@ -30,7 +30,7 @@ Click on **Add liquidity**
 
 ![](<../../.gitbook/assets/screenshot\_3 (4).png>)
 
-Search for your liquidity pool by choosing 2 tokens from LuaSwap menu or pasting the smart contract address into the search bar, make sure to double-check the correct information. 
+Search for your liquidity pool by choosing 2 tokens from LuaSwap menu or pasting the smart contract address into the search bar, make sure to double-check the correct information.&#x20;
 
 ![](../../.gitbook/assets/screenshot\_5.png)
 
@@ -83,4 +83,4 @@ The system will give a board informing you how many tokens you got back after re
 
 Check Gas price and Confirm the transaction then go to Etherscan/TomoScan to check your Tx Hash
 
-**Warning**: _Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your token may change over time. Please educate yourself on the risks of providing liquidity and the concept of _[_impermanent loss_](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/)_ before participating._
+**Warning**: _Due to the potential of impermanent loss, you may receive a different distribution of tokens upon redemption than you initially added. That means the ratio of your token may change over time. Please educate yourself on the risks of providing liquidity and the concept of_ [_impermanent loss_](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/) _before participating._

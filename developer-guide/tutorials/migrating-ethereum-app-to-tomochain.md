@@ -7,11 +7,11 @@ description: >-
 
 # Migrating Ethereum Dapp to TomoChain
 
-## What’s a Dapp? <a href="b85e" id="b85e"></a>
+## What’s a Dapp? <a href="#b85e" id="b85e"></a>
 
 Dapps are built on smart contracts deployed onto the blockchain where platform serves as the back-end for the application. One of the most popular Dapps — Cryptokitties, is collectibles-style Dapp built on Ethereum. When we build a game with Ethereum, essentially, each game action and transaction is be stored on the Ethereum blockchain.
 
-## What’s TomoChain? <a href="d2b6" id="d2b6"></a>
+## What’s TomoChain? <a href="#d2b6" id="d2b6"></a>
 
 In short, TomoChain is an innovative solution to blockchain scalability and functionality. TomoChain supports all EVM-compatible smart-contracts, which basically means that every Dapp run on Ethereum can be easily ported to TomoChain.
 
@@ -19,7 +19,7 @@ In short, TomoChain is an innovative solution to blockchain scalability and func
 _Every Dapp running on Ethereum can be easily ported to TomoChain!_
 {% endhint %}
 
-## Why should developers build Dapps on TomoChain? <a href="0547" id="0547"></a>
+## Why should developers build Dapps on TomoChain? <a href="#0547" id="0547"></a>
 
 > _TomoChain is a blockchain built for practical decentralized applications._
 
@@ -27,7 +27,7 @@ Remember CryptoKitties in 2017? A single Dapp brought the whole Ethereum blockch
 
 For more information about TomoChain, please refer to our [website](http://tomochain.com).
 
-## Introduction <a href="7e29" id="7e29"></a>
+## Introduction <a href="#7e29" id="7e29"></a>
 
 In this tutorial, we will see how easy it is to migrate the [**TomoRPS**](https://tomorps.online) (source code can be found [**here**](https://github.com/frogdevvn/tomorps-smartcontract) and [**here**](https://github.com/frogdevvn/tomorps-backend)) game from Ethereum to TomoChain in 1 hour.
 
@@ -41,7 +41,7 @@ Below is **Video** showing that TomoRPS was slow and had bad user experience bec
 
 {% embed url="https://vimeo.com/348170191" %}
 
-## Remove some configs of Ethereum network and replace by TomoChain network in Truffle project <a href="d654" id="d654"></a>
+## Remove some configs of Ethereum network and replace by TomoChain network in Truffle project <a href="#d654" id="d654"></a>
 
 Take a look at our current truffle-config.js.
 
@@ -144,7 +144,7 @@ module.exports = {
 };
 ```
 
-## Compile & deploy a smart contract to TomoChain networks <a href="6ac5" id="6ac5"></a>
+## Compile & deploy a smart contract to TomoChain networks <a href="#6ac5" id="6ac5"></a>
 
 Now, it’s a good time to compile the smart contract with TomoChain networks.
 
@@ -155,7 +155,7 @@ Now, it’s a good time to compile the smart contract with TomoChain networks.
 
 After a few seconds, the smart contract will be migrated successfully to TomoChain Testnet.
 
-## Update client to interact with TomoChain smart contract <a href="ab97" id="ab97"></a>
+## Update client to interact with TomoChain smart contract <a href="#ab97" id="ab97"></a>
 
 This is the easiest step. We only need to change old smart contract address to new address on TomoChain and update our client (text, icon, logon…) to match with TomoChain.
 
@@ -163,11 +163,11 @@ This is the easiest step. We only need to change old smart contract address to n
 
 You can go to [**TomoScan Testnet**](https://scan.testnet.tomochain.com) to verify the contract deployment.
 
-## Testing <a href="b3ec" id="b3ec"></a>
+## Testing <a href="#b3ec" id="b3ec"></a>
 
 Let’s get some faucet TOMO from the [**faucet page**](https://faucet.testnet.tomochain.com).
 
-Connect MetaMask to TomoChain Testnet by following this [**guide**](https://github.com/tomochain/docs/blob/game_tutorials/get-started/wallet).
+Connect MetaMask to TomoChain Testnet by following this [**guide**](https://github.com/tomochain/docs/blob/game\_tutorials/get-started/wallet).
 
 You can even play the game with [**TomoWallet**](https://docs.tomochain.com/products/tomowallet/features/) through our built-in Dapp Browser, which provides the best user experience for gamers.
 
@@ -177,8 +177,8 @@ Below is the **video** showing how fast TomoRPS is on TomoChain.
 
 {% embed url="https://vimeo.com/348143592" %}
 
-## Conclusion <a href="2a44" id="2a44"></a>
+## Conclusion <a href="#2a44" id="2a44"></a>
 
 It will not be too difficult and won’t take much time to migrate your Dapps from Ethereum to TomoChain. Along with that Dapps running on TomoChain has many advantages in speed and cost. So don’t hesitate to bring your Dapps to TomoChain where you can make your Dapps great again.
 
-[**Github**](https://github.com/tomochain/docs/blob/game_tutorials/docs/developers/migrate_from_ethereum.md)** **
+[**Github**](https://github.com/tomochain/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md) ****&#x20;

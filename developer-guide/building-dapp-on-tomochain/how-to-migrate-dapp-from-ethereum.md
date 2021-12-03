@@ -6,9 +6,9 @@ description: >-
 
 # How to Migrate Dapps from Ethereum
 
-**A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _(More about migrations in the _[_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_)._
+**A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _(More about migrations in the_ [_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_)._
 
-### Create the migration scripts <a href="4a00" id="4a00"></a>
+### Create the migration scripts <a href="#4a00" id="4a00"></a>
 
 Open the `migrations/` directory and you will see one JavaScript file: `1_initial_migration_js`. This handles deploying the `Migrations.sol` contract to observe subsequent smart contract migrations, and ensures we don't double-migrate unchanged contracts in the future.
 
@@ -23,11 +23,11 @@ var Adoption = artifacts.require("Adoption");module.exports = function(deployer)
 };
 ```
 
-### Configure the migration networks in truffle.js <a href="40aa" id="40aa"></a>
+### Configure the migration networks in truffle.js <a href="#40aa" id="40aa"></a>
 
 Now we are almost ready to deploy to TomoChain. Let’s see [how to deploy your smart contract to a custom provider](https://truffleframework.com/tutorials/using-infura-custom-provider), any blockchain of your choice, like **TomoChain**.
 
-Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the** address **to deploy — the wallet we just created, and optionally the gas, gas price, etc.
+Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the **address** to deploy — the wallet we just created, and optionally the gas, gas price, etc.
 
 1\. Install Truffle’s `HDWalletProvider`, a separate npm package to find and sign transactions for addresses derived from a 12-word `mnemonic` — in a certain blockchain. ([Read more about HDWalletProvider](https://github.com/trufflesuite/truffle-hdwallet-provider).)
 
@@ -89,7 +89,7 @@ Replace the `truffle.js` file with this new content:
 var mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';
 ```
 
-Done. Please, notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache)_ is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
+Done. Please, notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache) _is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
 
 We have added the migration configuration so **we are now able to deploy to public blockchains like TomoChain** (both testnet and mainnet).
 
@@ -97,7 +97,7 @@ We have added the migration configuration so **we are now able to deploy to publ
 
 _Want to try? With npm package `dotenv` you can load an environment variable from a file `.env`, — then update your truffle.js to use this secret `mnemonic`._
 
-### Start the migration <a href="5eb4" id="5eb4"></a>
+### Start the migration <a href="#5eb4" id="5eb4"></a>
 
 You should have your smart contract already compiled. Otherwise, now it’s a good time to do it with `truffle compile`.
 
@@ -163,14 +163,14 @@ The contract address is:
 **Congratulations!** You have already deployed your smart contract to TomoChain. All this in just 8 seconds. We started with `30 TOMO` and the deployment has costed `5.38 TOMO` in gas fees.
 
 > **Note:** The command to deploy to **TomoChain mainnet** is very similar:\
-> `truffle migrate --network `**`tomomainnet`**
+> `truffle migrate --network`` `**`tomomainnet`**
 
-### \*\*\* Troubleshooting \*\*\* <a href="4dbb" id="4dbb"></a>
+### \*\*\* Troubleshooting \*\*\* <a href="#4dbb" id="4dbb"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
 
-### Check the deployment transaction <a href="0b1e" id="0b1e"></a>
+### Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
 If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com) (or [mainnet](https://scan.tomochain.com)). In the search field, type in the transaction ID for your new contract.
 
@@ -182,6 +182,6 @@ You can also enter your wallet address on the TomoScan search bar. You will find
 
 **Congratulations!** You’ve deployed your contract to TomoChain using Truffle. You have written your first smart contract and deployed it to a public blockchain. It’s time to interact with our smart contract now to make sure it does what we want.
 
-## Testing the smart contract <a href="8f62" id="8f62"></a>
+## Testing the smart contract <a href="#8f62" id="8f62"></a>
 
 It is a good idea to test your smart contracts. You can write some tests in the `test/` directory and execute with `truffle test`. Find more details on [Truffle’s Pet Shop tutorial](https://truffleframework.com/tutorials/pet-shop#testing-the-smart-contract).

@@ -62,5 +62,5 @@ Now you are all set to go!&#x20;
 
 
 
-**Note: **This is a technical instruction on how to connect your Trust Wallet to participate in the IDOs on LuaStarter. We are not responsible for any loss of funds that occurs in the process.\
+**Note:** This is a technical instruction on how to connect your Trust Wallet to participate in the IDOs on LuaStarter. We are not responsible for any loss of funds that occurs in the process.\
 Please be careful when working with recovery phrase and private key, and make sure that no one can access your recovery phrase/ private key.&#x20;

@@ -16,51 +16,51 @@ Below are the most important features of TomoIssuer that have made it a revoluti
 
 Before issuing your token on TomoChain, make sure you are aware of the available tokens types and the differences between them.
 
-**TRC20: **TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover extremely low transaction fees. 
+**TRC20:** TRC20 is an equivalent token standard of ERC20 built on top of the TomoChain blockchain. TRC20 token holders would need to hold a small amount of TOMO to cover extremely low transaction fees.&#x20;
 
-**TRC21: **TRC21, powered by TomoZ Protocol, creates a much frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet. \
+**TRC21:** TRC21, powered by TomoZ Protocol, creates a much frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet. \
 
 
-**Comparison Table  **
+**Comparison Table** &#x20;
 
-|                                                  | **TRC20            ** |                                                **TRC21**                                                |
+|                                                  | **TRC20**             |                                                **TRC21**                                                |
 | ------------------------------------------------ | :-------------------: | :-----------------------------------------------------------------------------------------------------: |
 | **Technical Requirements for Dapp Integration**  |        **Low**        |                                               **Moderate**                                              |
-| **Technical Requirements for Exchange Listing ** |        **Low**        |                                               **Moderate**                                              |
+| **Technical Requirements for Exchange Listing**  |        **Low**        |                                               **Moderate**                                              |
 | **TomoP Compatibility**                          |         **√**         |                                                  **√**                                                  |
 | **TomoX Compatibility**                          |         **×**         |                                                  **√**                                                  |
 | **TomoZ Compatibility**                          |         **×**         |                                                  **√**                                                  |
-| **Transaction Fees **                            |    **Native TOMO**    | <p><strong>By e transaction token itself</strong></p><p><strong> (no need for native TOMO)</strong></p> |
+| **Transaction Fees**                             |    **Native TOMO**    | <p><strong>By e transaction token itself</strong></p><p> <strong>(no need for native TOMO)</strong></p> |
 
-### ISSUE 
+### ISSUE&#x20;
 
-**Step 1: **
+**Step 1:**&#x20;
 
-Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com) and click on “Issue New Token”. 
+Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com) and click on “Issue New Token”.&#x20;
 
-![](https://lh3.googleusercontent.com/ndCZhxRX0DduCHamfc5suwnVgXZQMFkSASLryG9M_C3m0XF7uHRPkjN-XqQ9HdWgMDllWsuqQPgLR1d8eiucYwxKtisx8wkoG_vkLF1eA7VdCEgMmMCrK0duv7h3u85CrpG1O_Zz)
+![](https://lh3.googleusercontent.com/ndCZhxRX0DduCHamfc5suwnVgXZQMFkSASLryG9M\_C3m0XF7uHRPkjN-XqQ9HdWgMDllWsuqQPgLR1d8eiucYwxKtisx8wkoG\_vkLF1eA7VdCEgMmMCrK0duv7h3u85CrpG1O\_Zz)
 
 **‌Step 2:**
 
-Unlock your wallet by choosing one of the available methods. 
+Unlock your wallet by choosing one of the available methods.&#x20;
 
-![](https://lh5.googleusercontent.com/5i4cEou5twtRPvc8KlIDBUnYTUnOxqkdBsIGtdO3f1BI2wxNuhKDyPcbwPJP2g1iMY1386YvY1f-WH_BkTO5YXojnaIgRR1BmKCb72KcJNwg4lT2kktO7WCZWfq9EuU0YnTctulc)
+![](https://lh5.googleusercontent.com/5i4cEou5twtRPvc8KlIDBUnYTUnOxqkdBsIGtdO3f1BI2wxNuhKDyPcbwPJP2g1iMY1386YvY1f-WH\_BkTO5YXojnaIgRR1BmKCb72KcJNwg4lT2kktO7WCZWfq9EuU0YnTctulc)
 
-**Step 3: **
+**Step 3:**&#x20;
 
-Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type (TRC20 or TRC21), and whether or not it’s reissuable. 
+Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type (TRC20 or TRC21), and whether or not it’s reissuable.&#x20;
 
 * The symbol of the token contract is the symbol by which the token contract should be known, for example, “MYT”. It is broadly equivalent to a stock ticker and limited to 5 characters in length.
 * Decimals refer to how divisible a token can be, from 0 (not at all divisible) to 18 (pretty much continuous) and even higher if required. Technically speaking, the decimals value is the number of digits that come after the decimal place when displaying token values on-screen.
 * Make sure to check out the differences between reissuable/ non-reissuable tokens, and TRC20/ TRC21 tokens by hovering on the information icon and clicking on the “Differences?” link.
 
-![](https://lh4.googleusercontent.com/RccOJoSplATEnan10naKZ0PW-qrB-L_cOiJNpQFJBhLJH9ENCkRl77eKfqKQtrVd3B6pkElCrB7iOZCMokegoibCrwmIKMXsM3WljvPgFa7n7Nzxddct4sofZUEmaetbKYOB83TH)
+![](https://lh4.googleusercontent.com/RccOJoSplATEnan10naKZ0PW-qrB-L\_cOiJNpQFJBhLJH9ENCkRl77eKfqKQtrVd3B6pkElCrB7iOZCMokegoibCrwmIKMXsM3WljvPgFa7n7Nzxddct4sofZUEmaetbKYOB83TH)
 
 **‌**
 
-**Disclaimer: **The token issuance fee could vary depending on how much it costs to deploy the smart contract.
+**Disclaimer:** The token issuance fee could vary depending on how much it costs to deploy the smart contract.
 
-**Step 4: **
+**Step 4:**&#x20;
 
 TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
@@ -68,35 +68,35 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 
 **‌**
 
-**Note: **Any developer with some experience  developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.tomochain.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
+**Note:** Any developer with some experience  developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.tomochain.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
 ![](https://lh3.googleusercontent.com/qqgnCnXWddC0SItsud0\_K51w0Op8SB0tN-RXMsWH-KhCn-tekT39feMYeSv7G-lAdCJZSgWlarm1VdNKOvnwgfZ10SzUba7mMvR-u8lfS0gqvSfXXP-\_SMFO14OuDG2QTIz-h2cL)
 
-**‌THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY **
+**‌THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY**&#x20;
 
-**Step 5: **A notification is received when the token is successfully issued. Click “View detail” to check the token’s summary including: number of holders, transactions, etc. For TRC21 tokens, choose “Apply to pay fee by token” for TomoZ integration.
+**Step 5:** A notification is received when the token is successfully issued. Click “View detail” to check the token’s summary including: number of holders, transactions, etc. For TRC21 tokens, choose “Apply to pay fee by token” for TomoZ integration.
 
-![](https://lh6.googleusercontent.com/s8zaJXonmRhE2DW8G2pCESXg9p5OHfYGmZYmf7iO_h9Km5ddMq2MPCq-PE1gyPlPSbqsSCHN0ES6sdL4lNanfr3RWk-L1iEivRQnmW4fOP2KEg5IV4hBgEUccX9fy5RhTLjNejbL)
+![](https://lh6.googleusercontent.com/s8zaJXonmRhE2DW8G2pCESXg9p5OHfYGmZYmf7iO\_h9Km5ddMq2MPCq-PE1gyPlPSbqsSCHN0ES6sdL4lNanfr3RWk-L1iEivRQnmW4fOP2KEg5IV4hBgEUccX9fy5RhTLjNejbL)
 
-**Step 6: **Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”. 
+**Step 6:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”.&#x20;
 
-![](https://lh4.googleusercontent.com/4nRywJ0MmqAEciEaHPJQsNDRaEL6RuvbzHG2zi506cOrteVyGCEqWZAdxKAzI_W7UKkuv85fJsp8UTAb77MUwWxvIIbO7AS7RrRKoYsemosNhoYfRwYBpuaqLojyRp_vcCLoOQru)
+![](https://lh4.googleusercontent.com/4nRywJ0MmqAEciEaHPJQsNDRaEL6RuvbzHG2zi506cOrteVyGCEqWZAdxKAzI\_W7UKkuv85fJsp8UTAb77MUwWxvIIbO7AS7RrRKoYsemosNhoYfRwYBpuaqLojyRp\_vcCLoOQru)
 
 **‌**
 
-**Step 7: **The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. The TOMO held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
+**Step 7:** The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. The TOMO held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
 
-![](https://lh4.googleusercontent.com/B_mVeqlbLUclk6kxaGoOf73X5OUpmV4KNXDTlUDfKZ8mh9gHMdY4Gz9XC1OyVuVl_inAH51Ph_z\_2GVF7b5dIh9GJrVLW4o23SlnHTYfAVgMHlXEckwG15Wo1LgfvUihlTqlHqrJ)
+![](https://lh4.googleusercontent.com/B\_mVeqlbLUclk6kxaGoOf73X5OUpmV4KNXDTlUDfKZ8mh9gHMdY4Gz9XC1OyVuVl\_inAH51Ph\_z\_2GVF7b5dIh9GJrVLW4o23SlnHTYfAVgMHlXEckwG15Wo1LgfvUihlTqlHqrJ)
 
 **‌**
 
 **Step 8:** Now the new TRC21 token can be used. Edit the transaction fee in the token itself. Change this number at any time during the operation period of the token.
 
-![](https://lh6.googleusercontent.com/DgX6LNwhUIybgabf3K9iLpd_DPYkgLrHHWlJ3RML8qPQoZa_Dvp5rvaJ8c8ZOwnEfkcyRJtlUqYB5-PuY3X0pjdJglnFZ0-j9eL2Lb1QXdJaMmm7jUh526k9oyF-\_RHZUD-hG9Rd)
+![](https://lh6.googleusercontent.com/DgX6LNwhUIybgabf3K9iLpd\_DPYkgLrHHWlJ3RML8qPQoZa\_Dvp5rvaJ8c8ZOwnEfkcyRJtlUqYB5-PuY3X0pjdJglnFZ0-j9eL2Lb1QXdJaMmm7jUh526k9oyF-\_RHZUD-hG9Rd)
 
 **‌**
 
-**Step 9: **In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
+**Step 9:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
 
 ![](https://lh3.googleusercontent.com/I2ffwVcBRRPCo43hFDXrc-9HXoXdzxQWJofCbR4R-VW342b0EChRjR3tcR3TP3tKu3s26v6MjP7NnGgJqVBvBBiEELNLj1W82UhSH6YZM6akbFLlGAoh6FAp5t77q4njg8DQyiqK)
 

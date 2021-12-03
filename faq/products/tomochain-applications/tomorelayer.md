@@ -1,6 +1,6 @@
 # TomoRelayer
 
-## What is TomoRelayer? 
+## What is TomoRelayer?&#x20;
 
 [TomoRelayer](https://relayer.testnet.tomochain.com/login) is a DEX portal which follows TomoChain’s design and interacts with the underlying TomoX protocol. By using TomoRelayer, anyone can propose their own decentralized exchange by depositing 25,000 TOMO. The design used in TomoRelayer assists the owners in monitoring, analyzing and controlling digital assets on their exchange platform with a professional dashboard.
 
@@ -23,15 +23,15 @@ On the [homepage](https://relayer.testnet.tomochain.com/login), you will see 4 o
 The main dashboard displays 2 main tabs
 
 * **Relayer Page:** All key figures representing your Relayer’s performance are displayed.
-* **Configuration: **This advanced tab lets you override the content and default settings, including:
-* **Information: **Setting detail information of your Relayer
-* **Trade option: **Adding trading fees (%) and trade tokens based on your preference
-* **Transfer: **Allows you to transfer ownership of your Relayer to another owner
+* **Configuration:** This advanced tab lets you override the content and default settings, including:
+* **Information:** Setting detail information of your Relayer
+* **Trade option:** Adding trading fees (%) and trade tokens based on your preference
+* **Transfer:** Allows you to transfer ownership of your Relayer to another owner
 * **Shutdown:** Allows you to shut down your Relayer
 
 ![](https://miro.medium.com/max/1440/1\*NmtxiiurwlJxCO7mxrTpDw.png)
 
-## **Steps on registering a new Relayer** <a href="eac2" id="eac2"></a>
+## **Steps on registering a new Relayer** <a href="#eac2" id="eac2"></a>
 
 **Step 1**: Relayer Registration: First, deposit a minimum amount of 25,000 TOMO and add an address of your Relayer **C**oinase
 
@@ -43,7 +43,7 @@ The main dashboard displays 2 main tabs
 
 **Step 3:** Adjust the trading Fee: the Brokerage fee is charged when a trader buys or sells tokens. The minimum requirement is 0.01% and it can be modified later
 
-![](https://miro.medium.com/max/1074/1\*0GMGMDnzSsAtMFAp-5Lg_A.png)
+![](https://miro.medium.com/max/1074/1\*0GMGMDnzSsAtMFAp-5Lg\_A.png)
 
 **Step 4:** Select trading pairs to appear in the Main Dashboard. You can also see the volume within 7 days and search for other available pairs.
 
@@ -53,4 +53,4 @@ Once all 4 steps are completed, there will be a review box about all previous de
 
 Congratulations, you’ve just created your very own Relayer.
 
-## Join TomoX technical support: [@TomoX](https://t.me/tomox) 
+## Join TomoX technical support: [@TomoX](https://t.me/tomox)&#x20;

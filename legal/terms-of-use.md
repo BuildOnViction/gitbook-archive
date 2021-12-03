@@ -5,46 +5,46 @@ description: Terms and conditions for using TomoChains products.
 # Terms of Use
 
 {% hint style="warning" %}
-** PLEASE READ CAREFULLY THESE TERMS AND CONDITIONS AS THEY AFFECT YOUR OBLIGATIONS AND LEGAL RIGHTS, INCLUDING, BUT NOT LIMITED TO LIMITATION OF LIABILITY. IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS DO NOT USE OUR SERVICES**
+&#x20;**PLEASE READ CAREFULLY THESE TERMS AND CONDITIONS AS THEY AFFECT YOUR OBLIGATIONS AND LEGAL RIGHTS, INCLUDING, BUT NOT LIMITED TO LIMITATION OF LIABILITY. IF YOU DO NOT AGREE WITH THESE TERMS AND CONDITIONS DO NOT USE OUR SERVICES**
 {% endhint %}
 
 ### AGREEMENT
 
-This Terms of Use is a legal agreement between you (Licensee or you) and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”). 
+This Terms of Use is a legal agreement between you (Licensee or you) and TomoChain Lab Pte. Ltd. (UEN: 201716924E), a company incorporated under the laws of Singapore, and its subsidiaries, affiliates and related corporations who own or operate the Services (defined below) (“Company”, “we”, “us” or “our”).&#x20;
 
 By accessing or using our Services or any part of it, you accept and agree to be bound by the Terms of Use, the Privacy Policy, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. Please read the Privacy Policy to find out how we collect, use, disclose, process and protect your personal data.
 
 If you do not agree to these Terms, you should stop accessing or using our Services immediately. In these Terms, the “Services” means the application owned and operated by the Company including: our websites (the “Site”), TomoWallet, TomoScan, TomoMaster, TomoIssuer, TomoRelayer, TomoStats, TomoBridge and our other products. The “Cryptocurrency(ies)” means a digital currency, also referred to as a token, in which encryption techniques are used to regulate the generation of units of the currency and to verify the transfer of the currency and which operates independently of the central bank of a country. Such digital currency is not legal tender issued by any central bank nor does it confer any interest in the ownership of, or debt relating to, any asset or property.
 
-The Company reserves the right to change, modify, add or remove any of terms contained in these Terms, at any time, for any reason. 
+The Company reserves the right to change, modify, add or remove any of terms contained in these Terms, at any time, for any reason.&#x20;
 
 ### ELIGIBILITY
 
-To be eligible to use the Company's Services, you must be at least eighteen (18) years old and be able to form legally binding contracts. 
+To be eligible to use the Company's Services, you must be at least eighteen (18) years old and be able to form legally binding contracts.&#x20;
 
-If you are using our Services on behalf of a legal entity, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf. 
+If you are using our Services on behalf of a legal entity, you further represent and warrant that: (a) the legal entity is duly organized and validly existing under the applicable laws of the jurisdiction of its organization; and (b) you are duly authorized by such legal entity to act on its behalf.&#x20;
 
-You can only use our Services if permitted under the laws of your jurisdiction. Please make sure that these Terms are in compliance with all laws, rules, and regulations that apply to you. 
+You can only use our Services if permitted under the laws of your jurisdiction. Please make sure that these Terms are in compliance with all laws, rules, and regulations that apply to you.&#x20;
 
 By using our Services, you represent and warrant that you meet all eligibility requirements that we outline in these Terms. We may still refuse to let certain people access or use our Services, however, and we reserve the right to change our eligibility criteria at any time.
 
 ### RESTRICTIONS OF USING OUR SERVICES
 
- As a user of the Services, we grant you a limited, personal, non-commercial, non-exclusive, non-transferable, and revocable license to use our Services. When using our Services, we ask that you follow some basic rules:
+&#x20;As a user of the Services, we grant you a limited, personal, non-commercial, non-exclusive, non-transferable, and revocable license to use our Services. When using our Services, we ask that you follow some basic rules:
 
-**DO NOT Use Our Services to Break the Law.** 
+**DO NOT Use Our Services to Break the Law.**&#x20;
 
 You agree that you will not violate any laws when using our Services. This includes any local, provincial, state, federal, national, or international laws that may apply to you. You agree that you will not use our Services to pay for, support, or otherwise engage in any illegal activities including, but not limited to, illegal gambling, fraud, money laundering, or terrorist activities. If we discover that you have violated this Agreement or other regulatory requirements by participating in money laundering or by financing terrorist activities, we will take proportional disciplinary action. You further agree not to encourage or induce any third party to engage in any of the activities prohibited under this Section.
 
-**DO NOT Interfere With Other’s Use of the Services**. 
+**DO NOT Interfere With Other’s Use of the Services**.&#x20;
 
 You agree that you will not use or attempt to use another user’s Wallet without authorization or use our Services in any manner that could interfere, disrupt, negatively affect, or inhibit other users from fully enjoying it.
 
-**DO NOT Try to Harm Our System**. 
+**DO NOT Try to Harm Our System**.&#x20;
 
 You agree not to distribute any virus or other harmful computer code through our Services. You also agree to not take any action that may impose an unreasonable or disproportionately large load on our or any of our third party providers’ infrastructure.
 
-**DO NOT Attempt to Circumvent Our Security**. 
+**DO NOT Attempt to Circumvent Our Security**.&#x20;
 
 You agree not to bypass, circumvent, or attempt to bypass or circumvent any measures that we may use to prevent or restrict access to the Services including, without limitation, other accounts, computer systems, or networks connected to the Services.
 
@@ -56,19 +56,19 @@ Any use of our Services other than as specifically authorized in this Agreement,
 
 The private key is connected to the Wallet address and, together, they can be used to authorize the transfer of Cryptocurrencies to and from that Wallet address. You are solely responsible for maintaining the security of your private key and any mnemonic (backup) phrase associated with your Wallet. You must keep your Wallet address, mnemonic (backup) phrase, and private key access information secure. Failure to do so may result in the loss of control of Cryptocurrencies associated with the Wallet.
 
-**The Company Cannot Assist With Password Retrieval**. 
+**The Company Cannot Assist With Password Retrieval**.&#x20;
 
 Our Services may store your Wallet address but does not receive or store your Wallet password, encrypted private key, unencrypted private key, or mnemonic (backup) phrase associated with your Wallet. We cannot, therefore, assist you with Wallet password retrieval. We cannot generate a new password for your Wallet if you fail to remember your original password. If you have not safely stored a backup of any Wallet address and private key pairs maintained in your Wallet, you accept and acknowledge that any Cryptocurrencies you have associated with such a Wallet address will become inaccessible if you do not have your Wallet password.
 
-**Cryptocurrencies Transactions.** 
+**Cryptocurrencies Transactions.**&#x20;
 
 In order to be completed, all proposed Cryptocurrencies transactions must be confirmed and recorded in the Cryptocurrencies of associated public blockchain. By using our Services, you acknowledge and agree that the transaction details you submit may not be completed, or may be substantially delayed, by the TomoChain Networks.
 
 Once transaction details have been submitted via the Services, we cannot assist you to cancel or otherwise modify your transaction. You must ensure that you have an adequate balance in your Wallet and/or gas to complete transactions before initiating a transaction. You acknowledge and agree that we will not be liable for any failed transactions due to insufficient funds or gas associated with your account.
 
-#### No Control and No Duty over Risk 
+#### No Control and No Duty over Risk&#x20;
 
-Any fee that you might pay while using the Services is not a remuneration of the Company for the Services. This fee is to pay for Masternodes who produce the block to maintain the TomoChain blockchain. 
+Any fee that you might pay while using the Services is not a remuneration of the Company for the Services. This fee is to pay for Masternodes who produce the block to maintain the TomoChain blockchain.&#x20;
 
 The Company provides you with the Services but you are the only person who is liable for any losses, damages, claims related to the use of the Services. The Company assumes no responsibility or liability related to TomoChain's Services.
 

@@ -8,17 +8,17 @@ description: >-
 
 ### 1. What is LuaStarter?
 
-LuaStarter is a multi-chain Initial DEX Offering platform supports TomoChain, Ethereum and Binance Smart Chain based on a new Tier Guaranteed System Model. 
+LuaStarter is a multi-chain Initial DEX Offering platform supports TomoChain, Ethereum and Binance Smart Chain based on a new Tier Guaranteed System Model.&#x20;
 
 ![](../../.gitbook/assets/Screenshot\_3.png)
 
 ### 2. What are the problems LuaStarter trying to solve?
 
-In the current DeFi ecosystem, there are several problems such as early investing is not available to the average retail investors, the difficulty to know if projects are trusted among the community, tokens may not be fairly distributed in the offering, scatted tokens, and liquidity provider tokens (LP tokens) on multiple chains are not counted together for the IDO registration. 
+In the current DeFi ecosystem, there are several problems such as early investing is not available to the average retail investors, the difficulty to know if projects are trusted among the community, tokens may not be fairly distributed in the offering, scatted tokens, and liquidity provider tokens (LP tokens) on multiple chains are not counted together for the IDO registration.&#x20;
 
-Several launchpads have been trying to solve these problems by providing fixed and dynamic swap features, fairness model, para-chain crowd loan, anti-bot protection, full KYC integration. Others try to provide high allocation to retail investors (some launchpad call it capital allocation feature) or introduce an integrated vesting schedule. 
+Several launchpads have been trying to solve these problems by providing fixed and dynamic swap features, fairness model, para-chain crowd loan, anti-bot protection, full KYC integration. Others try to provide high allocation to retail investors (some launchpad call it capital allocation feature) or introduce an integrated vesting schedule.&#x20;
 
-There are some limitations to all of the above solutions. The first limitation lies in the fact that token holders are not counted for the tokens they hold in more than one chain. Secondly, it requires a cooldown period, reducing the capital efficiency as participants must stake more tokens to join the IDO. Besides, many launchpads require whitelist registration and lottery mechanism, which makes the operation more complex and inefficient as many investors find it hopeless after several attempts without success and must rely on how lucky they are. Furthermore, KYC seems to be a part of a Centralized exchange process rather than a Decentralized exchange offering. 
+There are some limitations to all of the above solutions. The first limitation lies in the fact that token holders are not counted for the tokens they hold in more than one chain. Secondly, it requires a cooldown period, reducing the capital efficiency as participants must stake more tokens to join the IDO. Besides, many launchpads require whitelist registration and lottery mechanism, which makes the operation more complex and inefficient as many investors find it hopeless after several attempts without success and must rely on how lucky they are. Furthermore, KYC seems to be a part of a Centralized exchange process rather than a Decentralized exchange offering.&#x20;
 
 ### 3. How does LuaStarter differ from other launchpads?
 
@@ -28,7 +28,7 @@ Hence, LuaStarter introduces The Tier Guaranteed System model built on SEAT mech
 
 ### 4. What are the tier guaranteed system?
 
-There are fixed 4+1 tier systems based on the total number of tokens and LP-tokens equivalent, enabling all token holders the right to participate in IDO projects. Tokens are allocated to each tier group based on fixed pool weight. 
+There are fixed 4+1 tier systems based on the total number of tokens and LP-tokens equivalent, enabling all token holders the right to participate in IDO projects. Tokens are allocated to each tier group based on fixed pool weight.&#x20;
 
 ![](../../.gitbook/assets/Screenshot\_4.png)
 
@@ -44,7 +44,7 @@ The project must undergo an intense process including:
 * Due diligence check
 * Final security check
 
-### **6.**[** **LuaStarter's whitepaper](https://drive.google.com/file/d/1Wd0xhR6TkN9H51stQ1hWhMFfTMs5lNxn/view) (updated 15 Oct, 2021) ****
+### **6.**[ **** LuaStarter's whitepaper](https://drive.google.com/file/d/1Wd0xhR6TkN9H51stQ1hWhMFfTMs5lNxn/view) (updated 15 Oct, 2021) ****
 
 ##
 

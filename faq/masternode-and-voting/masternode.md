@@ -26,7 +26,7 @@ After the initial deposit, if the account does not become a Masternode (has less
 
 The reason came from considering both decentralization and scalability. In terms of decentralization, 150 is better than 99. The more important consideration was scalability. We also increased the number of Masternodes to better suit a future sharding solution.
 
-Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's_number).
+Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's\_number).
 
 ### **Where will the Masternode rewards come from? Will they be from the DEX?**
 
@@ -36,13 +36,13 @@ And then later on, the revenues from DEXs powered by the TomoX protocol will go 
 
 ### **When are Masternode rewards paid out?**
 
-Masternode operators and Voters will receive rewards every epoch. An epoch is represented as 900-blocks of 2-second block time (\~30 minutes). 
+Masternode operators and Voters will receive rewards every epoch. An epoch is represented as 900-blocks of 2-second block time (\~30 minutes).&#x20;
 
 ### **How can I check my rewards?**
 
 You can check your Masternode/staking rewards using TomoWallet. Alternatively you can use TomoMaster or TomoScan.
 
-To estimate rewards you are going to receive when voting a certain amount of TOMO, you can go to [https://tomochain.com/tomo-staking/](https://tomochain.com/tomo-staking/) 
+To estimate rewards you are going to receive when voting a certain amount of TOMO, you can go to [https://tomochain.com/tomo-staking/](https://tomochain.com/tomo-staking/)&#x20;
 
 ### **What rewards do Masternodes receive?**
 
@@ -58,11 +58,11 @@ There is a reward sharing ratio among token holders and the Masternodes which ha
 
 * **Infrastructure Reward:** The first portion of 40% called Infrastructure Reward goes to the Masternode operator.
 * **Staking Reward:** The second portion of 50% called Staking Reward goes to the pool of all voters for that Masternode which is shared proportionally based on the token stake. The Masternode also gets proportional rewards for his 50K TOMO initial deposit.
-* **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the TomoChain company initially. 
+* **Foundation Reward:** The last portion of 10% called Foundation Reward goes to a special account controlled by the Masternode Foundation, which is run by the TomoChain company initially.&#x20;
 
 ### **What is the expected ROI for Masternodes and Stakers?**
 
-The rewards for every Masternode will be dynamic and depend on multiple factors like: number of Masternodes in the network, the efficiency signing blocks, the total number of votes on each Masternode. 
+The rewards for every Masternode will be dynamic and depend on multiple factors like: number of Masternodes in the network, the efficiency signing blocks, the total number of votes on each Masternode.&#x20;
 
 Please, refer to our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) for more details about the Masternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
 
@@ -102,7 +102,7 @@ The first step to become a Masternode, is becoming a Masternode Candidate. To be
 * to run TomoChain software in a machine with a certain minimal hardware requirements
 * to deposit 50,000 TOMO in a smart contract via TomoMaster
 
-The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.tomochain.com). The next step is to be elected as one of the top 150 most voted Candidates. 
+The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.tomochain.com). The next step is to be elected as one of the top 150 most voted Candidates.&#x20;
 
 ### **Do I need to use my own computer to run a node?**
 
@@ -131,13 +131,13 @@ Setting up a masternode candidate on a weaker machine might result in poor perfo
 
 ### **How do Masternode Candidates become Masternodes?**
 
-Once you are a Masternode Candidate, you need the support of the TomoChain community in the form of votes. The top 150 most voted Candidates every period, called an epoch (900 blocks of 2-second block-time), will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of TOMO. 
+Once you are a Masternode Candidate, you need the support of the TomoChain community in the form of votes. The top 150 most voted Candidates every period, called an epoch (900 blocks of 2-second block-time), will be promoted to Masternodes. This list will change dynamically every epoch. Only the 150 Masternodes elected will be able to sign blocks and will receive rewards in the form of TOMO.&#x20;
 
 ### **Is there any guide on 'How to run a Masternode from A to Z'?**
 
 See this [Medium post](https://medium.com/tomochain/how-to-run-a-tomochain-masternode-from-a-to-z-3793752dc3d1).
 
-### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode? **
+### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?**&#x20;
 
 Find more details about tmn here: [https://docs.tomochain.com/masternode/tmn/](https://docs.tomochain.com/masternode/tmn/)
 

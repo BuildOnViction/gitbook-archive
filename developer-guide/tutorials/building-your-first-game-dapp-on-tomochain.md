@@ -6,7 +6,7 @@ description: >-
 
 # An Example of Building a Dapp on TomoChain
 
-This article will take you through the process of **building a basic Dapp on TomoChain **— an adoption tracking system for a pet shop!
+This article will take you through the process of **building a basic Dapp on TomoChain** — an adoption tracking system for a pet shop!
 
 In this guide we will be covering:
 
@@ -19,7 +19,7 @@ In this guide we will be covering:
 * Connecting Metamask to TomoChain testnet
 * Creating a user interface to interact with the smart contract
 
-## What is TomoChain? <a href="cd48" id="cd48"></a>
+## What is TomoChain? <a href="#cd48" id="cd48"></a>
 
 [**TomoChain**](https://tomochain.com) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. TomoChain achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
 
@@ -30,7 +30,7 @@ The TomoChain blockchain and its product ecosystem allow businesses to build hig
 
 > Every Dapp running on Ethereum can be easily ported to TomoChain
 
-### Why should developers build Dapps on TomoChain? <a href="8c4b" id="8c4b"></a>
+### Why should developers build Dapps on TomoChain? <a href="#8c4b" id="8c4b"></a>
 
 Remember [_CryptoKitties_](https://www.cryptokitties.co) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
 
@@ -40,7 +40,7 @@ In this tutorial, we will see **how to build a Dapp using Solidity** and then de
 
 > **Note:** Because deploying a smart contract on mainnet is much similar to testnet, the differences are just the configuration information, this document will explicitly mention the differences where possible
 
-## 0. Prerequisites <a href="7095" id="7095"></a>
+## 0. Prerequisites <a href="#7095" id="7095"></a>
 
 To start building your Dapp you will need to install some programs:
 
@@ -51,7 +51,7 @@ To check that Node is installed properly, open a console (admin PowerShell on Wi
 
 To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
-## 1. Getting Started: Installation <a href="3965" id="3965"></a>
+## 1. Getting Started: Installation <a href="#3965" id="3965"></a>
 
 [**Truffle Framework**](https://truffleframework.com) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
 
@@ -63,7 +63,7 @@ npm install -g truffle
 
 You can verify that Truffle is correctly installed typing `truffle version`.
 
-## 2. Creating a Truffle project <a href="1abb" id="1abb"></a>
+## 2. Creating a Truffle project <a href="#1abb" id="1abb"></a>
 
 Truffle initializes in the current directory, so first create a directory in your development folder of choice and then move inside it.
 
@@ -71,7 +71,7 @@ Truffle initializes in the current directory, so first create a directory in you
 mkdir pet-shop-tutorialcd pet-shop-tutorial
 ```
 
-Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project).** **There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
+Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). **** There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
 
 ![](<../../.gitbook/assets/image (74).png>)
 
@@ -85,13 +85,13 @@ The default Truffle directory structure contains a series of folders and files. 
 
 > **Note:** **This tutorial is focused on the whole process to build a Dapp on TomoChain, so we will not enter into all the details.**
 
-## 3. Creating a TOMO Wallet <a href="a775" id="a775"></a>
+## 3. Creating a TOMO Wallet <a href="#a775" id="a775"></a>
 
 **You will need a wallet address** and some tokens. We will show you how to do it on both TomoChain Testnet and Mainnet.
 
-### 3.1 Create a TOMO wallet and save your Mnemonic <a href="d296" id="d296"></a>
+### 3.1 Create a TOMO wallet and save your Mnemonic <a href="#d296" id="d296"></a>
 
-You can create a new TOMO wallet using **TomoWallet **mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login). Under _Settings _go to _Advanced Settings, _here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -113,7 +113,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 > **Important!** Always keep your private key and recovery phrase **secret!**
 
-### 3.2 Get some TOMO funds <a href="3232" id="3232"></a>
+### 3.2 Get some TOMO funds <a href="#3232" id="3232"></a>
 
 Tokens are required for different matters, like smart contract deployment or to use in DApps.
 
@@ -123,7 +123,7 @@ Tokens are required for different matters, like smart contract deployment or to 
 
 Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do everything in this tutorial so… let’s go ahead!
 
-### 3.3 The Block Explorer <a href="07a6" id="07a6"></a>
+### 3.3 The Block Explorer <a href="#07a6" id="07a6"></a>
 
 To check the balance of a wallet address, you can use **TomoScan**.
 
@@ -131,7 +131,7 @@ To check the balance of a wallet address, you can use **TomoScan**.
 
 **Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com)
 
-## 4. Writing the smart contract <a href="d658" id="d658"></a>
+## 4. Writing the smart contract <a href="#d658" id="d658"></a>
 
 We’ll start our Dapp by writing the smart contract that acts as the back-end logic and storage.
 
@@ -155,7 +155,7 @@ pragma solidity ^0.5.0;contract Adoption {
 
 > **Note:** Code from [Truffle’s Pet-Shop tutorial](https://truffleframework.com/tutorials/pet-shop#writing-the-smart-contract) — if you want to look deeper into the Solidity code, they slowly go through the Truffle link explaining the details.
 
-## 5. Compiling <a href="df38" id="df38"></a>
+## 5. Compiling <a href="#df38" id="df38"></a>
 
 Solidity is a compiled language, meaning we need to compile our Solidity to bytecode for the **Ethereum Virtual Machine (EVM)** to execute. Think of it as translating our human-readable Solidity into something the EVM understands.
 
@@ -175,13 +175,13 @@ Compiling ./contracts/Adoption.sol...
 Writing artifacts to ./build/contracts
 ```
 
-## 6. Migration — Deploying <a href="6b08" id="6b08"></a>
+## 6. Migration — Deploying <a href="#6b08" id="6b08"></a>
 
 Now that we’ve successfully compiled, it’s time to **migrate your smart contracts to TomoChain blockchain!**
 
-**A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _(More about migrations in the _[_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_)._
+**A migration is a deployment script meant to alter the state of your application’s contracts**, moving it from one state to the next. _(More about migrations in the_ [_Truffle documentation_](https://truffleframework.com/docs/truffle/getting-started/running-migrations)_)._
 
-### 6.1 Create the migration scripts <a href="4a00" id="4a00"></a>
+### 6.1 Create the migration scripts <a href="#4a00" id="4a00"></a>
 
 Open the `migrations/` directory and you will see one JavaScript file: `1_initial_migration_js`. This handles deploying the `Migrations.sol`contract to observe subsequent smart contract migrations, and ensures we don't double-migrate unchanged contracts in the future.
 
@@ -196,11 +196,11 @@ var Adoption = artifacts.require("Adoption");module.exports = function(deployer)
 };
 ```
 
-### 6.2 Configure the migration networks in truffle.js <a href="40aa" id="40aa"></a>
+### 6.2 Configure the migration networks in truffle.js <a href="#40aa" id="40aa"></a>
 
 Now we are almost ready to deploy to TomoChain. Let’s see [how to deploy your smart contract to a custom provider](https://truffleframework.com/tutorials/using-infura-custom-provider), any blockchain of your choice, like **TomoChain**.
 
-Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the** address **to deploy — the wallet we just created, and optionally the gas, gas price, etc.
+Before starting the migration, we need to specify the **blockchain** where we want to deploy our smart contracts, specify the **address** to deploy — the wallet we just created, and optionally the gas, gas price, etc.
 
 1\. Install Truffle’s `HDWalletProvider`, a separate npm package to find and sign transactions for addresses derived from a 12-word `mnemonic` — in a certain blockchain. ([Read more about HDWalletProvider](https://github.com/trufflesuite/truffle-hdwallet-provider).)
 
@@ -260,7 +260,7 @@ Replace the `truffle.js` file with this new content:
 var mnemonic = '<PUT YOUR WALLET 12-WORD RECOVERY PHRASE HERE>';
 ```
 
-Done. Please notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache)_ is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
+Done. Please notice the `tomotestnet` network will be used to deploy our smart contract. We have also added the `tomomainnet` network, in case you want to deploy to TomoChain Mainnet. However, if you are familiar with [Ganache](https://truffleframework.com/ganache), you could use the `development` network to do the local test as well if you want to. [_Ganache_](https://truffleframework.com/ganache) _is a locally running personal blockchain for Ethereum development you can use to deploy contracts, develop applications, and run tests._
 
 We have added the migration configuration so **we are now able to deploy to public blockchains like TomoChain** (both testnet and mainnet).
 
@@ -268,7 +268,7 @@ We have added the migration configuration so **we are now able to deploy to publ
 
 _Want to try? With npm package `dotenv` you can load an environment variable from a file `.env`, — then update your truffle.js to use this secret `mnemonic`._
 
-### 6.3 Start the migration <a href="5eb4" id="5eb4"></a>
+### 6.3 Start the migration <a href="#5eb4" id="5eb4"></a>
 
 You should have your smart contract already compiled. Otherwise, now it’s a good time to do it with `truffle compile`.
 
@@ -334,14 +334,14 @@ The contract address is:
 **Congratulations!** You have already deployed your smart contract to TomoChain. All this in just 8 seconds. We started with `30 TOMO` and the deployment has costed `5.38 TOMO` in gas fees.
 
 > **Note:** The command to deploy to **TomoChain mainnet** is very similar:\
-> `truffle migrate --network `**`tomomainnet`**
+> `truffle migrate --network`` `**`tomomainnet`**
 
-### \*\*\* Troubleshooting \*\*\* <a href="4dbb" id="4dbb"></a>
+### \*\*\* Troubleshooting \*\*\* <a href="#4dbb" id="4dbb"></a>
 
-* **Error: `smart contract creation cost is under allowance`**. **Why? **Increasing transaction fees for smart contract creation is one of the ways TomoChain defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
+* **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways TomoChain defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
 
-### 6.4 Check the deployment transaction <a href="0b1e" id="0b1e"></a>
+### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
 If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com) (or [mainnet](https://scan.tomochain.com)). In the search field, type in the transaction ID for your new contract.
 
@@ -353,13 +353,13 @@ You can also enter your wallet address on the TomoScan search bar. You will find
 
 **Congratulations!** You’ve deployed your contract to TomoChain using Truffle. You have written your first smart contract and deployed it to a public blockchain. It’s time to interact with our smart contract now to make sure it does what we want.
 
-## 7. Testing the smart contract <a href="8f62" id="8f62"></a>
+## 7. Testing the smart contract <a href="#8f62" id="8f62"></a>
 
 It is a good idea to test your smart contracts. You can write some tests in the `test/` directory and execute with `truffle test`. Find more details on [Truffle’s Pet Shop tutorial](https://truffleframework.com/tutorials/pet-shop#testing-the-smart-contract).
 
 
 
-## 8. Creating a user interface to interact with the smart contract <a href="5a54" id="5a54"></a>
+## 8. Creating a user interface to interact with the smart contract <a href="#5a54" id="5a54"></a>
 
 Now **we’ve created the smart contract and deployed it to TomoChain blockchain (testnet).** It’s time to create a UI so that people can use the shop!
 
@@ -471,17 +471,17 @@ Here is what these functions do:
 
 `initWeb3()` Checks if we are using modern DApp browsers or the more recent versions of [MetaMask](https://github.com/MetaMask).
 
-`initContract()` Retrieves the artifact file for our smart contract. **Artifacts are information about our contract such as its deployed address and Application Binary Interface (ABI)**. **The ABI is a JavaScript object defining how to interact with the contract including its variables, functions and their parameters. **We then call the app's `markAdopted()`function in case any pets are already adopted from a previous visit.
+`initContract()` Retrieves the artifact file for our smart contract. **Artifacts are information about our contract such as its deployed address and Application Binary Interface (ABI)**. **The ABI is a JavaScript object defining how to interact with the contract including its variables, functions and their parameters.** We then call the app's `markAdopted()`function in case any pets are already adopted from a previous visit.
 
 `markAdopted()` After calling `getAdopters()`, we then loop through all of them, checking to see if an address is stored for each pet. Ethereum initializes the array with 16 empty addresses. This is why we check for an empty address string rather than null or other false value. Once a `petId`with a corresponding address is found, we disable its Adopt button and change the button text to "Success", so the user gets some feedback.
 
 `handleAdopt()` We get the deployed contract and store the instance in `adoptionInstance`. We're going to send a **transaction** instead of a call by executing the `adopt()` function with both the pet's ID and an object containing the account address. Then, we proceed to call our `markAdopted()`function to sync the UI with our newly stored data.
 
-## 9. Interacting with the Dapp in a browser <a href="5700" id="5700"></a>
+## 9. Interacting with the Dapp in a browser <a href="#5700" id="5700"></a>
 
 Now we’re ready to use our Dapp!
 
-### 9.1 Install and configure MetaMask <a href="4986" id="4986"></a>
+### 9.1 Install and configure MetaMask <a href="#4986" id="4986"></a>
 
 1. Install the [MetaMask browser extension](https://metamask.io) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
@@ -499,11 +499,11 @@ Now we’re ready to use our Dapp!
 
 We could use the TOMO wallet we created previously, but better **let’s create a new TOMO wallet** and add a few TOMO tokens — _you know how to do it_.
 
-7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account. **Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
+7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
 
 ![](<../../.gitbook/assets/image (36).png>)
 
-### 9.2 Using the Dapp <a href="9432" id="9432"></a>
+### 9.2 Using the Dapp <a href="#9432" id="9432"></a>
 
 We will now start a local web server and interact with the Dapp. We’re using the `lite-server`. This shipped with the `pet-shop` Truffle box.
 
@@ -539,4 +539,4 @@ And in MetaMask you’ll see the transaction listed:
 
 **Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to TomoChain.
 
-###    <a href="8c4b" id="8c4b"></a>
+### &#x20;  <a href="#8c4b" id="8c4b"></a>
