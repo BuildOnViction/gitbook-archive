@@ -4,7 +4,7 @@ For IDOs launched on Binance Smart Chain (BSC) on LuaStarter, the wallet address
 
 In this tutorial, we will walk you through how to resolve the issue and participate in IDOs on BSC for TrusWallet users.&#x20;
 
-![](<../../.gitbook/assets/image (112).png>)
+![](<../../.gitbook/assets/image (112) (1).png>)
 
 ### Step 1: Get your recovery phrase from Trust Wallet&#x20;
 

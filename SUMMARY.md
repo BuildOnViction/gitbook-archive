@@ -85,7 +85,7 @@
   * [User Agreement for TomoDEX Lending Service](tomodex/user-agreement-for-tomodex-lending-service.md)
 * [LuaSwap](luaswap/README.md)
   * [LuaStarter](luaswap/luastarter/README.md)
-    * [Tier requirements & allocation](luaswap/luastarter/tier-requirements-and-allocation.md)
+    * [IDO Pool Types & Allocation](luaswap/luastarter/tier-requirements-and-allocation.md)
     * [How to participate in IDOs](luaswap/luastarter/how-to-participate-in-idos.md)
     * [How to join IDOs on Binance Smart Chain with Trust Wallet](luaswap/luastarter/how-to-join-idos-on-binance-smart-chain-with-trust-wallet.md)
     * [IDO FAQs](luaswap/luastarter/ido-faqs.md)

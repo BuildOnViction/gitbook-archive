@@ -42,7 +42,7 @@ Click on the IDO pool that you want to participate in.
 
 You will find the instructions and your current tier at the bottom.
 
-![](<../../.gitbook/assets/image (112) (1).png>)
+![](<../../.gitbook/assets/image (112) (1) (1).png>)
 
 To find how much LUA you have that can be counted for tier qualification, click on “**Portfolio**” on the side menu.
 
