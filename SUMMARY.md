@@ -123,7 +123,7 @@
     * [TOMOB](tomobridge/faq/tomob.md)
   * [Terms of Use](tomobridge/terms-of-use.md)
   * [Privacy Policy](tomobridge/privacy-policy.md)
-* [APIs](https://apidocs.tomochain.com)
+* [APIs](https://apidocs.tomochain.com/)
 * [FAQ](faq/README.md)
   * [General](faq/general/README.md)
     * [TomoChain](faq/general/tomochain.md)
