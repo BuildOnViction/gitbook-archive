@@ -4,7 +4,7 @@
 
 Yes, TomoChain has a maximum of 150 Masternodes with Proof of Stake Voting (POSV) consensus that enable low transaction fees, and instant transaction confirmation. Masternodes create, verify and validate new blocks one the TomoChain blockchain.
 
-* **Masternode Candidates:** Any account can deposit 50,000 TOMO using [TomoMaster](https://master.tomochain.com) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
+* **Masternode Candidates:** Any account can deposit 50,000 TOMO using [TomoMaster](https://master.tomochain.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 * **Becoming a Masternode:** A Candidate becomes a Masternode when he/she belongs to the top 150 most voted Candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
 * **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs. Masternodes will also receive fees from the TomoChain DEX, which is planned for mainnet in Q1-2020.
 
@@ -14,7 +14,7 @@ TomoChain Masternodes started signing blocks and receiving block rewards when th
 
 A TomoChain Masternode is a server which uses its computing power to contribute to the network. Its job is to create and sign blocks. For this contribution to the network, Masternodes receive rewards in the form of TOMO.
 
-Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMaster](https://master.tomochain.com)
+Masternodes are elected using the PoSV consensus via our governance Dapp [TomoMaster](https://master.tomochain.com/)
 
 ### **What are the incentives to run a Masternode?**
 
@@ -91,7 +91,7 @@ Approximate reward achieved per year:
 
 ### **What is a Masternode Candidate? What is the difference between Masternode Candidate and Masternode?**
 
-A Masternode Candidate is any node owner who deposits 50,000 TOMO to be listed on [TomoMaster](https://master.tomochain.com).
+A Masternode Candidate is any node owner who deposits 50,000 TOMO to be listed on [TomoMaster](https://master.tomochain.com/).
 
 A Candidate only becomes a Masternode when it is in the top-150 most-voted Masternode Candidates in an epoch. Only these elected Masternodes will be able to sign blocks and receive block rewards.
 
@@ -102,7 +102,7 @@ The first step to become a Masternode, is becoming a Masternode Candidate. To be
 * to run TomoChain software in a machine with a certain minimal hardware requirements
 * to deposit 50,000 TOMO in a smart contract via TomoMaster
 
-The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.tomochain.com). The next step is to be elected as one of the top 150 most voted Candidates.&#x20;
+The list of Masternode Candidates will be available on the governance Dapp, [TomoMaster](https://master.tomochain.com/). The next step is to be elected as one of the top 150 most voted Candidates.&#x20;
 
 ### **Do I need to use my own computer to run a node?**
 

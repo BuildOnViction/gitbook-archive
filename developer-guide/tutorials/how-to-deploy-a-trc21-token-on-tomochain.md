@@ -16,7 +16,7 @@ Below are the most important features of TomoIssuer that have made it a revoluti
 
 **Step 1:**&#x20;
 
-Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com) and click on “Issue New Token”.&#x20;
+Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com/) and click on “Issue New Token”.&#x20;
 
 ![](https://lh3.googleusercontent.com/ndCZhxRX0DduCHamfc5suwnVgXZQMFkSASLryG9M\_C3m0XF7uHRPkjN-XqQ9HdWgMDllWsuqQPgLR1d8eiucYwxKtisx8wkoG\_vkLF1eA7VdCEgMmMCrK0duv7h3u85CrpG1O\_Zz)
 
@@ -90,4 +90,4 @@ Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter th
 
 ![](<../../.gitbook/assets/image (105).png>)
 
-**‌Congratulations! You have learn how to deploy a TRC20/TRC21 token on**[ **TomoChain**](http://tomochain.com)**.**
+**‌Congratulations! You have learn how to deploy a TRC20/TRC21 token on**[ **TomoChain**](http://tomochain.com/)**.**

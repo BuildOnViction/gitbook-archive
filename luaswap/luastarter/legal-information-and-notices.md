@@ -31,7 +31,7 @@ _This Terms of Use is a legal agreement between you (referred to herein as "the 
 * “IDO” means Initial DEX Offerings or Initial Decentralized Exchange Offerings.
 * “LuaStarter” means a multi-chain IDO platform on Ethereum, TomoChain and Binance Smart Chain based on a new Tier Guaranteed System Model.
 * "Services" means any of the services, functions, or features offered from time to time on or through the Site, which include the accessibility to the new IDO token offered from each IDO fundraising project, staking service and other relevant services available through Site, which may be subject to periodic revision.
-* "Site" means the Internet website [https://starter.luaswap.org/](https://starter.luaswap.org).
+* "Site" means the Internet website [https://starter.luaswap.org/](https://starter.luaswap.org/).
 * “TomoChain” means the TomoChain public blockchain secured by the Masternode Infrastructure.
 * “Wallet(s)” means a combination of a user’s public address and corresponding private key (or mnemonic phrase or keystore file with password) that holds any Digital Assets, which may be associated with corresponding transactions related to this address.
 

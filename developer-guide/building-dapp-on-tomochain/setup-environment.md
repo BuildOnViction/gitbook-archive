@@ -13,7 +13,7 @@ To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
 ## Getting Started: Installation <a href="#3965" id="3965"></a>
 
-[**Truffle Framework**](https://truffleframework.com) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
+[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
 
 We only need this single command to install Truffle, the popular development framework for Ethereum.
 
@@ -55,7 +55,7 @@ You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com) and select **TOMO (tomochain.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -77,7 +77,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 Tokens are required for different matters, like smart contract deployment or to use in Dapps.
 
-**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com).
+**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com/).
 
 **Mainnet:** You need real TOMO tokens from exchanges.
 
@@ -87,6 +87,6 @@ Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do eve
 
 To check the balance of a wallet address, you can use **TomoScan**.
 
-**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com)
+**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com/)
 
-**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com)
+**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com/)

@@ -12,7 +12,7 @@ description: >-
 
 ![](../../.gitbook/assets/spill-the-t-2.png)
 
-[TomoRelayer](http://relayer.tomochain.com) is a portal to register and manage decentralized exchanges (also called Relayers) on TomoX. Any Relayer Owner can deposit 25,000 TOMO to claim an available DEX and then use TomoRelayer’s tools to monitor, analyze and control all digital assets
+[TomoRelayer](http://relayer.tomochain.com/) is a portal to register and manage decentralized exchanges (also called Relayers) on TomoX. Any Relayer Owner can deposit 25,000 TOMO to claim an available DEX and then use TomoRelayer’s tools to monitor, analyze and control all digital assets
 
 ### **Key features**: <a href="#cb38" id="cb38"></a>
 

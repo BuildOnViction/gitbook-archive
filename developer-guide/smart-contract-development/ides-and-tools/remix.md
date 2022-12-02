@@ -1,12 +1,12 @@
 # Remix
 
-**Remix is a Solidity IDE that’s used to write, compile and debug Solidity code. **[**Solidity**](https://solidity.readthedocs.io)** is a high-level, contract-oriented programming language for writing smart contracts. It was influenced by popular languages such as C++, Python and JavaScript.**
+**Remix is a Solidity IDE that’s used to write, compile and debug Solidity code.** [**Solidity**](https://solidity.readthedocs.io/) **is a high-level, contract-oriented programming language for writing smart contracts. It was influenced by popular languages such as C++, Python and JavaScript.**
 
 IDE stands for Integrated Development Environment and is an application with a set of tools designed to help programmers execute different tasks related to software development such as writing, compiling, executing and debugging code.
 
 Before you begin using Remix to develop smart contracts, make sure you’re familiar with some basic concepts. In particular, give these articles about [blockchain](https://www.sitepoint.com/blockchain-what-it-is-how-it-works-why-its-so-popular) and [Ethereum](https://bitfalls.com/2017/09/19/what-ethereum-compare-to-bitcoin/) a read.
 
-#### What’s a Smart Contract/Dapp? <a href="whatsasmartcontractdapp" id="whatsasmartcontractdapp"></a>
+#### What’s a Smart Contract/Dapp? <a href="#whatsasmartcontractdapp" id="whatsasmartcontractdapp"></a>
 
 A smart contract is a trust-less agreement between two parties that makes use of blockchain technology, to enforce the parties to adhere to the terms, rather than relying on the traditional ways such as trusting a middleman or using laws to handle disputes.
 
@@ -16,23 +16,23 @@ Using the Ethereum blockchain, you can create smart contracts with the Solidity 
 
 Unlike the smart contract deployed on the blockchain itself, the front end of a Dapp can be either hosted on a centralized server like a CDN or on decentralized storage like [Swarm](http://ethdocs.org/en/latest/contracts-and-transactions/developer-tools.html#swarm).
 
-### Accessing the Remix IDE <a href="accessingtheremixide" id="accessingtheremixide"></a>
+### Accessing the Remix IDE <a href="#accessingtheremixide" id="accessingtheremixide"></a>
 
 You can access the Remix IDE in different ways: online, via a web browser like Chrome, from a locally installed copy, or from Mist (the Ethereum Dapp browser).
 
-#### Using the In-Browser Remix IDE <a href="usingtheinbrowserremixide" id="usingtheinbrowserremixide"></a>
+#### Using the In-Browser Remix IDE <a href="#usingtheinbrowserremixide" id="usingtheinbrowserremixide"></a>
 
-You can access the Remix IDE from your web browser without any special installation. Visit [https://remix.ethereum.org/](https://remix.ethereum.org) and you’ll be presented with a complete IDE with a code editor and various panels for compiling, running and debugging your smart contracts. You’ll have a default example _Ballot_ contract that you can play with.
+You can access the Remix IDE from your web browser without any special installation. Visit [https://remix.ethereum.org/](https://remix.ethereum.org/) and you’ll be presented with a complete IDE with a code editor and various panels for compiling, running and debugging your smart contracts. You’ll have a default example _Ballot_ contract that you can play with.
 
 ![Remix IDE](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/06/1528071944remix-ide-1024x780.png)
 
-#### Starting Remix IDE from Mist <a href="startingremixidefrommist" id="startingremixidefrommist"></a>
+#### Starting Remix IDE from Mist <a href="#startingremixidefrommist" id="startingremixidefrommist"></a>
 
 You can start the Remix IDE from Mist by clicking on _Develop_, then _Open Remix IDE_. Remix will be opened in a new window. If this is your first time running the IDE, you’ll be presented with a simple example _Ballot_ contract.
 
 To get familiar with Mist, please see [this article](https://bitfalls.com/2018/02/12/explaining-ethereum-tools-geth-mist/).
 
-#### Running your Own Copy of Remix IDE <a href="runningyourowncopyofremixide" id="runningyourowncopyofremixide"></a>
+#### Running your Own Copy of Remix IDE <a href="#runningyourowncopyofremixide" id="runningyourowncopyofremixide"></a>
 
 You can also run your own copy of Remix IDE by executing the following commands:
 
@@ -43,11 +43,11 @@ remix-ide
 
 You need to have Node.js and npm installed. Check this [GitHub repository](https://github.com/ethereum/remix-ide) for more information.
 
-### Remix Panels <a href="remixpanels" id="remixpanels"></a>
+### Remix Panels <a href="#remixpanels" id="remixpanels"></a>
 
 After seeing how to open the Remix IDE, let’s now see the various panels composing the IDE.
 
-#### File Explorer <a href="fileexplorer" id="fileexplorer"></a>
+#### File Explorer <a href="#fileexplorer" id="fileexplorer"></a>
 
 The file explorer provides a view with the created files stored in the browser’s storage. You can rename or delete any file by right-clicking on it, then choosing the right operation from the context menu.
 
@@ -77,19 +77,19 @@ Using the fifth button from top left, you can copy files from the local storage 
 
 The last button can be used to connect the Remix IDE to your local file system if you’re running the Remixd tool.
 
-#### Solidity Code Editor <a href="soliditycodeeditor" id="soliditycodeeditor"></a>
+#### Solidity Code Editor <a href="#soliditycodeeditor" id="soliditycodeeditor"></a>
 
 The Solidity code editor provides the interface where you can write your code with many features such as syntax highlighting, auto-recompling, auto-saving etc. You can open multiple tabs and also increase/decrease the font size using the _+/-_ button in the top-left corner.
 
 ![Solidity Code Editor](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/06/1528072494solidity-code-editor.png)
 
-#### Terminal <a href="terminal" id="terminal"></a>
+#### Terminal <a href="#terminal" id="terminal"></a>
 
 The terminal window below the editor integrates a JavaScript interpreter and the `web3` object. You can execute JavaScript code in the current context, visualize the actions performed from the IDE, visualize all network transactions or transactions created from the Remix IDE etc. You can also search for data in the terminal and clear the logs.
 
 ![Remix terminal](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/06/1528072582remix-terminal.png)
 
-#### Tabs Panel <a href="tabspanel" id="tabspanel"></a>
+#### Tabs Panel <a href="#tabspanel" id="tabspanel"></a>
 
 The _Tabs_ panel provides many tabs for working with the IDE:
 
@@ -102,7 +102,7 @@ The _Tabs_ panel provides many tabs for working with the IDE:
 
 ![Remix tabs](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/06/1528072805remix-tabs.png)
 
-### Remix Execution Environments <a href="remixexecutionenvironments" id="remixexecutionenvironments"></a>
+### Remix Execution Environments <a href="#remixexecutionenvironments" id="remixexecutionenvironments"></a>
 
 The Remix IDE provides many environments for executing the transactions:
 
@@ -112,7 +112,7 @@ The Remix IDE provides many environments for executing the transactions:
 
 ![Remix Execution Environments](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/06/1528072980remix-execution-environments.png)
 
-### Using Remix IDE to Compile and Deploy a Smart Contract <a href="usingremixidetocompileanddeployasmartcontract" id="usingremixidetocompileanddeployasmartcontract"></a>
+### Using Remix IDE to Compile and Deploy a Smart Contract <a href="#usingremixidetocompileanddeployasmartcontract" id="usingremixidetocompileanddeployasmartcontract"></a>
 
 For the sake of demonstrating what we can achieve using Remix IDE, we’ll use an example contract and we’ll see how we can:
 
@@ -164,7 +164,7 @@ It also declares:
 
 You can read more details about this contract from this [tutorial](https://bitfalls.com/2018/03/31/solidity-development-crash-course-building-blockchain-raffle/) where all the code is explained in detail.
 
-Now, go ahead and open the Remix IDE from [remix.ethereum.org](https://remix.ethereum.org).
+Now, go ahead and open the Remix IDE from [remix.ethereum.org](https://remix.ethereum.org/).
 
 Next, create a new file by clicking on the button with the _+_ icon.
 
@@ -234,17 +234,17 @@ If you add an account that has already participated, you should get a warning in
 
 ![Failure message](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2018/06/1528074354failure-message.png)
 
-### Remix Alternatives <a href="remixalternatives" id="remixalternatives"></a>
+### Remix Alternatives <a href="#remixalternatives" id="remixalternatives"></a>
 
 There are many alternatives for easy development and deployment of smart contracts, such as:
 
-* [Truffle](http://truffleframework.com): advertised as the Ethereum Swiss army knife and claims to be the most popular development framework for Ethereum with a mission to make your life a whole lot easier. We’ll be working with Truffle a lot in upcoming tutorials.
+* [Truffle](http://truffleframework.com/): advertised as the Ethereum Swiss army knife and claims to be the most popular development framework for Ethereum with a mission to make your life a whole lot easier. We’ll be working with Truffle a lot in upcoming tutorials.
 * [Embark](https://github.com/embark-framework/embark): a framework that allows you to easily develop and deploy Decentralized Applications (DApps).
-* [MetaMask](https://metamask.io): a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum DApps right in your browser without running a full Ethereum node. For how to develop with MetaMask, check this [faq](https://github.com/MetaMask/faq/).
+* [MetaMask](https://metamask.io/): a bridge that allows you to visit the distributed web of tomorrow in your browser today. It allows you to run Ethereum DApps right in your browser without running a full Ethereum node. For how to develop with MetaMask, check this [faq](https://github.com/MetaMask/faq/).
 * [Dapp](https://dapp.readthedocs.io/en/latest/): Dapp is a simple command line tool for smart contract development.
 * different plugins for adding Solidity support to popular IDEs such as [this Visual Code plugin](https://marketplace.visualstudio.com/items?itemName=JuanBlanco.solidity) and [this Atom plugin](https://atom.io/packages/language-ethereum) etc.
 
-### Conclusion <a href="conclusion" id="conclusion"></a>
+### Conclusion <a href="#conclusion" id="conclusion"></a>
 
 We’ve introduced you to the Remix IDE for developing smart contracts for the Ethereum blockchain. You can find more detailed information in the [docs](http://remix.readthedocs.io/en/latest/).
 

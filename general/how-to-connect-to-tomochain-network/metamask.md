@@ -4,7 +4,7 @@ description: This guide shows how to connect MetaMask to the TomoChain Mainnet.
 
 # Metamask
 
-First install the [MetaMask Extension](https://metamask.io) on Chrome or Brave browsers. Once you agree to the Metamask Terms of Use and create an account successfully, follow instructions:
+First install the [MetaMask Extension](https://metamask.io/) on Chrome or Brave browsers. Once you agree to the Metamask Terms of Use and create an account successfully, follow instructions:
 
 **Step 1:** Click the MetaMask logo on the browser to open the Extension -> select `Network` -> select `Custom RPC` as shown below:
 

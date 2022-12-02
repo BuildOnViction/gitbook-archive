@@ -4,7 +4,7 @@
 
 ### **What is TomoMaster?**
 
-[TomoMaster](https://master.tomochain.com), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K TOMO to become a Masternode Candidate.
+[TomoMaster](https://master.tomochain.com/), the 'Governance Dapp', provides a professional UI that lists all Masternodes and Masternode Candidates. Users can vote for Masternodes, see Masternode performance statistics, and deposit 50K TOMO to become a Masternode Candidate.
 
 ### **How do I login on TomoMaster?**
 

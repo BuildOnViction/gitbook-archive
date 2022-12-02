@@ -4,7 +4,7 @@ Now we’re ready to use our Dapp!
 
 ### 1. Install and configure MetaMask <a href="#4986" id="4986"></a>
 
-1. Install the [MetaMask browser extension](https://metamask.io) in Chrome or FireFox.
+1. Install the [MetaMask browser extension](https://metamask.io/) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
 3. Create a New password. Then, write down the Secret Backup Phrase and accept the terms. By default, MetaMask will create a new Ethereum address for you.
 

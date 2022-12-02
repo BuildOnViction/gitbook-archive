@@ -36,7 +36,7 @@ Before issuing your token on TomoChain, make sure you are aware of the available
 
 **Step 1:**&#x20;
 
-Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com) and click on “Issue New Token”.&#x20;
+Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com/) and click on “Issue New Token”.&#x20;
 
 ![](https://lh3.googleusercontent.com/ndCZhxRX0DduCHamfc5suwnVgXZQMFkSASLryG9M\_C3m0XF7uHRPkjN-XqQ9HdWgMDllWsuqQPgLR1d8eiucYwxKtisx8wkoG\_vkLF1eA7VdCEgMmMCrK0duv7h3u85CrpG1O\_Zz)
 

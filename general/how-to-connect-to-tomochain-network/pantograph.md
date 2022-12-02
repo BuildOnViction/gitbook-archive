@@ -7,18 +7,18 @@ description: >-
 
 # Pantograph
 
-[Pantograph Extension](http://pantograph.io) exists as the first extension that is exclusively designed to support TOMO. It is now available on Chrome, Firefox, and Brave. You can log in with Pantograph and experience a host of TomoChain services (Staking, Issuer, Bridge, DEX, etc.). The extension is plain, simple, and easy to use.
+[Pantograph Extension](http://pantograph.io/) exists as the first extension that is exclusively designed to support TOMO. It is now available on Chrome, Firefox, and Brave. You can log in with Pantograph and experience a host of TomoChain services (Staking, Issuer, Bridge, DEX, etc.). The extension is plain, simple, and easy to use.
 
 ### 1. Create Account
 
-Step 1: Download Pantograph Extension at [https://pantograph.io/](https://pantograph.io).
+Step 1: Download Pantograph Extension at [https://pantograph.io/](https://pantograph.io/).
 
 Step 2: Choose to “Add extension” to your browser.
 
 Step 3: Click “Create a Wallet” to create a new wallet, or "Import Wallet" to import your existing wallet with your Private Key (recovery phrase).\
 
 
-![](https://lh3.googleusercontent.com/GlTJxEU5GYc49txmfE8Q6yRj-4eDbJ38b-51sHdjIK3caHKGvpjL9KU53RkibAZg6sUUjEjzGD9wvB-QN9Vgu_JLnaNtzfMRJ58nQEeQ6goqGSADr7UtpHBRRtDzYLpvHSKN1p6p)
+![](https://lh3.googleusercontent.com/GlTJxEU5GYc49txmfE8Q6yRj-4eDbJ38b-51sHdjIK3caHKGvpjL9KU53RkibAZg6sUUjEjzGD9wvB-QN9Vgu\_JLnaNtzfMRJ58nQEeQ6goqGSADr7UtpHBRRtDzYLpvHSKN1p6p)
 
 Congrats! Now you’re in.\
 
@@ -41,7 +41,7 @@ Note: You can withdraw everything at any time back to your account on Pantograph
 
 To send TOMO, simply click on “Send”. Then add the recipient’s address. You can also scan QR Code to send tokens to the recipient conveniently.
 
-Pantograph enables you to modify the Gas Fees to minimize the cost with an optimized transaction speed. 
+Pantograph enables you to modify the Gas Fees to minimize the cost with an optimized transaction speed.&#x20;
 
 ### 4. Buy/ Exchange for TOMO
 
@@ -56,7 +56,7 @@ You can buy or exchange tokens for TOMO easily with Pantograph. Simply click on 
 To view the Private Key of your Pantograph account, access the Menu in the left corner of the extension and then select “Details”.\
 
 
-![](https://lh4.googleusercontent.com/KZWMqbogHVGyOPH6dL9G8jAIYu\_3gAfh0ak0\_TOBYklVlHKh6O-OMhI_bQldHFWIYL5HBcLcaaURRFWkLEilIyg0z7wYt58Zzl5j4U53KyVO0T4wr2VXDJmhM-06N6P_Zecl\_\_z6)
+![](https://lh4.googleusercontent.com/KZWMqbogHVGyOPH6dL9G8jAIYu\_3gAfh0ak0\_TOBYklVlHKh6O-OMhI\_bQldHFWIYL5HBcLcaaURRFWkLEilIyg0z7wYt58Zzl5j4U53KyVO0T4wr2VXDJmhM-06N6P\_Zecl\_\_z6)
 
 Note: Private key (or recovery phrase) is a unique set of words that guarantees the user ownership of their data. Think of your private key as the password to enter your house. Private key is the only way to access your funds. Make sure that no one else can see it.
 

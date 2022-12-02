@@ -6,7 +6,7 @@ description: >-
 
 # Binary
 
-### Install Golang <a href="install-golang" id="install-golang"></a>
+### Install Golang <a href="#install-golang" id="install-golang"></a>
 
 * Reference: https://golang.org/doc/install
 * Set environment variables
@@ -17,7 +17,7 @@ export GOROOT=$HOME/usr/local/go
 export GOPATH=$HOME/go
 ```
 
-### Prepare tomo client software <a href="prepare-tomo-client-software" id="prepare-tomo-client-software"></a>
+### Prepare tomo client software <a href="#prepare-tomo-client-software" id="prepare-tomo-client-software"></a>
 
 **Build from source code¶**
 
@@ -62,7 +62,7 @@ Download tomo binary from our [releases page](https://github.com/tomochain/tomoc
 alias tomo=path/to/tomo/binary
 ```
 
-### Download genesis block <a href="download-genesis-block" id="download-genesis-block"></a>
+### Download genesis block <a href="#download-genesis-block" id="download-genesis-block"></a>
 
 $GENESIS\_PATH : location of genesis file you would like to put
 
@@ -82,7 +82,7 @@ curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/tes
 curl -L https://raw.githubusercontent.com/tomochain/tomochain/master/genesis/mainnet.json -o $GENESIS_PATH
 ```
 
-### Create datadir <a href="create-datadir" id="create-datadir"></a>
+### Create datadir <a href="#create-datadir" id="create-datadir"></a>
 
 * create a folder to store tomochain data on your machine
 
@@ -91,13 +91,13 @@ export DATA_DIR=/path/to/your/data/folder
 mkdir -p $DATA_DIR/tomo
 ```
 
-### Initialize the chain from genesis <a href="initialize-the-chain-from-genesis" id="initialize-the-chain-from-genesis"></a>
+### Initialize the chain from genesis <a href="#initialize-the-chain-from-genesis" id="initialize-the-chain-from-genesis"></a>
 
 ```
 tomo init $GENESIS_PATH --datadir $DATA_DIR
 ```
 
-### Initialize / Import accounts for the nodes's keystore <a href="initialize-import-accounts-for-the-nodess-keystore" id="initialize-import-accounts-for-the-nodess-keystore"></a>
+### Initialize / Import accounts for the nodes's keystore <a href="#initialize-import-accounts-for-the-nodess-keystore" id="initialize-import-accounts-for-the-nodess-keystore"></a>
 
 If you already had an existing account, import it. Otherwise, please initialize new accounts&#x20;
 
@@ -127,7 +127,7 @@ tomo account import [PRIVATE_KEY_FILE_OF_YOUR_ACCOUNT] \
 tomo account list --datadir $DATA_DIR  --keystore $KEYSTORE_DIR
 ```
 
-### Start a node <a href="start-a-node" id="start-a-node"></a>
+### Start a node <a href="#start-a-node" id="start-a-node"></a>
 
 **Environment variables**
 
@@ -215,12 +215,12 @@ To see all flags usage
 tomo --help
 ```
 
-### See your node on stats page <a href="see-your-node-on-stats-page" id="see-your-node-on-stats-page"></a>
+### See your node on stats page <a href="#see-your-node-on-stats-page" id="see-your-node-on-stats-page"></a>
 
-* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com)
-* Mainnet: [https://stats.tomochain.com](http://stats.tomochain.com)
+* Testnet: [https://stats.testnet.tomochain.com](https://stats.testnet.tomochain.com/)
+* Mainnet: [https://stats.tomochain.com](http://stats.tomochain.com/)
 
-### Troubleshoot <a href="troubleshoot" id="troubleshoot"></a>
+### Troubleshoot <a href="#troubleshoot" id="troubleshoot"></a>
 
 If your node seems run smooth with no error logs but still get slash frequently. You need to check system time on your node, your system time have to be synced from NTP server
 

@@ -28,7 +28,7 @@ ERC721 is a free, open standard that describes how to build non-fungible or uniq
 
 > ERC20: identical tokens. ERC721: unique tokens
 
-Some high demand non-fungible tokens are applications like [CryptoKitties](https://www.cryptokitties.co), [Decentraland](https://decentraland.org), [CryptoPunks](https://www.larvalabs.com/cryptopunks), and many [others](https://etherscan.io/tokens-nft).
+Some high demand non-fungible tokens are applications like [CryptoKitties](https://www.cryptokitties.co/), [Decentraland](https://decentraland.org/), [CryptoPunks](https://www.larvalabs.com/cryptopunks), and many [others](https://etherscan.io/tokens-nft).
 
 ### CryptoKitties <a href="#25ec" id="25ec"></a>
 
@@ -40,7 +40,7 @@ At the end of 2017, NFTs made a remarkable entrance in the blockchain world with
 
 ### Crypto Item Standard (ERC-1155) <a href="#4a98" id="4a98"></a>
 
-One step further in the non-fungible token space is the ERC-1155 Standard proposed by the [**Enjin team**](https://enjincoin.io)**,** also known as the “Crypto Item Standard”. This is an improved version of ERC-721 which will actually be suitable for platforms where there are tens of thousands of digital items and goods.
+One step further in the non-fungible token space is the ERC-1155 Standard proposed by the [**Enjin team**](https://enjincoin.io/)**,** also known as the “Crypto Item Standard”. This is an improved version of ERC-721 which will actually be suitable for platforms where there are tens of thousands of digital items and goods.
 
 Online games can have up to 100,000 different digital items. The current problem with ERC-721 is that if we would like to tokenize all those 100,000 items, then we would need to deploy 100,000 separate smart contracts.
 
@@ -73,7 +73,7 @@ The assets that your ERC721 tokens (NFT) represent will influence some of the de
 * You can have an initial supply of tokens defined during token creation
 * You can have a function, which is only callable by the contract creator (or others — if you allow this) that will issue new tokens when called
 
-For example, in [CryptoKitties](https://www.cryptokitties.co), players are able to “breed” their Kitties, which creates new Kitties (tokens). However, if your ERC721 token represents something more tangible, like concert tickets, you may not want token holders to be able to create more tokens. In some cases, you may even want token holders to be able to “burn” their tokens, effectively destroying them.
+For example, in [CryptoKitties](https://www.cryptokitties.co/), players are able to “breed” their Kitties, which creates new Kitties (tokens). However, if your ERC721 token represents something more tangible, like concert tickets, you may not want token holders to be able to create more tokens. In some cases, you may even want token holders to be able to “burn” their tokens, effectively destroying them.
 
 ### Let’s Start the NFT Tutorial <a href="#9d55" id="9d55"></a>
 
@@ -116,7 +116,7 @@ npm install openzeppelin-solidity
 
 [Create a TOMO wallet](https://docs.tomochain.com/get-started/wallet/). Then grab a few tokens:
 
-* `TomoChain (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com) (grab \~60 TOMO)
+* `TomoChain (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 TOMO)
 * `TomoChain (mainnet)`: You will need real TOMO from exchanges
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase.
@@ -449,7 +449,7 @@ Read the output text on the screen. The NFT token [contract address](https://sca
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ## **7. Interacting with the smart contract** <a href="#4ecf" id="4ecf"></a>
 
@@ -463,7 +463,7 @@ GradientToken(gradientTokenAddress).mint("#001111", "#002222")
 
 You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.com/@blockchain101/interacting-with-deployed-ethereum-contracts-in-truffle-39d7c7040455)... In a Dapp or game this would probably be called from a button click in a UI.
 
-Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) (MEW) to interact with the contract. We use [MetaMask](https://metamask.io) to connect to the GradientToken **owner** **wallet** in TomoChain (testnet), then we will call function `mint()` to mint the first token.
+Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) (MEW) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in TomoChain (testnet), then we will call function `mint()` to mint the first token.
 
 ![](<../../.gitbook/assets/image (38).png>)
 

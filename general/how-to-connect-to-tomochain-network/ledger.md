@@ -53,13 +53,13 @@ TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge betwee
 * Click on UNLOCK
 * Ledger Nano S is ready to go with TomoChain
 
-**Note**: You can verify the balance of the account by copying the account address and checking it on [TomoScan](https://scan.tomochain.com).
+**Note**: You can verify the balance of the account by copying the account address and checking it on [TomoScan](https://scan.tomochain.com/).
 
 ![](<../../.gitbook/assets/image (44).png>)
 
 ### Connect with MyEtherWallet
 
-Users can use [MyEtherWallet vintage](http://vintage.myetherwallet.com) for Ledger Nano S to connect to TomoChain. We recommend checking and following [this clear tutorial](https://support.ledger.com/hc/en-us/articles/115005200009) with the following information:
+Users can use [MyEtherWallet vintage](http://vintage.myetherwallet.com/) for Ledger Nano S to connect to TomoChain. We recommend checking and following [this clear tutorial](https://support.ledger.com/hc/en-us/articles/115005200009) with the following information:
 
 **Note:** Select **TOMO (tomochain.com)** the crypto asset network in the top-right corner. Select m/44'/60'/0'/0 as the derivation path
 
@@ -69,7 +69,7 @@ TomoMaster is the decentralized governance Dapp of TomoChain, allowing users to 
 
 * Make sure the Ledger Nano S device is powered on, unlocked and the TomoChain Dapp is open
 * Plug the Ledger Nano S into your PC/Laptop
-* Go to [TomoMaster](https://master.tomochain.com) using a U2F compatible browser
+* Go to [TomoMaster](https://master.tomochain.com/) using a U2F compatible browser
 * Click on Login button (top right)
 * Select Ledger Wallet from the dropdown list
 * Choose m/44’/60’/0’/0 path if the Ledger Nano S has the latest firmware. Otherwise, use m/44’/889’/0’/0 path

@@ -21,7 +21,7 @@ In this guide we will be covering:
 
 ## What is TomoChain? <a href="#cd48" id="cd48"></a>
 
-[**TomoChain**](https://tomochain.com) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. TomoChain achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
+[**TomoChain**](https://tomochain.com/) is a scalable blockchain powered via Proof-of-Stake Voting (PoSV) consensus and used commercially by companies globally. TomoChain achieves 2000 TPS, 2-second blocktime, and \~$0 gas fees without compromising decentralization.
 
 Our mission is to accelerate the onboarding of millions of users by empowering today’s applications with technology that masks the friction of Blockchain, all while retaining its underlying benefits.
 
@@ -32,7 +32,7 @@ The TomoChain blockchain and its product ecosystem allow businesses to build hig
 
 ### Why should developers build Dapps on TomoChain? <a href="#8c4b" id="8c4b"></a>
 
-Remember [_CryptoKitties_](https://www.cryptokitties.co) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
+Remember [_CryptoKitties_](https://www.cryptokitties.co/) in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties.
 
 TomoChain mainnet can process 2'000 TPS, wich is **100x faster than the Ethereum blockchain,** and for a fraction of the cost.
 
@@ -53,7 +53,7 @@ To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
 ## 1. Getting Started: Installation <a href="#3965" id="3965"></a>
 
-[**Truffle Framework**](https://truffleframework.com) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
+[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
 
 We only need this single command to install Truffle, the popular development framework for Ethereum.
 
@@ -95,7 +95,7 @@ You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com) and select **TOMO (tomochain.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet you can go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** on the top right corner. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -117,7 +117,7 @@ Write them down. This will be needed later. **Notice that your wallet address (p
 
 Tokens are required for different matters, like smart contract deployment or to use in DApps.
 
-**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com).
+**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com/).
 
 **Mainnet:** You need real TOMO tokens from exchanges.
 
@@ -127,9 +127,9 @@ Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do eve
 
 To check the balance of a wallet address, you can use **TomoScan**.
 
-**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com)
+**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com/)
 
-**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com)
+**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com/)
 
 ## 4. Writing the smart contract <a href="#d658" id="d658"></a>
 
@@ -339,11 +339,11 @@ The contract address is:
 ### \*\*\* Troubleshooting \*\*\* <a href="#4dbb" id="4dbb"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways TomoChain defends against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gas Price to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
-If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com) (or [mainnet](https://scan.tomochain.com)). In the search field, type in the transaction ID for your new contract.
+If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com/) (or [mainnet](https://scan.tomochain.com/)). In the search field, type in the transaction ID for your new contract.
 
 You should see details about the transaction, including the block number where the transaction was secured.
 
@@ -483,7 +483,7 @@ Now we’re ready to use our Dapp!
 
 ### 9.1 Install and configure MetaMask <a href="#4986" id="4986"></a>
 
-1. Install the [MetaMask browser extension](https://metamask.io) in Chrome or FireFox.
+1. Install the [MetaMask browser extension](https://metamask.io/) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
 3. Create a New password. Then, write down the Secret Backup Phrase and accept the terms. By default, MetaMask will create a new Ethereum address for you.
 

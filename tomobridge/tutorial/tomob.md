@@ -1,6 +1,6 @@
 # TOMOB
 
-**Step 1:** Go to the website: [https://bridge.tomochain.com/](https://bridge.tomochain.com) and read all information carefully. Then hit “Swap Now” to get started.
+**Step 1:** Go to the website: [https://bridge.tomochain.com/](https://bridge.tomochain.com/) and read all information carefully. Then hit “Swap Now” to get started.
 
 Note: The fee is fixed at 1 TOMO
 

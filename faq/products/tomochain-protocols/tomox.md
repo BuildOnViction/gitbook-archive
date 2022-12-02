@@ -42,7 +42,7 @@ Trading fees on DEX are paid in tokens you are trading, which results in a smoot
 
 ### How to make a relayer coinbase address?
 
-You can use [https://wallet.testnet.tomochain.com/](https://wallet.testnet.tomochain.com) to create an empty address
+You can use [https://wallet.testnet.tomochain.com/](https://wallet.testnet.tomochain.com/) to create an empty address
 
 ## Read more at [TomoX white ](https://docs.google.com/document/d/1BuLe5Ci9yTTL\_jCLz5eKoQsDGb6CKAyOy\_\_dht8sQkg/edit).
 

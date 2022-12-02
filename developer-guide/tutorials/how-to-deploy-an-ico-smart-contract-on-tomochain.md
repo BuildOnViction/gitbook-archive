@@ -40,8 +40,8 @@ The **smart contract** that we use in this tutorial is very simple and only for 
 
 For this tutorial we are using:
 
-* [**Truffle**](https://truffleframework.com), a world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
-* [**OpenZeppelin**](https://openzeppelin.org), a battle-tested framework of reusable smart contracts for Ethereum and other EVM blockchains.
+* [**Truffle**](https://truffleframework.com/), a world class development environment, testing framework and asset pipeline for blockchains using the Ethereum Virtual Machine (EVM), aiming to make life as a developer easier.
+* [**OpenZeppelin**](https://openzeppelin.org/), a battle-tested framework of reusable smart contracts for Ethereum and other EVM blockchains.
 
 ### Steps to Follow (Overview) <a href="#5c6b" id="5c6b"></a>
 
@@ -87,7 +87,7 @@ Create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itune
 
 Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com) and select **TOMO (tomochain.com)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -109,7 +109,7 @@ Write them down. This will be needed later. **Notice that your wallet address an
 
 We will need some tokens for smart contract deployment and also to test later with our ICO smart contracts.
 
-**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com).
+**Testnet:** Receive 15 free testnet TOMO tokens using [TomoChain’s Faucet](https://faucet.testnet.tomochain.com/).
 
 **Mainnet:** You need real TOMO tokens from exchanges.
 
@@ -119,9 +119,9 @@ Go to faucet and collect `60 TOMO`. Now your wallet has enough balance to do eve
 
 To check the balance of a wallet address, use **TomoScan**.
 
-**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com)
+**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com/)
 
-**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com)
+**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com/)
 
 > **Note:** Create 2 different TOMO wallets, both with some tokens. The first wallet is to deploy the ICO smart contract or `deployment wallet`, the second one will be used to test it or `buyer wallet`.
 
@@ -415,7 +415,7 @@ To deploy to **TomoChain mainnet** is very similar:
 truffle migrate --network tomomainnet 
 ```
 
-You could also migrate the contract to **Ropsten** (but first you need a Ropsten wallet with some `Ropsten ETH` - _you can do this on `Metamask` _ [_with faucet_](https://faucet.metamask.io)).
+You could also migrate the contract to **Ropsten** (but first you need a Ropsten wallet with some `Ropsten ETH` - _you can do this on `Metamask` _ [_with faucet_](https://faucet.metamask.io/)).
 
 ```
 truffle migrate --network ropsten 
@@ -493,11 +493,11 @@ Read carefully and **write down** the output text on the screen:
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
 * **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
-* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com) and get more tokens.
+* **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ### 5.3 Check the deployment contracts <a href="#10d5" id="10d5"></a>
 
-If you want to verify that your contracts were deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com) (or [mainnet](https://scan.tomochain.com)). In the search field, type in the contract address you want to see.
+If you want to verify that your contracts were deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com/) (or [mainnet](https://scan.tomochain.com/)). In the search field, type in the contract address you want to see.
 
 Here are the results of our migrations:
 
@@ -529,7 +529,7 @@ The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 5
 
 ### 7.1 Install MetaMask <a href="#77e6" id="77e6"></a>
 
-1. Install the [MetaMask browser extension](https://metamask.io) in Chrome or FireFox.
+1. Install the [MetaMask browser extension](https://metamask.io/) in Chrome or FireFox.
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
 3. Create a New password. Then, write down the Secret Backup Phrase and accept the terms. By default, MetaMask will create a new Ethereum address for you.
 

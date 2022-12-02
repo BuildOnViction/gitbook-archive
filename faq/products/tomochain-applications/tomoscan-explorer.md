@@ -4,7 +4,7 @@
 
 ### **What is TomoScan?**
 
-[TomoScan](https://scan.tomochain.com) is a block explorer for TomoChain. It is pretty similar to EtherScan used on the Ethereum network if you are already familiar with it.
+[TomoScan](https://scan.tomochain.com/) is a block explorer for TomoChain. It is pretty similar to EtherScan used on the Ethereum network if you are already familiar with it.
 
 TomoScan provides a user-friendly interface to explore the TomoChain blockchain. From a user perspective, TomoScan provides transparency because all block information, transactions, finality, smart contracts, Dapps and token information are read from TomoChain and displayed here. Furthermore, TomoScan offers technical visualisations and useful statistics about TomoChain performance, token holders and other functionalities.
 
@@ -16,13 +16,13 @@ An example of what a TxHash looks like: `0xedab9e59d4567e9ced8d61caefe20e1e2a3fe
 
 To check a TxHash, follow the steps below:
 
-On [TomoScan](https://scan.tomochain.com), go to the search bar with the magnifying glass icon. Paste your transaction hash (TxHash) in the search bar and click the icon or press ENTER. Your transaction details will show up.
+On [TomoScan](https://scan.tomochain.com/), go to the search bar with the magnifying glass icon. Paste your transaction hash (TxHash) in the search bar and click the icon or press ENTER. Your transaction details will show up.
 
 Example: [https://scan.tomochain.com/txs/0xedab9e59d4567e9ced8d61caefe20e1e2a3fe95cceaaeabc98466ef3f03c0eca](https://scan.tomochain.com/txs/0xedab9e59d4567e9ced8d61caefe20e1e2a3fe95cceaaeabc98466ef3f03c0eca)
 
 ## Features&#x20;
 
-### [Home](https://scan.tomochain.com)
+### [Home](https://scan.tomochain.com/)
 
 ![TomoScan homepage](../../../.gitbook/assets/tomoscan1.jpg)
 

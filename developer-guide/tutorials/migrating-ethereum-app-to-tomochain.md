@@ -25,11 +25,11 @@ _Every Dapp running on Ethereum can be easily ported to TomoChain!_
 
 Remember CryptoKitties in 2017? A single Dapp brought the whole Ethereum blockchain to their knees. The network was congested, with endless waiting times for transaction confirmation and high transaction fees. Porting to TomoChain would seem a good idea for the cute kitties. TomoChain mainnet can process 2,000 TPS, which is 100x faster than the Ethereum blockchain, and for a fraction (1/1000) of the cost of Dapps on Ethereum. Furthermore, the whole TomoChain ecosystem is also quickly evolving, which makes it become an ideal platform for Dapp development.
 
-For more information about TomoChain, please refer to our [website](http://tomochain.com).
+For more information about TomoChain, please refer to our [website](http://tomochain.com/).
 
 ## Introduction <a href="#7e29" id="7e29"></a>
 
-In this tutorial, we will see how easy it is to migrate the [**TomoRPS**](https://tomorps.online) (source code can be found [**here**](https://github.com/frogdevvn/tomorps-smartcontract) and [**here**](https://github.com/frogdevvn/tomorps-backend)) game from Ethereum to TomoChain in 1 hour.
+In this tutorial, we will see how easy it is to migrate the [**TomoRPS**](https://tomorps.online/) (source code can be found [**here**](https://github.com/frogdevvn/tomorps-smartcontract) and [**here**](https://github.com/frogdevvn/tomorps-backend)) game from Ethereum to TomoChain in 1 hour.
 
 The migration consists of 3 steps:
 
@@ -161,11 +161,11 @@ This is the easiest step. We only need to change old smart contract address to n
 
 `ADDRESS_CONTRACT: “0xb7cEb47FbD0f6f98E16E681eb3933B7801a1ce43”`
 
-You can go to [**TomoScan Testnet**](https://scan.testnet.tomochain.com) to verify the contract deployment.
+You can go to [**TomoScan Testnet**](https://scan.testnet.tomochain.com/) to verify the contract deployment.
 
 ## Testing <a href="#b3ec" id="b3ec"></a>
 
-Let’s get some faucet TOMO from the [**faucet page**](https://faucet.testnet.tomochain.com).
+Let’s get some faucet TOMO from the [**faucet page**](https://faucet.testnet.tomochain.com/).
 
 Connect MetaMask to TomoChain Testnet by following this [**guide**](https://github.com/tomochain/docs/blob/game\_tutorials/get-started/wallet).
 

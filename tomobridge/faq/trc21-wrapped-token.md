@@ -47,7 +47,7 @@ The meaning of “Deposit” here is different from traditional centralized exch
 
 ### **5. How can I wrap and unwrap my token?**
 
-You can go to[ TomoBridge](http://bridge.tomochain.com) to swap between the native token and a TomoChain wrapped token. Check out this article for details: [_**TomoBridge Tutorial**_](../tutorial/#fda7)_****_
+You can go to[ TomoBridge](http://bridge.tomochain.com/) to swap between the native token and a TomoChain wrapped token. Check out this article for details: [_**TomoBridge Tutorial**_](../tutorial/#fda7)_****_
 
 ### **6. Can I send my TomoChain wrapped token directly to an ERC20 address, or vice versa?**
 

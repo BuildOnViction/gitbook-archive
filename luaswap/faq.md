@@ -41,7 +41,7 @@ The first 8 weeks have HYPER-INFLATION
 
 ### 7. Besides farming, is there anyway I can get LUA tokens? Any exchange listing?
 
-You can get LUA by farming on [luaswap.org](http://luaswap.org) or purchase it via exchanges
+You can get LUA by farming on [luaswap.org](http://luaswap.org/) or purchase it via exchanges
 
 * For TRC-21 LUA: Trade on TomoDEX; LuaSwap (on TomoChain network)
 * For ERC-20 LUA: Trade on FTX; CoinOne; Hotbit; LuaSwap (on Ethereum network); and others
@@ -54,7 +54,7 @@ We will update you on [Telegram ](https://t.me/LuaSwap)and [Twitter](https://twi
 To receive the LUA reward, follow the steps below:&#x20;
 
 * Add Liquidity to our Golden Field on LuaSwap to receive LUA-V1 LP token. Guide [HERE](tutorial/how-to-add-remove-liquidity-on-luaswap.md)&#x20;
-* Go to [LuaSwap.org](http://luaswap.org)&#x20;
+* Go to [LuaSwap.org](http://luaswap.org/)&#x20;
 * Stake your LP token into the reward contract and start receiving the LUA reward. Guide [HERE](tutorial/how-to-stake-lp-token-for-lua-rewards.md)
 
 ### 9. What is the swapping fee on LuaSwap?
