@@ -13,29 +13,29 @@ For TRC-21 Wrapped tokens issued by other projects, please refer to the token in
 
 ****
 
-**Tokens from other chains <> TomoChain wrapped tokens**
+**Transaction fee within the TomoChain network**
 
-| <p><br><strong>Token</strong></p> | **Deposit/ Wrap Fee** | <p><strong>Internal</strong> </p><p><strong>Transaction Fee</strong></p> |
-| --------------------------------- | --------------------- | ------------------------------------------------------------------------ |
-| LUA\*                             | N/A                   | 0.02 LUA                                                                 |
-| WBTC                              | 0                     | 0.0005 TOMO                                                              |
-| USDT\*                            | N/A                   | 0.001 USDT                                                               |
-| ETH\*                             | N/A                   | 0.000003 ETH                                                             |
-| YFI                               | 0                     | 0.000001 YFI                                                             |
-| FTT\*                             | N/A                   | 0.003 FTT                                                                |
-| SRM\*                             | N/A                   | 0.001 SRM                                                                |
-| DEC                               | 0                     | 0.01 DEC                                                                 |
-| DXD                               | 0                     | 0.00001 DXD                                                              |
-| MTA                               | 0                     | 0.0002 MTA                                                               |
-| HY                                | 0                     | 0.02 HY                                                                  |
-| FRONT                             | 0                     | 0.01FRONT                                                                |
-| PIE                               | 0                     | 0.02 PIE                                                                 |
-| PAZZI                             | 0                     | 0.2 PAZZI                                                                |
-| OM                                | 0                     | 0.02                                                                     |
-| VNDC                              | 0                     | 25 VNDC                                                                  |
-| LINA                              | 0                     | 0.6 LINA                                                                 |
-| APM                               | 0                     | 0.06                                                                     |
+| <p><br><strong>Token</strong></p> | **Transaction Fee** |
+| --------------------------------- | ------------------- |
+| LUA                               | 0.02 LUA            |
+| WBTC                              | 0.0005 TOMO         |
+| USDT                              | 0.001 USDT          |
+| ETH                               | 0.000003 ETH        |
+| YFI                               | 0.000001 YFI        |
+| FTT                               | 0.003 FTT           |
+| SRM                               | 0.001 SRM           |
+| DEC                               | 0.01 DEC            |
+| DXD                               | 0.00001 DXD         |
+| MTA                               | 0.0002 MTA          |
+| HY                                | 0.02 HY             |
+| FRONT                             | 0.01FRONT           |
+| PIE                               | 0.02 PIE            |
+| PAZZI                             | 0.2 PAZZI           |
+| OM                                | 0.02                |
+| VNDC                              | 25 VNDC             |
+| LINA                              | 0.6 LINA            |
+| APM                               | 0.06                |
 
-_\*Note: Starred tokens have been moved to the Multichain Bridge. Please refer to_ [_Multichain router_](https://app.multichain.org/#/router) _and select specific tokens and blockchain networks for fee information._
+__
 
 __
