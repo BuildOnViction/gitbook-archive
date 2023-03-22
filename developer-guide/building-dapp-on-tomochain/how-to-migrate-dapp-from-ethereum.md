@@ -37,7 +37,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). You can edit here the migration settings: networks, chain IDs, gas... The current file has only a single network defined, you can define multiple. We will add three networks to migrate our DApp: `development`, `tomotestnet` and `tomomainnet`.
 
-The [official TomoChain documentation — Networks](https://docs.tomochain.com/general/networks/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+[The official TomoChain documentation — Networks](../working-with-tomochain/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -172,11 +172,13 @@ The contract address is:
 
 ### Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
-If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com/) (or [mainnet](https://scan.tomochain.com/)). In the search field, type in the transaction ID for your new contract.
+If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the transaction ID for your new contract.
 
 You should see details about the transaction, including the block number where the transaction was secured
 
-.![](https://miro.medium.com/max/60/1\*7AlMGUJ6mz316IjIl85xSg.png?q=20)![](https://miro.medium.com/max/2512/1\*7AlMGUJ6mz316IjIl85xSg.png)TomoScan transaction
+.![](https://miro.medium.com/max/60/1\*7AlMGUJ6mz316IjIl85xSg.png?q=20)![](https://miro.medium.com/max/2512/1\*7AlMGUJ6mz316IjIl85xSg.png)
+
+TomoScan transaction
 
 You can also enter your wallet address on the TomoScan search bar. You will find 4 transactions out. Your contract has been successfully deployed to TomoChain.
 

@@ -14,7 +14,7 @@
 
 ### 1. What is TomoBridge?
 
-TomoBridge is the cross-chain transfer module for interoperability between TomoChain and other crypto assets chains
+TomoBridge is the cross-chain transfer module for interoperability between TomoChain and other crypto assets chains.
 
 ### 2. Why TomoBridge?
 
@@ -22,5 +22,5 @@ Interoperability between different blockchains has been one of the most importan
 
 ### **3. What can I do when having issues on** TomoBridge?
 
-Please [submit a request](https://forms.gle/LgEGzd35Vg8SEpGQ6) to report your issue with the TomoBridge support team of contact with us on Telegram channel at [https://t.me/TomoDEX\_Official](https://t.me/TomoDEX\_Official)
+Please contact with us on Telegram channel at [https://t.me/tomochain](https://t.me/tomochain) or post your detailed request on TomoChain Forum at [https://forum.tomochain.com/](https://forum.tomochain.com/) to report your issue with the TomoBridge&#x20;
 

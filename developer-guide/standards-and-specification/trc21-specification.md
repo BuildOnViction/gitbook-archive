@@ -6,17 +6,17 @@ description: >-
 
 # TRC21 Specification
 
-### Abstract <a id="abstract"></a>
+### Abstract <a href="#abstract" id="abstract"></a>
 
-The following standard allows for the implementation of a standard Application Programmable Interface \(API\) for tokens within TomoChain smart contracts. Tokens issued on TomoChain following this standard allows token holders to pay fee for transactions to the token contract in terms of the token itself.
+The following standard allows for the implementation of a standard Application Programmable Interface (API) for tokens within TomoChain smart contracts. Tokens issued on TomoChain following this standard allows token holders to pay fee for transactions to the token contract in terms of the token itself.
 
-### Motivation <a id="motivation"></a>
+### Motivation <a href="#motivation" id="motivation"></a>
 
 A standard token interface that extends TRC-20 standard in order to allow holders of a token issued following this standard to make transactions without the need of holding TOMO in the wallet for paying transaction fees.
 
-### TRC21 Specification <a id="trc21-specification"></a>
+### TRC21 Specification <a href="#trc21-specification" id="trc21-specification"></a>
 
-```text
+```
 /**
  * @title TRC21 interface
  */
@@ -37,42 +37,42 @@ interface ITRC21 {
 }
 ```
 
-#### TRC21 API Specification <a id="trc21-api-specification"></a>
+#### TRC21 API Specification <a href="#trc21-api-specification" id="trc21-api-specification"></a>
 
 * `totalSupply`: Returns the token total supply.
 
-```text
+```
 function totalSupply() external view returns (uint256);
 ```
 
 * `balanceOf`: Returns the account balance of another account with address `who`.
 
-```text
+```
 function balanceOf(address who) external view returns (uint256);
 ```
 
-* `estimateFee`: Estimate the transaction fee in terms of the token that the transaction makers will have to pay. Transaction fee will be paid to the issuer of the TRC21 token contract following our TomoZ protocol detailed in [here](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?usp=sharing).
+* `estimateFee`: Estimate the transaction fee in terms of the token that the transaction makers will have to pay. Transaction fee will be paid to the issuer of the TRC21 token contract.
 
-```text
+```
 function estimateFee(uint256 value) external view returns (uint256);
 ```
 
-Ideally the function will return the transaction fee based on the value \(the number of tokens\) that the transaction maker wants to transfer. Transaction fee for `allowance` function will be estimated if input parameter `value = 0`. The way fees are computed is not standardized. Token issuers can fully customize the implementation of the function.
+Ideally the function will return the transaction fee based on the value (the number of tokens) that the transaction maker wants to transfer. Transaction fee for `allowance` function will be estimated if input parameter `value = 0`. The way fees are computed is not standardized. Token issuers can fully customize the implementation of the function.
 
 This function will also be called by user wallets to evaluate fees the user must be paying.
 
-* `issuer`: Returns the address of the token issuer. 
+* `issuer`: Returns the address of the token issuer.&#x20;
 
-```text
+```
 function issuer() external view returns (address);
 ```
 
-The method returns the address of the token issuer. The is to ensure that only the issuer has the right to apply to the TomoZ protocol for paying fees of token-holder transactions to the token contract in terms of the token itself. The method will be called by the TomoZ protocol source code to verify that no one else is able to apply the token to the TomoZ protocol, except the issuer.
+The method returns the address of the token issuer. This is to ensure that only the issuer has the right to decide in ragards of paying fees of token-holder transactions to the token contract in terms of the token itself. The method is to verify that no one else is able to change the token contract, except the issuer.
 
 * `decimals`: Return the decimals of the token.
-* `transfer`: Transfers `_value` amount of tokens to address `_to`, and MUST fire the `Transfer` and `Fee` event. 
+* `transfer`: Transfers `_value` amount of tokens to address `_to`, and MUST fire the `Transfer` and `Fee` event.&#x20;
 
-```text
+```
 function transfer(address _to, uint256 _value) public returns (bool success)
 ```
 
@@ -80,7 +80,7 @@ The function will call `estimateFee` function to compute the transaction fee. Th
 
 * `approve`
 
-```text
+```
 function approve(address spender, uint256 value) external returns (bool);
 ```
 
@@ -88,7 +88,7 @@ Allows `_spender` to withdraw from your account multiple times, up to the `_valu
 
 * `allowance`
 
-```text
+```
 function allowance(address owner, address spender) external view returns (uint256);
 ```
 
@@ -96,17 +96,17 @@ Returns the amount which `spender` is still allowed to withdraw from `owner`.
 
 * `transferFrom`
 
-```text
+```
 function transferFrom(address from, address to, uint256 value) external returns (bool);
 ```
 
 Transfers `value` amount of tokens from address `from` to address `to`. The function must fire the `Transfer` and `Fee` event.
 
-#### TRC21 Event specification[¶](https://olddocs.tomochain.com/wp-and-research/specs/trc21_standard/#trc21-event-specification) <a id="trc21-event-specification"></a>
+#### TRC21 Event specification[¶](https://olddocs.tomochain.com/wp-and-research/specs/trc21\_standard/#trc21-event-specification) <a href="#trc21-event-specification" id="trc21-event-specification"></a>
 
 * `Transfer`
 
-```text
+```
 event Transfer(address indexed from, address indexed to, uint256 value);
 ```
 
@@ -114,7 +114,7 @@ This event MUST be emitted when tokens are transferred in functions `transfer` a
 
 * `Approval`
 
-```text
+```
 event Approval(address indexed owner, address indexed spender, uint256 value);
 ```
 
@@ -122,34 +122,34 @@ This event MUST be emitted on any successful call to `approve` function.
 
 * `Fee`
 
-```text
+```
 event Fee(address indexed from, address indexed to, address indexed issuer, uint256 value);
 ```
 
 This event MUST be emitted when tokens are transferred in functions `transfer` and `transferFrom` in order for clients/DApp/third-party wallets to notify its users about the paid transaction fee in terms of token.
 
-#### Implementation[¶](https://olddocs.tomochain.com/wp-and-research/specs/trc21_standard/#implementation) <a id="implementation"></a>
+#### Implementation[¶](https://olddocs.tomochain.com/wp-and-research/specs/trc21\_standard/#implementation) <a href="#implementation" id="implementation"></a>
 
 The following implements the basis of the standard. For any implementation of the TRC21 standard, the following contract fields must be defined at the beginning of the contract.
 
-```text
+```
 mapping (address => uint256) private _balances;
 uint256 private _minFee;
 address private _issuer;
 ```
 
-This template allows the TomoZ protocol to consider the implemented token as TRC21 and any fees paid for transactions to the token contract will be based on the token, not TOMO.
+This template allows the implemented token as TRC21 and any fees paid for transactions to the token contract to be based on the token, not TOMO.
 
 * `_balances`: record the balance of each token holder
 * `_minFee`: the minimum fee in terms of tokens that the transaction sender must pay. Ideally minFee will be paid when `approve` function is called or when transaction fails.
-* `_issuer`: the address of the token issuer who will receive transaction fees from token holders in terms of token, but will pay transaction fees to masternodes by means of TOMO. This is detailed in our TomoZ protocol specification [white paper](https://docs.google.com/document/d/1jxD3DsU7GWhxQhs0R8hCmqIQvfQfJjAQaioBoRrVGIA/edit?usp=sharing).
+* `_issuer`: the address of the token issuer who will receive transaction fees from token holders in terms of token, but will pay transaction fees to masternodes by means of TOMO.
 
 The implementation also defines some additional functions as follows:
 
-* `minFee`: Returns the minimum fee for any transaction. 
+* `minFee`: Returns the minimum fee for any transaction.&#x20;
 * `issuer`: Returns the address of the issuer of the token.
 
-```text
+```
 /**
  * @title Standard TRC21 token
  * @dev Implementation of the basic standard token.
@@ -310,11 +310,11 @@ contract TRC21 is ITRC21 {
 }
 ```
 
-#### TRC21 Token example[¶](https://olddocs.tomochain.com/wp-and-research/specs/trc21_standard/#trc21-token-example) <a id="trc21-token-example"></a>
+#### TRC21 Token example[¶](https://olddocs.tomochain.com/wp-and-research/specs/trc21\_standard/#trc21-token-example) <a href="#trc21-token-example" id="trc21-token-example"></a>
 
 The following shows an example of a TRC21 token which inherits from the TRC21 implementation. Token name, symbol, and decimals are also defined.
 
-```text
+```
 contract MyTRC21 is TRC21 {
     string private _name;
     string private _symbol;
@@ -351,4 +351,3 @@ contract MyTRC21 is TRC21 {
     }
 }
 ```
-

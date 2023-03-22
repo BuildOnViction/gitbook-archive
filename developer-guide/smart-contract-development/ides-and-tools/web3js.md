@@ -2,8 +2,6 @@
 
 ### #1 · What is Web3.js? <a href="#1" id="1"></a>
 
-The above video is the first in this 8-part tutorial series. In this lesson, I'll give you an overview of the Web3.js library, and then I'll show you how to check the balance of an Ethereum account.
-
 There are a few different aspects to developing blockchain applications with Ethereum:
 
 1. Smart contract development - writing code that gets deployed to the blockchain with the Solidity programming language.
@@ -13,7 +11,7 @@ There are a few different aspects to developing blockchain applications with Eth
 
 If you have a web development background, you might have used jQuery to make Ajax calls to a web server. That's a good starting point for understanding the function of Web3.js. Instead of using a jQuery to read and write data from a web server, you can use Web3.js to read and write to The Ethereum Blockchain.
 
-Let me explain how you can use Web3.js to talk to The Ethereum Blockchain. Here is a diagram of how a client talks to Ethereum:![web3-js-diagram](https://www.dappuniversity.com/web3-js-diagram.png)
+Here is a diagram of how a client talks to Ethereum:![web3-js-diagram](https://www.dappuniversity.com/web3-js-diagram.png)
 
 _Image credit:_ [_iotbl_](https://iotbl.blogspot.com/2017/03/ethereum-and-blockchain-2.html)_._
 
@@ -93,9 +91,9 @@ web3.eth.getBalance(address, (err, wei) => {
 })
 ```
 
-Let me explain this code. First, we use check the balance by calling `web3.eth.getBalance()`, which accepts a callback function with two arguments, an error and the balance itself. We'll ignore the error argument for now, and reference the balance with the `wei` argument. Ethereum expresses balances in Wei, which is the smallest subdivision of Ether, kind of like a tiny penny. We can convert this balance to Ether with `web3.utils.fromWei(wei, 'ether')`.
+First, we use check the balance by calling `web3.eth.getBalance()`, which accepts a callback function with two arguments, an error and the balance itself. We'll ignore the error argument for now, and reference the balance with the `wei` argument. Ethereum expresses balances in Wei, which is the smallest subdivision of Ether, kind of like a tiny penny. We can convert this balance to Ether with `web3.utils.fromWei(wei, 'ether')`.
 
-And that's it! That's the conclusion to the first part of this tutorial. Now you've seen what the Web3.js library is and you can get started using it to check Ethereum account balances. Here is a summary of the code we wrote in this tutorial:
+Now you've seen what the Web3.js library is and you can get started using it to check Ethereum account balances. Here is a summary of the code&#x20;
 
 ```
 const Web3 = require('web3')
@@ -109,7 +107,7 @@ web3.eth.getBalance(address, (err, wei) => {
 
 You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
 
-I will also mention that reading through the Web3.js documentation will give you a thorough overview of what you can do with the library. I highly recommend browsing through it, even if you don't understand every aspect of its functionality. You can find the full documentation for Web3.js here:
+Reading through the Web3.js documentation will give you a thorough overview of what you can do with the library. Browse through it, even if you don't understand every aspect of its functionality. You can find the full documentation for Web3.js here:
 
 [https://web3js.readthedocs.io/en/1.0/](https://web3js.readthedocs.io/en/1.0/)
 
@@ -118,8 +116,6 @@ Additionally, note that Web3.js is under active development. You can visit the W
 [https://github.com/ethereum/web3.js/](https://github.com/ethereum/web3.js/)
 
 ### #2 · Read Data from Smart Contracts with Web3.js <a href="#2" id="2"></a>
-
-This is the second video in the 8-part tutorial series. In this video, I will show you how to read smart contract data from The Ethereum Blockchain.
 
 In order to read data from smart contracts with Web3.js, we need two things:
 
@@ -134,9 +130,9 @@ A smart contract ABI stands for "Abstract Binary Interface", and is a JSON array
 const abi = [{"constant":true,"inputs":[],"name":"mintingFinished","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"unpause","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"mint","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"paused","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"finishMinting","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"pause","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"},{"name":"_releaseTime","type":"uint256"}],"name":"mintTimelocked","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Mint","type":"event"},{"anonymous":false,"inputs":[],"name":"MintFinished","type":"event"},{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}]
 ```
 
-That's a really long unbroken array, I know! Don't worry if it looks overwhelming. :) This example is the ABI for the OmiseGo token, which implements the ERC-20 token standard (if you're unfamiliar with this standard, you can watch [this video](https://www.youtube.com/watch?v=W0Lomo8CdTM)). You can find more details about this token, including its abi and address on [Etherscan](https://etherscan.io/address/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07). We'll use this smart contract ABI for the rest of the example.
+This example is the ABI for the OmiseGo token, which implements the ERC-20 token standard. You can find more details about this token, including its abi and address on [Etherscan](https://etherscan.io/address/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07).&#x20;
 
-While we're here, I'll go ahead and store the address to the OMG token from the Ethereum main net:
+Go ahead and store the address to the OMG token from the Ethereum main net:
 
 ```
 const address = "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
@@ -148,9 +144,9 @@ Now that we have both of these values assigned, we can create a complete JavaScr
 const contract = new web3.eth.Contract(abi, address)
 ```
 
-Now that the first part of this lesson is complete, we need to fulfill the second part: reading data from the smart contract by calling its functions. All of the smart contract functions are listed under the `contract.methods` namespace within the assigned Web3 contract. For example, we can call `contract.methods.myFunction()` if the contract implements `myFunction()`.
+So, how to read data from the smart contract by calling its functions. All of the smart contract functions are listed under the `contract.methods` namespace within the assigned Web3 contract. For example, we can call `contract.methods.myFunction()` if the contract implements `myFunction()`.
 
-Great! So we can theoretically call any function that the smart contract implements. But how do we know which functions it implements? For one, we could log `contract.methods` to the console, and see what's returned (you can watch me do this in the video above). However, since this smart contract implements the ERC-20 standard, we know that it implements several functions like `totalSupply()`, `name()`, `symbol()`, and `balanceOf()`. We can read each of those values individually, like this:
+So we can theoretically call any function that the smart contract implements. But how do we know which functions it implements? For one, we could log `contract.methods` to the console, and see what's returned. However, since this smart contract implements the ERC-20 standard, we know that it implements several functions like `totalSupply()`, `name()`, `symbol()`, and `balanceOf()`. We can read each of those values individually, like this:
 
 First, the total supply of all OMG tokens in existence:
 
@@ -173,14 +169,14 @@ contract.methods.symbol().call((err, result) => { console.log(result) })
 // > OMG
 ```
 
-Last, we can check the balance for a given account. I looked for a rich OMG holder on Etherscan, and found this address `0xd26114cd6EE289AccF82350c8d8487fedB8A0C07`. We can check the balance for this account like this:
+Last, we can check the balance for a given account. Look for a rich OMG holder on Etherscan, and found this address `0xd26114cd6EE289AccF82350c8d8487fedB8A0C07`. We can check the balance for this account like this:
 
 ```
 contract.methods.balanceOf('0xd26114cd6EE289AccF82350c8d8487fedB8A0C07').call((err, result) => { console.log(result) })
 // > A very large number...
 ```
 
-And that's it! That's how easy it is to read data from smart contracts with Web3.js. Here is a summary of all the code from this lesson:
+That's how to read data from smart contracts with Web3.js. Here is a summary of all the code:
 
 ```
 const Web3 = require('web3')
@@ -202,19 +198,17 @@ You can also download all the code examples in this tutorial series from [github
 
 ### #3 · Inside Ethereum Transactions <a href="#3" id="3"></a>
 
-This is the third video in the 8-part tutorial series. This video will show you how to create transactions on The Ethereum Blockchain with Web3.js. This lesson will go from beginner to slightly advanced. I'll show you what happens when an Etherum transaction is created, and I'll show you how to broadcast a transaction manually to the network with Web3.js.
+Whenever you create a transaction, you're writing data to the blockchain and updating its state. There are several ways to do this, like sending Ether from one account to another, calling a smart contract function that writes data, and deploying a smart contract to the blockchain. We can get a greater understanding of these concepts by performing these actions with the Web3.js library and observing how each step works.
 
-In addition to learning Web3.js, the purpose of this lesson is to help you understand the fundamentals about how transactions work on The Ethereum Blockchain. Whenever you create a transaction, you're writing data to the blockchain and updating its state. There are several ways to do this, like sending Ether from one account to another, calling a smart contract function that writes data, and deploying a smart contract to the blockchain. We can get a greater understanding of these concepts by performing these actions with the Web3.js library and observing how each step works.
-
-In order to broadcast transactions to the network, we'll need to sign them first. I'm going to use an additional JavaScript library to do this called [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx). You can install this dependency from the command line like this:
+In order to broadcast transactions to the network, we'll need to sign them first. Use an additional JavaScript library to do this called [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx). You can install this dependency from the command line like this:
 
 ```
 $ npm install ethereumjs-tx
 ```
 
-The reason we're going to use this library is that we want to sign all of the transactions locally. If we were running our own Ethereum node locally, we could unlock an account that was stored locally and sign all of our transactions locally. If that were the case, we would not necessarily need to use this library. However, we're using a remote node hosted by Infura in this tutorial. While Infura is a trustworthy service, we still want to sign the transactions locally rather than giving the remote node manage our private keys.
+The reason we're going to use this library is that we want to sign all of the transactions locally. If we were running our own Ethereum node locally, we could unlock an account that was stored locally and sign all of our transactions locally. If that were the case, we would not necessarily need to use this library. However, we're using a remote node hosted by Infura. While Infura is a trustworthy service, we still want to sign the transactions locally rather than giving the remote node manage our private keys.
 
-That's exactly what we'll do in this lesson. I'll show you how to create the raw transaction, sign it, then send the transaction and broadcast it to the network! In order to do this, I'm going to create a simple `app.js` file to run the code in this lesson, rather than doing everything in the console.
+In order to create the raw transaction, sign it, then send the transaction and broadcast it to the network, we need to create a simple `app.js` file to run the code, rather than doing everything in the console.
 
 Inside the `app.js` file, we'll first require the newly installed library like this:
 
@@ -229,13 +223,13 @@ const Web3 = require('web3')
 const web3 = new Web3('https://ropsten.infura.io/YOUR_INFURA_API_KEY')
 ```
 
-Notice, that we're using the Ropsten test network, which is different from the Ethereum main net that we used in the previous lesson. We want to use a test network because all transactions cost gas in the form of Ether. We can use fake Ether on the Ropsten test net without worrying about spending any money. You can obtain fake Ether from a faucet on the Ropsten test network with a faucet. Here are two faucets you can use:
+Notice, that we're using the Ropsten test network, that because all transactions cost gas in the form of Ether. We can use fake Ether on the Ropsten test net without worrying about spending any money. You can obtain fake Ether from a faucet on the Ropsten test network with a faucet. Here are two faucets you can use:
 
 [http://faucet.ropsten.be:3001/](http://faucet.ropsten.be:3001/)
 
 [https://faucet.metamask.io/](https://faucet.metamask.io/)
 
-In this lesson, we're going to create a transaction that sends fake Ether from one account to another. In order to do this, we'll need two accounts and their private keys. You can actually create new accounts with Web3.js like this:
+In order to create a transaction that sends fake Ether from one account to another, we'll need two accounts and their private keys. You can actually create new accounts with Web3.js like this:
 
 ```
 web3.eth.accounts.create()
@@ -255,14 +249,14 @@ const account1 = '0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01'
 const account2 = '0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa02'
 ```
 
-Be sure to use the accounts you generated, as these accounts won't work for this lesson. Now, let's save the private keys to the environment like this:
+Be sure to use the accounts you generated! Now, let's save the private keys to the environment like this:
 
 ```
 export PRIVATE_KEY_1='your private key 1 here'
 export PRIVATE_KEY_1='your private key 2 here'
 ```
 
-We want to save these private keys to our environment so that we don't hard code them into our file. It's bad practice to expose private keys like that. What if we accidentally committed them to source in a real project? Someone could steal our Ether! Now we want to read these private keys from our environment and store them to variables. We can do this with the `process` global object in NodeJS like this:
+Save these private keys to our environment so that we don't hard code them into our file. It's bad practice to expose private keys like that. What if we accidentally committed them to source in a real project? Someone could steal our Ether! Now we want to read these private keys from our environment and store them to variables. We can do this with the `process` global object in NodeJS like this:
 
 ```
 const privateKey1 = process.env.PRIVATE_KEY_1
@@ -276,9 +270,7 @@ const privateKey1 = Buffer.from(process.env.PRIVATE_KEY_1)
 const privateKey1 = Buffer.from(process.env.PRIVATE_KEY_2)
 ```
 
-Alright, now we've got all of our variables set up! I know some of this might be a little confusing at this point. Stick with me; it will all make sense shortly. :) You can also reference the video above if you get stuck.
-
-From this point, we want to do a few things:
+Now all of variables have been set up! From this point, we want to do a few things:
 
 1. Build a transaction object
 2. Sign the transaction
@@ -296,7 +288,7 @@ const txObject = {
   }
 ```
 
-Let me explain this code. We're building an object that has all the values needed to generate a transaction, like `nonce`, `to`, `value`, `gasLimit`, and `gasPrice`. Let's break down each of these values:
+We're building an object that has all the values needed to generate a transaction, like `nonce`, `to`, `value`, `gasLimit`, and `gasPrice`. Let's break down each of these values:
 
 * `nonce` - this is the previous transaction count for the given account. We'll assign the value of this variable momentarily. We also must convert this value to hexidecimal. We can do this with the Web3.js utilitly `web3.utils.toHex()`
 * `to` - the account we're sending Ether to.
@@ -320,7 +312,7 @@ web3.eth.getTransactionCount(account1, (err, txCount) => {
 })
 ```
 
-And there is the completed transaction object! We've completed step 1. :) Now we must move on to step 2 where we sign the transaction. We can do that like this:
+And there is the completed transaction object! Now we must move on to step 2 where we sign the transaction. We can do that like this:
 
 ```
 const tx = new Tx(txObject)
@@ -340,7 +332,7 @@ web3.eth.sendSignedTransaction(raw, (err, txHash) => {
 })
 ```
 
-And there you go! That's the final step of this lesson that sends the transaction and broadcasts it to the network. At this point, your completed `app.js` file should look like this:
+That's the final step of sending the transaction and broadcasting it to the network. At this point, your completed `app.js` file should look like this:
 
 ```
 var Tx     = require('ethereumjs-tx')
@@ -390,15 +382,13 @@ Or simply:
 $ node app
 ```
 
-Feel free to reference the video above if you get stuck! You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
+You can download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
 
 ### #4 · Deploying Smart Contracts with Web3.js <a href="#4" id="4"></a>
 
-This is the fourth video in the 8-part tutorial series. This video will show you how to deploy smart contracts to The Ethereum Blockchain with Web3.js.
+There are multiple ways you can deploy smart contracts to The Ethereum Blockchain. There are even multiple ways to deploy them within Web3.js itself. This example is designed to break the deployment down in to each step in the process.
 
-There are multiple ways you can deploy smart contracts to The Ethereum Blockchain. There are even multiple ways to deploy them within Web3.js itself. Like the previous lesson in this series, I'm going to demonstrate one method that will help you better understand what happens when a smart contract is deployed to The Ethereum Blockchain. This example is designed to break the deployment down in to each step in the process.
-
-This lesson will use the same `app.js` file that we used in the previous lesson. We'll set it up like this:
+We will use the same `app.js` file that we used previously. We'll set it up like this:
 
 Check out this code to follow along with the tutorial:
 
@@ -412,13 +402,13 @@ const account1 = '' // Your account address 1
 const privateKey1 = Buffer.from('YOUR_PRIVATE_KEY_1', 'hex')
 ```
 
-This lesson example will consist of the same three basic steps as the previous lesson:
+There will be the same three basic steps as the previous part:
 
 1. Build a transaction object
 2. Sign the transaction
 3. Send the transaction
 
-These steps are the same because anytime we write data to the blockchain, it always consists of these same basic steps. I'm trying to show you that deploying a smart contact actually looks a lot like sending Ether from one account to another, or calling a smart contract function. We're still building a transaction and sending it to the network. The only difference is the transaction parameters.
+These steps are the same because anytime we write data to the blockchain, it always consists of these same basic steps. We're still building a transaction and sending it to the network. The only difference is the transaction parameters.
 
 Let's go ahead and build the transaction object like this:
 
@@ -440,13 +430,13 @@ We're building this transaction object that has many of the same fields as the o
 * `to` - this parameter is absent because we aren't sending this transaction to a particular account. Instead we're sending it to the entire network because we're deploying a smart contract!
 * `data` - this will be the bytecode of the smart contract that we want to deploy. We'll assign this variable value, and I'll explain this more momentarily.
 
-Let's talk about the `data` parameter. This is the compiled bytecode representation of the smart contract in hexidecimal. In order to obtain this value, we first need a smart contract, and then we need to compile it! You are welcome to use any smart contract you like, especially since we're deploying this to a test network. However, I'm going to use an ERC-20 token smart contract that I built in [this video](https://www.youtube.com/watch?v=XdKv5uwEk5A). You can follow along with me in the accompanying Web3.js tutorial video above to watch me compile this particular ERC-20 smart contract with [Remix](https://remix.ethereum.org/) to obtain this data string. Once you've compiled your contract, you can assign the data value to a variable like this:
+Let's talk about the `data` parameter. This is the compiled bytecode representation of the smart contract in hexidecimal. In order to obtain this value, we first need a smart contract, and then we need to compile it! You are welcome to use any smart contract you like, especially since we're deploying this to a test network. Once you've compiled your contract, you can assign the data value to a variable like this:
 
 ```
 const data = '0x60806040526040805190810160405280600a81526020017f4441707020546f6b656e000000000000000000000000000000000000000000008152506000908051906020019061004f92919061014e565b506040805190810160405280600481526020017f44415050000000000000000000000000000000000000000000000000000000008152506001908051906020019061009b92919061014e565b506040805190810160405280600f81526020017f4441707020546f6b656e2076312e300000000000000000000000000000000000815250600290805190602001906100e792919061014e565b503480156100f457600080fd5b506000620f4240905080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555080600381905550506101f3565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061018f57805160ff19168380011785556101bd565b828001600101855582156101bd579182015b828111156101bc5782518255916020019190600101906101a1565b5b5090506101ca91906101ce565b5090565b6101f091905b808211156101ec5760008160009055506001016101d4565b5090565b90565b610b99806102026000396000f300608060405260043610610099576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806306fdde031461009e578063095ea7b31461012e57806318160ddd1461019357806323b872dd146101be5780635a3b7e421461024357806370a08231146102d357806395d89b411461032a578063a9059cbb146103ba578063dd62ed3e1461041f575b600080fd5b3480156100aa57600080fd5b506100b3610496565b6040518080602001828103825283818151815260200191508051906020019080838360005b838110156100f35780820151818401526020810190506100d8565b50505050905090810190601f1680156101205780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b34801561013a57600080fd5b50610179600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190505050610534565b604051808215151515815260200191505060405180910390f35b34801561019f57600080fd5b506101a8610626565b6040518082815260200191505060405180910390f35b3480156101ca57600080fd5b50610229600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff1690602001909291908035906020019092919050505061062c565b604051808215151515815260200191505060405180910390f35b34801561024f57600080fd5b5061025861089b565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561029857808201518184015260208101905061027d565b50505050905090810190601f1680156102c55780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156102df57600080fd5b50610314600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610939565b6040518082815260200191505060405180910390f35b34801561033657600080fd5b5061033f610951565b6040518080602001828103825283818151815260200191508051906020019080838360005b8381101561037f578082015181840152602081019050610364565b50505050905090810190601f1680156103ac5780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b3480156103c657600080fd5b50610405600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506109ef565b604051808215151515815260200191505060405180910390f35b34801561042b57600080fd5b50610480600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610b48565b6040518082815260200191505060405180910390f35b60008054600181600116156101000203166002900480601f01602080910402602001604051908101604052809291908181526020018280546001816001161561010002031660029004801561052c5780601f106105015761010080835404028352916020019161052c565b820191906000526020600020905b81548152906001019060200180831161050f57829003601f168201915b505050505081565b600081600560003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167f8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925846040518082815260200191505060405180910390a36001905092915050565b60035481565b6000600460008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054821115151561067c57600080fd5b600560008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054821115151561070757600080fd5b81600460008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254039250508190555081600460008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254019250508190555081600560008673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825403925050819055508273ffffffffffffffffffffffffffffffffffffffff168473ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190509392505050565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156109315780601f1061090657610100808354040283529160200191610931565b820191906000526020600020905b81548152906001019060200180831161091457829003601f168201915b505050505081565b60046020528060005260406000206000915090505481565b60018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156109e75780601f106109bc576101008083540402835291602001916109e7565b820191906000526020600020905b8154815290600101906020018083116109ca57829003601f168201915b505050505081565b600081600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205410151515610a3f57600080fd5b81600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000828254039250508190555081600460008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a36001905092915050565b60056020528160005260406000206020528060005260406000206000915091505054815600a165627a7a723058204c3f690997294d337edc3571d8e77afc5b0e56a2f4bfae6fb59139c8e4eb2f7e0029'
 ```
 
-Now we can also assign the `nonce` value by getting the transaction count, just like the previous lesson:
+Now we can also assign the `nonce` value by getting the transaction count:
 
 ```
 web3.eth.getTransactionCount(account1, (err, txCount) => {
@@ -461,7 +451,7 @@ web3.eth.getTransactionCount(account1, (err, txCount) => {
 })
 ```
 
-And finally, we can sign this transaction and send it, just like the previous lesson. At this point, the completed tutorial code should look like this:
+And finally, we can sign this transaction and send it. At this point, the completed code should look like this:
 
 ```
 var Tx = require('ethereumjs-tx')
@@ -510,13 +500,11 @@ Or simply:
 $ node app
 ```
 
-Feel free to reference the video above if you get stuck! You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
+You can download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
 
 ### #5 · Calling Smart Contract Functions with Web3.js <a href="#5" id="5"></a>
 
-This is the fourth video in the 8-part tutorial series. This video will show you how to write data to smart contracts with Web3.js.
-
-This lesson will use many of the same basic tutorial steps as the previous lessons because, like the previous lessons, it's designed to show you all the basic steps required when creating transactions on The Ethereum Blockchain. We'll use the same basic setup with an `app.js` file that will look like this:
+We'll use the same basic setup with an `app.js` file that will look like this:
 
 ```
 const Web3 = require('web3')
@@ -541,12 +529,12 @@ const txObject = {
 }
 ```
 
-If you've been following along with the previous lessons, many of these values should look familiar to you. Let's make a note of some changes.
+Let's make a note of some changes.
 
 * `to` - this parameter will be the address of the deployed contract. We'll obtain that value and assign it momentarily.
 * `data` - this will be the hexidecimal representation of the function we want to call on the smart contract. We'll also assign this value momentarily.
 
-In order to fill these values out, we'll need to get the smart contract ABI for this ERC-20 token. You can follow along with me in the video above as I obtain the ABI from Remix. I'll also need to get the smart contract address from Etherscan (this was available whenever we deployed the smart contract in the last lesson). Now that we have both of these things, we can create a JavaScript representation of the smart contract with Web3.js like this:
+In order to fill these values out, we'll need to get the smart contract ABI for this ERC-20 token. We need to obtain the ABI from Remix and get the smart contract address from Etherscan (this was available whenever we deployed the smart contract). Now that we have both of these things, we can create a JavaScript representation of the smart contract with Web3.js like this:
 
 ```
 const contractAddress = '0xd03696B53924972b9903eB17Ac5033928Be7D3Bc'
@@ -555,15 +543,15 @@ const contractABI = [{"constant":true,"inputs":[],"name":"name","outputs":[{"nam
 const contract = new web3.eth.Contract(abi, contractAddress)
 ```
 
-Great! Now we have a JavaScript representation of the deployed contract. Now we can fill out the `data` field of the transaction by converting the contract's `transfer()` function to bytecode (that's the function we'll call on this smart contract). We can do this with the Web3.js function `encodeABI()` that is available on the `contract` object. That looks like this:
+Now we can fill out the `data` field of the transaction by converting the contract's `transfer()` function to bytecode (that's the function we'll call on this smart contract). We can do this with the Web3.js function `encodeABI()` that is available on the `contract` object. That looks like this:
 
 ```
 const data = contract.methods.transfer(account2, 1000).encodeABI()
 ```
 
-That's it! That's how easy it is to encode this function call for the transaction! Note that we're transferring 1,000 tokens to `account2`. This method takes care of encoding these function parameters for us, too!
+Note that we're transferring 1,000 tokens to `account2`. This method takes care of encoding these function parameters.
 
-Now that's everything we need to build the transaction object. Just like the previous lessons, we can now sign this transaction and send it. Once we do, we can log the values of the account balances to see that the smart contract function was called, and that the token transfers were complete. The complete tutorial code will look like this:
+Now that's everything we need to build the transaction object. We can now sign this transaction and send it. Once we do, we can log the values of the account balances to see that the smart contract function was called, and that the token transfers were complete. The complete code will look like this:
 
 ```
 const Web3 = require('web3')
@@ -627,17 +615,15 @@ Or simply:
 $ node app
 ```
 
-Feel free to reference the video above if you get stuck! You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
+You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).
 
 ### #6 · Smart Contract Events with Web3.js <a href="#6" id="6"></a>
 
-This is the sixth video in the 8-part tutorial series. This video will show you how to examine smart contract events on The Ethereum Blockchain with Web3.js.
+Ethereum smart contracts have the ability to emit events that indicate that something happened within the smart contract code execution. Consumers have the ability to subscribe to these events, and Web3.js will provide us with this functionality.
 
-Ethereum smart contracts have the ability to emit events that indicate that something happened within the smart contract code execution. Consumers have the ability to subscribe to these events, and Web3.js will provide us with this functionality. That's exactly what we'll cover in this lesson.
+We're going to continue using an ERC-20 smart contract because this standard specifies that the smart contract must emit a `Transfer` event anytime an ERC-20 token is transferred. We'll actually connect to the Ethereum main net to subscribe to the `Transfer` event for the OmiseGo ERC-20 token.
 
-We're going to continue using an ERC-20 smart contract as the reference point for this tutorial because this standard specifies that the smart contract must emit a `Transfer` event anytime an ERC-20 token is transferred. We'll actually connect to the Ethereum main net to subscribe to the `Transfer` event for the OmiseGo ERC-20 token.
-
-Let's go ahead and set up the `app.js` file much like we did in the previous lessons. This time, we'll connect to the Ethereum main net. I'll go ahead and paste in the OmiseGo smart contract ABI and address, which can be obtained from Etherscan (watch the above video for instructions). Once we have both of these things, we can create a JavaScript representation of the smart contract with Web3.js and assign it to a variable. All of that setup looks like this:
+Let's go ahead and set up the `app.js` file. This time, we'll connect to the Ethereum main net. Paste in the OmiseGo smart contract ABI and address, which can be obtained from Etherscan. Once we have both of these things, we can create a JavaScript representation of the smart contract with Web3.js and assign it to a variable. All of that setup looks like this:
 
 ```
 const Web3 = require('web3')
@@ -678,7 +664,7 @@ contract.getPastEvents(
 )
 ```
 
-Ah, that's much better. Now, we can also specify that we _just_ want to listen to the `Transfer` event like this:
+Now, we can also specify that we _just_ want to listen to the `Transfer` event like this:
 
 ```
 contract.getPastEvents(
@@ -691,7 +677,7 @@ contract.getPastEvents(
 )
 ```
 
-And that's it! That's all the code you need to see all of the recent transfer events for the OmiseGo ERC-20 token. With this code, you could easily build something like a transaction history for the OMG token in a crypto wallet. That's the power of Web3.js. At this point, the completed tutorial code should look like this:
+That's all the code you need to see all of the recent transfer events for the OmiseGo ERC-20 token. With this code, you could easily build something like a transaction history for the OMG token in a crypto wallet. At this point, the completed code should look like this:
 
 ```
 const Web3 = require('web3')
@@ -726,15 +712,13 @@ Or simply:
 $ node app
 ```
 
-Feel free to reference the video above if you get stuck! You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
+You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).
 
 ### #7 · Inspecting Blocks with Web3.js <a href="#7" id="7"></a>
 
-This is the seventh video in the 8-part tutorial series. This video will show you how to inspect blocks The Ethereum Blockchain with Web3.js.
-
 Inspecting blocks is often useful when analyzing history on The Ethereum Blockchain. Web3.js has lots of functionality that helps us to do just that. For example, we could build something that looks like this block history feature on Etherscan:![Etherscan Block History](https://www.dappuniversity.com/etherscan-blocks.png)
 
-Let's set up an `app.js` file to start using some of this functionality provided by Web3.js. This setup will be much simpler than the previous lessons. We'll connect to the main net to inspect blocks there:
+Let's set up an `app.js` file to start using some of this functionality provided by Web3.js. We'll connect to the main net to inspect blocks there:
 
 ```
 const Web3 = require('web3')
@@ -753,9 +737,7 @@ We can also get all the data for the latest block like this:
 web3.eth.getBlock('latest').then(console.log)
 ```
 
-You can watch the video above as I explain all the data that gets logged by this function.
-
-If we were going to build a block history feature like the one on Etherscan pictured above, we would need to get a list of the most recent blocks in the chain. We can do this by fetching the most recent block and counting backwards until we have the last 10 blocks in the chain. We can do that with a `for` loop like this:
+If we were going to build a block history feature, we would need to get a list of the most recent blocks in the chain. We can do this by fetching the most recent block and counting backwards until we have the last 10 blocks in the chain. We can do that with a `for` loop like this:
 
 ```
 web3.eth.getBlockNumber().then((latest) => {
@@ -772,7 +754,7 @@ const hash = '0x66b3fd79a49dafe44507763e9b6739aa0810de2c15590ac22b5e2f0a3f502073
 web3.eth.getTransactionFromBlock(hash, 2).then(console.log)
 ```
 
-That's it! That's how easy it is to inspect blocks with Web3.js. Check out the video above for more in depth explanation of the data returned by the blocks. At this point, all of the tutorial code should look like this:
+That's how to inspect blocks with Web3.js. At this point, all of the code should look like this:
 
 ```
 const Web3 = require('web3')
@@ -808,13 +790,11 @@ Or simply:
 $ node app
 ```
 
-Feel free to reference the video above if you get stuck! You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
+You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).
 
 ### #8 · Web3.js Utilities <a href="#8" id="8"></a>
 
-This is the eighth and final video in the 8-part tutorial series. This video will show you how to use utilities included with Web3.js and several cool bonus tips and tricks.
-
-This lesson is designed to show you some cool tips and tricks that you might not know about Web3.js! Let's go ahead and set up the `app.js` and jump into examining these tips. Let's connect to the Ethereum main net like this:
+This part is designed to show you some cool tips and tricks that you might not know about Web3.js! Let's go ahead and set up the `app.js` and jump into examining these tips. Let's connect to the Ethereum main net like this:
 
 ```
 const Web3 = require('web3')
@@ -856,7 +836,7 @@ _.each({ key1: 'value1', key2: 'value2' }, (value, key) => {
 })
 ```
 
-And that's it! Those are some fancy tips and tricks you can use with Web3.js. Here is the complete tutorial code for this lesson:
+Those are some fancy tips and tricks you can use with Web3.js. Here is the complete tutorial code:
 
 ```
 const Web3 = require('web3')
@@ -896,6 +876,4 @@ Or simply:
 $ node app
 ```
 
-Feel free to reference the video above if you get stuck! You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
-
-Happy with this tutorial? Then you **NEED** to [join my free training here](https://www.dappuniversity.com/bootcamp) where I'll show you how to build a real world blockchain app so that you can become a highly paid blockchain developer!
+You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).

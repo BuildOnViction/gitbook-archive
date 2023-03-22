@@ -1,14 +1,28 @@
+---
+description: >-
+  The cross-chain transfer module for interoperability between TomoChain and
+  other crypto assets chains
+---
+
 # TomoBridge
 
-{% page-ref page="trc21-wrapped-token-information/" %}
+{% content-ref url="trc21-wrapped-token-information/" %}
+[trc21-wrapped-token-information](trc21-wrapped-token-information/)
+{% endcontent-ref %}
 
-{% page-ref page="fee-structure.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="faq/" %}
+{% content-ref url="faq/" %}
+[faq](faq/)
+{% endcontent-ref %}
 
-{% page-ref page="terms-of-use.md" %}
+{% content-ref url="terms-of-use.md" %}
+[terms-of-use.md](terms-of-use.md)
+{% endcontent-ref %}
 
-{% page-ref page="privacy-policy.md" %}
-
-
+{% content-ref url="privacy-policy.md" %}
+[privacy-policy.md](privacy-policy.md)
+{% endcontent-ref %}
 

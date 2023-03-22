@@ -8,8 +8,7 @@ There are two types of TomoChain wrapped tokens including **TRC20 wrapped token*
 
 ### **2. Why do I need TomoChain Wrapped Tokens?**
 
-TomoChain wrapped tokens can bring more liquidity from other blockchain networks, and allow the token holders to benefit from the fast transactions and low fees of the TomoChain blockchain. TomoChain wrapped tokens can be transferred, traded, integrated into other dapps just like the native tokens on TomoChain.\
-****
+TomoChain wrapped tokens can bring more liquidity from other blockchain networks, and allow the token holders to benefit from the fast transactions and low fees of the TomoChain blockchain. TomoChain wrapped tokens can be transferred, traded, integrated into other dapps just like the native tokens on TomoChain.
 
 ## **3. What are the differences between TRC20 and TRC21 wrapped tokens?**
 
@@ -22,9 +21,9 @@ TRC20 wrapped tokens can be easily integrated into other Dapps and get listed on
 TRC20 wrapped tokens can be traded on LuaSwap (TomoChain version). \
 ****
 
-**TRC21:** TRC21, powered by TomoZ Protocol, creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet.&#x20;
+**TRC21:** TRC21 creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet.&#x20;
 
-TRC21 wrapped tokens can be traded on LuaSwap (TomoChain version) and all TomoX’s DEXs including TomoDEX (Though listing depends on each DEX's decision).\
+TRC21 wrapped tokens can be traded on LuaSwap (TomoChain version).\
 
 
 &#x20;** **_**TRC20 wrapped token vs TRC21 wrapped token**_&#x20;
@@ -42,12 +41,12 @@ Due to the different blockchain networks, users can only swap their TomoChain wr
 Swapping other blockchain tokens to TomoChain wrapped tokens is known as "**Wrap**" or “**Deposit**”. Swapping from TomoChain wrapped tokens to other blockchain tokens is known as “**Unwrap**” or “**Withdraw**”
 
 {% hint style="info" %}
-The meaning of “Deposit” here is different from traditional centralized exchanges. On TomoDEX, users are always in direct custody of their funds. Which means you trade directly with the funds in your wallet without having to put it into the exchange’s account.
+The meaning of “Deposit” here is different from traditional centralized exchanges.&#x20;
 {% endhint %}
 
 ### **5. How can I wrap and unwrap my token?**
 
-You can go to[ TomoBridge](http://bridge.tomochain.com/) to swap between the native token and a TomoChain wrapped token. Check out this article for details: [_**TomoBridge Tutorial**_](../tutorial/#fda7)_****_
+You can go to[ TomoBridge](http://bridge.tomochain.com/) to swap between the native token and a TomoChain wrapped token.&#x20;
 
 ### **6. Can I send my TomoChain wrapped token directly to an ERC20 address, or vice versa?**
 
@@ -70,13 +69,11 @@ Let’s say you sent a TRC21 token to an ERC20 address, then you can retrieve yo
 If the wallet you use doesn’t support multiple networks, below is an alternative solution:&#x20;
 
 1. Log into your ERC20 wallet and export the Private Key. (It has to be the Private Key, not Mnemonics)
-2. Log into your [TomoWallet](https://wallet.tomochain.com/#/my-wallet) with the Private Key to retrieve your funds. (Instead of using TomoWallet, you can also choose to log into TomoDEX or TomoBridge so you can unwrap directly from there)
+2. Log into your [TomoWallet](https://wallet.tomochain.com/#/my-wallet) with the Private Key to retrieve your funds.&#x20;
 
 {% hint style="info" %}
-Some wallets may not come with a Private Key when you created your address, like Trust Wallet. Then you might need to contact the wallet developer to help you export your Private Key.
+For Trust Wallet users, please follow[ this guide](https://community.trustwallet.com/t/how-to-recover-funds-sent-to-a-wrong-public-address/145) to export your Private Key.
 {% endhint %}
-
-For Trust Wallet users, please follow[ this guide](https://community.trustwallet.com/t/how-to-recover-funds-sent-to-a-wrong-public-address/145) to export your Private Key:
 
 **b.) If the receiving address belongs to a third party (ex. an exchange)**
 
@@ -86,4 +83,4 @@ Most exchanges would provide this service for a fee. But each company is differe
 
 **c.) If the receiving address belongs to TomoBridge**
 
-[Follow this guide](https://medium.com/tomochain/tomobridge-funds-recovery-support-and-terms-efe9092a1427) to submit a support ticket. \
+Please contact with us on Telegram channel at [https://t.me/tomochain](https://t.me/tomochain) or post your detailed request on TomoChain Forum at [https://forum.tomochain.com/](https://forum.tomochain.com/) to report your issue with the TomoBridge \

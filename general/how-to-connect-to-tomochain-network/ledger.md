@@ -2,7 +2,7 @@
 description: >-
   TOMO and tokens issued on TomoChain are officially supported by the Ledger
   Nano S hardware wallet. The following describes how to use Ledger Nano S to
-  connect to and use TomoChain's services.
+  connect to and use TomoChain Labs' services.
 ---
 
 # Ledger
@@ -53,7 +53,7 @@ TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge betwee
 * Click on UNLOCK
 * Ledger Nano S is ready to go with TomoChain
 
-**Note**: You can verify the balance of the account by copying the account address and checking it on [TomoScan](https://scan.tomochain.com/).
+**Note**: You can verify the balance of the account by copying the account address and checking it on [TomoScan](https://tomoscan.io/).
 
 ![](<../../.gitbook/assets/image (44).png>)
 

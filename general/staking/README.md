@@ -1,15 +1,17 @@
 ---
 description: >-
-  TomoChain has on-chain Staking services that allow people to secure the chain
-  and earn TOMO as rewards. Follow these instructions to stake and earn rewards
-  on TomoChain.
+  TomoChain Labs has on-chain Staking services that allow people to secure the
+  chain and earn TOMO as rewards. Follow these instructions to stake and earn
+  rewards on TomoChain network.
 ---
 
 # Staking
 
-{% page-ref page="staking-requirements.md" %}
+{% content-ref url="staking-requirements.md" %}
+[staking-requirements.md](staking-requirements.md)
+{% endcontent-ref %}
 
-{% page-ref page="staking-rewards.md" %}
-
-
+{% content-ref url="staking-rewards.md" %}
+[staking-rewards.md](staking-rewards.md)
+{% endcontent-ref %}
 

@@ -169,7 +169,7 @@ Currently, many transactions are needed to assign the rights to vote to all part
 
 ### Blind Auction
 
-In this section, we will show how easy it is to create a completely blind auction contract on TomoChain. We will start with an open auction where everyone can see the bids that are made and then extend this contract into a blind auction where it is not possible to see the actual bid until the bidding period ends.
+In this section, we will show how easy it is to create a completely blind auction contract on TomoChain network. We will start with an open auction where everyone can see the bids that are made and then extend this contract into a blind auction where it is not possible to see the actual bid until the bidding period ends.
 
 #### Simple Open Auction
 

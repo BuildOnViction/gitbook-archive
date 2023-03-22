@@ -31,15 +31,15 @@ They can also be traded on the following exchanges.
 
 For information on our IDOs, please check our announcement channels:
 
-Telegram: https://t.me/luaswapANN 
+Telegram: [https://t.me/luaswapANN ](https://t.me/luaswapANN)
 
-Website: luaswap.org 
+Website: [luaswap.org ](https://luaswap.org/)
 
-Telegram: https://t.me/LuaSwap 
+Telegram:[ https://t.me/LuaSwap](https://t.me/LuaSwap)&#x20;
 
-Twitter: https://twitter.com/LuaSwap 
+Twitter: [https://twitter.com/LuaSwap](https://twitter.com/LuaSwap)&#x20;
 
-Medium: https://medium.com/luaswap
+Medium: [https://medium.com/luaswap](https://medium.com/luaswap)
 
 #### 2. Which wallets are supported by LuaStarter?
 
@@ -57,7 +57,7 @@ No, you don't need to register for each IDO. You just need to register once by c
 
 #### 5. I have registered for an upcoming IDO with a certain amount of LUA already staked. If I purchase more LUA and stake them after registration, will my tier be upgraded?
 
-Yes, if the number of LUA reaches the requirements of the next tier 3 days prior to the IDO launch. [Follow this guide for more details.](tier-requirements-and-allocation.md) 
+Yes, if the number of LUA reaches the requirements of the next tier 3 days prior to the IDO launch. [Follow this guide for more details.](tier-requirements-and-allocation.md)&#x20;
 
 #### 6. For the participants in the same tier, would those with a higher staking/holding amount have a higher token allocation?
 
@@ -75,15 +75,15 @@ Your LUA tokens should be staked in LuaSafe or added in LUA-TOMO(E) liquidity po
 
 #### 3. What are the tiers of LuaStarter?
 
-The TGS Model consists of 4 premium tiers and 1 community tier (tier 0). 
+The TGS Model consists of 4 premium tiers and 1 community tier (tier 0).&#x20;
 
-1\. Earth: - Staking requirement: 5,000 LUA - Pool weight: 1 
+1\. Earth: - Staking requirement: 5,000 LUA - Pool weight: 1&#x20;
 
-2\. Moon: - Staking requirement: 25,000 LUA - Pool weight: 6 
+2\. Moon: - Staking requirement: 25,000 LUA - Pool weight: 6&#x20;
 
-3\. Mars - Staking requirement: 100,000 LUA - Pool weight: 30 
+3\. Mars - Staking requirement: 100,000 LUA - Pool weight: 30&#x20;
 
-4\. Galaxy - Staking requirement: 250,000 LUA - Pool weight: 100 
+4\. Galaxy - Staking requirement: 250,000 LUA - Pool weight: 100&#x20;
 
 Community tier members also can commit to buy IDO tokens without a guarateed allocation. Find out more about [the tier requirements & allocation](https://docs.tomochain.com/luaswap/luastarter/tier-requirements-and-allocation).
 
@@ -119,7 +119,7 @@ You can unstake the LUA tokens anytime you want. But if you unstake your LUA wit
 
 #### 1. How can I apply to launch an IDO on LuaStarter?
 
-Please fill out the [application form](https://docs.google.com/forms/d/e/1FAIpQLSchJihprfLMjI0Q1FRzgzpoagnjALd0pA1bzXnVpzZvXd_wxw/viewform), we will follow up with you for more details and due diligence check if you passed the screening process.
+Please fill out [the application form](https://www.jotform.com/220232580822043), we will follow up with you for more details and due diligence check if you passed the screening process.
 
 #### 2. How do you select IDO projects?
 

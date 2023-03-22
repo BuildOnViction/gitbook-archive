@@ -2,19 +2,19 @@
 description: >-
   This page is a reduced version of the [Solidity docs
   site](https://solidity.readthedocs.io/en/v0.4.24/) that is adapted to
-  TomoChain to avoid overwhelming information.
+  TomoChain network to avoid overwhelming information.
 ---
 
 # Solidity
 
-Solidity is a contract-oriented, high-level language for implementing smart contracts. It was influenced by Python and JavaScript and is designed to target the Ethereum Virtual Machine \(EVM\) both Ethereum and TomoChain.
+Solidity is a contract-oriented, high-level language for implementing smart contracts. It was influenced by Python and JavaScript and is designed to target the Ethereum Virtual Machine (EVM) both Ethereum and TomoChain.
 
 Solidity is statically typed, supports inheritance, libraries and complex user-defined types among other features.
 
 As you will see, it is possible to create contracts for voting, crowdfunding, blind auctions, multi-signature wallets and more.
 
 {% hint style="info" %}
-The best way to try out Solidity right now is using [Remix](https://remix.ethereum.org/) \(it can take a while to load, please be patient\). Remix is a web browser based IDE that allows you to write Solidity smart contracts, then deploy and run the smart contracts.
+The best way to try out Solidity right now is using [Remix](https://remix.ethereum.org/) (it can take a while to load, please be patient). Remix is a web browser based IDE that allows you to write Solidity smart contracts, then deploy and run the smart contracts.
 {% endhint %}
 
 Once you're strong enough, on the next pages, we will first see a [simple smart contract](https://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html#simple-smart-contract) written in Solidity followed by the basics about [blockchains](https://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html#blockchain-basics) and the [Ethereum Virtual Machine](https://solidity.readthedocs.io/en/v0.4.24/introduction-to-smart-contracts.html#the-ethereum-virtual-machine).
@@ -31,6 +31,4 @@ If you still have questions, you can try searching or asking on the [Ethereum St
 echo 'You got to trust me on this, I saved the world'
 ```
 {% endcode %}
-
-
 

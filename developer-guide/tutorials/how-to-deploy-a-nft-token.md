@@ -114,7 +114,7 @@ npm install openzeppelin-solidity
 
 ## 2. Preparing your TOMO wallet <a href="#ef52" id="ef52"></a>
 
-[Create a TOMO wallet](https://docs.tomochain.com/get-started/wallet/). Then grab a few tokens:
+[Create a TOMO wallet](../../general/how-to-connect-to-tomochain-network/tomowallet.md). Then grab a few tokens:
 
 * `TomoChain (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 TOMO)
 * `TomoChain (mainnet)`: You will need real TOMO from exchanges
@@ -214,7 +214,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). Here the migration settings can be edited: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `TomoChain (testnet)`, `TomoChain (Mainnet)`, etc…
 
-Both Testnet and Mainnet **network configurations** are described in the [official TomoChain documentation — Networks](https://docs.tomochain.com/general/networks/). We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+Both Testnet and Mainnet **network configurations** are described in [the official TomoChain documentation — Networks.](../working-with-tomochain/) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -444,7 +444,7 @@ Read the output text on the screen. The NFT token [contract address](https://sca
 0x8B830F38b798B7b39808A059179f2c228209514C
 ```
 
-> **⚠️ Note:** TomoChain’s **** smart contract [**creation fee**](https://docs.tomochain.com/general/networks/)**:** gas price 10000 Gwei, gas limit >= 1000000
+> **⚠️ Note:** TomoChain’s **** smart contract[ **creation fee**](../working-with-tomochain/)**:** gas price 10000 Gwei, gas limit >= 1000000
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
@@ -465,7 +465,7 @@ You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.c
 
 Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) (MEW) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in TomoChain (testnet), then we will call function `mint()` to mint the first token.
 
-![](<../../.gitbook/assets/image (38).png>)
+![](<../../.gitbook/assets/image (38) (1).png>)
 
 In MyEtherWallet, under menu `Contract` > `Interact with Contract` two things are required:
 

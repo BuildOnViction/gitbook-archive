@@ -1,10 +1,10 @@
 # TomoChain
 
-### What is TomoChain?
+### What is TomoChain public blockchain?
 
 TomoChain is a scalable public blockchain built on a performance layer that achieves high transaction speeds without compromising decentralization. TomoChain uses an innovative consensus method called PoSV (Proof of Stake Voting) which gives an incentive to all TomoChain token-holders to play an active part in staking across a network of 150 high-quality Masternodes, and to monitor their performance and governance actively.&#x20;
 
-The TomoChain blockchain and its product ecosystem allow entrepreneurs, enterprises, and institutions to build high-performance, feature-rich blockchain projects on an enhanced EVM-compatible platform. An array of original features and protocols is designed to support users’ speed, privacy, usability, and liquidity needs all in one platform.
+The TomoChain blockchain and its product ecosystem allow builders to build high-performance, feature-rich blockchain projects and Web3 Dapps on an enhanced EVM-compatible platform. An array of original features and protocols is designed to support users’ speed, privacy, usability, and liquidity needs all in one platform.
 
 ### What problems does TomoChain solve?
 
@@ -49,13 +49,14 @@ The unique point of TomoChain comes from technology, the products and the ecosys
 * Built-in governance Dapp
 * Double Validation and Randomization
 
-&#x20;**A complete suite of products**
+**A complete suite of products**
 
-An array of original features and protocols is designed to support speed, privacy, usability, and liquidity needs all in one platform. [TomoChain's unique products and protocols](../products/) are developed  consult on to integrate blockchain services into their own business, therefore, introducing more users to the convenience of the decentralized ecosystem
+An array of unique products is designed to support speed, privacy, usability, and liquidity needs all in one platform, therefore, introducing more users to the convenience of the decentralized ecosystem
 
 **Our own ecosystem**
 
-* TomoChain also is working vigorously on building its ecosystem and has sealed many partnerships from all fields, such as agriculture, robotics, gaming, IT solution providers, advertising, loyalty points, education and research, payment, communication, name service, food traceability, tourism etc&#x20;
+* TomoChain Labs also is working vigorously on building its ecosystem and has sealed many partnerships from all fields, such as agriculture, robotics, gaming, IT solution providers, advertising, loyalty points, education and research, payment, communication, name service, food traceability, tourism etc&#x20;
+* In collaboration with [TomoMasterDAO](broken-reference), TomoChain Labs offers a developer friendly and scalable environment, extensive support and everything it takes to succeed for all builders.&#x20;
 
 ### Which blockchain(s) are TomoChain's main competitors?
 
@@ -83,7 +84,7 @@ Yes, they can make an app, and deploy it to both Ethereum, and TomoChain. It can
 
 ### How do you solve 'security problems' when using TomoChain?
 
-In terms of security of consensus protocol, TomoChain proposes Double Validation and Randomization to protect the system. The details of these techniques can be referred in our [Technical paper](https://tomochain.com/docs/technical-whitepaper--1.0.pdf).
+In terms of security of consensus protocol, TomoChain proposes Double Validation and Randomization to protect the system. The details of these techniques can be referred in our [Technical paper.](https://tomochain.com/files/technical-whitepaper-1.0.pdf)
 
 TomoChain solves some core consensus-related security aspects:
 
@@ -97,32 +98,3 @@ TomoChain solves some core consensus-related security aspects:
 TomoChain has different measures to defend against spamming attacks.
 
 For instance, increasing transaction fees for smart contract creation is one of them. The minimum is 10 TOMO. Otherwise an error that the smart contract creation cost is under allowance may show up.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

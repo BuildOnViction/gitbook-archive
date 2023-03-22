@@ -1,12 +1,19 @@
 # Token Information
 
-{% page-ref page="trc21-wrapped-token.md" %}
+{% content-ref url="trc21-wrapped-token.md" %}
+[trc21-wrapped-token.md](trc21-wrapped-token.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomoe.md" %}
+{% content-ref url="tomoe.md" %}
+[tomoe.md](tomoe.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomob.md" %}
+{% content-ref url="tomob.md" %}
+[tomob.md](tomob.md)
+{% endcontent-ref %}
 
-{% page-ref page="tomo-lua-wrapped-token-on-solana.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-## 
-
+##

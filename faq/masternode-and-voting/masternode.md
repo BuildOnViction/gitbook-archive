@@ -6,7 +6,7 @@ Yes, TomoChain has a maximum of 150 Masternodes with Proof of Stake Voting (POSV
 
 * **Masternode Candidates:** Any account can deposit 50,000 TOMO using [TomoMaster](https://master.tomochain.com/) to become a Masternode candidate. A candidate can resign, but the tokens will be locked for the next 30 days (1,296,000 blocks) after the resignation.
 * **Becoming a Masternode:** A Candidate becomes a Masternode when he/she belongs to the top 150 most voted Candidates in each epoch. A Masternode can resign, but the tokens will be locked for the next 30 days after the resignation.
-* **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs. Masternodes will also receive fees from the TomoChain DEX, which is planned for mainnet in Q1-2020.
+* **Rewards:** The rewards a Masternode receives in each epoch is proportional to the number of signatures it signs.&#x20;
 
 TomoChain Masternodes started signing blocks and receiving block rewards when the Mainnet released in December 14th, 2018.
 
@@ -30,9 +30,7 @@ Also 150 is [Dunbar’s Number](https://en.wikipedia.org/wiki/Dunbar's\_number).
 
 ### **Where will the Masternode rewards come from? Will they be from the DEX?**
 
-The block rewards will come from a 17 million TOMO reserve for 8 years - this was decided since the genesis block. Our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) lays out the number in detail.
-
-And then later on, the revenues from DEXs powered by the TomoX protocol will go to the Masternodes as well.
+The block rewards will come from a 17 million TOMO reserve for 8 years - this was decided since the genesis block. Our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)lays out the number in detail.
 
 ### **When are Masternode rewards paid out?**
 
@@ -42,15 +40,13 @@ Masternode operators and Voters will receive rewards every epoch. An epoch is re
 
 You can check your Masternode/staking rewards using TomoWallet. Alternatively you can use TomoMaster or TomoScan.
 
-To estimate rewards you are going to receive when voting a certain amount of TOMO, you can go to [https://tomochain.com/tomo-staking/](https://tomochain.com/tomo-staking/)&#x20;
-
 ### **What rewards do Masternodes receive?**
 
 Each epoch consists of 900 blocks, which will reward a total of 250 TOMO in the first two years. This amount of 250 TOMO is divided across all of the Masternodes proportionally to the number of signatures they sign during the epoch.
 
 Example: With only 25 Masternodes with equal performance, every Masternode would be rewarded with 10 TOMO. With 125 Masternodes, each one would receive 2 TOMO per epoch.
 
-Please, refer to our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) for more details about the Masternode rewards.
+Please, refer to our [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit) for more details about the Masternode rewards.
 
 ### **How much of the Masternode reward will go to the Masternode infrastructure (node owner) and to voters?**
 
@@ -64,7 +60,7 @@ There is a reward sharing ratio among token holders and the Masternodes which ha
 
 The rewards for every Masternode will be dynamic and depend on multiple factors like: number of Masternodes in the network, the efficiency signing blocks, the total number of votes on each Masternode.&#x20;
 
-Please, refer to our [Economics paper](https://docs.tomochain.com/wp-and-research/economics-paper/) for more details about the Masternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
+Please, refer to our [Economics paper ](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)for more details about the Masternodes reward. We discuss 3 possible scenarios with 50, 100 and 150 Masternodes; and different number of total votes.
 
 One example is outlined below.
 
@@ -108,7 +104,7 @@ The list of Masternode Candidates will be available on the governance Dapp, [Tom
 
 We recommend using an IaaS ("cloud") provider of your choice (like Amazon AWS, Digital Ocean, Google Cloud GCE, Vultr, etc). The machine must be directly internet facing (public IP, no NAT) and have 100% uptime.
 
-If you have another production grade environment other than cloud a provider at your disposal, please tell us more about it on our [Gitter](https://gitter.im/tomochain).
+If you have another production grade environment other than cloud a provider at your disposal, please tell us more about it on our[ Github.](https://github.com/tomochain)
 
 ### **What are the hardware requirements to run a node?**
 
@@ -139,7 +135,7 @@ See this [Medium post](https://medium.com/tomochain/how-to-run-a-tomochain-maste
 
 ### **Where can I find the latest Masternode guide or the instructions for setting up a Masternode?**&#x20;
 
-Find more details about tmn here: [https://docs.tomochain.com/masternode/tmn/](https://docs.tomochain.com/masternode/tmn/)
+Find more details about tmn [here](../../masternode/run-a-full-node/create-a-tomochain-masternode.md)
 
 ### **What is the command to start a fullnode with 'tmn'?**
 
@@ -147,7 +143,7 @@ Find more details about tmn here: [https://docs.tomochain.com/masternode/tmn/](h
 
 ### **What I can do when tmn is installed but just not in your path.**
 
-See: [https://docs.tomochain.com/masternode/tmn/#tmn-command-not-found](https://docs.tomochain.com/masternode/tmn/#tmn-command-not-found)
+See [here](../../masternode/run-a-full-node/tmn.md)&#x20;
 
 ### **I tried stopping the node using 'tmn stop', but after that I ran 'tmn status' it still says running.**
 
@@ -175,7 +171,7 @@ No. You must use different public 'coinbase' addresses. But you can use the same
 
 ### **I have finished all steps of setting up a node. Why I don't see my node on TomoMaster?**
 
-You must apply to become a Masternode Candidate on TomoMaster ([master.tomochain.com](http://master.tomochain.com)).
+You must apply to become a Masternode Candidate on [TomoMaster](https://master.tomochain.com/)
 
 ### **Do I need to deposit the 50K TOMO before or after running 'tmn' in VPS?**
 

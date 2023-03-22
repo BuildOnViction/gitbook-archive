@@ -4,7 +4,7 @@
 
 Token voters should vote for the Candidates that demonstrate strong support to the TomoChain ecosystem. If strong Candidates are voted to become Masternodes, the network will be more powerful and the voters will earn more rewards.
 
-More information on the voting and reward mechanism can be found in the [Economics paper](https://docs.google.com/document/d/197Cu57A6OYPoEQbrUVr067qNVEzP_FEwaDCFff7hnlM).
+More information on the voting and reward mechanism can be found in the [Economics paper.](https://docs.google.com/document/u/1/d/197Cu57A6OYPoEQbrUVr067qNVEzP\_FEwaDCFff7hnlM/edit)
 
 ### **Can you stake TOMO?**
 
@@ -20,18 +20,18 @@ Login to your wallet at [TomoMaster](https://master.tomochain.com) and click 'Vo
 
 Everyone can find a list of all Masternode Candidates on [TomoMaster](https://master.tomochain.com/). All token holders can vote TOMO on any candidates via TomoMaster. To vote, token holders must deposit TOMO in a smart-contract associated with the voted Candidate.
 
-The top-150 most-voted Candidates will be promoted to Masternode status during the next epoch and will be able to sign blocks and collect rewards. All the voters \(stakers\) who support the elected Masternodes will receive rewards, proportional to the amount of TOMO voted and the efficiency of the Masternode.
+The top-150 most-voted Candidates will be promoted to Masternode status during the next epoch and will be able to sign blocks and collect rewards. All the voters (stakers) who support the elected Masternodes will receive rewards, proportional to the amount of TOMO voted and the efficiency of the Masternode.
 
-### **How do I vote \(stake\)?**
+### **How do I vote (stake)?**
 
-Any token holder can vote. Login to [TomoMaster](https://master.tomochain.com/) and then click 'Vote' on a node. Then enter the amount of TOMO to vote \(minimum is 100 TOMO\). Vote by depositing \(staking\) tokens to a smart-contract associated with a Masternode Candidate.
+Any token holder can vote. Login to [TomoMaster](https://master.tomochain.com/) and then click 'Vote' on a node. Then enter the amount of TOMO to vote (minimum is 100 TOMO). Vote by depositing (staking) tokens to a smart-contract associated with a Masternode Candidate.
 
 There are many ways to vote in TomoMaster:
 
-* Voting from [TomoWallet](https://www.youtube.com/watch?v=EdeTsN6-hRM&list=PLuqf1yr-JvSy0AwnxMyalxmM_jKFOP_Y_).
-* Voting from [Ledger wallet](https://www.youtube.com/watch?v=wfHK03D2m7s&list=PLuqf1yr-JvSx7XiLxXlhItFhpz_-j1fD0)
-* Voting from Trezor wallet \(same as Ledger\)
-* Voting via MetaMask \(can be connected to your hardware wallets\).
+* Voting from [TomoWallet](https://www.youtube.com/watch?v=EdeTsN6-hRM\&list=PLuqf1yr-JvSy0AwnxMyalxmM\_jKFOP\_Y\_).
+* Voting from [Ledger wallet](https://www.youtube.com/watch?v=wfHK03D2m7s\&list=PLuqf1yr-JvSx7XiLxXlhItFhpz\_-j1fD0)
+* Voting from Trezor wallet (same as Ledger)
+* Voting via MetaMask (can be connected to your hardware wallets).
 * Voting from [TrustWallet](https://www.youtube.com/watch?v=8qJCYsOuyeE)
 * Voting with your wallet's Private Key or MNEMONIC.
 
@@ -39,7 +39,7 @@ There are many ways to vote in TomoMaster:
 
 Please, read the [following guide](https://medium.com/tomochain/how-to-vote-for-tomochain-masternodes-using-tomowallet-1ddc3457907f).
 
-Or watch this video: [https://www.youtube.com/watch?v=tXp4WHl\_sxY](https://www.youtube.com/watch?v=tXp4WHl_sxY)
+Or watch this video: [https://www.youtube.com/watch?v=tXp4WHl\_sxY](https://www.youtube.com/watch?v=tXp4WHl\_sxY)
 
 ### **How do I vote from my Ledger Nano S?**
 
@@ -88,11 +88,11 @@ The minimum amount to stake is 100 TOMO.
 
 ### **Which hardware-wallet can I use to vote?**
 
-You are able to use hardware wallets \(Ledger, Trezor\) with MyEtherWallet or Metamask. You can also directly [connect to the TomoChain Mainnet](../../general/how-to-connect-to-tomochain-network/) with Ledger/Trezor and vote on [TomoMaster](https://master.tomochain.com/).
+You are able to use hardware wallets (Ledger, Trezor) with MyEtherWallet or Metamask. You can also directly [connect to the TomoChain Mainnet ](../../general/how-to-connect-to-tomochain-network/)with Ledger/Trezor and vote on [TomoMaster](https://master.tomochain.com/).
 
 ### **Is it possible to re-invest the TOMO earned and use it to continue voting?**
 
-Yes, it is. 
+Yes, it is.&#x20;
 
 ### **Is there a way to stake the earned rewards automatically?**
 
@@ -100,19 +100,17 @@ This is not supported currently.
 
 ### **What happens if the Masternode I voted for stops working? Will I get my TOMO back?**
 
-Yes. You can unvote from that Masternode and take your tokens back after 96 epochs \(approx. 48 hours\) which is the lock-up period OR you can go to [Masternode and Voters chat](https://t.me/TomoChain_MN_Owners_Voters) to talk to node owners and decide to wait for their repair \(normally it takes a few hours\) to bring the node back. 
+Yes. You can unvote from that Masternode and take your tokens back after 96 epochs (approx. 48 hours) which is the lock-up period.
 
 ### **How do I Unvote?**
 
 If you do not want to support a Masternode you voted for, you can unvote by clicking the ‘Unvote’ button on the Masternode's page and enter the amount of TOMO you wish to unvote.
 
-After unvoting, your TOMO are still locked in the smart contract for 96 epochs \(approx. 48 hours\) before you are able to withdraw. When the lockup period is finished you need to click the ‘Withdraw’ button and the coins will appear again on your wallet.
+After unvoting, your TOMO are still locked in the smart contract for 96 epochs (approx. 48 hours) before you are able to withdraw. When the lockup period is finished you need to click the ‘Withdraw’ button and the coins will appear again on your wallet.
 
 ### **How do I withdraw after unvoting?**
 
-After unvoting, you need to wait until your TOMO is unlocked from the smart contract \(96 epochs, approx. 48 hours\). Then you can go to TomoMaster and click the 'Withdraw' button in your account page \(the three vertical dots on the top-right\) and choose which withdrawal you want to receive back your TOMO.
+After unvoting, you need to wait until your TOMO is unlocked from the smart contract (96 epochs, approx. 48 hours). Then you can go to TomoMaster and click the 'Withdraw' button in your account page (the three vertical dots on the top-right) and choose which withdrawal you want to receive back your TOMO.
 
 Note that you might see multiple withdrawals on your account page if you made multiple unvotes previously.
-
-
 

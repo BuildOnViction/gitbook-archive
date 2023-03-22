@@ -8,19 +8,14 @@ You can also check the ACRA copy if you need more details.
 
 ### **Where are TomoChain offices?**
 
-TomoChain current offices are located in Singapore, Vietnam and Japan:
+TomoChain current offices are located in Singapore and Vietnam
 
-* SINGAPORE
+*   SINGAPORE
 
-  `10 Anson Road #22-15 International Plaza, Singapore 079903`
+    `30 Petain Road Singapore (208099)`
+*   VIETNAM
 
-* JAPAN
-
-  `Shotoku Bldg. 7F, 3-8-9 Sotokanda, Chiyoda-ku, Tokyo 101-0021, Japan`
-
-* VIETNAM
-
-  `219 Trung Kinh, Yen Hoa, Cau Giay, Hanoi, Vietnam`
+    `219 Trung Kinh, Yen Hoa, Cau Giay, Hanoi, Vietnam`
 
 ### **Where can I take a look at TomoChain code? Is there a GitHub repository?**
 
@@ -34,9 +29,9 @@ We are also working with some third parties with which we signed a non-disclosur
 
 If you need support, please contact us on one of these platforms:
 
-* Technical talk and support running our software: [Gitter \(https://gitter.im/tomochain\)](https://gitter.im/tomochain)
-* Bugs or technical contributions: [GitHub \(https://github.com/tomochain\)](https://github.com/tomochain)
-* General discussion regarding our blockchain: [Telegram \(https://t.me/tomochain\)](https://t.me/tomochain)
+* Technical talk and support: [https://forum.tomochain.com/c/technical-discussion/9](https://forum.tomochain.com/c/technical-discussion/9)
+* Bugs or technical contributions: [GitHub (https://github.com/tomochain)](https://github.com/tomochain)
+* General discussion regarding our blockchain: [Telegram (https://t.me/tomochain)](https://t.me/tomochain)
 
 ### **Which are TomoChain's official channels for communication and information?**
 
@@ -49,4 +44,3 @@ You can keep in touch with our latest news here:
 5. Medium: [https://medium.com/tomochain](https://medium.com/tomochain)
 6. Reddit: [https://www.reddit.com/r/Tomochain/](https://www.reddit.com/r/Tomochain/)
 7. LinkedIn: [https://www.linkedin.com/company/tomochain/](https://www.linkedin.com/company/tomochain/)
-

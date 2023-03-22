@@ -83,11 +83,11 @@ npm install openzeppelin-solidity
 
 ### 2.1 Create a TOMO wallet and save the Mnemonic <a href="#eb9e" id="eb9e"></a>
 
-Create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+Create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings._ Here _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
 
 Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](https://docs.tomochain.com/get-started/wallet/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](../../general/how-to-connect-to-tomochain-network/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -119,9 +119,9 @@ Go to faucet and collect `60 TOMO`. Now your wallet has enough balance to do eve
 
 To check the balance of a wallet address, use **TomoScan**.
 
-**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com/)
+**Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
 
-**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com/)
+**Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)&#x20;
 
 > **Note:** Create 2 different TOMO wallets, both with some tokens. The first wallet is to deploy the ICO smart contract or `deployment wallet`, the second one will be used to test it or `buyer wallet`.
 
@@ -254,7 +254,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). You can edit here the migration settings: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, to `ganache`, to public `Ropsten (ETH)` testnet, to `TomoChain (testnet)`, to `TomoChain (Mainnet)`, etc…
 
-The [official TomoChain documentation — Networks](https://docs.tomochain.com/general/networks/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+[The official TomoChain documentation — Networks](../working-with-tomochain/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -492,12 +492,12 @@ Read carefully and **write down** the output text on the screen:
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
-* **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
+* **Error: `smart contract creation cost is under allowance`**. **Why?** Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ### 5.3 Check the deployment contracts <a href="#10d5" id="10d5"></a>
 
-If you want to verify that your contracts were deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com/) (or [mainnet](https://scan.tomochain.com/)). In the search field, type in the contract address you want to see.
+If you want to verify that your contracts were deployed successfully, you can check on **TomoScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the contract address you want to see.
 
 Here are the results of our migrations:
 
@@ -508,7 +508,7 @@ Here are the results of our migrations:
 
 **TomoChain testnet:**
 
-* Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://scan.testnet.tomochain.com/tokens/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
+* Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://testnet.tomoscan.io/address/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
 * Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan.testnet.tomochain.com/address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
 
 ![](<../../.gitbook/assets/image-2-copy (3).png>)
@@ -541,7 +541,7 @@ The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 5
 
 Let’s now connect MetaMask to `TomoChain (testnet)`.
 
-1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](https://docs.tomochain.com/general/networks/) (testnet) and click **Save**.
+1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](../working-with-tomochain/) (testnet) and click **Save**.
 
 ![](<../../.gitbook/assets/image (15).png>)
 
@@ -567,7 +567,7 @@ We will now buy some `MyToken (MYT)` from the ICO Crowdsale contract.
 
 3\. Paste the `Crowdsale address`. Set the amount `20 TOMO` you want to send. Select the **Transaction Fee** (gas, gas price) and click **Next**. After a few seconds your transaction will be confirmed as successful.
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (9) (1).png>)
 
 You can see the Crowdsale buy transaction. `20 TOMO` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan.testnet.tomochain.com/txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **TomoScan**.
 

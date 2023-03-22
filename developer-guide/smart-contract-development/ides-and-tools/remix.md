@@ -246,6 +246,6 @@ There are many alternatives for easy development and deployment of smart contrac
 
 ### Conclusion <a href="#conclusion" id="conclusion"></a>
 
-We’ve introduced you to the Remix IDE for developing smart contracts for the Ethereum blockchain. You can find more detailed information in the [docs](http://remix.readthedocs.io/en/latest/).
+We’ve introduced you to the Remix IDE for developing smart contracts for the Ethereum blockchain. You can find more detailed information in the [docs](https://remix-ide.readthedocs.io/en/latest/).
 
 With a basic introduction behind you, feel free to dive in deeper and experiment with changing the code and exploring the different functions and tabs the editor offers.

@@ -6,15 +6,15 @@ In this tutorial, you'll learn how to deploy your smart contracts to a public Et
 
 This tutorial assumes that you've already done the following:
 
-* [Created a Truffle Teams account](https://www.trufflesuite.com/docs/teams/getting-started/creating-an-account)
-* Linked a repo that is a Truffle project \(need a project? Grab our MetaCoin box with `truffle unbox metacoin` in an empty directory, and push that to your own repository\)
+* Created a Truffle Teams account
+* Linked a repo that is a Truffle project (need a project? Grab our MetaCoin box with `truffle unbox metacoin` in an empty directory, and push that to your own repository)
 * Got a passing build within Truffle Teams
-* [Grabbed some Ropsten Ether](https://faucet.metamask.io/)
+* Grabbed some Ropsten Ether
 * Ensured you'll have a stable network connection
 
 ### The Deployments Page
 
-Head over to [Truffle Teams](https://my.truffleteams.com/).
+Head over to [Truffle Teams.](https://trufflesuite.com/)
 
 On the left navigation bar, click the item near the top labelled **DEPLOYMENTS** next to the parachute icon.
 
@@ -28,13 +28,13 @@ This will bring you to the deployments page. You'll notice there are three colum
 
 #### Commits Column
 
-**Commits** is a list of all the commits that Truffle Teams is processing, or has processed, as a build. Each will have a status icon to show if the build is in progress, failed, or successful. Commits with a successful icon \(a green box with a checkmark, as pictured\) will be able to be deployed; the parachute icon in the top right of the commit indicates this.
+**Commits** is a list of all the commits that Truffle Teams is processing, or has processed, as a build. Each will have a status icon to show if the build is in progress, failed, or successful. Commits with a successful icon (a green box with a checkmark, as pictured) will be able to be deployed; the parachute icon in the top right of the commit indicates this.
 
 ![Commit Card](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/commit-card.png)
 
 #### Staging and Production Columns
 
-**Staging** contains a list of all testnet \(i.e. Ropsten, Görli, Rinkeby, and Kovan\) deployments. **Production** contains a list of Mainnet deployments. We'll expand more on how these work later in the tutorial.
+**Staging** contains a list of all testnet (i.e. Ropsten, Görli, Rinkeby, and Kovan) deployments. **Production** contains a list of Mainnet deployments. We'll expand more on how these work later in the tutorial.
 
 ### Your First Deployment
 
@@ -50,11 +50,11 @@ A wizard will pop up; under Destination Network, select Ropsten, and then press 
 
 ![Deployment Wizard Ropsten Select](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/deployment-wizard-ropsten-select.png)
 
-MetaMask will pop up asking you to login \(if you haven't already\). Then you will need to press **Connect** to confirm the connection with Truffle Teams.
+MetaMask will pop up asking you to login (if you haven't already). Then you will need to press **Connect** to confirm the connection with Truffle Teams.
 
 ![MetaMask Connect](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/metamask-connect.png)
 
-If the wizard hasn't changed \(i.e. you don't see a button to start deploying\), you likely need to switch your MetaMask network to Ropsten. This may reload the page; if this happens, you'll need to repeat the steps above.
+If the wizard hasn't changed (i.e. you don't see a button to start deploying), you likely need to switch your MetaMask network to Ropsten. This may reload the page; if this happens, you'll need to repeat the steps above.
 
 ![MetaMask Network](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/metamask-network.png)
 
@@ -68,7 +68,7 @@ Now you should see the wizard prompting for a **Deployment Context**. Leave it s
 
 From here on, it's important that you don't close the tab, refresh the page, or lose network connection. We're working on a more robust experience that will enable you to pick up unfinished deployments, but for now our current version requires the tab to stay open and connected.
 
-Truffle Teams will only process so many deployments at the same time, so you may see that your deployment has been queued. You'll have to wait \(without closing/refreshing the tab\) for your deployment to get to the front of the list. However, we're working diligently to make this experience more seamless going forward.
+Truffle Teams will only process so many deployments at the same time, so you may see that your deployment has been queued. You'll have to wait (without closing/refreshing the tab) for your deployment to get to the front of the list. However, we're working diligently to make this experience more seamless going forward.
 
 Once your deployment has started processing, you'll see a list of steps Truffle Teams is doing to prepare for your deployment.
 
@@ -82,7 +82,7 @@ You'll notice that this interface with MetaMask is like sending a transaction to
 
 ![MetaMask Gas](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/metamask-gas.png)
 
-Once you're happy with the transaction gas fee, press the **Confirm** button to send your transaction. Once the transaction is confirmed \(the timing of confirmations from MetaMask and Truffle Teams may be slightly offset\), you'll receive the next transaction. Repeat this process until you see a message that your deployment is being finalized.
+Once you're happy with the transaction gas fee, press the **Confirm** button to send your transaction. Once the transaction is confirmed (the timing of confirmations from MetaMask and Truffle Teams may be slightly offset), you'll receive the next transaction. Repeat this process until you see a message that your deployment is being finalized.
 
 After a short wait, you'll see a window with your deployment results:
 
@@ -106,13 +106,12 @@ Circling back to the Deployment Context feature I brushed over earlier when we w
 
 ![Deployment Wizard Ready](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/deployment-wizard-ready.png)
 
-This setting will usually be used for more advanced Truffle applications that utilize the migration system to iteratively migrate more to the blockchain \(rather than starting fresh each deployment\).
+This setting will usually be used for more advanced Truffle applications that utilize the migration system to iteratively migrate more to the blockchain (rather than starting fresh each deployment).
 
-This option will let you select an existing deployment on the same network that you'd like to use the deployed artifacts for. Truffle supports the concept of migrating your application and will only run the new migration scripts from the last deployment \(a.k.a. the deployment context\). This becomes useful in a handful of scenarios: maybe you added an extra contract to work with your existing deployment, your Truffle project uses proxy contracts to upgrade your contracts, and more. Technically speaking, selecting the Deployment Context will put the Truffle artifacts from the deployment context you selected in the directory before running `truffle migrate`.
+This option will let you select an existing deployment on the same network that you'd like to use the deployed artifacts for. Truffle supports the concept of migrating your application and will only run the new migration scripts from the last deployment (a.k.a. the deployment context). This becomes useful in a handful of scenarios: maybe you added an extra contract to work with your existing deployment, your Truffle project uses proxy contracts to upgrade your contracts, and more. Technically speaking, selecting the Deployment Context will put the Truffle artifacts from the deployment context you selected in the directory before running `truffle migrate`.
 
 ### Graduating Deployments
 
 Happy with a particular deployment in **Staging**? You can select the **Graduate** option from the menu to use the same build as the basis of your deployment into Mainnet. Other than selecting a different network in MetaMask, the steps are the same! After you're done, you'll see a new deployment in the production section.
 
 ![Mainnet Deployment](https://www.trufflesuite.com/img/tutorials/learn-how-to-deploy-with-truffle-teams/mainnet-deployment.png)
-

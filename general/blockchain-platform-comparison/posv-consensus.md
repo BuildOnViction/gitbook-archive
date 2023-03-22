@@ -19,7 +19,7 @@ TomoChain is an EVM compatible blockchain powered by the scalable Proof-of-Stake
 
 **High Performance**&#x20;
 
-Massive acceleration of blockchain performance is one of the most important key features of TomoChain. With the PoSV consensus protocol, TomoChain provides:
+Massive acceleration of blockchain performance is one of the most important key features of TomoChain public chain. With the PoSV consensus protocol, TomoChain network provides:
 
 * At least 2,000 TPS while still enhancing security through Double Validation
 * 2-second block-time and transaction confirmed within 4 seconds

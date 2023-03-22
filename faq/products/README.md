@@ -1,8 +1,8 @@
-# Products and Protocols
+---
+description: >-
+  A set of unique products has been built to support speed, privacy, usability,
+  and liquidity needs all in one platform.
+---
 
-{% page-ref page="tomochain-applications/" %}
-
-{% page-ref page="tomochain-protocols/" %}
-
-
+# Products
 

@@ -16,8 +16,8 @@ Once you have added liquidity on LuaSwap, deposit the LP tokens to the LuaSwap c
 
 You need to have 2 **** tokens of the pool you want to farm LUA, with the ratio 50 : 50 (based on USDT rate). Using [TomoBridge](https://bridge.tomochain.com/) to convert back & forth between ERC20 tokens and TRC21 ones .
 
-{% content-ref url="../../tomobridge/tutorial/trc21-wrapped-token/" %}
-[trc21-wrapped-token](../../tomobridge/tutorial/trc21-wrapped-token/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### **Step 2: Add liquidity into the pool**

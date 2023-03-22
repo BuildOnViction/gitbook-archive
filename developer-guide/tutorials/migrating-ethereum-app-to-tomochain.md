@@ -88,7 +88,7 @@ var HDWalletProvider = require("truffle-hdwallet-provider");var mnemonic = "YOUR
 };
 ```
 
-To deploy the same contract onto TomoChain, let’s change the configuration to connect to the [TomoChain network](https://docs.tomochain.com/general/networks/). Check [TomoChain Network](https://docs.tomochain.com/general/networks/) document, we can find all configs of TomoChain networks easily. The configuration change basically tells Truffle to connects to TomoChain and deploy the contract on it instead of Ethereum.
+To deploy the same contract onto TomoChain, let’s change the configuration to connect to the [TomoChain network.](../working-with-tomochain/) Check [TomoChain Network document,](../working-with-tomochain/) we can find all configs of TomoChain networks easily. The configuration change basically tells Truffle to connects to TomoChain and deploy the contract on it instead of Ethereum.
 
 Finally, we have the updated truffle-config.js.
 
@@ -161,7 +161,7 @@ This is the easiest step. We only need to change old smart contract address to n
 
 `ADDRESS_CONTRACT: “0xb7cEb47FbD0f6f98E16E681eb3933B7801a1ce43”`
 
-You can go to [**TomoScan Testnet**](https://scan.testnet.tomochain.com/) to verify the contract deployment.
+You can go to [**TomoScan Testnet** ](https://testnet.tomoscan.io/)to verify the contract deployment.
 
 ## Testing <a href="#b3ec" id="b3ec"></a>
 
@@ -169,7 +169,7 @@ Let’s get some faucet TOMO from the [**faucet page**](https://faucet.testnet.t
 
 Connect MetaMask to TomoChain Testnet by following this [**guide**](https://github.com/tomochain/docs/blob/game\_tutorials/get-started/wallet).
 
-You can even play the game with [**TomoWallet**](https://docs.tomochain.com/products/tomowallet/features/) through our built-in Dapp Browser, which provides the best user experience for gamers.
+You can even play the game with [**TomoWallet**](../../general/how-to-connect-to-tomochain-network/tomowallet.md) through our built-in Dapp Browser, which provides the best user experience for gamers.
 
 And enjoy the game running on TomoChain and taste how fast and cheap transactions on TomoChain are.
 

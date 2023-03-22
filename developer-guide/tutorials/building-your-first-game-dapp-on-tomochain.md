@@ -91,7 +91,7 @@ The default Truffle directory structure contains a series of folders and files. 
 
 ### 3.1 Create a TOMO wallet and save your Mnemonic <a href="#d296" id="d296"></a>
 
-You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or the web version at [https://wallet.tomochain.com/#/login](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
+You can create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itunes.apple.com/us/app/tomo-wallet/id1436476145?mt=8) or [the web version](https://wallet.tomochain.com/#/login). Under _Settings_ go to _Advanced Settings,_ here you can _Choose network_ and select `TomoChain TestNet` or `TomoChain` \[mainnet].
 
 Go to _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
@@ -127,9 +127,9 @@ Go to faucet and collect `30 TOMO`. Now your wallet has enough balance to do eve
 
 To check the balance of a wallet address, you can use **TomoScan**.
 
-**Testnet:** [https://scan.testnet.tomochain.com/](https://scan.testnet.tomochain.com/)
+**Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
 
-**Mainnet:** [https://scan.tomochain.com/](https://scan.tomochain.com/)
+**Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)
 
 ## 4. Writing the smart contract <a href="#d658" id="d658"></a>
 
@@ -210,7 +210,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). You can edit here the migration settings: networks, chain IDs, gas... The current file has only a single network defined, you can define multiple. We will add three networks to migrate our Dapp: `development`, `tomotestnet` and `tomomainnet`.
 
-The [official TomoChain documentation — Networks](https://docs.tomochain.com/general/networks/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+[The official TomoChain documentation — Networks](../working-with-tomochain/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -343,7 +343,7 @@ The contract address is:
 
 ### 6.4 Check the deployment transaction <a href="#0b1e" id="0b1e"></a>
 
-If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://scan.testnet.tomochain.com/) (or [mainnet](https://scan.tomochain.com/)). In the search field, type in the transaction ID for your new contract.
+If you want to verify that your contract was deployed successfully, you can check on **TomoScan** [testnet](https://testnet.tomoscan.io/) (or [mainnet](https://tomoscan.io/)). In the search field, type in the transaction ID for your new contract.
 
 You should see details about the transaction, including the block number where the transaction was secured.
 
@@ -491,7 +491,7 @@ Now we’re ready to use our Dapp!
 
 4\. Now we’re connected to the Ethereum network,with a brand new wallet with 0 ETH.
 
-5\. Let’s now connect MetaMask to TomoChain (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](https://docs.tomochain.com/general/networks/) (testnet) and click **Save**.
+5\. Let’s now connect MetaMask to TomoChain (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the[ Networks data from TomoChain](../working-with-tomochain/tomochain-testnet.md) (testnet) and click **Save**.
 
 ![](<../../.gitbook/assets/image (52).png>)
 

@@ -19,7 +19,7 @@ Users are required to stake their LUA tokens in the designated protocols (see ta
 
 _\*the LP tokens staked in farming pools must be unstaked before the deadline._
 
-Users are required to have their LUA tokens staked in **LuaSafe** or added in **PIXEL-LUA,** **LUA-TOMO(E)\*** liquidity pool (either **TomoChain** or **Ethereum**) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token
+Users are required to have their LUA tokens staked in **LuaSafe** or added in **LUA-TOMO(E)\*** liquidity pool (either **TomoChain** or **Ethereum**) to be qualified for a tier and secure a minimum guaranteed allocation of the IDO token
 
 LUA tokens must be added in the designated protocols at least **3 days** before and remain staked until the IDO opens.
 
@@ -37,13 +37,9 @@ Part of the IDO token supply, if not all, will be first allocated to meet the mi
 
 The remaining supply of each tier will be allocated to members of the same tier on a first come, first served basis. Any unsold supply in a tier will be allocated to other members from the highest to the lowest tier.&#x20;
 
-
-
 ### Exclusive Pool
 
 The Exclusive Pool is an optional pool that usually comes with a lower sale price and longer vesting schedule, which is suitable for long term investors of the IDO project. All the Galaxy Plus tier members will be secured with an allocation, while other tier members can still participate on a FCFS (first-come, first-serviced) basis with no allocation guaranteed.
-
-
 
 ### Whitelist Pool
 

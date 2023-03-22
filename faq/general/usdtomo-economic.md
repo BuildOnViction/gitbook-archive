@@ -8,11 +8,11 @@ The supply of TOMO is fixed, long-term and non-inflationary.
 
 In addition to the above, TOMO is an integral part of the TomoChain network for a number of reasons.
 
-* TOMO will be used to fund the development of TomoChain and its ecosystem \(TomoScan, TomoMater, TomoWallet, etc.\).
+* TOMO will be used to fund the development of TomoChain and its ecosystem (TomoScan, TomoMaster, TomoWallet, etc.).
 * TOMO will be used as a reward to incentivise the building of the TomoChain engine/ecosystem.
 * TOMO will be used as a long-term, decentralized governance instrument of the TomoChain network.
 
-You can check our [technical whitepaper](https://tomochain.com/wp-content/uploads/2020/07/technical-whitepaper-1.0.pdf) for more details.
+You can check our [technical whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) for more details.
 
 ### **Can I mine TOMO?**
 
@@ -43,11 +43,11 @@ The token allocation is split as follows:
 
 **Will TomoChain have inflation?**
 
-The total supply is fixed at 100 million TOMO in the first 8 years \(non-inflationary\). 17 million TOMO which are reserved as block rewards will have been all distributed after 8 years. At that time, we are expecting that block rewards will come from the exchange fees. But the Masternode Council can decide to increase the total supply by 0.5-1 million TOMO per year \(which will be used as block rewards\) \(~small inflation, 0.5%-1% annually\).
+The total supply is fixed at 100 million TOMO in the first 8 years (non-inflationary). 17 million TOMO which are reserved as block rewards will have been all distributed after 8 years. At that time, we are expecting that block rewards will come from the exchange fees. But the Masternode Council can decide to increase the total supply by 0.5-1 million TOMO per year (which will be used as block rewards) (\~small inflation, 0.5%-1% annually).
 
 **How often are block rewards paid out?**
 
-Block rewards will be awarded every epoch, which lasts for 900 blocks at roughly a two-second-block time rate \(~30 minutes\). Both Masternode operators and Stakers will be rewarded.
+Block rewards will be awarded every epoch, which lasts for 900 blocks at roughly a two-second-block time rate (\~30 minutes). Both Masternode operators and Stakers will be rewarded.
 
 **If TomoChain has near zero fees, how can Masternodes get rewards?**
 
@@ -59,13 +59,13 @@ The block rewards will be emitted from a reserved fund of 17 million TOMO for th
 
 We plan to have a built-in DEX, the revenues from the DEX will go to the Masternodes as well.
 
-After 8 years, the block rewards will come from exchange fees. Also, the Masternode Council can decide to increase the total supply by 0.5-1 million TOMO per year \(which will be used as block rewards\).
+After 8 years, the block rewards will come from exchange fees. Also, the Masternode Council can decide to increase the total supply by 0.5-1 million TOMO per year (which will be used as block rewards).
 
 ### **What was the price in presale and ICO?**
 
 Presale Price: `$0.20`
 
-ICO Price: `$0.25` \(`0.0003125 ETH`\)
+ICO Price: `$0.25` (`0.0003125 ETH`)
 
 ### **Is TOMO an ERC-20 token?**
 
@@ -73,15 +73,15 @@ No. Since Mainnet, TOMO has become the native coin of the TomoChain blockchain.
 
 **Where can I store TOMO? How can I send TOMO to my wallet?**
 
-You can store TOMO in TomoWallet, TrustWallet, MetaMask, MyEtherWallet, Ledger and Trezor and more wallets 
+You can store TOMO in TomoWallet, TrustWallet, MetaMask, MyEtherWallet, Ledger and Trezor and more wallets&#x20;
 
 We recommend to store TOMO in TomoWallet.
 
-Please, read more details here: [https://docs.tomochain.com/get-started/wallet/](https://docs.tomochain.com/get-started/wallet/)
+Please, read more details [here](../products/tomowallet.md)
 
 ### **Can I send TOMO directly from my MyEtherWallet?**
 
-Yes. MyEtherWallet now has TomoChain in the supported network list. TOMO holders then can send TOMO using MyEtherWallet after switching the network to TomoChain. 
+Yes. MyEtherWallet now has TomoChain in the supported network list. TOMO holders then can send TOMO using MyEtherWallet after switching the network to TomoChain.&#x20;
 
 ### **How do I connect Metamask / MyEtherWallet with TomoChain mainnet?**
 
@@ -94,11 +94,10 @@ The following is information used for configuring Metamask to connect to TomoCha
 
 TomoChain is now supported by MyEtherWallet. All you need to do is to choose `Network TOMO`in the supported network list in MyEtherWallet.
 
-You can find the info about our Mainnet or Testnet on our [Networks](https://docs.tomochain.com/general/networks/) page.
+You can find the info about our Mainnet or Testnet [here](../products/tomowallet.md)
 
-Also, you can find out more detailed information about how to use different wallet types to connect to TomoChain Mainnet on [Connect your wallet](https://docs.tomochain.com/get-started/wallet/)
+Also, you can find out more detailed information about how to use different wallet types to connect to TomoChain Mainnet on [Connect your wallet](../../general/how-to-connect-to-tomochain-network/)
 
 ### **Where can I buy TOMO?**
 
-You can trade TOMO on various exchanges. Take a look in the "Exchanges" section on this page of our [main website](https://tomochain.com) &gt; Ecosystem section &gt; Liquidity tab. 
-
+You can trade TOMO on various exchanges. Take a look in the ["Exchanges" section under Ecosystem Tab](https://tomochain.com/ecosystem/) on our main website.
