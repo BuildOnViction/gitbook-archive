@@ -6,13 +6,22 @@ description: >-
 
 # LuaSwap
 
-{% page-ref page="faq.md" %}
+{% content-ref url="luastarter/" %}
+[luastarter](luastarter/)
+{% endcontent-ref %}
 
-{% page-ref page="fee-structure.md" %}
+{% content-ref url="faq.md" %}
+[faq.md](faq.md)
+{% endcontent-ref %}
 
-{% page-ref page="luasafe.md" %}
+{% content-ref url="fee-structure.md" %}
+[fee-structure.md](fee-structure.md)
+{% endcontent-ref %}
 
-{% page-ref page="tutorial/" %}
+{% content-ref url="luasafe.md" %}
+[luasafe.md](luasafe.md)
+{% endcontent-ref %}
 
-
-
+{% content-ref url="tutorial/" %}
+[tutorial](tutorial/)
+{% endcontent-ref %}

@@ -12,8 +12,4 @@
 [tomob.md](tomob.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ##
