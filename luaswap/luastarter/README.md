@@ -44,7 +44,7 @@ The project must undergo an intense process including:
 * Due diligence check
 * Final security check
 
-### **6.**[ **** LuaStarter's whitepaper](https://drive.google.com/file/d/1Wd0xhR6TkN9H51stQ1hWhMFfTMs5lNxn/view) (updated 15 Oct, 2021) ****
+### **6.**[ LuaStarter's whitepaper](https://drive.google.com/file/d/1Wd0xhR6TkN9H51stQ1hWhMFfTMs5lNxn/view) (updated 15 Oct, 2021) 
 
 ##
 

@@ -16,7 +16,7 @@ LuaSwap completed the migration of liquidity from Uniswap on October 29th, 2020.
 
 All Uniswap LP tokens (UNI-V2 LP token) have been converted to LuaSwap LP tokens (LUA-V1 LP token), representing the exact same share of liquidity in the LuaSwap liquidity pools.
 
-No action was required for Liquidity Providers (LP) who staked their Uniswap LP tokens on LuaSwap before the migration. **** LuaSwap LPs will only need to re-approve the LP tokens contract in LuaSwap before unstaking or staking additional LP tokens on LuaSwap.
+No action was required for Liquidity Providers (LP) who staked their Uniswap LP tokens on LuaSwap before the migration. LuaSwap LPs will only need to re-approve the LP tokens contract in LuaSwap before unstaking or staking additional LP tokens on LuaSwap.
 
 ### 4. What is LUA token?
 
@@ -92,7 +92,7 @@ Follow our instruction [here](tutorial/how-to-use-luaswap-snapshot-for-governanc
 
 ### **14. Can I harvest my locked LUA on LuaSwap on TomoChain?**
 
-No you can not. **** LUA locked token is ERC20 and you need to interact with Ethereum smart contract to unlock that. Therefore make sure that you are on Ethereum network to unlock your locked LUA.
+No you can not. LUA locked token is ERC20 and you need to interact with Ethereum smart contract to unlock that. Therefore make sure that you are on Ethereum network to unlock your locked LUA.
 
 ### **15. Where I can see my locked LUA on the new version of LuaSwap?**
 

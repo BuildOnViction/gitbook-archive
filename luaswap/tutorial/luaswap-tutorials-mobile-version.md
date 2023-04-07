@@ -39,7 +39,7 @@ The same features are available on LuaSwap on TomoWallet, including:&#x20;
 
 [- LuaSafe for Staking LUA to earn more LUA](https://docs.tomochain.com/luaswap/luasafe)
 
-[- Farm LUA by staking LP tokens](https://docs.tomochain.com/luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards)****
+[- Farm LUA by staking LP tokens](https://docs.tomochain.com/luaswap/tutorial/how-to-stake-lp-token-for-lua-rewards)
 
 ## **2. Other mobile wallets (Trust Wallet, Coinbase Wallet, MEW wallet...)**
 

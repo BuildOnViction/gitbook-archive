@@ -15,7 +15,7 @@ Essentially, these two types of wrapped tokens are TRC20 and TRC21 standard toke
 TRC20 wrapped tokens can be easily integrated into other Dapps and get listed on exchanges. More Dapps and projects on TomoChain are expected to be integrating and utilising TRC20 wrapped tokens in the future.
 
 TRC20 wrapped tokens can be traded on LuaSwap. \
-****
+
 
 **TRC21:** TRC21, creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet.&#x20;
 
@@ -24,7 +24,7 @@ TRC21 wrapped tokens can be traded on LuaSwap.\
 
 _**TRC20 wrapped token vs TRC21 wrapped token**_
 
-| _****_               | **TRC20 Wrapped Token** | **TRC21 Wrapped Token**  |
+|                      | **TRC20 Wrapped Token** | **TRC21 Wrapped Token**  |
 | -------------------- | ----------------------- | ------------------------ |
 | **Trade on LuaSwap** | **√**                   | **√**                    |
 | **Transaction Fee**  | **In TOMO**             | **In Transaction Token** |

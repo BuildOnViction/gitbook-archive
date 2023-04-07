@@ -28,4 +28,3 @@ Massive acceleration of blockchain performance is one of the most important key 
 
 Double validation provides an additional trustworthy validation layer for security enhancement through provable uniform distribution decentralized randomization. Specifically, when a block is created by a Masternode, it must be verified by another Masternode that is randomly selected among the set of Masternodes before being added to the blockchain. Double validation strengthens TomoChain’s security, reduces the risk of forks, and nothing-at-stake attacks, making TomoChain unique among Proof-of-Stake based blockchains.
 
-****

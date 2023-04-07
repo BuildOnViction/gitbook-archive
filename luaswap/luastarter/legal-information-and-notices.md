@@ -44,7 +44,7 @@ _This Terms of Use is a legal agreement between you (referred to herein as "the 
 (c) unless the context otherwise requires, words in the singular shall include the plural and in the plural shall include the singular; and
 
 (d) unless the context otherwise requires, a reference to one gender shall include a reference to the other genders.\
-****
+
 
 ### **3. User Representations & Warranties**
 
@@ -87,7 +87,7 @@ The users of our Services are solely responsible to determine what, if any, taxe
 5.2. The Content and the Marks are provided on the Site “AS IS” for your information and personal use only. Except as expressly provided in these Terms and Conditions, no part of the Site and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.
 
 5.3. Provided that you are eligible to use the Site, you are granted a limited license to access and use the Site and to download or print a copy of any portion of the Content to which you have properly gained access solely for your personal, non-commercial use. We reserve all rights not expressly granted to you in and to the Site, the Content and the Marks. \
-****
+
 
 ### **6. Prohibited Activities**
 
@@ -116,7 +116,7 @@ The users of our Services are solely responsible to determine what, if any, taxe
 ### **8. Term & Termination**
 
 These Terms and Conditions shall remain in full force and effect while you use the Site. Without limiting any other provision of these terms and conditions, we reserve the right to, in our sole discretion and without notice or liability, deny access to and use of the Site (including blocking certain IP addresses), to any user for any or no reason, including without limitation for breach of any representation, warranty, or covenant contained in these terms and conditions or of any applicable law or regulation. We may terminate your use or participation in the Site or delete any content or information that you posted at any time, without warning, in our sole discretion. In addition, we reserve the right to take appropriate legal action, including without limitation pursuing civil, criminal, and injunctive redress. \
-****
+
 
 ### **9. Modifications & Interruptions**
 
@@ -129,12 +129,12 @@ These Terms and Conditions shall remain in full force and effect while you use t
 9.4. We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the Site at any time or for any reason without notice to you. You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the Site during any downtime or discontinuance of the Site.
 
 9.5 Nothing in these Terms and Conditions will be construed to obligate us to maintain and support the Site or to supply any corrections, updates, or releases in connection therewith.\
-****
+
 
 ### **10. Corrections**
 
 There may be information on the Site that contains typographical errors, inaccuracies, or omissions that may relate to the Site, including descriptions, pricing, availability, and various other information. The Company does not warrant that any of the materials on its Services are accurate, complete or current. We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the Site at any time, without prior notice. However the Company does not make any commitment to update the materials. \
-****
+
 
 ### **11. Disclaimer**
 
@@ -212,7 +212,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 * any stolen, lost, or unauthorized use of your wallet information any breach of security or data breach related to your wallet information, or any criminal or other third party act affecting the Company.
 
 14.2. Notwithstanding the foregoing, we reserve the right, at your expense, to assume the exclusive defense and control of any matter for which you are required to indemnify us, and you agree to cooperate, at your expense, with our defense of such claims. We will use reasonable efforts to notify you of any such claim, action, or proceeding which is subject to this indemnification upon becoming aware of it.  \
-****
+
 
 ### **15. Force Majeure Event**
 
@@ -237,7 +237,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 17.2. These Terms may be superseded by any amended Terms in accordance with clause 20.1.
 
 17.3. These Terms may be terminated or amended by the Company at any time without notice.\
-****
+
 
 ### **18. Miscellaneous**
 
@@ -252,7 +252,7 @@ You understand and agree that the Company has no control over, and no duty to ta
 18.5. The Company may record all telephone calls and other communications for the purposes of security and training.
 
 18.6. You understand that the Services and Site will endeavor to be open 24/7. However, the Company offices and communications channels will be open on business days only. You further acknowledge that the Company will make reasonable efforts to ensure that the Services and Site are available continuously however that there may be instances where access to the Platform and Site are restricted as a result of scheduled maintenance, technology failure or network failure.\
-****
+
 
 ### **19. Contact us**
 

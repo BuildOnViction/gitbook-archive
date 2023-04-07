@@ -31,7 +31,7 @@ _`Guaranteed allocation =  IDO token supply x user's pool weight / total pool we
 
 #### **Allocation**
 
-Once the IDO pool is open, users can find the minimum guaranteed allocation of the IDO token in their profile. They can now commit any amount of the base token in exchange for the IDO token. Non-tier members can also place buy orders but no guarantee if and how much of their order will be filled. _****_&#x20;
+Once the IDO pool is open, users can find the minimum guaranteed allocation of the IDO token in their profile. They can now commit any amount of the base token in exchange for the IDO token. Non-tier members can also place buy orders but no guarantee if and how much of their order will be filled.&#x20;
 
 Part of the IDO token supply, if not all, will be first allocated to meet the minimum guaranteed allocation of all the tier members who have placed a buy order.&#x20;
 

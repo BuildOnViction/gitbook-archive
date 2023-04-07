@@ -22,13 +22,13 @@ An **ICO (Initial Coin Offering)** is a new way to raise funds for startups. It 
 
 **Tokens** are essentially smart contracts that make use of the TomoChain blockchain. The **TRC20** **token standard** defines a common list of rules for all TomoChain tokens to follow, similar to the ERC20 standard in Ethereum.
 
-In the **smart contract** you can setup general token specifics like the **rate** of TOMO per token **** (the number of tokens the user gets for his TOMO which may change with time), the ICO **start** and **finish date**, time-line **bonuses**…
+In the **smart contract** you can setup general token specifics like the **rate** of TOMO per token (the number of tokens the user gets for his TOMO which may change with time), the ICO **start** and **finish date**, time-line **bonuses**…
 
 The **total supply** is the total amount of tokens that will exist. For instance, TomoChain’s total supply is 100 million tokens, but currently there are only 58–60 million tokens _**in circulation**_. The remaining tokens are locked for different purposes like team reserves, partnerships, masternode and staking rewards, community rewards and more, and will enter in circulation over the next years.
 
 ICOs can have one or multiple **rounds**. For instance, a **PreSale** round for private investors with some bonus, and later a public **Crowdsale**.
 
-Some ICOs use a **whitelist**. **** This means that participants have to **register in advance to participate in the ICO** sale. Whitelists usually limit the number of spots and/or the initial min/max buy. Investors may need to register with some documents, to comply with some countries regulations, KYC/AML…
+Some ICOs use a **whitelist**. This means that participants have to **register in advance to participate in the ICO** sale. Whitelists usually limit the number of spots and/or the initial min/max buy. Investors may need to register with some documents, to comply with some countries regulations, KYC/AML…
 
 Besides the law, take into account the **security** issue for the smart contracts and try to make contracts as simple as possible (security loves simple).
 
@@ -54,7 +54,7 @@ For this tutorial we are using:
 
 To start building your ICO smart contract you will need:
 
-* Install [**Node.js**](https://nodejs.org/en/download/) **** & **npm** (“Node.js Package Manager”)
+* Install [**Node.js**](https://nodejs.org/en/download/) & **npm** (“Node.js Package Manager”)
 * Install **Truffle**
 
 ```
@@ -415,7 +415,7 @@ To deploy to **TomoChain mainnet** is very similar:
 truffle migrate --network tomomainnet 
 ```
 
-You could also migrate the contract to **Ropsten** (but first you need a Ropsten wallet with some `Ropsten ETH` - _you can do this on `Metamask` _ [_with faucet_](https://faucet.metamask.io/)).
+You could also migrate the contract to **Ropsten** (but first you need a Ropsten wallet with some `Ropsten ETH` - _you can do this on `Metamask`_ [_with faucet_](https://faucet.metamask.io/)).
 
 ```
 truffle migrate --network ropsten 

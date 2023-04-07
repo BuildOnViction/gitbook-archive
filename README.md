@@ -20,7 +20,7 @@ description: >-
 | [Masternode](masternode/)                           | Step-by-step guide on how to run and vote for Masternodes                        |
 | [LuaSwap](luaswap/)                                 | Detailed guide on how to use LuaSwap and LuaStarter                              |
 | [TomoBridge](tomobridge/)                           | Step-by-step guide on how to user TomoBridge                                     |
-| TomoMasterDAO                                       | This document explains how TomoMasterDAO operates                                |
+| [TomoMasterDAO](tomomasterdao/)                     | This document explains how TomoMasterDAO operates                                |
 | [APIs](https://apidocs.tomochain.com)               | This document explains how to use TomoChain APIs                                 |
 | [FAQ](faq/)                                         | Frequently asked questions about TomoChain                                       |
 | [Whitepaper and Research](whitepaper-and-research/) | Official Whitepaper documents and research papers on new technology developments |

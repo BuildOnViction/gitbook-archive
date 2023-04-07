@@ -31,7 +31,7 @@ Truffle initializes in the current directory, so first create a directory in you
 mkdir pet-shop-tutorialcd pet-shop-tutorial
 ```
 
-Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). **** There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
+Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
 
 ![](https://miro.medium.com/max/60/1\*0iPGzZ\_MuACqNeSRw1ymUg.png?q=20)![](https://miro.medium.com/max/1024/1\*0iPGzZ\_MuACqNeSRw1ymUg.png)
 

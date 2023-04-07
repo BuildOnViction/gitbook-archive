@@ -11,7 +11,7 @@ description: >-
 Using LuaSwap’s Ethereum version requires the Metamask network to be set to Ethereum. Likewise using LuaSwap’s TomoChain version requires the Metamask network to be set to TomoChain.&#x20;
 {% endhint %}
 
-* [Follow our step-by-step tutorial to connect MetaMask to the __ TomoChain Network](../../general/how-to-connect-to-tomochain-network/)
+* [Follow our step-by-step tutorial to connect MetaMask to the TomoChain Network](../../general/how-to-connect-to-tomochain-network/)
 * [Wrap any ERC20 token to integrate it to LuaSwap using TomoBridge](broken-reference)
 
 {% content-ref url="how-to-swap-your-token-on-luaswap.md" %}

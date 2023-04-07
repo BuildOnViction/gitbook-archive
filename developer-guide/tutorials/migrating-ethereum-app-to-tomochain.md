@@ -181,4 +181,4 @@ Below is the **video** showing how fast TomoRPS is on TomoChain.
 
 It will not be too difficult and won’t take much time to migrate your Dapps from Ethereum to TomoChain. Along with that Dapps running on TomoChain has many advantages in speed and cost. So don’t hesitate to bring your Dapps to TomoChain where you can make your Dapps great again.
 
-[**Github**](https://github.com/tomochain/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md) ****&#x20;
+[**Github**](https://github.com/tomochain/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md)&#x20;

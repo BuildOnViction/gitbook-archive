@@ -17,7 +17,7 @@ You may be familiar with ERC (Ethereum Request for Comments), which is a technic
 There are three token standards on TomoChain so far, each with its own unique function including TRC20, TRC21, and TRC721. These token standards can be divided into two different categories: fungible and non-fungible tokens. Fungible tokens are all equal and divisible, non-fungible tokens (NFTs) are all distinct and non-divisible.
 
 Non-fungible tokens of the type TRC721 are those that represent a unique asset, like a certificate or a collectible in-game item. Fungible tokens are interchangeable and can be divided into smaller token units like TOMO. The fungible token standard includes TRC20 and TRC21 as digital assets used to offer access to products and/or services on a platform. The table below compares the differences between three types of token standards on TomoChain.\
-****
+
 
 |                                                 | **TRC721**        | **TRC21**                | **TRC20**     |
 | ----------------------------------------------- | ----------------- | ------------------------ | ------------- |

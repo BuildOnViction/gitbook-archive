@@ -115,4 +115,3 @@ Go to the **“Donate TRC-21 fee”** tab from TomoIssuer’s homepage. Enter th
 
 ![](https://lh5.googleusercontent.com/PL-tz1-aPJlSOOaNlMBgj3He75quhYhHTv9DXzNAvlwlvfZ8iXD-XmznFiq7K5hFhtzqGP8GMBXcrvobrE8-MfNqtygA48BI7OnjY9DYY5v5Up1V9k0cd3QkkQfxTNG36VYWbdy3)
 
-****

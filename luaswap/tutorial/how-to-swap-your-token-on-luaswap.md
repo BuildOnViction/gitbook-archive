@@ -25,8 +25,8 @@ _Note:_ _Using LuaSwap’s Ethereum version requires the Metamask network to be 
 
 ### **Step 2: Swap tokens**
 
-****\
-****In the From section, select tokens officially listed on LuaSwap or add the contract address from the token you want to trade, then enter the amount of that token
+\
+In the From section, select tokens officially listed on LuaSwap or add the contract address from the token you want to trade, then enter the amount of that token
 
 ![](../../.gitbook/assets/screenshot\_4.png)
 

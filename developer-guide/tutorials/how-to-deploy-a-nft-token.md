@@ -50,7 +50,7 @@ Online games can have up to 100,000 different digital items. The current problem
 
 Most of the time when people think about ERC-721 or NFT, they refer to the most notably successful [CryptoKitties](https://medium.com/u/c8b1419b5d28?source=post\_page-----fe476a68594d----------------------). But there are many other usability applications for NFT contracts:
 
-* **Software titles** or **** [**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
+* **Software titles** or [**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
 * **Betting** in real time on the outcome of a video game being live-streamed
 * **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future.&#x20;
 * **Concert tickets and sports match tickets** can be tokenized and name-bound, preventing fraud and at the same time offering fans an option to have a single place where to collect all their past event experiences
@@ -89,7 +89,7 @@ We’ll build non-fungible collectibles: [**gradient tokens**](https://github.co
 
 The first prerequisites you should have:
 
-* Install [**Node.js**](https://nodejs.org/en/download/) **** & **npm** (“Node.js Package Manager”)
+* Install [**Node.js**](https://nodejs.org/en/download/) & **npm** (“Node.js Package Manager”)
 * Install **Truffle**
 
 ```
@@ -444,7 +444,7 @@ Read the output text on the screen. The NFT token [contract address](https://sca
 0x8B830F38b798B7b39808A059179f2c228209514C
 ```
 
-> **⚠️ Note:** TomoChain’s **** smart contract[ **creation fee**](../working-with-tomochain/)**:** gas price 10000 Gwei, gas limit >= 1000000
+> **⚠️ Note:** TomoChain’s smart contract[ **creation fee**](../working-with-tomochain/)**:** gas price 10000 Gwei, gas limit >= 1000000
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
