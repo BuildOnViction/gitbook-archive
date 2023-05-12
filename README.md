@@ -1,8 +1,8 @@
 ---
 description: >-
-  The documents contained are intended to educate users on TomoChain Labs'
-  technology and to provide developer tutorials and documentation for building
-  solutions on TomoChain public blockchain.
+  The documents contained are intended to educate users on TomoChain' technology
+  and to provide developer tutorials and documentation for building solutions on
+  TomoChain public blockchain.
 ---
 
 # Getting Started

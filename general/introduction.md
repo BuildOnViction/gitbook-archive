@@ -1,10 +1,10 @@
 ---
-description: An overview of TomoChain Labs' current products
+description: An overview of TomoChain's current products
 ---
 
 # Overview
 
-The backbone of TomoChain Labs' products and overall ecosystem is the TomoChain public blockchain with its innovative Proof-of-Staking Voting (PoSV) consensus. To facilitate interactions between users (including Voters and Masternode owners) and the TomoChain blockchain, a set of products has been built to support speed, privacy, usability, and liquidity needs all in one platform. Our goal is to develop highly innovative products and technologies to make TomoChain an ideal platform for decentralized finance (DeFi), web3 applications and blockchain games.&#x20;
+The backbone of TomoChain' products and overall ecosystem is the TomoChain public blockchain with its innovative Proof-of-Staking Voting (PoSV) consensus. To facilitate interactions between users (including Voters and Masternode owners) and the TomoChain blockchain, a set of products has been built to support speed, privacy, usability, and liquidity needs all in one platform. Our goal is to develop highly innovative products and technologies to make TomoChain an ideal platform for decentralized finance (DeFi), web3 applications and blockchain games.&#x20;
 
 * **TomoChain**: TomoChain is the core public blockchain powering every product and Dapp built on it.
 * **TomoMasterDAO**: [TomoMasterDAO](https://masterdao.tomochain.com/) is a community-governed platform that propels the development of the TomoChain ecosystem
