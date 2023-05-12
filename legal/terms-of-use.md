@@ -1,5 +1,5 @@
 ---
-description: Terms and conditions for using TomoChains products.
+description: Terms and conditions for using TomoChain's products.
 ---
 
 # Terms of Use
