@@ -1,21 +1,6 @@
-# Company
+# Contact & Support
 
-### **Where is TomoChain registered?**
 
-You can check our company `TomoChain Lab Pte. Ltd.` information on the [Singaporean registry](https://www.sgpbusiness.com/company/Tomochain-Pte-Ltd).
-
-You can also check the ACRA copy if you need more details.
-
-### **Where are TomoChain offices?**
-
-TomoChain current offices are located in Singapore and Vietnam
-
-*   SINGAPORE
-
-    `30 Petain Road Singapore (208099)`
-*   VIETNAM
-
-    `219 Trung Kinh, Yen Hoa, Cau Giay, Hanoi, Vietnam`
 
 ### **Where can I take a look at TomoChain code? Is there a GitHub repository?**
 

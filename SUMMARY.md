@@ -109,7 +109,7 @@
     * [TomoChain](faq/general/tomochain.md)
     * [Ecosystem](faq/general/ecosystem.md)
     * [TOMO - Economics](faq/general/usdtomo-economic.md)
-    * [Company](faq/general/company.md)
+    * [Contact & Support](faq/general/company.md)
   * [Masternodes and Voting](faq/masternode-and-voting/README.md)
     * [Masternodes](faq/masternode-and-voting/masternode.md)
     * [Voter](faq/masternode-and-voting/voter.md)
