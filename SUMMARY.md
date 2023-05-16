@@ -126,4 +126,4 @@
 * [Legal](legal/README.md)
   * [Terms of Use](legal/terms-of-use.md)
   * [Privacy Policy](legal/privacy.md)
-  * [Legal  Opinion](https://tomochain.com/file/2019/07/TomoChain-legal-opinion.pdf)
+  * [Legal  Opinion](https://tomochain.com/files/TomoChain-legal-opinion.pdf)
