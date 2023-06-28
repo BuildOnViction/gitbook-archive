@@ -55,7 +55,6 @@
     * [Migrating Ethereum Dapp to TomoChain](developer-guide/tutorials/migrating-ethereum-app-to-tomochain.md)
 * [Masternode](masternode/README.md)
   * [Requirements](masternode/requirements.md)
-  * [Masternode Setup Guide](masternode/masternode-setup-guide.md)
   * [Run a Full Node](masternode/run-a-full-node/README.md)
     * [Binary](masternode/run-a-full-node/binary.md)
     * [Create a TomoChain Masternode](masternode/run-a-full-node/create-a-tomochain-masternode.md)
