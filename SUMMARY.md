@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [Getting Started2](README.md)
 * [General](general/README.md)
   * [Overview](general/introduction.md)
   * [TomoChain public chain](general/blockchain-platform-comparison/README.md)
@@ -125,4 +125,4 @@
 * [Legal](legal/README.md)
   * [Terms of Use](legal/terms-of-use.md)
   * [Privacy Policy](legal/privacy.md)
-  * [Legal  Opinion](https://tomochain.com/files/TomoChain-legal-opinion.pdf)
+  * [Legal Opinion](https://tomochain.com/files/TomoChain-legal-opinion.pdf)
