@@ -20,7 +20,7 @@ If you need support, please contact us on one of these platforms:
 
 ### **Which are TomoChain's official channels for communication and information?**
 
-You can keep in touch with our latest news here:
+You can keep in touch with our latest news here s:
 
 1. Twitter: [https://twitter.com/TomoChainANN](https://twitter.com/TomoChainANN)
 2. Telegram Announcements: [https://t.me/TomoChainChannel](https://t.me/TomoChainChannel)
