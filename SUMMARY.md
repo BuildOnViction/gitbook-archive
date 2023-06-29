@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started2](README.md)
+* [Getting Started](README.md)
 * [General](general/README.md)
   * [Overview](general/introduction.md)
   * [TomoChain public chain](general/blockchain-platform-comparison/README.md)
