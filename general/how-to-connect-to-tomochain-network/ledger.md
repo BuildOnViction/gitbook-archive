@@ -36,27 +36,6 @@ Using the Ledger Live application, follow these instructions:
 * An installation window will appear, and the device will display Processing…
 * The TOMO App installation is complete and ready to use
 
-### Connect with MetaMask
-
-TomoChain is compatible with MetaMask. Users can use MetaMask as a bridge between Ledger Nano S and TomoChain to make transactions to the TomoChain blockchain.
-
-* Connect MetaMask to TomoChain Mainnet by following [this guide](metamask.md) to add a custom network
-* Choose TomoChain Mainnet as the network
-
-![](<../../.gitbook/assets/image (61).png>)
-
-* Choose HD path for your wallet (Ledger Live by default)
-
-![](<../../.gitbook/assets/image (73).png>)
-
-* Choose an account address that you want to use
-* Click on UNLOCK
-* Ledger Nano S is ready to go with TomoChain
-
-**Note**: You can verify the balance of the account by copying the account address and checking it on [TomoScan](https://tomoscan.io/).
-
-![](<../../.gitbook/assets/image (44).png>)
-
 ### Connect with MyEtherWallet
 
 Users can use [MyEtherWallet vintage](http://vintage.myetherwallet.com/) for Ledger Nano S to connect to TomoChain. We recommend checking and following [this clear tutorial](https://support.ledger.com/hc/en-us/articles/115005200009) with the following information:
