@@ -2,7 +2,7 @@
 
 ### Versioning
 
-Solidity versions follow [semantic versioning](https://semver.org/) and in addition to releases, **nightly development builds** are also made available. However, we recommend to only install Solidity compiler versions <= 0.5.0 as higher versions introduce breaking changes resulting in opcodes that are not available in that current EVM version of TomoChain. &#x20;
+Solidity versions follow [semantic versioning](https://semver.org/) and in addition to releases, **nightly development builds** are also made available. However, we recommend to only install Solidity compiler versions <= 0.5.0 as higher versions introduce breaking changes resulting in opcodes that are not available in that current EVM version of TomoChain.
 
 ### Remix
 
@@ -12,7 +12,7 @@ _We recommend Remix for small contracts and for quickly learning Solidity._
 
 Further options on this page detail installing commandline Solidity compiler software on your computer. Choose a commandline compiler if you are working on a larger contract or if you require more compilation options.
 
-To use Remix with TomoChain, you only need to connect your Metamask to TomoChain using TomoChain's RPC and following [this tutorial](../../../general/how-to-connect-to-tomochain-network/metamask.md).
+To use Remix with TomoChain, you only need to connect your Coin98 Wallet to TomoChain using TomoChain's RPC and following [this tutorial](../../../general/how-to-connect-to-tomochain-network/metamask.md).
 
 ### npm / Node.js
 
