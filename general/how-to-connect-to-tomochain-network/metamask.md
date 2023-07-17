@@ -183,18 +183,3 @@ Step 3: Copy the wallet address to senders, then you are ready to receive the co
 
 And that’s it! You should now see your wallet, ready to send and receive funds.
 
-### IV. How to bridge tokens
-
-Users may wonder how they can switch assets between supported networks and TomoChain&#x20;
-
-Here is the detailed guide, please follow a few simple steps as below (Kindly note that you should prepare a proper amount of TOMO as gas fees in order to bridge from one blockchain to TomoChain and vice versa):
-
-**Step 1:** Select DApp Browser icon and search Multichain (the platform enables users to swap and bridge tokens between TomoChain and Ethereum, BNB Chain).&#x20;
-
-**Step 2:** Select TomoChain and your wallet address.&#x20;
-
-**Step 3:** When entering successfully to Multichain, you can now transfer assets seamlessly across supported networks.&#x20;
-
-<figure><img src="https://lh5.googleusercontent.com/Bf66uALRU_6hq8KEcSVw6TE8AgM8AVr_FNMwNqgXUKBFQVATyWl5VGCkiYjDYiuABdF-oMUbSfj5m6H_2XhXXaQHYAWNoeqL0rsD5-8aOYjjxYYludmeCXLGltllWxTxIYL-rZHreIkP3mvWKW8lwa8" alt=""><figcaption></figcaption></figure>
-
-## &#x20; 
