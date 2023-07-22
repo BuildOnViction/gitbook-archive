@@ -8,7 +8,7 @@
     * [Blockchain Platform Comparison](general/blockchain-platform-comparison/blockchain-platform-comparison.md)
   * [How to Connect to TomoChain Network](general/how-to-connect-to-tomochain-network/README.md)
     * [TomoWallet](general/how-to-connect-to-tomochain-network/tomowallet.md)
-    * [Coin98 Wallet](general/how-to-connect-to-tomochain-network/metamask.md)
+    * [Metamask](general/how-to-connect-to-tomochain-network/metamask.md)
     * [Ledger](general/how-to-connect-to-tomochain-network/ledger.md)
     * [MyEtherWallet](general/how-to-connect-to-tomochain-network/myetherwallet-and-trust-wallet.md)
     * [Pantograph](general/how-to-connect-to-tomochain-network/pantograph.md)
