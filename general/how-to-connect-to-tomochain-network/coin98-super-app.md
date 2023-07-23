@@ -59,7 +59,7 @@ If you’ve already had a TomoChain wallet address, you can simply restore it on
 
 
 
-![](https://lh5.googleusercontent.com/35OlauKVNaX41s7kMnkjbY9gKV4cum\_3PUvF0TVYcZ25zYPxPeeGpPhyijLkSfHUv9UFLPE2jpe-F8117HkPigmQm85f-G5mcFuWyi1SeNFfKx\_3RL4XDzcNjLZWJiJUls\_Pzs3uwpXLJ\_5ywgaL0-E)
+<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (3).png" alt=""><figcaption></figcaption></figure>
 
 ## III. How to add custom Network on Coin98 Super App
 
