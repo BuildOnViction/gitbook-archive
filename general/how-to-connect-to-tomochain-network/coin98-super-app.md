@@ -39,9 +39,8 @@ Coin98 Super App is available for download at:
 * Read the warnings carefully, then select three checkboxes to confirm your awareness of the risks when losing keys.
 * Click Create Wallet to complete.
 
-![](https://lh6.googleusercontent.com/X07ixKUEjxSRKLSdIcJ9q3LkvMngCk5rEE8ul4HNhaZqOK32gftg2BEbj5hSD9RgyFA4re8JOXpUa\_v4a\_T14nz1nZKrFM3JmkQ-76Iy-6raOJeAlEe9Kxnk0kAZA2PoVsToJelrT\_s5PdbPu032dq8)
+<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (2).png" alt=""><figcaption></figcaption></figure>
 
-\
 
 
 Once completed, the wallet will be displayed on the main interface. You can also access diverse features of Coin98 Super App.
