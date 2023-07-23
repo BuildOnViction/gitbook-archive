@@ -7,6 +7,7 @@
     * [PoSV Consensus](general/blockchain-platform-comparison/posv-consensus.md)
     * [Blockchain Platform Comparison](general/blockchain-platform-comparison/blockchain-platform-comparison.md)
   * [How to Connect to TomoChain Network](general/how-to-connect-to-tomochain-network/README.md)
+    * [Coin98 Super App](general/how-to-connect-to-tomochain-network/coin98-super-app.md)
     * [TomoWallet](general/how-to-connect-to-tomochain-network/tomowallet.md)
     * [Metamask](general/how-to-connect-to-tomochain-network/metamask.md)
     * [Ledger](general/how-to-connect-to-tomochain-network/ledger.md)
