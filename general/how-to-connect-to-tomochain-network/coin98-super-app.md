@@ -78,9 +78,7 @@ In case users want to interact with other blockchains aside from TomoChain, comp
 * Symbol
 * Block Explorer URL (optional)
 
-
-
-![](https://lh6.googleusercontent.com/hNcwhfZhGBscnZZt83HZKtFCPpMrfg6p4CdRFbZWuNMf0tDveKyZXzaRDIKIz8ezZOlg2nH\_9QS65sPVbexOR\_rzCHanZYB\_tgzdctXde4gK1Umr-3YeQso\_lHXfmJNy5J\_xmTCu0z\_1AHv3Wh8n7qg)
+<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (4).png" alt=""><figcaption></figcaption></figure>
 
 Note:
 
@@ -101,9 +99,7 @@ Note:
 
 **Step 4:** Click Slide to Send to finish the process.
 
-![](https://lh3.googleusercontent.com/75dTDSVIKSC5tp\_uGh-MVUgexyr\_4zeqU-F4fJJMd6Xl\_hVK-bn8wcuwtmpndbKJLGorOSbu7Nl1SjMS9Ul82rqqLy7\_FfkrCApolLU7kUW3e\_VI1XqPUth7-nUlUIVXFgzkM3s3vnAsTEAZY2ARMDE)
-
-
+<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (5).png" alt=""><figcaption></figcaption></figure>
 
 **How to receive token**
 
@@ -113,8 +109,7 @@ Note:
 
 **Step 3:** Copy the wallet address to senders, then you are ready to receive the coin/ token to this wallet address.
 
-![](https://lh5.googleusercontent.com/PnfwBjVjM55XrB9CmLibNMpQiWTaSCmAiqdyFjmN18o8ovtYjUN8JO4LAQY3-ecmFbAwMsRjGMt0xkk9Hp0jwyUS1AdKA-jM5s6XL2so4bG6Vchqji\_EtteqM0\_80CLuloY9k4tHc1oUPDkOhWEXFTg)\
-
+<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (6).png" alt=""><figcaption></figcaption></figure>
 
 And that’s it! You should now see your wallet, ready to send and receive funds.
 
