@@ -28,7 +28,7 @@ Coin98 Super App is available for download at:
 
 
 
-![](https://lh5.googleusercontent.com/UadKkj3J1IIMf6nZ-QyuuHROZuMnysAeWI8ooxzFBqPeDAp-PcAlmxv5plU7kgyfkhmmOa73luhu4PEUBrbswWnDfDo7E2gHoTzKT\_KYq8Z7JBHWPO3GSzRGquv3lkGZozuCa7c9pcsqJZtQf3kOnmo)
+<figure><img src="../../.gitbook/assets/Thiết kế chưa có tên (1).png" alt=""><figcaption></figcaption></figure>
 
 **Step 4:** Name the wallet and select Next.&#x20;
 
