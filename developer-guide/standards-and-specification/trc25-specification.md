@@ -2,11 +2,11 @@
 
 ### Abstract <a href="#abstract" id="abstract"></a>
 
-The following standard allows for the implementation of a standard API for TRC-25 within smart contracts. This standards provides basic funtionality to transfer token, allow tokens to be approved so they can be spent by another on-chain third party and manage fee to prevent abuse of the feature.
+The following standard allows for implementing a standard API for TRC-25 within smart contracts. This standard provides basic functionality to transfer tokens, allow tokens to be approved so they can be spent by another on-chain third party, and manage fees to prevent abuse of the feature.
 
 ### Motivation <a href="#motivation" id="motivation"></a>
 
-A token standard that extend TRC-20 standard to allow token holders to transfer token without paying the gas with native token, instead using the token itself. An alternative use would be enable gas-sponsored smart contract.
+A token standard that extends the TRC-21 standard to allow token holders to transfer tokens without paying the gas with a native token, instead of using the token itself. An alternative use would be to enable gas-sponsored smart contracts.
 
 ### TRC25 Specification <a href="#trc25-specification" id="trc25-specification"></a>
 
@@ -66,7 +66,7 @@ Returns the amount which `spender` is still allowed to withdraw from `owner`.
 function issuer() external view returns (address);
 ```
 
-The method returns the address of the token issuer. This is to ensure that only the issuer has the right to decide in ragards of paying fees of token-holder transactions to the token contract in terms of the token itself. The method is to verify that no one else is able to change the token contract, except the issuer.
+The method returns the address of the token issuer. This is to ensure that only the issuer has the right to decide in regard to paying fees of token-holder transactions to the token contract in terms of the token itself. The method is to verify that no one else is able to change the token contract, except the issuer.
 
 * `estimateFee`: Calculate the transaction fee in terms of the token that the transaction makers will have to pay. Transaction fee will be paid to the issuer of the TRC25 token contract.
 
@@ -74,9 +74,9 @@ The method returns the address of the token issuer. This is to ensure that only 
 function estimateFee(uint256 value) external view returns (uint256);
 ```
 
-Ideally the function will return the transaction fee based on the value (the number of tokens) that the transaction maker wants to transfer. Transaction fee for `allowance` function will be estimated if input parameter `value = 0`. The way fees are computed is not standardized. Token issuers can fully customize the implementation of the function.
+Ideally, the function will return the transaction fee based on the value (the number of tokens) that the transaction maker wants to transfer. Transaction fee for `allowance` the function will be estimated if the input parameter `value = 0`. The way fees are computed is not standardized. Token issuers can fully customize the implementation of the function.
 
-This function will also be called by user wallets to evaluate fees the user must be paying.
+This function will also be called by user wallets to evaluate fees the user must be paid.
 
 * `transfer`: Transfers `_value` amount of tokens to address `_to`, and MUST fire the `Transfer` and `Fee` event.
 
@@ -92,7 +92,7 @@ The function will call `estimateFee` function to compute the transaction fee. Th
 function approve(address spender, uint256 value) external returns (bool);
 ```
 
-Allows `_spender` to withdraw from your account multiple times, up to the `_value` amount. If this function is called again it overwrites the current allowance with `_value`. This function also calls `estimateFee` with input parameter as 0 in order to compute the transaction fee in terms of tokens that the transaction sender must pay to the token issuer.
+Allows `_spender` to withdraw from your account multiple times, up to the `_value` amount. If this function is called again it overwrites the current allowance with `_value`. This function also calls `estimateFee` with input parameter 0 in order to compute the transaction fee in terms of tokens that the transaction sender must pay to the token issuer.
 
 * `transferFrom`
 
@@ -130,7 +130,7 @@ This event MUST be emitted when tokens are transferred in functions `transfer` a
 
 #### Implementation <a href="#implementation" id="implementation"></a>
 
-To implement TRC-25 stanard, the following fields must be put at the beginning of the smart-contract.
+To implement the TRC-25 standard, the following fields must be put at the beginning of the smart contract.
 
 ```
 mapping (address => uint256) private _balances;
@@ -457,7 +457,7 @@ contract TRC25 is ITRC25 {
 
 #### TRC25 Token example <a href="#trc25-token-example" id="trc25-token-example"></a>
 
-The following example demonstrate of an token using TRC25 standard with custom fee.
+The following example demonstrates a token using the TRC25 standard with custom fee.
 
 ```
 contract MyTRC25 is TRC25 {
