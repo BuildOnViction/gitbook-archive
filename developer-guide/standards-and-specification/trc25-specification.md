@@ -76,7 +76,7 @@ function estimateFee(uint256 value) external view returns (uint256);
 
 Ideally, the function will return the transaction fee based on the value (the number of tokens) that the transaction maker wants to transfer. Transaction fee for `allowance` the function will be estimated if the input parameter `value = 0`. The way fees are computed is not standardized. Token issuers can fully customize the implementation of the function.
 
-This function will also be called by user wallets to evaluate fees the user must be paid.
+This function will also be called by user wallets to evaluate fees the user must pay.
 
 * `transfer`: Transfers `_value` amount of tokens to address `_to`, and MUST fire the `Transfer` and `Fee` event.
 
@@ -100,7 +100,7 @@ Allows `_spender` to withdraw from your account multiple times, up to the `_valu
 function transferFrom(address from, address to, uint256 value) external returns (bool);
 ```
 
-Transfers `value` amount of tokens from address `from` to address `to`. The function must fire the `Transfer` and `Fee` event.
+Transfers `value` amount of tokens from the address `from` to the address `to`. The function must fire the `Transfer` and `Fee` events.
 
 #### TRC25 Event specification <a href="#trc25-event-specification" id="trc25-event-specification"></a>
 
@@ -126,7 +126,7 @@ This event MUST be emitted on any successful call to `approve` function.
 event Fee(address indexed from, address indexed to, address indexed issuer, uint256 amount);
 ```
 
-This event MUST be emitted when tokens are transferred in functions `transfer` and `transferFrom` in order for clients/DApp/third-party wallets to notify its users about the paid transaction fee in terms of token.
+This event MUST be emitted when tokens are transferred in functions `transfer` and `transferFrom` in order for clients/DApp/third-party wallets to notify their users about the paid transaction fee in terms of tokens.
 
 #### Implementation <a href="#implementation" id="implementation"></a>
 
@@ -138,11 +138,11 @@ uint256 private _minFee;
 address private _owner;
 ```
 
-This standard will need some basic information to tracking and
+This standard will need some basic information to track and
 
 * `_balances`: record the balance of each token holder
-* `_minFee`: the minimum fee in terms of tokens that the transaction sender must pay. Ideally minFee will be paid when `approve` function is called or when transaction fails.
-* `_owner`: the address of the token issuer who will receive transaction fees from token holders in terms of token, but will pay transaction fees to masternodes by means of TOMO.
+* `_minFee`: the minimum fee in terms of tokens that the transaction sender must pay. Ideally, minFee will be paid when the `approve` function is called or when the transaction fails.
+* `_owner`: the address of the token issuer who will receive transaction fees from token holders in terms of the token, but will pay transaction fees to masternodes by means of TOMO.
 
 The implementation also defines some additional functions as follows:
 
@@ -457,7 +457,7 @@ contract TRC25 is ITRC25 {
 
 #### TRC25 Token example <a href="#trc25-token-example" id="trc25-token-example"></a>
 
-The following example demonstrates a token using the TRC25 standard with custom fee.
+The following example demonstrates a token using the TRC25 standard with a custom fee.
 
 ```
 contract MyTRC25 is TRC25 {
