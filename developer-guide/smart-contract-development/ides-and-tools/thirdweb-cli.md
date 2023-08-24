@@ -6,5 +6,3 @@ You can use the thirdweb CLI to create and deploy smart contracts to the Tomocha
 
 Visit [https://thirdweb.com/tomochain](https://thirdweb.com/tomochain) for more details.
 
-***
-
