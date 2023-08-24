@@ -6,7 +6,7 @@ The following standard allows for implementing a standard API for TRC-25 within 
 
 ### Motivation <a href="#motivation" id="motivation"></a>
 
-A token standard that extends the TRC-21 standard to allow token holders to transfer tokens without paying the gas with a native token, instead of using the token itself. An alternative use would be to enable gas-sponsored smart contracts.
+A token standard that extends the TRC-21 standard to allow token holders to transfer tokens while paying gas fees using the token itself instead of the native network token. An alternative use would be to enable gas-sponsored smart contracts.
 
 ### TRC25 Specification <a href="#trc25-specification" id="trc25-specification"></a>
 
