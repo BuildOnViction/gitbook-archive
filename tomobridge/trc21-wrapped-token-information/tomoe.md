@@ -1,6 +1,6 @@
 # TOMOE
 
-TOMOE is an ERC20 token hosted on the Ethereum blockchain  and backed by an equal amount of native TOMO (on the TomoChain blockchain). One TOMOE is worth the same as one native TOMO at any given moment.&#x20;
+TOMOE is an ERC20 token hosted on the Ethereum blockchain and backed by an equal amount of native TOMO (on the TomoChain blockchain). One TOMOE is worth the same as one native TOMO at any given moment.
 
 {% hint style="info" %}
 TOMOE Contract Address
@@ -9,4 +9,3 @@ TOMOE Contract Address
 {% endhint %}
 
 Users can convert back and forth between TOMO and TOMOE at any time via TomoBridge. When TOMOE is redeemed for TOMO, it will be burned. The minting and burning of TOMOE are tracked and verifiable via a smart contract on TomoScan/Etherscan.\
-\
