@@ -16,9 +16,7 @@ TRC20 wrapped tokens can be easily integrated into other Dapps and get listed on
 
 TRC20 wrapped tokens can be traded on LuaSwap. \\
 
-**TRC25:** TRC21, creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet.
-
-TRC25 wrapped tokens can be traded on LuaSwap.\\
+**TRC25:** TRC25 creates a frictionless experience for non-crypto users by allowing token holders to pay transaction fees by the token itself without having to hold any TOMO in their wallet.
 
 _**TRC20 wrapped token vs. TRC25 wrapped token**_
 
