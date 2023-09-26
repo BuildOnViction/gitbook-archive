@@ -20,7 +20,6 @@
   * [Standards & Specification](developer-guide/standards-and-specification/README.md)
     * [An Overview of the Token Standards on TomoChain](developer-guide/standards-and-specification/an-overview-of-the-token-standard-on-tomochain.md)
     * [TRC20 Specification](developer-guide/standards-and-specification/trc20-specification.md)
-    * [TRC21 Specification](developer-guide/standards-and-specification/trc21-specification.md)
     * [TRC25 Specification](developer-guide/standards-and-specification/trc25-specification.md)
   * [Smart Contract Development](developer-guide/smart-contract-development/README.md)
     * [Solidity](developer-guide/smart-contract-development/solidity/README.md)

@@ -6,13 +6,14 @@ description: >-
 
 # Standards & Specification
 
+{% content-ref url="an-overview-of-the-token-standard-on-tomochain.md" %}
+[an-overview-of-the-token-standard-on-tomochain.md](an-overview-of-the-token-standard-on-tomochain.md)
+{% endcontent-ref %}
 
+{% content-ref url="trc20-specification.md" %}
+[trc20-specification.md](trc20-specification.md)
+{% endcontent-ref %}
 
-{% page-ref page="an-overview-of-the-token-standard-on-tomochain.md" %}
-
-{% page-ref page="trc20-specification.md" %}
-
-{% page-ref page="trc21-specification.md" %}
-
-
-
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}

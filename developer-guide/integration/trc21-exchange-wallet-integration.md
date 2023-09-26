@@ -27,7 +27,7 @@ event Approval(address indexed owner, address indexed spender, uint256 value);
 event Fee(address indexed from, address indexed to, address indexed issuer, uint256 value);
 ```
 
-Users are recommended to refer to[ the TRC21 Specification](../standards-and-specification/trc21-specification.md) for more details about the TRC21 token standard.
+Users are recommended to refer to[ the TRC21 Specification](broken-reference) for more details about the TRC21 token standard.
 
 Follow the steps below to interact with the smart contract by using the Web3 library and Node.
 
