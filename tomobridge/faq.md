@@ -1,17 +1,5 @@
 # FAQ
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ### 1. What is TomoBridge?
 
 TomoBridge is the cross-chain transfer module for interoperability between TomoChain and other crypto assets chains.
