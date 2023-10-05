@@ -27,7 +27,14 @@ The TomoChain team has extensively tested performances and come up with those mi
 * Must use an IaaS ("cloud") provider of your choice (AWS, Digital Ocean, Google Cloud, etc.)
 * Storage must be SSD
 
-We recommand prioritizing CPU. For example with Digital Ocean, pick a CPU optimized droplet. On AWS EC2, an C5 type instance would be a perfect match.
+**Storage requirements for building a node**
+
+It depends on how you operate the Full node. The data is now roughly 700GB (updated on Oct 1st, 2023). So there are two options for you to consider:
+
+* If you're starting a fresh new full node, 1TB should be enough.
+* If you want to restore the chain data from a Snapshot, 2TB is recommended because downloading and decompressing can take up to 1.5TB of your storage.
+
+We recommend prioritizing CPU. For example with Digital Ocean, pick a CPU optimized droplet. On AWS EC2, a C5 type instance would be a perfect match.
 
 The full node will serve on port `30303` udp and tcp for p2p communication with other nodes, `8545` tcp for RPC api and `8546` tcp for websocket api. You may need to edit your firewall configuration accordingly.
 
@@ -62,7 +69,7 @@ pip3 install -U tmn
 
 #### First start <a href="#first-start" id="first-start"></a>
 
-When you first start your full node with tmn, you need to give some informations.
+When you first start your full node with tmn, you need to give some information.
 
 `--name`: The name of your full node. It should be formatted as a slug string. Slug format authorize all letters and numbers, dashes ("-") and underscores ("\_"). You can name it to reflect your identity, company name, etc.
 
