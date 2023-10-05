@@ -1,15 +1,15 @@
 # FAQ
 
-{% content-ref url="trc21-wrapped-token.md" %}
-[trc21-wrapped-token.md](trc21-wrapped-token.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="tomoe.md" %}
 [tomoe.md](tomoe.md)
 {% endcontent-ref %}
 
-{% content-ref url="tomob.md" %}
-[tomob.md](tomob.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 ### 1. What is TomoBridge?
@@ -22,5 +22,4 @@ Interoperability between different blockchains has been one of the most importan
 
 ### **3. What can I do when having issues on** TomoBridge?
 
-Please contact with us on Telegram channel at [https://t.me/tomochain](https://t.me/tomochain) or post your detailed request on TomoChain Forum at [https://forum.tomochain.com/](https://forum.tomochain.com/) to report your issue with the TomoBridge&#x20;
-
+Please contact with us on Telegram channel at [https://t.me/tomochain](https://t.me/tomochain) or post your detailed request on TomoChain Forum at [https://forum.tomochain.com/](https://forum.tomochain.com/) to report your issue with the TomoBridge
