@@ -19,7 +19,7 @@ TOMOE Contract Address
 
 You can get TOMOE by:
 
-* Convert between TOMO and TOMOE on SpaceGate;
+* Convert between TOMO and TOMOE on [SpaceGate](https://blog.coin98.com/tomochain-bridge-is-now-available-on-spacegate/);
 * Buy TOMOE directly on exchanges (LuaSwap, Binance, Coinone, BingX, etc).
 
 ### 4. Where can I store TOMOE?
