@@ -14,6 +14,6 @@ description: >-
 [trc20-specification.md](trc20-specification.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="trc25-specification.md" %}
+[trc25-specification.md](trc25-specification.md)
 {% endcontent-ref %}
