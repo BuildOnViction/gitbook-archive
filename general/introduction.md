@@ -12,3 +12,4 @@ The backbone of TomoChain's products and overall ecosystem is the TomoChain publ
 * **TomoChain Bridge:** TomoChain Bridge is now on [SpaceGate](https://blog.coin98.com/tomochain-bridge-is-now-available-on-spacegate/) - a cross-chain bridge designed to seamlessly transfer assets from Ethereum to TomoChain.
 * **TomoIssuer**: [TomoIssuer](https://issuer.tomochain.com/) is a dashboard to issue a TRC20 or TRC21 standard token without requiring any programming skills.
 * **LuaSwap:** [LuaSwap](https://luaswap.org/) is a multichain AMM. It allows users to swap, add liquidity, yield farming, and stake for passive income. Built on LuaSwap is the multichain launchpad LuaStarter.
+* **BaryonSwap** : [BaryonSwap](https://www.baryon.network/swap?chain=tomo) is AMM supporting on BSC, TOMO. It allows users to swap, add liquidity, yield farming, and stake for passive income
