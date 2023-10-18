@@ -11,41 +11,93 @@ To check that Node is installed properly, open a console (admin PowerShell on Wi
 
 To test npm, type `npm -v` and you should see the version number, like `6.4.1`.
 
-## Getting Started: Installation <a href="#3965" id="3965"></a>
+## Installing Node.js
 
-[**Truffle Framework**](https://truffleframework.com/) is a great tool for developing Dapps. You can use Truffle to deploy your smart contracts to TomoChain.
+{% hint style="info" %}
+You can [skip](https://hardhat.org/tutorial/creating-a-new-hardhat-project) this section if you already have a working Node.js `>=16.0` installation. If not, here's how to install it on Ubuntu, MacOS and Windows.
+{% endhint %}
 
-We only need this single command to install Truffle, the popular development framework for Ethereum.
+### Linux
 
-```
-npm install -g truffle
-```
+#### Ubuntu
 
-You can verify that Truffle is correctly installed typing `truffle version`.
-
-## Creating a Truffle project <a href="#1abb" id="1abb"></a>
-
-Truffle initializes in the current directory, so first create a directory in your development folder of choice and then move inside it.
+Copy and paste these commands in a terminal:
 
 ```
-mkdir pet-shop-tutorialcd pet-shop-tutorial
+sudo apt update
+sudo apt install curl git
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
-Let’s see [**how to create a Truffle project**](https://truffleframework.com/docs/truffle/getting-started/creating-a-project). There are two options. You can create a bare new project from scratch with no smart contracts included, and the other option for those just getting started, you can use [**Truffle Boxes**](https://truffleframework.com/boxes), which are example applications and project templates.
+### No-brainer option
 
-![](https://miro.medium.com/max/60/1\*0iPGzZ\_MuACqNeSRw1ymUg.png?q=20)![](https://miro.medium.com/max/1024/1\*0iPGzZ\_MuACqNeSRw1ymUg.png)
+Check out this [link](https://nodejs.org/en/download/current) for each platform installers.
 
-**Pet Shop Truffe Box**
+### MacOS
 
-There is a special [Truffle Box](https://truffleframework.com/boxes) for this tutorial called **`pet-shop`**, which includes the basic project structure as well as code for the user interface. Use the **`truffle unbox`** command to unpack this Truffle Box:
+Make sure you have `git` installed.
 
 ```
-truffle unbox pet-shop
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+nvm install 20
+nvm use 20
+nvm alias default 20
+npm install npm --global # Upgrade npm to the latest version
 ```
 
-The default Truffle directory structure contains a series of folders and files. If you want to know more, please check [Truffle tutorials](https://truffleframework.com/tutorials/pet-shop#directory-structure).
+### Windows
 
-> **Note:** This tutorial is focused on **the whole process to build a Dapp on TomoChain**, so we will not enter into all the details.
+If you are using Windows, we **strongly recommend** you use Windows Subsystem for Linux (also known as WSL 2). You can use Hardhat without it, but it will work better if you use it.
+
+To install Node.js using WSL 2, please read [this guide](https://docs.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl).
+
+### No-brainer option
+
+Check out this [link](https://nodejs.org/en/download/current) for each platform's installers.
+
+## Creating a new Hardhat project <a href="#3965" id="3965"></a>
+
+We'll install Hardhat using the Node.js package manager (`npm`), which is both a package manager and an online repository for JavaScript code.
+
+You can use other package managers with Node.js, but we suggest you use npm 7 or higher to follow this guide. You should already have it if you followed the previous section's steps.
+
+Open a new terminal and run these commands to create a new folder:
+
+```
+mkdir hardhat-tutorial
+cd hardhat-tutorial
+```
+
+```
+npm init
+npm install --save-dev hardhat
+npx hardhat init
+```
+
+Select `Create an empty hardhat.config.js` with your keyboard and hit enter.
+
+```
+$ npx hardhat init
+888    888                      888 888               888
+888    888                      888 888               888
+888    888                      888 888               888
+8888888888  8888b.  888d888 .d88888 88888b.   8888b.  888888
+888    888     "88b 888P"  d88" 888 888 "88b     "88b 888
+888    888 .d888888 888    888  888 888  888 .d888888 888
+888    888 888  888 888    Y88b 888 888  888 888  888 Y88b.
+888    888 "Y888888 888     "Y88888 888  888 "Y888888  "Y888
+
+👷 Welcome to Hardhat v2.18.1 👷‍
+
+? What do you want to do? …
+  Create a JavaScript project
+  Create a TypeScript project
+❯ Create an empty hardhat.config.js
+  Quit
+```
+
+When Hardhat is run, it searches for the closest `hardhat.config.js` file starting from the current working directory. This file normally lives in the root of your project and an empty `hardhat.config.js` is enough for Hardhat to work. The entirety of your setup is contained in this file.
 
 ## Creating a TOMO Wallet <a href="#a775" id="a775"></a>
 
