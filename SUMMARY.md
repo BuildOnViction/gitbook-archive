@@ -25,7 +25,6 @@
     * [Smart Contract using Remix](developer-guide/smart-contract-development/smart-contract-using-remix.md)
     * [Remix](developer-guide/smart-contract-development/remix.md)
     * [Web3JS](developer-guide/smart-contract-development/web3js.md)
-    * [Truffle](developer-guide/smart-contract-development/truffle.md)
     * [thirdweb CLI](developer-guide/smart-contract-development/thirdweb-cli.md)
   * [Build a Dapp on TomoChain](developer-guide/building-dapp-on-tomochain/README.md)
     * [Setup Environment](developer-guide/building-dapp-on-tomochain/setup-environment.md)
