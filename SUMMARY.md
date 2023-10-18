@@ -22,7 +22,6 @@
     * [TRC20 Specification](developer-guide/standards-and-specification/trc20-specification.md)
     * [TRC25 Specification](developer-guide/standards-and-specification/trc25-specification.md)
   * [Deploy a Smart Contract](developer-guide/smart-contract-development/README.md)
-    * [Smart Contract using Remix](developer-guide/smart-contract-development/smart-contract-using-remix.md)
     * [Remix](developer-guide/smart-contract-development/remix.md)
     * [Web3JS](developer-guide/smart-contract-development/web3js.md)
     * [thirdweb CLI](developer-guide/smart-contract-development/thirdweb-cli.md)
