@@ -179,7 +179,7 @@ After call a function in smart contract , you can check log in terminal as below
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-10-18 at 13.35.40.png" alt=""><figcaption></figcaption></figure>
 
-When compile contract , we might run into several bugs , Therefore , Remix support developer by using ChatGPT , Please see below:
+When compile contract , we might run into several errors , Therefore , Remix support developer by using ChatGPT , Please see below:
 
 
 
