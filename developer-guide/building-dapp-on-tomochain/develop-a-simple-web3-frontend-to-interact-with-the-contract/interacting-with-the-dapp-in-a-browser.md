@@ -16,7 +16,7 @@ _Initiating MetaMask_
 
 5\. Let’s now connect MetaMask to TomoChain (testnet). Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](../../../general/how-to-connect-to-tomochain-network/metamask.md) (testnet) and click **Save**
 
-![](https://miro.medium.com/max/60/1\*Dm4qhGJOjnolRwxX-VN94w.png?q=20)![](https://miro.medium.com/max/1424/1\*Dm4qhGJOjnolRwxX-VN94w.png)
+![](https://miro.medium.com/max/60/1\*Dm4qhGJOjnolRwxX-VN94w.png?q=20) ![](https://miro.medium.com/max/1424/1\*Dm4qhGJOjnolRwxX-VN94w.png)
 
 _Connecting MetaMask to TomoChain (testnet)_
 
@@ -26,48 +26,53 @@ We could use the TOMO wallet we created previously, but better **let’s create 
 
 7\. Once you have created your new TOMO wallet, **copy the private key**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask
 
-![](https://miro.medium.com/max/60/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png?q=20)![](https://miro.medium.com/max/1298/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png)
+![](https://miro.medium.com/max/60/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png?q=20) ![](https://miro.medium.com/max/1298/1\*AjEHidU-h0Ae0CXTsQUJ5Q.png)
 
 _Importing a wallet_
 
 ### 2. Using the Dapp <a href="#9432" id="9432"></a>
 
-We will now start a local web server and interact with the Dapp. We’re using the `lite-server`. This shipped with the `pet-shop` Truffle box.
+If you want to get started with your dApp quickly or see what this whole project looks like with a frontend, you can use Hardhat's[ boilerplate repo](https://github.com/NomicFoundation/hardhat-boilerplate).
 
-The settings for this are in the files `bs-config.json` and `package.json`, if you want to take a look. These tell npm to run our local install of `lite-server` when we execute `npm run dev` from the console.
-
-1. Start the local web server:
+The first things you need to do are cloning this repository and installing its dependencies:
 
 ```
-npm run dev
+git clone https://github.com/NomicFoundation/hardhat-boilerplate.git
+cd hardhat-boilerplate
+npm install
 ```
 
-The dev server will launch and automatically open a new browser tab containing your Dapp.
+#### Front End App <a href="#frontend-app" id="frontend-app"></a>
 
-![](https://miro.medium.com/max/2204/1\*gq766GpFC3UUCMoPW\_3Isw.png)
+In `frontend` you'll find a simple app that allows the user to do two things:
 
-_Pete’s Pet Shop_
+* Check the connected wallet's balance
+* Send tokens to an address
 
-Normally, a MetaMask notification automatically requests a connection.
+It's a separate npm project and it was created using `create-react-app`, so this means that it uses webpack and babel.
 
-2\. To use the Dapp, click the **Adopt** button on the pet of your choice.
+```
+npx hardhat node
+```
 
-3\. You’ll be automatically prompted to approve the transaction by MetaMask. Set some Gas and click **Confirm** to approve the transaction
+Once installed, let's run Hardhat's testing network:
 
-![](https://miro.medium.com/max/60/1\*KNOJi0WwGoYF7jy\_AQz43Q.png?q=20)![](https://miro.medium.com/max/1378/1\*KNOJi0WwGoYF7jy\_AQz43Q.png)
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
 
-_Adoption transaction review_
+Then, on a new terminal, go to the repository's root folder and run this to deploy your contract:
 
-4\. You’ll see the button next to the adopted pet change to say **“Success”** and become disabled, just as we specified, because the pet has now been adopted.
+```
+npx hardhat run scripts/deploy.js --network localhost
+```
 
-![](https://miro.medium.com/max/46/0\*iwMICrpZrGfJiNSY.png?q=20)![](https://miro.medium.com/max/988/0\*iwMICrpZrGfJiNSY.png)
+Finally, we can run the frontend with:
 
-_Adoption success_
+```
+cd frontend
+npm install
+npm start
+```
 
-And in MetaMask you’ll see the transaction listed
-
-![](https://miro.medium.com/max/44/1\*iqZsMFlAA3NCkOO-xfEjiQ.png?q=20)![](https://miro.medium.com/max/746/1\*iqZsMFlAA3NCkOO-xfEjiQ.png)
-
-_MetaMask transaction_
-
-**Congratulations!** You have taken a huge step to becoming a full-fledged Dapp developer. You have all the tools you need to start making more advanced Dapps and now you can make your Dapp live for others to use deploying to TomoChain.
+Open [http://localhost:3000/](http://localhost:3000/) to see your Dapp. You will need to have [Coinbase Wallet](https://www.coinbase.com/wallet) or [Metamask](https://metamask.io/) installed and listening to`localhost 8545.`([Example](interacting-with-the-dapp-in-a-browser.md#4986))
