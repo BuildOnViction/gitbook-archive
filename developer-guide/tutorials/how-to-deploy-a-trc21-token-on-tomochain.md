@@ -1,10 +1,10 @@
 ---
 description: >-
-  This article will guide you on how to deploy a TRC20/TRC21 token on TomoChain
-  using TomoIssuer.
+  This article will guide you on how to deploy a TRC25 token on TomoChain using
+  TomoIssuer.
 ---
 
-# How to Deploy a TRC20/TRC21 Token on TomoChain
+# How to Deploy a TRC25 Token on TomoChain
 
 Below are the most important features of TomoIssuer that have made it a revolutionary tool:
 
@@ -14,21 +14,21 @@ Below are the most important features of TomoIssuer that have made it a revoluti
 
 ### **Let’s Start the Tutorial!**
 
-**Step 1:**&#x20;
+**Step 1:**
 
-Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com/) and click on “Issue New Token”.&#x20;
+Go to [https://issuer.tomochain.com/](https://issuer.tomochain.com/) and click on “Issue New Token”.
 
 <figure><img src="../../.gitbook/assets/Screenshot_2 (2).png" alt=""><figcaption></figcaption></figure>
 
 **Step 2:**
 
-Unlock your wallet by choosing one of the available methods.&#x20;
+Unlock your wallet by choosing one of the available methods.
 
 <figure><img src="../../.gitbook/assets/Screenshot_3 (2).png" alt=""><figcaption></figcaption></figure>
 
-**Step 3:**&#x20;
+**Step 3:**
 
-Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type (TRC20 or TRC21), and whether or not it’s reissuable.&#x20;
+Fill out the token information including Token Name, Token Symbol, Token Supply, Decimals, Token Type (TRC20 or TRC21), and whether or not it’s reissuable.
 
 * The symbol of the token contract is the symbol by which the token contract should be known, for example, “MYT”. It is broadly equivalent to a stock ticker and limited to 5 characters in length.
 * Decimals refer to how divisible a token can be, from 0 (not at all divisible) to 18 (pretty much continuous) and even higher if required. Technically speaking, the decimals value is the number of digits that come after the decimal place when displaying token values on-screen.
@@ -38,25 +38,21 @@ Fill out the token information including Token Name, Token Symbol, Token Supply,
 
 **Disclaimer:** The token issuance fee could vary depending on how much it costs to deploy the smart contract.
 
-**Step 4:**&#x20;
+**Step 4:**
 
 TomoIssuer will ask for the token’s information to confirm. Please check all the criteria carefully before clicking on the “Issue token” and wait for the contract to be deployed.
 
 <figure><img src="../../.gitbook/assets/Screenshot_2.png" alt=""><figcaption></figcaption></figure>
 
-**Note:** Any developer with some experience  developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.tomochain.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
+**Note:** Any developer with some experience developing and deploying smart contracts can refer to our reference implementation of the [Standards & Specification](https://docs.tomochain.com/developer-guide/standards-and-specification) to make customizations to the deployed token contract.
 
-
-
-**THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY**&#x20;
+**THE STEPS BELOW ARE FOR TRC21 TOKENS ONLY**
 
 **Step 5:** A notification is received when the token is successfully issued. Click “View detail” to check the token’s summary including: number of holders, transactions, etc. For TRC21 tokens, choose “Apply to pay fee by token”.
 
-
-
 ![](https://lh6.googleusercontent.com/s8zaJXonmRhE2DW8G2pCESXg9p5OHfYGmZYmf7iO\_h9Km5ddMq2MPCq-PE1gyPlPSbqsSCHN0ES6sdL4lNanfr3RWk-L1iEivRQnmW4fOP2KEg5IV4hBgEUccX9fy5RhTLjNejbL)
 
-**Step 6:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”.&#x20;
+**Step 6:** Once deployed, the issuer needs to agree that the fees for all transactions to the newly deployed token contract will be paid in terms of the issued token. Once the conditions are agreed, move to the next step by clicking “I understand”.
 
 **Step 7:** The token issuer needs to deposit a minimum amount of 10 TOMO. The deposit can’t be withdrawn. The TOMO held in the deposit pool will be deducted to pay the Masternodes for processing transactions.
 
@@ -69,8 +65,6 @@ TomoIssuer will ask for the token’s information to confirm. Please check all t
 **Step 9:** In the token management dashboard, there are buttons to interact with the tokens, such as transfer and deposit more TOMO to pay for subsequent transaction fees. Don’t forget to regularly check the balance of the TRC21 deposit because transactions will not be processed if the remaining deposit is not enough to pay the transaction fees.
 
 ![](https://lh3.googleusercontent.com/I2ffwVcBRRPCo43hFDXrc-9HXoXdzxQWJofCbR4R-VW342b0EChRjR3tcR3TP3tKu3s26v6MjP7NnGgJqVBvBBiEELNLj1W82UhSH6YZM6akbFLlGAoh6FAp5t77q4njg8DQyiqK)
-
-
 
 **DONATE TOMO FOR TRC21 TRANSACTION FEES**
 

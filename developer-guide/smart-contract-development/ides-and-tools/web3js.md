@@ -1,13 +1,13 @@
-# Web3JS
+# web3.js
 
-### 1 · What is Web3.js? <a href="#1" id="1"></a>
+### 1 · What is web3.js? <a href="#1" id="1"></a>
 
 There are a few different aspects to developing blockchain applications with Ethereum:
 
 1. Smart contract development - writing code that gets deployed to the blockchain with the Solidity programming language.
 2. Developing websites or clients that interact with the blockchain - writing code that reads and writes data from the blockchain with smart contracts.
 
-[Web3.js](https://web3js.readthedocs.io/en/1.0/) enables you to fulfill the second responsibility: developing clients that interact with The Etherem Blockchain. It is a collection of libraries that allow you to perform actions like send Ether from one account to another, read and write data from smart contracts, create smart contracts, and so much more!
+[web3.js](https://web3js.readthedocs.io/en/1.0/) enables you to fulfill the second responsibility: developing clients that interact with The Etherem Blockchain. It is a collection of libraries that allow you to perform actions like send Ether from one account to another, read and write data from smart contracts, create smart contracts, and so much more!
 
 If you have a web development background, you might have used jQuery to make Ajax calls to a web server. That's a good starting point for understanding the function of Web3.js. Instead of using a jQuery to read and write data from a web server, you can use Web3.js to read and write to The Ethereum Blockchain.
 
@@ -15,11 +15,11 @@ Here is a diagram of how a client talks to Ethereum:![web3-js-diagram](https://w
 
 _Image credit:_ [_iotbl_](https://iotbl.blogspot.com/2017/03/ethereum-and-blockchain-2.html)_._
 
-Web3.js talks to The Ethereum Blockchain with [JSON RPC](https://en.wikipedia.org/wiki/Remote\_procedure\_call), which stands for "Remote Procedure Call" protocol. Ethereum is a peer-to-peer network of nodes that stores a copy of all the data and code on the blockchain. Web3.js allows us to make requests to an individual Ethereum node with JSON RPC in order to read and write data to the network. It's kind of like using jQuery with a JSON API to read and write data with a web server.
+web3.js talks to The Ethereum Blockchain with [JSON RPC](https://en.wikipedia.org/wiki/Remote\_procedure\_call), which stands for "Remote Procedure Call" protocol. Ethereum is a peer-to-peer network of nodes that stores a copy of all the data and code on the blockchain. Web3.js allows us to make requests to an individual Ethereum node with JSON RPC in order to read and write data to the network. It's kind of like using jQuery with a JSON API to read and write data with a web server.
 
 #### Dependencies
 
-There are a few dependencies that will help you start developing with Web3.js.
+There are a few dependencies that will help you start developing with web3.js.
 
 **Node Package Manager (NPM)**
 
@@ -29,7 +29,7 @@ The first dependency we need is [Node Package Manager](https://nodejs.org/en/), 
 $ node -v
 ```
 
-**Web3.js Library**
+**web3.js Library**
 
 You can install the Web3.js library with NPM in your terminal like this:
 

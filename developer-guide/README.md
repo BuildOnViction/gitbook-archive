@@ -6,17 +6,26 @@ description: >-
 
 # Developer Guide
 
-{% page-ref page="standards-and-specification/" %}
+{% content-ref url="smart-contract-development/" %}
+[smart-contract-development](smart-contract-development/)
+{% endcontent-ref %}
 
-{% page-ref page="smart-contract-development/" %}
+{% content-ref url="standards-and-specification/" %}
+[standards-and-specification](standards-and-specification/)
+{% endcontent-ref %}
 
-{% page-ref page="building-dapp-on-tomochain/" %}
+{% content-ref url="building-dapp-on-tomochain/" %}
+[building-dapp-on-tomochain](building-dapp-on-tomochain/)
+{% endcontent-ref %}
 
-{% page-ref page="working-with-tomochain/" %}
+{% content-ref url="working-with-tomochain/" %}
+[working-with-tomochain](working-with-tomochain/)
+{% endcontent-ref %}
 
-{% page-ref page="integration/" %}
+{% content-ref url="integration/" %}
+[integration](integration/)
+{% endcontent-ref %}
 
-{% page-ref page="tutorials/" %}
-
-
-
+{% content-ref url="tutorials/" %}
+[tutorials](tutorials/)
+{% endcontent-ref %}

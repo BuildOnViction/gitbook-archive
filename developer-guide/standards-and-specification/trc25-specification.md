@@ -145,7 +145,7 @@ uint256 private _minFee;
 address private _owner;
 ```
 
-* Implement `Permit` extension, as defined in EIP-2612. Permit acts as a fallback for any gas-less protocol to support your token properly, in the case that your token isn't registered for [TomoZ](../integration/tomoz.md).
+* Implement `Permit` extension, as defined in EIP-2612. Permit acts as a fallback for any gas-less protocol to support your token properly, in the case that your token isn't registered for [TomoZ](../integration/tomoz-integration.md).
 
 ```solidity
 interface IVRC25Permit {
@@ -537,4 +537,4 @@ Source: [SampleVRC25.sol](https://github.com/tomochain/trc25/blob/main/contracts
 
 ### Enable gas-less transaction
 
-Once you have deployed a TRC25 compatible contract. You will also need to register for TomoZ to enable gas-less transaction for your contract. Please refer to [TomoZ](../integration/tomoz.md) page for more information.
+Once you have deployed a TRC25 compatible contract. You will also need to register for TomoZ to enable gas-less transaction for your contract. Please refer to [TomoZ](../integration/tomoz-integration.md) page for more information.
