@@ -4,8 +4,14 @@ description: 'TomoChain Integration: A Step-By-Step Guide'
 
 # Integration
 
-{% page-ref page="tomochain-staking-governance.md" %}
+{% content-ref url="tomochain-staking-governance.md" %}
+[tomochain-staking-governance.md](tomochain-staking-governance.md)
+{% endcontent-ref %}
 
-{% page-ref page="exchange-wallet-integration.md" %}
+{% content-ref url="exchange-wallet-integration.md" %}
+[exchange-wallet-integration.md](exchange-wallet-integration.md)
+{% endcontent-ref %}
 
-{% page-ref page="trc20-exchange-wallet-integration.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}

@@ -1,6 +1,6 @@
 # Web3JS
 
-### #1 · What is Web3.js? <a href="#1" id="1"></a>
+### 1 · What is Web3.js? <a href="#1" id="1"></a>
 
 There are a few different aspects to developing blockchain applications with Ethereum:
 
@@ -93,7 +93,7 @@ web3.eth.getBalance(address, (err, wei) => {
 
 First, we use check the balance by calling `web3.eth.getBalance()`, which accepts a callback function with two arguments, an error and the balance itself. We'll ignore the error argument for now, and reference the balance with the `wei` argument. Ethereum expresses balances in Wei, which is the smallest subdivision of Ether, kind of like a tiny penny. We can convert this balance to Ether with `web3.utils.fromWei(wei, 'ether')`.
 
-Now you've seen what the Web3.js library is and you can get started using it to check Ethereum account balances. Here is a summary of the code&#x20;
+Now you've seen what the Web3.js library is and you can get started using it to check Ethereum account balances. Here is a summary of the code
 
 ```
 const Web3 = require('web3')
@@ -115,7 +115,7 @@ Additionally, note that Web3.js is under active development. You can visit the W
 
 [https://github.com/ethereum/web3.js/](https://github.com/ethereum/web3.js/)
 
-### #2 · Read Data from Smart Contracts with Web3.js <a href="#2" id="2"></a>
+### 2 · Read Data from Smart Contracts with Web3.js <a href="#2" id="2"></a>
 
 In order to read data from smart contracts with Web3.js, we need two things:
 
@@ -130,7 +130,7 @@ A smart contract ABI stands for "Abstract Binary Interface", and is a JSON array
 const abi = [{"constant":true,"inputs":[],"name":"mintingFinished","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"name","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_spender","type":"address"},{"name":"_value","type":"uint256"}],"name":"approve","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"totalSupply","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_from","type":"address"},{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transferFrom","outputs":[],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"decimals","outputs":[{"name":"","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"unpause","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"}],"name":"mint","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"paused","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"}],"name":"balanceOf","outputs":[{"name":"balance","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"finishMinting","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":false,"inputs":[],"name":"pause","outputs":[{"name":"","type":"bool"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"owner","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[],"name":"symbol","outputs":[{"name":"","type":"string"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_value","type":"uint256"}],"name":"transfer","outputs":[],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"_to","type":"address"},{"name":"_amount","type":"uint256"},{"name":"_releaseTime","type":"uint256"}],"name":"mintTimelocked","outputs":[{"name":"","type":"address"}],"payable":false,"type":"function"},{"constant":true,"inputs":[{"name":"_owner","type":"address"},{"name":"_spender","type":"address"}],"name":"allowance","outputs":[{"name":"remaining","type":"uint256"}],"payable":false,"type":"function"},{"constant":false,"inputs":[{"name":"newOwner","type":"address"}],"name":"transferOwnership","outputs":[],"payable":false,"type":"function"},{"anonymous":false,"inputs":[{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Mint","type":"event"},{"anonymous":false,"inputs":[],"name":"MintFinished","type":"event"},{"anonymous":false,"inputs":[],"name":"Pause","type":"event"},{"anonymous":false,"inputs":[],"name":"Unpause","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"owner","type":"address"},{"indexed":true,"name":"spender","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Approval","type":"event"},{"anonymous":false,"inputs":[{"indexed":true,"name":"from","type":"address"},{"indexed":true,"name":"to","type":"address"},{"indexed":false,"name":"value","type":"uint256"}],"name":"Transfer","type":"event"}]
 ```
 
-This example is the ABI for the OmiseGo token, which implements the ERC-20 token standard. You can find more details about this token, including its abi and address on [Etherscan](https://etherscan.io/address/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07).&#x20;
+This example is the ABI for the OmiseGo token, which implements the ERC-20 token standard. You can find more details about this token, including its abi and address on [Etherscan](https://etherscan.io/address/0xd26114cd6EE289AccF82350c8d8487fedB8A0C07).
 
 Go ahead and store the address to the OMG token from the Ethereum main net:
 
@@ -196,7 +196,7 @@ contract.methods.balanceOf('0xd26114cd6EE289AccF82350c8d8487fedB8A0C07').call((e
 
 You can also download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
 
-### #3 · Inside Ethereum Transactions <a href="#3" id="3"></a>
+### 3 · Inside Ethereum Transactions <a href="#3" id="3"></a>
 
 Whenever you create a transaction, you're writing data to the blockchain and updating its state. There are several ways to do this, like sending Ether from one account to another, calling a smart contract function that writes data, and deploying a smart contract to the blockchain. We can get a greater understanding of these concepts by performing these actions with the Web3.js library and observing how each step works.
 
@@ -384,7 +384,7 @@ $ node app
 
 You can download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
 
-### #4 · Deploying Smart Contracts with Web3.js <a href="#4" id="4"></a>
+### 4 · Deploying Smart Contracts with Web3.js <a href="#4" id="4"></a>
 
 There are multiple ways you can deploy smart contracts to The Ethereum Blockchain. There are even multiple ways to deploy them within Web3.js itself. This example is designed to break the deployment down in to each step in the process.
 
@@ -502,7 +502,7 @@ $ node app
 
 You can download all the code examples in this tutorial series from [github](https://github.com/dappuniversity/web3\_examples).
 
-### #5 · Calling Smart Contract Functions with Web3.js <a href="#5" id="5"></a>
+### 5 · Calling Smart Contract Functions with Web3.js <a href="#5" id="5"></a>
 
 We'll use the same basic setup with an `app.js` file that will look like this:
 
@@ -617,7 +617,7 @@ $ node app
 
 You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).
 
-### #6 · Smart Contract Events with Web3.js <a href="#6" id="6"></a>
+### 6 · Smart Contract Events with Web3.js <a href="#6" id="6"></a>
 
 Ethereum smart contracts have the ability to emit events that indicate that something happened within the smart contract code execution. Consumers have the ability to subscribe to these events, and Web3.js will provide us with this functionality.
 
@@ -714,7 +714,7 @@ $ node app
 
 You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).
 
-### #7 · Inspecting Blocks with Web3.js <a href="#7" id="7"></a>
+### 7 · Inspecting Blocks with Web3.js <a href="#7" id="7"></a>
 
 Inspecting blocks is often useful when analyzing history on The Ethereum Blockchain. Web3.js has lots of functionality that helps us to do just that. For example, we could build something that looks like this block history feature on Etherscan:![Etherscan Block History](https://www.dappuniversity.com/etherscan-blocks.png)
 
@@ -792,7 +792,7 @@ $ node app
 
 You can download all the code examples from [github](https://github.com/dappuniversity/web3\_examples).
 
-### #8 · Web3.js Utilities <a href="#8" id="8"></a>
+### 8 · Web3.js Utilities <a href="#8" id="8"></a>
 
 This part is designed to show you some cool tips and tricks that you might not know about Web3.js! Let's go ahead and set up the `app.js` and jump into examining these tips. Let's connect to the Ethereum main net like this:
 

@@ -1,12 +1,17 @@
 # IDEs and Tools
 
-{% page-ref page="remix.md" %}
+{% content-ref url="remix.md" %}
+[remix.md](remix.md)
+{% endcontent-ref %}
 
-{% page-ref page="web3js.md" %}
+{% content-ref url="web3js.md" %}
+[web3js.md](web3js.md)
+{% endcontent-ref %}
 
-{% page-ref page="truffle.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
-{% page-ref page="openzepplins.md" %}
-
-
-
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}

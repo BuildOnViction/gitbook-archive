@@ -10,8 +10,8 @@ The persons behind the addresses can then choose to either vote themselves or to
 
 At the end of the voting time, `winningProposal()` will return the proposal with the largest number of votes.
 
-```
-pragma solidity >=0.4.22 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 /// @title Voting with delegation.
 contract Ballot {
@@ -175,8 +175,8 @@ In this section, we will show how easy it is to create a completely blind auctio
 
 The general idea of the following simple auction contract is that everyone can send their bids during a bidding period. The bids already include sending money / TOMO in order to bind the bidders to their bid. If the highest bid is raised, the previously highest bidder gets their money back. After the end of the bidding period, the contract has to be called manually for the beneficiary to receive their money - contracts cannot activate themselves.
 
-```
-pragma solidity >=0.4.22 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 contract SimpleAuction {
     // Parameters of the auction. Times are either
@@ -315,8 +315,8 @@ Another challenge is how to make the auction **binding and blind** at the same t
 
 The following contract solves this problem by accepting any value that is larger than the highest bid. Since this can of course only be checked during the reveal phase, some bids might be **invalid**, and this is on purpose (it even provides an explicit flag to place invalid bids with high value transfers): Bidders can confuse competition by placing several high or low invalid bids.
 
-```
-pragma solidity >0.4.23 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 contract BlindAuction {
     struct Bid {
@@ -343,8 +343,8 @@ contract BlindAuction {
     /// functions. `onlyBefore` is applied to `bid` below:
     /// The new function body is the modifier's body where
     /// `_` is replaced by the old function body.
-    modifier onlyBefore(uint _time) { require(now < _time); _; }
-    modifier onlyAfter(uint _time) { require(now > _time); _; }
+    modifier onlyBefore(uint _time) { require(block.timestamp < _time); _; }
+    modifier onlyAfter(uint _time) { require(block.timestamp > _time); _; }
 
     constructor(
         uint _biddingTime,
@@ -352,7 +352,7 @@ contract BlindAuction {
         address payable _beneficiary
     ) public {
         beneficiary = _beneficiary;
-        biddingEnd = now + _biddingTime;
+        biddingEnd = block.timestamp + _biddingTime;
         revealEnd = biddingEnd + _revealTime;
     }
 
@@ -412,7 +412,7 @@ contract BlindAuction {
             // the same deposit.
             bidToCheck.blindedBid = bytes32(0);
         }
-        msg.sender.transfer(refund);
+        payable(msg.sender).transfer(refund);
     }
 
     /// Withdraw a bid that was overbid.
@@ -425,7 +425,7 @@ contract BlindAuction {
             // conditions -> effects -> interaction).
             pendingReturns[msg.sender] = 0;
 
-            msg.sender.transfer(amount);
+            payable(msg.sender).transfer(amount);
         }
     }
 
@@ -467,10 +467,10 @@ Purchasing goods remotely currently requires multiple parties that need to trust
 
 There are multiple ways to solve this problem, but all fall short in one or the other way. In the following example, both parties have to put twice the value of the item into the contract as escrow. As soon as this happened, the money will stay locked inside the contract until the buyer confirms that they received the item. After that, the buyer is returned the value (half of their deposit) and the seller gets three times the value (their deposit plus the value). The idea behind this is that both parties have an incentive to resolve the situation or otherwise their money is locked forever.
 
-This contract of course does not solve the problem, but gives an overview of how you can use state machine-like constructs inside a contract.
+This contract of course does not solve the problem but gives an overview of how you can use state machine-like constructs inside a contract.
 
-```
-pragma solidity >=0.4.22 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 contract Purchase {
     uint public value;
@@ -519,7 +519,7 @@ contract Purchase {
     // Division will truncate if it is an odd number.
     // Check via multiplication that it wasn't an odd number.
     constructor() public payable {
-        seller = msg.sender;
+        seller = payable(msg.sender);
         value = msg.value / 2;
         require((2 * value) == msg.value, "Value has to be even.");
     }
@@ -552,7 +552,7 @@ contract Purchase {
         payable
     {
         emit PurchaseConfirmed();
-        buyer = msg.sender;
+        buyer = payable(msg.sender);
         state = State.Locked;
     }
 
@@ -596,7 +596,7 @@ In this section we will learn how to build an example implementation of a paymen
 
 #### Creating and verifying signatures
 
-Imagine Alice wants to send a quantity of TOMO to Bob, i.e. Alice is the sender and the Bob is the recipient.
+Imagine Alice wants to send a quantity of TOMO to Bob, e.g. Alice is the sender and the Bob is the recipient.
 
 Alice only needs to send cryptographically signed messages off-chain (e.g. via email) to Bob and it is similar to writing checks.
 
@@ -611,9 +611,9 @@ The contract will work as follows:
 
 **Creating the signature**
 
-Alice does not need to interact with the TomoChain network to sign the transaction, the process is completely offline. In this tutorial, we will sign messages in the browser using [web3.js](https://github.com/ethereum/web3.js) and [MetaMask](https://metamask.io/), using the method described in [EIP-762](https://github.com/ethereum/EIPs/pull/712), as it provides a number of other security benefits.
+Alice does not need to interact with the TomoChain network to sign the transaction, the process is completely offline. In this tutorial, we will sign messages in the browser using [web3.js](https://github.com/ethereum/web3.js) and [MetaMask](https://metamask.io/), using the method described in [EIP-712](https://github.com/ethereum/EIPs/pull/712), as it provides a number of other security benefits.
 
-```
+```javascript
 /// Hashing first makes things easier
 var hash = web3.utils.sha3("message to sign");
 web3.eth.personal.sign(hash, web3.eth.defaultAccount, function () { console.log("Signed"); });
@@ -641,7 +641,7 @@ Alice can protect against this attack by including the contract’s address in t
 
 Now that we have identified what information to include in the signed message, we are ready to put the message together, hash it, and sign it. For simplicity, we concatenate the data. The [ethereumjs-abi](https://github.com/ethereumjs/ethereumjs-abi) library provides a function called `soliditySHA3` that mimics the behaviour of Solidity’s `keccak256` function applied to arguments encoded using `abi.encodePacked`. Here is a JavaScript function that creates the proper signature for the `ReceiverPays` example:
 
-```
+```javascript
 // recipient is the address that should be paid.
 // amount, in wei, specifies how much TOMO should be sent.
 // nonce can be any unique number to prevent replay attacks
@@ -670,8 +670,8 @@ The smart contract needs to know exactly what parameters were signed, and so it 
 
 **The full contract**
 
-```
-pragma solidity >=0.4.24 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 contract ReceiverPays {
     address owner = msg.sender;
@@ -689,13 +689,13 @@ contract ReceiverPays {
 
         require(recoverSigner(message, signature) == owner);
 
-        msg.sender.transfer(amount);
+        payable(msg.sender).transfer(amount);
     }
 
     /// destroy the contract and reclaim the leftover funds.
     function shutdown() public {
         require(msg.sender == owner);
-        selfdestruct(msg.sender);
+        selfdestruct(payable(msg.sender));
     }
 
     /// signature methods.
@@ -770,7 +770,7 @@ A payment channel is closed just once, at the end of a series of transfers. Beca
 
 Here is the modified JavaScript code to cryptographically sign a message from the previous section:
 
-```
+```solidity
 function constructPaymentMessage(contractAddress, amount) {
     return abi.soliditySHA3(
         ["address", "uint256"],
@@ -813,8 +813,8 @@ After this function is called, Bob can no longer receive any TOMO, so it is impo
 
 **The full contract**
 
-```
-pragma solidity >=0.4.24 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 contract SimplePaymentChannel {
     address payable public sender;      // The account sending payments.
@@ -825,9 +825,9 @@ contract SimplePaymentChannel {
         public
         payable
     {
-        sender = msg.sender;
+        sender = payable(msg.sender);
         recipient = _recipient;
-        expiration = now + duration;
+        expiration = block.timestamp + duration;
     }
 
     /// the recipient can close the channel at any time by presenting a
@@ -852,7 +852,7 @@ contract SimplePaymentChannel {
     /// if the timeout is reached without the recipient closing the channel,
     /// then the TOMO is released back to the sender.
     function claimTimeout() public {
-        require(now >= expiration);
+        require(block.timestamp >= expiration);
         selfdestruct(sender);
     }
 
@@ -906,7 +906,7 @@ contract SimplePaymentChannel {
 }
 ```
 
-Note
+#### Note
 
 The function `splitSignature` does not use all security checks. A real implementation should use a more rigorously tested library, such as openzepplin’s [version](https://github.com/OpenZeppelin/openzeppelin-solidity/blob/master/contracts/ECRecovery.sol) of this code.
 
@@ -923,8 +923,7 @@ The recipient should verify each message using the following process:
 
 We’ll use the [ethereumjs-util](https://github.com/ethereumjs/ethereumjs-util) library to write this verification. The final step can be done a number of ways, and we use JavaScript. The following code borrows the constructMessage function from the signing **JavaScript code** above:
 
-```
-// this mimics the prefixing behavior of the eth_sign JSON-RPC method.
+```solidity
 function prefixed(hash) {
     return ethereumjs.ABI.soliditySHA3(
         ["string", "bytes32"],
@@ -951,8 +950,8 @@ function isValidSignature(contractAddress, amount, signature, expectedSigner) {
 
 A modular approach to building your contracts helps you reduce the complexity and improve the readability which will help to identify bugs and vulnerabilities during development and code review. If you specify and control the behaviour or each module in isolation, the interactions you have to consider are only those between the module specifications and not every other moving part of the contract. In the example below, the contract uses the `move` method of the `Balances` [library](https://solidity.readthedocs.io/en/v0.6.3/contracts.html#libraries) to check that balances sent between addresses match what you expect. In this way, the `Balances` library provides an isolated component that properly tracks balances of accounts. It is easy to verify that the `Balances` library never produces negative balances or overflows and the sum of all balances is an invariant across the lifetime of the contract.
 
-```
-pragma solidity >=0.4.22 <=0.5.0;
+```solidity
+pragma solidity 0.8.17;
 
 library Balances {
     function move(mapping(address => uint256) storage balances, address from, address to, uint amount) internal {
@@ -998,5 +997,3 @@ contract Token {
     }
 }
 ```
-
-[Next ](https://solidity.readthedocs.io/en/v0.6.3/solidity-in-depth.html)[ Previous](https://solidity.readthedocs.io/en/v0.6.3/installing-solidity.html)\
