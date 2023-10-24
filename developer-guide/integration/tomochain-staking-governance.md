@@ -7,7 +7,7 @@ Masternodes and Voters' funds are locked and governed in the [TomoChain Validato
 
 TomoChain Validator Smart Contract Interface:
 
-```
+```solidity
 // apply a new masternode candidate
 function propose(address _candidate) external payable;
 
@@ -49,7 +49,7 @@ You can follow the steps below to interact with the smart contract by using Web3
 
 At the first step, you need init Web3 provider by connecting TomoChain Fullnode RPC endpoint.
 
-```
+```javascript
 const Web3 = require('web3')
 const web3 = new Web3('https://rpc.tomochain.com')
 const chainId = 88
@@ -63,7 +63,7 @@ Unlock the wallet must be done before staking on the nodes
 
 **Example**
 
-```
+```javascript
 // Unlock wallet by private key
 const account = web3.eth.accounts.privateKeyToAccount(pkey)
 const owner = account.address
@@ -73,7 +73,7 @@ web3.eth.defaultAccount = owner
 
 ### Init Web3 TomoChain Validator Contract <a href="#init-web3-tomochain-validator-contract" id="init-web3-tomochain-validator-contract"></a>
 
-```
+```javascript
 const validatorAbi = require('./TomoValidatorAbi.json')
 const address = '0x0000000000000000000000000000000000000088'
 const validator = new web3.eth.Contract(validatorAbi,
@@ -81,8 +81,6 @@ const validator = new web3.eth.Contract(validatorAbi,
 ```
 
 Note: you can get TomoValidatorAbi.json [here](https://raw.githubusercontent.com/tomochain/tomomaster/master/abis/TomoValidatorAbi.json)
-
-
 
 ### Propose/Apply a Candidate <a href="#proposeapply-a-candidate" id="proposeapply-a-candidate"></a>
 
@@ -92,7 +90,7 @@ Apply to become a Masternode Candidate by calling `propose` function from the sm
 
 **Example**
 
-```
+```javascript
 // Masternode coinbase address
 const coinbase = "0xf8ac9d5022853c5847ef75aea0104eed09e5f402"
 
@@ -118,7 +116,7 @@ Stake at least 100 TOMO for a node by calling `vote` function from the smart con
 
 Stake 500 TOMO to a node.
 
-```
+```javascript
 validator.methods.vote(coinbase).send({
     from: owner,
     value: '500000000000000000000', // 500 TOMO
@@ -135,7 +133,7 @@ validator.methods.vote(coinbase).send({
 
 You can unstake by calling `unvote` function from the smart contract
 
-```
+```javascript
 const cap = '500000000000000000000' // unvote 500 TOMO
 
 validator.methods.unvote(coinbase, cap).send({
@@ -151,7 +149,7 @@ validator.methods.unvote(coinbase, cap).send({
 
 ### Resign a Candidate <a href="#resign-a-candidate" id="resign-a-candidate"></a>
 
-```
+```javascript
 validator.methods.resign(coinbase).send({
     from : owner,
     gas: 2000000,
@@ -169,7 +167,7 @@ You need to wait for 96 epochs (to unvote), 30 days (to resign) to unlock your s
 
 **Example**
 
-```
+```javascript
 // get highest block number
 web3.eth.getBlockNumber().then(blockNumber => {
     return validator.methods.getWithdrawBlockNumbers().call({
@@ -199,7 +197,7 @@ We need to call `getWithdrawBlockNumbers` and `getWithdrawCap` functions from To
 
 **Example**
 
-```
+```javascript
 let blks = await contract.getWithdrawBlockNumbers.call({ from: owner })
 // remove duplicate
 blks = [...new Set(blks)]
@@ -219,13 +217,11 @@ await Promise.all(blks.map(async (it, index) => {
 console.log(withdraws)
 ```
 
-
-
 ### Get list Candidates <a href="#get-list-candidates" id="get-list-candidates"></a>
 
 You can get list Candidates from [RPC endpoint](https://apidocs.tomochain.com/?shell#eth\_getcandidates):
 
-```
+```bash
 curl https://rpc.tomochain.com \
     -X POST \
     -H "Content-Type: application/json" \
@@ -234,7 +230,7 @@ curl https://rpc.tomochain.com \
 
 Or [get list candidates from TomoMaster](https://apidocs.tomochain.com/?shell#tomomaster-apis-candidates):
 
-```
+```bash
 curl -X GET https://master.tomochain.com/api/candidates \
   -H 'Accept: application/json'
 ```

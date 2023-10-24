@@ -88,13 +88,13 @@ Solidity is a compiled language, meaning we need to compile our Solidity to byte
 
 To compile the contract run `npx hardhat compile` in your terminal. The `compile` task is one of the built-in tasks.
 
-```
+```bash
 npx hardhat compile
 ```
 
 You should see output similar to the following:
 
-```
+```bash
 $ npx hardhat compile
 Compiling 1 file with 0.8.17
 Compilation finished successfully

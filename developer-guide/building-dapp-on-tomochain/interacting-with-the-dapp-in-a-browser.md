@@ -36,7 +36,7 @@ If you want to get started with your dApp quickly or see what this whole project
 
 The first things you need to do are cloning this repository and installing its dependencies:
 
-```
+```bash
 git clone https://github.com/NomicFoundation/hardhat-boilerplate.git
 cd hardhat-boilerplate
 npm install
@@ -51,25 +51,25 @@ In `frontend` you'll find a simple app that allows the user to do two things:
 
 It's a separate npm project and it was created using `create-react-app`, so this means that it uses webpack and babel.
 
-```
+```bash
 npx hardhat node
 ```
 
 Once installed, let's run Hardhat's testing network:
 
-```
+```bash
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
 Then, on a new terminal, go to the repository's root folder and run this to deploy your contract:
 
-```
+```bash
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
 Finally, we can run the frontend with:
 
-```
+```bash
 cd frontend
 npm install
 npm start

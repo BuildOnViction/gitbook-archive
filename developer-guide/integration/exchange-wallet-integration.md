@@ -1,12 +1,12 @@
-# Exchange/Wallet Integration
+# Exchange/Wallet integration
 
 TomoChain is an EVM-compatible public blockchain. So you can use [TomoChain JSON-RPC APIs](https://apidocs.tomochain.com/#tomochain-apis-json-rpc) similar as in Ethereum.
 
-EVM compatible libraries such as [Web3 library](https://web3js.readthedocs.io/) can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to TomoChain's RPC public endpoint. [This tutorial](../working-with-tomochain/) will guide you the steps to connect to TomoChain Testnet/Mainnet.
+EVM compatible libraries such as [Web3.js](../smart-contract-development/ides-and-tools/web3js.md) or [Ethers.js](../smart-contract-development/ides-and-tools/ethers.js.md) library can be fully reused in integration to create a wallet, check wallet balances, or create/send transactions. All you need is to connect to TomoChain's RPC public endpoint. [This tutorial](../working-with-tomochain/) will guide you the steps to connect to TomoChain Testnet/Mainnet using Web3.js.
 
 ### Connect to TomoChain's public RPC endpoint <a href="#connect-to-tomochain-nodes" id="connect-to-tomochain-nodes"></a>
 
-```
+```javascript
 import Web3 from 'web3';
 
 const web3 = new Web3('https://rpc.tomochain.com');
@@ -16,13 +16,13 @@ const web3 = new Web3('https://rpc.tomochain.com');
 
 Generate an account object with private key and public key.
 
-```
+```javascript
 web3.eth.accounts.create([entropy]);
 ```
 
 **Example**
 
-```
+```javascript
 web3.eth.accounts.create();
 > {
     address: "0xb8CE9ab6943e0eCED004cDe8e3bBed6568B2Fa01",
@@ -55,13 +55,13 @@ web3.eth.accounts.create(web3.utils.randomHex(32));
 
 Get account balance.
 
-```
+```javascript
 web3.eth.getBalance(address [, defaultBlock] [, callback])
 ```
 
 **Example**
 
-```
+```javascript
 web3.eth.getBalance("0x407d73d8a49eeb85d32cf465507dd71d507100c1").then(console.log);
 > "1000000000000"
 ```
@@ -70,7 +70,7 @@ web3.eth.getBalance("0x407d73d8a49eeb85d32cf465507dd71d507100c1").then(console.l
 
 Send transaction to the network. You need to unlock wallet before using this function.
 
-```
+```javascript
 web3.eth.sendTransaction(transactionObject [, callback])
 ```
 
@@ -88,7 +88,7 @@ web3.eth.sendTransaction(transactionObject [, callback])
 
 **Example**
 
-```
+```javascript
 const Web3 = require('web3')
 
 // Connect to TomoChain nodes
@@ -116,7 +116,7 @@ web3.eth.sendTransaction({
 
 After unlock a wallet, you can sign some data
 
-```
+```javascript
 web3.eth.sign(dataToSign, address [, callback])
 ```
 
@@ -128,7 +128,7 @@ web3.eth.sign(dataToSign, address [, callback])
 
 **Example**
 
-```
+```javascript
 const Web3 = require('web3')
 
 // Connect to TomoChain nodes
@@ -149,7 +149,7 @@ web3.eth.sign('testdata').then(function(result){
 
 ### Check transaction status <a href="#check-transaction-status" id="check-transaction-status"></a>
 
-```
+```javascript
 web3.eth.getTransactionReceipt(hash [, callback])
 ```
 
@@ -187,7 +187,7 @@ If `result` >= 75, it means the block with the input hash is finalized, thus irr
 
 ### How does TomoChain smart contract work? <a href="#how-does-tomochain-smart-contract-work" id="how-does-tomochain-smart-contract-work"></a>
 
-TomoChain supports Solidity compiler version <= 0.5.0
+TomoChain supports Solidity compiler version <= 0.8.17
 
 ### Does TomoChain support multi-signature wallets? <a href="#possible-to-create-muti-signature-wallet" id="possible-to-create-muti-signature-wallet"></a>
 
