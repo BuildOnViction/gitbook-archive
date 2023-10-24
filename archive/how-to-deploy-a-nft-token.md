@@ -20,7 +20,7 @@ Fungible tokens are **all equal and interchangeable**. For instance, dollars or 
 
 Non-Fungible Tokens (NFT) are used to create verifiable digital scarcity. NFTs are unique and distinctive tokens that you can mainly find on EVM blockchains.
 
-![](<../../.gitbook/assets/image (25).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 The [**ERC-721**](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md) is the standard interface for Non-Fungible Tokens (but there are also other NFTs, like ERC1155). ERC721 is a set of rules to make your NFT easy for other people / apps / contracts to interface with.
 
@@ -36,7 +36,7 @@ At the end of 2017, NFTs made a remarkable entrance in the blockchain world with
 
 **The strength of NFTs resides in the fact that each token is unique and cannot be mistaken for another one**– unlike bitcoins, for example, which are interchangeable with one another.
 
-![](<../../.gitbook/assets/image (60).png>)
+![](<../.gitbook/assets/image (60).png>)
 
 ### Crypto Item Standard (ERC-1155) <a href="#4a98" id="4a98"></a>
 
@@ -52,7 +52,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 * **Software titles** or [**software licences**](https://medium.com/collabs-io/software-licences-as-non-fungible-tokens-1f0635913e41) to guarantee anti-piracy, privacy and transferability — like [Collabs.io](https://medium.com/collabs-io)
 * **Betting** in real time on the outcome of a video game being live-streamed
-* **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future.&#x20;
+* **Gaming** in general is an important field of experimentation and development for the uses of NFT in the future.
 * **Concert tickets and sports match tickets** can be tokenized and name-bound, preventing fraud and at the same time offering fans an option to have a single place where to collect all their past event experiences
 * **Digital Art** **(or physical art!)** has already entered the game and showed an important usage of ERC721. Digital art auctions were the first application and still are the first thought of non-fungible token standards. The [auctions organized by Christie’s](https://medium.com/cryptokitties/the-ethereal-summit-and-the-140k-cat-a3b561545a44) revealed the appeal of the public for crypto-collectibles. Several digital art assets were sold during this event, the high point being the sale of the ‘Celestial Cyber Dimension’, an ERC721 CryptoKitty piece of art, for [$140,000](https://medium.com/cryptokitties/the-ethereal-summit-and-the-140k-cat-a3b561545a44)
 * **Real Estate** assets, to carry out transfers of houses, land and other ‘tokenized’ properties through smart contracts
@@ -62,7 +62,7 @@ Most of the time when people think about ERC-721 or NFT, they refer to the most 
 
 [Crypto-Collectibles are more than a passing craze](https://www.disruptordaily.com/why-crypto-collectibles-are-more-than-a-passing-craze/). It is easy to see the reason why, especially when you look at the potential of the crypto-collectible technology, including: **securing digital ownership, protecting intellectual property, tracking digital assets** and overall **creating real world value**.
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (33).png>)
 
 ## How to deploy a NFT token on TomoChain <a href="#aeea" id="aeea"></a>
 
@@ -82,8 +82,6 @@ We will now implement an NFT collectible token, like CryptoKitties but with simp
 You’ll learn **how to create non fungible tokens**, how to **write tests** for your smart contracts and **how to interact** with them once deployed.
 
 We’ll build non-fungible collectibles: [**gradient tokens**](https://github.com/satansdeer/gradient-token). Every token will be represented as a unique [CSS](https://en.wikipedia.org/wiki/Cascading\_Style\_Sheets) gradient and will look somewhat like this:
-
-
 
 ## 0. Prerequisites <a href="#46e0" id="46e0"></a>
 
@@ -114,7 +112,7 @@ npm install openzeppelin-solidity
 
 ## 2. Preparing your TOMO wallet <a href="#ef52" id="ef52"></a>
 
-[Create a TOMO wallet](../../general/how-to-connect-to-tomochain-network/tomowallet.md). Then grab a few tokens:
+[Create a TOMO wallet](../general/how-to-connect-to-tomochain-network/tomowallet.md). Then grab a few tokens:
 
 * `TomoChain (testnet)`: Get [free tokens from faucet](https://faucet.testnet.tomochain.com/) (grab \~60 TOMO)
 * `TomoChain (mainnet)`: You will need real TOMO from exchanges
@@ -214,7 +212,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). Here the migration settings can be edited: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, `ganache`, public `Ropsten (ETH)` testnet, `TomoChain (testnet)`, `TomoChain (Mainnet)`, etc…
 
-Both Testnet and Mainnet **network configurations** are described in [the official TomoChain documentation — Networks.](../working-with-tomochain/) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+Both Testnet and Mainnet **network configurations** are described in [the official TomoChain documentation — Networks.](../developer-guide/working-with-tomochain/) We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -318,7 +316,7 @@ ganache-cli -p 8545
 
 `Ganache` will start running, listening on port `8545`. Automatically you will have 10 available wallets with their private keys and `100 ETH` each. You can use them to test your smart contracts.
 
-![](<../../.gitbook/assets/image (4).png>)
+![](<../.gitbook/assets/image (4).png>)
 
 ## 5. Adding Tests <a href="#9c8f" id="9c8f"></a>
 
@@ -348,7 +346,7 @@ Run the test:
 truffle test
 ```
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (43).png>)
 
 The test should **pass**. This means that the smart contract **works correctly** and it did successfully what it was expected to do.
 
@@ -375,7 +373,7 @@ This test is simple. First we check that we can mint new tokens. We mint 3 token
 
 The test passed.
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../.gitbook/assets/image (45).png>)
 
 ## 6. Deploying <a href="#e1b9" id="e1b9"></a>
 
@@ -444,11 +442,11 @@ Read the output text on the screen. The NFT token [contract address](https://sca
 0x8B830F38b798B7b39808A059179f2c228209514C
 ```
 
-> **⚠️ Note:** TomoChain’s smart contract[ **creation fee**](../working-with-tomochain/)**:** gas price 10000 Gwei, gas limit >= 1000000
+> **⚠️ Note:** TomoChain’s smart contract[ **creation fee**](../developer-guide/working-with-tomochain/)**:** gas price 10000 Gwei, gas limit >= 1000000
 
 ### \*\*\* Troubleshooting \*\*\* <a href="#f097" id="f097"></a>
 
-* **Error: `smart contract creation cost is under allowance`**. **Why?**Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
+* **Error: `smart contract creation cost is under allowance`**. \*\*Why?\*\*Increasing transaction fees for smart contract creation is one of the ways TomoChain offers to defend against spamming attacks. **Solution:** edit `truffle.js` and add more gas/gasPrice to deploy.
 * **Error: `insufficient funds for gas * price + value`. Why?** You don’t have enough tokens in your wallet for gas fees. **Solution:** you need more funds in your wallet to deploy, go to [faucet](https://faucet.testnet.tomochain.com/) and get more tokens.
 
 ## **7. Interacting with the smart contract** <a href="#4ecf" id="4ecf"></a>
@@ -465,7 +463,7 @@ You can call this function [via MyEtherWallet/Metamask or Web3](https://medium.c
 
 Let’s use [MyEtherWallet](https://www.myetherwallet.com/interface/interact-with-contract) (MEW) to interact with the contract. We use [MetaMask](https://metamask.io/) to connect to the GradientToken **owner** **wallet** in TomoChain (testnet), then we will call function `mint()` to mint the first token.
 
-![](<../../.gitbook/assets/image (38) (1).png>)
+![](<../.gitbook/assets/image (38) (1).png>)
 
 In MyEtherWallet, under menu `Contract` > `Interact with Contract` two things are required:
 
@@ -474,11 +472,11 @@ In MyEtherWallet, under menu `Contract` > `Interact with Contract` two things ar
 
 On the right you will see a dropdown list with the functions. Select `mint`. MEW will show two fields: `outer` and `inner`. Input two colors, like `#ff0000`or `#0000ff` and click the button **Write**. Confirm with **MetaMask**.
 
-![](<../../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 Here is [our contract address](https://scan.testnet.tomochain.com/address/0x8B830F38b798B7b39808A059179f2c228209514C), and the new `mint` transaction:
 
-![](<../../.gitbook/assets/image-2-copy (2).png>)
+![](<../.gitbook/assets/image-2-copy (2).png>)
 
 You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! This way you can check if values are correct, totalSupply, transfer tokens...
 
@@ -486,9 +484,9 @@ You can use MEW to _**Write**_ and to _**Read**_ functions, like `getGradient`! 
 In `Ethereum (Ropsten)`, the Etherscan page with [our migrated contract](https://ropsten.etherscan.io/address/0x22fb8a49811d33d34be96c82b3937b252e78a8d5) will **change** after the first token is minted. A new link will be displayed now to track the ERC721 token `GRAD`.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8).png>)
 
-![](<../../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1).png>)
 
 ## What’s next? <a href="#2883" id="2883"></a>
 
@@ -499,7 +497,7 @@ A few suggestions to continue from here:
 * You can have some buttons to interact with the tokens (buy, sell, change, transfer, change attributes/colors, etc…)
 * You can iterate on this basic code and create a new **CryptoKitties** game :)
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 **Congratulations!** You have learned about non-fungible tokens, use-cases of NFTs and how to deploy NFT tokens on TomoChain.
 

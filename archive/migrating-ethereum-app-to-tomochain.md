@@ -5,7 +5,7 @@ description: >-
   TomoChain has over Ethereum.
 ---
 
-# Migrating Ethereum Dapp to TomoChain
+# Migrate Ethereum Dapp to TomoChain
 
 ## What’s a Dapp? <a href="#b85e" id="b85e"></a>
 
@@ -88,7 +88,7 @@ var HDWalletProvider = require("truffle-hdwallet-provider");var mnemonic = "YOUR
 };
 ```
 
-To deploy the same contract onto TomoChain, let’s change the configuration to connect to the [TomoChain network.](../working-with-tomochain/) Check [TomoChain Network document,](../working-with-tomochain/) we can find all configs of TomoChain networks easily. The configuration change basically tells Truffle to connects to TomoChain and deploy the contract on it instead of Ethereum.
+To deploy the same contract onto TomoChain, let’s change the configuration to connect to the [TomoChain network.](../developer-guide/working-with-tomochain/) Check [TomoChain Network document,](../developer-guide/working-with-tomochain/) we can find all configs of TomoChain networks easily. The configuration change basically tells Truffle to connects to TomoChain and deploy the contract on it instead of Ethereum.
 
 Finally, we have the updated truffle-config.js.
 
@@ -169,7 +169,7 @@ Let’s get some faucet TOMO from the [**faucet page**](https://faucet.testnet.t
 
 Connect MetaMask to TomoChain Testnet by following this [**guide**](https://github.com/tomochain/docs/blob/game\_tutorials/get-started/wallet).
 
-You can even play the game with [**TomoWallet**](../../general/how-to-connect-to-tomochain-network/tomowallet.md) through our built-in Dapp Browser, which provides the best user experience for gamers.
+You can even play the game with [**TomoWallet**](../general/how-to-connect-to-tomochain-network/tomowallet.md) through our built-in Dapp Browser, which provides the best user experience for gamers.
 
 And enjoy the game running on TomoChain and taste how fast and cheap transactions on TomoChain are.
 
@@ -181,4 +181,4 @@ Below is the **video** showing how fast TomoRPS is on TomoChain.
 
 It will not be too difficult and won’t take much time to migrate your Dapps from Ethereum to TomoChain. Along with that Dapps running on TomoChain has many advantages in speed and cost. So don’t hesitate to bring your Dapps to TomoChain where you can make your Dapps great again.
 
-[**Github**](https://github.com/tomochain/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md)&#x20;
+[**Github**](https://github.com/tomochain/docs/blob/game\_tutorials/docs/developers/migrate\_from\_ethereum.md)

@@ -138,7 +138,7 @@ Now, go ahead and open the Remix IDE from [remix.ethereum.org](https://remix.eth
 
 Next, create a new file by clicking on the button with the _+_ icon.
 
-![Create a new file](<../../../.gitbook/assets/Screenshot 2023-10-18 at 10.32.28 (1).jpeg>)
+![Create a new file](broken-reference)
 
 And then you must enter a name , then press Enter:
 
@@ -154,7 +154,7 @@ Next, let’s deploy the contract with our RemixVM. Switch to the _Deploy and_ _
 
 Next, click the _Deploy_ button below the contract name.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-10-18 at 11.40.41.jpeg" alt=""><figcaption><p>Deploy the contract</p></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption><p>Deploy the contract</p></figcaption></figure>
 
 Once the contract is deployed successfully on the Remix VM, a box will be opened on the bottom as below.
 

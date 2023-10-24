@@ -6,7 +6,7 @@ description: Creating a TRC20 Token Crowdsale with Truffle and OpenZeppelin
 
 This article will go through the process of **creating a basic ICO on TomoChain** using TRC20 tokens issued on TomoChain.
 
-![](<../../.gitbook/assets/image-2-copy (1).png>)
+![](<../.gitbook/assets/image-2-copy (1).png>)
 
 In this tutorial we will be covering:
 
@@ -87,7 +87,7 @@ Create a new TOMO wallet using **TomoWallet** mobile app for [iOS](https://itune
 
 Go to the _Settings_ menu, select _Backup wallet_ and then **Continue**. Here you can see your wallet’s private key and the 12-word recovery phrase. **Write down the 12-word recovery phrase.**
 
-You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](../../general/how-to-connect-to-tomochain-network/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
+You can also create a new [TomoChain wallet with MetaMask, MyEtherWallet or TrustWallet](../general/how-to-connect-to-tomochain-network/). For instance, for mainnet go to [MyEtherWallet](https://www.myetherwallet.com/) and select **TOMO (tomochain.com)** instead of Ethereum. Enter a password and then Create a new wallet. **Write down your recovery phrase.**
 
 For this tutorial, my wallet address (testnet) is:
 
@@ -121,7 +121,7 @@ To check the balance of a wallet address, use **TomoScan**.
 
 **Testnet:** [https://testnet.tomoscan.io/](https://testnet.tomoscan.io/)
 
-**Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)&#x20;
+**Mainnet:** [https://tomoscan.io/](https://tomoscan.io/)
 
 > **Note:** Create 2 different TOMO wallets, both with some tokens. The first wallet is to deploy the ICO smart contract or `deployment wallet`, the second one will be used to test it or `buyer wallet`.
 
@@ -209,7 +209,7 @@ We extended **AllowanceCrowdsale** so this contract will be able to access and s
 
 ### 4.1 Create the migration scripts <a href="#18e6" id="18e6"></a>
 
-In the **`migrations/`** directory, create a new file called**`2_deploy_contracts.js`**and add the following content:
+In the **`migrations/`** directory, create a new file called\*\*`2_deploy_contracts.js`\*\*and add the following content:
 
 ```
 const MyToken = artifacts.require("./MyToken.sol");
@@ -254,7 +254,7 @@ npm install truffle-hdwallet-provider
 
 2\. Open `truffle.js` file (`truffle-config.js` on Windows). You can edit here the migration settings: networks, chain IDs, gas... You have multiple networks to migrate your ICO, you can deploy: locally, to `ganache`, to public `Ropsten (ETH)` testnet, to `TomoChain (testnet)`, to `TomoChain (Mainnet)`, etc…
 
-[The official TomoChain documentation — Networks](../working-with-tomochain/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
+[The official TomoChain documentation — Networks](../developer-guide/working-with-tomochain/) is very handy. Both Testnet and Mainnet **network configurations** are described there. We need the `RPC endpoint`, the `Chain id` and the `HD derivation path`.
 
 Replace the `truffle.js` file with this new content:
 
@@ -511,7 +511,7 @@ Here are the results of our migrations:
 * Token: [0xd2e70e8386c9e3deca6583686a12f8da62b59969](https://testnet.tomoscan.io/address/0xd2e70e8386c9e3deca6583686a12f8da62b59969)
 * Crowdsale: [0xD102e777e893f30cb9630a32A9370ED6d575226B](https://scan.testnet.tomochain.com/address/0xD102e777e893f30cb9630a32A9370ED6d575226B)
 
-![](<../../.gitbook/assets/image-2-copy (3).png>)
+![](<../.gitbook/assets/image-2-copy (3).png>)
 
 **Congratulations!** You’ve deployed **your ICO smart contract and TRC20 token to TomoChain using Truffle and OpenZeppelin.** It’s time to interact now with our ICO smart contract to make sure it does what we want.
 
@@ -533,7 +533,7 @@ The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 5
 2. Once installed, you’ll see the MetaMask fox icon next to your address bar. Click the icon and MetaMask will open up.
 3. Create a New password. Then, write down the Secret Backup Phrase and accept the terms. By default, MetaMask will create a new Ethereum address for you.
 
-![](<../../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14).png>)
 
 4\. Now we’re connected to the Ethereum network,with a brand new wallet.
 
@@ -541,9 +541,9 @@ The conversion rate is `500`. So, if we send `20 TOMO` we should receive `20 * 5
 
 Let’s now connect MetaMask to `TomoChain (testnet)`.
 
-1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](../working-with-tomochain/) (testnet) and click **Save**.
+1\. Click the menu with the “Main Ethereum Network” and select **Custom RPC**. Use the [Networks data from TomoChain](../developer-guide/working-with-tomochain/) (testnet) and click **Save**.
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 2\. The network name at the top will switch to say “TomoChain testnet”. Now that we are on TomoChain network we can import TomoChain wallets.
 
@@ -551,7 +551,7 @@ Let’s now connect MetaMask to `TomoChain (testnet)`.
 
 3\. **Copy the private key of your `buyer wallet`**. Back to MetaMask, click on the top-right circle and select **Import Account.** Paste the private key and _voilà_! Your TOMO wallet is loaded in MetaMask.
 
-![](<../../.gitbook/assets/image (70).png>)
+![](<../.gitbook/assets/image (70).png>)
 
 ### 7.3 Buying ICO tokens (sending TOMO to the ICO address) <a href="#9432" id="9432"></a>
 
@@ -567,7 +567,7 @@ We will now buy some `MyToken (MYT)` from the ICO Crowdsale contract.
 
 3\. Paste the `Crowdsale address`. Set the amount `20 TOMO` you want to send. Select the **Transaction Fee** (gas, gas price) and click **Next**. After a few seconds your transaction will be confirmed as successful.
 
-![](<../../.gitbook/assets/image (9) (1).png>)
+![](<../.gitbook/assets/image (9) (1).png>)
 
 You can see the Crowdsale buy transaction. `20 TOMO` were sent, and the contract sent `10'000 MYT` back to the buyer wallet. [Here is the transaction](https://scan.testnet.tomochain.com/txs/0xc35a3d487ca0a87b85b6c113ae7776ab70eb8ee3310490c772dc68cf830191ec) of this tutorial on **TomoScan**.
 
@@ -576,13 +576,13 @@ Now you can visit the [Token Holders list](https://scan.testnet.tomochain.com/to
 * The ICO/team: has `15'990'000 MYT`
 * Our buyer wallet: has `10'000 MYT`
 
-![](<../../.gitbook/assets/image (68).png>)
+![](<../.gitbook/assets/image (68).png>)
 
 To see your new tokens on MetaMask, click the **Menu** icon on top left (below the Fox face). Click **Add Token**. Select **Custom Token**, paste the token address and hit **Next**.
 
 You will see your `MYT` tokens.
 
-![](<../../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (40).png>)
 
 **Congratulations!** The Crowdsale is working! We sent `20 TOMO` and we got back `10'000 MYT`.
 
@@ -601,4 +601,4 @@ You can and should customize these two smart contracts `MyToken` and `MyTokenCro
 **More here:** [**Learn about OpenZeppelin Crowdsales**](https://openzeppelin.org/api/docs/learn-about-crowdsales.html)**.**
 
 You may also want to set up an ICO website with all the information about the ICO dates, rates, cap, etc.\
-\
+\\

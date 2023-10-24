@@ -26,6 +26,6 @@ description: >-
 [integration](integration/)
 {% endcontent-ref %}
 
-{% content-ref url="tutorials/" %}
-[tutorials](tutorials/)
+{% content-ref url="../archive/" %}
+[archive](../archive/)
 {% endcontent-ref %}
