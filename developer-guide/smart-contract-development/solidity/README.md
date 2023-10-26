@@ -14,7 +14,11 @@ Solidity is statically typed, supports inheritance, libraries and complex user-d
 
 ### Solidity in TomoChain
 
-TomoChain support Solidity compiler up to version **0.8.17**, which targets `London` hardfork in Ethereum. However, due the fee mechanism in TomoChain, `BASEFEE` opcode is unused and not supported by the runtime.
+TomoChain support Solidity compiler version **<=0.8.17**, which targets `London` hardfork in Ethereum. However, due the fee mechanism in TomoChain, `BASEFEE` opcode is unused and not supported by the runtime.
+
+{% hint style="info" %}
+For Solidity compiler version >=0.8.18, you may still compile and deploy to TomoChain. However, use it at your own risk.
+{% endhint %}
 
 The table below describes all the opcodes that isn't available in TomoChain:
 

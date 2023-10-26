@@ -74,7 +74,7 @@ To install `@nomicfoundation/hardhat-toolbox`, run:
 npm install --save-dev @nomicfoundation/hardhat-toolbox
 ```
 
-### Loading environment variables
+### Load environment variables
 
 The above configuration also uses [dotenv](https://www.npmjs.com/package/dotenv) to load the `PRIVATE_KEY` environment variable from a `.env` file to `process.env.PRIVATE_KEY`. You should use a similar method to avoid hardcoding your private keys within your source code.
 
@@ -92,7 +92,7 @@ PRIVATE_KEY=<YOUR_PRIVATE_KEY>
 
 Substitute `<YOUR_PRIVATE_KEY>` with the private key for your wallet.
 
-### Compiling the smart contract[​](https://docs.base.org/guides/deploy-smart-contracts#compiling-the-smart-contract) <a href="#compiling-the-smart-contract" id="compiling-the-smart-contract"></a>
+### Compile the smart contract[​](https://docs.base.org/guides/deploy-smart-contracts#compiling-the-smart-contract) <a href="#compiling-the-smart-contract" id="compiling-the-smart-contract"></a>
 
 Below is a simple token contract (ERC20) written in the Solidity programming language:
 
@@ -130,7 +130,7 @@ To compile the contract using Hardhat, run:
 npx hardhat compile
 ```
 
-### Deploying the smart contract[​](https://docs.base.org/guides/deploy-smart-contracts#deploying-the-smart-contract) <a href="#deploying-the-smart-contract" id="deploying-the-smart-contract"></a>
+### Deploy the smart contract[​](https://docs.base.org/guides/deploy-smart-contracts#deploying-the-smart-contract) <a href="#deploying-the-smart-contract" id="deploying-the-smart-contract"></a>
 
 Once your contract has been successfully compiled, you can deploy the contract to the TomoChain networks.
 
@@ -169,3 +169,40 @@ npx hardhat run scripts/deploy.ts --network tomo-testnet
 ```
 
 The contract will be deployed on the TomoChain testnet. You can view the deployment status and contract by using [TomoScan](https://testnet.tomoscan.io/) and searching for the address returned by your deploy script. If you've deployed an exact copy of the token contract above, it will be verified, and you'll be able to read and write to the contract using the web interface.
+
+### Verify contract on TomoScan
+
+TomoScan now support contract verification via Hardhat API, you will need to change hardhat.config.ts with the following configuration:
+
+```typescript
+import { HardhatUserConfig } from "hardhat/config";
+import "@nomicfoundation/hardhat-toolbox";
+
+/** @type import('hardhat/config').HardhatUserConfig */
+const config: HardhatUserConfig = {
+  networks: {
+    tomochain: {
+      url: "https://rpc.tomochain.com", // for mainnet
+      accounts:  ['']
+    }
+  },
+
+  etherscan: {
+    apiKey: {
+      goerli: "",
+      tomochain: "tomoscan2023",
+    },
+    customChains: [
+      {
+        network: "tomochain",
+        chainId: 88, // for mainnet
+        urls: {
+          apiURL: "https://tomoscan.io/api/contract/hardhat/verify", // for mainnet
+          browserURL: "https://tomoscan.io", // for mainnet
+
+        }
+      }
+    ]
+  }
+};
+```
