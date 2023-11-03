@@ -9,9 +9,9 @@ description: >-
 
 Using create-tomochain-masternode and docker-compose offers you benefits like:
 
-* working "out of the box" docker-compose configuration
-* auto-restarting your node on failure
-* flexible configuration (storage, logging, ports)
+* Working "out of the box" docker-compose configuration
+* Auto-restarting your node on failure
+* Flexible configuration (storage, logging, ports)
 
 ### Prerequisites <a href="#prerequisites" id="prerequisites"></a>
 
