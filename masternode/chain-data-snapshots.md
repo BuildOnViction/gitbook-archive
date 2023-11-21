@@ -6,7 +6,7 @@ description: >-
 
 # Chain Data Snapshots
 
-Latest snapshot: [download](https://chaindata.tomochain.com/20190813.tar) \(91 GB, md5sum 0b23a48b0d6585690350e91b0f6c9f14\)
+Please find the latest snapshot here: [https://tomotools.com/](https://tomotools.com/)
 
 The following commands are step by step instructions for TomoChain Masternode operators that can be used for two major use-cases:
 
@@ -17,7 +17,7 @@ Basically, a compressed version of the last-known "good" chaindata is downloaded
 
 _Note: Ensure there is enough disk space for both the tar file AND its uncompressed contents. Double the space or more._
 
-```text
+```
 # Login as user that has access to tmn
 # Download Tomo's chaindata archive (make sure you have enough disk space available)
 wget -c https://chaindata.tomochain.com/20190813.tar -P /tmp
@@ -54,7 +54,6 @@ rm /tmp/20190813.tar
 
 In case you can not wait for the extraction finish, you can run it in the background
 
-```text
+```
 nohup tar xvC /var/lib/docker/volumes/NAME_OF_YOUR_VOLUME/_data/data/tomo/ -f 20190813.tar &
 ```
-
